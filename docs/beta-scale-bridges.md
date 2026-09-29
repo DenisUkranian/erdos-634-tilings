@@ -6,9 +6,9 @@ to the full literature is not established. It does not solve Erdős 634.
 
 **Later refinements.** The [scale-spectrum note](scale-spectra.md) proves
 nonemptiness for every primitive pair and treats both W and beta.
-The [eventual-family theorem](eventual-rational-families.md) further gives
-eventual divisor $d=1$ whenever $b(a^2+b^2)-a^2c>0$. The constructions
-below remain valid; the original scope statement is updated accordingly.
+The [universal two-annulus theorem](universal-rational-scales.md) further
+gives eventual divisor $d=1$ for every primitive pair, with an explicit
+bound and no sign restriction. The constructions below remain valid.
 
 ## Parameters
 
@@ -223,9 +223,9 @@ external novelty/peer-review claim is made.
 
 ## 6. Exact barrier to a full solution
 
-The subsequent results cited above establish that S is nonempty. Its
-general gcd d in the complementary parameter range and its finite
-exceptional scales remain undetermined.
+The subsequent results cited above establish that S is nonempty and
+its gcd is $d=1$ for every primitive pair. Its exact finite exceptional
+scales below the explicit universal bound remain undetermined in general.
 It also covers only rational base-beta pairs. A solution of all of
 Erdős634 must combine every target/tile family and eliminate or realize
 all remaining counts, including composites. Prime nonexistence alone

@@ -1,0 +1,157 @@
+{
+  "status": "PASS",
+  "primitive_parameter_pairs": 773,
+  "apex_shells": 773,
+  "base_shells": 773,
+  "macro_pair_checks": 6957,
+  "named": [
+    {
+      "u": 1,
+      "v": 2,
+      "tile": [
+        2,
+        3,
+        4
+      ],
+      "Hu": 7,
+      "Hv": 2,
+      "W_beta_conductor": 8,
+      "apex": {
+        "step": 1,
+        "T": 7,
+        "triangle_scales": [
+          2,
+          4,
+          3
+        ],
+        "parallelogram_sides": [
+          8,
+          12
+        ],
+        "strip_counts": [
+          0,
+          2
+        ],
+        "tile_count": 45,
+        "macro_pair_checks": 6
+      },
+      "base": {
+        "step": 2,
+        "T": 2,
+        "triangle_scales": [
+          2,
+          4
+        ],
+        "parallelogram_sides": [
+          8,
+          12
+        ],
+        "strip_counts": [
+          0,
+          2
+        ],
+        "tile_count": 36,
+        "macro_pair_checks": 3
+      }
+    },
+    {
+      "u": 2,
+      "v": 3,
+      "tile": [
+        6,
+        5,
+        9
+      ],
+      "Hu": 10,
+      "Hv": 5,
+      "W_beta_conductor": 14,
+      "apex": {
+        "step": 2,
+        "T": 10,
+        "triangle_scales": [
+          6,
+          9,
+          5
+        ],
+        "parallelogram_sides": [
+          39,
+          45
+        ],
+        "strip_counts": [
+          6,
+          1
+        ],
+        "tile_count": 220,
+        "macro_pair_checks": 6
+      },
+      "base": {
+        "step": 3,
+        "T": 5,
+        "triangle_scales": [
+          6,
+          9
+        ],
+        "parallelogram_sides": [
+          39,
+          45
+        ],
+        "strip_counts": [
+          6,
+          1
+        ],
+        "tile_count": 195,
+        "macro_pair_checks": 3
+      }
+    },
+    {
+      "u": 3,
+      "v": 4,
+      "tile": [
+        12,
+        7,
+        16
+      ],
+      "Hu": 14,
+      "Hv": 9,
+      "W_beta_conductor": 22,
+      "apex": {
+        "step": 3,
+        "T": 14,
+        "triangle_scales": [
+          12,
+          16,
+          7
+        ],
+        "parallelogram_sides": [
+          101,
+          112
+        ],
+        "strip_counts": [
+          3,
+          5
+        ],
+        "tile_count": 651,
+        "macro_pair_checks": 6
+      },
+      "base": {
+        "step": 4,
+        "T": 9,
+        "triangle_scales": [
+          12,
+          16
+        ],
+        "parallelogram_sides": [
+          108,
+          112
+        ],
+        "strip_counts": [
+          4,
+          5
+        ],
+        "tile_count": 616,
+        "macro_pair_checks": 3
+      }
+    }
+  ],
+  "scope": "Exact macroregions, shell nesting, triangle SSS, integral strip cells and count identities; not individual-tile replay."
+}

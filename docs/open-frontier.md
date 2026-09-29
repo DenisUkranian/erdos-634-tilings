@@ -24,56 +24,63 @@ $$
 
 The [two-piece proof](two-piece-construction.md) supplies both necessity and sufficiency. The 322 certificate is an explicit finite instance, independently replayed within the project. This result does not depend on the prime-case obstructions.
 
-## W and beta-isosceles scales
+## All five rational shapes at sufficiently large scales
 
-The [scale-spectrum theorem](scale-spectra.md) shows that, for each fixed primitive tile, each of these two nonempty scale sets eventually consists exactly of the multiples of a divisor $d\mid v$. It also provides an explicit sufficient threshold from any additional verified seed.
+The [universal annular theorem](universal-rational-scales.md) removes the earlier restriction on the sign of $\Delta=b(a^2+b^2)-a^2c$. For every primitive tile, each of the five rational target shapes admits **every sufficiently large arithmetically admissible scale**.
 
-The [new eventual-construction theorem](eventual-rational-families.md) now determines $d=1$ whenever $\Delta=b(a^2+b^2)-a^2c>0$. Outside that parameter range, the general value of $d$ is still undetermined. The least admissible scales and finite exceptions are not classified in general. A search finding more constructions does not by itself certify that no later construction lowers the gcd.
+The mechanism is geometric: two explicitly dissected annuli increase a theta scale by $u$ and by $v$. Since $\gcd(u,v)=1$, these increments fill all sufficiently large scales from one seed. Seed existence for theta follows from Beeson v4, Corollary 5; the transfers to the other shapes use actual constructed pieces.
 
-For the first tile $(2,3,4)$, the complete W and beta spectra, respectively $7t^2$ and $11t^2$ for $t\ge2$, are already present in Vico Bonfioli's work. They are credited inputs, not claimed discoveries here. In particular, $v\mid t$ is not a necessary condition.
-
-## The theta-isosceles branch
-
-For every primitive rational tile in the $3\alpha+2\beta=\pi$ family, the [theta note](theta-branch.md) now gives the stronger necessary form
+Set $Q=b+c$, $P=b+2c$, $F_0=(b-1)(c-1)$ and
 
 $$
-N=bT^2,\qquad T\in\mathbb Z_{>0},
+H_u=\left\lceil\frac{a^2+b^2+F_0}{ub}\right\rceil,\qquad
+H_v=\left\lceil\frac{a^2+F_0}{bv}\right\rceil.
 $$
 
-using two direction characters and parity. This applies even when $b$ is not squarefree. The independent boundary bound becomes
+Let
 
 $$
-b(T-1)\ge2v.
+C_{W,\beta}=v\left\lceil\frac{H_u}{v}\right\rceil+(u-1)(v-1).
 $$
 
-For tile $(2,3,4)$, the target has equal sides $6t$, base $3t$, and count $3t^2$. Scales 1, 2 and 3 are excluded. The 75-tile construction fills the last missing scale $t=5$; the supplied seeds and geometric addition realize every $t\ge4$. The exact spectrum **for this tile and shape** is therefore $N=3t^2$ for every integer $t\ge4$.
-
-The numbers 75, 147 and 243 were already globally admissible, being three times squares. The new 75 certificate specifically tiles $(30,30,15)$ with 75 copies of $(2,3,4)$; it is a result about the prescribed tile and target. It also gives a smaller counterexample to the integrality/divisibility assertion in Lemma 55 of Beeson, arXiv:1206.2229v4: $\mu=15/2$, $M=5$. See the note and the independent coordinate checks for the precise hypotheses.
-
-There is also an explicit eventual construction of $N=bT^2$ in the range $b(a^2+b^2)-a^2c>0$. Together with the stronger necessary form, this covers every sufficiently large arithmetically possible scale throughout that range, including nonsquarefree $b$. The complementary parameter range and finite exceptions are not classified here.
-
-## Eventual classification for all five rational shapes when $\Delta>0$
-
-Let $Q=b+c$, $P=b+2c$ and set
+For any actual theta seed scale $s$, set
 
 $$
-\Delta=b(a^2+b^2)-a^2c,\qquad F=(a-1)(b-1),\qquad
-B=\left\lceil\frac{(a^2c+F)(a^2+b^2)}{u\Delta}\right\rceil.
+C_\theta=s\left\lceil\frac{\max(H_u,H_v)}s\right\rceil+(u-1)(v-1).
 $$
-
-For $\Delta>0$, the [construction and transfer theorem](eventual-rational-families.md) supplies:
 
 | Target shape | Necessary count form | Guaranteed construction |
 |---|---|---|
-| $W=(2\alpha,\beta,\alpha+\beta)$ | $N=QT^2$ | Every integer $T\ge B$ |
-| $\beta$-isosceles | $N=PT^2$ | Every integer $T\ge B$ |
-| $\theta$-isosceles | $N=bT^2$ | Every integer $T\ge B$ |
-| $\alpha$-isosceles | $N=bQK^2$ | Every integer $K\ge\lceil B/v\rceil$ |
-| Other scalene $(2\alpha,\alpha,2\beta)$ | $N=QPK^2$ | Every integer $K\ge1$ |
+| W | $QT^2$ | Every integer $T\ge C_{W,\beta}$ |
+| Beta-isosceles | $PT^2$ | Every integer $T\ge C_{W,\beta}$ |
+| Theta-isosceles | $bT^2$ | Every integer $T\ge C_\theta$ |
+| Alpha-isosceles | $bQK^2$ | Every integer $K\ge\lceil C_\theta/v\rceil$ |
+| Other scalene | $QPK^2$ | Every integer $K\ge1$ |
 
-The sharper necessary count forms in the theta and alpha rows follow from two direction characters and parity for **every** primitive tile; only the displayed eventual existence bounds require $\Delta>0$. The other-scalene construction works for every primitive parameter pair without that restriction.
+The W/beta bound uses only parameters and Beeson's known scale-$v$ construction. The [explicit seed appendix](explicit-theta-seeds.md) supplies $s$ directly from the parameters for both signs of $\Delta$, so the theta/alpha bound is numerical as well. The necessary theta and alpha forms are valid for nonsquarefree $b$ as well.
 
-Thus this parameter range has only finitely many potentially unresolved scales per fixed tile, with an explicit bound. This is not a uniform finite list for all tiles, and it leaves the complementary range $\Delta<0$ and small exceptions unresolved in general. The proof transfers actual theta tilings to the other shapes; no unproved assumption that every hypothetical tiling has that decomposition is used.
+Consequently the earlier eventual divisors for W and beta are both $d=1$ for every primitive tile. The unresolved part is the least scales and their finite exceptions **for each fixed tile**. Primitive parameters remain unbounded, so this is not a finite global list of exceptions and not a solution of the unrestricted count problem.
+
+## Complete classification for the tile (2,3,4)
+
+For this tile, all triangular targets are now classified. The exact count set is
+
+$$
+\{t^2:t\ge1\}\cup
+\{7t^2,11t^2,21t^2:t\ge2\}\cup
+\{3t^2:t\ge4\}\cup
+\{77t^2:t\ge1\}.
+$$
+
+The [fixed-tile theorem](first-tile-classification.md) gives the corresponding targets and proof dependencies. The W/beta spectra are credited to Bonfioli. The 75-tile theta construction supplies the formerly missing scale 5. The separately checked alpha21 obstruction, together with the theta-to-alpha construction, gives exactly $21t^2$ for $t\ge2$.
+
+The 75-tile example also contradicts the integrality assertion in Beeson v4, Lemma 55: $\mu=15/2$, $M=5$. That lemma is not used by the prime candidate or these constructions. The count 75 was already globally admissible; the result concerns the specified tile and target.
+
+## Global exclusion of 21
+
+The [exhaustive arithmetic and source-based reduction](n21-global-reduction.md) shows that any 21-tiling must use tile $(2,3,4)$ in target $(12,12,21)$. The [391-state certificate](alpha-21-obstruction.md), independently replayed as 437 expanded states, excludes that instance. This proves global nonexistence at 21 under the stated published classification inputs, without the prime-case geometric candidates.
+
+Bonfioli and Harries had already reported the exclusion. This is an independent compact proof and replay, with no priority claim. It settles one count and completes the fixed-tile table, but does not settle all composite counts.
 
 ## The remaining N=105 investigation
 
@@ -86,6 +93,13 @@ now proves that neither of these two particular collars extends: all four
 possible first tiles at one convex inner corner overlap already placed tiles.
 Both complete one-node refutations have separate exact replays. This rejects
 two fixed configurations, not either tile globally and not the count 105.
+
+A [different 45-tile collar](n105-local-fan-frontier.md) for $(5,21,19)$
+has a separately admissible complete tile fan at each of its 18 convex
+inner corners. Exact witness replay establishes each fan individually;
+it does not establish compatibility between fans at different corners.
+Thus this local full-fan test does not by itself eliminate the candidate.
+The remaining interior still has area equal to 60 tiles.
 
 For the 120-degree scalene candidate with tile $(8,7,13)$ and target $(105,56,91)$, a particular macro-decomposition leaves an equilateral 56-tile remainder after a 49-tile corner block. The corner block has not been proved compulsory in every tiling. Therefore this decomposition is not an exclusion proof.
 

@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "scope": "finite arithmetic only; external shape classification and exact flux arguments are mathematical inputs; final alpha21 geometry is separate",
+  "equilateral_60": [
+    {
+      "s": 1,
+      "t": 63,
+      "value": 3760,
+      "square": false,
+      "lower_root": 61
+    },
+    {
+      "s": 3,
+      "t": 21,
+      "value": 240,
+      "square": false,
+      "lower_root": 15
+    },
+    {
+      "s": 7,
+      "t": 9,
+      "value": -80,
+      "square": false,
+      "lower_root": null
+    }
+  ],
+  "equilateral_120": [
+    {
+      "s": 1,
+      "t": 63,
+      "value": 4180,
+      "square": false,
+      "lower_root": 64
+    },
+    {
+      "s": 3,
+      "t": 21,
+      "value": 660,
+      "square": false,
+      "lower_root": 25
+    },
+    {
+      "s": 7,
+      "t": 9,
+      "value": 340,
+      "square": false,
+      "lower_root": 18
+    }
+  ],
+  "isosceles_120_candidates_with_square_k": [
+    {
+      "a": 1,
+      "b": 3,
+      "k": 3,
+      "value": 13,
+      "square": false,
+      "lower_root": 3
+    },
+    {
+      "a": 19,
+      "b": 1,
+      "k": 1,
+      "value": 381,
+      "square": false,
+      "lower_root": 19
+    },
+    {
+      "a": 13,
+      "b": 4,
+      "k": 2,
+      "value": 237,
+      "square": false,
+      "lower_root": 15
+    },
+    {
+      "a": 3,
+      "b": 9,
+      "k": 3,
+      "value": 117,
+      "square": false,
+      "lower_root": 10
+    }
+  ],
+  "F1_120_structural_candidates": [
+    {
+      "a": 5,
+      "b": 16,
+      "c": 19,
+      "k": 4,
+      "flux_numerator": 28,
+      "flux_denominator": 8
+    }
+  ],
+  "primitive_120_triples_with_a_plus_b_at_most_7": [],
+  "beta_parameter_checks": [
+    [
+      1,
+      2,
+      11
+    ],
+    [
+      1,
+      3,
+      26
+    ],
+    [
+      2,
+      3,
+      23
+    ]
+  ],
+  "unique_remaining_instance": [
+    {
+      "u": 1,
+      "v": 2,
+      "tile": [
+        2,
+        3,
+        4
+      ],
+      "target": [
+        12,
+        12,
+        21
+      ]
+    }
+  ]
+}

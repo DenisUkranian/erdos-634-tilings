@@ -8,7 +8,7 @@
 
 [Русское описание](README.ru.md) · [Claim ledger](STATUS.md) · [Reproduce](REPRODUCIBILITY.md) · [Citation](CITATION.cff)
 
-This repository presents a candidate classification of **all prime tile counts**, together with an explicit **322-tile construction** and the complete count spectrum for one rational target family. The full classification requested in [Erdős problem 634](https://www.erdosproblems.com/634) remains unresolved in this work.
+This repository presents a candidate classification of **all prime tile counts**, an eventual construction theorem for **all five rational target shapes in the $3\alpha+2\beta=\pi$ family**, and a complete classification for the fixed tile **$(2,3,4)$**. It also supplies an explicit **322-tile construction** and a separately replayed global exclusion of **21**. The full classification requested in [Erdős problem 634](https://www.erdosproblems.com/634) remains unresolved in this work.
 
 ## Main candidate: all prime counts
 
@@ -99,10 +99,9 @@ Use normal Python execution, without `-O` or `-OO`. See [REPRODUCIBILITY.md](REP
 
 | Result | Scope |
 |---|---|
-| [Structure of scale spectra](docs/scale-spectra.md) | For each primitive tile, the nonempty scale sets for $W$ and the $\beta$-isosceles shape eventually consist exactly of the multiples of an integer $d$ dividing $v$. The new construction proves $d=1$ whenever $\Delta=b(a^2+b^2)-a^2c>0$. The complementary range and exceptional small scales remain open in general. |
-| [All five rational shapes for $\Delta>0$](docs/eventual-rational-families.md) | Explicit constructions realize every sufficiently large arithmetically admissible scale in each of the five target shapes, with a stated bound. The necessary forms $N=bT^2$ for the $\theta$ shape and $N=b(b+c)K^2$ for the $\alpha$ shape hold for every primitive tile, without the $\Delta>0$ restriction. |
-| [First-tile scale spectra](docs/scale-spectra.md) | For tile $(2,3,4)$, the counts $7t^2$ in $W$ and $11t^2$ in the $\beta$-isosceles shape occur exactly for $t\ge2$. This is a known spectrum credited to Bonfioli, not a novelty claim of this repository. |
-| [The $\theta=\alpha+\beta$ isosceles branch](docs/theta-branch.md) | For tile $(2,3,4)$, the exact spectrum is **$N=3t^2$ for every integer $t\ge4$**. The new 75-tile certificate resolves the final scale $t=5$. For every primitive rational tile in the $3\alpha+2\beta=\pi$ family, two direction characters give the stronger necessary form $N=bT^2$, with $T$ integral. |
+| [All five rational shapes, for every primitive tile](docs/universal-rational-scales.md) | Two exact annular dissections add the coprime increments $u$ and $v$. Every sufficiently large admissible scale is realizable, with **no restriction on the sign of $\Delta$**. All five bounds are explicit in the tile parameters; the [seed appendix](docs/explicit-theta-seeds.md) covers both signs of $\Delta$. Small scales remain unclassified in general. |
+| [Complete classification for tile $(2,3,4)$](docs/first-tile-classification.md) | All triangular targets are covered: square counts; $7t^2,11t^2,21t^2$ for $t\ge2$; $3t^2$ for $t\ge4$; and $77t^2$ for $t\ge1$. Known W/beta spectra are credited to Bonfioli. |
+| [Global exclusion of 21](docs/n21-global-reduction.md) | Every classified branch reduces to one instance, excluded by a 391-state certificate with a separate exact replay. This independently reproduces an exclusion previously reported by Bonfioli and Harries; no priority claim. |
 | [The remaining $N=105$ cases](docs/open-frontier.md#the-remaining-n105-investigation) | Exact partial boundary collars for tiles $(5,21,19)$ and $(7,15,13)$ cover the outer boundary. A [four-placement obstruction](docs/n105-fixed-collar-obstructions.md) proves that these two fixed collars cannot extend. Other collars and the global count 105 remain unresolved. |
 
 The 75-, 147- and 243-tile theta constructions passed separate exact intersection and boundary checks. The smallest example also contradicts the stated integrality conclusion of Lemma 55 in Beeson v4: its scale parameter is $\mu=15/2$ and coloring number is $M=5$. The prime-case candidate does not use that lemma. See the [theta note](docs/theta-branch.md) for the source comparison and the [open frontier](docs/open-frontier.md) for the remaining general composite-count problem.
@@ -114,6 +113,8 @@ The count 75 was already globally admissible. The new construction specifically 
 | Purpose | Start here |
 |---|---|
 | Assess the proposed result for all primes | [Complete candidate manuscript](paper/prime-case-candidate.pdf) and [dependency note](docs/prime-case-dependencies.md) |
+| Read the universal coprime-increment construction | [Two annuli and the eventual theorem](docs/universal-rational-scales.md) |
+| Read the complete fixed-tile answer | [All targets for $(2,3,4)$](docs/first-tile-classification.md) |
 | Check the elementary construction | [Two-page construction note](paper/two-piece-construction.pdf) |
 | Reproduce the exact finite evidence | [Reproducibility](REPRODUCIBILITY.md) |
 | Find the remaining mathematical work | [Open frontier](docs/open-frontier.md) |

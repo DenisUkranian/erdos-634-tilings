@@ -5,10 +5,10 @@ structural theorem and checks two complete fixed-tile spectra. It does not
 classify all instances of Erdős problem 634. No priority or external-review
 claim is made.
 
-**Later refinement in this snapshot.** The [eventual rational-family
-construction](eventual-rational-families.md) proves that both divisors
-are $d=1$ whenever $b(a^2+b^2)-a^2c>0$, with an explicit threshold.
-The structural theorem below applies also in the complementary range.
+**Later refinement in this snapshot.** The [universal two-annulus
+construction](universal-rational-scales.md) proves that both divisors
+are $d=1$ for every primitive pair, with an explicit threshold.
+It removes the sign restriction in the earlier eventual-family theorem.
 
 ## 1. Statements and attribution
 
@@ -205,15 +205,12 @@ If `n>=ur(v/d0-1)+d0`, then
 The left side is a positive multiple of v, so it is at least v. Therefore
 `n=v+j ur+A v` with A nonnegative, proving the displayed bound.
 
-This theorem has an exact computational limitation. Verified seeds give
-an explicit sufficient conductor for multiples of their gcd; they do
-not show that an unobserved future seed cannot lower that gcd. When a
-seed r coprime to v is known, d=1 is certified and every scale beyond
-the displayed bound is settled. Otherwise the actual d and the least
-members m_j remain unknown. Merely enumerating more scales does not
-give a terminating algorithm to certify d or all omitted residue
-classes. No effective uniform bound for all exceptional scales has
-been proved here.
+The bridge-only argument has a computational limitation: verified seeds
+alone do not show that a future seed cannot lower their gcd. The
+[two-annulus theorem](universal-rational-scales.md) now resolves this
+limitation geometrically: $d=1$ for every primitive pair, with the explicit
+conductor $v\lceil H_u/v\rceil+(u-1)(v-1)$. The least members $m_j$ and
+the exact exceptional scales below that bound remain unknown in general.
 
 ## 5. Complete spectra for tile (2,3,4)
 

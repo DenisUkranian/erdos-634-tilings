@@ -1,0 +1,23 @@
+{
+  "collar_pair_tests": 990,
+  "collar_sha256": "8a58a8bbb6a4b69d8372c87ade860cda43c7b311dd7e54d2c9a14e2fd4718792",
+  "complete_tiling": false,
+  "convex_sectors_checked": 18,
+  "fan_clipping_pair_tests": 1362,
+  "fan_witness_sha256": "da9f2fa54f0196f9862c89437244f947f6b51ccb13438d3b0a51514990da1aec",
+  "fans_asserted_jointly_compatible": false,
+  "global_N105_decided": false,
+  "local_fan_tiles_checked": 30,
+  "minimum_oblique_boundary_margin": "25/19",
+  "placed_tiles": 45,
+  "residual_boundary_vertices": 36,
+  "residual_tile_area": 60,
+  "search_imported": false,
+  "target_side": 105,
+  "tile": [
+    5,
+    21,
+    19
+  ],
+  "verdict": "PASS_INDIVIDUAL_FULL_FANS_ONLY"
+}

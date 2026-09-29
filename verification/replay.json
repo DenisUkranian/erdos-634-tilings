@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "manifest_files": 86,
+  "manifest_files": 113,
   "construction_certificates": [
     {
       "u": 1,
@@ -315,6 +315,29 @@
         "global_N105_decided": false
       }
     ]
+  },
+  "n105_individual_full_fans": {
+    "collar_pair_tests": 990,
+    "collar_sha256": "8a58a8bbb6a4b69d8372c87ade860cda43c7b311dd7e54d2c9a14e2fd4718792",
+    "complete_tiling": false,
+    "convex_sectors_checked": 18,
+    "fan_clipping_pair_tests": 1362,
+    "fan_witness_sha256": "da9f2fa54f0196f9862c89437244f947f6b51ccb13438d3b0a51514990da1aec",
+    "fans_asserted_jointly_compatible": false,
+    "global_N105_decided": false,
+    "local_fan_tiles_checked": 30,
+    "minimum_oblique_boundary_margin": "25/19",
+    "placed_tiles": 45,
+    "residual_boundary_vertices": 36,
+    "residual_tile_area": 60,
+    "search_imported": false,
+    "target_side": 105,
+    "tile": [
+      5,
+      21,
+      19
+    ],
+    "verdict": "PASS_INDIVIDUAL_FULL_FANS_ONLY"
   },
   "n105_invariant_checks": {
     "N105_120": [
@@ -650,6 +673,491 @@
     "transfer_parameter_pairs": 199,
     "status": "PASS",
     "scope": "Exact macroregions and integral grid counts; not individual-tile replay."
+  },
+  "universal_annulus_macro_checks": {
+    "status": "PASS",
+    "primitive_parameter_pairs": 773,
+    "apex_shells": 773,
+    "base_shells": 773,
+    "macro_pair_checks": 6957,
+    "named": [
+      {
+        "u": 1,
+        "v": 2,
+        "tile": [
+          2,
+          3,
+          4
+        ],
+        "Hu": 7,
+        "Hv": 2,
+        "W_beta_conductor": 8,
+        "apex": {
+          "step": 1,
+          "T": 7,
+          "triangle_scales": [
+            2,
+            4,
+            3
+          ],
+          "parallelogram_sides": [
+            8,
+            12
+          ],
+          "strip_counts": [
+            0,
+            2
+          ],
+          "tile_count": 45,
+          "macro_pair_checks": 6
+        },
+        "base": {
+          "step": 2,
+          "T": 2,
+          "triangle_scales": [
+            2,
+            4
+          ],
+          "parallelogram_sides": [
+            8,
+            12
+          ],
+          "strip_counts": [
+            0,
+            2
+          ],
+          "tile_count": 36,
+          "macro_pair_checks": 3
+        }
+      },
+      {
+        "u": 2,
+        "v": 3,
+        "tile": [
+          6,
+          5,
+          9
+        ],
+        "Hu": 10,
+        "Hv": 5,
+        "W_beta_conductor": 14,
+        "apex": {
+          "step": 2,
+          "T": 10,
+          "triangle_scales": [
+            6,
+            9,
+            5
+          ],
+          "parallelogram_sides": [
+            39,
+            45
+          ],
+          "strip_counts": [
+            6,
+            1
+          ],
+          "tile_count": 220,
+          "macro_pair_checks": 6
+        },
+        "base": {
+          "step": 3,
+          "T": 5,
+          "triangle_scales": [
+            6,
+            9
+          ],
+          "parallelogram_sides": [
+            39,
+            45
+          ],
+          "strip_counts": [
+            6,
+            1
+          ],
+          "tile_count": 195,
+          "macro_pair_checks": 3
+        }
+      },
+      {
+        "u": 3,
+        "v": 4,
+        "tile": [
+          12,
+          7,
+          16
+        ],
+        "Hu": 14,
+        "Hv": 9,
+        "W_beta_conductor": 22,
+        "apex": {
+          "step": 3,
+          "T": 14,
+          "triangle_scales": [
+            12,
+            16,
+            7
+          ],
+          "parallelogram_sides": [
+            101,
+            112
+          ],
+          "strip_counts": [
+            3,
+            5
+          ],
+          "tile_count": 651,
+          "macro_pair_checks": 6
+        },
+        "base": {
+          "step": 4,
+          "T": 9,
+          "triangle_scales": [
+            12,
+            16
+          ],
+          "parallelogram_sides": [
+            108,
+            112
+          ],
+          "strip_counts": [
+            4,
+            5
+          ],
+          "tile_count": 616,
+          "macro_pair_checks": 3
+        }
+      }
+    ],
+    "scope": "Exact macroregions, shell nesting, triangle SSS, integral strip cells and count identities; not individual-tile replay."
+  },
+  "explicit_theta_seed_checks": {
+    "arithmetic": "Fraction exact",
+    "effective_bound_examples": [
+      {
+        "H_u": 7,
+        "H_v": 2,
+        "W_beta_threshold": 8,
+        "alpha_threshold": 6,
+        "delta": 23,
+        "other_scalene_threshold": 1,
+        "theta_seed": 11,
+        "theta_threshold": 11,
+        "u": 1,
+        "v": 2
+      },
+      {
+        "H_u": 17,
+        "H_v": 3,
+        "W_beta_threshold": 18,
+        "alpha_threshold": 5,
+        "delta": 503,
+        "other_scalene_threshold": 1,
+        "theta_seed": 14,
+        "theta_threshold": 14,
+        "u": 1,
+        "v": 3
+      },
+      {
+        "H_u": 10,
+        "H_v": 5,
+        "W_beta_threshold": 14,
+        "alpha_threshold": 367,
+        "delta": -19,
+        "other_scalene_threshold": 1,
+        "theta_seed": 1098,
+        "theta_threshold": 1100,
+        "u": 2,
+        "v": 3
+      },
+      {
+        "H_u": 14,
+        "H_v": 9,
+        "W_beta_threshold": 22,
+        "alpha_threshold": 4634,
+        "delta": -953,
+        "other_scalene_threshold": 1,
+        "theta_seed": 18528,
+        "theta_threshold": 18534,
+        "u": 3,
+        "v": 4
+      },
+      {
+        "H_u": 60,
+        "H_v": 53,
+        "W_beta_threshold": 132,
+        "alpha_threshold": 58634738,
+        "delta": -649241,
+        "other_scalene_threshold": 1,
+        "theta_seed": 586347300,
+        "theta_threshold": 586347372,
+        "u": 9,
+        "v": 10
+      },
+      {
+        "H_u": 334,
+        "H_v": 319,
+        "W_beta_threshold": 902,
+        "alpha_threshold": 353123534423,
+        "delta": -207242351,
+        "other_scalene_threshold": 1,
+        "theta_seed": 8828088360000,
+        "theta_threshold": 8828088360552,
+        "u": 24,
+        "v": 25
+      }
+    ],
+    "max_red_strips": 1624,
+    "max_v": 25,
+    "negative_delta_cases": 67,
+    "negative_delta_examples": [
+      {
+        "a": 6,
+        "b": 5,
+        "c": 9,
+        "delta": -19,
+        "five_scales": [
+          1350,
+          900,
+          1080,
+          750,
+          1125
+        ],
+        "red_min_width": 9441,
+        "red_triangle_scales": [
+          114,
+          171
+        ],
+        "seed_T": 1098,
+        "strips": 1,
+        "tile_count": 6028020,
+        "u": 2,
+        "v": 3
+      },
+      {
+        "a": 12,
+        "b": 7,
+        "c": 16,
+        "delta": -953,
+        "five_scales": [
+          18816,
+          14112,
+          24192,
+          8232,
+          10976
+        ],
+        "red_min_width": 38384,
+        "red_triangle_scales": [
+          11436,
+          15248
+        ],
+        "seed_T": 18528,
+        "strips": 2,
+        "tile_count": 2403007488,
+        "u": 3,
+        "v": 4
+      },
+      {
+        "a": 90,
+        "b": 19,
+        "c": 100,
+        "delta": -649241,
+        "five_scales": [
+          250173000,
+          225155700,
+          1066527000,
+          47532870,
+          52814300
+        ],
+        "red_min_width": 22577900,
+        "red_triangle_scales": [
+          58431690,
+          64924100
+        ],
+        "seed_T": 586347300,
+        "strips": 77,
+        "tile_count": 6532259968128510000,
+        "u": 9,
+        "v": 10
+      },
+      {
+        "a": 600,
+        "b": 49,
+        "c": 625,
+        "delta": -207242351,
+        "five_scales": [
+          1462209000000,
+          1403720640000,
+          17188416000000,
+          114637185600,
+          119413735000
+        ],
+        "red_min_width": 26338015000,
+        "red_triangle_scales": [
+          124345410600,
+          129526469375
+        ],
+        "seed_T": 8828088360000,
+        "strips": 1624,
+        "tile_count": 3818822060506406990400000000,
+        "u": 24,
+        "v": 25
+      }
+    ],
+    "positive_delta_cases": 132,
+    "scope": {
+      "bounds": "Both annulus thresholds and explicit sufficient bounds for all five target families.",
+      "negative_delta": "Five triangle side lengths, containment, all main-region pairwise intersections, red-strip partitions, grid dimensions and total tile count.",
+      "not_checked": "Individual tiles inside the quadratic and parallelogram macroblocks are not expanded.",
+      "positive_delta": "Explicit seed bound and its integer interval; geometry is checked separately by check_eventual_families.py."
+    },
+    "status": "PASS",
+    "total_parameter_pairs": 199
+  },
+  "n21_arithmetic_reduction": {
+    "status": "PASS",
+    "scope": "finite arithmetic only; external shape classification and exact flux arguments are mathematical inputs; final alpha21 geometry is separate",
+    "equilateral_60": [
+      {
+        "s": 1,
+        "t": 63,
+        "value": 3760,
+        "square": false,
+        "lower_root": 61
+      },
+      {
+        "s": 3,
+        "t": 21,
+        "value": 240,
+        "square": false,
+        "lower_root": 15
+      },
+      {
+        "s": 7,
+        "t": 9,
+        "value": -80,
+        "square": false,
+        "lower_root": null
+      }
+    ],
+    "equilateral_120": [
+      {
+        "s": 1,
+        "t": 63,
+        "value": 4180,
+        "square": false,
+        "lower_root": 64
+      },
+      {
+        "s": 3,
+        "t": 21,
+        "value": 660,
+        "square": false,
+        "lower_root": 25
+      },
+      {
+        "s": 7,
+        "t": 9,
+        "value": 340,
+        "square": false,
+        "lower_root": 18
+      }
+    ],
+    "isosceles_120_candidates_with_square_k": [
+      {
+        "a": 1,
+        "b": 3,
+        "k": 3,
+        "value": 13,
+        "square": false,
+        "lower_root": 3
+      },
+      {
+        "a": 19,
+        "b": 1,
+        "k": 1,
+        "value": 381,
+        "square": false,
+        "lower_root": 19
+      },
+      {
+        "a": 13,
+        "b": 4,
+        "k": 2,
+        "value": 237,
+        "square": false,
+        "lower_root": 15
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "k": 3,
+        "value": 117,
+        "square": false,
+        "lower_root": 10
+      }
+    ],
+    "F1_120_structural_candidates": [
+      {
+        "a": 5,
+        "b": 16,
+        "c": 19,
+        "k": 4,
+        "flux_numerator": 28,
+        "flux_denominator": 8
+      }
+    ],
+    "primitive_120_triples_with_a_plus_b_at_most_7": [],
+    "beta_parameter_checks": [
+      [
+        1,
+        2,
+        11
+      ],
+      [
+        1,
+        3,
+        26
+      ],
+      [
+        2,
+        3,
+        23
+      ]
+    ],
+    "unique_remaining_instance": [
+      {
+        "u": 1,
+        "v": 2,
+        "tile": [
+          2,
+          3,
+          4
+        ],
+        "target": [
+          12,
+          12,
+          21
+        ]
+      }
+    ]
+  },
+  "alpha21_exact_refutation": {
+    "result": "PASS",
+    "certificate_sha256": "68c4b0edd0eaeb2c99818d41522d40ef6e7062a2f800c0cc3fd78f7a1bbed74c",
+    "certificate_nodes": 391,
+    "all_nodes_reachable": true,
+    "expanded_nodes_without_memoization": 437,
+    "expanded_dead_ends": 158,
+    "maximum_depth": 18,
+    "angle_fans": 17,
+    "methods": {
+      "corner": "exact local tangent cones; no residual-boundary subtraction",
+      "overlap": "exact rational convex polygon clipping",
+      "angle_inventory": "bounded integer-triple enumeration",
+      "memoization": "not trusted; every incoming placement history rechecked"
+    },
+    "scope": "No tiling of sides (12,12,21) by 21 congruent (2,3,4) triangles, allowing reflections and arbitrary T-junctions. Does not assert global impossibility for N=21."
   },
   "rejection_cases": 9,
   "positive_controls": 1,

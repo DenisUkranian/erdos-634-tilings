@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "certificate_sha256": "68c4b0edd0eaeb2c99818d41522d40ef6e7062a2f800c0cc3fd78f7a1bbed74c",
+  "certificate_nodes": 391,
+  "all_nodes_reachable": true,
+  "expanded_nodes_without_memoization": 437,
+  "expanded_dead_ends": 158,
+  "maximum_depth": 18,
+  "angle_fans": 17,
+  "methods": {
+    "corner": "exact local tangent cones; no residual-boundary subtraction",
+    "overlap": "exact rational convex polygon clipping",
+    "angle_inventory": "bounded integer-triple enumeration",
+    "memoization": "not trusted; every incoming placement history rechecked"
+  },
+  "scope": "No tiling of sides (12,12,21) by 21 congruent (2,3,4) triangles, allowing reflections and arbitrary T-junctions. Does not assert global impossibility for N=21."
+}

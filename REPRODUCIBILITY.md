@@ -1,6 +1,6 @@
 # Reproducing the exact certificates
 
-The reproduction code checks the finite coordinate constructions in this repository. It does **not** mechanically prove the universal prime-case candidate, the all-parameter construction theorem, or the full classification in Erdős problem 634.
+The reproduction code checks the finite coordinate constructions, arithmetic reductions and nonexistence certificates in this repository. It does **not** mechanically prove the universal prime-case candidate, the all-parameter construction theorem, or the full classification in Erdős problem 634.
 
 ## Requirements
 
@@ -34,7 +34,12 @@ The complete finite replay covers:
 | Separate odd-theta replay | [`scripts/verify_theta_odd.py`](scripts/verify_theta_odd.py) checks all 2,775 pairs for 75 tiles, all 10,731 pairs for 147 tiles and all 29,403 pairs for 243 tiles, plus containment, total area and subdivided boundary cancellation |
 | $N=105$ boundary collars | [`scripts/verify_n105_collars.py`](scripts/verify_n105_collars.py) checks 45-tile and 57-tile **partial placements**, including all 990 and 1,596 tile pairs; it does not establish a complete 105-tiling |
 | Two fixed-collar obstructions | [`scripts/verify_n105_collar_refutations.py`](scripts/verify_n105_collar_refutations.py) reconstructs a blocked inner corner in each named collar and excludes all four possible first tiles; this proves only that these two fixed partial placements cannot extend |
+| A different collar with local full fans | [`scripts/verify_n105_local_fans.py`](scripts/verify_n105_local_fans.py) checks a 45-tile collar and a separately admissible complete fan at each of its 18 convex residual corners. The fans are not asserted jointly compatible; this is not a complete 105-tiling |
 | Eventual constructions and transfers | [`scripts/check_eventual_families.py`](scripts/check_eventual_families.py) checks exact **macroregions and integer subdivision counts** over 132 admissible parameter pairs and transfers over 199 parameter pairs; these are not individual-tile replays of the large constructions |
+| Universal annular dissections | [`scripts/check_universal_annuli.py`](scripts/check_universal_annuli.py) checks both exact shells, nesting, triangle congruence, integer strip counts and area identities for the parameter pairs recorded in [`verification/universal-annuli.json`](verification/universal-annuli.json); these are macroregion checks, not individual-tile replays |
+| Explicit theta seeds | [`scripts/check_explicit_theta_seed.py`](scripts/check_explicit_theta_seed.py) checks 67 negative-Delta macroregion constructions and 132 positive-Delta integer intervals; the [report](verification/explicit-theta-seeds.json) also checks the stated sufficient bounds for all five families |
+| Alpha21 nonexistence certificate | [`scripts/verify_alpha21.py`](scripts/verify_alpha21.py) independently reconstructs all branches of the 391-node certificate, expanding repeated references: 437 states, 158 dead ends, maximum depth 18; exact tangent cones and polygon intersections |
+| Global21 arithmetic reduction | [`scripts/check_n21_reduction.py`](scripts/check_n21_reduction.py) exhausts the finite factor and side lists supplied by the published shape classification; only the alpha21 instance survives, and the separate certificate excludes it |
 | Verifier rejection tests | Ten cases: one valid input and nine invalid inputs |
 
 The payload checksum list is in [`verification/manifest.json`](verification/manifest.json).
@@ -58,6 +63,26 @@ python3 scripts/check_eventual_families.py
 ```
 
 Its output, also recorded in [`verification/eventual-family-checks.json`](verification/eventual-family-checks.json), reports a sweep over 132 admissible primitive parameter pairs and 199 parameter pairs for the transfers between shapes. The complete runner includes these results in its replay report. The checker verifies exact macroregion geometry and integer subdivision counts, including examples with nonsquarefree $b$. It does not expand every large example into individual tiles or substitute for the all-parameter proof in [`docs/eventual-rational-families.md`](docs/eventual-rational-families.md).
+
+## Universal annuli and the 21-tile refutation
+
+```bash
+python3 scripts/check_universal_annuli.py
+python3 scripts/check_explicit_theta_seed.py
+python3 scripts/check_n21_reduction.py
+python3 scripts/verify_alpha21.py
+```
+
+The first command checks exact macroregions for the two annular dissections. The universal conclusion uses the written proof and the coprimality of $u,v$, not a bounded parameter sweep. See [the general theorem](docs/universal-rational-scales.md).
+
+The last command is a complete finite refutation for tile $(2,3,4)$ in target $(12,12,21)$. Its local convex-corner branching theorem explains why arbitrary rotations, reflections and T-junctions are covered. The checker is separate from the search: it uses exact local tangent cones and polygon clipping and expands all repeated-state references. The [global reduction](docs/n21-global-reduction.md) supplies the outside classification and arithmetic needed to conclude global nonexistence at 21; the replay does not formally verify those published classification theorems.
+
+The deterministic certificate is [alpha-21-refutation.json](data/alpha-21-refutation.json). The optional search can reproduce it:
+
+```bash
+python3 scripts/search_alpha21.py --output /tmp/alpha-21-refutation.json
+cmp data/alpha-21-refutation.json /tmp/alpha-21-refutation.json
+```
 
 ## Coordinate convention
 

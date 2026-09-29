@@ -4,6 +4,12 @@
 isosceles branch for all primitive tiles, nor solve Erdős 634 in full. The 48- and 108-tile seed tilings reproduce constructions of Beeson. The odd-scale
 147- and 243-tile constructions are new to this investigation; priority is not claimed.
 
+**Subsequent general result.** The [two-annulus theorem](universal-rational-scales.md)
+now constructs every sufficiently large admissible theta and alpha scale for
+every primitive rational tile, without the Delta restriction of Section 7.
+The [21-tile refutation](alpha-21-obstruction.md) also closes the fixed
+alpha branch mentioned below: its exact spectrum is `21K²` for `K>=2`.
+
 ## 1. Setup and the exact current boundary
 
 Let `a=uv`, `b=v²-u²`, `c=v²`, `0<u<v`, `gcd(u,v)=1`, with opposite angles
@@ -177,9 +183,10 @@ additively closed.
 At `(2,3,4)`, Figures 28 and 29 of Beeson v4 give scale-two and scale-three
 seeds N=84 and 189. The latter is credited there to Jan Philip Harries (July 2026).
 Consequently every `N=21k²`, k>=2, is realized by this fixed tile and shape.
-The necessary tiling equation allows k=1 as well. Beeson reports a computational
-exclusion at 21; this note does not independently prove that exclusion and does
-not claim a complete alpha spectrum.
+The necessary tiling equation allows k=1 as well. The separately replayed
+[21-tile refutation](alpha-21-obstruction.md) now excludes that scale,
+completing this fixed alpha spectrum. The exclusion was previously reported
+by Bonfioli and Harries; no priority is claimed.
 
 ## 5. An explicit counterexample to the printed Lemma 55
 
@@ -333,8 +340,9 @@ has area `X²/(bc)=bT²` tile areas, proving the construction.
 
 At `(2,3,4)`, Delta=23, F=2, and the bound is T>=11; Section 6 improves the result
 using explicit smaller seeds. The two-character necessity eliminates any
-additional count forms when b is not squarefree. When Delta<0, this particular macrogeometry fails; no
-claim is made here about that complementary range.
+additional count forms when b is not squarefree. When Delta<0, this particular
+macrogeometry fails; the subsequent [two-annulus theorem](universal-rational-scales.md)
+handles that range as well and proves eventual existence for every primitive tile.
 
 ## 8. What prevents a full classification
 

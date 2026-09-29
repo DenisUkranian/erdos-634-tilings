@@ -59,6 +59,12 @@ def main():
             or collar_refutations.get("global_N105_decided") is not False):
         raise ValueError("Unexpected fixed-collar refutation result or scope")
     print("N105_FIXED_COLLAR_REFUTATIONS=PASS (one blocked corner in each fixed collar; no global N105 decision)", flush=True)
+    local_fans = json.loads(run("scripts/verify_n105_local_fans.py"))
+    if (local_fans.get("verdict") != "PASS_INDIVIDUAL_FULL_FANS_ONLY"
+            or local_fans.get("fans_asserted_jointly_compatible") is not False
+            or local_fans.get("global_N105_decided") is not False):
+        raise ValueError("Unexpected individual-fan check result or scope")
+    print("N105_INDIVIDUAL_FULL_FANS=PASS (18 separately fillable corners; joint compatibility not established)", flush=True)
     invariants = json.loads(run("scripts/check_n105_invariants.py"))
     print("N105_INVARIANT_CHECKS=PASS (exact branch arithmetic and formal boundary identity)", flush=True)
     bridges = [json.loads(line) for line in run("scripts/check_bridges.py").splitlines() if line]
@@ -69,6 +75,21 @@ def main():
     if eventual.get("status") != "PASS":
         raise ValueError("Unexpected eventual-family check result")
     print(f"EVENTUAL_FAMILY_MACRO_CHECKS=PASS ({eventual['general_macro_sweep']} macro cases; {eventual['transfer_parameter_pairs']} transfer parameter pairs; not individual-tile replay)", flush=True)
+    annuli = json.loads(run("scripts/check_universal_annuli.py"))
+    if annuli.get("status") != "PASS":
+        raise ValueError("Unexpected universal annulus check result")
+    print(f"UNIVERSAL_ANNULUS_MACRO_CHECKS=PASS ({annuli['primitive_parameter_pairs']} parameter pairs; two shell constructions; not individual-tile replay)", flush=True)
+    explicit_seeds = json.loads(run("scripts/check_explicit_theta_seed.py"))
+    if explicit_seeds.get("status") != "PASS":
+        raise ValueError("Unexpected explicit theta seed check result")
+    print(f"EXPLICIT_THETA_SEEDS=PASS ({explicit_seeds['negative_delta_cases']} negative-Delta macro cases; {explicit_seeds['positive_delta_cases']} positive-Delta interval cases)", flush=True)
+    n21_arithmetic = json.loads(run("scripts/check_n21_reduction.py"))
+    if n21_arithmetic.get("status") != "PASS":
+        raise ValueError("Unexpected N21 arithmetic result")
+    alpha21 = json.loads(run("scripts/verify_alpha21.py"))
+    if alpha21.get("result") != "PASS":
+        raise ValueError("Unexpected alpha21 refutation result")
+    print(f"N21_REDUCTION_AND_REFUTATION=PASS (finite arithmetic; {alpha21['certificate_nodes']} certificate nodes; {alpha21['expanded_nodes_without_memoization']} independently expanded states)", flush=True)
     run("-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py")
     print("VERIFIER_REJECTION_TESTS=PASS (9 rejected cases; positive control accepted)", flush=True)
     report = {
@@ -79,10 +100,15 @@ def main():
         "independent_theta_odd_replay": theta_odd,
         "n105_partial_collars": collars,
         "n105_fixed_collar_refutations": collar_refutations,
+        "n105_individual_full_fans": local_fans,
         "n105_invariant_checks": invariants,
         "bridge_examples": bridges,
         "w_beta_bridge_examples": scale_bridges,
         "eventual_family_macro_checks": eventual,
+        "universal_annulus_macro_checks": annuli,
+        "explicit_theta_seed_checks": explicit_seeds,
+        "n21_arithmetic_reduction": n21_arithmetic,
+        "alpha21_exact_refutation": alpha21,
         "rejection_cases": 9, "positive_controls": 1,
         "scope": "Finite certificates and implementation checks only; not formal verification of the prime-case candidate or full Erdős 634.",
     }

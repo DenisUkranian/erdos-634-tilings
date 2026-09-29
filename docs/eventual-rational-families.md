@@ -4,6 +4,10 @@
 internal mathematical checks; external review and priority are not established.
 This does not solve Erdős problem 634 in full.
 
+**Subsequent result.** The [universal two-annulus theorem](universal-rational-scales.md)
+removes the positive-Delta restriction on eventual existence. The arithmetic
+proof and explicit positive-range construction below remain useful inputs.
+
 ## 1. The common parameters
 
 Let
@@ -344,12 +348,13 @@ large scale in all five classified rational target shapes is now
 constructed, with explicit bounds and matching necessary count forms.
 This is a cofinite result per tile, not a classification of every N.
 
-The missing parts include the finite ranges below these bounds; the
-complementary range Delta<0, where Laczkovich's different geometry gives
-some tiling but not yet a construction at every sufficiently large
-admissible scale; and the separate 60-degree/120-degree families.
-The uniform finite-exception problem across unbounded u,v is also not
-settled. The full Erdős problem must not be called solved.
+The subsequent [two-annulus theorem](universal-rational-scales.md)
+removes the Delta restriction: all five families now realize every
+sufficiently large admissible scale for every primitive tile. The
+constructions and positive-range bounds in this note remain valid.
+The finite ranges below the bounds, the uniform finite-exception problem
+across unbounded u,v, and the separate 60-degree/120-degree families are
+not settled. The full Erdős problem must not be called solved.
 
 Primary source: Michael Beeson, *Triangle Tiling: The Case
 3alpha+2beta=pi*, [arXiv:1206.2229v4](https://arxiv.org/abs/1206.2229v4), Sections 7–8 and Theorem 24.
