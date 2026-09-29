@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "algorithm": "SHA-256",
+  "files": {
+    ".github/workflows/verify.yml": {
+      "bytes": 421,
+      "sha256": "c0dc0b729f24639434737adedfc81144d51346bc8e3b29fc980938e57569aff6"
+    },
+    ".gitignore": {
+      "bytes": 153,
+      "sha256": "1b9ec2f94038b763a49dd793fd17ac9905ccb06b757a0d879f9a1fd91d165e85"
+    },
+    "AI_USAGE_DISCLOSURE.md": {
+      "bytes": 1594,
+      "sha256": "94e5181aa5fb90c8d1e567b6604e90cbd164108803e494e80aac872972c1b16c"
+    },
+    "CHANGELOG.md": {
+      "bytes": 2576,
+      "sha256": "7bcdcca6a2ea95e58ff89df24df116e26bc80548d6edc331def466eba4c81c4f"
+    },
+    "CITATION.cff": {
+      "bytes": 1323,
+      "sha256": "af143f68108e3472feec5c5eff548fd14d31c2dbc77c63189a3ea726d79bb628"
+    },
+    "CONTRIBUTING.md": {
+      "bytes": 2219,
+      "sha256": "f91f67ea5ef5c2ad03ea1dc29002704edab03db14e82a880c3360344c7414413"
+    },
+    "LICENSE": {
+      "bytes": 1068,
+      "sha256": "b39f3fbbf97aaec92d4bbd87f567bd8e673c574685608bde5529d4e3fb769c4c"
+    },
+    "LICENSE-DOCUMENTATION.md": {
+      "bytes": 642,
+      "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
+    },
+    "README.md": {
+      "bytes": 8608,
+      "sha256": "c9bfdc365e387c2704610a6c9ca2dc8c852873e758ce7d5024c6cb5b5e23f3c8"
+    },
+    "README.ru.md": {
+      "bytes": 8578,
+      "sha256": "c5407d6d3f4b4daf549938cbb6a1eeddcbdae094fb02179f274d7a0ed792fda7"
+    },
+    "REPRODUCIBILITY.md": {
+      "bytes": 7318,
+      "sha256": "77e8f1d56c746f41f498999bc5257d7c4b782dc4be63a796d03ec71266820fbb"
+    },
+    "STATUS.md": {
+      "bytes": 7038,
+      "sha256": "91287026fc349779c2c62b1a0e13905925336fb81e978b567447182d5ee2a3df"
+    },
+    "data/n105-collar-5-21-19.json": {
+      "bytes": 7306,
+      "sha256": "3c00405995fb0a4d92c8c987e1a7bd69a51fe292c2a54566ed50ebf4ec98b3f5"
+    },
+    "data/n105-collar-7-15-13.json": {
+      "bytes": 9150,
+      "sha256": "a986ec475db0ecccfe4cc46d740d4c64158be510e6aba80a0869e974a08d6b24"
+    },
+    "data/theta-108.json": {
+      "bytes": 3352,
+      "sha256": "e737366a376d388648e5bbd3927049a5773ff695b41edbb32138dcaa92a96faa"
+    },
+    "data/theta-147.json": {
+      "bytes": 4466,
+      "sha256": "4a38b3b03bffcc9668a414d11c2edefe2467ceed4d0f93fef9c31b7521e68cf1"
+    },
+    "data/theta-243.json": {
+      "bytes": 7220,
+      "sha256": "90423a5b35e094f1e9c7983a03bc848b0515a2b667c4ee81d55eba762bd8e7ca"
+    },
+    "data/theta-300.json": {
+      "bytes": 8836,
+      "sha256": "786716ae31d47291cc215aa89a0a6a043dd6f42726e1c67a774c6caf756c306c"
+    },
+    "data/theta-48.json": {
+      "bytes": 1751,
+      "sha256": "0c2cd6ff0ff47cd1b74478d6da40089422d908551087fa86dcf6245b95b84573"
+    },
+    "data/tiling-322.json": {
+      "bytes": 11226,
+      "sha256": "4b18e031bfa3e3df62ebe71a4a9f90eb83d0843e39c856b42fd74bb40f53c3bc"
+    },
+    "data/tiling-77.json": {
+      "bytes": 2673,
+      "sha256": "4aabf8f1304907f89f7cf8e16ac3f6492a2a0477c7f3fa04e7b5dcf1f519ba9f"
+    },
+    "data/tiling-897.json": {
+      "bytes": 34482,
+      "sha256": "772d3ef05658124b6a89d48e62ea951b165101295b3658976efed2d7f9ec790d"
+    },
+    "docs/audits/beta-bridge.md": {
+      "bytes": 2765,
+      "sha256": "92f1ce471e9b6a1bea6549a533b259fb1e032e2f52ddc8adc056709744605695"
+    },
+    "docs/audits/construction-322.md": {
+      "bytes": 8594,
+      "sha256": "45336ea3f6e9a46d53c6200a6966565b54991bd0e8b5c71012fd7cd82caf861e"
+    },
+    "docs/audits/geometric-review.md": {
+      "bytes": 10907,
+      "sha256": "c612cd88247d362e67a3c3d8e52293ceffbb8a162535e3d0875b9fbfb2afaf9c"
+    },
+    "docs/audits/prime-case-review.md": {
+      "bytes": 13325,
+      "sha256": "6ae6c7c24f5a8f362e741657651d31c1e0e510e440df88bd0869813038238a12"
+    },
+    "docs/audits/reverse-apex.md": {
+      "bytes": 6336,
+      "sha256": "1519c73cf2aa9818bc09c062d7a5d4090a54edbd1f0754466507d583d8e2048d"
+    },
+    "docs/audits/scale-spectrum.md": {
+      "bytes": 7242,
+      "sha256": "8ab2982394f1ab140df13e191e84b57fe513cc0689dfc2019c8c5253d732613a"
+    },
+    "docs/audits/theta.md": {
+      "bytes": 10858,
+      "sha256": "692b0b9e98b9b869ac748d883b3d0c20206725943ba6be52a166c6452d22197e"
+    },
+    "docs/beta-scale-bridges.md": {
+      "bytes": 9318,
+      "sha256": "edfa26f30507dd49a43bccd57c1fa3515e4862527b4e4ecb0f6882deb29de0d0"
+    },
+    "docs/isosceles-120-invariant.md": {
+      "bytes": 3600,
+      "sha256": "ba1de8ba4966b90883ed373b00c86affa02237eebfcc26df0f63d8d453e6fa6c"
+    },
+    "docs/local-cap-obstruction.md": {
+      "bytes": 4469,
+      "sha256": "2062b0319eb924960042c6bae0210cfb2defda1660850197fed068e6acc5d1be"
+    },
+    "docs/n105-partial-results.md": {
+      "bytes": 10621,
+      "sha256": "cadbf3b4ac0e553c2201ea35412d46e13b055de796d06b694b1b0038b39c950f"
+    },
+    "docs/n105-positional-frontier.md": {
+      "bytes": 7219,
+      "sha256": "b4cd197a121aa9e34c720e22c1e7ac8e16072689fc2bfc64af78b125ea10caae"
+    },
+    "docs/open-frontier.md": {
+      "bytes": 5471,
+      "sha256": "00e8a2868d30325ce93916dc11081a29f91cc97d170cfa69b615c3da3381dd13"
+    },
+    "docs/prime-case-candidate.md": {
+      "bytes": 26694,
+      "sha256": "0ceefc4ebd05fcf96cb820399077ceb81c12b926af45ca20ef4df80d2c22fd18"
+    },
+    "docs/prime-case-dependencies.md": {
+      "bytes": 13101,
+      "sha256": "042e45182485b3d4ad7f8d947c22e7bd872a50389270c5bea303437412560e34"
+    },
+    "docs/scale-spectra.md": {
+      "bytes": 12029,
+      "sha256": "69a492e61e1e6ef7a3b32089dd7266fd9f365ccc0b7a4dc3f066ae4f2f0ac66d"
+    },
+    "docs/sources-and-provenance.md": {
+      "bytes": 3110,
+      "sha256": "198fad9d8130b1f8a8686e8f8e0b75896771a7fc70a1ff82af2e7da81be07e76"
+    },
+    "docs/theta-branch.md": {
+      "bytes": 15901,
+      "sha256": "f6f977a770db189d278facaae2da2326d6463c2b76489c7c91704a7e1c70b35a"
+    },
+    "docs/theta-squarefree-obstruction.md": {
+      "bytes": 7166,
+      "sha256": "7fd43de9e77aec0296b9f1d004f780b17bc3c87a95bfd393e53558a091302a7b"
+    },
+    "docs/two-piece-construction.md": {
+      "bytes": 11112,
+      "sha256": "98e57a7842dc5b64186ba054c90b548a143c66da8f69e72be09033d30a4d8ccc"
+    },
+    "figures/prime-case-reduction.png": {
+      "bytes": 118719,
+      "sha256": "08e58cf33d7b1bdd797a1b87c3bfe02aa47df33a6b4357b799680813333222b4"
+    },
+    "figures/theta-147-243.png": {
+      "bytes": 576202,
+      "sha256": "84b31d7028b7efef24ed290cdaed7f96bfd685c4de8841b0754e67dfbaa3c3f4"
+    },
+    "figures/theta-147-243.svg": {
+      "bytes": 83323,
+      "sha256": "a668c4d07a81ff379773c7466b1e84f95f622530628f1159a49f99f9631553e5"
+    },
+    "figures/tiling-322.png": {
+      "bytes": 371986,
+      "sha256": "9babd4737330e3fe18ccea8bc59852fa888ab7957526a2e06c0a1d675af2080b"
+    },
+    "figures/tiling-322.svg": {
+      "bytes": 119486,
+      "sha256": "bae53c94f2d307ec5776f9b7ee0c0e181e3a2547ad086805c78955777e688746"
+    },
+    "paper/prime-case-candidate.pdf": {
+      "bytes": 392830,
+      "sha256": "c515027d3c386b8e18d49d24370a92233a4de925b0e6fedb3c52d47928c68f2e"
+    },
+    "paper/prime-case-candidate.tex": {
+      "bytes": 48437,
+      "sha256": "81b35348cff0f2199a5998702b88592c6ba3cc2cd0fe92c32d67866df85bd953"
+    },
+    "paper/prime-case-typesetting-QA.md": {
+      "bytes": 2245,
+      "sha256": "fe6158e027e97f0e3cea4f4a01d3b2daa77948aa3ad542321c916a0497c6a1a8"
+    },
+    "paper/two-piece-construction.pdf": {
+      "bytes": 304843,
+      "sha256": "01d41e28d9124d6a660efde1f687300e4e36ede414877e1c5fd5e4484ba584b1"
+    },
+    "paper/two-piece-construction.tex": {
+      "bytes": 48076,
+      "sha256": "b34bbae2c700f2d290ef5a28a5222e5edd9ad61f176c45cd8e42614992eff171"
+    },
+    "scripts/build_manifest.py": {
+      "bytes": 926,
+      "sha256": "6c51c9bb0eac2cc18a6ef236ee097267f7c090e65a2a52d5c9e12adcf18b8ad1"
+    },
+    "scripts/check_bridges.py": {
+      "bytes": 2921,
+      "sha256": "a6cfdaf39ec7ee07782b0eeda8d7573469d4d0065d5da4893349b66f64f7747b"
+    },
+    "scripts/check_certificates.py": {
+      "bytes": 993,
+      "sha256": "68b5ee9431d546a825869fcdeb12ecf14e435d82e9fd1e4fa1a4f9c8b997e212"
+    },
+    "scripts/check_n105_invariants.py": {
+      "bytes": 2704,
+      "sha256": "aac61ea9e98edc4a28b94631785a66cb39f12e9b109db538e00253d9cf1ebe52"
+    },
+    "scripts/check_scale_bridges.py": {
+      "bytes": 5401,
+      "sha256": "8739f081863057c9a67ff501c0d5b89788d5c676ff32b4d9a50b23db821edc9b"
+    },
+    "scripts/generate_theta.py": {
+      "bytes": 5833,
+      "sha256": "c4dcf51b97769e7df8757c2a4b5fc27dea81b5240ffdde7e82b0b2bec832d824"
+    },
+    "scripts/generate_tiling.py": {
+      "bytes": 3573,
+      "sha256": "57b98176ff50ce4258fcc3f3b938963232395fedfdc04721a974496d9a2bfebb"
+    },
+    "scripts/plot_theta.py": {
+      "bytes": 4619,
+      "sha256": "d5e0d3e456a161ce76ec693c5e0f5b5d1d7722807b6c0b2fe3373bd0c0514e6f"
+    },
+    "scripts/reproduce.py": {
+      "bytes": 3939,
+      "sha256": "148cba07746ea3e2ccc260d7815875c97a4842947ccc1d5a932a3e0bb9812cec"
+    },
+    "scripts/verify_322.py": {
+      "bytes": 4631,
+      "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
+    },
+    "scripts/verify_n105_collars.py": {
+      "bytes": 5165,
+      "sha256": "4e99e9aa828a28cd81a0e2a2008430f65efedd3bdb218e1040597d657632ced3"
+    },
+    "scripts/verify_theta_odd.py": {
+      "bytes": 4290,
+      "sha256": "56ff5b27c9d332db75c83a7bb2e65268da30b6b65153e668f53bcf7ef8b9be57"
+    },
+    "tests/test_verifier.py": {
+      "bytes": 2820,
+      "sha256": "306a4e178a59cabe1e699efd1cff7bdf2c49594c572122d4f82ec4a37155cf17"
+    },
+    "verification/322-original-replay.json": {
+      "bytes": 708,
+      "sha256": "e25f080baeb57bd1514eb3905032e10e965bc2ffd9845a8dadeda55298c98989"
+    },
+    "verification/n105-collars.json": {
+      "bytes": 1397,
+      "sha256": "2712d39fdde63923f04e05f782ef64af9fc1e0a7ca52b96e3dc67de8c4e3af76"
+    },
+    "verification/theta-odd.json": {
+      "bytes": 1266,
+      "sha256": "222283e1c3f6f24c51c5025c9d609b81aebdeb300a7a820ecde6854a9de4bb4a"
+    }
+  }
+}

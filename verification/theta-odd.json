@@ -1,0 +1,58 @@
+[
+  {
+    "verdict": "PASS",
+    "t": 7,
+    "N": 147,
+    "sha256": "4a38b3b03bffcc9668a414d11c2edefe2467ceed4d0f93fef9c31b7521e68cf1",
+    "tile_sides": [
+      2,
+      3,
+      4
+    ],
+    "target_sides": [
+      21,
+      42,
+      42
+    ],
+    "denominator": 8,
+    "metric_y_square": 15,
+    "each_tile_area": "3*sqrt(15)/4",
+    "target_area": "441*sqrt(15)/4",
+    "tested_pairs": 10731,
+    "zero_area_contact_pairs": 697,
+    "positive_area_pair_intersections": 0,
+    "vertices": 104,
+    "interior_atomic_edges": 217,
+    "boundary_atomic_edges": 33,
+    "generator_imported": false,
+    "author_sat_used": false
+  },
+  {
+    "verdict": "PASS",
+    "t": 9,
+    "N": 243,
+    "sha256": "90423a5b35e094f1e9c7983a03bc848b0515a2b667c4ee81d55eba762bd8e7ca",
+    "tile_sides": [
+      2,
+      3,
+      4
+    ],
+    "target_sides": [
+      27,
+      54,
+      54
+    ],
+    "denominator": 8,
+    "metric_y_square": 15,
+    "each_tile_area": "3*sqrt(15)/4",
+    "target_area": "729*sqrt(15)/4",
+    "tested_pairs": 29403,
+    "zero_area_contact_pairs": 1227,
+    "positive_area_pair_intersections": 0,
+    "vertices": 159,
+    "interior_atomic_edges": 359,
+    "boundary_atomic_edges": 42,
+    "generator_imported": false,
+    "author_sat_used": false
+  }
+]

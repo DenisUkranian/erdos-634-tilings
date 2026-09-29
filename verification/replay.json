@@ -1,0 +1,472 @@
+{
+  "status": "PASS",
+  "manifest_files": 68,
+  "construction_certificates": [
+    {
+      "u": 1,
+      "v": 2,
+      "N": 77,
+      "all_squared_sides": "PASS",
+      "containment": "PASS",
+      "total_area": "PASS",
+      "pairwise_nonoverlap": "PASS",
+      "nontrivial_pairs": 177,
+      "deterministic_geometry_regeneration": "PASS"
+    },
+    {
+      "u": 2,
+      "v": 3,
+      "N": 322,
+      "all_squared_sides": "PASS",
+      "containment": "PASS",
+      "total_area": "PASS",
+      "pairwise_nonoverlap": "PASS",
+      "nontrivial_pairs": 792,
+      "deterministic_geometry_regeneration": "PASS"
+    },
+    {
+      "u": 3,
+      "v": 4,
+      "N": 897,
+      "all_squared_sides": "PASS",
+      "containment": "PASS",
+      "total_area": "PASS",
+      "pairwise_nonoverlap": "PASS",
+      "nontrivial_pairs": 2559,
+      "deterministic_geometry_regeneration": "PASS"
+    }
+  ],
+  "independent_322_replay": {
+    "verdict": "PASS",
+    "certificate_sha256": "4b18e031bfa3e3df62ebe71a4a9f90eb83d0843e39c856b42fd74bb40f53c3bc",
+    "tile_count": 322,
+    "tile_sides": [
+      5,
+      6,
+      9
+    ],
+    "target_sides": [
+      81,
+      115,
+      126
+    ],
+    "coordinate_denominator": 18,
+    "metric_y_square": 32,
+    "each_tile_area": "10*sqrt(2)",
+    "target_area": "3220*sqrt(2)",
+    "all_tile_pair_intersections_tested": 51681,
+    "zero_area_contact_pairs": 1715,
+    "positive_area_pair_intersections": 0,
+    "distinct_certificate_vertices": 195,
+    "distinct_t_junction_vertices": 24,
+    "interior_atomic_edges": 474,
+    "boundary_atomic_edges": 42,
+    "author_code_imported": false,
+    "author_sat_used": false
+  },
+  "theta_certificates": [
+    {
+      "N": 48,
+      "all_squared_sides": "PASS",
+      "certificate": "theta-48.json",
+      "containment": "PASS",
+      "nontrivial_pairs": 113,
+      "pairwise_nonoverlap": "PASS",
+      "total_area": "PASS",
+      "u": 1,
+      "v": 2
+    },
+    {
+      "N": 108,
+      "all_squared_sides": "PASS",
+      "certificate": "theta-108.json",
+      "containment": "PASS",
+      "nontrivial_pairs": 246,
+      "pairwise_nonoverlap": "PASS",
+      "total_area": "PASS",
+      "u": 1,
+      "v": 2
+    },
+    {
+      "N": 147,
+      "all_squared_sides": "PASS",
+      "certificate": "theta-147.json",
+      "containment": "PASS",
+      "nontrivial_pairs": 353,
+      "pairwise_nonoverlap": "PASS",
+      "total_area": "PASS",
+      "u": 1,
+      "v": 2
+    },
+    {
+      "N": 243,
+      "all_squared_sides": "PASS",
+      "certificate": "theta-243.json",
+      "containment": "PASS",
+      "nontrivial_pairs": 616,
+      "pairwise_nonoverlap": "PASS",
+      "total_area": "PASS",
+      "u": 1,
+      "v": 2
+    },
+    {
+      "N": 300,
+      "all_squared_sides": "PASS",
+      "certificate": "theta-300.json",
+      "containment": "PASS",
+      "nontrivial_pairs": 724,
+      "pairwise_nonoverlap": "PASS",
+      "total_area": "PASS",
+      "u": 1,
+      "v": 2
+    }
+  ],
+  "independent_theta_odd_replay": [
+    {
+      "verdict": "PASS",
+      "t": 7,
+      "N": 147,
+      "sha256": "4a38b3b03bffcc9668a414d11c2edefe2467ceed4d0f93fef9c31b7521e68cf1",
+      "tile_sides": [
+        2,
+        3,
+        4
+      ],
+      "target_sides": [
+        21,
+        42,
+        42
+      ],
+      "denominator": 8,
+      "metric_y_square": 15,
+      "each_tile_area": "3*sqrt(15)/4",
+      "target_area": "441*sqrt(15)/4",
+      "tested_pairs": 10731,
+      "zero_area_contact_pairs": 697,
+      "positive_area_pair_intersections": 0,
+      "vertices": 104,
+      "interior_atomic_edges": 217,
+      "boundary_atomic_edges": 33,
+      "generator_imported": false,
+      "author_sat_used": false
+    },
+    {
+      "verdict": "PASS",
+      "t": 9,
+      "N": 243,
+      "sha256": "90423a5b35e094f1e9c7983a03bc848b0515a2b667c4ee81d55eba762bd8e7ca",
+      "tile_sides": [
+        2,
+        3,
+        4
+      ],
+      "target_sides": [
+        27,
+        54,
+        54
+      ],
+      "denominator": 8,
+      "metric_y_square": 15,
+      "each_tile_area": "3*sqrt(15)/4",
+      "target_area": "729*sqrt(15)/4",
+      "tested_pairs": 29403,
+      "zero_area_contact_pairs": 1227,
+      "positive_area_pair_intersections": 0,
+      "vertices": 159,
+      "interior_atomic_edges": 359,
+      "boundary_atomic_edges": 42,
+      "generator_imported": false,
+      "author_sat_used": false
+    }
+  ],
+  "n105_partial_collars": {
+    "verdict": "PASS",
+    "scope": "partial_boundary_collars_only",
+    "complete_tiling": false,
+    "certificates": [
+      {
+        "verdict": "PASS_PARTIAL_COLLAR_ONLY",
+        "certificate": "n105-collar-5-21-19.json",
+        "sha256": "3c00405995fb0a4d92c8c987e1a7bd69a51fe292c2a54566ed50ebf4ec98b3f5",
+        "tile": [
+          5,
+          21,
+          19
+        ],
+        "target_side": 105,
+        "placed_tiles": 45,
+        "intersection_pairs_checked": 990,
+        "residual_components": 1,
+        "residual_boundary_vertices": 38,
+        "residual_area_in_tile_units": "60",
+        "minimum_oblique_boundary_margin": "25/19",
+        "exact_metric": "(x*x+x*y+y*y)/scale**2",
+        "coordinate_basis": "(1,0),(1/2,sqrt(3)/2)",
+        "complete_tiling": false
+      },
+      {
+        "verdict": "PASS_PARTIAL_COLLAR_ONLY",
+        "certificate": "n105-collar-7-15-13.json",
+        "sha256": "a986ec475db0ecccfe4cc46d740d4c64158be510e6aba80a0869e974a08d6b24",
+        "tile": [
+          7,
+          15,
+          13
+        ],
+        "target_side": 105,
+        "placed_tiles": 57,
+        "intersection_pairs_checked": 1596,
+        "residual_components": 1,
+        "residual_boundary_vertices": 44,
+        "residual_area_in_tile_units": "48",
+        "minimum_oblique_boundary_margin": "49/13",
+        "exact_metric": "(x*x+x*y+y*y)/scale**2",
+        "coordinate_basis": "(1,0),(1/2,sqrt(3)/2)",
+        "complete_tiling": false
+      }
+    ]
+  },
+  "n105_invariant_checks": {
+    "N105_120": [
+      {
+        "s": 1,
+        "t": 315,
+        "radicand": 100276,
+        "is_square": false
+      },
+      {
+        "s": 3,
+        "t": 105,
+        "radicand": 12084,
+        "is_square": false
+      },
+      {
+        "s": 5,
+        "t": 63,
+        "radicand": 5044,
+        "is_square": false
+      },
+      {
+        "s": 7,
+        "t": 45,
+        "radicand": 3124,
+        "is_square": false
+      },
+      {
+        "s": 9,
+        "t": 35,
+        "radicand": 2356,
+        "is_square": false
+      },
+      {
+        "s": 15,
+        "t": 21,
+        "radicand": 1716,
+        "is_square": false
+      }
+    ],
+    "N105_60": [
+      {
+        "s": 1,
+        "t": 315,
+        "radicand": 98176,
+        "is_square": false
+      },
+      {
+        "s": 3,
+        "t": 105,
+        "radicand": 9984,
+        "is_square": false
+      },
+      {
+        "s": 5,
+        "t": 63,
+        "radicand": 2944,
+        "is_square": false
+      },
+      {
+        "s": 7,
+        "t": 45,
+        "radicand": 1024,
+        "is_square": true,
+        "primitive_candidate": [
+          5,
+          21,
+          19,
+          105
+        ]
+      },
+      {
+        "s": 9,
+        "t": 35,
+        "radicand": 256,
+        "is_square": true,
+        "primitive_candidate": [
+          7,
+          15,
+          13,
+          105
+        ]
+      }
+    ],
+    "F1_105": {
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "target_sides": [
+        105,
+        56,
+        91
+      ],
+      "N": 105,
+      "seed_count": 21,
+      "cancelling_pairs": 42,
+      "boundary": {
+        "(0, 0)": 105,
+        "(0, 1)": -56,
+        "(-1, 0)": -91
+      }
+    },
+    "F1_primitive_examples_checked": 36
+  },
+  "bridge_examples": [
+    {
+      "e": 1,
+      "f": 2,
+      "p": 1,
+      "q": 1,
+      "tiles": 22,
+      "nontrivial_exact_separation_checks": 25,
+      "status": "PASS"
+    },
+    {
+      "e": 1,
+      "f": 3,
+      "p": 1,
+      "q": 1,
+      "tiles": 52,
+      "nontrivial_exact_separation_checks": 65,
+      "status": "PASS"
+    },
+    {
+      "e": 2,
+      "f": 3,
+      "p": 1,
+      "q": 2,
+      "tiles": 92,
+      "nontrivial_exact_separation_checks": 131,
+      "status": "PASS"
+    },
+    {
+      "e": 2,
+      "f": 5,
+      "p": 1,
+      "q": 2,
+      "tiles": 284,
+      "nontrivial_exact_separation_checks": 289,
+      "status": "PASS"
+    },
+    {
+      "e": 3,
+      "f": 4,
+      "p": 2,
+      "q": 3,
+      "tiles": 468,
+      "nontrivial_exact_separation_checks": 771,
+      "status": "PASS"
+    },
+    {
+      "e": 2,
+      "f": 3,
+      "p": 1,
+      "q": 6,
+      "tiles": 276,
+      "nontrivial_exact_separation_checks": 393,
+      "status": "PASS"
+    }
+  ],
+  "w_beta_bridge_examples": [
+    {
+      "status": "PASS",
+      "tile_count": 14,
+      "pairs": 91,
+      "twice_area_in_coordinate_basis": "112",
+      "u": 1,
+      "v": 2,
+      "p": 1,
+      "q": 1,
+      "family": "W"
+    },
+    {
+      "status": "PASS",
+      "tile_count": 34,
+      "pairs": 561,
+      "twice_area_in_coordinate_basis": "918",
+      "u": 1,
+      "v": 3,
+      "p": 1,
+      "q": 1,
+      "family": "W"
+    },
+    {
+      "status": "PASS",
+      "tile_count": 112,
+      "pairs": 6216,
+      "twice_area_in_coordinate_basis": "6048",
+      "u": 2,
+      "v": 3,
+      "p": 2,
+      "q": 2,
+      "family": "W"
+    },
+    {
+      "status": "PASS",
+      "tile_count": 414,
+      "pairs": 85491,
+      "twice_area_in_coordinate_basis": "79488",
+      "u": 3,
+      "v": 4,
+      "p": 3,
+      "q": 3,
+      "family": "W"
+    },
+    {
+      "status": "PASS",
+      "tile_count": 92,
+      "pairs": 4186,
+      "twice_area_in_coordinate_basis": "4968",
+      "u": 2,
+      "v": 3,
+      "p": 1,
+      "q": 2,
+      "family": "beta"
+    },
+    {
+      "status": "PASS",
+      "tile_count": 22,
+      "pairs": 231,
+      "twice_area_in_coordinate_basis": "176",
+      "u": 1,
+      "v": 2,
+      "p": 1,
+      "q": 1,
+      "family": "beta"
+    },
+    {
+      "status": "PASS",
+      "tile_count": 28,
+      "pairs": 378,
+      "twice_area_in_coordinate_basis": "224",
+      "u": 1,
+      "v": 2,
+      "p": 1,
+      "q": 2,
+      "family": "W"
+    }
+  ],
+  "rejection_cases": 9,
+  "positive_controls": 1,
+  "scope": "Finite certificates and implementation checks only; not formal verification of the prime-case candidate or full Erd\u0151s 634."
+}

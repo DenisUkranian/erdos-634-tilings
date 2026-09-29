@@ -1,0 +1,29 @@
+{
+  "verdict": "PASS",
+  "certificate_sha256": "4b18e031bfa3e3df62ebe71a4a9f90eb83d0843e39c856b42fd74bb40f53c3bc",
+  "tile_count": 322,
+  "tile_sides": [
+    5,
+    6,
+    9
+  ],
+  "target_sides": [
+    81,
+    115,
+    126
+  ],
+  "coordinate_denominator": 18,
+  "metric_y_square": 32,
+  "each_tile_area": "10*sqrt(2)",
+  "target_area": "3220*sqrt(2)",
+  "all_tile_pair_intersections_tested": 51681,
+  "zero_area_contact_pairs": 1715,
+  "positive_area_pair_intersections": 0,
+  "distinct_certificate_vertices": 195,
+  "distinct_t_junction_vertices": 24,
+  "interior_atomic_edges": 474,
+  "boundary_atomic_edges": 42,
+  "author_code_imported": false,
+  "author_sat_used": false,
+  "elapsed_seconds": 0.2504
+}

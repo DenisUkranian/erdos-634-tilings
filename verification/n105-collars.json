@@ -1,0 +1,47 @@
+{
+  "verdict": "PASS",
+  "scope": "partial_boundary_collars_only",
+  "complete_tiling": false,
+  "certificates": [
+    {
+      "verdict": "PASS_PARTIAL_COLLAR_ONLY",
+      "certificate": "n105-collar-5-21-19.json",
+      "sha256": "3c00405995fb0a4d92c8c987e1a7bd69a51fe292c2a54566ed50ebf4ec98b3f5",
+      "tile": [
+        5,
+        21,
+        19
+      ],
+      "target_side": 105,
+      "placed_tiles": 45,
+      "intersection_pairs_checked": 990,
+      "residual_components": 1,
+      "residual_boundary_vertices": 38,
+      "residual_area_in_tile_units": "60",
+      "minimum_oblique_boundary_margin": "25/19",
+      "exact_metric": "(x*x+x*y+y*y)/scale**2",
+      "coordinate_basis": "(1,0),(1/2,sqrt(3)/2)",
+      "complete_tiling": false
+    },
+    {
+      "verdict": "PASS_PARTIAL_COLLAR_ONLY",
+      "certificate": "n105-collar-7-15-13.json",
+      "sha256": "a986ec475db0ecccfe4cc46d740d4c64158be510e6aba80a0869e974a08d6b24",
+      "tile": [
+        7,
+        15,
+        13
+      ],
+      "target_side": 105,
+      "placed_tiles": 57,
+      "intersection_pairs_checked": 1596,
+      "residual_components": 1,
+      "residual_boundary_vertices": 44,
+      "residual_area_in_tile_units": "48",
+      "minimum_oblique_boundary_margin": "49/13",
+      "exact_metric": "(x*x+x*y+y*y)/scale**2",
+      "coordinate_basis": "(1,0),(1/2,sqrt(3)/2)",
+      "complete_tiling": false
+    }
+  ]
+}
