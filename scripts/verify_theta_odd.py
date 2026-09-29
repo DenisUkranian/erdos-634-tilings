@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact geometry replay for the 147- and 243-tile theta constructions.
+"""Exact geometry replay for the 75-, 147- and 243-tile theta constructions.
 
 Independent of the author's generator and separating-axis verifier. Uses convex
 polygon clipping over Fraction, then atomizes all tile edges at every vertex.
@@ -105,4 +105,4 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data-dir',type=Path,default=Path(__file__).resolve().parents[1]/'data')
     args=parser.parse_args()
-    print(json.dumps([check(t,args.data_dir) for t in (7,9)],indent=2))
+    print(json.dumps([check(t,args.data_dir) for t in (5,7,9)],indent=2))

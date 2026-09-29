@@ -4,6 +4,15 @@
 
 The two-c-edge proof and small-case exclusions are given in [the theta-branch report](../theta-branch.md). This audit verifies the odd constructions and the subsequent stronger conclusion.
 
+**Subsequent update, same date.** This audit records the earlier 147/243
+stage. The [75-tile construction](../theta-75-construction.md) has since
+passed the same separate checker on all 2,775 pairs. The exception at
+`t=5` below is therefore resolved: the complete fixed-tile spectrum is
+`N=3t²` for every integer `t>=4`. The [two-character argument and eventual
+theorem](../eventual-rational-families.md) also establish the necessary
+form `N=bT²` without assuming b squarefree. The earlier audit is retained
+below to show which arguments were checked at that stage.
+
 ## 1. Accepted results
 
 The explicit constructions with tile `(2,3,4)` and theta-isosceles targets pass this audit:

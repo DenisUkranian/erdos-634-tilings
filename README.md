@@ -99,14 +99,15 @@ Use normal Python execution, without `-O` or `-OO`. See [REPRODUCIBILITY.md](REP
 
 | Result | Scope |
 |---|---|
-| [Structure of scale spectra](docs/scale-spectra.md) | For each primitive tile, the nonempty scale sets for $W$ and the $\beta$-isosceles shape eventually consist exactly of the multiples of an integer $d$ dividing $v$. Determining $d$ and the exceptional small scales remains open in general. |
+| [Structure of scale spectra](docs/scale-spectra.md) | For each primitive tile, the nonempty scale sets for $W$ and the $\beta$-isosceles shape eventually consist exactly of the multiples of an integer $d$ dividing $v$. The new construction proves $d=1$ whenever $\Delta=b(a^2+b^2)-a^2c>0$. The complementary range and exceptional small scales remain open in general. |
+| [All five rational shapes for $\Delta>0$](docs/eventual-rational-families.md) | Explicit constructions realize every sufficiently large arithmetically admissible scale in each of the five target shapes, with a stated bound. The necessary forms $N=bT^2$ for the $\theta$ shape and $N=b(b+c)K^2$ for the $\alpha$ shape hold for every primitive tile, without the $\Delta>0$ restriction. |
 | [First-tile scale spectra](docs/scale-spectra.md) | For tile $(2,3,4)$, the counts $7t^2$ in $W$ and $11t^2$ in the $\beta$-isosceles shape occur exactly for $t\ge2$. This is a known spectrum credited to Bonfioli, not a novelty claim of this repository. |
-| [The $\theta=\alpha+\beta$ isosceles branch](docs/theta-branch.md) | For tile $(2,3,4)$, every count must have the form $N=3t^2$ with $t\ge4$. New exact constructions at $t=7,9$, together with scale addition, realize every $t\ge4$ except possibly $t=5$. **Only $N=75$ remains unresolved in this fixed-tile branch.** |
-| [The remaining $N=105$ cases](docs/open-frontier.md#the-remaining-n105-investigation) | Exact boundary collars survive for tiles $(5,21,19)$ and $(7,15,13)$. These are partial placements with unfilled interiors, not 105-tilings or nonexistence proofs. |
+| [The $\theta=\alpha+\beta$ isosceles branch](docs/theta-branch.md) | For tile $(2,3,4)$, the exact spectrum is **$N=3t^2$ for every integer $t\ge4$**. The new 75-tile certificate resolves the final scale $t=5$. For every primitive rational tile in the $3\alpha+2\beta=\pi$ family, two direction characters give the stronger necessary form $N=bT^2$, with $T$ integral. |
+| [The remaining $N=105$ cases](docs/open-frontier.md#the-remaining-n105-investigation) | Exact partial boundary collars for tiles $(5,21,19)$ and $(7,15,13)$ cover the outer boundary. A [four-placement obstruction](docs/n105-fixed-collar-obstructions.md) proves that these two fixed collars cannot extend. Other collars and the global count 105 remain unresolved. |
 
-The 147- and 243-tile theta constructions passed separate exact intersection and boundary checks. The odd 147-tile example also contradicts the stated integrality conclusion of Lemma 55 in Beeson v4: its scale parameter is $\mu=21/2$ and coloring number is $M=7$. The prime-case candidate does not use that lemma. See the [theta note](docs/theta-branch.md) for the source comparison and the [open frontier](docs/open-frontier.md) for the remaining general composite-count problem.
+The 75-, 147- and 243-tile theta constructions passed separate exact intersection and boundary checks. The smallest example also contradicts the stated integrality conclusion of Lemma 55 in Beeson v4: its scale parameter is $\mu=15/2$ and coloring number is $M=5$. The prime-case candidate does not use that lemma. See the [theta note](docs/theta-branch.md) for the source comparison and the [open frontier](docs/open-frontier.md) for the remaining general composite-count problem.
 
-The count 75 itself is already globally admissible. The unresolved instance is specifically a triangle with sides $(30,30,15)$ tiled by 75 copies of $(2,3,4)$.
+The count 75 was already globally admissible. The new construction specifically tiles $(30,30,15)$ by 75 copies of $(2,3,4)$ and completes this fixed-tile spectrum.
 
 ## Reading guide
 

@@ -1,8 +1,8 @@
-# Round 4: isosceles constructions, a stronger bound, and a counterexample to a printed divisibility lemma
+# Isosceles constructions and the complete first-tile theta spectrum
 
 29 September 2026. Internal research report. This note does **not** classify either
-isosceles branch for all primitive tiles, nor solve Erdős 634 in full. The 48- and108-tile seed tilings reproduce constructions of Beeson. The odd-scale
-147- and243-tile constructions are new to this investigation; priority is not claimed.
+isosceles branch for all primitive tiles, nor solve Erdős 634 in full. The 48- and 108-tile seed tilings reproduce constructions of Beeson. The odd-scale
+147- and 243-tile constructions are new to this investigation; priority is not claimed.
 
 ## 1. Setup and the exact current boundary
 
@@ -10,17 +10,26 @@ Let `a=uv`, `b=v²-u²`, `c=v²`, `0<u<v`, `gcd(u,v)=1`, with opposite angles
 `alpha,beta,gamma` and `3alpha+2beta=pi`. Write `theta=alpha+beta` and
 `Q=b+c`. Put `b=q h²`, where q is squarefree.
 
-For a theta-isosceles target (apex alpha, base angles theta), every tiling has
+For a theta-isosceles target (apex alpha, base angles theta), the
+[two-character parity argument](eventual-rational-families.md#3-theta-isosceles-all-square-factors-of-b-are-compulsory)
+gives the exact necessary form
+
+    N=bT², X=bvT, Y=ubT, T a positive integer.
+
+This holds for every primitive tile, including nonsquarefree b. To retain
+the notation of the boundary argument below, the weaker area-only form is
 
     N=q t²,  X=v q h t,  Y=u q h t,
 
 where X is either equal side, Y is the base, and t is a positive integer. The
 area proof in `theta-squarefree-obstruction.md` establishes these formulas.
+The stronger parity argument adds `h|t`, with `t=hT`.
 
 The improved necessary bound proved below is
 
     q h(t-h) >= 2v.
 
+Equivalently, the stronger normalization gives `b(T-1)>=2v`.
 Thus `N>=q(h+ceil(2v/(qh)))²`. There is also the independent base condition
 
     u q h t >= 2v²,
@@ -32,10 +41,13 @@ For the particular tile `(2,3,4)`, the reliable status is:
 
 * Necessarily `N=3t²`.
 * `t=1,2,3` are impossible.
-* Every `t>=4`, except possibly `t=5`, is realized.
-* The sole remaining fixed-tile theta case is `N=75`, equal sides30 andbase15.
+* Every `t>=4` is realized.
+* The formerly missing `N=75` case, equal sides 30 and base 15, is given by an
+  [explicit ten-piece construction](theta-75-construction.md).
 
-The 147-tile construction disproves the divisibility statement of Beeson v4
+Thus the exact fixed-tile spectrum is **N=3t² for integers t>=4**.
+
+The 75-tile construction disproves the divisibility statement of Beeson v4
 Lemma 55; Section 5 identifies the retracted intermediate claim in its proof.
 
 ## 2. Self-contained two-c-edge lemma for this theta shape
@@ -163,10 +175,10 @@ c-steps, so it uses `2mn bQ` tiles. The tileable integer scales are again
 additively closed.
 
 At `(2,3,4)`, Figures 28 and 29 of Beeson v4 give scale-two and scale-three
-seeds N=84 and189. The latter is credited there to Jan Philip Harries (July 2026).
+seeds N=84 and 189. The latter is credited there to Jan Philip Harries (July 2026).
 Consequently every `N=21k²`, k>=2, is realized by this fixed tile and shape.
 The necessary tiling equation allows k=1 as well. Beeson reports a computational
-exclusion at21; this note does not independently prove that exclusion and does
+exclusion at 21; this note does not independently prove that exclusion and does
 not claim a complete alpha spectrum.
 
 ## 5. An explicit counterexample to the printed Lemma 55
@@ -180,14 +192,13 @@ beta-isosceles tiling, and on p92 says:
 
 > By Theorem 18, k divides the coloring number of the new tiling.
 
-But Theorem 18 footnote3 (printed p71) explicitly retracts the former claim
-`gcd(a,c)|M`. The present Theorem 18 does not assert it. This leaves the printed proof of Lemma 55 unsupported at that step. The new
-147-tile construction below goes further and supplies a counterexample to its
-statement.
+But Theorem 18 footnote 3 (printed p71) explicitly retracts the former claim
+`gcd(a,c)|M`. The present Theorem 18 does not assert it. This leaves the printed proof of Lemma 55 unsupported at that step. The new 75-tile construction goes further and supplies a counterexample to
+its statement.
 
-At tile(2,3,4), Lemma 55 would force the theta coloring number t to be even.
-But Section 6 constructs N=147, t=7, equal sides42 andbase21, so its coloring
-number M=7 is odd and mu=X/c=21/2 is nonintegral. Its hypotheses hold:
+At tile (2,3,4), Lemma 55 would force the theta coloring number t to be even.
+The [75-tile construction](theta-75-construction.md) has equal sides 30 and base 15,
+so its coloring number M=5 is odd and mu=X/c=15/2 is nonintegral. Its hypotheses hold:
 b=3 is squarefree and gcd(b,c-a)=gcd(3,2)=1. This is therefore a concrete
 counterexample to Lemma 55 as printed.
 
@@ -195,7 +206,7 @@ The known beta scale-three tiling N=99 also has odd coloring number9, so the
 intermediate blanket beta divisibility is false. That beta construction is due
 to Bonfioli and is audited separately in `scale-spectra.md`.
 
-## 6. Odd theta seeds:147 and243
+## 6. Odd theta seeds:147 and 243
 
 Use the macrogeometry of Theorem 24 but allow both orientations of the a-by-b
 cells in its parallelograms. Keep `(a,b,c)=(2,3,4)`. For target count `3T²`, put
@@ -205,15 +216,15 @@ cells in its parallelograms. Keep `(a,b,c)=(2,3,4)`. For target count `3T²`, pu
     r=3T/2-8, final_width=26-2T.
 
 The five triangular blocks have integer scales even when T is odd. The first
-parallelogram has horizontal length `L=3T-16` and slanted length6, with included
+parallelogram has horizontal length `L=3T-16` and slanted length 6, with included
 angle gamma. Write `L=2x+3y` with x,y nonnegative integers. Since6 is divisible
-by both2 and3, each horizontal2 strip can use 2-by-3 cells and each horizontal3
+by both2 and3, each horizontal2 strip can use 2-by-3 cells and each horizontal 3
 strip can use3-by-2 cells. Thus r itself need not be an integer.
 
 The final parallelogram has horizontal length `3(T-4)` and slanted length
-`26-2T`, an even integer, so it is a grid with horizontal3 and slanted2 steps.
-For T7, take `L=5=2+3`; for T9, take `L=11=4*2+3`. Both layouts fit with
-positive dimensions. Their tile counts are respectively147 and243.
+`26-2T`, an even integer, so it is a grid with horizontal 3 and slanted 2 steps.
+For T=7, take `L=5=2+3`; for T=9, take `L=11=4*2+3`. Both layouts fit with
+positive dimensions. Their tile counts are respectively 147 and 243.
 
 For the 147-tile example, coordinates `(x,y)` mean physical `(x,y*sqrt(15))`.
 An explicit macrodissection is:
@@ -232,36 +243,38 @@ An explicit macrodissection is:
 | V | `(15/2,9/2)` |
 
 The target is ABC. Its five similar triangular pieces are APG, AGK, BKL, PGQ,
-and KLV, at scales 4,6,6,2,3. Parallelogram PCRQ has sides 5 and6 at gamma;
-split its horizontal 5 into2+3 and tile the two strips as explained above.
-Parallelogram GRLV has sides 9 and12 at gamma; use a 3-by-6 array of cells
-with side lengths 3 and2. The seven piece counts are
+and KLV, at scales 4,6,6,2,3. Parallelogram PCRQ has sides 5 and 6 at gamma;
+split its horizontal 5 into 2+3 and tile the two strips as explained above.
+Parallelogram GRLV has sides 9 and 12 at gamma; use a 3-by-6 array of cells
+with side lengths 3 and 2. The seven piece counts are
 
     16+36+36+4+9+10+36 = 147.
 
 The coordinates directly show that the pieces have disjoint interiors and
 exhaust ABC; alternatively this follows from the exact checks below. Thus the
-smallest stated counterexample can be inspected without reconstructing a
+147-tile counterexample can be inspected without reconstructing a
 published diagram.
 
 The explicit coordinate generator `../scripts/generate_theta.py` uses the rational
 metric `dx²+15dy²` and outputs every tile. The certificates
-`../data/theta-147.json` and`../data/theta-243.json` pass exact
+`../data/theta-147.json` and `../data/theta-243.json` pass exact
 side congruence, containment, summed area, and every pair's nonoverlap check.
 These numerical certificates supplement the macrogeometry and do not replace
 its general proof. A separate exact-arithmetic replay checked all pairs by convex polygon clipping
 and checked edge cancellation at T-junctions; see [the audit](audits/theta.md).
 
-For propagation, use target unit vectors p,q with equal length6 and included
-angle alpha. In the scale-addition parallelogram, one side has length6m and the
-other6n. If either m or n is even, one side can be divided into c4 steps and the
+For propagation, use target unit vectors p,q with equal length 6 and included
+angle alpha. In the scale-addition parallelogram, one side has length 6m and the
+other 6n. If either m or n is even, one side can be divided into c=4 steps and the
 other into b=3 steps. Thus any two existing scales can be added when one is even.
-The existing even scales 4 and6 give all even scales at least4. Starting with7
-and9 and repeatedly adding4 gives every odd scale at least=7. Therefore
+The existing even scales 4 and 6 give all even scales at least 4. Starting with 7
+and 9 and repeatedly adding 4 gives every odd scale at least 7.
 
-    theta(2,3,4): all N=3T² with T>=4 except possibly T=5 exist.
+The remaining T=5 case is now filled by the [75-tile construction](theta-75-construction.md).
+Starting from T=4,5,6,7 and repeatedly adding 4 covers every integer T>=4.
+Together with the necessary count form and Section 3, this proves
 
-Together with Section 3, N=75 is the only undecided case in this fixed branch.
+    theta(2,3,4): N=3T² is realizable if and only if integer T>=4.
 
 ## 7. An effective eventual construction for a broad uniform family
 
@@ -270,16 +283,17 @@ Beeson's Theorem 24. Let `F=(a-1)(b-1)`. Then every integer
 
     T >= ceil((a²c+F)(a²+b²)/(u Delta))
 
-admits a theta-isosceles tiling with exactly `N=bT²` tiles. In particular, if
-b is squarefree, the area equation shows these are all possible count forms,
-and the theorem settles every sufficiently large scale with an explicit bound.
+admits a theta-isosceles tiling with exactly `N=bT²` tiles. The parity argument
+in Section 1 shows these are all possible count forms for every primitive
+tile. The theorem therefore settles every sufficiently large admissible
+scale in this parameter range with an explicit bound.
 
 Here u is the primitive parameter `a=uv,c=v²`. Choose an integer J in
 
     uT/(a²+b²) <= J <= (ubT-F)/(a²c).
 
-The displayed bound makes the interval length at least1, so such J exists and
-is positive. Set the target scale `mu=bT/v`, so equal sides `X=bvT` andbase
+The displayed bound makes the interval length at least 1, so such J exists and
+is positive. Set the target scale `mu=bT/v`, so equal sides `X=bvT` and base
 `Y=ubT`. In the local notation of Theorem 24 choose its green scale `p=a²J`.
 The triangular blocks have scales
 
@@ -317,10 +331,9 @@ Theorem 24 apply, regardless of whether its auxiliary r is integral; only actual
 side lengths and the indicated triangular scales must fit. The resulting target
 has area `X²/(bc)=bT²` tile areas, proving the construction.
 
-At `(2,3,4)`, Delta23, F2, and the bound is T>=11; Section 6 improves the result
-using explicit smaller seeds. When b is not squarefree, this theorem covers the
-subfamily N=bT²; it does not dispose of other possible square multiples of the
-squarefree kernel of b. When Delta<0, this particular macrogeometry fails; no
+At `(2,3,4)`, Delta=23, F=2, and the bound is T>=11; Section 6 improves the result
+using explicit smaller seeds. The two-character necessity eliminates any
+additional count forms when b is not squarefree. When Delta<0, this particular macrogeometry fails; no
 claim is made here about that complementary range.
 
 ## 8. What prevents a full classification

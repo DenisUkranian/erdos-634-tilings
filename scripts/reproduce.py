@@ -46,19 +46,29 @@ def main():
     independent = json.loads(run("scripts/verify_322.py", "data/tiling-322.json"))
     print("INDEPENDENT_322_REPLAY=PASS (51681 pairs; T-junction seams checked)", flush=True)
     theta = [json.loads(line) for line in run("scripts/generate_theta.py", "--check").splitlines() if line]
-    print("THETA_CONSTRUCTION_REPLAY=PASS (48, 108, 147, 243, 300 tiles)", flush=True)
+    print("THETA_CONSTRUCTION_REPLAY=PASS (48, 75, 108, 147, 243, 300 tiles)", flush=True)
     theta_odd = json.loads(run("scripts/verify_theta_odd.py"))
-    print("INDEPENDENT_THETA_ODD_REPLAY=PASS (10731 and 29403 pairs; seams checked)", flush=True)
+    print("INDEPENDENT_THETA_ODD_REPLAY=PASS (2775, 10731 and 29403 pairs; seams checked)", flush=True)
     collars = json.loads(run("scripts/verify_n105_collars.py"))
     if collars.get("verdict") != "PASS" or collars.get("complete_tiling") is not False:
         raise ValueError("Unexpected partial-collar result or scope")
     print("N105_PARTIAL_COLLARS=PASS (990 and 1596 pairs; not complete tilings)", flush=True)
+    collar_refutations = json.loads(run("scripts/verify_n105_collar_refutations.py"))
+    if (collar_refutations.get("verdict") != "PASS"
+            or collar_refutations.get("scope") != "two_fixed_collars_only"
+            or collar_refutations.get("global_N105_decided") is not False):
+        raise ValueError("Unexpected fixed-collar refutation result or scope")
+    print("N105_FIXED_COLLAR_REFUTATIONS=PASS (one blocked corner in each fixed collar; no global N105 decision)", flush=True)
     invariants = json.loads(run("scripts/check_n105_invariants.py"))
     print("N105_INVARIANT_CHECKS=PASS (exact branch arithmetic and formal boundary identity)", flush=True)
     bridges = [json.loads(line) for line in run("scripts/check_bridges.py").splitlines() if line]
     print(f"BRIDGE_REPLAY=PASS ({len(bridges)} exact examples)", flush=True)
     scale_bridges = [json.loads(line) for line in run("scripts/check_scale_bridges.py").splitlines() if line]
     print(f"W_BETA_BRIDGE_REPLAY=PASS ({len(scale_bridges)} exact examples)", flush=True)
+    eventual = json.loads(run("scripts/check_eventual_families.py"))
+    if eventual.get("status") != "PASS":
+        raise ValueError("Unexpected eventual-family check result")
+    print(f"EVENTUAL_FAMILY_MACRO_CHECKS=PASS ({eventual['general_macro_sweep']} macro cases; {eventual['transfer_parameter_pairs']} transfer parameter pairs; not individual-tile replay)", flush=True)
     run("-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py")
     print("VERIFIER_REJECTION_TESTS=PASS (9 rejected cases; positive control accepted)", flush=True)
     report = {
@@ -68,9 +78,11 @@ def main():
         "theta_certificates": theta,
         "independent_theta_odd_replay": theta_odd,
         "n105_partial_collars": collars,
+        "n105_fixed_collar_refutations": collar_refutations,
         "n105_invariant_checks": invariants,
         "bridge_examples": bridges,
         "w_beta_bridge_examples": scale_bridges,
+        "eventual_family_macro_checks": eventual,
         "rejection_cases": 9, "positive_controls": 1,
         "scope": "Finite certificates and implementation checks only; not formal verification of the prime-case candidate or full Erdős 634.",
     }

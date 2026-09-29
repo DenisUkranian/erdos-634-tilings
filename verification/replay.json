@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "manifest_files": 68,
+  "manifest_files": 86,
   "construction_certificates": [
     {
       "u": 1,
@@ -77,6 +77,17 @@
       "v": 2
     },
     {
+      "N": 75,
+      "all_squared_sides": "PASS",
+      "certificate": "theta-75.json",
+      "containment": "PASS",
+      "nontrivial_pairs": 186,
+      "pairwise_nonoverlap": "PASS",
+      "total_area": "PASS",
+      "u": 1,
+      "v": 2
+    },
+    {
       "N": 108,
       "all_squared_sides": "PASS",
       "certificate": "theta-108.json",
@@ -122,6 +133,34 @@
     }
   ],
   "independent_theta_odd_replay": [
+    {
+      "verdict": "PASS",
+      "t": 5,
+      "N": 75,
+      "sha256": "716099a03643eb8a4711cb836566fed8b273d8117c18ff3122fa8eedb98d005c",
+      "tile_sides": [
+        2,
+        3,
+        4
+      ],
+      "target_sides": [
+        15,
+        30,
+        30
+      ],
+      "denominator": 8,
+      "metric_y_square": 15,
+      "each_tile_area": "3*sqrt(15)/4",
+      "target_area": "225*sqrt(15)/4",
+      "tested_pairs": 2775,
+      "zero_area_contact_pairs": 311,
+      "positive_area_pair_intersections": 0,
+      "vertices": 62,
+      "interior_atomic_edges": 114,
+      "boundary_atomic_edges": 22,
+      "generator_imported": false,
+      "author_sat_used": false
+    },
     {
       "verdict": "PASS",
       "t": 7,
@@ -223,6 +262,57 @@
         "exact_metric": "(x*x+x*y+y*y)/scale**2",
         "coordinate_basis": "(1,0),(1/2,sqrt(3)/2)",
         "complete_tiling": false
+      }
+    ]
+  },
+  "n105_fixed_collar_refutations": {
+    "verdict": "PASS",
+    "scope": "two_fixed_collars_only",
+    "global_N105_decided": false,
+    "results": [
+      {
+        "verdict": "PASS_FIXED_COLLAR_NONEXTENDABILITY",
+        "tile": [
+          5,
+          21,
+          19
+        ],
+        "fixed_collar_tiles": 45,
+        "collar_sha256": "3c00405995fb0a4d92c8c987e1a7bd69a51fe292c2a54566ed50ebf4ec98b3f5",
+        "proof_file": "n105-collar-refutation-5-21-19.json",
+        "proof_sha256": "8655ccd350a2661c5e280be36c52c4e8bb75b85c51cd17a7f318bc7044d429b2",
+        "complete_proof_nodes": 1,
+        "leaves": 1,
+        "max_added_tiles": 0,
+        "rational_clipping_pair_tests": 1100,
+        "angle_sum_keys": 108,
+        "search_imported": false,
+        "polygon_subtraction_used": false,
+        "local_empty_sectors_verified_directly": true,
+        "node_cap": null,
+        "global_N105_decided": false
+      },
+      {
+        "verdict": "PASS_FIXED_COLLAR_NONEXTENDABILITY",
+        "tile": [
+          7,
+          15,
+          13
+        ],
+        "fixed_collar_tiles": 57,
+        "collar_sha256": "a986ec475db0ecccfe4cc46d740d4c64158be510e6aba80a0869e974a08d6b24",
+        "proof_file": "n105-collar-refutation-7-15-13.json",
+        "proof_sha256": "d7de1c4bbc49e0e722624162b32f4c9fcd32891018206775145a712eece6e156",
+        "complete_proof_nodes": 1,
+        "leaves": 1,
+        "max_added_tiles": 0,
+        "rational_clipping_pair_tests": 1796,
+        "angle_sum_keys": 58,
+        "search_imported": false,
+        "polygon_subtraction_used": false,
+        "local_empty_sectors_verified_directly": true,
+        "node_cap": null,
+        "global_N105_decided": false
       }
     ]
   },
@@ -466,6 +556,101 @@
       "family": "W"
     }
   ],
+  "eventual_family_macro_checks": {
+    "named_macro_checks": [
+      {
+        "u": 1,
+        "v": 2,
+        "tile": [
+          2,
+          3,
+          4
+        ],
+        "T": 11,
+        "bound": 11,
+        "J": 1,
+        "Delta": 23,
+        "N": 363,
+        "macro_counts": [
+          16,
+          36,
+          196,
+          4,
+          49,
+          34,
+          28
+        ],
+        "base_strip_decomposition": [
+          7,
+          1
+        ],
+        "macro_pair_checks": 21,
+        "all_macro_sss_containment_area_nonoverlap": "PASS"
+      },
+      {
+        "u": 1,
+        "v": 3,
+        "tile": [
+          3,
+          8,
+          9
+        ],
+        "T": 14,
+        "bound": 14,
+        "J": 1,
+        "Delta": 503,
+        "N": 1568,
+        "macro_counts": [
+          81,
+          576,
+          225,
+          9,
+          25,
+          62,
+          590
+        ],
+        "base_strip_decomposition": [
+          5,
+          2
+        ],
+        "macro_pair_checks": 21,
+        "all_macro_sss_containment_area_nonoverlap": "PASS"
+      },
+      {
+        "u": 3,
+        "v": 5,
+        "tile": [
+          15,
+          16,
+          25
+        ],
+        "T": 452,
+        "bound": 452,
+        "J": 3,
+        "Delta": 2071,
+        "N": 3268864,
+        "macro_counts": [
+          455625,
+          518400,
+          1288225,
+          164025,
+          463761,
+          260334,
+          118494
+        ],
+        "base_strip_decomposition": [
+          315,
+          6
+        ],
+        "macro_pair_checks": 21,
+        "all_macro_sss_containment_area_nonoverlap": "PASS"
+      }
+    ],
+    "general_macro_sweep": 132,
+    "transfer_parameter_pairs": 199,
+    "status": "PASS",
+    "scope": "Exact macroregions and integral grid counts; not individual-tile replay."
+  },
   "rejection_cases": 9,
   "positive_controls": 1,
   "scope": "Finite certificates and implementation checks only; not formal verification of the prime-case candidate or full Erd\u0151s 634."

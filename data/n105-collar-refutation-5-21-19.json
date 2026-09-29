@@ -1,0 +1,33 @@
+{
+  "format": "fixed-collar-corner-refutation-v1",
+  "tile": [
+    5,
+    21,
+    19
+  ],
+  "target_side": 105,
+  "collar_file": "n105-collar-5-21-19.json",
+  "collar_sha256": "3c00405995fb0a4d92c8c987e1a7bd69a51fe292c2a54566ed50ebf4ec98b3f5",
+  "root": 0,
+  "nodes": [
+    {
+      "point": [
+        "5",
+        "21"
+      ],
+      "outgoing_unit": [
+        "1",
+        "0"
+      ],
+      "incoming_back": [
+        "-70/19",
+        "294/19"
+      ],
+      "eligible_corner_types": [
+        0,
+        2
+      ],
+      "children": {}
+    }
+  ]
+}

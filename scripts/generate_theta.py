@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reconstruct Beeson48/108, construct odd theta147/243 and the300-tile sum.
+"""Reconstruct theta tilings48,75,108,147,243,300 by explicit macrodissections.
 Coordinates (x,y) mean physical (x,y*sqrt(15)). Exact rational generation.
 """
 from fractions import Fraction as F
@@ -90,16 +90,43 @@ def pack(obj):
  if 'seed_parameters' in obj:
   obj['seed_parameters']={k:(int(v) if isinstance(v,F) and v.denominator==1 else str(v) if isinstance(v,F) else v) for k,v in obj['seed_parameters'].items()}
  return {**obj,'target':conv(obj['target']),'tiles':[conv(t) for t in obj['tiles']],'denominator':den,'D':15,'a':2,'b':3,'c':4,'u':1,'v':2,'source':('Beeson Figure21/Theorem24' if obj['N'] in(48,108) else 'mixed-strip extension of Beeson Theorem24' if obj['N'] in(147,243) else 'scale-addition construction')}
+def para75(origin,e,f,m,n,diagonal):
+ out=[]
+ for i in range(m):
+  for j in range(n):
+   z=add(origin,add(scale(e,i),scale(f,j)));ze=add(z,e);zf=add(z,f);zef=add(ze,f)
+   if diagonal=='sum':out.extend((ccw((z,ze,zef)),ccw((z,zf,zef))))
+   else:out.extend((ccw((z,ze,zf)),ccw((ze,zef,zf))))
+ return out
+
+def construct75():
+ A=P(0,0);B=P(F(15,2),F(15,2));C=P(15,0)
+ P0=P(8,0);G=P(F(21,4),F(3,4));K=P(3,3);L=P(F(27,2),F(3,2))
+ U=P(4,2);V=P(10,2);W=P(F(19,4),F(5,4));Z=P(F(43,4),F(5,4))
+ R=P(F(45,4),F(3,4));S=P(12,0);H=P(F(37,4),F(3,4));J=P(F(21,2),F(3,2))
+ pieces=[('green_square',grid((A,P0,G),2)),('blue_square',grid((A,G,K),3)),('yellow_square',grid((B,K,L),6)),
+ ('patch_square',grid((K,U,V),2)),
+ ('upper_strip',para75(U,P(2,0),P(F(3,4),F(-3,4)),3,1,'sum')),
+ ('middle_strip',para75(W,P(3,0),P(F(1,2),F(-1,2)),2,1,'sum')),
+ ('lower_strip',para75(G,P(4,0),P(F(11,8),F(-3,8)),1,2,'difference')),
+ ('lower_single',[ccw((H,R,S))]),('right_single',[ccw((V,L,J))]),
+ ('right_strip',para75(J,P(3,0),P(F(1,2),F(-1,2)),1,3,'sum'))]
+ tiles=[];components=[]
+ for name,batch in pieces:
+  components.append({'name':name,'first':len(tiles),'count':len(batch)});tiles+=batch
+ conv=lambda t:[[int(8*x) for x in p] for p in t]
+ return {'a':2,'b':3,'c':4,'u':1,'v':2,'D':15,'N':75,'denominator':8,'target':conv(ccw((A,B,C))),'tiles':[conv(t) for t in tiles],'components':components,'source':'Explicit ten-piece dissection: four quadratic triangle blocks, four ordinary parallelogram grids, two individual tiles. Found in this project,2026-09-29; not a new globally admissible count.'}
+
 def certificates():
  s2=seed(6,2);s3=seed(9,4)
- return [pack(raw) for raw in(s2,s3,seed(F(21,2),4),seed(F(27,2),4),add_seeds(s2,s3))]
+ return [pack(s2),construct75(),pack(s3),pack(seed(F(21,2),4)),pack(seed(F(27,2),4)),pack(add_seeds(s2,s3))]
 
 def main():
  import argparse
  parser=argparse.ArgumentParser(description=__doc__)
  mode=parser.add_mutually_exclusive_group()
- mode.add_argument('--check',action='store_true',help='Regenerate, compare, and verify the five stored certificates (default).')
- mode.add_argument('--write',action='store_true',help='Verify and write the five deterministic certificates.')
+ mode.add_argument('--check',action='store_true',help='Regenerate, compare, and verify the six stored certificates (default).')
+ mode.add_argument('--write',action='store_true',help='Verify and write the six deterministic certificates.')
  args=parser.parse_args()
  directory=Path(__file__).resolve().parents[1]/'data'
  for obj in certificates():

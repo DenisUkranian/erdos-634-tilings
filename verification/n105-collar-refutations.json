@@ -1,0 +1,51 @@
+{
+  "verdict": "PASS",
+  "scope": "two_fixed_collars_only",
+  "global_N105_decided": false,
+  "results": [
+    {
+      "verdict": "PASS_FIXED_COLLAR_NONEXTENDABILITY",
+      "tile": [
+        5,
+        21,
+        19
+      ],
+      "fixed_collar_tiles": 45,
+      "collar_sha256": "3c00405995fb0a4d92c8c987e1a7bd69a51fe292c2a54566ed50ebf4ec98b3f5",
+      "proof_file": "n105-collar-refutation-5-21-19.json",
+      "proof_sha256": "8655ccd350a2661c5e280be36c52c4e8bb75b85c51cd17a7f318bc7044d429b2",
+      "complete_proof_nodes": 1,
+      "leaves": 1,
+      "max_added_tiles": 0,
+      "rational_clipping_pair_tests": 1100,
+      "angle_sum_keys": 108,
+      "search_imported": false,
+      "polygon_subtraction_used": false,
+      "local_empty_sectors_verified_directly": true,
+      "node_cap": null,
+      "global_N105_decided": false
+    },
+    {
+      "verdict": "PASS_FIXED_COLLAR_NONEXTENDABILITY",
+      "tile": [
+        7,
+        15,
+        13
+      ],
+      "fixed_collar_tiles": 57,
+      "collar_sha256": "a986ec475db0ecccfe4cc46d740d4c64158be510e6aba80a0869e974a08d6b24",
+      "proof_file": "n105-collar-refutation-7-15-13.json",
+      "proof_sha256": "d7de1c4bbc49e0e722624162b32f4c9fcd32891018206775145a712eece6e156",
+      "complete_proof_nodes": 1,
+      "leaves": 1,
+      "max_added_tiles": 0,
+      "rational_clipping_pair_tests": 1796,
+      "angle_sum_keys": 58,
+      "search_imported": false,
+      "polygon_subtraction_used": false,
+      "local_empty_sectors_verified_directly": true,
+      "node_cap": null,
+      "global_N105_decided": false
+    }
+  ]
+}

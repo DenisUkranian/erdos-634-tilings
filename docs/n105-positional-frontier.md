@@ -3,11 +3,17 @@
 29 September 2026. Research result checked by exact arithmetic; no priority or external review claim.
 
 **No complete 105-tiling or proof excluding every 105-tiling was obtained.**
-The new result is an explicit limitation of a natural geometric approach:
-both surviving rational 60-degree equilateral candidates admit a complete,
-positive-width boundary collar made of congruent tiles. Every boundary
-junction can be filled consistently. The obstruction, if proved geometrically,
-must use the remaining interior or propagate substantially beyond this collar.
+Both surviving rational 60-degree equilateral candidates admit the explicit
+positive-width boundary collars described below. These partial configurations
+satisfy outer-boundary coverage, congruence, nonoverlap, and all outer junctions.
+Further analysis shows that **neither of these two fixed collars can extend**:
+in each, one convex corner on the inner rim has no possible first tile.
+See the [four-placement proof and independent replay](n105-fixed-collar-obstructions.md).
+
+The precise lesson is that the outer-boundary checks alone are insufficient;
+inner-rim extendability is an additional necessary condition. This is not a
+barrier to all arguments based on a first boundary layer, and it does not
+exclude other collars or settle N=105.
 
 ## 1. The boundary-junction lemma
 
@@ -74,7 +80,9 @@ The residual polygon stays strictly inside the target. The minimum of its
 three oblique barycentric coordinates is `25/19` in the first case and
 `49/13` in the second. In particular these are genuine positive-width
 boundary collars, not merely nonoverlapping tiles that touch the sides.
-The remaining interior has positive area and has **not** been tiled.
+The remaining interior has positive area. For these two fixed collars, a
+subsequent exact four-placement check proves that it **cannot** be tiled
+without changing the collar.
 
 An independent verifier, without importing the construction script, checked:
 
@@ -142,7 +150,17 @@ source should not be imported without a separate general argument.
 ## 5. Scope
 
 The arithmetic exclusion of the irrational 120-degree equilateral branch at
-105 from the earlier arithmetic analysis remains valid. The two 60-degree candidates
-and the F1 candidate are not settled by the new work here. The exact collars
-locate a real limitation of first-layer boundary forcing; they are not a
-solution of N=105 or of Erdős problem 634.
+105 from the earlier arithmetic analysis remains valid. The two 60-degree
+targets and the F1 candidate remain unsettled by our own work.
+
+The coordinate certificates establish valid partial boundary collars. A
+subsequent exact local argument proves that these **two fixed placements**
+cannot extend: at the oblique point `(a,b)`, the remaining angle is
+`alpha+gamma`, and all four possible first-tile placements overlap an existing
+collar tile. Each refutation has a complete one-node certificate independently
+checked without the search's polygon subtraction or boundary stitching.
+
+Thus outer-boundary coverage, congruence and nonoverlap alone do not guarantee
+extendability. The result does not show that an arbitrary first-layer forcing
+argument must fail, and it is not an exclusion of all N=105 tilings or a
+solution of Erdős problem 634.

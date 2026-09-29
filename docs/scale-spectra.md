@@ -5,6 +5,11 @@ structural theorem and checks two complete fixed-tile spectra. It does not
 classify all instances of Erdős problem 634. No priority or external-review
 claim is made.
 
+**Later refinement in this snapshot.** The [eventual rational-family
+construction](eventual-rational-families.md) proves that both divisors
+are $d=1$ whenever $b(a^2+b^2)-a^2c>0$, with an explicit threshold.
+The structural theorem below applies also in the complementary range.
+
 ## 1. Statements and attribution
 
 Fix coprime integers `0<u<v` and the primitive tile

@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — research snapshot, 29 September 2026
+## 0.1.0 — initial research snapshot, 29 September 2026
 
 - Present the candidate classification of all prime tile counts in a complete manuscript, with the two new scale-one obstruction arguments, an exhaustive case table, the remaining branch calculations and explicit existence constructions.
 - Present the two-piece construction for the rational target shape $(2\alpha,\alpha,2\beta)$ and the exact fixed-tile spectrum $k^2(2v^2-u^2)(3v^2-u^2)$.
@@ -18,4 +18,18 @@
 - Keep the full composite-count classification unresolved and document the remaining research frontier.
 - Exclude historical upstream-derived code with unresolved redistribution terms from this curated current snapshot.
 
-This entry describes the version's contents. It is not a receipt that a remote GitHub release has been published. Future substantive mathematical corrections should receive a new recorded version, and previously published tags should not be silently retargeted.
+This entry describes the initial snapshot's contents. The dated research update below supersedes its then-open 75-tile instance. It is not a receipt that a separate remote GitHub release has been published. Previously published tags should not be silently retargeted.
+
+## Research update — 29 September 2026
+
+- Construct and separately verify the 75-tile theta example: target $(30,30,15)$ and tile $(2,3,4)$, with all 2,775 tile pairs checked exactly.
+- Complete the fixed-tile theta spectrum: exactly $N=3t^2$ for every integer $t\ge4$, with no remaining exception at $t=5$.
+- Add `data/theta-75.json`, bringing the theta certificate set to six examples; the separate odd-scale replay now checks 75, 147 and 243 tiles.
+- Strengthen the necessary form in the rational theta branch to $N=bT^2$ for all primitive tiles, using two direction characters and parity, including nonsquarefree $b$.
+- Establish the corresponding necessary form $N=b(b+c)K^2$ in the alpha-isosceles branch for every primitive tile.
+- Give an explicit eventual construction bound for all five rational target shapes when $\Delta=b(a^2+b^2)-a^2c>0$. In particular, the eventual $W$ and beta scale divisors are $d=1$ in that range; the complementary range and small exceptions remain open in general.
+- Check the eventual macrogeometry over 132 parameter pairs and the transfers over 199 parameter pairs using exact arithmetic, with the finite scope recorded separately from the universal proof.
+- Record the smaller counterexample to Beeson v4 Lemma 55: $\mu=15/2$, $M=5$ in the 75-tile construction.
+- Prove that the two previously constructed $N=105$ boundary collars cannot extend, by a four-placement obstruction at one inner corner in each. Include exact one-node refutations and a separate checker; this is not a global exclusion of 105.
+
+This is a dated research update within the v0.1.0 snapshot. It does not assert that a new release tag exists, and it does not claim a complete solution of Erdős problem 634.

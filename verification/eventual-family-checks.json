@@ -1,0 +1,95 @@
+{
+  "named_macro_checks": [
+    {
+      "u": 1,
+      "v": 2,
+      "tile": [
+        2,
+        3,
+        4
+      ],
+      "T": 11,
+      "bound": 11,
+      "J": 1,
+      "Delta": 23,
+      "N": 363,
+      "macro_counts": [
+        16,
+        36,
+        196,
+        4,
+        49,
+        34,
+        28
+      ],
+      "base_strip_decomposition": [
+        7,
+        1
+      ],
+      "macro_pair_checks": 21,
+      "all_macro_sss_containment_area_nonoverlap": "PASS"
+    },
+    {
+      "u": 1,
+      "v": 3,
+      "tile": [
+        3,
+        8,
+        9
+      ],
+      "T": 14,
+      "bound": 14,
+      "J": 1,
+      "Delta": 503,
+      "N": 1568,
+      "macro_counts": [
+        81,
+        576,
+        225,
+        9,
+        25,
+        62,
+        590
+      ],
+      "base_strip_decomposition": [
+        5,
+        2
+      ],
+      "macro_pair_checks": 21,
+      "all_macro_sss_containment_area_nonoverlap": "PASS"
+    },
+    {
+      "u": 3,
+      "v": 5,
+      "tile": [
+        15,
+        16,
+        25
+      ],
+      "T": 452,
+      "bound": 452,
+      "J": 3,
+      "Delta": 2071,
+      "N": 3268864,
+      "macro_counts": [
+        455625,
+        518400,
+        1288225,
+        164025,
+        463761,
+        260334,
+        118494
+      ],
+      "base_strip_decomposition": [
+        315,
+        6
+      ],
+      "macro_pair_checks": 21,
+      "all_macro_sss_containment_area_nonoverlap": "PASS"
+    }
+  ],
+  "general_macro_sweep": 132,
+  "transfer_parameter_pairs": 199,
+  "status": "PASS",
+  "scope": "Exact macroregions and integral grid counts; not individual-tile replay."
+}

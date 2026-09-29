@@ -4,6 +4,12 @@
 current session and an eventual-periodicity consequence. Its novelty relative
 to the full literature is not established. It does not solve Erdős 634.
 
+**Later refinements.** The [scale-spectrum note](scale-spectra.md) proves
+nonemptiness for every primitive pair and treats both W and beta.
+The [eventual-family theorem](eventual-rational-families.md) further gives
+eventual divisor $d=1$ whenever $b(a^2+b^2)-a^2c>0$. The constructions
+below remain valid; the original scope statement is updated accordingly.
+
 ## Parameters
 
 Fix coprime integers `0<e<f` and the tile
@@ -217,8 +223,9 @@ external novelty/peer-review claim is made.
 
 ## 6. Exact barrier to a full solution
 
-The eventual theorem leaves three data unknown for a general member:
-whether S is empty; its gcd d if not; and the finite exceptional scales.
+The subsequent results cited above establish that S is nonempty. Its
+general gcd d in the complementary parameter range and its finite
+exceptional scales remain undetermined.
 It also covers only rational base-beta pairs. A solution of all of
 Erdős634 must combine every target/tile family and eliminate or realize
 all remaining counts, including composites. Prime nonexistence alone
