@@ -99,9 +99,17 @@ has a separately admissible complete tile fan at each of its 18 convex
 inner corners. Exact witness replay establishes each fan individually;
 it does not establish compatibility between fans at different corners.
 Thus this local full-fan test does not by itself eliminate the candidate.
-The remaining interior still has area equal to 60 tiles.
+The remaining interior still has area equal to 60 tiles. A subsequent
+[six-corner incompatibility proof](n105-six-corner-obstruction.md) now excludes
+this third fixed collar: no mutually compatible selection of its local fans
+exists. Other collars remain outside that proof.
 
 For the 120-degree scalene candidate with tile $(8,7,13)$ and target $(105,56,91)$, a particular macro-decomposition leaves an equilateral 56-tile remainder after a 49-tile corner block. The corner block has not been proved compulsory in every tiling. Therefore this decomposition is not an exclusion proof.
+
+For this F1 target, a [boundary proposition](f1-two-longest-edges.md) forces
+at least two length-13 edges on each external side. Its side of length 56
+therefore has exactly two edges of each length 7, 8 and 13. This reduces
+that side to finitely many orders, but does not exclude all of them.
 
 The established invariant barrier concerns **additive direction-length invariants**. It must not be extended to all noncommutative tiling-group invariants on the strength of finite quotient experiments.
 

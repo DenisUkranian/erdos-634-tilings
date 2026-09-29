@@ -64,7 +64,13 @@ def main():
             or local_fans.get("fans_asserted_jointly_compatible") is not False
             or local_fans.get("global_N105_decided") is not False):
         raise ValueError("Unexpected individual-fan check result or scope")
-    print("N105_INDIVIDUAL_FULL_FANS=PASS (18 separately fillable corners; joint compatibility not established)", flush=True)
+    print("N105_INDIVIDUAL_FULL_FANS=PASS (18 separately fillable corners; individual check only)", flush=True)
+    joint_fans = json.loads(run("scripts/verify_n105_joint_fans.py"))
+    if (joint_fans.get("verdict") != "PASS_FIXED_COLLAR_SIX_CORNER_INCOMPATIBILITY"
+            or joint_fans.get("complete_for_fixed_collar") is not True
+            or joint_fans.get("global_N105_decided") is not False):
+        raise ValueError("Unexpected six-corner refutation result or scope")
+    print("N105_SIX_CORNER_REFUTATION=PASS (third fixed collar only; no global N105 decision)", flush=True)
     invariants = json.loads(run("scripts/check_n105_invariants.py"))
     print("N105_INVARIANT_CHECKS=PASS (exact branch arithmetic and formal boundary identity)", flush=True)
     bridges = [json.loads(line) for line in run("scripts/check_bridges.py").splitlines() if line]
@@ -101,6 +107,7 @@ def main():
         "n105_partial_collars": collars,
         "n105_fixed_collar_refutations": collar_refutations,
         "n105_individual_full_fans": local_fans,
+        "n105_six_corner_refutation": joint_fans,
         "n105_invariant_checks": invariants,
         "bridge_examples": bridges,
         "w_beta_bridge_examples": scale_bridges,

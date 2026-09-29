@@ -23,6 +23,10 @@ This configuration is distinct from the two collars in
 nonextendability proofs remain valid. No extendability claim is made here for
 this new configuration.
 
+**Subsequent result.** The [six-corner incompatibility proof](n105-six-corner-obstruction.md)
+now shows that this same collar cannot extend. The individual positive fan
+witnesses remain valid; their joint incompatibility is the new obstruction.
+
 ## Exact data and replay
 
 - [45-tile collar](../data/n105-local-fan-collar-5-21-19.json).

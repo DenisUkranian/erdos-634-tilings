@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "manifest_files": 113,
+  "manifest_files": 118,
   "construction_certificates": [
     {
       "u": 1,
@@ -338,6 +338,165 @@
       19
     ],
     "verdict": "PASS_INDIVIDUAL_FULL_FANS_ONLY"
+  },
+  "n105_six_corner_refutation": {
+    "admissible_fans_per_sector": 2,
+    "collar_sha256": "8a58a8bbb6a4b69d8372c87ade860cda43c7b311dd7e54d2c9a14e2fd4718792",
+    "complete_for_fixed_collar": true,
+    "convex_sectors": 6,
+    "core_sha256": "3b77058428f8570fa550a75a28e22b4f276174767479955467b4e273fe0b70db",
+    "elimination_steps": 6,
+    "global_N105_decided": false,
+    "initial_collar_pair_tests": 990,
+    "node_cap": null,
+    "pair_conflicts_checked": 8,
+    "placed_tiles": 45,
+    "rational_clipping_tests": 2375,
+    "raw_fan_candidates": {
+      "1": 8,
+      "10": 2,
+      "13": 8,
+      "2": 12,
+      "6": 2,
+      "9": 12
+    },
+    "search_imported": false,
+    "strict_overlap_witnesses": [
+      {
+        "left": [
+          1,
+          1,
+          1
+        ],
+        "right": [
+          6,
+          0,
+          0
+        ],
+        "strict_common_interior_point": [
+          "8897/361",
+          "963877/22743"
+        ]
+      },
+      {
+        "left": [
+          1,
+          1,
+          1
+        ],
+        "right": [
+          6,
+          1,
+          0
+        ],
+        "strict_common_interior_point": [
+          "8897/361",
+          "963877/22743"
+        ]
+      },
+      {
+        "left": [
+          2,
+          0,
+          0
+        ],
+        "right": [
+          1,
+          0,
+          0
+        ],
+        "strict_common_interior_point": [
+          "525909/27436",
+          "380424407/9218496"
+        ]
+      },
+      {
+        "left": [
+          9,
+          0,
+          0
+        ],
+        "right": [
+          13,
+          0,
+          0
+        ],
+        "strict_common_interior_point": [
+          "380424407/9218496",
+          "410812249/9218496"
+        ]
+      },
+      {
+        "left": [
+          9,
+          0,
+          0
+        ],
+        "right": [
+          13,
+          1,
+          0
+        ],
+        "strict_common_interior_point": [
+          "380424407/9218496",
+          "410812249/9218496"
+        ]
+      },
+      {
+        "left": [
+          10,
+          0,
+          0
+        ],
+        "right": [
+          2,
+          1,
+          0
+        ],
+        "strict_common_interior_point": [
+          "9744/361",
+          "24658/1083"
+        ]
+      },
+      {
+        "left": [
+          6,
+          0,
+          0
+        ],
+        "right": [
+          9,
+          1,
+          0
+        ],
+        "strict_common_interior_point": [
+          "24658/1083",
+          "59825/1083"
+        ]
+      },
+      {
+        "left": [
+          6,
+          1,
+          0
+        ],
+        "right": [
+          10,
+          1,
+          0
+        ],
+        "strict_common_interior_point": [
+          "806161/23104",
+          "17114603/485184"
+        ]
+      }
+    ],
+    "tile": [
+      5,
+      21,
+      19
+    ],
+    "verdict": "PASS_FIXED_COLLAR_SIX_CORNER_INCOMPATIBILITY"
   },
   "n105_invariant_checks": {
     "N105_120": [

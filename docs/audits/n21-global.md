@@ -1,6 +1,6 @@
 # Independent audit of the global N=21 reduction
 
-29 September 2026. Internal mathematical audit from a separate ChatGPT review pass; no priority or external-review
+29 September 2026. Internal mathematical audit; no priority or external-review
 claim. This checks the passage from the standard exhaustive shape
 classification to the independently refuted `(2,3,4)`-tile instance.
 
@@ -119,7 +119,7 @@ integer 120-degree triple has `a+b>=8`. The isosceles count equation restricts
 
 ## 4. The final geometric input
 
-The separate checker [verify_alpha21.py](../../scripts/verify_alpha21.py) has already verified the
+The separate checker [`verify_alpha21.py`](../../scripts/verify_alpha21.py) has already verified the
 391-node certificate, expanding every repeated reference under each actual
 placement history. It checks 437 expanded states and 158 dead ends, using
 exact local tangent cones and rational polygon clipping independently of the

@@ -10,6 +10,8 @@
 
 This repository presents a candidate classification of **all prime tile counts**, an eventual construction theorem for **all five rational target shapes in the $3\alpha+2\beta=\pi$ family**, and a complete classification for the fixed tile **$(2,3,4)$**. It also supplies an explicit **322-tile construction** and a separately replayed global exclusion of **21**. The full classification requested in [Erdős problem 634](https://www.erdosproblems.com/634) remains unresolved in this work.
 
+Latest geometric continuation: a [six-corner certificate](docs/n105-six-corner-obstruction.md) excludes a third fixed N=105 collar, and a [boundary argument](docs/f1-two-longest-edges.md) forces exactly two edges of each length on the short side of the remaining (8,7,13) F1 target. Neither result decides 105 globally.
+
 ## Main candidate: all prime counts
 
 The proposed theorem is: for a prime $p$, some triangle can be tiled by $p$ congruent triangles if and only if

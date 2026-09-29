@@ -46,3 +46,8 @@ This is a dated research update within the v0.1.0 snapshot. It does not assert t
 - Add the universal annulus, explicit seed, alpha21, global21 arithmetic, and individual N105 fan checkers to the finite replay.
 
 This update supersedes the earlier statement that the negative-$\Delta$ range remains unresolved for eventual existence. Small-scale exceptions across unbounded primitive parameters, and the other angle families, still prevent a complete solution of Erdős problem 634.
+
+## Further geometric continuation — 29 September 2026
+
+- Exclude the third fixed 45-tile N105 collar by six interacting convex corners. Include a separate exact checker, eight overlap conflicts and a six-step refutation, and integrate its replay.
+- Prove a necessary boundary condition for the (8,7,13) F1 target: two length-13 edges on every outside side and exactly two edges of each length on side 56. No global N105 or full-problem solution is claimed.
