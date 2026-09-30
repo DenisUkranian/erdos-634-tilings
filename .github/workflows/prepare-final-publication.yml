@@ -7,24 +7,46 @@ permissions:
 jobs:
   prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           fetch-depth: 0
           persist-credentials: false
       - name: Prepare clean verified source tree
-        run: |
-          git worktree add "$RUNNER_TEMP/final" 052b654f4a04eee3a28ee449dfe1b02bbd19db32
-          sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-fonts-recommended lmodern
-      - name: Prepare attribution and full CI objects without moving any reference
+        run: git worktree add "$RUNNER_TEMP/final" 052b654f4a04eee3a28ee449dfe1b02bbd19db32
+      - name: Prepare text-only attribution correction and complete CI
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -o pipefail
-          python3 .publication-tools/prepare.py "$RUNNER_TEMP/final" --upload | tee "$RUNNER_TEMP/preparation.log"
-      - name: Export object mapping and rebuilt paper
+          python3 - <<'PY'
+          import ast, os
+          from pathlib import Path
+          tree=ast.parse(Path('.publication-tools/prepare.py').read_text()); kept=[]
+          for n in tree.body:
+              if isinstance(n,ast.Expr) and isinstance(n.value,ast.Call) and isinstance(n.value.func,ast.Name) and n.value.func.id=='replace' and n.value.args and isinstance(n.value.args[0],ast.Constant) and n.value.args[0].value=='research/general-spectra/paper.tex': continue
+              if isinstance(n,ast.For) and isinstance(n.target,ast.Name) and n.target.id=='_': continue
+              if isinstance(n,ast.Expr) and isinstance(n.value,ast.Call) and isinstance(n.value.func,ast.Attribute) and n.value.func.attr=='write_bytes' and 'paper.pdf' in ast.unparse(n): continue
+              kept.append(n)
+          tree.body=kept; text=ast.unparse(tree)
+          ops=[
+          ('research/general-spectra/ATTRIBUTION.md','The direction-functional framework also predates this note:','Harries also proves the equilateral divisibility ab|S for 120-degree tiles, explicitly extending the argument to 60-degree tiles in Remark "What the invariant closes" (inspected lines 990-1020). This conclusion is also prior work; the half-sum proof here is a different short derivation. The original PDF and TeX are retained as the preparation snapshot; this adjacent addendum records the subsequent attribution correction.\n\nThe direction-functional framework also predates this note:'),
+          ('docs/literature-audit-2026-09-30.md','It already contains R=ceil(a/b)+ceil(b/a)','It already proves the equilateral divisibility ab|S, including the 60-degree extension, and contains R=ceil(a/b)+ceil(b/a)'),
+          ('research/general-spectra/PROOF.md','**Attribution addendum (30 September 2026).** Harries,','**Attribution addendum (30 September 2026).** The equilateral divisibility in Theorem 1 is also established in Harries\'s "What the invariant closes" remark, for both angle cases. Harries,'),
+          ('README.md','The 120-degree cutoff refinement and the (45,32,67), m=9 example are prior results','The equilateral divisibility conclusion, the 120-degree cutoff refinement, and the (45,32,67), m=9 example are prior results'),
+          ('docs/full-solution-roadmap.md','A successful route could supply a uniform structural theorem, an exhaustive family of constructions/obstructions, or a genuinely terminating exact membership procedure with a proof of exhaustiveness and termination for arbitrary N. A bounded search, timeout, or parameter cutoff without proof is not such a procedure. No such complete all-N procedure is claimed here.','A successful structural route could supply a uniform theorem or an exhaustive family of constructions and obstructions. The integrated uniform-reduction note now supplies an explicit finite candidate list and a complete abstract per-N search, subject to the cited classification inputs. The general fixed-N decidability principle already appears in earlier literature and is not claimed as a new solution. This does not prove a finite global exception list, nor does it turn any resource-limited INCOMPLETE run into an answer.'),
+          ('STATUS.md','This file distinguishes mathematical claims from the evidence supporting them. It records a prepared research snapshot; it does not by itself assert that a GitHub release has been published or that remote continuous integration has passed.','This ledger distinguishes mathematical claims from their evidence. The research packages are included in the repository. The exact commit and remote verification results are recorded by GitHub Actions; this ledger is not itself a CI success assertion.'),
+          ('STATUS.md','This includes scales and target families not settled by the current results, remains unresolved.','This includes scales and target families not settled by the current results.')]
+          lines=['replace('+','.join(repr(s) for s in op)+')' for op in ops]
+          lines.append("pub=root/'verification/publication.json'; pj=json.loads(pub.read_text());pj['pdf_attribution']='Original general-spectra PDF/TeX retained; adjacent ATTRIBUTION.md and updated PROOF.md record the subsequent source comparison.';pub.write_text(json.dumps(pj,indent=2)+'\\n')")
+          needle="subprocess.run(['python3', 'scripts/build_manifest.py']"
+          if text.count(needle)!=1: raise ValueError('Unexpected preparation script layout')
+          text=text.replace(needle,'\n'.join(lines)+'\n'+needle)
+          Path(os.environ['RUNNER_TEMP'],'fast-prepare.py').write_text(text)
+          PY
+          python3 "$RUNNER_TEMP/fast-prepare.py" "$RUNNER_TEMP/final" --upload | tee "$RUNNER_TEMP/preparation.log"
+      - name: Export object mapping and source audit
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
