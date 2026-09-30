@@ -1,4 +1,4 @@
-name: Import and verify N105 research
+name: Import and verify all research materials
 on:
   push:
     branches: ['publish/materials-20260930']
@@ -14,11 +14,13 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           fetch-depth: 0
-      - name: Restore complete files and verify every source hash
+      - name: Restore all source packages and verify their hashes
         run: |
+          set -o pipefail
           git worktree add "$RUNNER_TEMP/publish" "$BASE"
           mkdir -p "$RUNNER_TEMP/publish/audit-output"
           python .research-transport/import.py "$RUNNER_TEMP/publish" | tee "$RUNNER_TEMP/publish/audit-output/source-import.log"
+          python .research-transport/finish_import.py "$RUNNER_TEMP/publish" | tee "$RUNNER_TEMP/publish/audit-output/uniform-import.log"
       - name: Install document build tools
         run: |
           sudo apt-get update -qq
@@ -30,25 +32,26 @@ jobs:
           python scripts/build_publication_outputs.py 2>&1 | tee audit-output/document-build.log
           python scripts/build_manifest.py
           python scripts/check_repository.py --output audit-output/inventory.json
-      - name: Replay all finite proofs before proposing publication
+      - name: Replay every finite suite including uniform reduction
         run: |
           cd "$RUNNER_TEMP/publish"
           set -o pipefail
           python scripts/verify_all.py --jobs 2 2>&1 | tee audit-output/full-replay.log
-      - name: Create verified commit without changing main
+      - name: Commit verified research content without changing workflows or main
         run: |
           cd "$RUNNER_TEMP/publish"
           git config user.name 'Denis Paliy'
           git config user.email '120090909+DenisUkranian@users.noreply.github.com'
           git add .
-          git commit -m 'Publish complete N105 certificates and general-scale constructions' -m 'Recover and hash-check the prepared source files; rebuild publication PDFs and expanded coordinates; replay all finite suites. Keep the landing page English-only. This commit does not claim the full all-integer problem is solved. The later uniform-reduction package is a separate pending import.'
-          git push origin HEAD:refs/heads/publish/verified-n105-20260930
+          git diff --cached --exit-code "$BASE" -- .github/workflows
+          git commit -m 'Publish N105 proofs, constructive spectra and uniform reduction' -m 'Hash-verify original sources; rebuild PDFs and expanded coordinates; replay legacy, four N105, general-spectra, uniform-reduction and c-relation suites. Preserve workflow files for a separate authorized connector edit. English-only landing page. No complete all-integer classification is claimed.'
           git rev-parse HEAD | tee audit-output/verified-commit.txt
           git archive --format=zip HEAD > audit-output/verified-source.zip
-      - name: Preserve verification evidence
+          git push origin HEAD:refs/heads/publish/verified-n105-20260930
+      - name: Preserve full verification evidence and source snapshot
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: verified-n105-import
+          name: verified-all-research-import
           path: ${{ runner.temp }}/publish/audit-output/
           retention-days: 7
