@@ -1,0 +1,17 @@
+{
+  "base_verified_commit": "052b654f4a04eee3a28ee449dfe1b02bbd19db32",
+  "all_package_import_run": 36760117141,
+  "all_package_import_result": "success",
+  "integrated_modules": [
+    "legacy",
+    "n105",
+    "general-spectra",
+    "uniform-reduction",
+    "c-relations"
+  ],
+  "final_main_ci": "Recorded by GitHub Actions on the final commit; this file does not pre-assert its success.",
+  "full_problem_solved": false,
+  "external_referee_acceptance": false,
+  "note": "English-only publication. Original source records preserved; attribution addendum credits Harries for the existing 120-degree cutoff and 116640 example.",
+  "pdf_attribution": "Original general-spectra PDF/TeX retained; adjacent ATTRIBUTION.md and updated PROOF.md record the subsequent source comparison."
+}

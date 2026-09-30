@@ -24,6 +24,8 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 
 The N=105 root coverage is 120/120 for each scalene target, 15/15 for tile (5,19,21), and 1,788/1,788 for tile (7,13,15). Historical partial collars remain as regression fixtures, not as substitutes for these complete finite proofs.
 
+The equilateral divisibility conclusion, the 120-degree cutoff refinement, and the (45,32,67), m=9 example are prior results in Harries's August 2026 manuscript, rederived and independently implemented here. Read the [attribution addendum](research/general-spectra/ATTRIBUTION.md) and [literature audit](docs/literature-audit-2026-09-30.md).
+
 ## Verification
 
 Python 3.11 or newer; the finite tests use the standard library:

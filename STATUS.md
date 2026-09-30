@@ -2,7 +2,7 @@
 
 **Research snapshot v0.2.0 · 30 September 2026**
 
-This file distinguishes mathematical claims from the evidence supporting them. It records a prepared research snapshot; it does not by itself assert that a GitHub release has been published or that remote continuous integration has passed.
+This ledger distinguishes mathematical claims from their evidence. The research packages are included in the repository. The exact commit and remote verification results are recorded by GitHub Actions; this ledger is not itself a CI success assertion.
 
 | Claim | Status in this work | Supporting material |
 |---|---|---|
@@ -60,7 +60,7 @@ The prime deduction records exact versions and the parts of external results tha
 
 ## What remains
 
-General all-integer classification remains uncompleted even after the global 105 exclusion. This includes scales and target families not settled by the current results, remains unresolved. Specific reductions and any separately settled subfamilies are maintained in [docs/open-frontier.md](docs/open-frontier.md). Do not infer that every count or scale not covered by the main README is either impossible or still open in the literature.
+General all-integer classification remains uncompleted even after the global 105 exclusion. This includes scales and target families not settled by the current results. Specific reductions and any separately settled subfamilies are maintained in [docs/open-frontier.md](docs/open-frontier.md). Do not infer that every count or scale not covered by the main README is either impossible or still open in the literature.
 
 The precise remaining obligations are in [the full-solution roadmap](docs/full-solution-roadmap.md). The repository audit checks all tracked files and runnable finite evidence, not every universal proof in a formal system.
 

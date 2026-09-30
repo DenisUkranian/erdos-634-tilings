@@ -10,6 +10,8 @@ The signed-direction framework is due to the existing source corpus, including V
 
 All tilings below are finite, their interiors are disjoint, reflections are permitted, and edge-to-edge incidence is **not** assumed. T-junctions are permitted throughout. The universal proofs do not depend on our earlier N=105 certificates or the candidate prime-classification manuscript.
 
+**Attribution addendum (30 September 2026).** The equilateral divisibility in Theorem 1 is also established in Harries's "What the invariant closes" remark, for both angle cases. Harries, version 0.5 (28 August 2026), already derives the same 120-degree threshold refinement and explicitly gives the (32,45,67), m=9, N=116640 example. These are rederived and independently implemented here, not first discoveries. See [the source comparison](ATTRIBUTION.md).
+
 ## 1. Two boundary characters and one parity constraint
 
 Let a nondegenerate tile have integer sides a,b,c, corresponding angles alpha,beta,gamma, and gamma equal to 60 or 120 degrees. Assume gcd(a,b,c)=1 and alpha/pi is irrational. Put one external target side horizontally.

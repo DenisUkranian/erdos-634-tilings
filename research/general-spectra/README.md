@@ -4,7 +4,7 @@
 
 **Not a complete solution of Erdős 634. No external review or priority claim.**
 
-Read `PROOF.md` (English) or `RESULT_RU.md` (Russian). The typeset version is
+Read the [attribution addendum](ATTRIBUTION.md) and `PROOF.md`. The typeset version is
 `paper.pdf`, with editable source `paper.tex`.
 
 The equilateral arithmetic proof uses two signed-direction characters and

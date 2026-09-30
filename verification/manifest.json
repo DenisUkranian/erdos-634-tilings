@@ -7,8 +7,8 @@
       "sha256": "d0f55e5c1ad211d6b3afedab5c688c4a0c7d78b6be550510b1faaf6bf29bef9e"
     },
     ".github/workflows/verify.yml": {
-      "bytes": 421,
-      "sha256": "c0dc0b729f24639434737adedfc81144d51346bc8e3b29fc980938e57569aff6"
+      "bytes": 1020,
+      "sha256": "18da8d71571dd44985ac10b16a2680ad0cfc576a86db002c2dbaf42febb12509"
     },
     ".gitignore": {
       "bytes": 168,
@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 4494,
-      "sha256": "04235584525eaf06f6d01e77673b93cc76c80fcc8626fcfbd1c413ea8d5886cf"
+      "bytes": 4837,
+      "sha256": "4205176e35eda8e1e089f2534e0dbed67667de8677a6e799e37c75ac7e027b9f"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 6222,
       "sha256": "fffd6867e51ef7111d9fcbb5176ec3269b0557440c3f8ef2d9985b40c52af576"
     },
     "STATUS.md": {
-      "bytes": 12023,
-      "sha256": "6111162bee6c57030a56aa850a0c5a2c7ee513f6a218ce136a4104de9db386a9"
+      "bytes": 12015,
+      "sha256": "3f5691d9a5e1ca94227933284bf9fd08473c10f422426084ec43a3269672dea8"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -199,8 +199,8 @@
       "sha256": "af7c912f81c87fcabc6c80bd4392f54ed7cc3d0bae84d1e8d9ed4181e8c06b75"
     },
     "docs/full-solution-roadmap.md": {
-      "bytes": 8050,
-      "sha256": "b34fb67071a005864535dfe98fc7946e871f2d9b3f19246a633613c6b2a5269c"
+      "bytes": 8209,
+      "sha256": "86bff1fc62565add118fdbb13b2f0f1b2d4eff2b7c1088ed68dc48a618dec90c"
     },
     "docs/general-spectra.md": {
       "bytes": 2157,
@@ -209,6 +209,10 @@
     "docs/isosceles-120-invariant.md": {
       "bytes": 3600,
       "sha256": "ba1de8ba4966b90883ed373b00c86affa02237eebfcc26df0f63d8d453e6fa6c"
+    },
+    "docs/literature-audit-2026-09-30.md": {
+      "bytes": 3572,
+      "sha256": "2414ab170c942196137f5131542b134f4d7413eb529d6339533ffab73abf4848"
     },
     "docs/local-cap-obstruction.md": {
       "bytes": 4469,
@@ -366,17 +370,21 @@
       "bytes": 547,
       "sha256": "2fcbce5025fcae52e454705ba15c6f0835bd50552f213a532781ab68434bfc3f"
     },
+    "research/general-spectra/ATTRIBUTION.md": {
+      "bytes": 2494,
+      "sha256": "6122251a86291ea2e5147e3c9d81369845a72335d5805c9c9944e3e177275fae"
+    },
     "research/general-spectra/PROOF.md": {
-      "bytes": 15716,
-      "sha256": "b638f1998d61e16b184dc27652391b4c11dd45d0136495987c3f172e4744b7b4"
+      "bytes": 16176,
+      "sha256": "8b9becf0cfdd435bbb1e2cb8e005cd174d6f20b8e049a9ca36e953c69551cf59"
     },
     "research/general-spectra/README.md": {
-      "bytes": 2227,
-      "sha256": "92a0f0b39a8c2f12228f3e0bb26577a00537ad5bcc197c3472c3526552806f2a"
+      "bytes": 2236,
+      "sha256": "2df17eb6eac9397042c3e24cb9b6937d0fa3cdbd91e02a7e5c47bf1e38522faf"
     },
     "research/general-spectra/SHA256SUMS.txt": {
-      "bytes": 1196,
-      "sha256": "6d7723830cad98ee9699b0e42b11be0d7cc4a4b1d6acfb13e2e66dfe2ce7e1f8"
+      "bytes": 1277,
+      "sha256": "ba9b500563d06ad00a31170048f5c88c46e019af4cdcba699ba0868c3d0bcf47"
     },
     "research/general-spectra/VERIFIED_RESULTS.json": {
       "bytes": 2711,
@@ -639,8 +647,8 @@
       "sha256": "95576b6acb715495dc1a72ff0c57a614f45b12514f7612cd701c92e00486e7e7"
     },
     "scripts/build_publication_outputs.py": {
-      "bytes": 2535,
-      "sha256": "a94d07095064d15d8584c21bc33b5102adc48430262c7d9a7609444d6c620a8c"
+      "bytes": 2537,
+      "sha256": "010b5091698fefda2f79ce575bbadc4f3349d83e8f388e7a3e52f684cfa2be0a"
     },
     "scripts/check_bridges.py": {
       "bytes": 2921,
@@ -790,9 +798,13 @@
       "bytes": 1984,
       "sha256": "41faa37b47df57833e5af29c3c64465f37c6a91d3c7aa40e5be1f21b87b48dcc"
     },
+    "verification/publication.json": {
+      "bytes": 783,
+      "sha256": "ea77bd8cb6a84830b601214795353e92bffae1bc7ff36fddb3ee613ab4188fef"
+    },
     "verification/recovered-source-hashes.json": {
-      "bytes": 11639,
-      "sha256": "60adfda02101e2888872a83664da6ed9928b2408723f575f806f2dab2c27a0c9"
+      "bytes": 11855,
+      "sha256": "33b9afa1617820403c4db194921f8c37c7bafaa2acffdef7932a0235fc953f9d"
     },
     "verification/theta-odd.json": {
       "bytes": 1894,

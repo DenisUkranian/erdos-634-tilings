@@ -347,5 +347,7 @@
     "RESULT_RU.md"
   ],
   "source_date": "2026-09-30",
-  "uniform_reduction_package_included": false
+  "uniform_reduction_package_included": true,
+  "uniform_source_provenance": "verification/uniform-source-provenance.json",
+  "scope": "Original recovered source entries before integration and attribution edits; current integrity is verification/manifest.json."
 }

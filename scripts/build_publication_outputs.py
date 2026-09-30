@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild the two publication PDFs and the deterministic expanded coordinate stream.
+"""Rebuild the three publication PDFs and the deterministic expanded coordinate stream.
 
 Verification itself needs only Python. This optional typesetting step needs pandoc,
 XeLaTeX, pdfLaTeX, standard TeX packages, and DejaVu fonts installed locally.
