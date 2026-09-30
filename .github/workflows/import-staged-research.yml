@@ -17,15 +17,17 @@ jobs:
       - name: Restore complete files and verify every source hash
         run: |
           git worktree add "$RUNNER_TEMP/publish" "$BASE"
-          python .research-transport/import.py "$RUNNER_TEMP/publish"
+          mkdir -p "$RUNNER_TEMP/publish/audit-output"
+          python .research-transport/import.py "$RUNNER_TEMP/publish" | tee "$RUNNER_TEMP/publish/audit-output/source-import.log"
       - name: Install document build tools
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-dejavu-core
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-dejavu-core lmodern
       - name: Rebuild publication outputs and integrity manifests
         run: |
           cd "$RUNNER_TEMP/publish"
-          python scripts/build_publication_outputs.py
+          set -o pipefail
+          python scripts/build_publication_outputs.py 2>&1 | tee audit-output/document-build.log
           python scripts/build_manifest.py
           python scripts/check_repository.py --output audit-output/inventory.json
       - name: Replay all finite proofs before proposing publication
