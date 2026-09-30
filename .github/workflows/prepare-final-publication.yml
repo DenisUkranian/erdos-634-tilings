@@ -1,0 +1,35 @@
+name: Prepare final publication objects
+on:
+  push:
+    branches: ['publish/finalize-20260930']
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Prepare clean verified source tree
+        run: |
+          git worktree add "$RUNNER_TEMP/final" 052b654f4a04eee3a28ee449dfe1b02bbd19db32
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-fonts-recommended lmodern
+      - name: Prepare attribution and full CI objects without moving any reference
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -o pipefail
+          python3 .publication-tools/prepare.py "$RUNNER_TEMP/final" --upload | tee "$RUNNER_TEMP/preparation.log"
+      - name: Export object mapping and rebuilt paper
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: final-publication-objects
+          path: |
+            ${{ runner.temp }}/final/audit-output/
+            ${{ runner.temp }}/preparation.log
+          retention-days: 7

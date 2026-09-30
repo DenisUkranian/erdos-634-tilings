@@ -1,20 +1,32 @@
-name: Exact certificate replay
-
+name: Full research verification
 on:
   push:
+    branches: [main]
   pull_request:
   workflow_dispatch:
-
 permissions:
   contents: read
-
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 35
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
-      - name: Replay exact certificates and rejection tests
-        run: python3 scripts/reproduce.py
+      - name: Record source commit
+        run: |
+          mkdir -p audit-output
+          git rev-parse HEAD > audit-output/verified-commit.txt
+          git archive --format=zip HEAD > audit-output/verified-source.zip
+      - name: Replay every published finite suite
+        run: |
+          set -o pipefail
+          python3 scripts/verify_all.py --jobs 2 2>&1 | tee audit-output/full-replay.log
+      - name: Preserve exact verification evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: full-research-verification-${{ github.sha }}
+          path: audit-output/
+          retention-days: 30
