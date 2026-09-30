@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "positive_subdivisions": [
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 1,
+      "pairs": 0,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 4,
+      "pairs": 6,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 9,
+      "pairs": 36,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 1,
+      "pairs": 0,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 4,
+      "pairs": 6,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 9,
+      "pairs": 36,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 1,
+      "pairs": 0,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 4,
+      "pairs": 6,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 9,
+      "pairs": 36,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 1,
+      "pairs": 0,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 4,
+      "pairs": 6,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 9,
+      "pairs": 36,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 1,
+      "pairs": 0,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 4,
+      "pairs": 6,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 9,
+      "pairs": 36,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 1,
+      "pairs": 0,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 4,
+      "pairs": 6,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    },
+    {
+      "status": "ACCEPT_POSITIVE",
+      "n": 9,
+      "pairs": 36,
+      "t_junction_vertices": 0,
+      "search_imported": false
+    }
+  ],
+  "positive75": {
+    "status": "ACCEPT_POSITIVE",
+    "n": 75,
+    "pairs": 2775,
+    "t_junction_vertices": 25,
+    "search_imported": false
+  },
+  "negative_execution_controls": [
+    {
+      "n": 7,
+      "branch": "G1-W",
+      "nodes": 16,
+      "status": "EXHAUSTED"
+    },
+    {
+      "n": 11,
+      "branch": "G1-beta",
+      "nodes": 52,
+      "status": "EXHAUSTED"
+    },
+    {
+      "n": 14,
+      "branch": "G1-W",
+      "nodes": 93,
+      "status": "EXHAUSTED"
+    },
+    {
+      "n": 15,
+      "branch": "E120",
+      "nodes": 93,
+      "status": "EXHAUSTED"
+    },
+    {
+      "n": 21,
+      "branch": "G1-alpha",
+      "nodes": 474,
+      "status": "EXHAUSTED"
+    }
+  ],
+  "known_completion_subsets": 18,
+  "corner_completeness_checks": 274,
+  "maximum_placements_at_checked_corner": 6,
+  "branch_vertices_encountered": 53,
+  "positive75_sha256": "30b43cce6418ff76c1611a325860d8bd8527272ff353e3b7e3a6784e9c89899b",
+  "mutations_rejected": [
+    "missing_tile",
+    "duplicate_tile",
+    "altered_coordinate",
+    "wrong_target",
+    "wrong_count"
+  ],
+  "budget_stops": "INCOMPLETE, not EXHAUSTED",
+  "negative_controls_note": "Search-run EXHAUSTED records are not independently replayed proof-tree certificates.",
+  "seconds": 5.3309
+}

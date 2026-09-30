@@ -1,16 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this research archive, cite the specific version or commit and state which mathematical result or verification component you used."
-title: "Erdos634: prime-case candidate and exact triangle tilings"
+title: "Erdos634: the count 105, constructive spectra, and a prime-case candidate"
 type: software
 authors:
   - family-names: "Paliy"
     given-names: "Denis"
     affiliation: "Independent researcher"
-version: 0.1.0
+version: 0.2.0
 license: MIT
 repository-code: "https://github.com/DenisUkranian/erdos-634-tilings"
 url: "https://github.com/DenisUkranian/erdos-634-tilings"
-abstract: "Research archive containing a candidate classification of prime tile counts in Erdos problem 634, a two-piece construction with a complete fixed-tile count spectrum for one rational target family, and exact coordinate certificates including a 322-tile example. The full all-integer classification is not claimed. Original software is MIT licensed; original manuscripts and documentation are CC BY 4.0."
+abstract: "Research archive containing a computer-assisted exclusion of the global count 105, necessary and constructive scale spectra, exact tiling certificates including 322 and 116640 tiles, and a separately labelled prime-case proof candidate. The complete all-integer classification is not claimed. Original software is MIT licensed; original manuscripts and documentation are CC BY 4.0."
 keywords:
   - "Erdos problem 634"
   - "triangle tilings"
@@ -19,10 +19,10 @@ keywords:
   - "candidate proof"
 preferred-citation:
   type: report
-  title: "Erdos Problem 634: Prime-Case Candidate and Exact Triangle Tilings"
+  title: "Erdos Problem 634: The Count 105, Constructive Spectra, and a Prime-Case Candidate"
   authors:
     - family-names: "Paliy"
       given-names: "Denis"
   year: 2026
-  version: 0.1.0
+  version: 0.2.0
   url: "https://github.com/DenisUkranian/erdos-634-tilings"

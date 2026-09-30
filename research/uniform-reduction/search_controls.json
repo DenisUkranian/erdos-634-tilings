@@ -1,0 +1,2286 @@
+[
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        2,
+        3,
+        4
+      ],
+      "target": [
+        2,
+        3,
+        4
+      ],
+      "n": 1,
+      "parameters": [],
+      "multiplier": 1
+    },
+    "status": "TILING_FOUND",
+    "nodes": 2,
+    "maximum_placed": 1,
+    "seconds": 0.000565,
+    "field_D": 135,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "4",
+        "0"
+      ],
+      [
+        "21/8",
+        "1/8"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "4",
+          "0"
+        ],
+        [
+          "21/8",
+          "1/8"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        2,
+        3,
+        4
+      ],
+      "target": [
+        4,
+        6,
+        8
+      ],
+      "n": 4,
+      "parameters": [],
+      "multiplier": 2
+    },
+    "status": "TILING_FOUND",
+    "nodes": 7,
+    "maximum_placed": 4,
+    "seconds": 0.007315,
+    "field_D": 135,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "8",
+        "0"
+      ],
+      [
+        "21/4",
+        "1/4"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "4",
+          "0"
+        ],
+        [
+          "21/8",
+          "1/8"
+        ]
+      ],
+      [
+        [
+          "21/8",
+          "1/8"
+        ],
+        [
+          "4",
+          "0"
+        ],
+        [
+          "53/8",
+          "1/8"
+        ]
+      ],
+      [
+        [
+          "4",
+          "0"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "53/8",
+          "1/8"
+        ]
+      ],
+      [
+        [
+          "21/8",
+          "1/8"
+        ],
+        [
+          "53/8",
+          "1/8"
+        ],
+        [
+          "21/4",
+          "1/4"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        2,
+        3,
+        4
+      ],
+      "target": [
+        6,
+        9,
+        12
+      ],
+      "n": 9,
+      "parameters": [],
+      "multiplier": 3
+    },
+    "status": "TILING_FOUND",
+    "nodes": 26,
+    "maximum_placed": 9,
+    "seconds": 0.066374,
+    "field_D": 135,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "12",
+        "0"
+      ],
+      [
+        "63/8",
+        "3/8"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "4",
+          "0"
+        ],
+        [
+          "21/8",
+          "1/8"
+        ]
+      ],
+      [
+        [
+          "21/8",
+          "1/8"
+        ],
+        [
+          "4",
+          "0"
+        ],
+        [
+          "53/8",
+          "1/8"
+        ]
+      ],
+      [
+        [
+          "4",
+          "0"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "53/8",
+          "1/8"
+        ]
+      ],
+      [
+        [
+          "21/8",
+          "1/8"
+        ],
+        [
+          "53/8",
+          "1/8"
+        ],
+        [
+          "21/4",
+          "1/4"
+        ]
+      ],
+      [
+        [
+          "21/4",
+          "1/4"
+        ],
+        [
+          "37/4",
+          "1/4"
+        ],
+        [
+          "63/8",
+          "3/8"
+        ]
+      ],
+      [
+        [
+          "8",
+          "0"
+        ],
+        [
+          "12",
+          "0"
+        ],
+        [
+          "85/8",
+          "1/8"
+        ]
+      ],
+      [
+        [
+          "53/8",
+          "1/8"
+        ],
+        [
+          "85/8",
+          "1/8"
+        ],
+        [
+          "37/4",
+          "1/4"
+        ]
+      ],
+      [
+        [
+          "53/8",
+          "1/8"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "85/8",
+          "1/8"
+        ]
+      ],
+      [
+        [
+          "21/4",
+          "1/4"
+        ],
+        [
+          "53/8",
+          "1/8"
+        ],
+        [
+          "37/4",
+          "1/4"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "target": [
+        3,
+        5,
+        7
+      ],
+      "n": 1,
+      "parameters": [],
+      "multiplier": 1
+    },
+    "status": "TILING_FOUND",
+    "nodes": 2,
+    "maximum_placed": 1,
+    "seconds": 0.000535,
+    "field_D": 675,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "7",
+        "0"
+      ],
+      [
+        "65/14",
+        "1/14"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "7",
+          "0"
+        ],
+        [
+          "65/14",
+          "1/14"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "target": [
+        6,
+        10,
+        14
+      ],
+      "n": 4,
+      "parameters": [],
+      "multiplier": 2
+    },
+    "status": "TILING_FOUND",
+    "nodes": 7,
+    "maximum_placed": 4,
+    "seconds": 0.006838,
+    "field_D": 675,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "14",
+        "0"
+      ],
+      [
+        "65/7",
+        "1/7"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "7",
+          "0"
+        ],
+        [
+          "65/14",
+          "1/14"
+        ]
+      ],
+      [
+        [
+          "65/14",
+          "1/14"
+        ],
+        [
+          "7",
+          "0"
+        ],
+        [
+          "163/14",
+          "1/14"
+        ]
+      ],
+      [
+        [
+          "7",
+          "0"
+        ],
+        [
+          "14",
+          "0"
+        ],
+        [
+          "163/14",
+          "1/14"
+        ]
+      ],
+      [
+        [
+          "65/14",
+          "1/14"
+        ],
+        [
+          "163/14",
+          "1/14"
+        ],
+        [
+          "65/7",
+          "1/7"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "target": [
+        9,
+        15,
+        21
+      ],
+      "n": 9,
+      "parameters": [],
+      "multiplier": 3
+    },
+    "status": "TILING_FOUND",
+    "nodes": 25,
+    "maximum_placed": 9,
+    "seconds": 0.058243,
+    "field_D": 675,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "21",
+        "0"
+      ],
+      [
+        "195/14",
+        "3/14"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "7",
+          "0"
+        ],
+        [
+          "65/14",
+          "1/14"
+        ]
+      ],
+      [
+        [
+          "65/14",
+          "1/14"
+        ],
+        [
+          "7",
+          "0"
+        ],
+        [
+          "163/14",
+          "1/14"
+        ]
+      ],
+      [
+        [
+          "7",
+          "0"
+        ],
+        [
+          "14",
+          "0"
+        ],
+        [
+          "163/14",
+          "1/14"
+        ]
+      ],
+      [
+        [
+          "65/14",
+          "1/14"
+        ],
+        [
+          "163/14",
+          "1/14"
+        ],
+        [
+          "65/7",
+          "1/7"
+        ]
+      ],
+      [
+        [
+          "65/7",
+          "1/7"
+        ],
+        [
+          "163/14",
+          "1/14"
+        ],
+        [
+          "114/7",
+          "1/7"
+        ]
+      ],
+      [
+        [
+          "65/7",
+          "1/7"
+        ],
+        [
+          "114/7",
+          "1/7"
+        ],
+        [
+          "195/14",
+          "3/14"
+        ]
+      ],
+      [
+        [
+          "163/14",
+          "1/14"
+        ],
+        [
+          "14",
+          "0"
+        ],
+        [
+          "261/14",
+          "1/14"
+        ]
+      ],
+      [
+        [
+          "14",
+          "0"
+        ],
+        [
+          "21",
+          "0"
+        ],
+        [
+          "261/14",
+          "1/14"
+        ]
+      ],
+      [
+        [
+          "163/14",
+          "1/14"
+        ],
+        [
+          "261/14",
+          "1/14"
+        ],
+        [
+          "114/7",
+          "1/7"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        4,
+        5,
+        6
+      ],
+      "target": [
+        4,
+        5,
+        6
+      ],
+      "n": 1,
+      "parameters": [],
+      "multiplier": 1
+    },
+    "status": "TILING_FOUND",
+    "nodes": 2,
+    "maximum_placed": 1,
+    "seconds": 0.000525,
+    "field_D": 1575,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "6",
+        "0"
+      ],
+      [
+        "15/4",
+        "1/12"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "0"
+        ],
+        [
+          "15/4",
+          "1/12"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        4,
+        5,
+        6
+      ],
+      "target": [
+        8,
+        10,
+        12
+      ],
+      "n": 4,
+      "parameters": [],
+      "multiplier": 2
+    },
+    "status": "TILING_FOUND",
+    "nodes": 8,
+    "maximum_placed": 4,
+    "seconds": 0.009579,
+    "field_D": 1575,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "12",
+        "0"
+      ],
+      [
+        "15/2",
+        "1/6"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "0"
+        ],
+        [
+          "15/4",
+          "1/12"
+        ]
+      ],
+      [
+        [
+          "15/4",
+          "1/12"
+        ],
+        [
+          "6",
+          "0"
+        ],
+        [
+          "39/4",
+          "1/12"
+        ]
+      ],
+      [
+        [
+          "6",
+          "0"
+        ],
+        [
+          "12",
+          "0"
+        ],
+        [
+          "39/4",
+          "1/12"
+        ]
+      ],
+      [
+        [
+          "15/4",
+          "1/12"
+        ],
+        [
+          "39/4",
+          "1/12"
+        ],
+        [
+          "15/2",
+          "1/6"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        4,
+        5,
+        6
+      ],
+      "target": [
+        12,
+        15,
+        18
+      ],
+      "n": 9,
+      "parameters": [],
+      "multiplier": 3
+    },
+    "status": "TILING_FOUND",
+    "nodes": 37,
+    "maximum_placed": 9,
+    "seconds": 0.106131,
+    "field_D": 1575,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "18",
+        "0"
+      ],
+      [
+        "45/4",
+        "1/4"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "0"
+        ],
+        [
+          "15/4",
+          "1/12"
+        ]
+      ],
+      [
+        [
+          "15/4",
+          "1/12"
+        ],
+        [
+          "6",
+          "0"
+        ],
+        [
+          "39/4",
+          "1/12"
+        ]
+      ],
+      [
+        [
+          "6",
+          "0"
+        ],
+        [
+          "12",
+          "0"
+        ],
+        [
+          "39/4",
+          "1/12"
+        ]
+      ],
+      [
+        [
+          "15/4",
+          "1/12"
+        ],
+        [
+          "39/4",
+          "1/12"
+        ],
+        [
+          "15/2",
+          "1/6"
+        ]
+      ],
+      [
+        [
+          "12",
+          "0"
+        ],
+        [
+          "18",
+          "0"
+        ],
+        [
+          "63/4",
+          "1/12"
+        ]
+      ],
+      [
+        [
+          "39/4",
+          "1/12"
+        ],
+        [
+          "12",
+          "0"
+        ],
+        [
+          "63/4",
+          "1/12"
+        ]
+      ],
+      [
+        [
+          "15/2",
+          "1/6"
+        ],
+        [
+          "39/4",
+          "1/12"
+        ],
+        [
+          "27/2",
+          "1/6"
+        ]
+      ],
+      [
+        [
+          "39/4",
+          "1/12"
+        ],
+        [
+          "63/4",
+          "1/12"
+        ],
+        [
+          "27/2",
+          "1/6"
+        ]
+      ],
+      [
+        [
+          "15/2",
+          "1/6"
+        ],
+        [
+          "27/2",
+          "1/6"
+        ],
+        [
+          "45/4",
+          "1/4"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        5,
+        21,
+        19
+      ],
+      "target": [
+        5,
+        21,
+        19
+      ],
+      "n": 1,
+      "parameters": [],
+      "multiplier": 1
+    },
+    "status": "TILING_FOUND",
+    "nodes": 2,
+    "maximum_placed": 1,
+    "seconds": 0.000583,
+    "field_D": 33075,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "21",
+        "0"
+      ],
+      [
+        "37/2",
+        "1/42"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "21",
+          "0"
+        ],
+        [
+          "37/2",
+          "1/42"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        5,
+        21,
+        19
+      ],
+      "target": [
+        10,
+        42,
+        38
+      ],
+      "n": 4,
+      "parameters": [],
+      "multiplier": 2
+    },
+    "status": "TILING_FOUND",
+    "nodes": 5,
+    "maximum_placed": 4,
+    "seconds": 0.003672,
+    "field_D": 33075,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "42",
+        "0"
+      ],
+      [
+        "37",
+        "1/21"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "21",
+          "0"
+        ],
+        [
+          "42",
+          "0"
+        ],
+        [
+          "79/2",
+          "1/42"
+        ]
+      ],
+      [
+        [
+          "37/2",
+          "1/42"
+        ],
+        [
+          "79/2",
+          "1/42"
+        ],
+        [
+          "37",
+          "1/21"
+        ]
+      ],
+      [
+        [
+          "37/2",
+          "1/42"
+        ],
+        [
+          "21",
+          "0"
+        ],
+        [
+          "79/2",
+          "1/42"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "21",
+          "0"
+        ],
+        [
+          "37/2",
+          "1/42"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        5,
+        21,
+        19
+      ],
+      "target": [
+        15,
+        63,
+        57
+      ],
+      "n": 9,
+      "parameters": [],
+      "multiplier": 3
+    },
+    "status": "TILING_FOUND",
+    "nodes": 10,
+    "maximum_placed": 9,
+    "seconds": 0.015136,
+    "field_D": 33075,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "63",
+        "0"
+      ],
+      [
+        "111/2",
+        "1/14"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "42",
+          "0"
+        ],
+        [
+          "63",
+          "0"
+        ],
+        [
+          "121/2",
+          "1/42"
+        ]
+      ],
+      [
+        [
+          "79/2",
+          "1/42"
+        ],
+        [
+          "121/2",
+          "1/42"
+        ],
+        [
+          "58",
+          "1/21"
+        ]
+      ],
+      [
+        [
+          "79/2",
+          "1/42"
+        ],
+        [
+          "42",
+          "0"
+        ],
+        [
+          "121/2",
+          "1/42"
+        ]
+      ],
+      [
+        [
+          "21",
+          "0"
+        ],
+        [
+          "42",
+          "0"
+        ],
+        [
+          "79/2",
+          "1/42"
+        ]
+      ],
+      [
+        [
+          "37",
+          "1/21"
+        ],
+        [
+          "58",
+          "1/21"
+        ],
+        [
+          "111/2",
+          "1/14"
+        ]
+      ],
+      [
+        [
+          "37",
+          "1/21"
+        ],
+        [
+          "79/2",
+          "1/42"
+        ],
+        [
+          "58",
+          "1/21"
+        ]
+      ],
+      [
+        [
+          "37/2",
+          "1/42"
+        ],
+        [
+          "79/2",
+          "1/42"
+        ],
+        [
+          "37",
+          "1/21"
+        ]
+      ],
+      [
+        [
+          "37/2",
+          "1/42"
+        ],
+        [
+          "21",
+          "0"
+        ],
+        [
+          "79/2",
+          "1/42"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "21",
+          "0"
+        ],
+        [
+          "37/2",
+          "1/42"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        5,
+        16,
+        19
+      ],
+      "target": [
+        5,
+        16,
+        19
+      ],
+      "n": 1,
+      "parameters": [],
+      "multiplier": 1
+    },
+    "status": "TILING_FOUND",
+    "nodes": 2,
+    "maximum_placed": 1,
+    "seconds": 0.000586,
+    "field_D": 19200,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "19",
+        "0"
+      ],
+      [
+        "296/19",
+        "1/38"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "19",
+          "0"
+        ],
+        [
+          "296/19",
+          "1/38"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        5,
+        16,
+        19
+      ],
+      "target": [
+        10,
+        32,
+        38
+      ],
+      "n": 4,
+      "parameters": [],
+      "multiplier": 2
+    },
+    "status": "TILING_FOUND",
+    "nodes": 5,
+    "maximum_placed": 4,
+    "seconds": 0.003944,
+    "field_D": 19200,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "38",
+        "0"
+      ],
+      [
+        "592/19",
+        "1/19"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "19",
+          "0"
+        ],
+        [
+          "38",
+          "0"
+        ],
+        [
+          "657/19",
+          "1/38"
+        ]
+      ],
+      [
+        [
+          "296/19",
+          "1/38"
+        ],
+        [
+          "657/19",
+          "1/38"
+        ],
+        [
+          "592/19",
+          "1/19"
+        ]
+      ],
+      [
+        [
+          "296/19",
+          "1/38"
+        ],
+        [
+          "19",
+          "0"
+        ],
+        [
+          "657/19",
+          "1/38"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "19",
+          "0"
+        ],
+        [
+          "296/19",
+          "1/38"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        5,
+        16,
+        19
+      ],
+      "target": [
+        15,
+        48,
+        57
+      ],
+      "n": 9,
+      "parameters": [],
+      "multiplier": 3
+    },
+    "status": "TILING_FOUND",
+    "nodes": 10,
+    "maximum_placed": 9,
+    "seconds": 0.014713,
+    "field_D": 19200,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "57",
+        "0"
+      ],
+      [
+        "888/19",
+        "3/38"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "38",
+          "0"
+        ],
+        [
+          "57",
+          "0"
+        ],
+        [
+          "1018/19",
+          "1/38"
+        ]
+      ],
+      [
+        [
+          "657/19",
+          "1/38"
+        ],
+        [
+          "1018/19",
+          "1/38"
+        ],
+        [
+          "953/19",
+          "1/19"
+        ]
+      ],
+      [
+        [
+          "657/19",
+          "1/38"
+        ],
+        [
+          "38",
+          "0"
+        ],
+        [
+          "1018/19",
+          "1/38"
+        ]
+      ],
+      [
+        [
+          "19",
+          "0"
+        ],
+        [
+          "38",
+          "0"
+        ],
+        [
+          "657/19",
+          "1/38"
+        ]
+      ],
+      [
+        [
+          "592/19",
+          "1/19"
+        ],
+        [
+          "953/19",
+          "1/19"
+        ],
+        [
+          "888/19",
+          "3/38"
+        ]
+      ],
+      [
+        [
+          "592/19",
+          "1/19"
+        ],
+        [
+          "657/19",
+          "1/38"
+        ],
+        [
+          "953/19",
+          "1/19"
+        ]
+      ],
+      [
+        [
+          "296/19",
+          "1/38"
+        ],
+        [
+          "657/19",
+          "1/38"
+        ],
+        [
+          "592/19",
+          "1/19"
+        ]
+      ],
+      [
+        [
+          "296/19",
+          "1/38"
+        ],
+        [
+          "19",
+          "0"
+        ],
+        [
+          "657/19",
+          "1/38"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "19",
+          "0"
+        ],
+        [
+          "296/19",
+          "1/38"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        3,
+        4,
+        5
+      ],
+      "target": [
+        3,
+        4,
+        5
+      ],
+      "n": 1,
+      "parameters": [],
+      "multiplier": 1
+    },
+    "status": "TILING_FOUND",
+    "nodes": 2,
+    "maximum_placed": 1,
+    "seconds": 0.000524,
+    "field_D": 576,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "5",
+        "0"
+      ],
+      [
+        "16/5",
+        "1/10"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "5",
+          "0"
+        ],
+        [
+          "16/5",
+          "1/10"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        3,
+        4,
+        5
+      ],
+      "target": [
+        6,
+        8,
+        10
+      ],
+      "n": 4,
+      "parameters": [],
+      "multiplier": 2
+    },
+    "status": "TILING_FOUND",
+    "nodes": 8,
+    "maximum_placed": 4,
+    "seconds": 0.010161,
+    "field_D": 576,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "10",
+        "0"
+      ],
+      [
+        "32/5",
+        "1/5"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "5",
+          "0"
+        ],
+        [
+          "16/5",
+          "1/10"
+        ]
+      ],
+      [
+        [
+          "16/5",
+          "1/10"
+        ],
+        [
+          "5",
+          "0"
+        ],
+        [
+          "32/5",
+          "1/5"
+        ]
+      ],
+      [
+        [
+          "5",
+          "0"
+        ],
+        [
+          "10",
+          "0"
+        ],
+        [
+          "41/5",
+          "1/10"
+        ]
+      ],
+      [
+        [
+          "5",
+          "0"
+        ],
+        [
+          "41/5",
+          "1/10"
+        ],
+        [
+          "32/5",
+          "1/5"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "reptile-control",
+      "tile": [
+        3,
+        4,
+        5
+      ],
+      "target": [
+        9,
+        12,
+        15
+      ],
+      "n": 9,
+      "parameters": [],
+      "multiplier": 3
+    },
+    "status": "TILING_FOUND",
+    "nodes": 48,
+    "maximum_placed": 9,
+    "seconds": 0.145418,
+    "field_D": 576,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "15",
+        "0"
+      ],
+      [
+        "48/5",
+        "3/10"
+      ]
+    ],
+    "tile_coordinates": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "5",
+          "0"
+        ],
+        [
+          "16/5",
+          "1/10"
+        ]
+      ],
+      [
+        [
+          "16/5",
+          "1/10"
+        ],
+        [
+          "5",
+          "0"
+        ],
+        [
+          "32/5",
+          "1/5"
+        ]
+      ],
+      [
+        [
+          "10",
+          "0"
+        ],
+        [
+          "15",
+          "0"
+        ],
+        [
+          "66/5",
+          "1/10"
+        ]
+      ],
+      [
+        [
+          "5",
+          "0"
+        ],
+        [
+          "10",
+          "0"
+        ],
+        [
+          "41/5",
+          "1/10"
+        ]
+      ],
+      [
+        [
+          "5",
+          "0"
+        ],
+        [
+          "41/5",
+          "1/10"
+        ],
+        [
+          "32/5",
+          "1/5"
+        ]
+      ],
+      [
+        [
+          "41/5",
+          "1/10"
+        ],
+        [
+          "10",
+          "0"
+        ],
+        [
+          "66/5",
+          "1/10"
+        ]
+      ],
+      [
+        [
+          "32/5",
+          "1/5"
+        ],
+        [
+          "41/5",
+          "1/10"
+        ],
+        [
+          "48/5",
+          "3/10"
+        ]
+      ],
+      [
+        [
+          "41/5",
+          "1/10"
+        ],
+        [
+          "66/5",
+          "1/10"
+        ],
+        [
+          "57/5",
+          "1/5"
+        ]
+      ],
+      [
+        [
+          "41/5",
+          "1/10"
+        ],
+        [
+          "57/5",
+          "1/5"
+        ],
+        [
+          "48/5",
+          "3/10"
+        ]
+      ]
+    ],
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "G1-beta",
+      "tile": [
+        2,
+        3,
+        4
+      ],
+      "target": [
+        8,
+        8,
+        11
+      ],
+      "n": 11,
+      "parameters": [
+        1,
+        2
+      ],
+      "multiplier": 1
+    },
+    "status": "EXHAUSTED",
+    "nodes": 52,
+    "maximum_placed": 9,
+    "seconds": 0.11696,
+    "field_D": 135,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "11",
+        "0"
+      ],
+      [
+        "11/2",
+        "1/2"
+      ]
+    ],
+    "tile_coordinates": null,
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "G1-W",
+      "tile": [
+        6,
+        5,
+        9
+      ],
+      "target": [
+        27,
+        28,
+        15
+      ],
+      "n": 14,
+      "parameters": [
+        2,
+        3
+      ],
+      "multiplier": 1
+    },
+    "status": "EXHAUSTED",
+    "nodes": 93,
+    "maximum_placed": 10,
+    "seconds": 0.374,
+    "field_D": 3200,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "28",
+        "0"
+      ],
+      [
+        "23",
+        "1/4"
+      ]
+    ],
+    "tile_coordinates": null,
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "E120",
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "target": [
+        15,
+        15,
+        15
+      ],
+      "n": 15,
+      "parameters": [
+        3,
+        5
+      ],
+      "multiplier": 1
+    },
+    "status": "EXHAUSTED",
+    "nodes": 93,
+    "maximum_placed": 6,
+    "seconds": 0.259674,
+    "field_D": 675,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "15",
+        "0"
+      ],
+      [
+        "15/2",
+        "1/2"
+      ]
+    ],
+    "tile_coordinates": null,
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "G1-alpha",
+      "tile": [
+        2,
+        3,
+        4
+      ],
+      "target": [
+        12,
+        12,
+        21
+      ],
+      "n": 21,
+      "parameters": [
+        1,
+        2
+      ],
+      "multiplier": 1
+    },
+    "status": "EXHAUSTED",
+    "nodes": 474,
+    "maximum_placed": 18,
+    "seconds": 3.207933,
+    "field_D": 135,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "21",
+        "0"
+      ],
+      [
+        "21/2",
+        "1/2"
+      ]
+    ],
+    "tile_coordinates": null,
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "G1-W",
+      "tile": [
+        2,
+        3,
+        4
+      ],
+      "target": [
+        16,
+        14,
+        12
+      ],
+      "n": 28,
+      "parameters": [
+        1,
+        2
+      ],
+      "multiplier": 2
+    },
+    "status": "INCOMPLETE",
+    "nodes": 644,
+    "maximum_placed": 23,
+    "seconds": 7.010126,
+    "field_D": 135,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "16",
+        "0"
+      ],
+      [
+        "77/8",
+        "7/8"
+      ]
+    ],
+    "tile_coordinates": null,
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "G1-theta",
+      "tile": [
+        12,
+        7,
+        16
+      ],
+      "target": [
+        56,
+        56,
+        42
+      ],
+      "n": 28,
+      "parameters": [
+        3,
+        4
+      ],
+      "multiplier": 2
+    },
+    "status": "INCOMPLETE",
+    "nodes": 973,
+    "maximum_placed": 17,
+    "seconds": 7.005217,
+    "field_D": 24255,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "56",
+        "0"
+      ],
+      [
+        "161/4",
+        "1/4"
+      ]
+    ],
+    "tile_coordinates": null,
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "double-angle",
+      "tile": [
+        9,
+        7,
+        12
+      ],
+      "target": [
+        42,
+        42,
+        56
+      ],
+      "n": 28,
+      "parameters": [
+        3,
+        4
+      ],
+      "multiplier": 2
+    },
+    "status": "EXHAUSTED",
+    "nodes": 743,
+    "maximum_placed": 18,
+    "seconds": 5.094533,
+    "field_D": 15680,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "56",
+        "0"
+      ],
+      [
+        "28",
+        "1/4"
+      ]
+    ],
+    "tile_coordinates": null,
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  },
+  {
+    "instance": {
+      "branch": "I120",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "target": [
+        21,
+        21,
+        33
+      ],
+      "n": 33,
+      "parameters": [
+        5,
+        3
+      ],
+      "multiplier": 1
+    },
+    "status": "INCOMPLETE",
+    "nodes": 784,
+    "maximum_placed": 26,
+    "seconds": 7.003583,
+    "field_D": 675,
+    "target_coordinates": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "33",
+        "0"
+      ],
+      [
+        "33/2",
+        "1/2"
+      ]
+    ],
+    "tile_coordinates": null,
+    "exact_arithmetic": true,
+    "uses_collar_lemma": false,
+    "uses_prime_candidate": false
+  }
+]

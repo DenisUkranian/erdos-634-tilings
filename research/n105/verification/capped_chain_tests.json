@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "known_congruent_tiles": 32,
+  "strict_edge_interior_vertices": 8,
+  "positive_completion_subsets": 258,
+  "capped_endpoint_rays_checked": 3418,
+  "true_tile_incident_edges_checked": 3418,
+  "scope": "Regression only. Convex caps and whole-edge lemma require mathematical proof."
+}

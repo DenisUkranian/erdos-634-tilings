@@ -1,5 +1,7 @@
 # Two boundary collars that cannot extend: a four-placement proof
 
+> **Historical stage — 29 September 2026.** Its limited claims remain as written. The later [global N=105 proof](n105-global.md) supersedes statements here that the count is unresolved. These old partial certificates are retained as regression evidence, not as the new proof.
+
 29 September 2026. Exact scope: the two fixed coordinate certificates from the
 boundary-collar calculation. **This does not exclude other collars, either
 60-degree target at N=105, or N=105 globally.**

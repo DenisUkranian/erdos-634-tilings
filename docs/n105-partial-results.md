@@ -1,5 +1,7 @@
 # N = 105: an elementary branch exclusion and a precise invariant barrier
 
+> **Historical stage — 29 September 2026.** Its limited claims remain as written. The later [global N=105 proof](n105-global.md) supersedes statements here that the count is unresolved. These old partial certificates are retained as regression evidence, not as the new proof.
+
 29 September 2026. Internal research note; no claim of external review or priority.
 
 This note gives two actual mathematical results, neither of which settles global N=105:

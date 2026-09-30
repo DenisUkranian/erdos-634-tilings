@@ -1,0 +1,28 @@
+{
+  "result": "PASS",
+  "binary_formula_cases_checked_against_all_assignments": 150,
+  "geometry": {
+    "intersection_pairs": 16110,
+    "positive_area_pairs": 3499,
+    "boundary_mark_regression": "PASS"
+  },
+  "malformed_certificates": [
+    {
+      "test": "wrong tile",
+      "result": "REJECTED",
+      "reason": "wrong tile"
+    },
+    {
+      "test": "wrong target",
+      "result": "REJECTED",
+      "reason": "wrong target"
+    },
+    {
+      "test": "wrong initial state",
+      "result": "REJECTED",
+      "reason": "wrong root identity"
+    }
+  ],
+  "seconds": 0.49636152800002264,
+  "scope": "Regression tests, not formal verification or a solution of the full problem."
+}

@@ -1,5 +1,7 @@
 # Six interacting corners exclude the third fixed N=105 collar
 
+> **Historical stage — 29 September 2026.** Its limited claims remain as written. The later [global N=105 proof](n105-global.md) supersedes statements here that the count is unresolved. These old partial certificates are retained as regression evidence, not as the new proof.
+
 29 September 2026. Research directed by Denis Paliy, with ChatGPT assistance
 in exploration, proof writing, and exact verification. This is an internal
 computer-assisted proof, not external refereeing or a global exclusion of 105.

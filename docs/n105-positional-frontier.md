@@ -1,5 +1,7 @@
 # N = 105: exact boundary collars and the remaining positional gap
 
+> **Historical stage — 29 September 2026.** Its limited claims remain as written. The later [global N=105 proof](n105-global.md) supersedes statements here that the count is unresolved. These old partial certificates are retained as regression evidence, not as the new proof.
+
 29 September 2026. Research result checked by exact arithmetic; no priority or external review claim.
 
 **No complete 105-tiling or proof excluding every 105-tiling was obtained.**

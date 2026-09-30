@@ -1,146 +1,58 @@
-# Reproducing the exact certificates
+# Reproducibility and verification boundary
 
-The reproduction code checks the finite coordinate constructions, arithmetic reductions and nonexistence certificates in this repository. It does **not** mechanically prove the universal prime-case candidate, the all-parameter construction theorem, or the full classification in Erdős problem 634.
+**v0.2.0 — 30 September 2026**
 
-## Requirements
+## Entire published suite
 
-- Python 3.10 or later.
-- Python standard library only for generation and certificate verification.
-- No network access, geometric floating-point tolerance or external solver is needed for these checks.
-
-Run the commands from the repository root using ordinary Python execution. Do not use `python -O`, `python -OO` or `PYTHONOPTIMIZE`: assertion-based checks must not be disabled. The generator and the independent checker reject optimized execution explicitly.
-
-## Complete repository replay
+Python 3.11 or later; verification uses the standard library. Do not use `-O`, `-OO`, or `PYTHONOPTIMIZE`: some preserved legacy checks rely on assertions, and the coordinator explicitly rejects optimized execution.
 
 ```bash
-python3 scripts/reproduce.py
+python scripts/verify_all.py --jobs 2
 ```
 
-A successful replay must finish with exit status zero and the final marker:
+The coordinator checks the file manifest, syntax, local links and scope flags, then runs every finite suite in disposable copies. Original certificates and frozen reports are not overwritten. A fresh report is written to `audit-output/full-replay.json`, which is ignored by Git. Runtime depends on hardware; the exact rational N105 checks can take several minutes. A process timeout is a failure to finish, never a mathematical exclusion.
 
-```text
-ERDOS634_FINITE_REPLAY=PASS
-```
+## Suites and their scope
 
-The runner writes its report to [`verification/replay.json`](verification/replay.json). This generated report is excluded from the payload manifest by design; it must not replace any retained input certificate. Read the complete report: an interrupted run, timeout or partial log is not a successful verification. Runtime depends on the machine.
-
-The complete finite replay covers:
-
-| Component | Checked scope |
+| Command, from repository root unless noted | What is checked |
 |---|---|
-| Main construction family | Exact coordinate examples for 77, 322 and 897 tiles; a separate geometric replay for 322 |
-| Geometric bridges | Six original examples and seven further $W$/isosceles examples through [`scripts/check_scale_bridges.py`](scripts/check_scale_bridges.py) |
-| Theta-isosceles constructions | Six exact certificates with 48, 75, 108, 147, 243 and 300 tiles through [`scripts/generate_theta.py --check`](scripts/generate_theta.py) |
-| Separate odd-theta replay | [`scripts/verify_theta_odd.py`](scripts/verify_theta_odd.py) checks all 2,775 pairs for 75 tiles, all 10,731 pairs for 147 tiles and all 29,403 pairs for 243 tiles, plus containment, total area and subdivided boundary cancellation |
-| $N=105$ boundary collars | [`scripts/verify_n105_collars.py`](scripts/verify_n105_collars.py) checks 45-tile and 57-tile **partial placements**, including all 990 and 1,596 tile pairs; it does not establish a complete 105-tiling |
-| Two fixed-collar obstructions | [`scripts/verify_n105_collar_refutations.py`](scripts/verify_n105_collar_refutations.py) reconstructs a blocked inner corner in each named collar and excludes all four possible first tiles; this proves only that these two fixed partial placements cannot extend |
-| A different collar with local full fans | [`scripts/verify_n105_local_fans.py`](scripts/verify_n105_local_fans.py) checks a 45-tile collar and a separately admissible complete fan at each of its 18 convex residual corners. The fans are not asserted jointly compatible; this is not a complete 105-tiling |
-| Eventual constructions and transfers | [`scripts/check_eventual_families.py`](scripts/check_eventual_families.py) checks exact **macroregions and integer subdivision counts** over 132 admissible parameter pairs and transfers over 199 parameter pairs; these are not individual-tile replays of the large constructions |
-| Universal annular dissections | [`scripts/check_universal_annuli.py`](scripts/check_universal_annuli.py) checks both exact shells, nesting, triangle congruence, integer strip counts and area identities for the parameter pairs recorded in [`verification/universal-annuli.json`](verification/universal-annuli.json); these are macroregion checks, not individual-tile replays |
-| Explicit theta seeds | [`scripts/check_explicit_theta_seed.py`](scripts/check_explicit_theta_seed.py) checks 67 negative-Delta macroregion constructions and 132 positive-Delta integer intervals; the [report](verification/explicit-theta-seeds.json) also checks the stated sufficient bounds for all five families |
-| Third fixed-collar obstruction | [`scripts/verify_n105_joint_fans.py`](scripts/verify_n105_joint_fans.py) re-enumerates full fans at six corners and checks eight overlap conflicts and six eliminations. It proves only nonextendability of that fixed collar |
-| Alpha21 nonexistence certificate | [`scripts/verify_alpha21.py`](scripts/verify_alpha21.py) independently reconstructs all branches of the 391-node certificate, expanding repeated references: 437 states, 158 dead ends, maximum depth 18; exact tangent cones and polygon intersections |
-| Global21 arithmetic reduction | [`scripts/check_n21_reduction.py`](scripts/check_n21_reduction.py) exhausts the finite factor and side lists supplied by the published shape classification; only the alpha21 instance survives, and the separate certificate excludes it |
-| Verifier rejection tests | Ten cases: one valid input and nine invalid inputs |
+| `python scripts/check_repository.py` | Every included file, SHA-256 manifest, Python/JSON syntax, local link targets, scope sentinels and expanded coordinate-stream hash. |
+| `python scripts/reproduce.py` | Preserved 77/322/897 and theta constructions; all old N105 collar/fan regressions; scale bridges, annuli/seeds, N21 reduction and certificate, and verifier rejection tests. This legacy runner alone is not the complete v0.2.0 suite. |
+| `cd research/n105 && python verify_all.py --jobs 2` | Four complete fixed-instance certificates, arithmetic reduction, capped-chain and mutation regressions. The global theorem also needs the manuscript's published and geometric inputs. |
+| `cd research/general-spectra && python verify_certificate.py construction_116640.json --expand` | 36 macroregions, 630 macroregion intersections and the shape/containment of all 116640 expanded triangles. Internal disjointness uses explicit standard subdivisions. |
+| `cd research/general-spectra && python check_general_formulas.py` | Supplementary parameter/scale checks, 52 macro-constructions and seven rejected mutations; not an extrapolated universal proof. |
+| `cd research/c-relations && python check_relations.py --max-v 40` | Exhaustive finite integer-chain regression against the written parameterization; not the geometric prime induction. |
 
-The payload checksum list is in [`verification/manifest.json`](verification/manifest.json).
+The first command is read-only except an optional requested report. The individual historical programs may update local reports; use the coordinator to isolate such writes.
 
-## Generate the 322 construction
+## Root coverage, not a timeout or a search count
 
-```bash
-python3 scripts/generate_tiling.py 2 3 output.json
-```
+The N105 checkers independently regenerate root geometry and compare identities, not only a supplied number. The final root totals are 120,15,1788,120 for tiles (7,8,13), (5,19,21), (7,13,15), (5,16,19), respectively. The fourth original certificate stores 22552 states. A checker can validly visit fewer stored nodes if its own sound necessary conditions reject earlier; complete root/fan coverage and checked terminal conditions are decisive. `INCOMPLETE` never means refuted.
 
-The parameters are $u=2$, $v=3$. The primitive tile is $(a,b,c)=(6,5,9)$, and the output count is $(b+c)(b+2c)=14\cdot23=322$.
+The historical false rule that marked an interior tile merely touching the exterior with its obtuse vertex is not used. A marked external junction must be supported by a tile with a whole edge on that same external side. The positive T-junction regression checks that distinction and the endpoint conditions of the new chain rule.
 
-Generation and verification are separate roles: the construction program supplies candidate coordinates, while the independent instance checker verifies the geometric object. The current generator writes deterministic geometry data only. The retained historical JSON certificates also contain a verification record with runtime measurements; reproduction compares the geometry fields and ignores that older verification/timing record. Timings are environmental observations, not mathematical correctness conditions.
+## Frozen hashes and mutable output
 
-The complete runner also executes `scripts/check_n105_invariants.py`: it replays the six exact factor-pair exclusions in the irrational 120-degree equilateral branch at 105, recovers the two 60-degree candidates, and checks the stated formal boundary identity. These arithmetic checks do not establish a complete 105-tiling or a global exclusion.
+`verification/manifest.json` binds source, data and published document bytes. `scripts/build_manifest.py` deliberately rebuilds this ledger for a new publication; it is **not** a mathematical test. Do not regenerate hashes merely to make a failed integrity check disappear. `verification/replay.json` is a legacy mutable output excluded from that manifest; the coordinator produces fresh reports under `audit-output/` instead.
 
-The complete runner includes the eventual-construction macrogeometry check. It can also be run separately:
+Each imported research package retains a `SHA256SUMS.txt`. For this publication the package manifests are synchronized with the explicitly documented editorial changes. Original ZIP digests are in [import-provenance.json](verification/import-provenance.json). The expanded gzip coordinate file is bound both as a file and by its uncompressed stream digest, since gzip timestamps alone can change compressed bytes.
+
+## Optional rebuild of publication outputs
+
+The two new PDFs have editable sources. PDF rebuilding additionally needs Pandoc, XeLaTeX, pdfLaTeX, standard TeX packages and DejaVu fonts. No font files are distributed. From repository root:
 
 ```bash
-python3 scripts/check_eventual_families.py
+python scripts/build_publication_outputs.py
 ```
 
-Its output, also recorded in [`verification/eventual-family-checks.json`](verification/eventual-family-checks.json), reports a sweep over 132 admissible primitive parameter pairs and 199 parameter pairs for the transfers between shapes. The complete runner includes these results in its replay report. The checker verifies exact macroregion geometry and integer subdivision counts, including examples with nonsquarefree $b$. It does not expand every large example into individual tiles or substitute for the all-parameter proof in [`docs/eventual-rational-families.md`](docs/eventual-rational-families.md).
+This rebuilds the N105 and spectra PDFs and regenerates the expanded coordinate gzip. For coordinates alone use `--coordinates-only`; for the PDFs alone use `--pdfs-only`. Changes in typesetting tool versions or PDF metadata can change PDF hashes; treat a rebuilt artifact as a new publication snapshot, inspect it, then intentionally update the manifests. Do not expect a byte-identical PDF across TeX distributions.
 
-## Universal annuli and the 21-tile refutation
+## Mathematical boundary
 
-```bash
-python3 scripts/check_universal_annuli.py
-python3 scripts/check_explicit_theta_seed.py
-python3 scripts/check_n21_reduction.py
-python3 scripts/verify_alpha21.py
-```
+Exact arithmetic eliminates numerical rounding in the implemented finite predicates. A separate geometric implementation reduces shared-code risk. Neither establishes external refereeing or formalizes the human lemmas and published classification theorems. In particular, finite CI does not prove the candidate all-primes induction, the all-parameter construction arguments, or a complete classification of all positive N.
 
-The first command checks exact macroregions for the two annular dissections. The universal conclusion uses the written proof and the coprimality of $u,v$, not a bounded parameter sweep. See [the general theorem](docs/universal-rational-scales.md).
+The [claim ledger](STATUS.md), [N105 dependency note](docs/n105-global.md), [general spectra attribution](docs/general-spectra.md), and [full-solution roadmap](docs/full-solution-roadmap.md) keep those boundaries explicit.
 
-The last command is a complete finite refutation for tile $(2,3,4)$ in target $(12,12,21)$. Its local convex-corner branching theorem explains why arbitrary rotations, reflections and T-junctions are covered. The checker is separate from the search: it uses exact local tangent cones and polygon clipping and expands all repeated-state references. The [global reduction](docs/n21-global-reduction.md) supplies the outside classification and arithmetic needed to conclude global nonexistence at 21; the replay does not formally verify those published classification theorems.
+## Integrated continuation: uniform reduction (30 September 2026)
 
-The deterministic certificate is [alpha-21-refutation.json](data/alpha-21-refutation.json). The optional search can reproduce it:
-
-```bash
-python3 scripts/search_alpha21.py --output /tmp/alpha-21-refutation.json
-cmp data/alpha-21-refutation.json /tmp/alpha-21-refutation.json
-```
-
-## Coordinate convention
-
-Each stored pair of integer numerators $(X,Y)$ represents
-
-$$
-\left(\frac{X}{d},\frac{Y\sqrt D}{d}\right),
-$$
-
-where $d$ is the certificate's common denominator. For the retained 322 certificate, $d=18$ and $D=32$.
-
-Squared physical distances are therefore computed exactly from $\Delta X^2+D\Delta Y^2$, divided by $d^2$. Incidence, containment and intersection-area tests can be performed in the unscaled rational coordinate plane because the positive diagonal scaling preserves these properties.
-
-## Expected geometric facts for the 322 certificate
-
-| Item | Expected value |
-|---|---:|
-| Tiles | 322 |
-| Tile side lengths | $5,6,9$ |
-| Target side lengths | $81,115,126$ |
-| Each tile's area | $10\sqrt2$ |
-| Target area | $3220\sqrt2$ |
-| All unordered tile-pair intersections | 51,681 |
-| Positive-area pair intersections | 0 |
-| Distinct certificate vertices | 195 |
-| Interior atomic edges | 474 |
-| Boundary atomic edges | 42 |
-| Distinct T-junction vertices | 24 |
-
-The checker verifies congruence, orientation and target containment. It computes pairwise polygon intersections using exact arithmetic and checks that each has area zero. Containment, disjoint interiors and the equality of total areas prove coverage of the target.
-
-For the edge check, every tile edge is split at all certificate vertices lying on it. Each interior atomic segment must occur once in each direction, and every outer atomic segment must appear once in the target boundary direction. This explicitly allows and checks T-junctions rather than imposing an edge-to-edge tiling assumption.
-
-## Independence and scope
-
-[`scripts/verify_322.py`](scripts/verify_322.py) reads the coordinate certificate without importing [`scripts/generate_tiling.py`](scripts/generate_tiling.py). Its polygon-intersection method differs from the generator's separating-axis method. Both implementations are internal to this project.
-
-The checker is designed for the stated 322 instance; it is not advertised as a universal validator for every possible input schema or arbitrary triangle tiling. The general construction theorem follows from the proof in [`docs/two-piece-construction.md`](docs/two-piece-construction.md), not from finitely many successful tests.
-
-The candidate prime classification requires mathematical review of its geometric arguments and stated external dependencies. A successful run here says nothing stronger than the finite verification scopes documented above.
-
-The theta certificates are [`data/theta-48.json`](data/theta-48.json), [`data/theta-75.json`](data/theta-75.json), [`data/theta-108.json`](data/theta-108.json), [`data/theta-147.json`](data/theta-147.json), [`data/theta-243.json`](data/theta-243.json) and [`data/theta-300.json`](data/theta-300.json). Their generator is [`scripts/generate_theta.py`](scripts/generate_theta.py). The complete spectrum $N=3t^2$ for $t\ge4$ uses the proof of scale addition and the small-scale obstructions, not an exhaustive infinite computation.
-
-To regenerate and check all six theta certificates separately:
-
-```bash
-python3 scripts/generate_theta.py --check
-```
-
-The $N=105$ collar certificates, [`data/n105-collar-5-21-19.json`](data/n105-collar-5-21-19.json) and [`data/n105-collar-7-15-13.json`](data/n105-collar-7-15-13.json), leave interior regions unfilled. Their successful verification establishes only that the stated partial placements pass the listed exact geometric checks. It does not show that either placement can be extended to a complete tiling or eliminate all arguments involving boundary collars.
-
-The separate [four-placement proof](docs/n105-fixed-collar-obstructions.md)
-and replay now establish that neither of those two fixed collars can extend.
-The complete runner includes both exact one-node refutations and reports
-`global_N105_decided: false`. These local obstructions do not exclude other
-collars or all tilings at 105.
-
-## Recording an independent replay
-
-Please record the repository commit, operating system, Python version, exact command, exit status and complete output. If examining the proof itself, distinguish a check of one lemma from a review of the entire prime-case deduction. See [CONTRIBUTING.md](CONTRIBUTING.md).
+The [uniform-reduction note](docs/uniform-reduction.md) and its complete source, test data, and separately checked positive witnesses are included in this publication. Its results are necessary spectra, two squarefree congruence obstructions, a finite candidate overlist, and formal boundary-signature witnesses. They are not a complete all-integer classification. The N=154 search is recorded as INCOMPLETE. The root verification coordinator now also replays all supplementary tests of this module in a disposable copy. Historical reports are retained with their original preparation scope.

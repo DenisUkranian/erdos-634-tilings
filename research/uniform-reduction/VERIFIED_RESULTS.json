@@ -1,0 +1,531 @@
+{
+  "date": "2026-09-30",
+  "result": "ALL_SUPPLEMENTARY_CHECKS_PASSED",
+  "written_theorems": "PROOF.md; geometry/classification inputs are not machine-formalized",
+  "mathematical_results": [
+    "Squarefree N = 19 mod 24 cannot tile any triangle.",
+    "Squarefree N = 35 mod 120 cannot tile any triangle.",
+    "For squarefree N = 3 mod 8, 3 not dividing N, only the primitive beta scale-one norm remains.",
+    "Double-angle isosceles count N=(v^2-u^2)t^2, t>=2 is necessary, not sufficient.",
+    "Explicit formal boundary orientation witnesses for every Group-1 W/beta scale-one target.",
+    "Explicit finite arithmetic overlist and bounded exact geometric search."
+  ],
+  "checks": {
+    "check_symbolic.py": {
+      "status": "PASS_COEFFICIENTWISE",
+      "identities": [
+        {
+          "name": "Group1 W area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Group1 beta area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Group1 theta area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Group1 alpha area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Group1 other-scalene area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Double-angle area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Tile signature factorization",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "W formal boundary identity",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Beta formal boundary identity",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Theta formal boundary identity",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Equilateral area, norm sign -1",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Equilateral area, norm sign 1",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "F1 area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "I area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "F3 area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "F4 area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "F2 area",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "F1 first character simplification",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "F1 second character simplification",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Isosceles first character simplification",
+          "nonzero_residual_coefficients": 0
+        },
+        {
+          "name": "Isosceles second character simplification",
+          "nonzero_residual_coefficients": 0
+        }
+      ],
+      "count": 21,
+      "meaning": "Exact polynomial identities, not sampled evaluations; geometric hypotheses are proved separately."
+    },
+    "check_reduction.py": {
+      "independent_sweep": {
+        "upper_N": 300,
+        "parameter_trials": 61652,
+        "primitive_shape_area_identities_checked": 719,
+        "candidate_instances_compared": 374,
+        "status": "PASS"
+      },
+      "mod8": {
+        "modulus": 8,
+        "Group1": {
+          "W": [
+            1,
+            2,
+            6,
+            7
+          ],
+          "beta": [
+            2,
+            3,
+            7
+          ],
+          "alpha": [
+            0,
+            1,
+            2,
+            5,
+            6
+          ],
+          "other-scalene": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        "norm_families": {
+          "E60": [
+            0,
+            1
+          ],
+          "E120": [
+            0,
+            7
+          ],
+          "F1": [
+            0,
+            1
+          ],
+          "I120": [
+            0,
+            1,
+            2
+          ],
+          "F3": [
+            0,
+            3,
+            6
+          ],
+          "F4": [
+            0,
+            1,
+            2
+          ],
+          "F2": [
+            2,
+            7
+          ]
+        }
+      },
+      "progressions": {
+        "upper_N": 6000,
+        "squarefree_19mod24_excluded": 231,
+        "composite_examples_19mod24": [
+          91,
+          115,
+          187,
+          235,
+          259,
+          355,
+          403,
+          427,
+          451,
+          595,
+          667,
+          715
+        ],
+        "squarefree_35mod120_excluded": 37,
+        "examples_35mod120": [
+          35,
+          155,
+          395,
+          515,
+          635,
+          755,
+          995,
+          1115,
+          1235,
+          1355,
+          1595,
+          1835
+        ],
+        "local_nonresidue_exclusions": 327,
+        "squarefreeness_control_275": "RETAINED",
+        "status": "PASS"
+      },
+      "characters": {
+        "v_bound": 32,
+        "lambda_checks": 460844,
+        "examples_killed_beyond_area_equation": [
+          {
+            "u": 3,
+            "v": 5,
+            "tile": [
+              9,
+              16,
+              15
+            ],
+            "lambda": 4,
+            "area_count": 1,
+            "U": "-1/2",
+            "V": "2"
+          },
+          {
+            "u": 3,
+            "v": 5,
+            "tile": [
+              9,
+              16,
+              15
+            ],
+            "lambda": 8,
+            "area_count": 4,
+            "U": "-1",
+            "V": "4"
+          },
+          {
+            "u": 3,
+            "v": 5,
+            "tile": [
+              9,
+              16,
+              15
+            ],
+            "lambda": 12,
+            "area_count": 9,
+            "U": "-3/2",
+            "V": "6"
+          },
+          {
+            "u": 4,
+            "v": 5,
+            "tile": [
+              16,
+              9,
+              20
+            ],
+            "lambda": 3,
+            "area_count": 1,
+            "U": "-1/3",
+            "V": "3"
+          },
+          {
+            "u": 4,
+            "v": 5,
+            "tile": [
+              16,
+              9,
+              20
+            ],
+            "lambda": 6,
+            "area_count": 4,
+            "U": "-2/3",
+            "V": "6"
+          },
+          {
+            "u": 5,
+            "v": 7,
+            "tile": [
+              25,
+              24,
+              35
+            ],
+            "lambda": 12,
+            "area_count": 6,
+            "U": "-1",
+            "V": "6"
+          },
+          {
+            "u": 5,
+            "v": 9,
+            "tile": [
+              25,
+              56,
+              45
+            ],
+            "lambda": 28,
+            "area_count": 14,
+            "U": "-2",
+            "V": "7"
+          },
+          {
+            "u": 7,
+            "v": 9,
+            "tile": [
+              49,
+              32,
+              63
+            ],
+            "lambda": 8,
+            "area_count": 2,
+            "U": "-1/2",
+            "V": "4"
+          }
+        ],
+        "status": "PASS"
+      },
+      "is_universal_proof": false,
+      "proof_location": "PROOF.md",
+      "seconds": 1.2061
+    },
+    "check_search.py": {
+      "status": "PASS",
+      "positive_subdivisions": [
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 1,
+          "pairs": 0,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 4,
+          "pairs": 6,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 9,
+          "pairs": 36,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 1,
+          "pairs": 0,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 4,
+          "pairs": 6,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 9,
+          "pairs": 36,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 1,
+          "pairs": 0,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 4,
+          "pairs": 6,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 9,
+          "pairs": 36,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 1,
+          "pairs": 0,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 4,
+          "pairs": 6,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 9,
+          "pairs": 36,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 1,
+          "pairs": 0,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 4,
+          "pairs": 6,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 9,
+          "pairs": 36,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 1,
+          "pairs": 0,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 4,
+          "pairs": 6,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        },
+        {
+          "status": "ACCEPT_POSITIVE",
+          "n": 9,
+          "pairs": 36,
+          "t_junction_vertices": 0,
+          "search_imported": false
+        }
+      ],
+      "positive75": {
+        "status": "ACCEPT_POSITIVE",
+        "n": 75,
+        "pairs": 2775,
+        "t_junction_vertices": 25,
+        "search_imported": false
+      },
+      "negative_execution_controls": [
+        {
+          "n": 7,
+          "branch": "G1-W",
+          "nodes": 16,
+          "status": "EXHAUSTED"
+        },
+        {
+          "n": 11,
+          "branch": "G1-beta",
+          "nodes": 52,
+          "status": "EXHAUSTED"
+        },
+        {
+          "n": 14,
+          "branch": "G1-W",
+          "nodes": 93,
+          "status": "EXHAUSTED"
+        },
+        {
+          "n": 15,
+          "branch": "E120",
+          "nodes": 93,
+          "status": "EXHAUSTED"
+        },
+        {
+          "n": 21,
+          "branch": "G1-alpha",
+          "nodes": 474,
+          "status": "EXHAUSTED"
+        }
+      ],
+      "known_completion_subsets": 18,
+      "corner_completeness_checks": 274,
+      "maximum_placements_at_checked_corner": 6,
+      "branch_vertices_encountered": 53,
+      "positive75_sha256": "30b43cce6418ff76c1611a325860d8bd8527272ff353e3b7e3a6784e9c89899b",
+      "mutations_rejected": [
+        "missing_tile",
+        "duplicate_tile",
+        "altered_coordinate",
+        "wrong_target",
+        "wrong_count"
+      ],
+      "budget_stops": "INCOMPLETE, not EXHAUSTED",
+      "negative_controls_note": "Search-run EXHAUSTED records are not independently replayed proof-tree certificates.",
+      "seconds": 5.3309
+    }
+  },
+  "source_sha256": {
+    "candidates.py": "d9094999784b6d7986c601ef7e1dd6615977d8c6503823cd9056d8c6df78f777",
+    "check_reduction.py": "1a4e0d32b6f90815342943d672172ad90f97ce95c7dbc6eb0fb8619fe6011086",
+    "check_search.py": "f1fa3674f869e2ff8c14516aa63d8d154df943deea77a0fa79a7362fdb6a6c31",
+    "check_symbolic.py": "86dd14611656c531f2251bb8da76d065c4f4edab2924ed1cc45112bbe5dfe141",
+    "exact_search.py": "b58515aa154a03f5a1d8f02971f53e5320323cf692b28147434ac71d5f8d8a93",
+    "verify_all.py": "2fdf2c4605c438090c014274d7b8f1a7814d6d37b8a18ede4fc16d25b9c45918",
+    "verify_positive.py": "1596f8ebc1f1a5fe46d272e3079d8d64b1940a65f6fa41b8c297e1cb9aa6e2f2"
+  },
+  "full_problem_solved": false,
+  "global_finite_exception_list_proved": false,
+  "candidate_all_primes_proof_used": false,
+  "old_N105_certificates_replayed": false,
+  "external_peer_review": false,
+  "proof_assistant_formalization": false,
+  "priority_established": false,
+  "gitHub_changed": false,
+  "emails_sent": false,
+  "seconds": 8.3649
+}

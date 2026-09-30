@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.2.0 — 30 September 2026
+
+- Publish the complete N=105 reduction, all four finite certificates, separate replayers, convex-capped chain rule and positive/mutation regressions.
+- Publish the general 60°/120° necessary spectra, sufficient multiplier constructions, (45,32,67) 116640-tile certificate and expanded coordinates; preserve attribution and the distinction between sufficient and necessary cutoffs.
+- Publish the short c-relation arithmetic audit; do not treat it as a formal proof of the prime candidate.
+- Replace stale current-status statements; retain limited N105 collar notes under explicit historical notices. Add a full-solution roadmap.
+- Correct the omitted twice-a-square rational-angle equilateral family in the 105 manuscript; this even family cannot affect N=105. No certificate bytes are changed by the editorial correction.
+- Add repository-wide integrity/link/syntax/scope checks and a full replay coordinator. Preserve old finite regression fixtures and report the limits of internal verification.
+- The GitHub About description was discovered to name the unrelated circle problem. The desired metadata is recorded separately; a README edit is not claimed to change GitHub's administrative Description field.
+
+
 ## 0.1.0 — initial research snapshot, 29 September 2026
 
 - Present the candidate classification of all prime tile counts in a complete manuscript, with the two new scale-one obstruction arguments, an exhaustive case table, the remaining branch calculations and explicit existence constructions.
@@ -51,3 +62,7 @@ This update supersedes the earlier statement that the negative-$\Delta$ range re
 
 - Exclude the third fixed 45-tile N105 collar by six interacting convex corners. Include a separate exact checker, eight overlap conflicts and a six-step refutation, and integrate its replay.
 - Prove a necessary boundary condition for the (8,7,13) F1 target: two length-13 edges on every outside side and exactly two edges of each length on side 56. No global N105 or full-problem solution is claimed.
+
+## Integrated continuation: uniform reduction (30 September 2026)
+
+The [uniform-reduction note](docs/uniform-reduction.md) and its complete source, test data, and separately checked positive witnesses are included in this publication. Its results are necessary spectra, two squarefree congruence obstructions, a finite candidate overlist, and formal boundary-signature witnesses. They are not a complete all-integer classification. The N=154 search is recorded as INCOMPLETE. The root verification coordinator now also replays all supplementary tests of this module in a disposable copy. Historical reports are retained with their original preparation scope.

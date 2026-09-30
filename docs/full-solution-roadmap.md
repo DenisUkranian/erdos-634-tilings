@@ -1,0 +1,55 @@
+# What would constitute a complete solution of Erdős problem 634?
+
+**Assessment of this repository, 30 September 2026 — not a claim that every remaining subproblem is new or open in the literature.**
+
+## The actual quantifiers
+
+Let
+
+$$\mathcal S=\{N\in\mathbb Z_{>0}:\text{some triangle has a dissection into }N\text{ congruent triangles}\}.$$
+
+The task is a necessary-and-sufficient characterization of membership in **S for every N**. Positive membership needs just one valid tile and target. Negative membership must exclude **every** permitted tile/target family. Solving N=105, solving all primes, or solving one fixed tile does not answer that all-integer question.
+
+A complete fixed-tile spectrum for every shape would be one sufficient route. It is **not logically necessary** to resolve every fixed-tile question separately: an alternative global characterization could exploit overlap, because a count already constructed by another tile is globally admissible. The roadmap below is an organized route, not an artificially stronger definition of the problem.
+
+## What is already available here
+
+| Block | Available result | What it does not decide |
+|---|---|---|
+| Classical/similar tilings | Published classifications and explicit constructions; among familiar admissible families are k², 2k², 3k², 6k² and sums of two squares. Exact source hypotheses remain necessary. | Not a proof that these are all global counts; 322 is an explicit nonclassical construction. |
+| Prime counts | [Candidate deduction](prime-case-dependencies.md) from the two scale-one geometric candidates and cited classifications. | Not externally accepted or formally checked here; in any event it concerns primes, not arbitrary composites. |
+| Group 1: 3alpha+2beta=pi | [All-five-shape eventual construction](universal-rational-scales.md), explicit bounds/seeds; a complete other-scalene family and a complete [fixed (2,3,4) spectrum](first-tile-classification.md). | The small admissible scales for general primitive (u,v), including the relevant W, beta, theta and alpha targets, are not classified by the eventual theorem. |
+| 60°/120° equilateral | [Necessary N=abm² and sufficient large-m bounds](../research/general-spectra/PROOF.md). | The exact realizable set below the sufficient threshold for each primitive tile. Passing parity/area tests is not a tiling. |
+| 120° F1 and isosceles | Necessary spectra b(a+b)m² and b(a+2b)m², with large-m constructions by transfer. The spectra are credited to Bonfioli. | Small m; a sufficient cutoff is not a necessary cutoff. The 116640-tile example demonstrates why that distinction matters. |
+| Other classified irrational-angle shapes | Published shape/rationality inputs and explicit branch-specific necessary equations, audited in the [105 reduction](../research/n105/PROOF_N105.md). | A contradiction for squarefree 105 cannot be generalized to all composites. The gamma=2alpha and other 120° scalene families must retain their full hypotheses in a global argument. |
+| Single negative counts | Complete project arguments for [21](n21-global-reduction.md) and [105](n105-global.md), with published-input dependencies and exact certificates. | No inference that every other unconstructed number is impossible. |
+
+## The concrete mathematical work still needed
+
+**1. Finish the global classification ledger.** Use an exhaustive published angular classification, and make the normalization, side rationality, integer scales, and overlaps explicit for every branch. Sources with withdrawn claims may only be used for independently valid, specifically identified statements. Table 1 and Theorems 1.1–1.2 of Beeson–Zhang [BZ] are the rationality/classification entry point, not a count-existence theorem.
+
+**2. Close necessity versus sufficiency.** For a fixed primitive 60°/120° tile set A=max(a,b), B=min(a,b). This work constructs every equilateral m at or above 3(floor(A/B)+2), respectively 3(floor(A/B)+1). The finite interval below that threshold still needs either constructions or obstructions. Group-1 annuli similarly give eventual spectra, not exact minimum scales. Arithmetic admissibility alone cannot fill the gap; the N=105 instances themselves pass substantial arithmetic tests but are geometrically impossible.
+
+**3. Eliminate the infinite-parameter gap.** There are infinitely many primitive tiles. “Only finitely many exceptions for each fixed tile” is not a finite global list. A successful route could supply a uniform structural theorem, an exhaustive family of constructions/obstructions, or a genuinely terminating exact membership procedure with a proof of exhaustiveness and termination for arbitrary N. A bounded search, timeout, or parameter cutoff without proof is not such a procedure. No such complete all-N procedure is claimed here.
+
+**4. Prove both directions of one final statement.** State a set or criterion C and prove N∈C implies a construction, and N∉C implies impossibility across the exhaustive branches. Do not require a fixed-tile solution when a different tile already supplies the required positive witness; do not omit any tile on the negative side. Include N=1,2,3, the rational-angle exceptions, orientation symmetries and T-junctions.
+
+**5. Validate the universal steps, not only finite certificates.** The prime candidate still needs scrutiny of the forced patch and strictly decreasing column dependencies. The c-relation audit proves the sharp arithmetic thresholds but not those geometric inductions. For nonexistence certificates, root generation, fan completeness, supported-boundary marks and convex-capped chain hypotheses must stay explicit. External review or formalization would strengthen confidence; neither can substitute for a missing mathematical implication.
+
+## Why more case counts alone will not finish it
+
+The convex-capped chain lemma and exact fan checker are reusable tools. An isolated excluded N, even with a small certificate, does not supply a rule for all N. Progress toward the full problem should target the gap between necessary spectra and actual realizability, rather than describe a rising number of checked configurations as a percentage of the infinite classification.
+
+The short-term review targets are therefore precise: the universal scale-one candidates, the parameter-dependent small-m spectra, the remaining branch conditions, and an all-N mechanism connecting them. This repository's **full_Erdos634_solved remains false**.
+
+## Sources and source limitations
+
+[BZ] M. Beeson and Y. X Zhang, *Rationality of certain triangle tilings*, [arXiv:2604.01314v1](https://arxiv.org/html/2604.01314v1), Table 1 and Theorems 1.1–1.2.
+
+[Z] Y. X Zhang, *Tiling Triangles with 2pi/3 Angles*, [arXiv:2512.22696v4](https://arxiv.org/pdf/2512.22696v4). The construction theorems and separately labelled conjectural completeness/cutoff statements must not be conflated.
+
+The [project source ledger](sources-and-provenance.md), [prime dependency ledger](prime-case-dependencies.md), and [N105 proof references](../research/n105/PROOF_N105.md#references-only-the-specified-inputs-are-used) identify the exact versions used. Source retrieval is not an adjudication of the entire literature or priority. The [problem statement](https://www.erdosproblems.com/634) concerns all integers; a cached website label is not evidence that this repository solves it.
+
+## Integrated continuation: uniform reduction (30 September 2026)
+
+The [uniform-reduction note](uniform-reduction.md) and its complete source, test data, and separately checked positive witnesses are included in this publication. Its results are necessary spectra, two squarefree congruence obstructions, a finite candidate overlist, and formal boundary-signature witnesses. They are not a complete all-integer classification. The N=154 search is recorded as INCOMPLETE. The root verification coordinator now also replays all supplementary tests of this module in a disposable copy. Historical reports are retained with their original preparation scope.

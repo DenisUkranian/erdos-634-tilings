@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "max_v": 40,
+  "c_range": "0 <= n <= 2*v for each primitive pair",
+  "short_a_b_range": "1 <= i < v for each primitive pair",
+  "arithmetic": "exact integers; exhaustive nonnegative decompositions",
+  "primitive_pairs": 489,
+  "c_lengths_tested": 26709,
+  "c_decompositions_tested": 200255,
+  "short_a_lengths_tested": 12621,
+  "short_b_lengths_tested": 12621,
+  "sharpness_checks": 1467,
+  "elapsed_seconds": 0.751,
+  "scope": "Finite arithmetic regression only. No geometric tiling or complete induction is certified."
+}

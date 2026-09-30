@@ -1,0 +1,20 @@
+{
+  "result": "PASS_SUPPLEMENTARY_CHECKS",
+  "parameter_bound_a": 250,
+  "primitive_triples": 102,
+  "equilateral_scale_tests": 4887,
+  "ratio_scale_tests": 8948,
+  "macro_constructions": 52,
+  "macro_pair_intersections": 51996,
+  "mutations_rejected": [
+    "coordinate",
+    "scale",
+    "strip count",
+    "delete region",
+    "duplicate region",
+    "wrong tile count",
+    "wrong target"
+  ],
+  "universal_proofs": "PROOF.md; numerical checks are supplementary, not extrapolated proofs.",
+  "full_Erdos634_solved": false
+}

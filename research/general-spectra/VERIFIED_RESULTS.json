@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-30",
+  "scope": "General necessary scale theorems and sufficient constructions, not all-N classification",
+  "universal_results": {
+    "equilateral_60_and_120": "S=ab*m and N=ab*m^2 are necessary for primitive integer tiles with incommensurable angles.",
+    "equilateral_sufficiency_120": "m>=3*(floor(max(a,b)/min(a,b))+2)",
+    "equilateral_sufficiency_60": "m>=3*(floor(max(a,b)/min(a,b))+1)",
+    "isosceles_and_F1": "Known necessary spectra of Bonfioli rederived by half-differences; the 120-degree sufficient bound transfers from equilateral targets.",
+    "proofs": "PROOF.md and paper.pdf; finite sample checks do not establish the universal assertions."
+  },
+  "construction": {
+    "result": "ACCEPT_EXACT_HIERARCHICAL_CONSTRUCTION",
+    "tile": [
+      45,
+      32,
+      67
+    ],
+    "angle_opposite_c": 120,
+    "target_side": 12960,
+    "tile_count": 116640,
+    "macroregions": 36,
+    "macro_pairs_checked": 630,
+    "positive_area_macro_overlaps": 0,
+    "exact_arithmetic": true,
+    "internal_partition_basis": "Standard n^2 triangle subdivision and rectangular strip-cell partition.",
+    "external_peer_review": false,
+    "full_Erdos634_solved": false,
+    "expanded_tiles_checked": 116640,
+    "expanded_coordinate_sha256": "86710b7ea51c174e070bf1cc4cda6860815f9e9c790529008caca53d49bf0f23",
+    "expanded_pairwise_overlap_test": "Not run at O(N^2); disjointness follows from the checked macro partition and the explicit standard subdivisions.",
+    "seconds": 15.832431,
+    "certificate_sha256": "d7aa8118fd9e5fcb27bede7f5953f515d012abc77ce0f08072b924aa1cb1733b"
+  },
+  "supplementary_tests": {
+    "result": "PASS_SUPPLEMENTARY_CHECKS",
+    "parameter_bound_a": 250,
+    "primitive_triples": 102,
+    "equilateral_scale_tests": 4887,
+    "ratio_scale_tests": 8948,
+    "macro_constructions": 52,
+    "macro_pair_intersections": 51996,
+    "mutations_rejected": [
+      "coordinate",
+      "scale",
+      "strip count",
+      "delete region",
+      "duplicate region",
+      "wrong tile count",
+      "wrong target"
+    ],
+    "universal_proofs": "PROOF.md; numerical checks are supplementary, not extrapolated proofs.",
+    "full_Erdos634_solved": false
+  },
+  "source_comparison": {
+    "paper": "Yan X Zhang, arXiv:2512.22696v4",
+    "displayed_M_for_45_32_67": 12,
+    "constructed_multiplier": 9,
+    "literal_necessity_of_displayed_cutoff_counterexample": true,
+    "the_sufficient_Theorem_4_is_not_refuted": true
+  },
+  "full_Erdos634_solved": false,
+  "all_small_multipliers_classified": false,
+  "N105_rechecked_in_this_step": false,
+  "external_peer_review": false,
+  "priority_established": false,
+  "emails_sent": false,
+  "GitHub_changed": false
+}

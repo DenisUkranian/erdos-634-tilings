@@ -1,6 +1,6 @@
 # What is settled here, and what remains
 
-**29 September 2026 · research snapshot v0.1.0**
+**30 September 2026 · research snapshot v0.2.0**
 
 Erdős problem 634 asks which positive integers occur as the number of congruent triangular pieces in a triangle. It quantifies over both the tile and the target. A result for one fixed tile and one target shape is therefore a different statement from a global exclusion or existence claim for a number.
 
@@ -82,39 +82,24 @@ The [exhaustive arithmetic and source-based reduction](n21-global-reduction.md) 
 
 Bonfioli and Harries had already reported the exclusion. This is an independent compact proof and replay, with no priority claim. It settles one count and completes the fixed-tile table, but does not settle all composite counts.
 
-## The remaining N=105 investigation
+## N=105: now globally excluded in this project
 
-The [arithmetic and additive-invariant reduction](n105-partial-results.md) and the [positional frontier](n105-positional-frontier.md) do not establish either a 105-tiling or its impossibility.
+The [global proof](n105-global.md) supplies an exhaustive reduction and four complete fixed-target certificates. It includes both F1 candidates, (8,7,13) and (16,5,19), and both 60-degree equilateral candidates. The separate all-primes candidate is not a premise. See the [PDF](../research/n105/PROOF_N105.pdf) and [recorded replay](../research/n105/VERIFIED_RESULTS.json).
 
-The two surviving irrational-angle 60-degree equilateral candidates, with tiles $(5,21,19)$ and $(7,15,13)$, each admit an exactly checked partial placement covering the outer boundary. Their unfilled interiors have areas equal to 60 and 48 tiles respectively. These are partial placements, not full tilings. Boundary coverage and the finite geometric checks do not establish extendability, and they do not rule out further obstructions involving the inner frontier of a collar.
+The older collar notes are retained as historical, limited-scope regression evidence. Their declarations that N=105 was unresolved describe that earlier stage, not the current result.
 
-The [four-placement inner-corner argument](n105-fixed-collar-obstructions.md)
-now proves that neither of these two particular collars extends: all four
-possible first tiles at one convex inner corner overlap already placed tiles.
-Both complete one-node refutations have separate exact replays. This rejects
-two fixed configurations, not either tile globally and not the count 105.
+## New 60-degree and 120-degree spectra
 
-A [different 45-tile collar](n105-local-fan-frontier.md) for $(5,21,19)$
-has a separately admissible complete tile fan at each of its 18 convex
-inner corners. Exact witness replay establishes each fan individually;
-it does not establish compatibility between fans at different corners.
-Thus this local full-fan test does not by itself eliminate the candidate.
-The remaining interior still has area equal to 60 tiles. A subsequent
-[six-corner incompatibility proof](n105-six-corner-obstruction.md) now excludes
-this third fixed collar: no mutually compatible selection of its local fans
-exists. Other collars remain outside that proof.
+The [general note](../research/general-spectra/PROOF.md) proves necessary equilateral counts N=abm² and constructs every m above the explicit thresholds 3(floor(A/B)+1) and 3(floor(A/B)+2), respectively, where A=max(a,b), B=min(a,b). It rederives the known F1 and isosceles necessary spectra with attribution, and transfers the 120-degree construction to their large multipliers. Its (45,32,67) example at m=9 has 116640 tiles.
 
-For the 120-degree scalene candidate with tile $(8,7,13)$ and target $(105,56,91)$, a particular macro-decomposition leaves an equilateral 56-tile remainder after a 49-tile corner block. The corner block has not been proved compulsory in every tiling. Therefore this decomposition is not an exclusion proof.
-
-For this F1 target, a [boundary proposition](f1-two-longest-edges.md) forces
-at least two length-13 edges on each external side. Its side of length 56
-therefore has exactly two edges of each length 7, 8 and 13. This reduces
-that side to finitely many orders, but does not exclude all of them.
-
-The established invariant barrier concerns **additive direction-length invariants**. It must not be extended to all noncommutative tiling-group invariants on the strength of finite quotient experiments.
+Small multipliers remain unresolved in general. Infinite primitive tile parameters prevent replacing the per-tile finite intervals by a finite global exception list. The [full-solution roadmap](full-solution-roadmap.md) records the exact remaining quantifiers and obligations.
 
 ## What a full solution would still require
 
-The preceding results leave general composite counts across several shape families unresolved. A full solution needs necessity and sufficiency covering every classified family, including their scales and exceptions, together with sound dependence on the source classification. No finite batch of successful constructions, no isolated failed search, and no unforced geometric cut supplies that missing argument.
+The preceding results leave general composite counts across several shape families unresolved. A full solution needs necessity and sufficiency covering every classified family, including their scales and exceptions; the roadmap distinguishes necessary criteria from sufficient constructions, together with sound dependence on the source classification. No finite batch of successful constructions, no isolated failed search, and no unforced geometric cut supplies that missing argument.
 
 All new universal arguments in this snapshot are inspectable mathematical proofs or candidates with internal review. No external acceptance, formal verification of the full argument, or priority ruling is claimed.
+
+## Integrated continuation: uniform reduction (30 September 2026)
+
+The [uniform-reduction note](uniform-reduction.md) and its complete source, test data, and separately checked positive witnesses are included in this publication. Its results are necessary spectra, two squarefree congruence obstructions, a finite candidate overlist, and formal boundary-signature witnesses. They are not a complete all-integer classification. The N=154 search is recorded as INCOMPLETE. The root verification coordinator now also replays all supplementary tests of this module in a disposable copy. Historical reports are retained with their original preparation scope.

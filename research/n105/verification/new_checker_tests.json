@@ -1,0 +1,45 @@
+{
+  "result": "PASS",
+  "malformed_certificates": [
+    {
+      "test": "wrong tile",
+      "result": "REJECTED",
+      "reason": "wrong tile"
+    },
+    {
+      "test": "wrong target",
+      "result": "REJECTED",
+      "reason": "wrong target"
+    },
+    {
+      "test": "incorrect root identity",
+      "result": "REJECTED",
+      "reason": "wrong root identity"
+    },
+    {
+      "test": "unreproduced terminal assertion",
+      "result": "REJECTED",
+      "reason": "unreproduced rejection ['FAKE_REJECTION']"
+    }
+  ],
+  "boundary_supported_angle_regression": "PASS",
+  "exact_patch": {
+    "C": [
+      -25,
+      105
+    ],
+    "P": [
+      -20,
+      84
+    ],
+    "R": [
+      -20,
+      100
+    ],
+    "W": [
+      -15,
+      79
+    ]
+  },
+  "scope": "Regression only; complete certificate replay is separate."
+}

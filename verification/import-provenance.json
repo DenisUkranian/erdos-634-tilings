@@ -1,0 +1,17 @@
+{
+  "n105": {
+    "source_archive": "Erdos634_N105_global_2026-09-30.zip",
+    "bytes": 629992,
+    "sha256": "5ae986b14ad5fec1e1b0655102ab4348cc5175780b17adb94caf4a1bfb833a2a"
+  },
+  "general-spectra": {
+    "source_archive": "Erdos634_general_spectra_2026-09-30.zip",
+    "bytes": 889001,
+    "sha256": "dddf3857ed1378b1078604f83958cad47358f96512d64c8ce1d30dbbb7102263"
+  },
+  "c-relations": {
+    "source_archive": "Erdos634_c_relations_audit_2026-09-29.zip",
+    "bytes": 7181,
+    "sha256": "8a9a1fe7eedc11681d01d67a56bae483e55f9a3cc14dd272d558582945241d42"
+  }
+}

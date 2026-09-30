@@ -1,0 +1,52 @@
+{
+  "n": 154,
+  "classical_witness": null,
+  "runs": [
+    {
+      "instance": {
+        "branch": "I120",
+        "tile": [
+          8,
+          7,
+          13
+        ],
+        "target": [
+          91,
+          91,
+          154
+        ],
+        "n": 154,
+        "parameters": [
+          8,
+          7
+        ],
+        "multiplier": 1
+      },
+      "status": "INCOMPLETE",
+      "nodes": 119,
+      "maximum_placed": 87,
+      "seconds": 8.000963,
+      "field_D": 9408,
+      "target_coordinates": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "154",
+          "0"
+        ],
+        [
+          "77",
+          "1/2"
+        ]
+      ],
+      "tile_coordinates": null,
+      "resource_stop": "BudgetExceeded",
+      "exact_arithmetic": true,
+      "uses_collar_lemma": false,
+      "uses_prime_candidate": false
+    }
+  ],
+  "scope": "Selected finite instances, not a full solution of Erdos 634"
+}

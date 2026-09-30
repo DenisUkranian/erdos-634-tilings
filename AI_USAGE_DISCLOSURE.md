@@ -9,3 +9,7 @@ Mathematical correctness must be assessed from the supplied arguments, source co
 The prime-case result is presented as a **candidate proof** requiring external scrutiny. The explicit 322-tile construction has a different evidentiary status: it is accompanied by exact coordinates and a separate geometric checker. Its general construction theorem has a written mathematical proof. None of these statements claims a full solution of Erdős problem 634, proof-assistant formalization or adjudicated priority.
 
 The named human author retains responsibility for the material presented under his name. Readers are invited to inspect, reproduce and correct it through the public issue tracker. Future revisions should record any discovered gap or correction and preserve the distinction between finite replay and universal mathematical proof.
+
+## Publication snapshot 30 September 2026
+
+The expanded archive includes the N=105 global proof and the general spectra note. Separate finite replayers remain internal project implementations, not independent human review. The new publication audit does not promote the prime candidate to an accepted theorem or claim a complete solution of Erdős 634. Private email replies and their recipients' personal circumstances are not reproduced.

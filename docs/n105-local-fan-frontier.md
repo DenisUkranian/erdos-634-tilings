@@ -1,5 +1,7 @@
 # N = 105: every individual convex corner can pass
 
+> **Historical stage — 29 September 2026.** Its limited claims remain as written. The later [global N=105 proof](n105-global.md) supersedes statements here that the count is unresolved. These old partial certificates are retained as regression evidence, not as the new proof.
+
 **Scope.** This is an exact partial configuration for the equilateral target of
 side 105 with tile sides `(5,21,19)`. It is not a 105-tiling, and it does not
 exclude or establish any of the remaining N = 105 cases.

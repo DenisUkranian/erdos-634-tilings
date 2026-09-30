@@ -1,5 +1,7 @@
 # Two longest edges on each side of the (8,7,13) F1 target
 
+> **Historical stage — 29 September 2026.** Its limited claims remain as written. The later [global N=105 proof](n105-global.md) supersedes statements here that the count is unresolved. These old partial certificates are retained as regression evidence, not as the new proof.
+
 29 September 2026. Research directed by Denis Paliy, with ChatGPT assistance.
 This is an internally checked geometric argument, not an externally refereed
 result or a decision of N=105.

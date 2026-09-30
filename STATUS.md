@@ -1,11 +1,16 @@
 # Claim ledger and verification scope
 
-**Research snapshot v0.1.0 · 29 September 2026**
+**Research snapshot v0.2.0 · 30 September 2026**
 
 This file distinguishes mathematical claims from the evidence supporting them. It records a prepared research snapshot; it does not by itself assert that a GitHub release has been published or that remote continuous integration has passed.
 
 | Claim | Status in this work | Supporting material |
 |---|---|---|
+| No triangle admits a 105-tiling | Computer-assisted proof with published classification/rationality inputs, written lemmas, and four complete exact certificates; internally replayed, no external acceptance | [Manuscript](research/n105/PROOF_N105.md), [certificate package](research/n105/), [scope](docs/n105-global.md) |
+| Equilateral primitive 60°/120° spectra | Necessary S=abm, N=abm²; sufficient explicit large-m bounds, not a small-scale classification | [General spectra proof](research/general-spectra/PROOF.md) |
+| 120° F1/isosceles necessary spectra | Known forms credited to Bonfioli, rederived by half-differences; large-scale sufficiency from Zhang-type constructions | [Attribution and proof](docs/general-spectra.md) |
+| (45,32,67), equilateral side 12960, 116640 tiles | Exact hierarchical construction; macroregion pair intersections and all expanded tile shapes/containment checked; no claimed O(N²) tile-pair replay | [Certificate](research/general-spectra/construction_116640.json), [checker](research/general-spectra/verify_certificate.py) |
+| Sharp c-relation thresholds | Complete elementary arithmetic derivation and finite regression; not certification of the geometric prime induction | [Audit](research/c-relations/audit.md) |
 | For prime $p$, a triangle can be tiled by $p$ congruent triangles exactly when $p=2$, $p=3$ or $p\equiv1\pmod4$ | **Candidate proof**, dependent on the two geometric obstructions and the explicitly cited classification inputs; external review needed | [Complete candidate manuscript](paper/prime-case-candidate.pdf), [dependency note](docs/prime-case-dependencies.md), [geometric working text](docs/prime-case-candidate.md) |
 | Scale-one obstruction for $W=(2\alpha,\beta,\alpha+\beta)$ | Proposed universal geometric theorem, internally checked; scrutiny of boundary induction and column completion requested | [Geometric text](docs/prime-case-candidate.md) |
 | Scale-one obstruction for $(\beta,3\alpha,\beta)$ | Proposed universal geometric theorem, using the forced patch and the $W$ obstruction; external review needed | [Geometric text](docs/prime-case-candidate.md) |
@@ -23,7 +28,7 @@ This file distinguishes mathematical claims from the evidence supporting them. I
 | Tile $(2,3,4)$ in the $\theta$ branch | Exact spectrum $N=3t^2$ for all integers $t\ge4$. The 75-tile construction completes the final missing scale | [Theta branch](docs/theta-branch.md) |
 | Theta constructions with 75, 147 and 243 tiles | Separate exact-rational intersection replays pass all 2,775, 10,731 and 29,403 tile pairs, respectively, plus containment, total area and atomized edge cancellation | [Theta branch and certificates](docs/theta-branch.md) |
 | Lemma 55 of Beeson v4 for tile $(2,3,4)$ | The 75-tile construction is a counterexample to its stated integrality/divisibility conclusion: $\mu=15/2$ and $M=5$, while its hypotheses hold. The prime-case candidate does not use this lemma | [Source comparison](docs/theta-branch.md) |
-| Complete boundary collars for the two $N=105$ equilateral candidates | Exact partial placements for tiles $(5,21,19)$ and $(7,15,13)$; 45 and 57 tiles respectively, leaving interiors with areas equal to 60 and 48 tiles. No complete 105-tiling or global exclusion is established | [Open frontier](docs/open-frontier.md#the-remaining-n105-investigation), [collar checker](scripts/verify_n105_collars.py) |
+| Complete boundary collars for the two $N=105$ equilateral candidates | Exact partial placements for tiles $(5,21,19)$ and $(7,15,13)$; 45 and 57 tiles respectively, leaving interiors with areas equal to 60 and 48 tiles. This historical collar result alone gives no global exclusion; the later complete proof is listed above | [Current 105 result](docs/n105-global.md), [collar checker](scripts/verify_n105_collars.py) |
 | Nonextendability of those two fixed $N=105$ collars | All four possible first tiles at one inner corner are blocked in each collar; two complete one-node refutations pass separate exact replay. This excludes only the named partial configurations | [Four-placement proof](docs/n105-fixed-collar-obstructions.md), [refutation checker](scripts/verify_n105_collar_refutations.py) |
 | Third fixed N=105 collar | Six convex corners have no mutually compatible full fans; exact replay checks all options and six eliminations. Only this collar is excluded | [Proof](docs/n105-six-corner-obstruction.md), [checker](scripts/verify_n105_joint_fans.py) |
 | Boundary of the (8,7,13) F1 target | Internally checked geometric proof: each external side has at least two length-13 edges; side 56 has two edges of each length. Not a global nonexistence proof | [Boundary proposition](docs/f1-two-longest-edges.md) |
@@ -55,4 +60,10 @@ The prime deduction records exact versions and the parts of external results tha
 
 ## What remains
 
-General composite-count classification, including scales and target families not settled by the current results, remains unresolved. Specific reductions and any separately settled subfamilies are maintained in [docs/open-frontier.md](docs/open-frontier.md). Do not infer that every count or scale not covered by the main README is either impossible or still open in the literature.
+General all-integer classification remains uncompleted even after the global 105 exclusion. This includes scales and target families not settled by the current results, remains unresolved. Specific reductions and any separately settled subfamilies are maintained in [docs/open-frontier.md](docs/open-frontier.md). Do not infer that every count or scale not covered by the main README is either impossible or still open in the literature.
+
+The precise remaining obligations are in [the full-solution roadmap](docs/full-solution-roadmap.md). The repository audit checks all tracked files and runnable finite evidence, not every universal proof in a formal system.
+
+## Integrated continuation: uniform reduction (30 September 2026)
+
+The [uniform-reduction note](docs/uniform-reduction.md) and its complete source, test data, and separately checked positive witnesses are included in this publication. Its results are necessary spectra, two squarefree congruence obstructions, a finite candidate overlist, and formal boundary-signature witnesses. They are not a complete all-integer classification. The N=154 search is recorded as INCOMPLETE. The root verification coordinator now also replays all supplementary tests of this module in a disposable copy. Historical reports are retained with their original preparation scope.

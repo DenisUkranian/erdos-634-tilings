@@ -15,3 +15,5 @@ output.json
 *.synctex.gz
 .DS_Store
 Thumbs.db
+
+audit-output/

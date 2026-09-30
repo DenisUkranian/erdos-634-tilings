@@ -1,0 +1,91 @@
+{
+  "status": "PASS_COEFFICIENTWISE",
+  "identities": [
+    {
+      "name": "Group1 W area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Group1 beta area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Group1 theta area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Group1 alpha area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Group1 other-scalene area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Double-angle area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Tile signature factorization",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "W formal boundary identity",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Beta formal boundary identity",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Theta formal boundary identity",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Equilateral area, norm sign -1",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Equilateral area, norm sign 1",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "F1 area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "I area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "F3 area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "F4 area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "F2 area",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "F1 first character simplification",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "F1 second character simplification",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Isosceles first character simplification",
+      "nonzero_residual_coefficients": 0
+    },
+    {
+      "name": "Isosceles second character simplification",
+      "nonzero_residual_coefficients": 0
+    }
+  ],
+  "count": 21,
+  "meaning": "Exact polynomial identities, not sampled evaluations; geometric hypotheses are proved separately."
+}

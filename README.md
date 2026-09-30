@@ -1,36 +1,43 @@
 # Erdős Problem 634 — congruent triangle tilings
 
-**Denis Paliy** · Research with ChatGPT assistance
+**Denis Paliy** · Research with ChatGPT assistance · 30 September 2026
 
-[Status](STATUS.md) · [Reproduce](REPRODUCIBILITY.md) · [Open questions](docs/open-frontier.md) · [Citation](CITATION.cff)
+[Status](STATUS.md) · [Reproduce](REPRODUCIBILITY.md) · [Full-problem roadmap](docs/full-solution-roadmap.md) · [Citation](CITATION.cff)
 
-Erdős problem 634 asks which positive integers N allow some triangle to be dissected into N congruent triangles. Reflections and T-junctions are permitted.
+Which positive integers N allow a triangle to be dissected into N congruent triangles? Reflections and arbitrary T-junctions are allowed.
 
-**This repository does not claim a complete solution of Problem 634.** Written proofs, candidate arguments and finite computational certificates have different verification scopes; see the [claim ledger](STATUS.md).
+**This repository contains partial research results, not a complete solution of Erdős problem 634.** The N=105 argument combines written geometric lemmas, published classification inputs, and separately replayed exact certificates. Universal arguments are not formally certified by running the code; the all-primes manuscript remains a candidate.
 
-## Research currently published here
+## Results and complete materials
 
-| Result | Material and scope |
+| Result | Read and reproduce |
 |---|---|
-| Prime-count classification candidate | [Manuscript](paper/prime-case-candidate.pdf) and [dependencies](docs/prime-case-dependencies.md). The universal geometric arguments require independent review. |
-| Exact constructions, including 322 tiles | [Two-piece construction](docs/two-piece-construction.md), [PDF](paper/two-piece-construction.pdf), and [coordinate certificate](data/tiling-322.json). |
-| All five rational target shapes at sufficiently large scales | [Two-annulus construction](docs/universal-rational-scales.md) and [explicit seeds](docs/explicit-theta-seeds.md). Small scales are not classified in general. |
-| Complete fixed-tile analysis for (2,3,4) | [All target shapes for this tile](docs/first-tile-classification.md). This is not a classification over every possible tile. |
-| Global exclusion of 21 | [Reduction](docs/n21-global-reduction.md) and separately replayed finite certificate. Prior work is credited. |
-| Historical N=105 investigation | [Partial results](docs/n105-partial-results.md). These committed files are partial; the later complete N=105 package prepared separately has not yet been incorporated into this branch. |
+| Global exclusion of N=105 | [Written proof](research/n105/PROOF_N105.md), [PDF](research/n105/PROOF_N105.pdf), [four certificates and checking programs](research/n105/), [report](research/n105/VERIFIED_RESULTS.json). Covers both equilateral and both scalene candidates. |
+| General scale restrictions and constructive bounds | [Proof](research/general-spectra/PROOF.md), [PDF](research/general-spectra/paper.pdf), [code and data](research/general-spectra/). Small multipliers remain unclassified in general. |
+| Exact construction with 116,640 tiles | Tile (45,32,67), equilateral side 12,960: [macrocertificate](research/general-spectra/construction_116640.json), [all coordinates](research/general-spectra/tiles_116640.jsonl.gz), [checker](research/general-spectra/verify_certificate.py). |
+| Squarefree obstructions and finite candidate reduction | [Proof](research/uniform-reduction/PROOF.md), [PDF](research/uniform-reduction/paper.pdf), [full supplementary package](research/uniform-reduction/). Includes the double-angle scale restriction and limits of linear boundary signatures. N=154 remains incomplete. |
+| All-prime classification candidate | [Manuscript](paper/prime-case-candidate.pdf), [dependencies](docs/prime-case-dependencies.md), [c-relation audit](research/c-relations/audit.md). Universal geometric forcing still requires scrutiny. |
+| Construction with 322 tiles and an infinite family | [Two-piece construction](docs/two-piece-construction.md), [PDF](paper/two-piece-construction.pdf), [certificate](data/tiling-322.json). |
+| All five rational shapes at sufficiently large scales | [Two-annulus theorem](docs/universal-rational-scales.md) and [explicit seeds](docs/explicit-theta-seeds.md). Bounds depend on the fixed tile. |
+| Complete fixed-tile analysis for (2,3,4) | [Classification](docs/first-tile-classification.md), including the [75-tile construction](docs/theta-75-construction.md). Prior results are credited. |
+| Global exclusion of 21 | [Reduction](docs/n21-global-reduction.md) and [391-state certificate argument](docs/alpha-21-obstruction.md). Independently reproduces previously reported work. |
+
+The N=105 root coverage is 120/120 for each scalene target, 15/15 for tile (5,19,21), and 1,788/1,788 for tile (7,13,15). Historical partial collars remain as regression fixtures, not as substitutes for these complete finite proofs.
 
 ## Verification
 
-Python 3.10 or newer; the finite checks use the standard library:
+Python 3.11 or newer; the finite tests use the standard library:
 
 ```bash
-python3 scripts/reproduce.py
+python scripts/verify_all.py --jobs 2
 ```
 
-Do not use `-O`, `-OO`, or `PYTHONOPTIMIZE`. A successful replay checks the supplied finite evidence, not every universal theorem or the full problem. Read [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the exact boundary.
+Use ordinary Python, without `-O`, `-OO`, or `PYTHONOPTIMIZE`. The coordinator checks integrity and local links, replays the legacy suite and all four N=105 certificates, expands the 116,640-tile construction, and runs the uniform-reduction and c-relation tests in temporary copies. Reports record the scope of each check. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 
-## Authorship and reuse
+## Remaining question and attribution
 
-Denis Paliy directed the investigation. ChatGPT assisted with proof exploration, drafting, programming and checks; see [AI_USAGE_DISCLOSURE.md](AI_USAGE_DISCLOSURE.md). No external referee acceptance, proof-assistant verification of the whole project, or research priority is claimed.
+A finite exception interval for each fixed tile is not a finite exception list over infinitely many tiles. Neither the necessary arithmetic spectra nor the existing finite membership search supplies the requested structural classification of all N. See the [roadmap](docs/full-solution-roadmap.md).
 
-Original software: [MIT](LICENSE). Original documentation and figures: [CC BY 4.0](LICENSE-DOCUMENTATION.md). Third-party work retains its own rights. [Corrections and independent review](CONTRIBUTING.md) are welcome.
+Denis Paliy directed the investigation; ChatGPT assisted with derivations, drafting and code. [Assistance disclosure](AI_USAGE_DISCLOSURE.md). No external referee acceptance, proof-assistant verification of the whole project, or priority is claimed. [Corrections](CONTRIBUTING.md) are welcome.
+
+Software: [MIT](LICENSE). Original documentation and figures: [CC BY 4.0](LICENSE-DOCUMENTATION.md). Cited third-party work retains its own rights.
