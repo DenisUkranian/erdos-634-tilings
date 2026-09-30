@@ -1,0 +1,55 @@
+name: Repository audit
+on:
+  push:
+    branches: [main, 'release/**']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Inventory all tracked files
+        run: |
+          mkdir -p audit-output
+          git archive --format=zip HEAD > audit-output/repository-source.zip
+          python - <<'PY'
+          import hashlib,json,pathlib,subprocess
+          paths=subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
+          inventory=[]; hits=[]; failures=[]
+          for name in filter(None,paths):
+              p=pathlib.Path(name); data=p.read_bytes()
+              inventory.append({'path':name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()})
+              if p.suffix in ('.md','.tex','.yml','.yaml','.cff','.txt','.py'):
+                  text=data.decode('utf-8')
+                  for no,line in enumerate(text.splitlines(),1):
+                      if 'Problem 506' in line or 'problem 506' in line or 'erdos-506' in line:
+                          hits.append({'path':name,'line':no,'text':line})
+              if p.suffix=='.json':
+                  try: json.loads(data)
+                  except Exception as e: failures.append({'path':name,'error':str(e)})
+              if p.suffix=='.py':
+                  try: compile(data,name,'exec')
+                  except Exception as e: failures.append({'path':name,'error':str(e)})
+          result={'commit':subprocess.check_output(['git','rev-parse','HEAD']).decode().strip(),'tracked_files':len(inventory),'inventory':inventory,'wrong_project_references':hits,'parse_failures':failures}
+          pathlib.Path('audit-output/inventory.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps({k:v for k,v in result.items() if k!='inventory'},indent=2))
+          if failures: raise SystemExit(1)
+          PY
+      - name: Replay the existing research suite
+        run: |
+          set -o pipefail
+          python scripts/reproduce.py 2>&1 | tee audit-output/reproduce.log
+      - name: Upload audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: repository-audit-${{ github.sha }}
+          path: audit-output/
+          retention-days: 30
