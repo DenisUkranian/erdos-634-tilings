@@ -1,0 +1,35 @@
+{
+  "base_commit": "50d7459bd1d3f41352630323f1c55a92e8d9b64e",
+  "base_replay_status": "ALL_FINITE_SUITES_PASS",
+  "base_replay_seconds": 222.99,
+  "base_suites": [
+    "repository",
+    "legacy",
+    "n105",
+    "spectra_construction",
+    "spectra_formula_tests",
+    "uniform_reduction",
+    "c_relations"
+  ],
+  "full_problem_solved": false,
+  "prime_case_formally_verified": false,
+  "external_review": false,
+  "base_report_declared_date": "2026-09-30",
+  "integrated_local_replay": {
+    "date_utc": "2026-10-02",
+    "status": "ALL_FINITE_SUITES_PASS",
+    "seconds": 231.191,
+    "suites": [
+      "repository",
+      "legacy",
+      "n105",
+      "spectra_construction",
+      "spectra_formula_tests",
+      "uniform_reduction",
+      "c_relations",
+      "uniform_sectors",
+      "square_class_saturation"
+    ],
+    "remote_ci_success_asserted": false
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "blocks": [
+    {
+      "subdivision": 17,
+      "type": "triangle_grid",
+      "vertices": [
+        "O",
+        "A",
+        "C"
+      ]
+    },
+    {
+      "subdivision": 17,
+      "type": "triangle_grid",
+      "vertices": [
+        "O",
+        "A",
+        "D"
+      ]
+    },
+    {
+      "subdivision": 72,
+      "type": "triangle_grid",
+      "vertices": [
+        "O",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "subdivision": 98,
+      "type": "triangle_grid",
+      "vertices": [
+        "B",
+        "C",
+        "H"
+      ]
+    },
+    {
+      "columns": 64,
+      "diagonal": "difference",
+      "rows": 17,
+      "type": "parallelogram_grid",
+      "vertices": [
+        "O",
+        "D",
+        "B",
+        "E"
+      ]
+    }
+  ],
+  "coordinate_convention": "(x,y) means the Euclidean point (x,sqrt(metric_D)*y)",
+  "format": "erdos634-QP-macro-v1",
+  "metric_D": 260,
+  "points": {
+    "A": [
+      [
+        289,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "B": [
+      [
+        -3680,
+        1
+      ],
+      [
+        -324,
+        1
+      ]
+    ],
+    "C": [
+      [
+        -544,
+        1
+      ],
+      [
+        68,
+        1
+      ]
+    ],
+    "D": [
+      [
+        -544,
+        1
+      ],
+      [
+        -68,
+        1
+      ]
+    ],
+    "E": [
+      [
+        -3136,
+        1
+      ],
+      [
+        -256,
+        1
+      ]
+    ],
+    "H": [
+      [
+        -125698,
+        81
+      ],
+      [
+        12172,
+        81
+      ]
+    ],
+    "O": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "scale": 1,
+  "source": "DenisUkranian/erdos-634-tilings, docs/two-piece-construction.md, commit 50d7459bd1d3f41352630323f1c55a92e8d9b64e",
+  "target": [
+    "A",
+    "B",
+    "H"
+  ],
+  "tile_count": 17542,
+  "tile_sides": [
+    72,
+    17,
+    81
+  ],
+  "u": 8,
+  "v": 9,
+  "validation_scope": "Compressed grids, not an explicit list of every tile"
+}

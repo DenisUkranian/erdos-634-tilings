@@ -1,0 +1,283 @@
+{
+  "status": "PASS",
+  "scope": "Finite regressions, not proofs of universal statements",
+  "norms": {
+    "max_d": 20000,
+    "squarefree_kernels": 12160,
+    "family_equivalence_checks": 24320,
+    "method": "Independent sieve and forward primitive-parameter enumeration"
+  },
+  "thresholds": {
+    "max_v": 80,
+    "primitive_pairs": 1965,
+    "scale_plans": 212741,
+    "direct_coin_checks": 745
+  },
+  "geometry": {
+    "max_v": 10,
+    "complete_macrocertificates": 193,
+    "macroregions_checked": 3527,
+    "macro_pairs_checked": 60568,
+    "largest_compressed_tile_count": 12079899,
+    "corrupt_certificates_rejected": 7,
+    "examples": {
+      "W14_m11": {
+        "status": "PASS",
+        "tile_count": 1694,
+        "macroregions": 11,
+        "macro_pairs": 55,
+        "expanded_individual_tiles": false,
+        "scope": "Complete compressed-grid dissection; not an enumeration of every individual tile",
+        "u": 2,
+        "v": 3,
+        "m": 11,
+        "family": "W"
+      },
+      "W46_m29": {
+        "status": "PASS",
+        "tile_count": 38686,
+        "macroregions": 18,
+        "macro_pairs": 153,
+        "expanded_individual_tiles": false,
+        "scope": "Complete compressed-grid dissection; not an enumeration of every individual tile",
+        "u": 2,
+        "v": 5,
+        "m": 29,
+        "family": "W"
+      },
+      "W62_m59": {
+        "status": "PASS",
+        "tile_count": 215822,
+        "macroregions": 32,
+        "macro_pairs": 496,
+        "expanded_individual_tiles": false,
+        "scope": "Complete compressed-grid dissection; not an enumeration of every individual tile",
+        "u": 6,
+        "v": 7,
+        "m": 59,
+        "family": "W"
+      },
+      "beta23_m11": {
+        "status": "PASS",
+        "tile_count": 2783,
+        "macroregions": 14,
+        "macro_pairs": 91,
+        "expanded_individual_tiles": false,
+        "scope": "Complete compressed-grid dissection; not an enumeration of every individual tile",
+        "u": 2,
+        "v": 3,
+        "m": 11,
+        "family": "beta"
+      },
+      "W94_m55": {
+        "status": "PASS",
+        "tile_count": 284350,
+        "macroregions": 25,
+        "macro_pairs": 300,
+        "expanded_individual_tiles": false,
+        "scope": "Complete compressed-grid dissection; not an enumeration of every individual tile",
+        "u": 2,
+        "v": 7,
+        "m": 55,
+        "family": "W"
+      },
+      "W142_m157": {
+        "status": "PASS",
+        "tile_count": 3500158,
+        "macroregions": 60,
+        "macro_pairs": 1770,
+        "expanded_individual_tiles": false,
+        "scope": "Complete compressed-grid dissection; not an enumeration of every individual tile",
+        "u": 10,
+        "v": 11,
+        "m": 157,
+        "family": "W"
+      },
+      "beta122_m53": {
+        "status": "PASS",
+        "tile_count": 342698,
+        "macroregions": 50,
+        "macro_pairs": 1225,
+        "expanded_individual_tiles": false,
+        "scope": "Complete compressed-grid dissection; not an enumeration of every individual tile",
+        "u": 5,
+        "v": 7,
+        "m": 53,
+        "family": "beta"
+      }
+    },
+    "individual_tiles_expanded": false
+  },
+  "classifier": {
+    "queries": [
+      {
+        "N": 14,
+        "squarefree_kernel": 14,
+        "multiplier": 1,
+        "status": "UNKNOWN",
+        "reason": "outside_constructed_scales",
+        "in_W_only_sector": true
+      },
+      {
+        "N": 154,
+        "squarefree_kernel": 154,
+        "multiplier": 1,
+        "status": "UNKNOWN",
+        "reason": "outside_constructed_scales",
+        "in_W_only_sector": false
+      },
+      {
+        "N": 1694,
+        "squarefree_kernel": 14,
+        "multiplier": 11,
+        "status": "YES",
+        "reason": "explicit_construction_scheme",
+        "family": "W",
+        "parameters": [
+          2,
+          3
+        ],
+        "plan": {
+          "u": 2,
+          "v": 3,
+          "m": 11,
+          "seed_scale": 9,
+          "seed_factor": 3,
+          "steps": 1,
+          "H": 7,
+          "C": 11
+        }
+      },
+      {
+        "N": 38686,
+        "squarefree_kernel": 46,
+        "multiplier": 29,
+        "status": "YES",
+        "reason": "explicit_construction_scheme",
+        "family": "W",
+        "parameters": [
+          2,
+          5
+        ],
+        "plan": {
+          "u": 2,
+          "v": 5,
+          "m": 29,
+          "seed_scale": 25,
+          "seed_factor": 5,
+          "steps": 2,
+          "H": 23,
+          "C": 29
+        }
+      },
+      {
+        "N": 215822,
+        "squarefree_kernel": 62,
+        "multiplier": 59,
+        "status": "YES",
+        "reason": "explicit_construction_scheme",
+        "family": "W",
+        "parameters": [
+          6,
+          7
+        ],
+        "plan": {
+          "u": 6,
+          "v": 7,
+          "m": 59,
+          "seed_scale": 35,
+          "seed_factor": 5,
+          "steps": 4,
+          "H": 27,
+          "C": 58
+        }
+      },
+      {
+        "N": 2783,
+        "squarefree_kernel": 23,
+        "multiplier": 11,
+        "status": "YES",
+        "reason": "explicit_construction_scheme",
+        "family": "beta",
+        "parameters": [
+          2,
+          3
+        ],
+        "plan": {
+          "u": 2,
+          "v": 3,
+          "m": 11,
+          "seed_scale": 9,
+          "seed_factor": 3,
+          "steps": 1,
+          "H": 7,
+          "C": 11
+        }
+      },
+      {
+        "N": 110,
+        "squarefree_kernel": 110,
+        "multiplier": 1,
+        "status": "NO",
+        "reason": "W_only_sector_inert_prime",
+        "obstructing_primes": [
+          5,
+          11
+        ]
+      },
+      {
+        "N": 13310,
+        "squarefree_kernel": 110,
+        "multiplier": 11,
+        "status": "NO",
+        "reason": "W_only_sector_inert_prime",
+        "obstructing_primes": [
+          5,
+          11
+        ]
+      },
+      {
+        "N": 990,
+        "squarefree_kernel": 110,
+        "multiplier": 3,
+        "status": "UNKNOWN",
+        "reason": "outside_constructed_scales",
+        "in_W_only_sector": false
+      },
+      {
+        "N": 1,
+        "squarefree_kernel": 1,
+        "multiplier": 1,
+        "status": "YES",
+        "reason": "classical_square_multiple",
+        "coefficient": 1
+      },
+      {
+        "N": 2,
+        "squarefree_kernel": 2,
+        "multiplier": 1,
+        "status": "YES",
+        "reason": "classical_square_multiple",
+        "coefficient": 2
+      },
+      {
+        "N": 3,
+        "squarefree_kernel": 3,
+        "multiplier": 1,
+        "status": "YES",
+        "reason": "classical_square_multiple",
+        "coefficient": 3
+      },
+      {
+        "N": 6,
+        "squarefree_kernel": 6,
+        "multiplier": 1,
+        "status": "YES",
+        "reason": "classical_square_multiple",
+        "coefficient": 6
+      }
+    ],
+    "invalid_inputs_rejected": 5,
+    "unknown_is_not_nonexistence": true
+  }
+}

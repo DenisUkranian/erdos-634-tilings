@@ -1,0 +1,39 @@
+{
+  "P": 1453991099,
+  "Q": 935108258,
+  "curve": "y^2=x(x-2n)(x-3n)",
+  "curve_n": 22,
+  "group_law_regression_pairs": 36,
+  "scope": "One exact constructive witness; no rank, minimality, or point-completeness claim",
+  "seed": [
+    [
+      352,
+      9
+    ],
+    [
+      1936,
+      27
+    ]
+  ],
+  "seed_is_valid_triangle_pair": false,
+  "seed_u_v": [
+    4,
+    3
+  ],
+  "square_multiplier": 248599631,
+  "status": "PASS",
+  "tile_count": 1359639083733395542,
+  "triple": [
+    [
+      2258463328,
+      518882841
+    ],
+    [
+      1219104747265328,
+      11819632235139
+    ]
+  ],
+  "two_torsion_checks": 3,
+  "u": 10132,
+  "v": 22779
+}

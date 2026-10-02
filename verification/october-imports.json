@@ -1,0 +1,18 @@
+{
+  "import_date": "2026-10-03",
+  "packages": [
+    {
+      "archive": "Erdos634_uniform_sectors_2026-10-01(1).zip",
+      "sha256": "bced0e09a1b8d124df0e9e13196e42859df38a4d31e8182a920610bf9dba74bd",
+      "destination": "research/uniform-sectors",
+      "source_bytes_preserved": true
+    },
+    {
+      "archive": "Erdos634_square_class_saturation_2026-10-01(1).zip",
+      "sha256": "da69a3e5685505ee486dc7ee105d1577ca2f5cdb945a77d33096b60307cf6c3f",
+      "destination": "research/square-class-saturation",
+      "source_bytes_preserved": true
+    }
+  ],
+  "scope": "Previously saved research packages, imported without source edits; new verification reports are separate."
+}

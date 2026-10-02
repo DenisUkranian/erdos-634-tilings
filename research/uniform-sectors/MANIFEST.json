@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-01",
+  "source_repository": "DenisUkranian/erdos-634-tilings",
+  "source_commit": "50d7459bd1d3f41352630323f1c55a92e8d9b64e",
+  "complete_problem_solved": false,
+  "external_review": false,
+  "files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 33826,
+      "sha256": "c63473b82bf0461824aea0c2477ca7343dfc81e25bfb11aaf80d7d689599e8f1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5843,
+      "sha256": "de34f48ba0b715a6b917d5cc6a87c04c001dfcf8b3607580159f4233d86a5e69"
+    },
+    {
+      "path": "RESULT_RU.md",
+      "bytes": 15319,
+      "sha256": "c87f5d833430a4403a93b2e2e30e0280966d72de7b61def64142155cec59defa"
+    },
+    {
+      "path": "arithmetic_sectors.py",
+      "bytes": 6717,
+      "sha256": "438b0c95b721175038ae652ff59319f97ee374f6996c1b114a3d4e27dff2c6da"
+    },
+    {
+      "path": "check_expanded.py",
+      "bytes": 4683,
+      "sha256": "d5252776b512d315b7a40ee7c683551f5528ecaf025756b21f6d1a826283bc86"
+    },
+    {
+      "path": "construction_17542.json",
+      "bytes": 1958,
+      "sha256": "0176abb704690f8cde35bbb54e26931d1a1bf551e2de63077ebcb8d5ee8ffbb0"
+    },
+    {
+      "path": "construction_2006.json",
+      "bytes": 1942,
+      "sha256": "7b849978b0e67825c23850a02ba42dee43e38ed9b34d7675232ee7ef71a5ece1"
+    },
+    {
+      "path": "construction_22_large.json",
+      "bytes": 2212,
+      "sha256": "0ab1e184e97fdc6c4eeaa32a7550f8f626b29102d36b70abe8de3b78d225f98c"
+    },
+    {
+      "path": "elliptic_witness.py",
+      "bytes": 4815,
+      "sha256": "ea41763783495959951bcce06cc813ea5a81ae075c0ab8e2ec7f5f04f67e60bf"
+    },
+    {
+      "path": "elliptic_witness_report.json",
+      "bytes": 645,
+      "sha256": "a02d124984a2dfc2c11a71555403619cdbe8654e47097de5ca62433bfa06a2d7"
+    },
+    {
+      "path": "examples.json",
+      "bytes": 3567,
+      "sha256": "d83d99bbad311c6dbf66cb32a4c4dcba1eae08e04a3aee7f2050d392035321f5"
+    },
+    {
+      "path": "expanded_2006_report.json",
+      "bytes": 308,
+      "sha256": "791618e3ed754f69802a8a64d993cad00b59ad99028b15ac5dcdc6b24f0afafb"
+    },
+    {
+      "path": "generate_macro.py",
+      "bytes": 2566,
+      "sha256": "960a20422dc9ca9def1a8b4d75a117315c52c38c3f7cf873fc340af603ba812c"
+    },
+    {
+      "path": "run_checks.py",
+      "bytes": 12053,
+      "sha256": "301dd2f26f2f892f934dc35d750ed88a48455bef5717b15cf2228ccb4e1de548"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 4643,
+      "sha256": "f0ff782ac7e4b0ba13b227c7318d79d8f631a39d4ae1cd20c78d76466ab65de6"
+    },
+    {
+      "path": "verify_macro.py",
+      "bytes": 6028,
+      "sha256": "54db3fc58ac0056b42e08cd8a2d20c035a7d4dbc1e1969339337b0125d4385a6"
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 """Replay all published finite suites in disposable copies; preserve frozen research files."""
 from __future__ import annotations
 import argparse,hashlib,json,os,shutil,subprocess,sys,tempfile,time
+from datetime import datetime, timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 if not __debug__ or os.environ.get('PYTHONOPTIMIZE'):
@@ -47,7 +48,15 @@ def main():
         reports['c_relations']=run(['check_relations.py','--max-v','40'],work/'research/c-relations')
         if json.loads(reports['c_relations']['stdout']).get('status')!='PASS':raise ValueError('c-relations did not pass')
         print('SHARP_C_RELATIONS_ARITHMETIC=PASS',flush=True)
-    result={'status':'ALL_FINITE_SUITES_PASS','date':'2026-09-30','python':sys.version,'seconds':round(time.monotonic()-started,3),'suites':reports,'full_Erdos634_solved':False,'prime_case_formally_verified':False,'human_and_published_theorems_formally_verified':False,'external_peer_review':False,'verification_boundary':'All packaged finite checks, syntax, integrity and local-link targets. Not a proof-assistant verification or independent human referee report.'}
+        for key,package in [('uniform_sectors','uniform-sectors'),('square_class_saturation','square-class-saturation')]:
+            pw=work/'research'/package
+            reports[key]=run(['run_checks.py','--output','fresh-replay.json'],pw)
+            pr=json.loads((pw/'fresh-replay.json').read_text())
+            if pr.get('status')!='PASS':
+                raise ValueError(f'Unexpected {package} verification report')
+            reports[key]['report']=pr
+            print(f'{key.upper()}_FINITE_CHECKS=PASS',flush=True)
+    result={'status':'ALL_FINITE_SUITES_PASS','date':datetime.now(timezone.utc).date().isoformat(),'python':sys.version,'seconds':round(time.monotonic()-started,3),'suites':reports,'full_Erdos634_solved':False,'prime_case_formally_verified':False,'human_and_published_theorems_formally_verified':False,'external_peer_review':False,'verification_boundary':'All packaged finite checks, syntax, integrity and local-link targets. Not a proof-assistant verification or independent human referee report.'}
     args.output.parent.mkdir(parents=True,exist_ok=True);args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('ALL_PUBLISHED_FINITE_SUITES=PASS',flush=True)
 if __name__=='__main__':main()

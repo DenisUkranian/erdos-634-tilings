@@ -1,0 +1,25 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "Final package files except manifest.json; pycache excluded.",
+  "sha256": {
+    "PROOF.md": "a598d3f2bdd7b738f841a63c4b877699aceb1840cca4aa4181a7601be42c3dc1",
+    "README.md": "15d4a5d10c1ccf56f1a5f9a06b1c2fde9eed9b657c3ccc7632383e06a18f837c",
+    "README_RU.md": "7b238c46fafa32ea6be013c43b59bc87bc6746170193d1ff705472c5de1eaceb",
+    "arithmetic.py": "f8e1aeeab3c8ee206f2085f5af85de83651df27e447c997ed4e004f1b39b6d3d",
+    "cli_report.json": "45dc22f8c0631995c0acf781979e5818857b3fe51b6c73a5740de60c99cafad9",
+    "dependencies/UNIFORM_SECTORS_PROOF.md": "c63473b82bf0461824aea0c2477ca7343dfc81e25bfb11aaf80d7d689599e8f1",
+    "examples/W142_m157.json": "c3c765478bc7b2d38e7424a192a6fff560f10c0e631088ada850957351294fb0",
+    "examples/W14_m11.json": "9d939d1fa89cd4451811a19e1e496a8ed3bfa0d1a5ce866196a5e46bb32a0f43",
+    "examples/W46_m29.json": "faf382229043075b84f7393eb021661259e62a68b855bfe2581c7ffa13ee7490",
+    "examples/W62_m59.json": "766d5c2ffae28417f0cb6f7a8cda4ec43be45a00f441721b915da78f45392ab1",
+    "examples/W94_m55.json": "d9cf84fb3dc6936442ed95719938e51b061115221ffd3c767db768a5b3d52a01",
+    "examples/beta122_m53.json": "8c83d5683a448575d2e3b5db7088337c55e8d5a56b511e99035bef0a664dc2df",
+    "examples/beta23_m11.json": "92d4b3077303a2a9e22fc3b1e8dac725077244a9184d14f0e5168ccb500e2a79",
+    "generate.py": "580eb07a45822bb14e2083333e730452ca9121de85978ef4b2c5da1478b33ed8",
+    "run_checks.py": "ee6c35d753c3cff4caa0844162e04ff17158c98f0d76f801f3f47f5bf695a9b4",
+    "saturation.py": "7cd04294e7d6c6261c191a0164e2f3324651f8b13e97c1b829abafe898874ae6",
+    "verification.json": "fd94590ad92b59bc62932c6a3596531ccd56418c4bd8ac690f7429948d172baf",
+    "verify_geometry.py": "a7a4ca96aa3373ddde1ed45ea3efd428c55b80761aa18c30ef0516b4bfbcdd58",
+    "verify_manifest.py": "4d468bd3eab7f4841a78d1a8a34079925436e4f1456d074259d957bf9273891d"
+  }
+}

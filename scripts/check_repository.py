@@ -67,7 +67,7 @@ def main():
         d=json.loads((ROOT/rel).read_text())
         if d.get('full_Erdos634_solved') is not False:errors.append({'invalid_all_problem_scope':rel})
     cff=(ROOT/'CITATION.cff').read_text()
-    if 'version: 0.2.0' not in cff or '634' not in cff:errors.append({'citation_identity_or_version':False})
+    if 'version: 0.3.0' not in cff or '634' not in cff:errors.append({'citation_identity_or_version':False})
     # Check generated coordinate stream against the frozen, uncompressed content hash.
     p=ROOT/'research/general-spectra/tiles_116640.jsonl.gz'
     if p.exists():

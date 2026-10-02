@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "individual_tiles_checked": 2006,
+  "pairs_checked": 2011015,
+  "aabb_separated_pairs": 2004341,
+  "exact_sat_pairs": 6674,
+  "integer_coordinate_scale": 50,
+  "all_tile_congruences": true,
+  "all_tiles_contained": true,
+  "exact_area_coverage": true,
+  "positive_area_overlaps": 0
+}

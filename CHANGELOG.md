@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.3.0 research snapshot — 3 October 2026
+
+- Import the 1 October uniform-sectors proof, exact arithmetic classifier and geometric certificates after a fresh internal proof review and regression replay.
+- Import square-class saturation: quantitative fixed-tile constructions for every sufficiently large multiplier in the specified norm classes.
+- Add both complete finite suites to the root coordinator used by CI, preserving the original source-package bytes and manifests.
+- Reconcile archive results and unsuccessful global routes in a dated audit. Keep the all-primes manuscript a candidate and the full all-integer problem unresolved.
+- This dated source snapshot does not assert creation of a GitHub release tag, formal verification or external acceptance.
+
 ## v0.2.0 — 30 September 2026
 
 - Publish the complete N=105 reduction, all four finite certificates, separate replayers, convex-capped chain rule and positive/mutation regressions.

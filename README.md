@@ -1,6 +1,6 @@
 # Erdős Problem 634 — congruent triangle tilings
 
-**Denis Paliy** · Research with ChatGPT assistance · 30 September 2026
+**Denis Paliy** · Research with ChatGPT assistance · 3 October 2026
 
 [Status](STATUS.md) · [Reproduce](REPRODUCIBILITY.md) · [Full-problem roadmap](docs/full-solution-roadmap.md) · [Citation](CITATION.cff)
 
@@ -12,6 +12,8 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 
 | Result | Read and reproduce |
 |---|---|
+| Exact criterion on an infinite arithmetic domain | [Uniform sectors proof](research/uniform-sectors/PROOF.md): for N≡6 (mod16), 3∤N, and no p≡7 (mod8) with odd exponent, admissibility is exactly the constructive QP form. [Code and certificates](research/uniform-sectors/). |
+| Constructive tails in compatible square classes | [Square-class saturation proof](research/square-class-saturation/PROOF.md), [generator and separate verifier](research/square-class-saturation/): a fixed W/beta tile realizes every sufficiently large multiplier, with an explicit bound below 2d. Small multipliers remain unclassified in general. |
 | Global exclusion of N=105 | [Written proof](research/n105/PROOF_N105.md), [PDF](research/n105/PROOF_N105.pdf), [four certificates and checking programs](research/n105/), [report](research/n105/VERIFIED_RESULTS.json). Covers both equilateral and both scalene candidates. |
 | General scale restrictions and constructive bounds | [Proof](research/general-spectra/PROOF.md), [PDF](research/general-spectra/paper.pdf), [code and data](research/general-spectra/). Small multipliers remain unclassified in general. |
 | Exact construction with 116,640 tiles | Tile (45,32,67), equilateral side 12,960: [macrocertificate](research/general-spectra/construction_116640.json), [all coordinates](research/general-spectra/tiles_116640.jsonl.gz), [checker](research/general-spectra/verify_certificate.py). |
@@ -34,11 +36,11 @@ Python 3.11 or newer; the finite tests use the standard library:
 python scripts/verify_all.py --jobs 2
 ```
 
-Use ordinary Python, without `-O`, `-OO`, or `PYTHONOPTIMIZE`. The coordinator checks integrity and local links, replays the legacy suite and all four N=105 certificates, expands the 116,640-tile construction, and runs the uniform-reduction and c-relation tests in temporary copies. Reports record the scope of each check. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+Use ordinary Python, without `-O`, `-OO`, or `PYTHONOPTIMIZE`. The coordinator checks integrity and local links, replays the legacy suite and all four N=105 certificates, expands the 116,640-tile construction, and runs the uniform-reduction, uniform-sectors, square-class-saturation and c-relation tests in temporary copies. Reports record the scope of each check. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 
 ## Remaining question and attribution
 
-A finite exception interval for each fixed tile is not a finite exception list over infinitely many tiles. Neither the necessary arithmetic spectra nor the existing finite membership search supplies the requested structural classification of all N. See the [roadmap](docs/full-solution-roadmap.md).
+A finite exception interval for each fixed tile is not a finite exception list over infinitely many tiles. Neither the necessary arithmetic spectra nor the existing finite membership search supplies the requested structural classification of all N. The [3 October audit](docs/audits/research-2026-10-03.md) reconciles the later archive, records the fresh replays and distinguishes unresolved global strategies from the prime-case candidate. See the [roadmap](docs/full-solution-roadmap.md).
 
 Denis Paliy directed the investigation; ChatGPT assisted with derivations, drafting and code. [Assistance disclosure](AI_USAGE_DISCLOSURE.md). No external referee acceptance, proof-assistant verification of the whole project, or priority is claimed. [Corrections](CONTRIBUTING.md) are welcome.
 

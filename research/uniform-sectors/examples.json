@@ -1,0 +1,174 @@
+[
+  {
+    "D": 11,
+    "N": 22,
+    "alpha_local_partitions": [],
+    "factor_pairs_tested": 2,
+    "factorization": {
+      "11": 1,
+      "2": 1
+    },
+    "full_Erdos634_solved": false,
+    "qp_representations": [],
+    "reason": "Exact QP equivalence: all other branches excluded",
+    "square_multiplier": 1,
+    "squarefree_kernel": 22,
+    "status": "NO"
+  },
+  {
+    "D": 19,
+    "N": 38,
+    "alpha_local_partitions": [],
+    "factor_pairs_tested": 2,
+    "factorization": {
+      "19": 1,
+      "2": 1
+    },
+    "full_Erdos634_solved": false,
+    "qp_representations": [],
+    "reason": "Exact QP equivalence: all other branches excluded",
+    "square_multiplier": 1,
+    "squarefree_kernel": 38,
+    "status": "NO"
+  },
+  {
+    "D": 19,
+    "N": 950,
+    "alpha_local_partitions": [],
+    "factor_pairs_tested": 8,
+    "factorization": {
+      "19": 1,
+      "2": 1,
+      "5": 2
+    },
+    "full_Erdos634_solved": false,
+    "qp_representations": [],
+    "reason": "Exact QP equivalence: all other branches excluded",
+    "square_multiplier": 5,
+    "squarefree_kernel": 38,
+    "status": "NO"
+  },
+  {
+    "D": 1003,
+    "N": 2006,
+    "alpha_local_partitions": [],
+    "factor_pairs_tested": 4,
+    "factorization": {
+      "17": 1,
+      "2": 1,
+      "59": 1
+    },
+    "full_Erdos634_solved": false,
+    "qp_representations": [
+      {
+        "P": 59,
+        "Q": 34,
+        "t": 1,
+        "target_sides": [
+          625,
+          850,
+          531
+        ],
+        "tile_count": 2006,
+        "tile_sides": [
+          20,
+          9,
+          25
+        ],
+        "u": 4,
+        "v": 5
+      }
+    ],
+    "reason": "Exact QP equivalence: all other branches excluded",
+    "square_multiplier": 1,
+    "squarefree_kernel": 2006,
+    "status": "YES"
+  },
+  {
+    "D": 179,
+    "N": 17542,
+    "alpha_local_partitions": [],
+    "factor_pairs_tested": 8,
+    "factorization": {
+      "179": 1,
+      "2": 1,
+      "7": 2
+    },
+    "full_Erdos634_solved": false,
+    "qp_representations": [
+      {
+        "P": 179,
+        "Q": 98,
+        "t": 1,
+        "target_sides": [
+          6561,
+          7938,
+          3043
+        ],
+        "tile_count": 17542,
+        "tile_sides": [
+          72,
+          17,
+          81
+        ],
+        "u": 8,
+        "v": 9
+      }
+    ],
+    "reason": "Exact QP equivalence: all other branches excluded",
+    "square_multiplier": 7,
+    "squarefree_kernel": 358,
+    "status": "YES"
+  },
+  {
+    "N": 154,
+    "factorization": {
+      "11": 1,
+      "2": 1,
+      "7": 1
+    },
+    "full_Erdos634_solved": false,
+    "reason": "Outside the 3-coprime residue sector",
+    "square_multiplier": 1,
+    "squarefree_kernel": 154,
+    "status": "NOT_COVERED"
+  },
+  {
+    "D": 11,
+    "N": 1359639083733395542,
+    "alpha_local_partitions": [],
+    "factor_pairs_tested": 128,
+    "factorization": {
+      "11": 1,
+      "11497": 2,
+      "2": 1,
+      "3089": 2,
+      "7": 2
+    },
+    "full_Erdos634_solved": false,
+    "qp_representations": [
+      {
+        "P": 1453991099,
+        "Q": 935108258,
+        "t": 1,
+        "target_sides": [
+          269239402684231281,
+          485211629553600978,
+          605188051495563283
+        ],
+        "tile_count": 1359639083733395542,
+        "tile_sides": [
+          230796828,
+          416225417,
+          518882841
+        ],
+        "u": 10132,
+        "v": 22779
+      }
+    ],
+    "reason": "Exact QP equivalence: all other branches excluded",
+    "square_multiplier": 248599631,
+    "squarefree_kernel": 22,
+    "status": "YES"
+  }
+]

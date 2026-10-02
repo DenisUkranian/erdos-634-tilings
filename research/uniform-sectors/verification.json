@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-01",
+  "difference_envelope": {
+    "coefficient_bound": 1000,
+    "density_formula": "3/4 - 9/(2*pi^2)",
+    "envelope_bound": 100000,
+    "envelope_elements": 29344,
+    "primitive_coefficients": 624,
+    "scope": "Arithmetic envelope only; its membership is not sufficient for a geometric tiling",
+    "status": "PASS"
+  },
+  "direct_QP_comparison": {
+    "N_bound": 30000,
+    "N_values_checked": 2571,
+    "direct_QP_counts": 74,
+    "sector_NO": 1504,
+    "sector_NOT_COVERED": 993,
+    "sector_YES": 3,
+    "status": "PASS"
+  },
+  "elapsed_seconds": 1.086,
+  "elliptic_witness": {
+    "P": 1453991099,
+    "Q": 935108258,
+    "curve": "y^2=x(x-2n)(x-3n)",
+    "curve_n": 22,
+    "group_law_regression_pairs": 36,
+    "scope": "One exact constructive witness; no rank, minimality, or point-completeness claim",
+    "seed": [
+      [
+        352,
+        9
+      ],
+      [
+        1936,
+        27
+      ]
+    ],
+    "seed_is_valid_triangle_pair": false,
+    "seed_u_v": [
+      4,
+      3
+    ],
+    "square_multiplier": 248599631,
+    "status": "PASS",
+    "tile_count": 1359639083733395542,
+    "triple": [
+      [
+        2258463328,
+        518882841
+      ],
+      [
+        1219104747265328,
+        11819632235139
+      ]
+    ],
+    "two_torsion_checks": 3,
+    "u": 10132,
+    "v": 22779
+  },
+  "expanded_2006": {
+    "aabb_separated_pairs": 2004341,
+    "all_tile_congruences": true,
+    "all_tiles_contained": true,
+    "exact_area_coverage": true,
+    "exact_sat_pairs": 6674,
+    "individual_tiles_checked": 2006,
+    "integer_coordinate_scale": 50,
+    "pairs_checked": 2011015,
+    "positive_area_overlaps": 0,
+    "status": "PASS"
+  },
+  "factorization": {
+    "integers_checked": 20000,
+    "status": "PASS"
+  },
+  "forbidden_family": {
+    "instances_checked": 187,
+    "multiplier_bound": 49,
+    "prime_bound": 500,
+    "primes": [
+      19,
+      43,
+      67,
+      139,
+      163,
+      211,
+      283,
+      307,
+      331,
+      379,
+      499
+    ],
+    "scope": "Regression only; the unrestricted prime/multiplier statement is proved in PROOF.md",
+    "status": "PASS"
+  },
+  "limitations": [
+    "No full classification of Erdos 634",
+    "No novelty or external review claim",
+    "No expansion of the enormous certificate"
+  ],
+  "macro_geometry": {
+    "invalid_mutations_rejected": 12,
+    "large_squareclass_22_certificate": {
+      "expanded_individual_tiles": false,
+      "macro_blocks": 5,
+      "macro_pairs_checked": 10,
+      "parallelogram_grids": 1,
+      "scope": "Complete compressed-grid construction; exact containment, congruence, coverage, and macro disjointness",
+      "status": "PASS",
+      "tile_count": 1359639083733395542,
+      "triangle_grids": 4
+    },
+    "macro_certificates": 554,
+    "macro_pairs_checked": 5540,
+    "max_v": 30,
+    "primitive_pairs": 277,
+    "status": "PASS"
+  },
+  "partition_regression": {
+    "QP_P_characters_checked": 384,
+    "W_characters_checked": 503,
+    "alpha_partitions_checked": 255,
+    "max_v": 100,
+    "primitive_pairs": 3043,
+    "status": "PASS"
+  },
+  "residues": {
+    "F3_note": "F3 always divisible by 3, and therefore outside the 3-coprime sector",
+    "modulus": 16,
+    "odd_square_multipliers_included": true,
+    "residue_sets": {
+      "-1_equi": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "1_F1": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "1_F2": [
+        2,
+        7,
+        10,
+        15
+      ],
+      "1_F3": [
+        0,
+        3,
+        6,
+        8,
+        11,
+        14
+      ],
+      "1_F4": [
+        0,
+        1,
+        2,
+        8,
+        9,
+        10
+      ],
+      "1_equi": [
+        0,
+        7,
+        8,
+        15
+      ],
+      "1_iso": [
+        0,
+        1,
+        2,
+        8,
+        9,
+        10
+      ],
+      "QP": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10,
+        13
+      ],
+      "W": [
+        1,
+        2,
+        7,
+        9,
+        14,
+        15
+      ],
+      "alpha": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        8,
+        9,
+        13
+      ],
+      "beta": [
+        2,
+        3,
+        7,
+        10,
+        11,
+        15
+      ],
+      "theta": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        8,
+        9,
+        11,
+        13,
+        15
+      ]
+    },
+    "status": "PASS"
+  },
+  "sparse_counting_regression": {
+    "G1_growth_instances": 11175,
+    "conic_growth_instances": 179,
+    "primitive_plus_triples_checked": 50,
+    "side_bound": 150,
+    "status": "PASS"
+  },
+  "status": "PASS",
+  "universal_proofs_in": "PROOF.md"
+}
