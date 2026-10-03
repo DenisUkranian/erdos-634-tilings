@@ -1,5 +1,11 @@
 # Changelog
 
+## Further construction update — 3 October 2026
+
+- Extend the geometry of Harries's 88-tile example to every positive integer 120-degree norm triple with a<b, constructing every multiplier in that oriented F4 branch.
+- Supply the four-region proof, unit-coordinate generator, independently implemented all-pairs checker, and exact positive and rejection regressions. Add the package to the root replay.
+- The reversed F4 orientation and the other small-scale branches remain unresolved in general. This update does not claim a full solution, external review, or a new release tag.
+
 ## v0.3.0 research snapshot — 3 October 2026
 
 - Import the 1 October uniform-sectors proof, exact arithmetic classifier and geometric certificates after a fresh internal proof review and regression replay.

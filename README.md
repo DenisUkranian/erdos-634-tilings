@@ -12,6 +12,7 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 
 | Result | Read and reproduce |
 |---|---|
+| Every multiplier in the oriented 120° F4 branch with a<b | [Four-region proof](research/group2-f4/PROOF.md), [unit generator and independent checker](research/group2-f4/): `(2a+b)(a+b)m²` is constructed for every positive m when `c²=a²+ab+b²` and `a<b`. The reversed orientation remains unresolved in general. |
 | Exact criterion on an infinite arithmetic domain | [Uniform sectors proof](research/uniform-sectors/PROOF.md): for N≡6 (mod16), 3∤N, and no p≡7 (mod8) with odd exponent, admissibility is exactly the constructive QP form. [Code and certificates](research/uniform-sectors/). |
 | Constructive tails in compatible square classes | [Square-class saturation proof](research/square-class-saturation/PROOF.md), [generator and separate verifier](research/square-class-saturation/): a fixed W/beta tile realizes every sufficiently large multiplier, with an explicit bound below 2d. Small multipliers remain unclassified in general. |
 | Global exclusion of N=105 | [Written proof](research/n105/PROOF_N105.md), [PDF](research/n105/PROOF_N105.pdf), [four certificates and checking programs](research/n105/), [report](research/n105/VERIFIED_RESULTS.json). Covers both equilateral and both scalene candidates. |
@@ -36,7 +37,7 @@ Python 3.11 or newer; the finite tests use the standard library:
 python scripts/verify_all.py --jobs 2
 ```
 
-Use ordinary Python, without `-O`, `-OO`, or `PYTHONOPTIMIZE`. The coordinator checks integrity and local links, replays the legacy suite and all four N=105 certificates, expands the 116,640-tile construction, and runs the uniform-reduction, uniform-sectors, square-class-saturation and c-relation tests in temporary copies. Reports record the scope of each check. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+Use ordinary Python, without `-O`, `-OO`, or `PYTHONOPTIMIZE`. The coordinator checks integrity and local links, replays the legacy suite and all four N=105 certificates, expands the 116,640-tile construction, and runs the uniform-reduction, uniform-sectors, square-class-saturation, F4 and c-relation tests in temporary copies. Reports record the scope of each check. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 
 ## Remaining question and attribution
 

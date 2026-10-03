@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "macro_triples": 80,
+  "expanded_checks": [
+    {
+      "status": "PASS",
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "multiplier": 1,
+      "unit_triangles": 88,
+      "pairs_checked": 3828,
+      "pairs_clipped_after_exact_bounds": 103,
+      "arithmetic": "exact rational",
+      "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+      "full_Erdos634_solved": false,
+      "external_peer_review": false
+    },
+    {
+      "status": "PASS",
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "multiplier": 2,
+      "unit_triangles": 352,
+      "pairs_checked": 61776,
+      "pairs_clipped_after_exact_bounds": 473,
+      "arithmetic": "exact rational",
+      "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+      "full_Erdos634_solved": false,
+      "external_peer_review": false
+    },
+    {
+      "status": "PASS",
+      "tile": [
+        5,
+        16,
+        19
+      ],
+      "multiplier": 1,
+      "unit_triangles": 546,
+      "pairs_checked": 148785,
+      "pairs_clipped_after_exact_bounds": 507,
+      "arithmetic": "exact rational",
+      "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+      "full_Erdos634_solved": false,
+      "external_peer_review": false
+    }
+  ],
+  "rejected_mutations": [
+    "duplicate unit triangle",
+    "missing unit triangle",
+    "moved vertex",
+    "altered target",
+    "wrong multiplier",
+    "reversed unproved orientation"
+  ],
+  "full_Erdos634_solved": false,
+  "external_peer_review": false,
+  "scope": "Finite regression checks support, but do not replace, PROOF.md."
+}

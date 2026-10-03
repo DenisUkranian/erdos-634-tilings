@@ -6,6 +6,7 @@ This ledger distinguishes mathematical claims from their evidence. The research 
 
 | Claim | Status in this work | Supporting material |
 |---|---|---|
+| 120° F4 / Harries row III, a<b: every positive multiplier | Explicit four-region construction, separate internal symbolic review, 80 exact macro regressions and three independently checked complete unit-coordinate examples; a>b is not covered | [Proof and source attribution](research/group2-f4/PROOF.md), [finite report](research/group2-f4/VERIFIED_RESULTS.json) |
 | Exact all-tile criterion in the stated N≡6 (mod16) sector | Written necessity and sufficiency proof, internally reviewed; all finite regressions replayed; uses established classification and the existing QP construction, not the prime candidate | [Uniform sectors](research/uniform-sectors/PROOF.md), [3 October review](docs/audits/october-theorems.md) |
 | Compatible W/beta square classes: every sufficiently large multiplier is realized | Written geometric construction and norm reduction; explicit conductor C<2d for the selected squarefree representative; small scales not classified | [Square-class saturation](research/square-class-saturation/PROOF.md), [3 October review](docs/audits/october-theorems.md) |
 | No triangle admits a 105-tiling | Computer-assisted proof with published classification/rationality inputs, written lemmas, and four complete exact certificates; internally replayed, no external acceptance | [Manuscript](research/n105/PROOF_N105.md), [certificate package](research/n105/), [scope](docs/n105-global.md) |
