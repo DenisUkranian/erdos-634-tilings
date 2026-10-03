@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tile": [
+    8,
+    7,
+    13
+  ],
+  "multiplier": 2,
+  "unit_triangles": 2024,
+  "pairs_checked": 2047276,
+  "pairs_clipped_after_exact_bounds": 8551,
+  "arithmetic": "exact rational",
+  "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+  "full_Erdos634_solved": false,
+  "external_peer_review": false
+}

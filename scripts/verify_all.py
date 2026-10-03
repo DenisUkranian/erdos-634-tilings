@@ -56,6 +56,25 @@ def main():
                 raise ValueError(f'Unexpected {package} verification report')
             reports[key]['report']=pr
             print(f'{key.upper()}_FINITE_CHECKS=PASS',flush=True)
+        tw=work/'research/group2-trapezoids'
+        for key,command,report_name,expected in [
+                ('group2_trapezoids','check_family.py','VERIFIED_RESULTS.json','verified'),
+                ('balanced_f4','check_balanced_f4.py','balanced_f4_verification.json','PASS'),
+                ('free_k','check_free_k.py','free_k_verification.json','PASS'),
+                ('target_bridges','check_target_bridges.py','target_bridges_verification.json','PASS')]:
+            reports[key]=run([command],tw)
+            pr=json.loads((tw/report_name).read_text())
+            if pr.get('status')!=expected or pr.get('full_Erdos634_solved') is not False:
+                raise ValueError(f'Unexpected {key} verification report')
+            reports[key]['report']=pr
+            print(f'{key.upper()}_FINITE_CHECKS=PASS',flush=True)
+        reports['f2_unit']=run(['verify_f2.py','certificates/f2_balanced_8_7_13_m2.json'],tw)
+        f2=json.loads(reports['f2_unit']['stdout'])
+        if f2.get('status')!='PASS' or f2.get('unit_triangles')!=2024:
+            raise ValueError('Unexpected F2 unit verification report')
+        print('F2_FULL_UNIT_CHECKS=PASS',flush=True)
+        reports['chord_bound_counterexample']=run(['check_corner_chord.py'],work/'research/attempt-obstructions')
+        print('PARTIAL_CORNER_CHORD_COUNTEREXAMPLE=PASS',flush=True)
     result={'status':'ALL_FINITE_SUITES_PASS','date':datetime.now(timezone.utc).date().isoformat(),'python':sys.version,'seconds':round(time.monotonic()-started,3),'suites':reports,'full_Erdos634_solved':False,'prime_case_formally_verified':False,'human_and_published_theorems_formally_verified':False,'external_peer_review':False,'verification_boundary':'All packaged finite checks, syntax, integrity and local-link targets. Not a proof-assistant verification or independent human referee report.'}
     args.output.parent.mkdir(parents=True,exist_ok=True);args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('ALL_PUBLISHED_FINITE_SUITES=PASS',flush=True)

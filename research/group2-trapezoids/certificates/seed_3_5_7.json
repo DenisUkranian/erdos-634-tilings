@@ -1,0 +1,190 @@
+{
+  "format": "group2-shave-v1",
+  "coordinate_convention": "(u,v) -> (u+v/2,sqrt(3)*v/2)",
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "shave": 1,
+  "multiplier": 1,
+  "remainder": 3,
+  "kind": "trapezoid",
+  "target": [
+    [
+      "5",
+      "0"
+    ],
+    [
+      "49",
+      "0"
+    ],
+    [
+      "34",
+      "15"
+    ],
+    [
+      "5",
+      "15"
+    ]
+  ],
+  "target_data": {
+    "short_base": 29,
+    "leg": 15
+  },
+  "count": 73,
+  "blocks": [
+    {
+      "type": "grid_minus_corner",
+      "polygon": [
+        [
+          "5",
+          "0"
+        ],
+        [
+          "35",
+          "0"
+        ],
+        [
+          "40",
+          "3"
+        ],
+        [
+          "5",
+          "3"
+        ]
+      ],
+      "origin": [
+        "0",
+        "0"
+      ],
+      "u": [
+        "5",
+        "0"
+      ],
+      "v": [
+        "5",
+        "3"
+      ],
+      "columns": 7,
+      "rows": 1,
+      "corner_scale": 1,
+      "count": 13
+    },
+    {
+      "type": "triangle",
+      "polygon": [
+        [
+          "5",
+          "3"
+        ],
+        [
+          "40",
+          "3"
+        ],
+        [
+          "160/7",
+          "96/7"
+        ]
+      ],
+      "scale": 5,
+      "count": 25
+    },
+    {
+      "type": "triangle",
+      "polygon": [
+        [
+          "35",
+          "0"
+        ],
+        [
+          "49",
+          "0"
+        ],
+        [
+          "295/7",
+          "30/7"
+        ]
+      ],
+      "scale": 2,
+      "count": 4
+    },
+    {
+      "type": "short_grid",
+      "polygon": [
+        [
+          "40",
+          "3"
+        ],
+        [
+          "295/7",
+          "30/7"
+        ],
+        [
+          "25",
+          "15"
+        ],
+        [
+          "160/7",
+          "96/7"
+        ]
+      ],
+      "origin": [
+        "160/7",
+        "96/7"
+      ],
+      "unit_u": [
+        "5/7",
+        "3/7"
+      ],
+      "unit_v": [
+        "8/7",
+        "-5/7"
+      ],
+      "width_coefficients": [
+        1,
+        0
+      ],
+      "height_lcm_multiple": 1,
+      "count": 6
+    },
+    {
+      "type": "triangle",
+      "polygon": [
+        [
+          "5",
+          "3"
+        ],
+        [
+          "25",
+          "15"
+        ],
+        [
+          "5",
+          "15"
+        ]
+      ],
+      "scale": 4,
+      "count": 16
+    },
+    {
+      "type": "triangle",
+      "polygon": [
+        [
+          "25",
+          "15"
+        ],
+        [
+          "49",
+          "0"
+        ],
+        [
+          "34",
+          "15"
+        ]
+      ],
+      "scale": 3,
+      "count": 9
+    }
+  ]
+}

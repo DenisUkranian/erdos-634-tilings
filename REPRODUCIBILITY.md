@@ -16,6 +16,12 @@ The coordinator checks the file manifest, syntax, local links and scope flags, t
 
 | Command, from repository root unless noted | What is checked |
 |---|---|
+| `cd research/group2-trapezoids && python check_family.py` | 420 primitive ordered seed triples, 64 balanced corner instances, exact macro certificates, two fully expanded small seeds and five corruption rejections. |
+| `cd research/group2-trapezoids && python check_balanced_f4.py` | Complete 1380- and 3105-tile F4 examples; all unit pairs, a nonprimitive normalization case and four corrupted certificates. |
+| `cd research/group2-trapezoids && python check_free_k.py` | Free-parameter corner construction, arithmetic criterion and full unit examples outside the original scaled-shave domain. The criterion concerns this construction only. |
+| `cd research/group2-trapezoids && python check_target_bridges.py` | F2/F3 target transfers for 70 primitive triples at two scales; scale-one tests verify only the macro partition, not tileability. |
+| `cd research/group2-trapezoids && python verify_f2.py certificates/f2_balanced_8_7_13_m2.json` | Exact congruence, containment, coverage and all 2,047,276 pairs of the 2024-tile F2 example. |
+| `cd research/attempt-obstructions && python check_corner_chord.py` | Five congruent corner tiles, disjointness, exact complement, chord avoidance and a certified square-root inequality. This is a partial configuration refuting a proposed scalar bound, not a full tiling. |
 | `cd research/w-beta-caps && python run_checks.py --output fresh.json` | 48 exact symbolic identities; 45 caps, 90 collars, 112 full targets; 34,959 macro pairs; 300 expanded unit triangles and 10,908 unit pairs; arithmetic scale checks and rejected corruptions. The universal construction and its quantifiers are proved in the accompanying text. |
 | `cd research/group2-f4 && python run_checks.py --output fresh.json` | 80 primitive macro instances; complete 88-, 352- and 546-tile certificates with all-pairs exact geometry; six corrupted/out-of-scope cases rejected. The general construction requires the symbolic proof. |
 | `python scripts/check_repository.py` | Every included file, SHA-256 manifest, Python/JSON syntax, local link targets, scope sentinels and expanded coordinate-stream hash. |

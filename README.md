@@ -12,6 +12,7 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 
 | Result | Read and reproduce |
 |---|---|
+| General 120° trapezoids and balanced scalene branches | [Positive surgery](research/group2-trapezoids/PROOF.md) improves the sufficient equilateral tail to `m>=3 ceil(c/min(a,b))`. [Corner transfers](research/group2-trapezoids/BALANCED_F4.md) construct F4, F2 and F3 for every `m>=2` when `b<a` and `3c>=4a`; primitive scale one is not settled by this theorem. |
 | W and beta constructions at every scale in `v+<u,v>` | [Six-block cap proof](research/w-beta-caps/PROOF.md), [exact certificates and separate checker](research/w-beta-caps/): for every primitive `0<u<v`, all scales `m>=uv-u+1` are realized. This improves the sufficient bound; it does not exclude scales outside the displayed semigroup. |
 | Every multiplier in the oriented 120° F4 branch with a<b | [Four-region proof](research/group2-f4/PROOF.md), [unit generator and independent checker](research/group2-f4/): `(2a+b)(a+b)m²` is constructed for every positive m when `c²=a²+ab+b²` and `a<b`. The reversed orientation remains unresolved in general. |
 | Exact criterion on an infinite arithmetic domain | [Uniform sectors proof](research/uniform-sectors/PROOF.md): for N≡6 (mod16), 3∤N, and no p≡7 (mod8) with odd exponent, admissibility is exactly the constructive QP form. [Code and certificates](research/uniform-sectors/). |
@@ -38,11 +39,11 @@ Python 3.11 or newer; the finite tests use the standard library:
 python scripts/verify_all.py --jobs 2
 ```
 
-Use ordinary Python, without `-O`, `-OO`, or `PYTHONOPTIMIZE`. The coordinator checks integrity and local links, replays the legacy suite and all four N=105 certificates, expands the 116,640-tile construction, and runs the uniform-reduction, uniform-sectors, square-class-saturation, W/beta-cap, F4 and c-relation tests in temporary copies. Reports record the scope of each check. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+Use ordinary Python, without `-O`, `-OO`, or `PYTHONOPTIMIZE`. The coordinator checks integrity and local links, replays the legacy suite and all four N=105 certificates, expands the 116,640-tile construction, and runs the uniform-reduction, uniform-sectors, square-class-saturation, W/beta-cap, F4, trapezoid, attempted-width-bound and c-relation tests in temporary copies. Reports record the scope of each check. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 
 ## Remaining question and attribution
 
-A finite exception interval for each fixed tile is not a finite exception list over infinitely many tiles. Neither the necessary arithmetic spectra nor the existing finite membership search supplies the requested structural classification of all N. The [3 October audit](docs/audits/research-2026-10-03.md) reconciles the later archive, records the fresh replays and distinguishes unresolved global strategies from the prime-case candidate. See the [roadmap](docs/full-solution-roadmap.md).
+A finite exception interval for each fixed tile is not a finite exception list over infinitely many tiles. Neither the necessary arithmetic spectra nor the existing finite membership search supplies the requested structural classification of all N. The [3 October audit](docs/audits/research-2026-10-03.md) reconciles the later archive; the [continuation record](docs/audits/full-solution-attempt-2026-10-03.md) identifies the new constructions, failed general reductions and the still-missing implications. See the [roadmap](docs/full-solution-roadmap.md).
 
 Denis Paliy directed the investigation; ChatGPT assisted with derivations, drafting and code. [Assistance disclosure](AI_USAGE_DISCLOSURE.md). No external referee acceptance, proof-assistant verification of the whole project, or priority is claimed. [Corrections](CONTRIBUTING.md) are welcome.
 

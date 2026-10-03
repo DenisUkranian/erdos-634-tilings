@@ -1,0 +1,88 @@
+{
+  "status": "verified",
+  "universal_proof_not_replaced_by_finite_tests": true,
+  "default_seed_ordered_triples": 420,
+  "default_seed_macro_pairs": 6300,
+  "balanced_beta_corner_macro_instances": 64,
+  "fixtures": [
+    {
+      "certificate": "seed_3_5_7.json",
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "kind": "trapezoid",
+      "count": 73,
+      "macroregions": 6,
+      "macro_pairs_checked": 15,
+      "recipes_checked": true,
+      "unit_expansion_checked": true,
+      "unit_pairs_checked": 2628,
+      "verified": true
+    },
+    {
+      "certificate": "seed_5_3_7.json",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "kind": "trapezoid",
+      "count": 77,
+      "macroregions": 6,
+      "macro_pairs_checked": 15,
+      "recipes_checked": true,
+      "unit_expansion_checked": true,
+      "unit_pairs_checked": 2926,
+      "verified": true
+    },
+    {
+      "certificate": "counterexample_x2509.json",
+      "tile": [
+        32,
+        45,
+        67
+      ],
+      "kind": "trapezoid",
+      "count": 6458,
+      "macroregions": 6,
+      "macro_pairs_checked": 15,
+      "recipes_checked": true,
+      "unit_expansion_checked": false,
+      "verified": true
+    },
+    {
+      "certificate": "beta_corner_8_7_13_m2.json",
+      "tile": [
+        7,
+        8,
+        13
+      ],
+      "kind": "corner",
+      "count": 672,
+      "macroregions": 4,
+      "macro_pairs_checked": 6,
+      "recipes_checked": true,
+      "unit_expansion_checked": false,
+      "verified": true
+    },
+    {
+      "certificate": "beta_corner_8_7_13_m3.json",
+      "tile": [
+        7,
+        8,
+        13
+      ],
+      "kind": "corner",
+      "count": 1512,
+      "macroregions": 4,
+      "macro_pairs_checked": 6,
+      "recipes_checked": true,
+      "unit_expansion_checked": false,
+      "verified": true
+    }
+  ],
+  "corrupted_certificates_rejected": 5,
+  "full_Erdos634_solved": false
+}

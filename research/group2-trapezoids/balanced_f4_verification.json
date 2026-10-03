@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "construction_domain": "a>b>0; c\u00b2=a\u00b2+ab+b\u00b2; m(bc\u2212a\u00b2) in <a,b>",
+  "balanced_theorem": "b<a\u22644b/3 implies every m\u22652",
+  "unit_certificate_checks": [
+    {
+      "status": "PASS",
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "multiplier": 2,
+      "unit_triangles": 1380,
+      "pairs_checked": 951510,
+      "pairs_clipped_after_exact_bounds": 3212,
+      "arithmetic": "exact rational",
+      "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+      "full_Erdos634_solved": false,
+      "external_peer_review": false
+    },
+    {
+      "status": "PASS",
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "multiplier": 3,
+      "unit_triangles": 3105,
+      "pairs_checked": 4818960,
+      "pairs_clipped_after_exact_bounds": 7446,
+      "arithmetic": "exact rational",
+      "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+      "full_Erdos634_solved": false,
+      "external_peer_review": false
+    },
+    {
+      "status": "PASS",
+      "tile": [
+        16,
+        14,
+        26
+      ],
+      "multiplier": 1,
+      "unit_triangles": 1380,
+      "pairs_checked": 951510,
+      "pairs_clipped_after_exact_bounds": 3212,
+      "arithmetic": "exact rational",
+      "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+      "full_Erdos634_solved": false,
+      "external_peer_review": false
+    }
+  ],
+  "F2_unit_certificate_check": {
+    "status": "PASS",
+    "tile": [
+      8,
+      7,
+      13
+    ],
+    "multiplier": 2,
+    "unit_triangles": 2024,
+    "pairs_checked": 2047276,
+    "pairs_clipped_after_exact_bounds": 8551,
+    "arithmetic": "exact rational",
+    "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+    "full_Erdos634_solved": false,
+    "external_peer_review": false
+  },
+  "mutation_rejections": [
+    "missing",
+    "duplicate",
+    "moved",
+    "count"
+  ],
+  "primitive_m1_gap_rejected": true,
+  "full_Erdos634_solved": false,
+  "external_peer_review": false
+}

@@ -1,0 +1,73 @@
+{
+  "status": "exactly verified partial configuration; not a complete tiling",
+  "u": 51,
+  "v": 52,
+  "tile_sides": [
+    2652,
+    103,
+    2704
+  ],
+  "target_equal_side": "139256",
+  "seam_length": 137904,
+  "corner_tiles": 5,
+  "normalized_metric_h2": "8215/10816",
+  "z": "46621798829321/209746397925376",
+  "sqrt_z_lower": "5893282642943993441870550180627446991506533586949/12500000000000000000000000000000000000000000000000",
+  "sqrt_z_upper": "47146261143551947534964401445019575932052268695593/100000000000000000000000000000000000000000000000000",
+  "ambient_quadrilateral_width_over_required_height_lower": "60725775303969453805562419638894021340476722870058108101861/60595017600000000000000000000000000000000000000000000000000",
+  "ambient_quadrilateral_width_over_required_height_upper": "2530240637665393908565100818287250889186530119587066548891/2524792400000000000000000000000000000000000000000000000000",
+  "approximate_ambient_quadrilateral_ratio": 1.0021578953047363,
+  "complement_polygon": [
+    [
+      "-51/140608",
+      "1351/1352"
+    ],
+    [
+      "-68901/140608",
+      "1/1352"
+    ],
+    [
+      "-6820995/14482624",
+      "1/1352"
+    ],
+    [
+      "-5049/10712",
+      "0"
+    ],
+    [
+      "5049/10712",
+      "0"
+    ],
+    [
+      "6820995/14482624",
+      "1/1352"
+    ],
+    [
+      "68901/140608",
+      "1/1352"
+    ],
+    [
+      "51/5356",
+      "101/103"
+    ]
+  ],
+  "complement_width_over_required_height_lower": "2393787666782714466382831813165116315612325324789101971/2390336000000000000000000000000000000000000000000000000",
+  "complement_width_over_required_height_upper": "299223458347839308297853976645639539451540665598792903/298792000000000000000000000000000000000000000000000000",
+  "approximate_complement_ratio": 1.0014440090358487,
+  "claims_checked": [
+    "five congruent corner tiles",
+    "target containment",
+    "all 10 tile pairs have disjoint interiors",
+    "chord length exact",
+    "chord avoids all five tile interiors",
+    "actual complement boundary is simple and has the correct area",
+    "exact complement triangulation is disjoint from all five corner tiles",
+    "actual complement closure has support extrema at U_C and U_B",
+    "its smaller-side width exceeds c sin(theta)"
+  ],
+  "not_claimed": [
+    "the chord is an actual tile-edge chain",
+    "a swapped alpha-gap tile fits in the complement",
+    "the five tiles extend to a complete tiling"
+  ]
+}

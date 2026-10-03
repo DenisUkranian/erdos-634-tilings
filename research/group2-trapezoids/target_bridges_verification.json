@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "Exact macro partition, Q reflection, target sides and counts for F2/F3; no claim the Q is tiled at m1",
+  "primitive_triples": 70,
+  "instances": 140,
+  "arithmetic": "exact rational",
+  "examples": [
+    {
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "multiplier": 1,
+      "F2_count": 506,
+      "F3_count": 990
+    },
+    {
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "multiplier": 2,
+      "F2_count": 2024,
+      "F3_count": 3960
+    }
+  ],
+  "full_Erdos634_solved": false
+}

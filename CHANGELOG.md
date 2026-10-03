@@ -1,5 +1,12 @@
 # Changelog
 
+## Trapezoid surgery and balanced 120-degree branches — 3 October 2026
+
+- Give smaller universal ideal-trapezoid seeds and a more general positive shaving construction. Derive the sufficient equilateral tail `m>=3 ceil(c/min(a,b))`.
+- Transfer reflected-corner fillings with a free integer parameter to F4, F2 and F3; every multiplier `m>=2` is constructed for `b<a` and `3c>=4a`. Include exact macro checks and independently checked full unit-coordinate examples.
+- Record rigorous limits of the proposed semigroup, parallelogram-matching and scalar long-chord-width routes. Keep partial configurations and construction-specific obstructions distinct from arbitrary-tiling exclusions.
+- Preserve the complete-problem status as unresolved and document the precise remaining implications in the continuation audit.
+
 ## General W/beta cap — 3 October 2026
 
 - Prove a six-block cap for every primitive rational Group-1 tile and a collar extending any W or beta scale T to T+u whenever T>=v-u.

@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "construction_domain": "a>b>0; c\u00b2=a\u00b2+ab+b\u00b2; integer k>=1; kc>=m(a-b); mbc-a\u00b2k in <a,b>",
+  "uniform_theorem": "a>b and 3c>=4a imply every m>=2 in F4, F2, and F3",
+  "primitive_exact_construction_criterion": "a ceil(m(a-b)/c) <= b floor(mc/a)",
+  "unit_certificate_checks": [
+    {
+      "status": "PASS",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "multiplier": 2,
+      "unit_triangles": 416,
+      "pairs_checked": 86320,
+      "pairs_clipped_after_exact_bounds": 1087,
+      "arithmetic": "exact rational",
+      "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+      "full_Erdos634_solved": false,
+      "external_peer_review": false
+    },
+    {
+      "status": "PASS",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "multiplier": 3,
+      "unit_triangles": 936,
+      "pairs_checked": 437580,
+      "pairs_clipped_after_exact_bounds": 2555,
+      "arithmetic": "exact rational",
+      "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+      "full_Erdos634_solved": false,
+      "external_peer_review": false
+    }
+  ],
+  "F2_unit_bridge_check": {
+    "status": "PASS",
+    "tile": [
+      5,
+      3,
+      7
+    ],
+    "multiplier": 2,
+    "unit_triangles": 572,
+    "pairs_checked": 163306,
+    "pairs_clipped_after_exact_bounds": 2287,
+    "arithmetic": "exact rational",
+    "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+    "full_Erdos634_solved": false,
+    "external_peer_review": false
+  },
+  "arithmetic_campaign": {
+    "primitive_triples": 70,
+    "optimized_criterion_instances": 840,
+    "uniform_seed_closure_instances": 870,
+    "bound_a": 400,
+    "criterion_multipliers": [
+      1,
+      12
+    ],
+    "uniform_multipliers": [
+      2,
+      31
+    ],
+    "primitive_m1_rejected": true,
+    "primitive_m2_m3_domains_checked": true,
+    "nonprimitive_m1_accepted": true
+  },
+  "independent_macro_audit": {
+    "primitive_triples_checked": 184,
+    "strict_uniform_instances_checked": 920,
+    "multipliers_checked": [
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "fixtures": [
+      {
+        "tile": [
+          5,
+          3,
+          7
+        ],
+        "multiplier": 2,
+        "free_k": 1,
+        "t": 2,
+        "remainder": 17,
+        "semigroup_coefficients": [
+          1,
+          4
+        ],
+        "fit_slack": 3,
+        "count": 180,
+        "macro_counts": [
+          40,
+          25,
+          81,
+          34
+        ],
+        "macro_pairs_checked": 6,
+        "zero_blocks_omitted": 0,
+        "low_block_vertices": 4,
+        "verified": true
+      },
+      {
+        "tile": [
+          5,
+          3,
+          7
+        ],
+        "multiplier": 3,
+        "free_k": 2,
+        "t": 2,
+        "remainder": 13,
+        "semigroup_coefficients": [
+          2,
+          1
+        ],
+        "fit_slack": 8,
+        "count": 405,
+        "macro_counts": [
+          132,
+          100,
+          121,
+          52
+        ],
+        "macro_pairs_checked": 6,
+        "zero_blocks_omitted": 0,
+        "low_block_vertices": 4,
+        "verified": true
+      },
+      {
+        "tile": [
+          5,
+          3,
+          7
+        ],
+        "multiplier": 7,
+        "free_k": 2,
+        "t": 2,
+        "remainder": 97,
+        "semigroup_coefficients": [
+          2,
+          29
+        ],
+        "fit_slack": 0,
+        "count": 2205,
+        "macro_counts": [
+          196,
+          100,
+          1521,
+          388
+        ],
+        "macro_pairs_checked": 6,
+        "zero_blocks_omitted": 0,
+        "low_block_vertices": 3,
+        "verified": true
+      },
+      {
+        "tile": [
+          5,
+          3,
+          7
+        ],
+        "multiplier": 25,
+        "free_k": 21,
+        "t": 2,
+        "remainder": 0,
+        "semigroup_coefficients": [
+          0,
+          0
+        ],
+        "fit_slack": 97,
+        "count": 28125,
+        "macro_counts": [
+          12200,
+          11025,
+          4900,
+          0
+        ],
+        "macro_pairs_checked": 3,
+        "zero_blocks_omitted": 1,
+        "low_block_vertices": 4,
+        "verified": true
+      }
+    ],
+    "verification_scope": "Exact macrogeometry and positive grid recipes; no unit expansion in this audit",
+    "all_checks_passed": true
+  },
+  "invalid_parameter_rejections": [
+    "rectangle_too_short",
+    "negative_width",
+    "positive_width_semigroup_gap"
+  ],
+  "altered_unit_geometry_rejected": true,
+  "full_Erdos634_solved": false,
+  "external_peer_review": false
+}
