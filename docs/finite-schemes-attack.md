@@ -137,3 +137,11 @@ orientation bound for some witness of every tileable pair (R,T). A
 counterexample must establish a lower bound over all alternative tilings;
 a proof must accommodate arbitrary T-junctions and reflected tiles.
 Neither that bound nor bounded block complexity is established here.
+
+The [orientation reduction audit](orientation-reduction-audit.md) now
+proves a bound of 24 for the classical branches, including a separate
+[whole-hypotenuse parity argument](right-tile-orientation-bound.md) for
+irrational right tiles. Its published inputs are stated explicitly.
+It also proves a restriction on orientation cuts and identifies a false
+arbitrary-patch replacement rule. These results do not establish the
+universal bound or the finite-scheme conjecture.

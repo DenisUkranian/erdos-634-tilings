@@ -211,8 +211,8 @@
       "sha256": "e02b6d7a1c1e2d7f1108a9c33faea65750533d24b2250ff6b0ff2ddc9e778c8d"
     },
     "docs/finite-schemes-attack.md": {
-      "bytes": 6648,
-      "sha256": "f46430993dacf27f366a657cb988ce558a2e6c2ebd27255913e9b484e69fc929"
+      "bytes": 7119,
+      "sha256": "90c181e349b110da435f54072904dfea75412e023c92be0d812694fb11cef90f"
     },
     "docs/first-tile-classification.md": {
       "bytes": 4743,
@@ -270,6 +270,10 @@
       "bytes": 7654,
       "sha256": "4476138638a077a1cd975b349efe927d3ee0660688e006c8ef1863943695f40e"
     },
+    "docs/orientation-reduction-audit.md": {
+      "bytes": 10850,
+      "sha256": "fb3fe3f79f0f7faa968a954b40a5caa6b58d384444678c6f33830c3744e2c116"
+    },
     "docs/prime-case-candidate.md": {
       "bytes": 26694,
       "sha256": "0ceefc4ebd05fcf96cb820399077ceb81c12b926af45ca20ef4df80d2c22fd18"
@@ -277,6 +281,10 @@
     "docs/prime-case-dependencies.md": {
       "bytes": 13101,
       "sha256": "042e45182485b3d4ad7f8d947c22e7bd872a50389270c5bea303437412560e34"
+    },
+    "docs/right-tile-orientation-bound.md": {
+      "bytes": 7672,
+      "sha256": "6f6197aa553ae000053a0ddce53c7442555b3c698d08e82943c353d642f5783e"
     },
     "docs/scale-spectra.md": {
       "bytes": 12162,
