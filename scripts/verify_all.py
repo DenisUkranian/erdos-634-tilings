@@ -48,7 +48,7 @@ def main():
         reports['c_relations']=run(['check_relations.py','--max-v','40'],work/'research/c-relations')
         if json.loads(reports['c_relations']['stdout']).get('status')!='PASS':raise ValueError('c-relations did not pass')
         print('SHARP_C_RELATIONS_ARITHMETIC=PASS',flush=True)
-        for key,package in [('uniform_sectors','uniform-sectors'),('square_class_saturation','square-class-saturation'),('group2_f4','group2-f4')]:
+        for key,package in [('uniform_sectors','uniform-sectors'),('square_class_saturation','square-class-saturation'),('group2_f4','group2-f4'),('w_beta_caps','w-beta-caps')]:
             pw=work/'research'/package
             reports[key]=run(['run_checks.py','--output','fresh-replay.json'],pw)
             pr=json.loads((pw/'fresh-replay.json').read_text())

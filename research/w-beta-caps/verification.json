@@ -1,0 +1,234 @@
+{
+  "symbolic": {
+    "status": "PASS",
+    "symbolic_identities": 48,
+    "identities": {
+      "length:p": true,
+      "length:w": true,
+      "length:r": true,
+      "length:s": true,
+      "length:r+s": true,
+      "length:p+w": true,
+      "grid_det_rs": true,
+      "grid_det_pw": true,
+      "p+w=s[0]": true,
+      "p+w=s[1]": true,
+      "R=K+qw[0]": true,
+      "R=K+qw[1]": true,
+      "E=C+kw[0]": true,
+      "E=C+kw[1]": true,
+      "B_simple[0]": true,
+      "B_simple[1]": true,
+      "J_on_OB[0]": true,
+      "J_on_OB[1]": true,
+      "R_barycentric[0]": true,
+      "R_barycentric[1]": true,
+      "barycentric_sum": true,
+      "bottom_length": true,
+      "left_leg": true,
+      "right_leg": true,
+      "b_minus_h": true,
+      "cap_count": true,
+      "strip_decomposition": true,
+      "collar_count": true,
+      "left_homothety[0]": true,
+      "left_homothety[1]": true,
+      "right_homothety[0]": true,
+      "right_homothety[1]": true,
+      "outer_left_length": true,
+      "outer_right_length": true,
+      "isometry_e1": true,
+      "isometry_e2": true,
+      "isometry_dot": true,
+      "beta_collinearity[0]": true,
+      "beta_collinearity[1]": true,
+      "canonical_left[0]": true,
+      "canonical_left[1]": true,
+      "canonical_right[0]": true,
+      "canonical_right[1]": true,
+      "beta_side_z2": true,
+      "beta_base": true,
+      "beta_complement:0cv": true,
+      "beta_complement:0z2": true,
+      "beta_complement:cvz2": true
+    }
+  },
+  "cap_checks": 45,
+  "shell_checks": 90,
+  "complete_tiling_checks": 112,
+  "macro_pairs": 34959,
+  "arithmetic_scale_checks": 2472,
+  "strip_threshold_checks": 419,
+  "expanded_unit_checks": [
+    {
+      "name": "cap_u1_v2",
+      "status": "PASS",
+      "unit_triangles": 13,
+      "all_pairs": true,
+      "unit_pairs": 78
+    },
+    {
+      "name": "cap_u1_v3",
+      "status": "PASS",
+      "unit_triangles": 49,
+      "all_pairs": true,
+      "unit_pairs": 1176
+    },
+    {
+      "name": "cap_u2_v3",
+      "status": "PASS",
+      "unit_triangles": 76,
+      "all_pairs": true,
+      "unit_pairs": 2850
+    },
+    {
+      "name": "W_u1_v2_m3",
+      "status": "PASS",
+      "unit_triangles": 63,
+      "all_pairs": true,
+      "unit_pairs": 1953
+    },
+    {
+      "name": "beta_u1_v2_m3",
+      "status": "PASS",
+      "unit_triangles": 99,
+      "all_pairs": true,
+      "unit_pairs": 4851
+    }
+  ],
+  "examples": [
+    {
+      "file": "examples/cap_u1_v2.json",
+      "status": "PASS",
+      "kind": "cap",
+      "tile_count": 13,
+      "macroregions": 6,
+      "checked_macro_pairs": 15,
+      "scope": "Exact unit-cell, containment, pairwise-disjointness and area checks"
+    },
+    {
+      "file": "examples/cap_u1_v3.json",
+      "status": "PASS",
+      "kind": "cap",
+      "tile_count": 49,
+      "macroregions": 6,
+      "checked_macro_pairs": 15,
+      "scope": "Exact unit-cell, containment, pairwise-disjointness and area checks"
+    },
+    {
+      "file": "examples/cap_u2_v3.json",
+      "status": "PASS",
+      "kind": "cap",
+      "tile_count": 76,
+      "macroregions": 6,
+      "checked_macro_pairs": 15,
+      "scope": "Exact unit-cell, containment, pairwise-disjointness and area checks"
+    },
+    {
+      "file": "examples/W_u1_v2_m3.json",
+      "status": "PASS",
+      "kind": "tiling",
+      "tile_count": 63,
+      "macroregions": 12,
+      "checked_macro_pairs": 66,
+      "scope": "Exact unit-cell, containment, pairwise-disjointness and area checks"
+    },
+    {
+      "file": "examples/beta_u1_v2_m3.json",
+      "status": "PASS",
+      "kind": "tiling",
+      "tile_count": 99,
+      "macroregions": 15,
+      "checked_macro_pairs": 105,
+      "scope": "Exact unit-cell, containment, pairwise-disjointness and area checks"
+    },
+    {
+      "file": "examples/W_u2_v3_m5.json",
+      "status": "PASS",
+      "kind": "tiling",
+      "tile_count": 350,
+      "macroregions": 12,
+      "checked_macro_pairs": 66,
+      "scope": "Exact unit-cell, containment, pairwise-disjointness and area checks"
+    },
+    {
+      "file": "examples/beta_u2_v3_m5.json",
+      "status": "PASS",
+      "kind": "tiling",
+      "tile_count": 575,
+      "macroregions": 15,
+      "checked_macro_pairs": 105,
+      "scope": "Exact unit-cell, containment, pairwise-disjointness and area checks"
+    },
+    {
+      "file": "examples/W_u2_v5_m9.json",
+      "status": "PASS",
+      "kind": "tiling",
+      "tile_count": 3726,
+      "macroregions": 20,
+      "checked_macro_pairs": 190,
+      "scope": "Exact unit-cell, containment, pairwise-disjointness and area checks"
+    },
+    {
+      "file": "examples/beta_u5_v7_m31.json",
+      "status": "PASS",
+      "kind": "tiling",
+      "tile_count": 117242,
+      "macroregions": 25,
+      "checked_macro_pairs": 300,
+      "scope": "Exact unit-cell, containment, pairwise-disjointness and area checks"
+    },
+    {
+      "file": "examples/W_u6_v7_m37.json",
+      "status": "PASS",
+      "kind": "tiling",
+      "tile_count": 84878,
+      "macroregions": 43,
+      "checked_macro_pairs": 903,
+      "scope": "Exact unit-cell, containment, pairwise-disjointness and area checks"
+    }
+  ],
+  "rejected_corruptions": [
+    {
+      "name": "tile_count",
+      "reason": "Wrong tile count"
+    },
+    {
+      "name": "triangle_scale",
+      "reason": "Noncongruent triangle cells"
+    },
+    {
+      "name": "diagonal",
+      "reason": "Noncongruent parallelogram cells"
+    },
+    {
+      "name": "missing_region",
+      "reason": "Incorrect tile total"
+    },
+    {
+      "name": "duplicate_region",
+      "reason": "Positive-area overlap"
+    },
+    {
+      "name": "target_vertex",
+      "reason": "Wrong target sides"
+    },
+    {
+      "name": "inner_target",
+      "reason": "Wrong inner sides"
+    },
+    {
+      "name": "macro_vertex",
+      "reason": "Noncongruent triangle cells"
+    }
+  ],
+  "invalid_inputs_rejected": 6,
+  "status": "PASS",
+  "scope": {
+    "geometry": "All primitive u<v<=12 caps and minimal collars; complete targets for v<=8 at seed/tail/tail+1",
+    "arithmetic": "Direct nonnegative semigroup enumeration for 1<=m<=uv+2v, all primitive u<v<=12",
+    "unit_expansion": "Five small certificates, every unit triangle and pair checked",
+    "universal_proof": "PROOF.md; finite regressions are not universal extrapolation",
+    "necessity": "No claim for omitted scales or arbitrary tilings"
+  }
+}

@@ -1,6 +1,6 @@
 # What would constitute a complete solution of Erdős problem 634?
 
-**Assessment of this repository, 30 September 2026 — not a claim that every remaining subproblem is new or open in the literature.**
+**Assessment of this repository, updated 3 October 2026 — not a claim that every remaining subproblem is new or open in the literature.**
 
 ## The actual quantifiers
 
@@ -19,6 +19,8 @@ A complete fixed-tile spectrum for every shape would be one sufficient route. It
 | Classical/similar tilings | Published classifications and explicit constructions; among familiar admissible families are k², 2k², 3k², 6k² and sums of two squares. Exact source hypotheses remain necessary. | Not a proof that these are all global counts; 322 is an explicit nonclassical construction. |
 | Prime counts | [Candidate deduction](prime-case-dependencies.md) from the two scale-one geometric candidates and cited classifications. | Not externally accepted or formally checked here; in any event it concerns primes, not arbitrary composites. |
 | Group 1: 3alpha+2beta=pi | [All-five-shape eventual construction](universal-rational-scales.md), explicit bounds/seeds; a complete other-scalene family and a complete [fixed (2,3,4) spectrum](first-tile-classification.md). | The small admissible scales for general primitive (u,v), including the relevant W, beta, theta and alpha targets, are not classified by the eventual theorem. |
+| General W and beta cap | [Explicit collars](../research/w-beta-caps/PROOF.md) construct every scale in v+<u,v>, hence every m>=uv-u+1. | This is a sufficient set, not a proved exact spectrum; for example it leaves scale 4 of tile (6,5,9) undecided. |
+| Oriented 120-degree F4, a<b | [Four-region construction](../research/group2-f4/PROOF.md) supplies every positive integer multiplier. | Reversing a and b changes the target and does not preserve this construction; the a>b branch remains unresolved in general. |
 | 60°/120° equilateral | [Necessary N=abm² and sufficient large-m bounds](../research/general-spectra/PROOF.md). | The exact realizable set below the sufficient threshold for each primitive tile. Passing parity/area tests is not a tiling. |
 | 120° F1 and isosceles | Necessary spectra b(a+b)m² and b(a+2b)m², with large-m constructions by transfer. The spectra are credited to Bonfioli. | Small m; a sufficient cutoff is not a necessary cutoff. The 116640-tile example demonstrates why that distinction matters. |
 | Other classified irrational-angle shapes | Published shape/rationality inputs and explicit branch-specific necessary equations, audited in the [105 reduction](../research/n105/PROOF_N105.md). | A contradiction for squarefree 105 cannot be generalized to all composites. The gamma=2alpha and other 120° scalene families must retain their full hypotheses in a global argument. |

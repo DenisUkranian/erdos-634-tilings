@@ -1,5 +1,12 @@
 # Changelog
 
+## General W/beta cap — 3 October 2026
+
+- Prove a six-block cap for every primitive rational Group-1 tile and a collar extending any W or beta scale T to T+u whenever T>=v-u.
+- Combine it with credited triquadratic seeds to construct every scale in v+<u,v>, in particular every m>=uv-u+1. Sharpen the compatible square-class sufficient bounds to C<d for W and 2C<d for beta.
+- Include the full proof, a separate internal audit, a dependency-free symbolic checker, an independently implemented exact geometry checker, complete compressed certificates and finite unit expansions. Integrate the package into the root replay.
+- No necessity is asserted for scales outside the semigroup. The complete all-integer classification remains unresolved.
+
 ## Further construction update — 3 October 2026
 
 - Extend the geometry of Harries's 88-tile example to every positive integer 120-degree norm triple with a<b, constructing every multiplier in that oriented F4 branch.

@@ -12,6 +12,7 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 
 | Result | Read and reproduce |
 |---|---|
+| W and beta constructions at every scale in `v+<u,v>` | [Six-block cap proof](research/w-beta-caps/PROOF.md), [exact certificates and separate checker](research/w-beta-caps/): for every primitive `0<u<v`, all scales `m>=uv-u+1` are realized. This improves the sufficient bound; it does not exclude scales outside the displayed semigroup. |
 | Every multiplier in the oriented 120° F4 branch with a<b | [Four-region proof](research/group2-f4/PROOF.md), [unit generator and independent checker](research/group2-f4/): `(2a+b)(a+b)m²` is constructed for every positive m when `c²=a²+ab+b²` and `a<b`. The reversed orientation remains unresolved in general. |
 | Exact criterion on an infinite arithmetic domain | [Uniform sectors proof](research/uniform-sectors/PROOF.md): for N≡6 (mod16), 3∤N, and no p≡7 (mod8) with odd exponent, admissibility is exactly the constructive QP form. [Code and certificates](research/uniform-sectors/). |
 | Constructive tails in compatible square classes | [Square-class saturation proof](research/square-class-saturation/PROOF.md), [generator and separate verifier](research/square-class-saturation/): a fixed W/beta tile realizes every sufficiently large multiplier, with an explicit bound below 2d. Small multipliers remain unclassified in general. |
@@ -37,7 +38,7 @@ Python 3.11 or newer; the finite tests use the standard library:
 python scripts/verify_all.py --jobs 2
 ```
 
-Use ordinary Python, without `-O`, `-OO`, or `PYTHONOPTIMIZE`. The coordinator checks integrity and local links, replays the legacy suite and all four N=105 certificates, expands the 116,640-tile construction, and runs the uniform-reduction, uniform-sectors, square-class-saturation, F4 and c-relation tests in temporary copies. Reports record the scope of each check. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+Use ordinary Python, without `-O`, `-OO`, or `PYTHONOPTIMIZE`. The coordinator checks integrity and local links, replays the legacy suite and all four N=105 certificates, expands the 116,640-tile construction, and runs the uniform-reduction, uniform-sectors, square-class-saturation, W/beta-cap, F4 and c-relation tests in temporary copies. Reports record the scope of each check. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 
 ## Remaining question and attribution
 
