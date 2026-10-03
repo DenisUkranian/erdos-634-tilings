@@ -210,13 +210,17 @@
       "bytes": 4767,
       "sha256": "e02b6d7a1c1e2d7f1108a9c33faea65750533d24b2250ff6b0ff2ddc9e778c8d"
     },
+    "docs/finite-schemes-attack.md": {
+      "bytes": 6648,
+      "sha256": "f46430993dacf27f366a657cb988ce558a2e6c2ebd27255913e9b484e69fc929"
+    },
     "docs/first-tile-classification.md": {
       "bytes": 4743,
       "sha256": "af7c912f81c87fcabc6c80bd4392f54ed7cc3d0bae84d1e8d9ed4181e8c06b75"
     },
     "docs/full-solution-roadmap.md": {
-      "bytes": 9195,
-      "sha256": "80ac81af6f0e118c18a47a4c64f8760d69fa27a9e27d2ba7566731e67ec0c82d"
+      "bytes": 9481,
+      "sha256": "59331153dde02331797629f18c520fd2f4f08e0367f676788b178442c46cdde8"
     },
     "docs/general-spectra.md": {
       "bytes": 2157,

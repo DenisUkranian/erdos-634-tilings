@@ -45,6 +45,11 @@ The convex-capped chain lemma and exact fan checker are reusable tools. An isola
 
 The short-term review targets are therefore precise: the universal scale-one candidates, the parameter-dependent small-m spectra, the remaining branch conditions, and an all-N mechanism connecting them. This repository's **full_Erdos634_solved remains false**.
 
+The [finite-scheme investigation](finite-schemes-attack.md) isolates a weaker
+necessary orientation-bound conjecture and proves a quantitative constraint
+on checkerboard grid descriptions. It does not establish either a universal
+orientation bound or completeness of a finite catalog.
+
 ## Sources and source limitations
 
 [BZ] M. Beeson and Y. X Zhang, *Rationality of certain triangle tilings*, [arXiv:2604.01314v1](https://arxiv.org/html/2604.01314v1), Table 1 and Theorems 1.1–1.2.
