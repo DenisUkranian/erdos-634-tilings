@@ -1,17 +1,21 @@
 # Finite construction schemes: an orientation test and a quantitative constraint
 
-3 October 2026. Research with ChatGPT assistance directed by Denis Paliy.
+3 October 2026; scope corrected 4 October 2026.
+Research with ChatGPT assistance directed by Denis Paliy.
 The finite-scheme conjecture and Erdős problem 634 remain unresolved.
 The results below are elementary deductions, reviewed separately within
 this investigation; no external acceptance or priority is asserted.
 
 ## The conjecture and its quantifiers
 
-Fix a grammar of explicitly tiled positive blocks: ordinary triangular
-grids, parallelogram grids, and any additional grid regions whose recipes
-are specified in advance. A block cannot mean an arbitrary polygon that
-some unknown method can tile. A scheme has a fixed finite number of blocks
-and parameters; grid sizes may be arbitrarily large.
+The broad conjecture concerns a finite library of explicit positive
+construction recipes with a fixed number of parameters. Grid sizes and
+specified repetition counts may be arbitrarily large. A recipe cannot
+hide an arbitrary unresolved tiling problem inside a named region.
+For example, a parameterized stack of explicitly tiled trapezoid bands
+is a permitted recipe, although its number of individual grid regions
+can grow without bound. This differs from requiring a fixed number of
+ordinary grid blocks.
 
 The strong conjecture is that there is a finite catalog of such schemes
 so that every tileable pair consisting of a triangular target T and a
@@ -20,33 +24,48 @@ T and tile count, described by a catalog scheme. This is an existence
 claim about an alternative; the original tiling need not be transformable
 by prescribed local moves.
 
-The earlier 1 October archive already posed a weaker bounded-block
-conjecture allowing the tile and target to change while preserving N.
-It also supplied terminating reductions and bounded W/beta constructions
-at sufficiently large scales. Neither completeness nor a universal block
-bound was proved there. Restating the conjecture or proving termination
-again would not close that gap.
+The earlier 1 October archive posed and then **refuted** the absolute
+bound for ordinary triangular and parallelogram grid blocks, even when
+the tile and target may change while preserving N. The later
+`Erdos634_unbounded_blocks_PROOF` manuscript supersedes the earlier
+positive-normal-form conjecture; the [archive reconciliation](audits/research-2026-10-03.md)
+already recorded that distinction. The original version of this note
+omitted that negative result. It is not an unresolved route to reuse.
+Its proof does not refute the broader repetition grammar above.
 
 ## A necessary intermediate statement
 
-Suppose each permitted block uses at most d orientations of R, counting
-reflections separately, and each scheme uses at most K blocks. Then:
+For the subclass in which each permitted recipe uses at most d
+orientations of R, counting reflections separately, and each scheme
+uses at most K recipes, the conjecture would imply:
 
 > Every tileable pair (R,T) has an alternative tiling using at most dK
 > orientations, independently of its number of unit tiles.
 
-This follows by taking the union of the orientation sets of its blocks.
+This follows by taking the union of the orientation sets of its recipes.
 Ordinary triangular grids, parallelogram grids, and grid regions formed
 by deleting a grid corner each use at most two orientations. Mixed strips
-must be counted as their explicitly specified constituent grids.
+may instead be one repeated recipe if their positive filling is explicit.
+Their orientation bound must then be proved for the whole recipe,
+uniformly in its repetition count. A rule that repeatedly rotates a
+patch through an irrational angle need not have such a bound: finite
+description alone does not imply finitely many orientations uniformly.
 
-This statement is weaker than bounded block complexity. It is a precise
-first target for proving or refuting the strong conjecture. To refute it,
+This statement is weaker than bounded block complexity, and a precise
+first target for the uniformly bounded-orientation subclass. To refute it,
 one needs a sequence of tileable pairs for which **every** tiling requires
 an unbounded number of orientations. Exhibiting one intricate tiling,
 many T-junctions, or a particular tiling with many orientations is not
 enough. Conversely, proving this orientation bound would not alone prove
-the finite-scheme conjecture.
+the finite-scheme conjecture. A counterexample to it would rule out that
+subclass, but not every possible finite recursive grammar.
+
+The [capacity extension](grid-capacity-and-orientations.md) now gives
+explicit tileable equilateral pairs requiring an unbounded number of
+convex single-grid regions, including corner-deleted grids. The same
+pairs have tilings with at most 18 rigid orientations, supplied by a
+fixed repeated-band recipe. Thus this obstruction separates the two
+notions instead of refuting the broad conjecture.
 
 ## A quantitative restriction on grid schemes
 
@@ -145,3 +164,14 @@ irrational right tiles. Its published inputs are stated explicitly.
 It also proves a restriction on orientation cuts and identifies a false
 arbitrary-patch replacement rule. These results do not establish the
 universal bound or the finite-scheme conjecture.
+
+The [whole-edge area argument](height-cut-area.md) proves that cut chains
+are boundaries of actual nested tile unions, then uses their exact
+rank-two displacement lattices. For every theta tiling with consecutive
+parameters u=v-1, it bounds the number of rigid orientations by 8t².
+The dependence on t remains. Replacing an arbitrary such union with a
+tiling using fewer directions is still unproved; the chain identity
+alone does not perform that replacement.
+
+The [4 October continuation audit](audits/finite-schemes-2026-10-04.md)
+records the scope corrections and the exact unresolved implication.

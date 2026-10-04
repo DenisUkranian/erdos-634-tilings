@@ -142,6 +142,10 @@
       "bytes": 6116,
       "sha256": "8c600328b9a9f1df0e2d1240a3b2099231fec726b125fbb5bb2af99bf3ccb9b7"
     },
+    "docs/audits/finite-schemes-2026-10-04.md": {
+      "bytes": 4882,
+      "sha256": "917fcc25bc5dc6ad5ef8abbd0fc019e8b2bddb5bf3a5095b0b0b298ed2ea7d30"
+    },
     "docs/audits/full-solution-attempt-2026-10-03.md": {
       "bytes": 5431,
       "sha256": "62dd96ca7c127195fba2fe2db554c6016c83e5e247411dc89380bc5dec7da02c"
@@ -211,20 +215,28 @@
       "sha256": "e02b6d7a1c1e2d7f1108a9c33faea65750533d24b2250ff6b0ff2ddc9e778c8d"
     },
     "docs/finite-schemes-attack.md": {
-      "bytes": 7119,
-      "sha256": "90c181e349b110da435f54072904dfea75412e023c92be0d812694fb11cef90f"
+      "bytes": 8921,
+      "sha256": "13c5aca5163173d9233c23861eb046da0fc13b20fda9ff00fc0e7ab72fdda8b4"
     },
     "docs/first-tile-classification.md": {
       "bytes": 4743,
       "sha256": "af7c912f81c87fcabc6c80bd4392f54ed7cc3d0bae84d1e8d9ed4181e8c06b75"
     },
     "docs/full-solution-roadmap.md": {
-      "bytes": 9481,
-      "sha256": "59331153dde02331797629f18c520fd2f4f08e0367f676788b178442c46cdde8"
+      "bytes": 9816,
+      "sha256": "225bc56cf31c06980d632ae5a1b61ad8c25a8b98685c7a6368c656f8563d3a6d"
     },
     "docs/general-spectra.md": {
       "bytes": 2157,
       "sha256": "97282cac68315f25d74f7bc25787271028473adfc76db80aa01d0664a65dba42"
+    },
+    "docs/grid-capacity-and-orientations.md": {
+      "bytes": 10068,
+      "sha256": "c1552d75ca9f1ca5b8000099279b55786c12aefb2945bccc1702857e94f70a83"
+    },
+    "docs/height-cut-area.md": {
+      "bytes": 6601,
+      "sha256": "335cd494ebf5db62c0767134458bd98c7b36e2f093b36dde148f3d4ac8e015e5"
     },
     "docs/isosceles-120-invariant.md": {
       "bytes": 3600,
@@ -281,6 +293,10 @@
     "docs/prime-case-dependencies.md": {
       "bytes": 13101,
       "sha256": "042e45182485b3d4ad7f8d947c22e7bd872a50389270c5bea303437412560e34"
+    },
+    "docs/pure-island-exchange.md": {
+      "bytes": 11441,
+      "sha256": "edfe66be7eb578119cadb344aece0ac45f83f332938b37d1a09fbdd24d6109f9"
     },
     "docs/right-tile-orientation-bound.md": {
       "bytes": 7672,

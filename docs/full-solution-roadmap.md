@@ -45,10 +45,15 @@ The convex-capped chain lemma and exact fan checker are reusable tools. An isola
 
 The short-term review targets are therefore precise: the universal scale-one candidates, the parameter-dependent small-m spectra, the remaining branch conditions, and an all-N mechanism connecting them. This repository's **full_Erdos634_solved remains false**.
 
-The [finite-scheme investigation](finite-schemes-attack.md) isolates a weaker
-necessary orientation-bound conjecture and proves a quantitative constraint
-on checkerboard grid descriptions. It does not establish either a universal
-orientation bound or completeness of a finite catalog.
+The [finite-scheme investigation](finite-schemes-attack.md) distinguishes
+the already-refuted absolute grid-block bound from explicit recipes with
+unbounded repetitions. A uniform orientation bound is necessary for the
+subclass of recipes whose orientation counts are uniformly bounded; it
+does not follow from an arbitrary finite recursive description. The
+[capacity extension](grid-capacity-and-orientations.md) supplies tileable
+pairs with unbounded convex grid-block complexity and at most 18 rigid
+orientations. Neither the universal orientation bound nor completeness
+of the broader finite catalog is established.
 
 ## Sources and source limitations
 
