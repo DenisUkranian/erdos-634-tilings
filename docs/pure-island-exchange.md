@@ -1,5 +1,11 @@
 # Pure inward islands: chirality duality and the deformation obstruction
 
+**5 October update:** the convex pure case is now resolved by the
+[necessary-and-sufficient classification and explicit same-polygon exchange](convex-pure-island-classification.md).
+The historical obstructions below remain valid: the new construction changes
+internal combinatorics. The nonconvex and mixed-state replacement questions
+remain outside that theorem.
+
 4 October 2026. Denis Paliy, research with ChatGPT assistance.
 No chirality-switch theorem or positive counterexample is claimed in this
 note. The formal-cochain argument below received a separate internal

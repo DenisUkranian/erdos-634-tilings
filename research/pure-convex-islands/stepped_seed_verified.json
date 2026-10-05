@@ -1,0 +1,41 @@
+[
+  {
+    "status": "PASS",
+    "a": 3,
+    "b": 5,
+    "c": 7,
+    "sidecounts": [
+      15,
+      15
+    ],
+    "facets": 42,
+    "exact_nonoverlap_checks": 861,
+    "triangles_after_grid_subdivision": 1470
+  },
+  {
+    "status": "PASS",
+    "a": 5,
+    "b": 16,
+    "c": 19,
+    "sidecounts": [
+      80,
+      80
+    ],
+    "facets": 187,
+    "exact_nonoverlap_checks": 17391,
+    "triangles_after_grid_subdivision": 57760
+  },
+  {
+    "status": "PASS",
+    "a": 8,
+    "b": 7,
+    "c": 13,
+    "sidecounts": [
+      56,
+      56
+    ],
+    "facets": 129,
+    "exact_nonoverlap_checks": 8256,
+    "triangles_after_grid_subdivision": 18928
+  }
+]

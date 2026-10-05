@@ -1,0 +1,91 @@
+{
+  "arithmetic": "exact integer cyclotomic remainder",
+  "independent_hex_core_cells": true,
+  "four_branch_algebra_including_even_a": "PASS",
+  "results": [
+    {
+      "a": 3,
+      "b": 5,
+      "X": 1,
+      "Y": 1,
+      "Z": 1,
+      "up": 102,
+      "down": 102,
+      "checks": [
+        {
+          "order": 31,
+          "x_power": 2,
+          "y_power": 5,
+          "HF_HG_values_and_first_derivatives": "exact PASS"
+        },
+        {
+          "order": 3,
+          "x_power": 1,
+          "y_power": 2,
+          "HF_HG_values_and_first_derivatives": "exact PASS",
+          "core_zero_order_vanishes": true,
+          "jet": [
+            24,
+            -24
+          ],
+          "reduced_jet_K": "exact PASS"
+        },
+        {
+          "order": 3,
+          "x_power": 2,
+          "y_power": 1,
+          "HF_HG_values_and_first_derivatives": "exact PASS",
+          "core_zero_order_vanishes": true,
+          "jet": [
+            48,
+            24
+          ],
+          "reduced_jet_K": "exact PASS"
+        }
+      ]
+    },
+    {
+      "a": 8,
+      "b": 7,
+      "X": 2,
+      "Y": 2,
+      "Z": 3,
+      "up": 2312,
+      "down": 2312,
+      "checks": [
+        {
+          "order": 31,
+          "x_power": 2,
+          "y_power": 5,
+          "HF_HG_values_and_first_derivatives": "exact PASS"
+        },
+        {
+          "order": 8,
+          "x_power": 1,
+          "y_power": 2,
+          "HF_HG_values_and_first_derivatives": "exact PASS",
+          "core_zero_order_vanishes": true,
+          "jet": [
+            105,
+            0,
+            -105
+          ],
+          "reduced_jet_K": "exact PASS"
+        },
+        {
+          "order": 8,
+          "x_power": 2,
+          "y_power": 1,
+          "HF_HG_values_and_first_derivatives": "exact PASS",
+          "core_zero_order_vanishes": false,
+          "jet": [
+            0,
+            85,
+            58,
+            65
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 6843,
-      "sha256": "19f2b2b27d27d51c7c8b2f30a3b3013785221c87d857408ac3eb9af66c286af0"
+      "bytes": 7367,
+      "sha256": "f392b2b87a8e329877810dd70979f4c293c16fd2fe2abf7ca00ea037e0fb5c41"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 9233,
       "sha256": "aee97e4ee5c17593c2510f73f27a6b1d7c85739091e13deae151cbd4801b6c80"
     },
     "STATUS.md": {
-      "bytes": 14852,
-      "sha256": "b2f624056e880839ad78923ea72d7fc97b7bf446337b1be396d1dd883ee45753"
+      "bytes": 15439,
+      "sha256": "8bf6b53674aadef17425b55ebdc5136e0c61a13d78dbe415864491e45a7ad54f"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -202,6 +202,10 @@
       "bytes": 4026,
       "sha256": "59dc7111919cdd2d69e341c9bd59db6aa6e4d08d534e71681acb08449ac29704"
     },
+    "docs/convex-pure-island-classification.md": {
+      "bytes": 16762,
+      "sha256": "be2c7fa87d431e4a999d6f5b333f8a05010722f4af1cd08bc1de4816796c8b1d"
+    },
     "docs/eventual-rational-families.md": {
       "bytes": 14148,
       "sha256": "9e6e1a871c74ddf22b96acd00b046aa852b117f46d3bd2c017dfcbc032e46338"
@@ -295,8 +299,8 @@
       "sha256": "042e45182485b3d4ad7f8d947c22e7bd872a50389270c5bea303437412560e34"
     },
     "docs/pure-island-exchange.md": {
-      "bytes": 11441,
-      "sha256": "edfe66be7eb578119cadb344aece0ac45f83f332938b37d1a09fbdd24d6109f9"
+      "bytes": 11806,
+      "sha256": "a7b29ebf4c94c2a2247faece115bb573335e436a72e8de276f811d7a8cf18816"
     },
     "docs/right-tile-orientation-bound.md": {
       "bytes": 7672,
@@ -790,6 +794,38 @@
       "bytes": 3378,
       "sha256": "962c7f13ba37567686d7f2d69b7c28d8a3907e91ff1b60dfddd70b861c196b8a"
     },
+    "research/pure-convex-islands/README.md": {
+      "bytes": 1683,
+      "sha256": "ae46997680bf118dffbdcd9753eaed27f7e6add3bdf1617a672e962f3e7b5b5e"
+    },
+    "research/pure-convex-islands/hex_jets_verified.json": {
+      "bytes": 1970,
+      "sha256": "53931b3ac54c258b4a17bdbfb087c87531ad106e4e46f8657f935fa26c709250"
+    },
+    "research/pure-convex-islands/integer_geometry.py": {
+      "bytes": 861,
+      "sha256": "cf37007428da9af2a51e939b68ce881fe6632bfd517de5eac59f52b0aa40a600"
+    },
+    "research/pure-convex-islands/laurent_jets_verified.json": {
+      "bytes": 2742,
+      "sha256": "534f65241f6c2d9b3af11d98a89870b16fc757d568218651e0661dd7b27e43a4"
+    },
+    "research/pure-convex-islands/stepped_seed_verified.json": {
+      "bytes": 649,
+      "sha256": "c14eb9fdafa598c2e102a196824ed8afd96e5f5a7b2e1de2aef505e0fb1861ca"
+    },
+    "research/pure-convex-islands/verify_hex_jets.py": {
+      "bytes": 6991,
+      "sha256": "846742850633709341a28bd03ea10661617463049f255783a941874257f655f3"
+    },
+    "research/pure-convex-islands/verify_laurent_jets.py": {
+      "bytes": 5298,
+      "sha256": "f626e6bb719d9a17bda69d136cd01505838fba7106d2e0c2a99dc6e05c6984e2"
+    },
+    "research/pure-convex-islands/verify_stepped_seed.py": {
+      "bytes": 4048,
+      "sha256": "03a9e274a4ed25579898b495ef8070b7ea45cfc4b886c69b9415d79a5c825b5c"
+    },
     "research/square-class-saturation/PROOF.md": {
       "bytes": 24583,
       "sha256": "a598d3f2bdd7b738f841a63c4b877699aceb1840cca4aa4181a7601be42c3dc1"
@@ -1195,8 +1231,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 6206,
-      "sha256": "8dfc9f1ae52384c3c9f43b65c0b06cce458b7bd732d08eba7c92824da6dc6373"
+      "bytes": 6582,
+      "sha256": "54b3522e70b7098ee770f3c82b2e7b72aebcc1b246c70a79f8135b8d4a5044db"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

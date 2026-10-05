@@ -1,0 +1,126 @@
+{
+  "arithmetic": "integer cyclotomic polynomial remainders",
+  "independent_core_cells": true,
+  "results": [
+    {
+      "a": 3,
+      "b": 5,
+      "X": 3,
+      "Y": 5,
+      "up": 615,
+      "down": 615,
+      "checks": [
+        {
+          "order": 31,
+          "x_power": 2,
+          "y_power": 5,
+          "boundary_identity_and_first_derivatives": "exact PASS"
+        },
+        {
+          "order": 3,
+          "x_power": 1,
+          "y_power": 2,
+          "boundary_identity_and_first_derivatives": "exact PASS",
+          "jet": [
+            -15,
+            15
+          ],
+          "vanishes": false,
+          "three_tile_jets": "exact PASS"
+        },
+        {
+          "order": 5,
+          "x_power": 1,
+          "y_power": -1,
+          "boundary_identity_and_first_derivatives": "exact PASS",
+          "jet": [
+            30,
+            15,
+            15,
+            15
+          ],
+          "vanishes": false,
+          "three_tile_jets": "exact PASS"
+        }
+      ]
+    },
+    {
+      "a": 8,
+      "b": 7,
+      "X": 8,
+      "Y": 7,
+      "up": 8624,
+      "down": 8624,
+      "checks": [
+        {
+          "order": 31,
+          "x_power": 2,
+          "y_power": 5,
+          "boundary_identity_and_first_derivatives": "exact PASS"
+        },
+        {
+          "order": 8,
+          "x_power": 1,
+          "y_power": 2,
+          "boundary_identity_and_first_derivatives": "exact PASS",
+          "jet": [
+            -56,
+            56
+          ],
+          "vanishes": false,
+          "three_tile_jets": "exact PASS"
+        },
+        {
+          "order": 7,
+          "x_power": 1,
+          "y_power": -1,
+          "boundary_identity_and_first_derivatives": "exact PASS",
+          "jet": [
+            56,
+            -56
+          ],
+          "vanishes": false,
+          "three_tile_jets": "exact PASS"
+        }
+      ]
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "X": 15,
+      "Y": 15,
+      "up": 10575,
+      "down": 10575,
+      "checks": [
+        {
+          "order": 31,
+          "x_power": 2,
+          "y_power": 5,
+          "boundary_identity_and_first_derivatives": "exact PASS"
+        },
+        {
+          "order": 3,
+          "x_power": 1,
+          "y_power": 2,
+          "boundary_identity_and_first_derivatives": "exact PASS",
+          "jet": [
+            0
+          ],
+          "vanishes": true,
+          "three_tile_jets": "exact PASS"
+        },
+        {
+          "order": 5,
+          "x_power": 1,
+          "y_power": -1,
+          "boundary_identity_and_first_derivatives": "exact PASS",
+          "jet": [
+            0
+          ],
+          "vanishes": true,
+          "three_tile_jets": "exact PASS"
+        }
+      ]
+    }
+  ]
+}
