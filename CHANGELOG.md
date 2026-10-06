@@ -1,5 +1,14 @@
 # Changelog
 
+## Elliptic square-class correspondences — 6 October 2026
+
+- Prove both directions of F3 square-class existence versus positive rank, with primitive reconstruction from even multiples of a non-torsion point.
+- Characterize existence of an odd F3 coefficient by a local condition on the full Mordell–Weil group; checking a certified full basis is finite. Do not replace a full basis by a list of independent points or claim to have computed bases generally.
+- Relate Group-1 alpha square-class existence to the classical congruent-number curve, with explicit isogenies and a finite algebraic passage into the positive cone.
+- Use Stoll's formula, as explicitly stated by Chang, to certify F3 absence from a finite class-number calculation. Together with the extended alpha sieve, obtain an exact QP criterion for all odd multipliers in the stated sector, invariant under removing powers of 3. Preserve the separate hypothesis for even multipliers.
+- Add an algebraic proof of the prior class-22 rank input via the two reduced forms of discriminant -88. Preserve the prior analytic certificate as a separate verification.
+- Publish exact maps, a scoped sector classifier, independent finite comparisons and explicit source boundaries. The general small-scale geometry and full Erdős 634 remain unresolved.
+
 ## Composite multipliers and complete square class 22 — 6 October 2026
 
 - Close membership for every `22 m²`: preserve the old 88-tile positive construction for even multipliers and prove that odd membership is exactly the constructive QP coefficient test. Remove F3 at all scales through the rank-zero curve `Y²=X³+66³`; no restriction `3∤m` remains.

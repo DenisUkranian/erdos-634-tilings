@@ -167,7 +167,7 @@ Y=\frac{KAc}{hB}
 \tag{4.0}
 \]
 
-give a rational point on \(Y^2=X^3+K^3\) with \(0<X<K\). Indeed, before the translation \(X=z-K\), the norm identity gives \(Y^2=z^3-3Kz^2+3K^2z\) for \(z=KA/B\). Consequently, absence of rational points in that interval rules out the entire F3 contribution to the square class \(d\). This is a necessary condition only: an arbitrary rational point on the elliptic curve does not automatically reconstruct a primitive tile or a tiling at a prescribed scale.
+give a rational point on \(Y^2=X^3+K^3\) with \(0<X<K\). Indeed, before the translation \(X=z-K\), the norm identity gives \(Y^2=z^3-3Kz^2+3K^2z\) for \(z=KA/B\). Consequently, absence of rational points in that interval rules out the entire F3 contribution to the square class \(d\). An arbitrary rational point does not automatically reconstruct a primitive tile at a prescribed scale. The later [rank equivalence](elliptic-square-classes.md) proves the converse for existence somewhere in the square class by selecting a suitable even multiple and verifying the extra square condition.
 
 **Lemma 4.1.** No F3 coefficient belongs to the square class 22.
 
@@ -219,6 +219,21 @@ E(\mathbb Q)=\{O,(-66,0)\},
 \]
 
 as justified below. This contradiction proves the lemma. Primitivity and parity were not needed: the obstruction excludes F3 for even as well as odd multipliers. ∎
+
+### A finite algebraic proof of rank zero
+
+The later [class-number criterion](elliptic-square-classes.md) gives another
+proof of (4.4), independent of the analytic certificate below. The curve
+is 3-isogenous over the rationals to \(y^2=x^3-22^3\). Since 22 is even,
+squarefree and 1 modulo 3, the cited Stoll formula bounds its rank by twice
+the 3-rank of the class group of \(\mathbb Q(\sqrt{-22})\).
+The only primitive reduced positive forms of discriminant \(-88\) are
+\((1,0,22)\) and \((2,0,11)\). Thus \(h(-88)=2\), proving rank zero;
+the elementary torsion determination then gives (4.4).
+[The exact class-number checker](../research/elliptic-sectors/sector.py)
+enumerates these forms with a proved complete bound. The source theorem
+is read in Chang's explicit restatement; the original Stoll paper was
+not retrieved. The former analytic certificate is retained below.
 
 ### Exact arithmetic input for the elliptic curve
 

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "forms": {
+    "known_class_numbers": 12,
+    "complete_form_comparisons": 204
+  },
+  "maps": {
+    "primitive_norm_roundtrips": 36,
+    "generator_search_steps": 5,
+    "torsion_cases": 4,
+    "invalid_cases": 7,
+    "generated_primitive_coefficient_verified": true
+  },
+  "allocation": {
+    "forward_coefficient_bound": 961000,
+    "primitive_QP_pairs": 145,
+    "complete_QP_input_comparisons": 816,
+    "alpha_candidates": 503,
+    "alpha_candidates_divisible_by_3": 248
+  },
+  "scope": {
+    "prior_class22_comparisons": 104,
+    "scope_controls": 5,
+    "invalid_cases": 6
+  },
+  "full_Erdos634_solved": false,
+  "general_rank_algorithm": false,
+  "Mordell_Weil_bases_computed": false,
+  "boundary": "Exact finite regression; universal theorems require written proofs and cited inputs."
+}

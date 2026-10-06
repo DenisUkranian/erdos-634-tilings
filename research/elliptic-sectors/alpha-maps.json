@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "arithmetic": "exact rational-function polynomial coefficients",
+  "normalization": "weighted homogeneous identities with powers of d cancelled",
+  "identity_count": 9,
+  "checks": [
+    "E_to_Eprime",
+    "Eprime_to_E",
+    "quartic_to_Eprime",
+    "quartic_inverse_z",
+    "quartic_inverse_w_factor",
+    "quartic_to_E_direct",
+    "dual_composition_doubling_x",
+    "Eprime_doubling_x",
+    "Eprime_torsion_translation"
+  ],
+  "scope": "Universal algebraic map identities; geometric tails, torsion theorems, ranks and small tiling scales are not computed."
+}

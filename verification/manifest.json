@@ -19,8 +19,8 @@
       "sha256": "e794dba5fe4133c8918b5923f11966ffc4bb4d9841242bd4bc2ea2fa4ad7ecc4"
     },
     "CHANGELOG.md": {
-      "bytes": 15164,
-      "sha256": "08af32077a5d39d4a113e0b8dbdaacce7f2d51851a73a0ce2b2097b774328296"
+      "bytes": 16474,
+      "sha256": "181fea63d7bac8db070956a949477c7e3854d7d6b0bd7b67819abd8e770aa9f6"
     },
     "CITATION.cff": {
       "bytes": 1425,
@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 10777,
-      "sha256": "aff72142b2a301963c050b2a2c6f49a834027ec81cc521e2c171ecd36ebb297a"
+      "bytes": 11317,
+      "sha256": "1888af99bd4732b868e7fb86d6d8ce6b9cdd3d41a59f338175f24711950ef0e0"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 11159,
-      "sha256": "a8f3390248ccdc380c348dc4164e77c23c5aaf59457fe200c1fb668487b0356f"
+      "bytes": 11567,
+      "sha256": "e9db2553c73ba32a4c870bdfa5309bb9e3c94ddc308b264f8a5734524552e5ef"
     },
     "STATUS.md": {
-      "bytes": 20195,
-      "sha256": "780f333bbdf172cdff27a5aca5185eb37dadfb627beaad09cb97960499511dca"
+      "bytes": 20825,
+      "sha256": "e65965d15bfa700a06f788f43c3693620d6a45bca7fe7ecd410056b2a76b74a3"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -121,6 +121,10 @@
     "docs/alpha-21-obstruction.md": {
       "bytes": 13203,
       "sha256": "336c7beedcefca09d1fe7516d52cc67ae7e261dc69362b252ef240b9bcdcf0f6"
+    },
+    "docs/alpha-congruent-numbers.md": {
+      "bytes": 9645,
+      "sha256": "1f2cdbb400b4d9b15ce44858f62792a6cc927e4ef912c2853c85d695f5c2cd53"
     },
     "docs/audits/alpha21.md": {
       "bytes": 5649,
@@ -206,6 +210,10 @@
       "bytes": 17290,
       "sha256": "343c4ec89db9baf3bbaa41f22c8f71437722b8d2416f7937dd797dadc48c03b1"
     },
+    "docs/elliptic-square-classes.md": {
+      "bytes": 16337,
+      "sha256": "b36b9ceb03f8e1862e4e6b5ee151e578ef584f7af5ebe01cbe0e54c1cfec1829"
+    },
     "docs/eventual-rational-families.md": {
       "bytes": 14148,
       "sha256": "9e6e1a871c74ddf22b96acd00b046aa852b117f46d3bd2c017dfcbc032e46338"
@@ -222,6 +230,10 @@
       "bytes": 4767,
       "sha256": "e02b6d7a1c1e2d7f1108a9c33faea65750533d24b2250ff6b0ff2ddc9e778c8d"
     },
+    "docs/f3-odd-multipliers.md": {
+      "bytes": 12730,
+      "sha256": "6470c3e34e163083c81a1ea16df606b56454e2a245a920c42959e09a834dfed2"
+    },
     "docs/finite-schemes-attack.md": {
       "bytes": 8921,
       "sha256": "13c5aca5163173d9233c23861eb046da0fc13b20fda9ff00fc0e7ab72fdda8b4"
@@ -235,8 +247,8 @@
       "sha256": "353732e633dc0c352df9553dd82ea73378c7182a42d389981c545b6fb6a3849a"
     },
     "docs/full-solution-roadmap.md": {
-      "bytes": 14278,
-      "sha256": "5540b36b3b1a1fccd0557617a43ac398a5c75f33ef06cac098fb6b3194fe0568"
+      "bytes": 14699,
+      "sha256": "501a421df8904029c63132be1aa522e1f54b875b0cb9f1a708c80034c183d5c6"
     },
     "docs/general-spectra.md": {
       "bytes": 2157,
@@ -339,8 +351,8 @@
       "sha256": "198fad9d8130b1f8a8686e8f8e0b75896771a7fc70a1ff82af2e7da81be07e76"
     },
     "docs/square-class-22.md": {
-      "bytes": 14507,
-      "sha256": "2fb14a66d8195af73f95ed8493a41cb8474a68f753163dd5e1a7df9976298963"
+      "bytes": 15516,
+      "sha256": "29458f0f47d29b259898e54194c9c5d3eb5b6279a4510083b594da2d37fed8e0"
     },
     "docs/square-class-tails.md": {
       "bytes": 23557,
@@ -513,6 +525,42 @@
     "research/composite-support/verify_rank22.py": {
       "bytes": 5734,
       "sha256": "142e19c2c579ac0696f942c329615b4c4a3a8db5ab3296dd52f44253f6c2972e"
+    },
+    "research/elliptic-sectors/README.md": {
+      "bytes": 3604,
+      "sha256": "2046bbb3f12b675e4bccd044039693d364c8758fd176493aeaf885b9fcea1341"
+    },
+    "research/elliptic-sectors/SHA256SUMS.txt": {
+      "bytes": 641,
+      "sha256": "52a1b77bc345188ecb74252562c1703f8046ce52bf1ff8c4d0ecccc8f3c94313"
+    },
+    "research/elliptic-sectors/alpha-maps.json": {
+      "bytes": 586,
+      "sha256": "039f26bf4beb1fa6ef84a545831b8f76455cb12ee83077f4a3cf6bd2f8b7fddf"
+    },
+    "research/elliptic-sectors/check_alpha_maps.py": {
+      "bytes": 5068,
+      "sha256": "0997cf7daf0bd03ead90fa9f162f84b103c499f6082b91fe9ad622d304a68ecc"
+    },
+    "research/elliptic-sectors/elliptic.py": {
+      "bytes": 9191,
+      "sha256": "1c9195c29b059272ad3a92b196d8de0d5bc12b481fa417f24bf8901fff2e52dd"
+    },
+    "research/elliptic-sectors/run_checks.py": {
+      "bytes": 9431,
+      "sha256": "e721aaefff2e3296025d292121b86d923751ba1c2c3f37975d67ff59d73d069a"
+    },
+    "research/elliptic-sectors/sector.py": {
+      "bytes": 7007,
+      "sha256": "bdbb4d3c82afe5ae6682c6cc4ec299546fde1d0bce664e25d9781f0a4c1908e3"
+    },
+    "research/elliptic-sectors/sources.json": {
+      "bytes": 3189,
+      "sha256": "dc20d6c897570d95562462776f9e40faf141618d3f52a21436a8015cf3da76f6"
+    },
+    "research/elliptic-sectors/verification.json": {
+      "bytes": 820,
+      "sha256": "7ea422d91c43defecce058b83034c132efa7913c53862fa7986950ddc81af3e0"
     },
     "research/extreme-pure-embedding/README.md": {
       "bytes": 3792,
@@ -1395,8 +1443,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 8349,
-      "sha256": "e84b33a43365b223887438c3fdba5ad30e71d652cdec9b68043ad0c12c796620"
+      "bytes": 9015,
+      "sha256": "266587b5dc68bc96e4dc312404ea239ff65e45ff3356048d35fa943353cbe863"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

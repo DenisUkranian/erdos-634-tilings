@@ -16,6 +16,7 @@ The coordinator checks the file manifest, syntax, local links and scope flags, t
 
 | Command, from repository root unless noted | What is checked |
 |---|---|
+| `python research/elliptic-sectors/run_checks.py` and `python research/elliptic-sectors/check_alpha_maps.py` | Complete reduced-form comparisons, exact elliptic maps, primitive F3 round trips, QP allocation versus forward enumeration, alpha candidates including factors of 3, scope controls, and universal alpha rational-function identities. No general rank algorithm or Mordell–Weil basis computation. |
 | `python research/composite-support/run_checks.py` | Nine quartic identities/discriminants; allocation versus independent forward coefficient enumeration through 5000; scoped general-tool statuses; exact class-22 interfaces; rank-zero central-value certificate; fresh replay of the old 88-tile certificate. It does not execute a general S-unit solver. |
 | `cd research/group2-trapezoids && python check_family.py` | 420 primitive ordered seed triples, 64 balanced corner instances, exact macro certificates, two fully expanded small seeds and five corruption rejections. |
 | `cd research/group2-trapezoids && python check_balanced_f4.py` | Complete 1380- and 3105-tile F4 examples; all unit pairs, a nonprimitive normalization case and four corrupted certificates. |

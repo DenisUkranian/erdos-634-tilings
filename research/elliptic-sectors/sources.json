@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-06",
+  "sources": [
+    {
+      "author": "Sungkon Chang",
+      "title": "Note on the rank of quadratic twists of Mordell equations",
+      "url": "https://arxiv.org/pdf/math/0510001",
+      "version": "v1, 30 September 2005",
+      "used": "Theorem 1.1, printed page 3: explicit statement of Stoll's Selmer formula and rank bound",
+      "scope": "The positive-A, -A=8 mod9 case with all local nonsquare hypotheses checked. The stronger trivial-group assertion of Chang Theorem 2.2 is not used."
+    },
+    {
+      "author": "Michael Stoll",
+      "title": "On the arithmetic of the curves y^2=x^ell+A and their Jacobians",
+      "journal": "Journal fuer die reine und angewandte Mathematik 501 (1998), 171-189",
+      "url": "https://doi.org/10.1515/crll.1998.076",
+      "used": "Corollary 2.1, through Chang's explicitly inspected restatement",
+      "scope": "Original full text was not retrieved; the original proof is not claimed to have been independently inspected."
+    },
+    {
+      "author": "Miklos Laczkovich",
+      "title": "Rational Points of Some Elliptic Curves Related to the Tilings of the Equilateral Triangle",
+      "url": "https://link.springer.com/article/10.1007/s00454-019-00143-5",
+      "publication": "Online 22 October 2019; Discrete & Computational Geometry 64 (2020), 985-994",
+      "used": "Prior relation between tiling square classes and rational points, for equilateral targets and different elliptic curves",
+      "scope": "The elliptic-curve approach itself is not claimed as new."
+    },
+    {
+      "author": "Andrew Sutherland",
+      "title": "MIT 18.783, Fall 2025, Problem Set 3",
+      "url": "https://math.mit.edu/classes/18.783/2025/ProblemSet3.pdf",
+      "used": "Good-reduction torsion injection, Problem 2(d); division-polynomial formulas, Problem 3"
+    },
+    {
+      "author": "SageMath developers",
+      "title": "Binary quadratic forms with integer coefficients",
+      "url": "https://doc.sagemath.org/html/en/reference/quadratic_forms/sage/quadratic_forms/binary_qf.html",
+      "used": "Reduced forms and the class number for negative fundamental discriminants",
+      "scope": "The checker implements complete enumeration in Python; SageMath is not a runtime dependency."
+    },
+    {
+      "author": "James Milne",
+      "title": "Elliptic Curves, second edition",
+      "url": "https://jmilne.org/math/Books/EC2.pdf",
+      "used": "Chapter II, section 4: the nonsingular-reduction subgroup; standard elliptic group and descent framework",
+      "scope": "The particular parity loci, reconstruction maps and branch deductions are proved in the new notes."
+    },
+    {
+      "author": "Larry Rolen",
+      "title": "A Generalization of the Congruent Number Problem",
+      "url": "https://www.mi.uni-koeln.de/~lrolen/congruent_numbers.pdf",
+      "used": "Printed page 2: congruent-number positive-rank criterion and torsion C2 x C2",
+      "scope": "Only the classical introductory facts are used; conditional density results are not invoked. The torsion specialization is separately proved in the alpha note."
+    }
+  ],
+  "full_Erdos634_solved": false,
+  "external_priority_established": false
+}
