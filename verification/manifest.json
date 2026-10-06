@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 7367,
-      "sha256": "f392b2b87a8e329877810dd70979f4c293c16fd2fe2abf7ca00ea037e0fb5c41"
+      "bytes": 7867,
+      "sha256": "8a93a21a38dc92a733ccf1a0186d8bc0b4f743f7a30fe1288f38ea09e0b4b543"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 9233,
       "sha256": "aee97e4ee5c17593c2510f73f27a6b1d7c85739091e13deae151cbd4801b6c80"
     },
     "STATUS.md": {
-      "bytes": 15439,
-      "sha256": "8bf6b53674aadef17425b55ebdc5136e0c61a13d78dbe415864491e45a7ad54f"
+      "bytes": 16374,
+      "sha256": "0ebab8948e91b39e24f3d42bd5c741a7caff00594ff120d0bce6f9ef9d8a7fe2"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -203,8 +203,8 @@
       "sha256": "59dc7111919cdd2d69e341c9bd59db6aa6e4d08d534e71681acb08449ac29704"
     },
     "docs/convex-pure-island-classification.md": {
-      "bytes": 16762,
-      "sha256": "be2c7fa87d431e4a999d6f5b333f8a05010722f4af1cd08bc1de4816796c8b1d"
+      "bytes": 17205,
+      "sha256": "7e3dbd1c155ad60757022d1f50030561fb31bfccfff0e54a02a6652e7be091a9"
     },
     "docs/eventual-rational-families.md": {
       "bytes": 14148,
@@ -281,6 +281,10 @@
     "docs/n21-global-reduction.md": {
       "bytes": 9360,
       "sha256": "cef42abd205224ee297cf178ccd10dbb42ab3329dc9644a67bdd846127815aa4"
+    },
+    "docs/nonconvex-pure-island-reduction.md": {
+      "bytes": 12806,
+      "sha256": "e8d3237741d7e4da6e33b1d9cfddcc2b7ba8ace6a9988285215eec0147d6c193"
     },
     "docs/open-frontier.md": {
       "bytes": 7654,

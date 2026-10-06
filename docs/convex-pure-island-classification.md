@@ -2,6 +2,13 @@
 
 5 October 2026. Denis Paliy, research with ChatGPT assistance.
 
+**6 October continuation:** [phase decomposition beyond convexity](nonconvex-pure-island-reduction.md)
+proves `2c²` count divisibility even for pure regions with holes. It also
+identifies a limit of the present replacement move: its minimum size is
+`2abc²`, larger than every target in the remaining small equilateral interval.
+The convex theorem below is unchanged; a general nonconvex replacement is
+not established by that continuation.
+
 This note gives a complete criterion for **convex pure all-long-edge
 islands** of primitive integral 120-degree tiles. The necessity and
 construction were checked separately and then audited together. This is
