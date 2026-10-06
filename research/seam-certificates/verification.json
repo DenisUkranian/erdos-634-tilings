@@ -1,0 +1,36 @@
+{
+  "N": 322,
+  "all_atom_lengths_integer": true,
+  "all_internal_atom_lengths_recovered_by_integer_leaf_elimination": true,
+  "atomic_edges": 516,
+  "boundary_atoms": 42,
+  "boundary_vertices_including_three_corners": 42,
+  "certificate": "data/tiling-322.json",
+  "certificate_sha256": "4b18e031bfa3e3df62ebe71a4a9f90eb83d0843e39c856b42fd74bb40f53c3bc",
+  "complete_abstract_disk_certificate_verifier": false,
+  "face_edge_incidences": 990,
+  "full_Erdos634_solved": false,
+  "geometric_nonoverlap_not_reproved_by_this_script": true,
+  "interior_T_junctions": 24,
+  "interior_atoms": 474,
+  "interior_vertices_without_flat_tile": 129,
+  "length_histogram": {
+    "1": 2,
+    "2": 2,
+    "3": 12,
+    "4": 2,
+    "5": 167,
+    "6": 161,
+    "9": 170
+  },
+  "original_tile_sides": 966,
+  "scope": "finite seam replay of the retained N=322 certificate",
+  "side_contact_component_sizes": {
+    "2": 444,
+    "5": 5,
+    "11": 1
+  },
+  "side_contact_tree_components": 450,
+  "status": "PASS",
+  "vertices": 195
+}

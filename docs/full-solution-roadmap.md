@@ -137,3 +137,47 @@ simply discard F3 on the ground that other branches always cover its counts.
 This does not prove that a particular small F3 coefficient is unrealizable.
 The remaining general tasks include the surviving arithmetic classes and
 the exact geometric behavior below the established constructive tails.
+
+## 6 October: unrestricted support needs infinitely many fixed witnesses
+
+The [class-38 theorem](infinite-minimal-multipliers.md) gives actual odd
+admissible multipliers with pairwise gcd 3, although neither multiplier
+1 nor 3 is admissible in that class. Consequently the class has infinitely
+many minimal admissible multipliers under divisibility. Even finitely many
+fixed primitive tiles, with all their residual scales allowed, cannot cover
+its odd sector. This refutes a fixed finite witness list across all prime
+supports. It does not refute the [fixed-support theorem](fixed-prime-support.md),
+an input-dependent finite coefficient test, or a finite parameterized or
+recursive construction rule.
+
+The [seam certificate theorem](exact-seam-certificates.md) makes the remaining
+geometry discrete. A true integer-sided tiling in a convex triangle has
+integer atomic seams; each original-side contact component is a tree.
+Leaf elimination determines all atom lengths. A compatible oriented disk
+with the exact angle sums and triangular boundary is sufficient, by flat
+development and degree one. The number of disk incidences is at most 4N-1,
+but is unbounded as N varies. Local tree balances do not by themselves
+ensure that the three sides of every tile fit into one global disk.
+
+There is also a concrete limit to increasing the residual multiplier by
+changing the tile. For N=990 and N=4830, the [F3 isolation test](f3-global-overlap.md)
+applies: both counts are 14 modulo 16 and have an odd valuation at 5.
+For 4830, squarefreeness forces residual scale one. Writing
+U=a+2b, V=a+b gives UV=1610 and V<U<2V; the sole factor pair is (46,35),
+so the sole tile is (24,11,31). For 990, the possible residual scales are
+1 and 3; scale 3 would require the coefficient 110, impossible for F3.
+At scale one, UV=330 has the sole admissible factor pair (22,15), giving
+(8,7,13). These facts do **not** exclude either count; they show that
+coefficient replacement cannot remove their primitive geometric question.
+
+For odd m in the entire class 110m², the same isolation test forces F3.
+If 3 does not divide m, its coefficient cannot exist. If 3 divides m and
+m>=9, the fixed tile (8,7,13) works: its coefficient is 990 and its residual
+scale m/3 is at least 3, covered by the prior balanced construction for
+all scales at least 2. Thus the odd sector of this class reduces to the
+single unresolved count N=990. This is a reduction, not a decision of 990.
+
+The full problem is still unsolved here. The attempted pure-island size
+bound, the diagnostic corner-quadrilateral search, and local transport
+lemmas produced no general construction or impossibility theorem for this
+residual geometry; they are not used as negative tiling certificates.

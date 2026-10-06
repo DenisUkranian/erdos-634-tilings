@@ -121,6 +121,15 @@ def main():
             raise ValueError('Unexpected local-descent scope/report')
         reports['local_descent']['report']=ld
         print('LOCAL_DESCENT_ODD_MULTIPLIER_CHECKS=PASS',flush=True)
+        for key,package,command in [
+                ('infinite_minimal_orbit','infinite-minimal','verify_orbit.py'),
+                ('seam_certificates','seam-certificates','verify_seams.py')]:
+            reports[key]=run([command],work/'research'/package)
+            pr=json.loads(reports[key]['stdout'])
+            if pr.get('status')!='PASS' or pr.get('full_Erdos634_solved') is not False:
+                raise ValueError(f'Unexpected {package} scope/report')
+            reports[key]['report']=pr
+            print(f'{key.upper()}_FINITE_CHECKS=PASS',flush=True)
     result={'status':'ALL_FINITE_SUITES_PASS','date':datetime.now(timezone.utc).date().isoformat(),'python':sys.version,'seconds':round(time.monotonic()-started,3),'suites':reports,'full_Erdos634_solved':False,'prime_case_formally_verified':False,'human_and_published_theorems_formally_verified':False,'external_peer_review':False,'verification_boundary':'All packaged finite checks, syntax, integrity and local-link targets. Not a proof-assistant verification or independent human referee report.'}
     args.output.parent.mkdir(parents=True,exist_ok=True);args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('ALL_PUBLISHED_FINITE_SUITES=PASS',flush=True)

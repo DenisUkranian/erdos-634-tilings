@@ -1,0 +1,151 @@
+{
+  "alpha_residue_implication_mod_16": "PASS",
+  "arithmetic": "Python standard library integers and fractions.Fraction",
+  "bad_prime_multiplier_valuations": [
+    {
+      "n": 1,
+      "v19": 0,
+      "v2": 0,
+      "v3": 1
+    },
+    {
+      "n": 2,
+      "v19": 0,
+      "v2": 1,
+      "v3": 1
+    },
+    {
+      "n": 3,
+      "v19": 0,
+      "v2": 0,
+      "v3": 2
+    },
+    {
+      "n": 4,
+      "v19": 0,
+      "v2": 2,
+      "v3": 1
+    },
+    {
+      "n": 5,
+      "v19": 0,
+      "v2": 0,
+      "v3": 1
+    },
+    {
+      "n": 6,
+      "v19": 0,
+      "v2": 1,
+      "v3": 2
+    },
+    {
+      "n": 7,
+      "v19": 0,
+      "v2": 0,
+      "v3": 1
+    },
+    {
+      "n": 8,
+      "v19": 0,
+      "v2": 3,
+      "v3": 1
+    },
+    {
+      "n": 9,
+      "v19": 0,
+      "v2": 0,
+      "v3": 3
+    },
+    {
+      "n": 10,
+      "v19": 0,
+      "v2": 1,
+      "v3": 1
+    },
+    {
+      "n": 11,
+      "v19": 0,
+      "v2": 0,
+      "v3": 1
+    },
+    {
+      "n": 12,
+      "v19": 0,
+      "v2": 2,
+      "v3": 2
+    },
+    {
+      "n": 13,
+      "v19": 0,
+      "v2": 0,
+      "v3": 1
+    },
+    {
+      "n": 14,
+      "v19": 0,
+      "v2": 1,
+      "v3": 1
+    },
+    {
+      "n": 15,
+      "v19": 0,
+      "v2": 0,
+      "v3": 2
+    }
+  ],
+  "base_formal_multiplier": 3,
+  "dual_compositions_checked": 30,
+  "dual_orbit_equalities_checked": 15,
+  "exact_sample_data_sha256": "10dea3a4e479930580cf5354187d60aa5b30fa6dc5eed462b32d47b36455713d",
+  "factor_pairs_114": [
+    [
+      114,
+      1
+    ],
+    [
+      57,
+      2
+    ],
+    [
+      38,
+      3
+    ],
+    [
+      19,
+      6
+    ]
+  ],
+  "format": "ERDOS634_CLASS38_FINITE_ORBIT_AUDIT_V1",
+  "full_Erdos634_solved": false,
+  "good_prime_unit_implications_checked": 139,
+  "local_neighborhood_implications_checked": {
+    "19": 1,
+    "2": 8,
+    "3": 10
+  },
+  "lutz_nagell_discriminant_arithmetic": "97 divides ordinate; 97 does not divide discriminant",
+  "maximum_sample_multiplier_decimal_digits": 448,
+  "negative_F3_multiplier_checks": {
+    "1": "no candidate",
+    "3": "no candidate"
+  },
+  "positive_primitive_F3_indices": [
+    7,
+    9,
+    10,
+    12
+  ],
+  "proof": "../../docs/infinite-minimal-multipliers.md",
+  "quadratic_nonresidues_mod_19": [
+    2,
+    3
+  ],
+  "sample_indices": {
+    "count": 15,
+    "first": 1,
+    "last": 15
+  },
+  "scope": "Finite arithmetic audit only; not an infinitude proof, geometric certificate, or full solution of problem 634.",
+  "square_lifts_and_normalizations_checked": 15,
+  "status": "PASS"
+}

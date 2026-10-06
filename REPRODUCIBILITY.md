@@ -16,6 +16,8 @@ The coordinator checks the file manifest, syntax, local links and scope flags, t
 
 | Command, from repository root unless noted | What is checked |
 |---|---|
+| `python research/infinite-minimal/verify_orbit.py` | Exact finite orbit, two curve group laws, dual square lift, primitive coefficient normalization, local valuations and the small class-38 exclusions. Infinitely many actual minimal multipliers follow from the written local-group, real-density and prior constructive-tail proof, not from this finite sample. |
+| `python research/seam-certificates/verify_seams.py` | Original-side contact trees and exact integer atom reconstruction in the retained 322-tiling. This checks the certificate method on one example; it does not enumerate all disks or settle an unresolved count. |
 | `python research/local-descent/run_checks.py` | All signed even descent covers for each certificate; both projective charts in modular obstructions; true odd-F3 and even/positive-rank controls; family input and scope restrictions. The universal prime-family deductions require the written proof. Surviving local covers are never a positive global decision. |
 | `python research/elliptic-sectors/run_checks.py` and `python research/elliptic-sectors/check_alpha_maps.py` | Complete reduced-form comparisons, exact elliptic maps, primitive F3 round trips, QP allocation versus forward enumeration, alpha candidates including factors of 3, scope controls, and universal alpha rational-function identities. No general rank algorithm or Mordell–Weil basis computation. |
 | `python research/composite-support/run_checks.py` | Nine quartic identities/discriminants; allocation versus independent forward coefficient enumeration through 5000; scoped general-tool statuses; exact class-22 interfaces; rank-zero central-value certificate; fresh replay of the old 88-tile certificate. It does not execute a general S-unit solver. |
@@ -49,6 +51,14 @@ The historical false rule that marked an interior tile merely touching the exter
 `verification/manifest.json` binds source, data and published document bytes. `scripts/build_manifest.py` deliberately rebuilds this ledger for a new publication; it is **not** a mathematical test. Do not regenerate hashes merely to make a failed integrity check disappear. `verification/replay.json` is a legacy mutable output excluded from that manifest; the coordinator produces fresh reports under `audit-output/` instead.
 
 Each imported research package retains a `SHA256SUMS.txt`. For this publication the package manifests are synchronized with the explicitly documented editorial changes. Original ZIP digests are in [import-provenance.json](verification/import-provenance.json). The expanded gzip coordinate file is bound both as a file and by its uncompressed stream digest, since gzip timestamps alone can change compressed bytes.
+
+The 6 October seam-certificate continuation corrects one explanatory sentence
+in `research/uniform-sectors/PROOF.md`: atomic seams of the full convex
+integer-sided tiling are integral, although additive cancellation does not
+require that fact. Its package hash is updated for this explicit correction;
+the sector theorem and its algorithms are unchanged. The two new finite
+audits above are included in the coordinator; their infinite mathematical
+claims still depend on the separately stated written proofs.
 
 ## Optional rebuild of publication outputs
 

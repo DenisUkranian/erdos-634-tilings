@@ -218,7 +218,7 @@ All scales are positive integers. These tables comprise thirteen nonclassical br
 
 An exterior side of a convex target is a chain of whole tile edges. With primitive integer tile sides, its length is an integer. Primitive integral target side proportions therefore give an integral similarity scale by Bézout.
 
-Where exterior integrality and area alone are weaker, the two signed-direction characters provide integer values \(U,V\) satisfying \(U\equiv V\equiv N\pmod2\). Their half-sums and half-differences are integers. Interior edge contributions cancel after subdivision at all incident vertices; the lengths of those subsegments need not be integers.
+Where exterior integrality and area alone are weaker, the two signed-direction characters provide integer values \(U,V\) satisfying \(U\equiv V\equiv N\pmod2\). Their half-sums and half-differences are integers. Interior edge contributions cancel after subdivision at all incident vertices; this additive cancellation does not require integer subsegment lengths. In the full convex tiling with integer tile sides, the atomic subsegments do in fact have integer lengths, as proved in [the exact seam certificate note](../../docs/exact-seam-certificates.md). That conclusion cannot be inferred merely from the geometry of a nonconvex subregion, where partially exposed sides may have different length phases.
 
 For example, in the double-angle case the target has sides \(\lambda(u,u,v)\), area equation \(N=\lambda^2/b\), and character values
 

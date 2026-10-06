@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 12211,
-      "sha256": "9b4e81032ecb75459a0c8b50c87db7610dcb0f932ba9be8737933a4cd81b22b1"
+      "bytes": 13193,
+      "sha256": "26fbddff365772d318b4413d8a015105201929a8d047ae84d3d1737ccc4ce682"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 11928,
-      "sha256": "d90ba81104c17583ca13348516cec636954bc9f30258c538f5eed99a1bcfb229"
+      "bytes": 13067,
+      "sha256": "5b42dec6537ab4d52d00fd93454dd3fb1d18648368cd0589a68c3ec21a9f03ad"
     },
     "STATUS.md": {
-      "bytes": 22093,
-      "sha256": "e263a8907f53076f7d18c4b9e95d58052a3aea9714e088c8727e9f9d237e8424"
+      "bytes": 23271,
+      "sha256": "55d66ad4b4386777d75c8020dace83aa4a7a513c4f2539f65ccb37d94bffc1bd"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -222,6 +222,10 @@
       "bytes": 14148,
       "sha256": "9e6e1a871c74ddf22b96acd00b046aa852b117f46d3bd2c017dfcbc032e46338"
     },
+    "docs/exact-seam-certificates.md": {
+      "bytes": 14962,
+      "sha256": "a465708f8c775a86c93707b48adddb72656499f60025607a6b8fd6a8de88345e"
+    },
     "docs/explicit-theta-seeds.md": {
       "bytes": 8870,
       "sha256": "2ea659d9cea8f7efbc2cca1454316688026dae1cf60a426e49e63bdf8f4d3244"
@@ -255,8 +259,8 @@
       "sha256": "353732e633dc0c352df9553dd82ea73378c7182a42d389981c545b6fb6a3849a"
     },
     "docs/full-solution-roadmap.md": {
-      "bytes": 15735,
-      "sha256": "55a2ad43bb5243b42e10e13e1e7a6c536a93ef1ad0e91a86b7d5814774fb2724"
+      "bytes": 18477,
+      "sha256": "c3c3791c30f9a9129b38523851e25b327d4d74c30c4a3f7e2a6b496f3bbca3fd"
     },
     "docs/general-spectra.md": {
       "bytes": 2157,
@@ -269,6 +273,10 @@
     "docs/height-cut-area.md": {
       "bytes": 6601,
       "sha256": "335cd494ebf5db62c0767134458bd98c7b36e2f093b36dde148f3d4ac8e015e5"
+    },
+    "docs/infinite-minimal-multipliers.md": {
+      "bytes": 12798,
+      "sha256": "4196c15a9423c912ab94a9aa51c22ffd1bf377ced41eee7301ea91177cfa122c"
     },
     "docs/isosceles-120-invariant.md": {
       "bytes": 3600,
@@ -842,6 +850,18 @@
       "bytes": 4086,
       "sha256": "5aa26dbb4c5938c6e12eec699cdcb945b0baeef35ab4abd024b73f26a16f92e6"
     },
+    "research/infinite-minimal/README.md": {
+      "bytes": 2153,
+      "sha256": "2753b8321565c356d05062ae474a92d1487015124345dbec15355adfd1219a48"
+    },
+    "research/infinite-minimal/verification.json": {
+      "bytes": 2522,
+      "sha256": "55bb340e465d94649574abc6c40709d7d4405b45249aa87a79cbb18a15f16b81"
+    },
+    "research/infinite-minimal/verify_orbit.py": {
+      "bytes": 10689,
+      "sha256": "33c482a017d0a942cfe3b6872437771fae290da03e707ecad76bfe619850aabd"
+    },
     "research/local-descent/README.md": {
       "bytes": 6278,
       "sha256": "4168381dbb70bcd6ee00a47181bb60229624016d30e15c44aa2c90870193e6ad"
@@ -1041,6 +1061,18 @@
     "research/pure-convex-islands/verify_stepped_seed.py": {
       "bytes": 4048,
       "sha256": "03a9e274a4ed25579898b495ef8070b7ea45cfc4b886c69b9415d79a5c825b5c"
+    },
+    "research/seam-certificates/README.md": {
+      "bytes": 2584,
+      "sha256": "2efa1b1c418bc84b502e67e8e5d73702dd6d5f02f1d14f83e6717b3ffb2d142d"
+    },
+    "research/seam-certificates/verification.json": {
+      "bytes": 1011,
+      "sha256": "979fb3593e1bbb0b768cf32da24c489af1f3c341ffe32a7e3559b825a777e52a"
+    },
+    "research/seam-certificates/verify_seams.py": {
+      "bytes": 7522,
+      "sha256": "854d18385ab772b7e1f9117cf31659d80f2fcb23415001785781e4b95d7bbdbc"
     },
     "research/square-class-saturation/PROOF.md": {
       "bytes": 24583,
@@ -1243,8 +1275,8 @@
       "sha256": "2685aaedf018e9a876485e6a24a4aaa232f884cce05d66416370846bfcf13855"
     },
     "research/uniform-sectors/PROOF.md": {
-      "bytes": 33826,
-      "sha256": "c63473b82bf0461824aea0c2477ca7343dfc81e25bfb11aaf80d7d689599e8f1"
+      "bytes": 34187,
+      "sha256": "bd14faf6bedc9c5a227cbe69f7bea9d0e6c441e9b77dd3830818a6b75b584252"
     },
     "research/uniform-sectors/README.md": {
       "bytes": 5843,
@@ -1256,7 +1288,7 @@
     },
     "research/uniform-sectors/SHA256SUMS.txt": {
       "bytes": 1437,
-      "sha256": "9a35b044956904eadce7eafa2868e2abe691c002d72593681333d9594d1efc45"
+      "sha256": "a1ae79caaeeea117741c2b8f65330f617fd153730ec7f38a027c1456c06ff8eb"
     },
     "research/uniform-sectors/arithmetic_sectors.py": {
       "bytes": 6717,
@@ -1475,8 +1507,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 9428,
-      "sha256": "31fdd83dc94ec9d6b740a7356384478e1c676e12d64acd658d102a5376ec5b5e"
+      "bytes": 10001,
+      "sha256": "2faa0f64ff38ffc0f3127bc49509aac56b2e9a66f56cd58e43e4cd8df5d4792c"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,
