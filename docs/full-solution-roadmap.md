@@ -16,6 +16,7 @@ A complete fixed-tile spectrum for every shape would be one sufficient route. It
 
 | Block | Available result | What it does not decide |
 |---|---|---|
+| Square-class tails and prime-power rays | [Finite arithmetic criteria](square-class-tails.md) decide whether all sufficiently large `d m²` occur, and whether any `d q^(2k)` occurs for fixed odd prime `q`. In the latter question only product coefficients with `q^r<2d` need checking. | A positive ray test leaves its small exponents undecided. Failure of cofinal saturation does not exclude arbitrary composite multipliers. |
 | Size of the global set of counts | [Quantitative density bound](quantitative-density.md): `S(X) ≪ X / ((log X)^δ (log log X)^(3/2))`, with `δ=0.086071…`; strengthens the integrated [1 October qualitative proof](long-seams-density.md). | A counting bound does not characterize membership of the remaining sparse set, and does not supply an effective exclusion percentage at a specified finite X. |
 | Classical/similar tilings | Published classifications and explicit constructions; among familiar admissible families are k², 2k², 3k², 6k² and sums of two squares. Exact source hypotheses remain necessary. | Not a proof that these are all global counts; 322 is an explicit nonclassical construction. |
 | Prime counts | [Candidate deduction](prime-case-dependencies.md) from the two scale-one geometric candidates and cited classifications. | Not externally accepted or formally checked here; in any event it concerns primes, not arbitrary composites. |
@@ -91,3 +92,21 @@ The same whole triangle has a separate low-level tiling, so global
 normalization is not contradicted. No completeness theorem for those
 broader moves is established. The independent Group-1 and all-count
 membership gaps also remain.
+
+## 6 October: exact decisions about infinite square-class families
+
+The [square-class criterion](square-class-tails.md) closes a different
+unbounded quantifier: whether every sufficiently large multiplier in a
+given square class is admissible. This now has a finite divisor-and-square
+test. The same argument decides whether an odd-prime-power ray contains
+any admissible count at all; a positive witness supplies an effective
+tail of exponents through existing constructions.
+
+The proof also identifies a concrete limit of trying to settle each
+square class by one universal cutoff. In class 22, all odd-prime-power
+multipliers are impossible, while the previously constructed composite
+multiplier and its odd multiples yield infinitely many actual tilings.
+Thus the remaining individual-membership problem includes square classes
+with infinitely many positive and negative odd multipliers. The new
+criterion correctly distinguishes these from classes with a cofinal
+positive tail; it does not decide their arbitrary composite multipliers.

@@ -93,6 +93,12 @@ def main():
         if er.get('result')!='PASS' or er.get('all_tiles')!=4822335:
             raise ValueError('Unexpected extreme-pure embedding report')
         print('TRIANGULAR_EXTREME_PURE_EMBEDDING=PASS',flush=True)
+        reports['square_class_tails']=run(['run_checks.py'],work/'research/square-class-tails')
+        tr=json.loads(reports['square_class_tails']['stdout'])
+        if tr.get('status')!='PASS' or tr.get('full_Erdos634_solved') is not False:
+            raise ValueError('Unexpected square-class tail/ray report')
+        reports['square_class_tails']['report']=tr
+        print('SQUARE_CLASS_TAIL_AND_RAY_CHECKS=PASS',flush=True)
     result={'status':'ALL_FINITE_SUITES_PASS','date':datetime.now(timezone.utc).date().isoformat(),'python':sys.version,'seconds':round(time.monotonic()-started,3),'suites':reports,'full_Erdos634_solved':False,'prime_case_formally_verified':False,'human_and_published_theorems_formally_verified':False,'external_peer_review':False,'verification_boundary':'All packaged finite checks, syntax, integrity and local-link targets. Not a proof-assistant verification or independent human referee report.'}
     args.output.parent.mkdir(parents=True,exist_ok=True);args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('ALL_PUBLISHED_FINITE_SUITES=PASS',flush=True)

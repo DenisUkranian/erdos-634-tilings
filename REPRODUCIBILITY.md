@@ -59,6 +59,13 @@ This rebuilds the N105 and spectra PDFs and regenerates the expanded coordinate 
 
 ## Mathematical boundary
 
+The [square-class tail/ray tool](research/square-class-tails/) implements
+the finite tests in [the written theorem](docs/square-class-tails.md).
+Its test suite compares inverse divisor formulas with a separate forward
+parameter enumeration and checks scope-sensitive outputs. The bounds
+reducing infinitely many exponents to finite coefficients are proved in
+the note; they are not inferred from the test range.
+
 The [quantitative density theorem](docs/quantitative-density.md) is a
 written universal argument, including its [long-seam geometric input](docs/long-seams-density.md).
 No finite checker is presented as proof of its asymptotic conclusion.

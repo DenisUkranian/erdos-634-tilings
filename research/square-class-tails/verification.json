@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "product_coefficients_compared": 5000,
+  "comparison": "CLI divisor inversion versus separate forward conic/Group1 generation",
+  "kernel22_prime_power_coefficients_checked": 17,
+  "kernel22_ray_implementation_primes": [
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47
+  ],
+  "invalid_inputs_rejected": 6,
+  "example_tail_status": {
+    "1": "COFINITE_TAIL",
+    "2": "COFINITE_TAIL",
+    "3": "COFINITE_TAIL",
+    "6": "COFINITE_TAIL",
+    "14": "COFINITE_TAIL",
+    "19": "COFINITE_TAIL",
+    "22": "NOT_COFINITE",
+    "70": "COFINITE_TAIL",
+    "122": "COFINITE_TAIL"
+  },
+  "scope": "Exact finite arithmetic/code checks. Infinite conclusions use the written proof and its stated geometric inputs.",
+  "full_Erdos634_solved": false,
+  "external_peer_review": false
+}

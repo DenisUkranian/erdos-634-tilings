@@ -1,5 +1,12 @@
 # Changelog
 
+## Finite square-class criteria and prime-power rays — 6 October 2026
+
+- Prove an exact finite arithmetic test for whether every sufficiently large multiplier in a square class is admissible. The older eventual fixed-tile constructions and W/beta norm tests supply sufficiency; the new bounded-coefficient argument supplies the global converse.
+- Extend the reduction to every odd-prime-power ray, including base 3 and bases dividing the squarefree kernel: primitive product coefficients `d q^(2r)` must satisfy `q^r<2d`. Decide emptiness of the whole ray and supply an effective exponent tail when it is nonempty.
+- Give a direct proof excluding all `22 q^(2k)` with odd prime `q`. Retain and explain the existing positive class-22 witness whose multiplier has three different prime factors.
+- Include a correctly scoped arithmetic CLI, independently enumerated finite checks, and explicit attribution of the prior Harries/Zhang positive transfers. No full all-integer classification, minimal cutoff, external acceptance, or first priority is claimed.
+
 ## Quantitative density and a triangular extreme-island obstruction — 6 October 2026
 
 - Integrate and independently re-audit the 1 October long-seam inequalities and qualitative `S(X)=o(X)` argument, retaining their original provenance. These are recovered project results, not newly dated discoveries.

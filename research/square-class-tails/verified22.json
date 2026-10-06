@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "scope": "nine necessary coefficient rows; not a tiling existence search",
+  "d": 22,
+  "s_max": 44,
+  "cases": [
+    {
+      "s": 1,
+      "prime_power": null,
+      "coefficient": 22,
+      "hits": []
+    },
+    {
+      "s": 3,
+      "prime_power": [
+        3,
+        1
+      ],
+      "coefficient": 198,
+      "hits": []
+    },
+    {
+      "s": 5,
+      "prime_power": [
+        5,
+        1
+      ],
+      "coefficient": 550,
+      "hits": []
+    },
+    {
+      "s": 7,
+      "prime_power": [
+        7,
+        1
+      ],
+      "coefficient": 1078,
+      "hits": []
+    },
+    {
+      "s": 9,
+      "prime_power": [
+        3,
+        2
+      ],
+      "coefficient": 1782,
+      "hits": []
+    },
+    {
+      "s": 11,
+      "prime_power": [
+        11,
+        1
+      ],
+      "coefficient": 2662,
+      "hits": []
+    },
+    {
+      "s": 13,
+      "prime_power": [
+        13,
+        1
+      ],
+      "coefficient": 3718,
+      "hits": []
+    },
+    {
+      "s": 17,
+      "prime_power": [
+        17,
+        1
+      ],
+      "coefficient": 6358,
+      "hits": []
+    },
+    {
+      "s": 19,
+      "prime_power": [
+        19,
+        1
+      ],
+      "coefficient": 7942,
+      "hits": []
+    },
+    {
+      "s": 23,
+      "prime_power": [
+        23,
+        1
+      ],
+      "coefficient": 11638,
+      "hits": []
+    },
+    {
+      "s": 25,
+      "prime_power": [
+        5,
+        2
+      ],
+      "coefficient": 13750,
+      "hits": []
+    },
+    {
+      "s": 27,
+      "prime_power": [
+        3,
+        3
+      ],
+      "coefficient": 16038,
+      "hits": []
+    },
+    {
+      "s": 29,
+      "prime_power": [
+        29,
+        1
+      ],
+      "coefficient": 18502,
+      "hits": []
+    },
+    {
+      "s": 31,
+      "prime_power": [
+        31,
+        1
+      ],
+      "coefficient": 21142,
+      "hits": []
+    },
+    {
+      "s": 37,
+      "prime_power": [
+        37,
+        1
+      ],
+      "coefficient": 30118,
+      "hits": []
+    },
+    {
+      "s": 41,
+      "prime_power": [
+        41,
+        1
+      ],
+      "coefficient": 36982,
+      "hits": []
+    },
+    {
+      "s": 43,
+      "prime_power": [
+        43,
+        1
+      ],
+      "coefficient": 40678,
+      "hits": []
+    }
+  ],
+  "independent_methods": [
+    "divisor inversion",
+    "complete conic parametrization and bounded Group1 parameter generation"
+  ],
+  "cross_comparison_coefficients": [
+    1,
+    5000
+  ],
+  "completeness_bounds": {
+    "group1": "v^3 <= coefficient limit",
+    "plus_norm": "k^3 <= 27 * coefficient limit",
+    "minus_norm": "reduce (x,y) to plus norm (x-y,y), apart from (1,1,1)"
+  },
+  "old_positive_witness": {
+    "u": 10132,
+    "v": 22779,
+    "Q": 935108258,
+    "P": 1453991099,
+    "m": 248599631,
+    "m_factorization": {
+      "7": 1,
+      "3089": 1,
+      "11497": 1
+    },
+    "N": 1359639083733395542,
+    "scope": "Arithmetic identity rechecked here; geometric construction was certified in the earlier uniform-sectors package."
+  }
+}
