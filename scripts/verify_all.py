@@ -123,7 +123,9 @@ def main():
         print('LOCAL_DESCENT_ODD_MULTIPLIER_CHECKS=PASS',flush=True)
         for key,package,command in [
                 ('infinite_minimal_orbit','infinite-minimal','verify_orbit.py'),
-                ('seam_certificates','seam-certificates','verify_seams.py')]:
+                ('seam_certificates','seam-certificates','verify_seams.py'),
+                ('abstract_disk_certificates','disk-certificates','test_disk.py'),
+                ('f3_vertex_defects','f3-vertex-defects','check_inventory.py')]:
             reports[key]=run([command],work/'research'/package)
             pr=json.loads(reports[key]['stdout'])
             if pr.get('status')!='PASS' or pr.get('full_Erdos634_solved') is not False:

@@ -19,8 +19,8 @@
       "sha256": "e794dba5fe4133c8918b5923f11966ffc4bb4d9841242bd4bc2ea2fa4ad7ecc4"
     },
     "CHANGELOG.md": {
-      "bytes": 17843,
-      "sha256": "bd20d6d4b3dae0fc5e662af1e713b5f5409ea661566d2b5a94172504a7515be1"
+      "bytes": 19287,
+      "sha256": "07f80baa6ef25571048358487ed3648a706dee932a47c62416156ba9f9164a1d"
     },
     "CITATION.cff": {
       "bytes": 1425,
@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 13193,
-      "sha256": "26fbddff365772d318b4413d8a015105201929a8d047ae84d3d1737ccc4ce682"
+      "bytes": 14174,
+      "sha256": "18bc800f0e77b2fe72aae38d9c06a6ba3d161c711d4c5031bd6cc7a9b9faa540"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 13067,
-      "sha256": "5b42dec6537ab4d52d00fd93454dd3fb1d18648368cd0589a68c3ec21a9f03ad"
+      "bytes": 14416,
+      "sha256": "556e819f2b53db25d8ab9779b8687b1c3db17f65e1b21cdf4b3a4032983bde05"
     },
     "STATUS.md": {
-      "bytes": 23271,
-      "sha256": "55d66ad4b4386777d75c8020dace83aa4a7a513c4f2539f65ccb37d94bffc1bd"
+      "bytes": 24575,
+      "sha256": "79795d098e04da9bbe8b10b1d603445598c545f9ca9f6dc6e6c42b4c031777b1"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -142,6 +142,10 @@
       "bytes": 8594,
       "sha256": "45336ea3f6e9a46d53c6200a6966565b54991bd0e8b5c71012fd7cd82caf861e"
     },
+    "docs/audits/disk-realization-2026-10-06.md": {
+      "bytes": 13781,
+      "sha256": "68f72ba37c93b9fde9738b8098886cd44d7a34bdb9927e315cb4fee70c74c3ae"
+    },
     "docs/audits/eventual-rational-families.md": {
       "bytes": 17042,
       "sha256": "d82d03c50c84dca2ac78d3a1a465db18f467d35f586cacbbe035adb935f56af3"
@@ -223,8 +227,8 @@
       "sha256": "9e6e1a871c74ddf22b96acd00b046aa852b117f46d3bd2c017dfcbc032e46338"
     },
     "docs/exact-seam-certificates.md": {
-      "bytes": 14962,
-      "sha256": "a465708f8c775a86c93707b48adddb72656499f60025607a6b8fd6a8de88345e"
+      "bytes": 16224,
+      "sha256": "1142a50aef5bd6439ab63f1ae66df279425435eac25d140afa248dd213c58e3e"
     },
     "docs/explicit-theta-seeds.md": {
       "bytes": 8870,
@@ -245,6 +249,10 @@
     "docs/f3-odd-multipliers.md": {
       "bytes": 12730,
       "sha256": "6470c3e34e163083c81a1ea16df606b56454e2a245a920c42959e09a834dfed2"
+    },
+    "docs/f3-vertex-defects.md": {
+      "bytes": 6371,
+      "sha256": "9028a6d0f2aaa7ed0d0069d71c2f16b542e83a2b98e6a5eecf2fd6556c5b3de9"
     },
     "docs/finite-schemes-attack.md": {
       "bytes": 8921,
@@ -365,6 +373,10 @@
     "docs/scale-spectra.md": {
       "bytes": 12162,
       "sha256": "338c1b886ce4a62a9960204053d8a70a2a03e0f4e0b50670f85d1a67b6ed11e0"
+    },
+    "docs/seam-caterpillars.md": {
+      "bytes": 10906,
+      "sha256": "fbc2c91a562bc3ba53557af98403cbdf67d0995c5464b5656d43fd5ae2244fee"
     },
     "docs/sources-and-provenance.md": {
       "bytes": 3110,
@@ -546,6 +558,38 @@
       "bytes": 5734,
       "sha256": "142e19c2c579ac0696f942c329615b4c4a3a8db5ab3296dd52f44253f6c2972e"
     },
+    "research/disk-certificates/README.md": {
+      "bytes": 3954,
+      "sha256": "ccaa542a1488ce4fbf05fdf7fb19b6d81d2c0096cd945d4f8d7327aaddeaa627"
+    },
+    "research/disk-certificates/SHA256SUMS.txt": {
+      "bytes": 563,
+      "sha256": "c258b67ae6cf98b986c18d74f0e386940e3366592e74b5cce47f0da41e8fee20"
+    },
+    "research/disk-certificates/disk-322.json": {
+      "bytes": 83183,
+      "sha256": "7a8e380fae977bb19b79d261008fd5041df44d3997fc43b41e0610d968767c1b"
+    },
+    "research/disk-certificates/export_322.py": {
+      "bytes": 4463,
+      "sha256": "873691c06154620af8045bdb0d45be2e3d925012041128d8f8c174b8a1f5917b"
+    },
+    "research/disk-certificates/test-report.json": {
+      "bytes": 3043,
+      "sha256": "1bfcd8018ed442a1b767e430c6791f097d4f121e894befbbe7b729ec3170be84"
+    },
+    "research/disk-certificates/test_disk.py": {
+      "bytes": 7627,
+      "sha256": "91bcfc021c67afc420db42bf679b2487e9e29c9f8bbb74ea5bc2696c4b41f26d"
+    },
+    "research/disk-certificates/verification.json": {
+      "bytes": 1199,
+      "sha256": "5f61aea7716c47fba0cc053f5b5433000741f695b74dbc09596816fca29cfc28"
+    },
+    "research/disk-certificates/verify_disk.py": {
+      "bytes": 18971,
+      "sha256": "8d61e5d87687b3255b9047f5f44d34860fbf39b256adb4cff80af317afac9cec"
+    },
     "research/elliptic-sectors/README.md": {
       "bytes": 3604,
       "sha256": "2046bbb3f12b675e4bccd044039693d364c8758fd176493aeaf885b9fcea1341"
@@ -617,6 +661,22 @@
     "research/extreme-pure-embedding/verify_embedding.py": {
       "bytes": 4165,
       "sha256": "3aa806d2c8004cbce236d1b3901680e182ede618c6ad7d3cd63e08d93f113491"
+    },
+    "research/f3-vertex-defects/README.md": {
+      "bytes": 1813,
+      "sha256": "c0864a7775cf23f58b490cd248cce4419855d23d3bfed8e60933b20169ac6f4b"
+    },
+    "research/f3-vertex-defects/SHA256SUMS.txt": {
+      "bytes": 251,
+      "sha256": "e21c94ae064649e006fecb89ee4680e12c156f49f168f6678e98ce3e2b664a95"
+    },
+    "research/f3-vertex-defects/check_inventory.py": {
+      "bytes": 4021,
+      "sha256": "0d2d419029b1ac383dfd296395be65aec5f5e53dbd2cace678b733279db023c6"
+    },
+    "research/f3-vertex-defects/verified_inventory.json": {
+      "bytes": 1009,
+      "sha256": "dac3099bb56577f0a30191c9c2431ca7a897ccf76a9e10cf6ce18061efc99b0e"
     },
     "research/general-spectra/ATTRIBUTION.md": {
       "bytes": 2494,
@@ -1507,8 +1567,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 10001,
-      "sha256": "2faa0f64ff38ffc0f3127bc49509aac56b2e9a66f56cd58e43e4cd8df5d4792c"
+      "bytes": 10164,
+      "sha256": "36bfeaeda15aad83a4eff46fbbdb5e13191d8cdef6a6c2cd6f974826ed548422"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

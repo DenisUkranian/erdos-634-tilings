@@ -1,0 +1,106 @@
+{
+  "cases": [
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "coordinate_payload_forbidden",
+      "reason": "certificate: expected exactly keys ['faces', 'schema', 'target_corners', 'target_side_lengths', 'tile_sides']"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "wrong_target_length",
+      "reason": "target side 0: developed length is incorrect"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "reversed_boundary_orientation",
+      "reason": "marked target corners have the wrong boundary order"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "flat_boundary_vertex_claimed_as_corner",
+      "reason": "target side 0: developed length is incorrect"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "one_face_reversed",
+      "reason": "atom (3, 5): interior incidences must have opposite orientations"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "inconsistent_side_balance",
+      "reason": "whole side lengths are inconsistent with leaf elimination"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "triple_edge_incidence",
+      "reason": "atom (3, 5): expected one or two incident faces"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "disconnected_component",
+      "reason": "face dual graph is disconnected"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "two_disks_pinched_at_one_vertex",
+      "reason": "face dual graph is disconnected"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "annulus_with_two_boundary_cycles",
+      "reason": "boundary must be exactly one simple cycle"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "cone_3pi_inconsistent_holonomy",
+      "reason": "vertex 4: inconsistent exact development (holonomy)"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "cone_4pi_trivial_holonomy_but_double_winding",
+      "reason": "target side 2: boundary is not straight and strictly forward"
+    },
+    {
+      "actual": "reject",
+      "expected": "reject",
+      "name": "missing_T_junction_incidence",
+      "reason": "boundary must be exactly one simple cycle"
+    },
+    {
+      "actual": "accept",
+      "expected": "accept",
+      "name": "single_345_triangle"
+    },
+    {
+      "actual": "accept",
+      "expected": "accept",
+      "name": "four_345_triangles"
+    },
+    {
+      "actual": "accept",
+      "expected": "accept",
+      "name": "sixteen_equilateral_triangles"
+    },
+    {
+      "actual": "accept",
+      "expected": "accept",
+      "name": "N322_with_24_T_junctions"
+    }
+  ],
+  "disk322_sha256": "7a8e380fae977bb19b79d261008fd5041df44d3997fc43b41e0610d968767c1b",
+  "full_Erdos634_solved": false,
+  "scope": "positive and adversarial abstract disk verifier checks",
+  "status": "PASS"
+}

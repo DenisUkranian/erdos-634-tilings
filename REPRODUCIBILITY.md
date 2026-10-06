@@ -60,6 +60,37 @@ the sector theorem and its algorithms are unchanged. The two new finite
 audits above are included in the coordinator; their infinite mathematical
 claims still depend on the separately stated written proofs.
 
+## Abstract disk certificates (6 October 2026)
+
+The [new checker](research/disk-certificates/) reconstructs the retained
+322-face tiling from incidence alone and certifies nonoverlap using the
+[written degree-one argument](docs/audits/disk-realization-2026-10-06.md).
+Unlike the earlier seam replay, it requires no coordinate certificate as
+an input or geometric validation dependency. Its independent exporter
+provides provenance for the retained combinatorial example.
+
+```sh
+python research/disk-certificates/verify_disk.py research/disk-certificates/disk-322.json
+python research/disk-certificates/test_disk.py
+```
+
+The latter is integrated in the full coordinator. Four positive and thirteen
+adversarial inputs are retained, including nontrivial holonomy and a 4-pi
+fan whose holonomy is trivial but whose boundary is invalid. This addition
+does not claim a fresh replay of every older research suite, a new tiling
+count, or a general classification.
+
+The independent [F3 vertex-inventory replay](research/f3-vertex-defects/)
+checks the new written defect identities on two prior constructions:
+
+```sh
+python research/f3-vertex-defects/check_inventory.py
+```
+
+Its geometric inputs are the previous free-parameter construction and the
+F2-to-F3 attachment; it does not independently recheck every tile pair or
+decide either scale-one candidate.
+
 ## Optional rebuild of publication outputs
 
 The two new PDFs have editable sources. PDF rebuilding additionally needs Pandoc, XeLaTeX, pdfLaTeX, standard TeX packages and DejaVu fonts. No font files are distributed. From repository root:

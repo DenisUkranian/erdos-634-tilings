@@ -1,5 +1,14 @@
 # Changelog
 
+## Abstract disk verification and exact local seam structure — 6 October 2026
+
+- Derive exact F3 vertex-defect identities and an injective mismatch-to-T-junction argument: every F3 tiling has a mixed T-junction. Consecutive short sides force a unit seam atom. Both 990 and 4830 remain undecided.
+- Implement the full supplied-disk certificate checker, whose input consists only of whole tile side lengths and ordered vertex incidences. Recover atomic lengths by integer leaf elimination and certify nonoverlap by exact rational development and a degree-one boundary argument.
+- Independently audit the disk-sufficiency proof already present in `docs/exact-seam-certificates.md`; do not present that existing theorem as a newly closed gap. Strengthen its operational regularity checklist to all atomic face vertices.
+- Prove that every contact tree is a caterpillar, and prove the converse for isolated seams with positive balances and freely chosen contact order. Give a balanced positive integer tree using the actual tile `(5,6,9)` that fails this stronger condition.
+- Describe all individual seams for a fixed tile by a finite signed-offset automaton, including arbitrarily long components. This does not supply a global tiling grammar.
+- Retain a coordinate-free 322-face certificate, positive and adversarial checks, including trivial holonomy with a forbidden 4-pi winding. Full Erdős 634 and small F3 multipliers remain unresolved.
+
 ## Local descent and the unavoidable F3 branch — 6 October 2026
 
 - Exclude every odd multiplier in square classes `6R`, for squarefree products `R` of a positive even number of primes congruent to 7 modulo 24. The proof covers unbounded prime support and all classified branches.

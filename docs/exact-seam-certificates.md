@@ -117,6 +117,11 @@ a cycle, a failed alternating balance, or a nonpositive cut length is
 impossible. It is not a universal impossibility result for any tile count,
 since a different disk/contact pattern may exist.
 
+The stronger [caterpillar theorem](seam-caterpillars.md) shows that every
+nontrivial component is a tree whose nonleaf vertices form a path. Together
+with positive length balances this characterizes an isolated seam when its
+contact ordering may be chosen. It does not by itself characterize a disk.
+
 ## 3. Linear-size combinatorial bound
 
 Discard artificially inserted vertices which are not vertices of any tile.
@@ -167,7 +172,8 @@ Require the following finite checks.
 
 * The quotient is connected and is genuinely an oriented topological disk:
   vertex links are circles internally and intervals on the boundary; one boundary cycle;
-  Euler characteristic 1; no collapsed/identified corners within one face.
+  Euler characteristic 1; all atomic vertices around each closed face are
+  distinct, not merely its three original corners.
   Every vertex must be a true corner of at least one incident face, not
   merely an artificial flat subdivision mark. Otherwise a redundant mark
   can slide along an edge, and neither atom integrality nor uniqueness is
@@ -258,6 +264,22 @@ solely from whole side lengths by leaf elimination. The retained
 * 516 atomic edges and 990 face-edge incidences;
 * integer atom lengths in `{1,2,3,4,5,6,9}`;
 * every recovered length agrees with the exact coordinates.
+
+## 7. Implemented abstract-disk verifier
+
+The subsequent [disk-certificate package](../research/disk-certificates/)
+implements the full check from coordinate-free incidence data. Its input
+contains neither coordinates nor atomic lengths. It reconstructs integer
+atoms, checks the disk topology and caterpillar contacts, develops every face
+using exact rational arithmetic, and checks that all vertex images agree and
+the boundary traverses one triangle strictly forward. The
+[independent proof audit](audits/disk-realization-2026-10-06.md) explains why
+degree one then certifies nonoverlap without evaluating angles. The local
+angle criterion above remains valid; direct development is an alternative.
+
+The retained 322-face disk and adversarial examples, including a 4-pi cone
+with trivial holonomy, are checked by that package. A failure rejects only
+the supplied scheme. No search for a new N is performed.
 
 This finite replay does not implement the general abstract-disk certificate
 checker described in Section 4. It also does not independently reprove the

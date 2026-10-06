@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "full_Erdos634_solved": false,
+  "scope": "Exact local inventory replay of prior constructive F3 examples; not a tiling search or independent nonoverlap check.",
+  "fixtures": [
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "m": 2,
+      "N": 1056,
+      "full": {
+        "x": 1,
+        "y": 451,
+        "z": 0,
+        "w": 0
+      },
+      "T": {
+        "p": 84,
+        "q": 0
+      },
+      "boundary": {
+        "r": 67,
+        "s": 0
+      },
+      "x1": 1,
+      "x3": 0,
+      "forced_distinct_T": 1,
+      "unit_atom_incidences": 44
+    },
+    {
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "m": 2,
+      "N": 3960,
+      "full": {
+        "x": 1,
+        "y": 1825,
+        "z": 0,
+        "w": 0
+      },
+      "T": {
+        "p": 167,
+        "q": 0
+      },
+      "boundary": {
+        "r": 140,
+        "s": 0
+      },
+      "x1": 1,
+      "x3": 0,
+      "forced_distinct_T": 1,
+      "unit_atom_incidences": 40
+    }
+  ]
+}
