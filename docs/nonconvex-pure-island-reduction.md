@@ -5,8 +5,10 @@
 This note extends a necessary restriction to **all finite pure all-long-edge
 regions**, allowing holes, nonconvexity, and vertex contacts. It also proves
 a dissection lemma for polygonal disks and records a quantitative limit of
-the earlier convex replacement theorem. General nonconvex chirality exchange
-and Erdős problem 634 remain unresolved. The proofs were checked in separate
+the earlier convex replacement theorem. A later 6 October continuation
+[refutes general nonconvex chirality exchange](nonconvex-chirality-counterexample.md)
+with an explicit matched disk; Theorems A--C below remain valid. Erdős
+problem 634 remains unresolved in this work. The proofs were checked in separate
 internal mathematical passes; external review or priority is not claimed.
 
 ## 1. Setting and results
@@ -53,7 +55,8 @@ Convexity of the resulting pieces is not asserted.
 
 Thus opposite-state replacement for simple pure disks reduces to its
 nonconvex, fully matched lattice subclass. This is a reduction, not a
-proof that the replacement exists.
+proof that the replacement exists. The later counterexample shows that
+some disks in this reduced subclass have no opposite-state filling.
 
 ## 2. Short contacts preserve the lattice phase
 
@@ -252,7 +255,8 @@ out high directions, or attack the small-scale existence question directly.
 
 Theorems A--C remove incompatible lattice phases as an independent
 obstacle, and (1) applies even with holes. They do not make the resulting
-pieces convex or supply opposite-state fillings. Neither $2abc^2$ as a
+pieces convex or supply opposite-state fillings; such fillings are now
+[known to fail in this work](nonconvex-chirality-counterexample.md). Neither $2abc^2$ as a
 lower bound for arbitrary nonconvex islands nor a convex inherited
 dissection has been proved here. Mixed extreme components and the separate
 Group-1 angle family also remain outside the present replacement results.

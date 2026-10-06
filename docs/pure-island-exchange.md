@@ -1,5 +1,11 @@
 # Pure inward islands: chirality duality and the deformation obstruction
 
+**6 October update:** the general nonconvex exchange question posed below
+is now [refuted by an explicit pure disk](nonconvex-chirality-counterexample.md).
+It has 1862 unit `(3,5,7)` tiles and forces the impossible opposite
+population `(930,-30,962)`. The historical obstructions below remain valid;
+the universal pure-switch strategy is closed negatively.
+
 **5 October update:** the convex pure case is now resolved by the
 [necessary-and-sufficient classification and explicit same-polygon exchange](convex-pure-island-classification.md).
 The historical obstructions below remain valid: the new construction changes

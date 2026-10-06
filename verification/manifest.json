@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 7867,
-      "sha256": "8a93a21a38dc92a733ccf1a0186d8bc0b4f743f7a30fe1288f38ea09e0b4b543"
+      "bytes": 8330,
+      "sha256": "77416089dd3ea08bc21fd70bddb1009a488cd2bbb9543372077d7f85423980ff"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 9233,
       "sha256": "aee97e4ee5c17593c2510f73f27a6b1d7c85739091e13deae151cbd4801b6c80"
     },
     "STATUS.md": {
-      "bytes": 16374,
-      "sha256": "0ebab8948e91b39e24f3d42bd5c741a7caff00594ff120d0bce6f9ef9d8a7fe2"
+      "bytes": 16880,
+      "sha256": "0ede3d7a5ef7944aabcd34e5c1b3a68ee3e407fcdbc288b2a580a0ecff0a2dd3"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -203,8 +203,8 @@
       "sha256": "59dc7111919cdd2d69e341c9bd59db6aa6e4d08d534e71681acb08449ac29704"
     },
     "docs/convex-pure-island-classification.md": {
-      "bytes": 17205,
-      "sha256": "7e3dbd1c155ad60757022d1f50030561fb31bfccfff0e54a02a6652e7be091a9"
+      "bytes": 17290,
+      "sha256": "343c4ec89db9baf3bbaa41f22c8f71437722b8d2416f7937dd797dadc48c03b1"
     },
     "docs/eventual-rational-families.md": {
       "bytes": 14148,
@@ -227,8 +227,8 @@
       "sha256": "af7c912f81c87fcabc6c80bd4392f54ed7cc3d0bae84d1e8d9ed4181e8c06b75"
     },
     "docs/full-solution-roadmap.md": {
-      "bytes": 9816,
-      "sha256": "225bc56cf31c06980d632ae5a1b61ad8c25a8b98685c7a6368c656f8563d3a6d"
+      "bytes": 10663,
+      "sha256": "ef9c8ac70f306405637f90549bacea9ddd9145211e73e1ae98fa9f988f2d11c4"
     },
     "docs/general-spectra.md": {
       "bytes": 2157,
@@ -282,9 +282,13 @@
       "bytes": 9360,
       "sha256": "cef42abd205224ee297cf178ccd10dbb42ab3329dc9644a67bdd846127815aa4"
     },
+    "docs/nonconvex-chirality-counterexample.md": {
+      "bytes": 9326,
+      "sha256": "53119befb4f05ef27beefab2f08b76f6894947ca024ff5e95999b33bc48c784b"
+    },
     "docs/nonconvex-pure-island-reduction.md": {
-      "bytes": 12806,
-      "sha256": "e8d3237741d7e4da6e33b1d9cfddcc2b7ba8ace6a9988285215eec0147d6c193"
+      "bytes": 13156,
+      "sha256": "97be497cb93c0689e67612d26c91688811c4eea9893ef856f022a1fa9fa5e02d"
     },
     "docs/open-frontier.md": {
       "bytes": 7654,
@@ -303,8 +307,8 @@
       "sha256": "042e45182485b3d4ad7f8d947c22e7bd872a50389270c5bea303437412560e34"
     },
     "docs/pure-island-exchange.md": {
-      "bytes": 11806,
-      "sha256": "a7b29ebf4c94c2a2247faece115bb573335e436a72e8de276f811d7a8cf18816"
+      "bytes": 12164,
+      "sha256": "816e76e54bdfa0aad946e46f3e4d88ec4c62192f5ee915b11c218935927c903b"
     },
     "docs/right-tile-orientation-bound.md": {
       "bytes": 7672,
@@ -798,6 +802,30 @@
       "bytes": 3378,
       "sha256": "962c7f13ba37567686d7f2d69b7c28d8a3907e91ff1b60dfddd70b861c196b8a"
     },
+    "research/nonconvex-chirality/README.md": {
+      "bytes": 1918,
+      "sha256": "66f035ac1a21c785d22fba394a46623046199c4a60baebd074d802c93c206f11"
+    },
+    "research/nonconvex-chirality/check_boundary.py": {
+      "bytes": 2920,
+      "sha256": "636951ccc24c6b65c7679d67a0d44033fc9d8f6e555dd02f8aec20a2c69ce263"
+    },
+    "research/nonconvex-chirality/counterexample.svg": {
+      "bytes": 2350,
+      "sha256": "4fa1752a2875fa9fb118dad5480ac715f4cb2c5850db9be47775256bfeefe2d1"
+    },
+    "research/nonconvex-chirality/verified.json": {
+      "bytes": 935,
+      "sha256": "28ea3568c62ed2e7987ac131444417abb20dba5573d6208ee1b1d728a4eb5da7"
+    },
+    "research/nonconvex-chirality/verify_witness.py": {
+      "bytes": 6243,
+      "sha256": "7e15b12ba27d89bb530868e335e9eb26c22fe502140adee50277b86b19674056"
+    },
+    "research/nonconvex-chirality/witness_3_5_7.json": {
+      "bytes": 60261,
+      "sha256": "b986fc36729a1f98b8669384bd6bd56d38dba23865c3c71427279b940405a097"
+    },
     "research/pure-convex-islands/README.md": {
       "bytes": 1683,
       "sha256": "ae46997680bf118dffbdcd9753eaed27f7e6add3bdf1617a672e962f3e7b5b5e"
@@ -1235,8 +1263,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 6582,
-      "sha256": "54b3522e70b7098ee770f3c82b2e7b72aebcc1b246c70a79f8135b8d4a5044db"
+      "bytes": 6852,
+      "sha256": "5b62c97234715b0c69e685ef250b3a07423d19d0365e4b383bdc67798d6e9dd3"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

@@ -6,8 +6,9 @@
 proves `2c²` count divisibility even for pure regions with holes. It also
 identifies a limit of the present replacement move: its minimum size is
 `2abc²`, larger than every target in the remaining small equilateral interval.
-The convex theorem below is unchanged; a general nonconvex replacement is
-not established by that continuation.
+The convex theorem below is unchanged. A later 6 October
+[counterexample](nonconvex-chirality-counterexample.md) refutes general
+nonconvex replacement, even for matched disks in one lattice phase.
 
 This note gives a complete criterion for **convex pure all-long-edge
 islands** of primitive integral 120-degree tiles. The necessity and

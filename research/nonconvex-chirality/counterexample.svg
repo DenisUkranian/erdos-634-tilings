@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="595" viewBox="0 0 850 595" role="img" aria-label="Six triangular grids forming a nonconvex pure island">
+<rect width="850" height="595" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#182738">
+<text x="45" y="38" font-size="22" font-weight="700">A pure island with no opposite-state tiling</text>
+<text x="45" y="64" font-size="15">Tile (3, 5, 7) · six triangular grids · 1862 unit tiles</text>
+<polygon points="649.500,300.000 765.750,98.649 262.000,300.000" fill="#bad5f3" stroke="#657384" stroke-width="1.2"/>
+<text x="559.08" y="237.88" text-anchor="middle" font-size="17">625</text>
+<polygon points="649.500,300.000 719.250,420.811 765.750,98.649" fill="#ffe0a1" stroke="#657384" stroke-width="1.2"/>
+<text x="711.50" y="278.15" text-anchor="middle" font-size="17">225</text>
+<polygon points="649.500,300.000 565.800,300.000 719.250,420.811" fill="#bde4c8" stroke="#657384" stroke-width="1.2"/>
+<text x="644.85" y="345.27" text-anchor="middle" font-size="17">81</text>
+<polygon points="178.300,300.000 62.050,501.351 565.800,300.000" fill="#bad5f3" stroke="#657384" stroke-width="1.2"/>
+<text x="268.72" y="372.12" text-anchor="middle" font-size="17">625</text>
+<polygon points="178.300,300.000 108.550,179.189 62.050,501.351" fill="#ffe0a1" stroke="#657384" stroke-width="1.2"/>
+<text x="116.30" y="331.85" text-anchor="middle" font-size="17">225</text>
+<polygon points="178.300,300.000 262.000,300.000 108.550,179.189" fill="#bde4c8" stroke="#657384" stroke-width="1.2"/>
+<text x="182.95" y="264.73" text-anchor="middle" font-size="17">81</text>
+<polygon points="262.000,300.000 765.750,98.649 719.250,420.811 565.800,300.000 62.050,501.351 108.550,179.189" fill="none" stroke="#182738" stroke-width="2.7"/>
+<circle cx="262.00" cy="300.00" r="3.5" fill="#182738"/>
+<text x="262.00" y="287.00" text-anchor="middle" font-size="17" font-weight="700">O</text>
+<circle cx="565.80" cy="300.00" r="3.5" fill="#182738"/>
+<text x="565.80" y="325.00" text-anchor="middle" font-size="17" font-weight="700">C</text>
+<text x="45" y="540" font-size="15">Each region subdivides by an ordinary triangular grid; numbers give its tile count.</text>
+<text x="45" y="565" font-size="15">The opposite boundary invariant forces (930, −30, 962), so that state is impossible.</text>
+</g></svg>

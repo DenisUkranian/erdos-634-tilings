@@ -81,6 +81,10 @@ def main():
                             ('pure_stepped_seed','verify_stepped_seed.py')]:
             reports[key]=run([command],pw)
         print('CONVEX_PURE_ISLAND_EXACT_CHECKS=PASS',flush=True)
+        nw=work/'research/nonconvex-chirality'
+        reports['nonconvex_chirality_witness']=run(['verify_witness.py'],nw)
+        reports['nonconvex_chirality_boundary']=run(['check_boundary.py'],nw)
+        print('NONCONVEX_CHIRALITY_COUNTEREXAMPLE=PASS',flush=True)
     result={'status':'ALL_FINITE_SUITES_PASS','date':datetime.now(timezone.utc).date().isoformat(),'python':sys.version,'seconds':round(time.monotonic()-started,3),'suites':reports,'full_Erdos634_solved':False,'prime_case_formally_verified':False,'human_and_published_theorems_formally_verified':False,'external_peer_review':False,'verification_boundary':'All packaged finite checks, syntax, integrity and local-link targets. Not a proof-assistant verification or independent human referee report.'}
     args.output.parent.mkdir(parents=True,exist_ok=True);args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('ALL_PUBLISHED_FINITE_SUITES=PASS',flush=True)

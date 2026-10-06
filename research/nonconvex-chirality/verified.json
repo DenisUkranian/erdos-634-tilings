@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "full_Erdos634_solved": false,
+  "scope": "counterexample to universal nonconvex pure chirality exchange; not a solution of Erdos 634",
+  "tile_sides": [
+    3,
+    5,
+    7
+  ],
+  "unit_tiles": 1862,
+  "orientation_pair_populations": [
+    162,
+    1250,
+    450
+  ],
+  "forced_opposite_populations": [
+    930,
+    -30,
+    962
+  ],
+  "negative_opposite_population": -30,
+  "unit_pair_checks": 1732591,
+  "macro_pair_checks": 15,
+  "boundary_supporting_lines": 283,
+  "signed_coordinate_area_twice": -27930,
+  "checks": [
+    "six allowed pure rotations only",
+    "all unit tile areas exact",
+    "all units contained in their macro triangles",
+    "all macro interiors disjoint",
+    "all unit interiors pairwise disjoint",
+    "total polygon area equality",
+    "exact atomized boundary cancellation",
+    "all outer edges whole long-edge multiples",
+    "negative opposite-state boundary inventory"
+  ]
+}

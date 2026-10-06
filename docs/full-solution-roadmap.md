@@ -66,3 +66,18 @@ The [project source ledger](sources-and-provenance.md), [prime dependency ledger
 ## Integrated continuation: uniform reduction (30 September 2026)
 
 The [uniform-reduction note](uniform-reduction.md) and its complete source, test data, and separately checked positive witnesses are included in this publication. Its results are necessary spectra, two squarefree congruence obstructions, a finite candidate overlist, and formal boundary-signature witnesses. They are not a complete all-integer classification. The N=154 search is recorded as INCOMPLETE. The root verification coordinator now also replays all supplementary tests of this module in a disposable copy. Historical reports are retained with their original preparation scope.
+
+## 6 October: the universal pure-switch route is closed negatively
+
+The [nonconvex counterexample](nonconvex-chirality-counterexample.md) is a
+simple all-long-edge disk tiled by 1862 pure `(3,5,7)` triangles, with no
+opposite-state pure tiling. The boundary forces the impossible population
+`(930,-30,962)`. It already has one lattice phase and whole long contacts,
+so the [phase reduction](nonconvex-pure-island-reduction.md) cannot remove
+this obstruction. General pure-island exchange is therefore false and
+should no longer be pursued as a missing universal lemma.
+
+A replacement approach would need a newly justified restricted class
+of patches actually forced inside triangular targets, or a mixed/global
+move. Neither that extraction theorem nor the independent Group-1 and
+all-count classification gaps are settled by the counterexample.
