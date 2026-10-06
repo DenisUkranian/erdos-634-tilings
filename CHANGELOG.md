@@ -1,5 +1,17 @@
 # Changelog
 
+## Split-prime sectors and the quantitative geometric remainder — 6 October 2026
+
+- Extend the bounded-factor approach to a global theorem for even squarefree kernels and odd multipliers with a fixed joint split part. All eight surviving nonclassical rows admit one finite coefficient list, uniform over unrestricted complementary prime support in `3` and the classes `5,19 mod24`. Existing constructive thresholds give an exact global eventual criterion; the small remainder is not decided.
+- Prove a finite F3 coefficient test depending on the squarefree kernel and the multiplier's split-prime part. It is necessary at every scale and sufficient beyond an explicit cutoff, even when the complementary prime support is unrestricted. The positive geometry is the prior constructive tail, not a new dissection.
+- Extend the same bounded-factor argument to I120, F2 and F4, preserving their ordered-tile coefficients and supplying a common sufficient cutoff.
+- Deduce an all-branch exclusion of every odd `38m²` whose multiplier uses only `3` and primes congruent to `5,7,17,19 mod24`.
+- Bound all representations below the seven norm-family sufficient tails by `O(sqrt X)`, improving the previous `O(sqrt X log X)` arithmetic envelope for this remainder only.
+- Prove the two-long-edge boundary theorem for every primitive W and beta target. A complete opposite-side chain removes the initial `a<b` hypothesis; W scale one is excluded for both `u=1` and `u=v−1`, without excluding all surviving parameter pairs.
+- Correct attribution of the F3 vertex inventory, triple-obtuse identity and boundary c-edge lemma to Beeson–Zhang. The mismatch-injectivity consequences retain their separate proof.
+- Preserve the primitive F3 cases 990 and 4830 and the general small-scale classification as unresolved. Finite checks corroborate formulas; they do not prove the universal results or a full solution.
+- Record the exact sufficient 54-tile parallelogram route to 990 and its incomplete exploratory searches. Failure of that particular construction would not exclude 990 globally.
+
 ## Abstract disk verification and exact local seam structure — 6 October 2026
 
 - Derive exact F3 vertex-defect identities and an injective mismatch-to-T-junction argument: every F3 tiling has a mixed T-junction. Consecutive short sides force a unit seam atom. Both 990 and 4830 remain undecided.

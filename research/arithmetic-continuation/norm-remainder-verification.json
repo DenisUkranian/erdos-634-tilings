@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "full_solution": false,
+  "full_Erdos634_solved": false,
+  "scope": "Subthreshold candidates, not nonexistence decisions",
+  "parameter_regression": {
+    "side_bound": 200,
+    "ordered_triples": 68,
+    "passed": true
+  },
+  "counts": [
+    {
+      "X": 1000,
+      "primitive_plus_pairs": 18,
+      "subthreshold_representations": 162,
+      "distinct_subthreshold_counts": 76,
+      "representations_by_row": {
+        "E120": 44,
+        "E60": 52,
+        "F1": 26,
+        "F2": 8,
+        "F3": 3,
+        "F4": 10,
+        "I120": 19
+      }
+    },
+    {
+      "X": 10000,
+      "primitive_plus_pairs": 64,
+      "subthreshold_representations": 689,
+      "distinct_subthreshold_counts": 333,
+      "representations_by_row": {
+        "E120": 170,
+        "E60": 210,
+        "F1": 111,
+        "F2": 32,
+        "F3": 23,
+        "F4": 49,
+        "I120": 94
+      }
+    },
+    {
+      "X": 100000,
+      "primitive_plus_pairs": 222,
+      "subthreshold_representations": 2534,
+      "distinct_subthreshold_counts": 1265,
+      "representations_by_row": {
+        "E120": 640,
+        "E60": 766,
+        "F1": 409,
+        "F2": 116,
+        "F3": 77,
+        "F4": 176,
+        "I120": 350
+      }
+    },
+    {
+      "X": 1000000,
+      "primitive_plus_pairs": 714,
+      "subthreshold_representations": 8883,
+      "distinct_subthreshold_counts": 4583,
+      "representations_by_row": {
+        "E120": 2230,
+        "E60": 2660,
+        "F1": 1438,
+        "F2": 406,
+        "F3": 275,
+        "F4": 623,
+        "I120": 1251
+      }
+    },
+    {
+      "X": 10000000,
+      "primitive_plus_pairs": 2332,
+      "subthreshold_representations": 30238,
+      "distinct_subthreshold_counts": 15909,
+      "representations_by_row": {
+        "E120": 7710,
+        "E60": 9028,
+        "F1": 4903,
+        "F2": 1336,
+        "F3": 932,
+        "F4": 2041,
+        "I120": 4288
+      }
+    }
+  ]
+}

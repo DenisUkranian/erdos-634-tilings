@@ -125,7 +125,12 @@ def main():
                 ('infinite_minimal_orbit','infinite-minimal','verify_orbit.py'),
                 ('seam_certificates','seam-certificates','verify_seams.py'),
                 ('abstract_disk_certificates','disk-certificates','test_disk.py'),
-                ('f3_vertex_defects','f3-vertex-defects','check_inventory.py')]:
+                ('f3_vertex_defects','f3-vertex-defects','check_inventory.py'),
+                ('norm_geometric_remainder','arithmetic-continuation','check_norm_remainder.py'),
+                ('f3_split_part','arithmetic-continuation','check_split_part.py'),
+                ('four_norm_split_parts','arithmetic-continuation','check_other_split_branches.py'),
+                ('global_fixed_split_part','arithmetic-continuation','check_global_split_part.py'),
+                ('global_sector_cli','arithmetic-continuation','check_global_sector_cli.py')]:
             reports[key]=run([command],work/'research'/package)
             pr=json.loads(reports[key]['stdout'])
             if pr.get('status')!='PASS' or pr.get('full_Erdos634_solved') is not False:

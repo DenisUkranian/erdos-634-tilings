@@ -1,0 +1,65 @@
+{
+  "full_Erdos634_solved": false,
+  "invalid_scope_inputs_rejected": [
+    [
+      3,
+      1
+    ],
+    [
+      38,
+      2
+    ],
+    [
+      12,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      38,
+      0
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      38,
+      -1
+    ]
+  ],
+  "scope": "CLI status and scope controls, not a complete geometric solver",
+  "status": "PASS",
+  "valid_status_checks": [
+    {
+      "d": 38,
+      "m": 3,
+      "sector_cutoff_C": 1,
+      "status": "NO",
+      "witness_count": 0
+    },
+    {
+      "d": 110,
+      "m": 3,
+      "sector_cutoff_C": 15,
+      "status": "UNRESOLVED_SMALL_SCALE",
+      "witness_count": 1
+    },
+    {
+      "d": 110,
+      "m": 15,
+      "sector_cutoff_C": 15,
+      "status": "YES",
+      "witness_count": 1
+    },
+    {
+      "d": 2,
+      "m": 1,
+      "sector_cutoff_C": 1,
+      "status": "YES",
+      "witness_count": 1
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # What would constitute a complete solution of Erdős problem 634?
 
-**Assessment of this repository, updated 3 October 2026 — not a claim that every remaining subproblem is new or open in the literature.**
+**Assessment of this repository, updated 6 October 2026 — not a claim that every remaining subproblem is new or open in the literature.**
 
 ## The actual quantifiers
 
@@ -181,3 +181,56 @@ The full problem is still unsolved here. The attempted pure-island size
 bound, the diagnostic corner-quadrilateral search, and local transport
 lemmas produced no general construction or impossibility theorem for this
 residual geometry; they are not used as negative tiling certificates.
+
+## 6 October: a smaller remainder and sectors with unrestricted prime support
+
+The [global fixed-split-part theorem](../research/arithmetic-continuation/GLOBAL_FIXED_SPLIT_PART.md)
+now covers all branches for even squarefree d and odd m, after fixing
+the full part H of m supported at primes p>3 outside `5,19 mod24`.
+Both difference-of-squares rows and three norm rows are excluded by
+2-adic valuation. All eight surviving nonclassical rows have bounded
+primitive parameters depending only on `dH²`; classical counts are
+handled separately. The finite coefficient list and prior constructive
+tails give a computable cutoff C(d,H), above which global membership is
+exactly a finite divisibility test. This permits unrestricted prime
+support in the complement `{3} union {p=5,19 mod24}`.
+
+The theorem does not determine every member of the finite small remainder,
+cover even multipliers, or give a common finite list as H grows. These
+qualifications are essential to its compatibility with the class-38
+infinite antichain and the remaining geometric cases.
+
+The [norm-family counting argument](../research/arithmetic-continuation/NORM_GEOMETRIC_REMAINDER.md)
+shows that all representations below the seven established constructive
+tails number only `O(sqrt X)` up to X. This narrows the size of a set
+containing the unresolved norm-family cases, but leaves infinitely many
+cases and does not classify Group 1.
+
+The [F3 split-part theorem](../research/arithmetic-continuation/F3_SPLIT_PART_REDUCTION.md)
+handles another unbounded parameter. For `N=dm²`, fix the full part `h`
+of `m` on primes `1,11,13,23 mod24`. The possible primitive F3 tiles then
+belong to an explicit finite list independent of the number of remaining
+prime factors. Beyond `m>=8dh³` (or `6dh³` for `d>=2`), an exact finite
+divisibility test is sufficient as well as necessary. The theorem gives
+a global answer only when other branches are independently excluded.
+It excludes every odd class-38 multiplier with `h=1`, but has no uniform
+finite cutoff when `h` itself grows without bound.
+
+The [same factor argument](../research/arithmetic-continuation/OTHER_SPLIT_BRANCHES.md)
+also covers I120, F2 and F4, with common sufficient cutoff `15dh³`, or
+`12dh³` for `d>=2`. This extension does not classify the other norm rows
+or Group 1.
+
+The [Group-1 two-long-edge theorem](../research/group1-continuation/PROOF.md)
+also supplies a universal boundary obstruction for both side orders.
+It excludes W scale one when `u=1` or `u=v−1`, but does not resolve the
+remaining small scales or the all-branch membership problem. The exact disk verifier closes verification
+of a supplied complete gluing; it does not supply a structural description
+of which complete gluings exist. Full Erdős 634 remains unresolved here.
+
+The [54-tile core attempt](../research/f3-core-attempt/README.md) records
+a concrete sufficient route to 990: filling one 60-degree parallelogram
+with sides 56 and 27 by `(8,7,13)` tiles completes the established
+corner transfers. No such filling or exhaustive obstruction has been
+obtained. Its bounded searches are explicitly INCOMPLETE, and even an
+obstruction to that core would not exclude every possible 990-tiling.

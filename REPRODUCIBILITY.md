@@ -91,6 +91,38 @@ Its geometric inputs are the previous free-parameter construction and the
 F2-to-F3 attachment; it does not independently recheck every tile pair or
 decide either scale-one candidate.
 
+## Arithmetic continuation (6 October 2026)
+
+```sh
+python research/arithmetic-continuation/check_norm_remainder.py
+python research/arithmetic-continuation/check_split_part.py
+python research/arithmetic-continuation/check_other_split_branches.py
+python research/arithmetic-continuation/check_global_split_part.py
+python research/arithmetic-continuation/check_global_sector_cli.py
+```
+
+All five commands are read-only by default and accept `--report PATH` to write
+a fresh report. Optimized Python execution is explicitly rejected. The
+first compares the norm parametrization with an independent square search
+and counts subthreshold representations. The other commands compare restricted
+split-factor lists with direct coefficient enumeration, including all eight
+surviving rows in the global odd-multiplier theorem. None checks new
+tiling coordinates or turns an arithmetic candidate into a small-scale
+existence decision. Their universal conclusions require the written proofs
+and the previously established constructive tails. All five commands are
+included in the full coordinator; this update does not assert a fresh run
+of every older, unchanged suite.
+
+The last command checks the scoped membership tool's conclusive YES/NO,
+unresolved small-scale status and input rejection. To inspect N=990, run
+`python research/arithmetic-continuation/classify_global_sector.py 110 3`:
+it correctly reports UNRESOLVED_SMALL_SCALE. See the
+[package instructions](research/arithmetic-continuation/) for the exact
+domain and runtime limitations.
+
+The [source continuation audit](docs/audits/source-continuation-2026-10-06.md)
+also records the attribution correction for the F3 vertex-count argument.
+
 ## Optional rebuild of publication outputs
 
 The two new PDFs have editable sources. PDF rebuilding additionally needs Pandoc, XeLaTeX, pdfLaTeX, standard TeX packages and DejaVu fonts. No font files are distributed. From repository root:

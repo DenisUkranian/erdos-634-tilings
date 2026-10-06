@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Arithmetic checks only; no scale-one geometry claim",
+  "independent_comparisons": 10370,
+  "includes_odd_and_even_kernels_and_multipliers": true,
+  "even_multiplier_odd_coefficient_regression": [
+    [
+      8,
+      7,
+      13,
+      3
+    ]
+  ],
+  "even_coefficient_multiplier_regression": [
+    5,
+    3,
+    7,
+    2
+  ],
+  "class38_split_part_one": [],
+  "class110_split_part_one": [
+    [
+      8,
+      7,
+      13,
+      3
+    ]
+  ],
+  "full_Erdos634_solved": false,
+  "passed": true
+}

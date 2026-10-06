@@ -4,10 +4,12 @@
 
 This note supplies necessary geometric conditions for F3 certificates. It
 does not construct or exclude the scale-one candidates 990 and 4830.
-The boundary pigeonhole argument is the same elementary principle already
-used in [the theta obstruction](theta-squarefree-obstruction.md); its F3
-specialization and the vertex accounting below are recorded explicitly for
-use in the seam-certificate search. No external priority is asserted.
+The local vertex inventory and triple-obtuse accounting are prior results
+of [Beeson–Zhang, arXiv:2604.01314v1](https://arxiv.org/html/2604.01314v1),
+Table 2 and the proof of Lemma 3.5, Table 3. Their proof of Lemma 3.4 also
+contains the boundary c-edge argument. We specialize these results to F3
+and record the mismatch-injectivity and unit-atom consequences for use in
+the seam-certificate search. No external priority is asserted.
 
 Let the primitive integer tile have sides `a,b,c`, with
 
@@ -49,6 +51,11 @@ These lists follow from `i=j` and `i+2k=6` in the interior, or
 genuine T-junction, since two would exhaust the entire angle.
 
 ## A forced triple-obtuse vertex
+
+This is the accounting in Beeson–Zhang's proof of Lemma 3.5, Table 3:
+their `C−S=2S₂+1` becomes (1) under
+`C=x`, `S=z+q+s`, and `S₂=w`. We reproduce it to fix the notation used
+in the subsequent mismatch argument.
 
 Every tile contributes one α and one γ. Counting these angles gives
 
@@ -96,6 +103,9 @@ integer-sided irrational-angle setting is edge-to-edge. Equation (2)
 is necessary only; it supplies no contradiction to a general tiling.
 
 ## External c-edges and a forced unit atom
+
+The first conclusion below is already in Beeson–Zhang's proof of Lemma
+3.4. The count is written explicitly here for the F3 boundary.
 
 Every external side contains a whole c-edge. If that side is partitioned
 into `K` whole tile edges, each boundary a- or b-edge contributes one γ

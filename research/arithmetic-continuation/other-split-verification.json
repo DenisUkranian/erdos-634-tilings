@@ -1,0 +1,73 @@
+{
+  "comparisons_by_row": {
+    "F2": 6440,
+    "F3": 6440,
+    "F4": 6440,
+    "I120": 6440
+  },
+  "distinct_witnesses_by_row": {
+    "F2": 4,
+    "F3": 7,
+    "F4": 4,
+    "I120": 11
+  },
+  "full_Erdos634_solved": false,
+  "kernel_max": 150,
+  "multiplier_max": 80,
+  "ordered_even_multiplier_regressions": [
+    {
+      "d": 154,
+      "m": 2,
+      "row": "I120",
+      "witness": [
+        8,
+        7,
+        13,
+        1
+      ]
+    },
+    {
+      "d": 506,
+      "m": 2,
+      "row": "F2",
+      "witness": [
+        8,
+        7,
+        13,
+        1
+      ]
+    },
+    {
+      "d": 110,
+      "m": 6,
+      "row": "F3",
+      "witness": [
+        8,
+        7,
+        13,
+        3
+      ]
+    },
+    {
+      "d": 330,
+      "m": 2,
+      "row": "F4",
+      "witness": [
+        7,
+        8,
+        13,
+        1
+      ]
+    }
+  ],
+  "positive_comparisons_by_row": {
+    "F2": 77,
+    "F3": 139,
+    "F4": 84,
+    "I120": 330
+  },
+  "scope": "Arithmetic coefficient comparison; not small-scale geometric sufficiency",
+  "split_part_max": 13,
+  "status": "PASS",
+  "total_independent_comparisons": 25760
+}
