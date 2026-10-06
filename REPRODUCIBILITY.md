@@ -59,6 +59,15 @@ This rebuilds the N105 and spectra PDFs and regenerates the expanded coordinate 
 
 ## Mathematical boundary
 
+The [quantitative density theorem](docs/quantitative-density.md) is a
+written universal argument, including its [long-seam geometric input](docs/long-seams-density.md).
+No finite checker is presented as proof of its asymptotic conclusion.
+The separate [extreme-island embedding package](research/extreme-pure-embedding/)
+checks an exact hierarchical construction: its 4,822,335 unit tiles are
+specified by standard subdivisions, not expanded or tested pairwise.
+The package README gives the exact replay commands and the boundary of
+the local-switch obstruction.
+
 Exact arithmetic eliminates numerical rounding in the implemented finite predicates. A separate geometric implementation reduces shared-code risk. Neither establishes external refereeing or formalizes the human lemmas and published classification theorems. In particular, finite CI does not prove the candidate all-primes induction, the all-parameter construction arguments, or a complete classification of all positive N.
 
 The [claim ledger](STATUS.md), [N105 dependency note](docs/n105-global.md), [general spectra attribution](docs/general-spectra.md), and [full-solution roadmap](docs/full-solution-roadmap.md) keep those boundaries explicit.

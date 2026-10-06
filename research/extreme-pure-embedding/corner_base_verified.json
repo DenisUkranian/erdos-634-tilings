@@ -1,0 +1,20 @@
+{
+  "result": "ACCEPT_EXACT_HIERARCHICAL_CONSTRUCTION",
+  "tile": [
+    5,
+    3,
+    7
+  ],
+  "angle_opposite_c": 120,
+  "target_side": 945,
+  "tile_count": 59535,
+  "macroregions": 252,
+  "macro_pairs_checked": 31626,
+  "positive_area_macro_overlaps": 0,
+  "exact_arithmetic": true,
+  "internal_partition_basis": "Standard n^2 triangle subdivision and rectangular strip-cell partition.",
+  "external_peer_review": false,
+  "full_Erdos634_solved": false,
+  "seconds": 0.818288,
+  "certificate_sha256": "be88acbded33ec4e9b3a97a2a5a85de125848f74fb6882f3453124d84372308c"
+}

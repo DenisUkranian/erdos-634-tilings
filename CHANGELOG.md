@@ -1,5 +1,13 @@
 # Changelog
 
+## Quantitative density and a triangular extreme-island obstruction — 6 October 2026
+
+- Integrate and independently re-audit the 1 October long-seam inequalities and qualitative `S(X)=o(X)` argument, retaining their original provenance. These are recovered project results, not newly dated discoveries.
+- Prove the stronger all-count upper bound `S(X) ≪ X / ((log X)^δ (log log X)^(3/2))`, `δ=0.086071…`, by a uniform dyadic application of Ford's divisor-interval theorem. Record the full thirteen-row necessary-spectrum coverage and all external inputs.
+- Embed the nonexchangeable pure `(3,5,7)` island as the unique maximal `+1` component of an equilateral tiling, with all exterior edge levels in `{-1,0}`. Supply a 1,902-lozenge collar certificate, independently checked integer geometry, and the corner-block subdivision proof.
+- Close the proposed triangular extreme-component opposite-pure-switch route negatively. The same whole triangle has another low-level tiling; broader mixed/global moves are not refuted.
+- Retain full Erdős 634 membership classification as unresolved. The counting theorem has no claimed optimality, practical exclusion percentage, external referee approval, or established priority.
+
 ## Trapezoid surgery and balanced 120-degree branches — 3 October 2026
 
 - Give smaller universal ideal-trapezoid seeds and a more general positive shaving construction. Derive the sufficient equilateral tail `m>=3 ceil(c/min(a,b))`.

@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "shell_lozenges": 1902,
+  "shell_unit_cells": 3804,
+  "corner_macro_triangles": 189,
+  "corner_strips": 63,
+  "corner_tile_count": 535815,
+  "corner_short_long_levels": {
+    "(0, -1)": 126,
+    "(-1, 0)": 63
+  },
+  "strip_explicit_vectors": [
+    [
+      3,
+      0
+    ],
+    [
+      -5,
+      5
+    ],
+    [
+      8,
+      -5
+    ]
+  ],
+  "bad_island_tiles": 418950,
+  "shell_tiles": 2795940,
+  "all_tiles": 4822335,
+  "target_side": 8505
+}

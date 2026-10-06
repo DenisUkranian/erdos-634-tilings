@@ -16,6 +16,7 @@ A complete fixed-tile spectrum for every shape would be one sufficient route. It
 
 | Block | Available result | What it does not decide |
 |---|---|---|
+| Size of the global set of counts | [Quantitative density bound](quantitative-density.md): `S(X) ≪ X / ((log X)^δ (log log X)^(3/2))`, with `δ=0.086071…`; strengthens the integrated [1 October qualitative proof](long-seams-density.md). | A counting bound does not characterize membership of the remaining sparse set, and does not supply an effective exclusion percentage at a specified finite X. |
 | Classical/similar tilings | Published classifications and explicit constructions; among familiar admissible families are k², 2k², 3k², 6k² and sums of two squares. Exact source hypotheses remain necessary. | Not a proof that these are all global counts; 322 is an explicit nonclassical construction. |
 | Prime counts | [Candidate deduction](prime-case-dependencies.md) from the two scale-one geometric candidates and cited classifications. | Not externally accepted or formally checked here; in any event it concerns primes, not arbitrary composites. |
 | Group 1: 3alpha+2beta=pi | [All-five-shape eventual construction](universal-rational-scales.md), explicit bounds/seeds; a complete other-scalene family and a complete [fixed (2,3,4) spectrum](first-tile-classification.md). | The small admissible scales for general primitive (u,v), including the relevant W, beta, theta and alpha targets, are not classified by the eventual theorem. |
@@ -77,7 +78,16 @@ so the [phase reduction](nonconvex-pure-island-reduction.md) cannot remove
 this obstruction. General pure-island exchange is therefore false and
 should no longer be pursued as a missing universal lemma.
 
-A replacement approach would need a newly justified restricted class
-of patches actually forced inside triangular targets, or a mixed/global
-move. Neither that extraction theorem nor the independent Group-1 and
-all-count classification gaps are settled by the counterexample.
+The [triangular embedding](extreme-pure-island-in-triangle.md) also defeats
+the proposed restriction to extreme components actually occurring in a
+triangular target. The bad island can be the unique maximal `+1` component
+of an equilateral tiling whose exterior edges have only levels `-1,0`.
+Neither a single opposite pure switch nor a finite sequence of those
+switches confined to this island can remove all of its `+1` tiles.
+
+A surviving normalization route must allow a different class of changes,
+such as mixed states or modifications outside the island.
+The same whole triangle has a separate low-level tiling, so global
+normalization is not contradicted. No completeness theorem for those
+broader moves is established. The independent Group-1 and all-count
+membership gaps also remain.

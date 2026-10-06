@@ -1,0 +1,5956 @@
+{
+  "format": "ERDOS634_HIERARCHICAL_TRIANGLE_PARTITION_V1",
+  "coordinate_basis": "(1,0),(1/2,sqrt(3)/2)",
+  "tile": [
+    5,
+    3,
+    7
+  ],
+  "angle_opposite_c": 120,
+  "target_vertices": [
+    [
+      0,
+      0
+    ],
+    [
+      945,
+      0
+    ],
+    [
+      0,
+      945
+    ]
+  ],
+  "target_side": 945,
+  "expected_tile_count": 59535,
+  "multiplier": 63,
+  "guaranteed_multiplier_threshold": 9,
+  "zhang_v4_displayed_threshold": 9,
+  "bands": [
+    {
+      "trapezoid": 0,
+      "band": 0,
+      "short_base": 885,
+      "leg": 15,
+      "surplus": 851,
+      "strip_counts": [
+        1,
+        282
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 1,
+      "short_base": 870,
+      "leg": 15,
+      "surplus": 836,
+      "strip_counts": [
+        1,
+        277
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 2,
+      "short_base": 855,
+      "leg": 15,
+      "surplus": 821,
+      "strip_counts": [
+        1,
+        272
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 3,
+      "short_base": 840,
+      "leg": 15,
+      "surplus": 806,
+      "strip_counts": [
+        1,
+        267
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 4,
+      "short_base": 825,
+      "leg": 15,
+      "surplus": 791,
+      "strip_counts": [
+        1,
+        262
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 5,
+      "short_base": 810,
+      "leg": 15,
+      "surplus": 776,
+      "strip_counts": [
+        1,
+        257
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 6,
+      "short_base": 795,
+      "leg": 15,
+      "surplus": 761,
+      "strip_counts": [
+        1,
+        252
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 7,
+      "short_base": 780,
+      "leg": 15,
+      "surplus": 746,
+      "strip_counts": [
+        1,
+        247
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 8,
+      "short_base": 765,
+      "leg": 15,
+      "surplus": 731,
+      "strip_counts": [
+        1,
+        242
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 9,
+      "short_base": 750,
+      "leg": 15,
+      "surplus": 716,
+      "strip_counts": [
+        1,
+        237
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 10,
+      "short_base": 735,
+      "leg": 15,
+      "surplus": 701,
+      "strip_counts": [
+        1,
+        232
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 11,
+      "short_base": 720,
+      "leg": 15,
+      "surplus": 686,
+      "strip_counts": [
+        1,
+        227
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 12,
+      "short_base": 705,
+      "leg": 15,
+      "surplus": 671,
+      "strip_counts": [
+        1,
+        222
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 13,
+      "short_base": 690,
+      "leg": 15,
+      "surplus": 656,
+      "strip_counts": [
+        1,
+        217
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 14,
+      "short_base": 675,
+      "leg": 15,
+      "surplus": 641,
+      "strip_counts": [
+        1,
+        212
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 15,
+      "short_base": 660,
+      "leg": 15,
+      "surplus": 626,
+      "strip_counts": [
+        1,
+        207
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 16,
+      "short_base": 645,
+      "leg": 15,
+      "surplus": 611,
+      "strip_counts": [
+        1,
+        202
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 17,
+      "short_base": 630,
+      "leg": 15,
+      "surplus": 596,
+      "strip_counts": [
+        1,
+        197
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 18,
+      "short_base": 615,
+      "leg": 15,
+      "surplus": 581,
+      "strip_counts": [
+        1,
+        192
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 19,
+      "short_base": 600,
+      "leg": 15,
+      "surplus": 566,
+      "strip_counts": [
+        1,
+        187
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 20,
+      "short_base": 585,
+      "leg": 15,
+      "surplus": 551,
+      "strip_counts": [
+        1,
+        182
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 21,
+      "short_base": 570,
+      "leg": 15,
+      "surplus": 536,
+      "strip_counts": [
+        1,
+        177
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 22,
+      "short_base": 555,
+      "leg": 15,
+      "surplus": 521,
+      "strip_counts": [
+        1,
+        172
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 23,
+      "short_base": 540,
+      "leg": 15,
+      "surplus": 506,
+      "strip_counts": [
+        1,
+        167
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 24,
+      "short_base": 525,
+      "leg": 15,
+      "surplus": 491,
+      "strip_counts": [
+        1,
+        162
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 25,
+      "short_base": 510,
+      "leg": 15,
+      "surplus": 476,
+      "strip_counts": [
+        1,
+        157
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 26,
+      "short_base": 495,
+      "leg": 15,
+      "surplus": 461,
+      "strip_counts": [
+        1,
+        152
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 27,
+      "short_base": 480,
+      "leg": 15,
+      "surplus": 446,
+      "strip_counts": [
+        1,
+        147
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 28,
+      "short_base": 465,
+      "leg": 15,
+      "surplus": 431,
+      "strip_counts": [
+        1,
+        142
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 29,
+      "short_base": 450,
+      "leg": 15,
+      "surplus": 416,
+      "strip_counts": [
+        1,
+        137
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 30,
+      "short_base": 435,
+      "leg": 15,
+      "surplus": 401,
+      "strip_counts": [
+        1,
+        132
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 31,
+      "short_base": 420,
+      "leg": 15,
+      "surplus": 386,
+      "strip_counts": [
+        1,
+        127
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 32,
+      "short_base": 405,
+      "leg": 15,
+      "surplus": 371,
+      "strip_counts": [
+        1,
+        122
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 33,
+      "short_base": 390,
+      "leg": 15,
+      "surplus": 356,
+      "strip_counts": [
+        1,
+        117
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 34,
+      "short_base": 375,
+      "leg": 15,
+      "surplus": 341,
+      "strip_counts": [
+        1,
+        112
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 35,
+      "short_base": 360,
+      "leg": 15,
+      "surplus": 326,
+      "strip_counts": [
+        1,
+        107
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 36,
+      "short_base": 345,
+      "leg": 15,
+      "surplus": 311,
+      "strip_counts": [
+        1,
+        102
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 37,
+      "short_base": 330,
+      "leg": 15,
+      "surplus": 296,
+      "strip_counts": [
+        1,
+        97
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 38,
+      "short_base": 315,
+      "leg": 15,
+      "surplus": 281,
+      "strip_counts": [
+        1,
+        92
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 39,
+      "short_base": 300,
+      "leg": 15,
+      "surplus": 266,
+      "strip_counts": [
+        1,
+        87
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 40,
+      "short_base": 285,
+      "leg": 15,
+      "surplus": 251,
+      "strip_counts": [
+        1,
+        82
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 41,
+      "short_base": 270,
+      "leg": 15,
+      "surplus": 236,
+      "strip_counts": [
+        1,
+        77
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 42,
+      "short_base": 255,
+      "leg": 15,
+      "surplus": 221,
+      "strip_counts": [
+        1,
+        72
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 43,
+      "short_base": 240,
+      "leg": 15,
+      "surplus": 206,
+      "strip_counts": [
+        1,
+        67
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 44,
+      "short_base": 225,
+      "leg": 15,
+      "surplus": 191,
+      "strip_counts": [
+        1,
+        62
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 45,
+      "short_base": 210,
+      "leg": 15,
+      "surplus": 176,
+      "strip_counts": [
+        1,
+        57
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 46,
+      "short_base": 195,
+      "leg": 15,
+      "surplus": 161,
+      "strip_counts": [
+        1,
+        52
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 47,
+      "short_base": 180,
+      "leg": 15,
+      "surplus": 146,
+      "strip_counts": [
+        1,
+        47
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 48,
+      "short_base": 165,
+      "leg": 15,
+      "surplus": 131,
+      "strip_counts": [
+        1,
+        42
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 49,
+      "short_base": 150,
+      "leg": 15,
+      "surplus": 116,
+      "strip_counts": [
+        1,
+        37
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 50,
+      "short_base": 135,
+      "leg": 15,
+      "surplus": 101,
+      "strip_counts": [
+        1,
+        32
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 51,
+      "short_base": 120,
+      "leg": 15,
+      "surplus": 86,
+      "strip_counts": [
+        1,
+        27
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 52,
+      "short_base": 105,
+      "leg": 15,
+      "surplus": 71,
+      "strip_counts": [
+        1,
+        22
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 53,
+      "short_base": 90,
+      "leg": 15,
+      "surplus": 56,
+      "strip_counts": [
+        1,
+        17
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 54,
+      "short_base": 75,
+      "leg": 15,
+      "surplus": 41,
+      "strip_counts": [
+        1,
+        12
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 55,
+      "short_base": 60,
+      "leg": 15,
+      "surplus": 26,
+      "strip_counts": [
+        1,
+        7
+      ]
+    },
+    {
+      "trapezoid": 0,
+      "band": 56,
+      "short_base": 45,
+      "leg": 15,
+      "surplus": 11,
+      "strip_counts": [
+        1,
+        2
+      ]
+    },
+    {
+      "trapezoid": 1,
+      "band": 0,
+      "short_base": 885,
+      "leg": 15,
+      "surplus": 851,
+      "strip_counts": [
+        1,
+        282
+      ]
+    },
+    {
+      "trapezoid": 1,
+      "band": 1,
+      "short_base": 870,
+      "leg": 15,
+      "surplus": 836,
+      "strip_counts": [
+        1,
+        277
+      ]
+    },
+    {
+      "trapezoid": 1,
+      "band": 2,
+      "short_base": 855,
+      "leg": 15,
+      "surplus": 821,
+      "strip_counts": [
+        1,
+        272
+      ]
+    },
+    {
+      "trapezoid": 2,
+      "band": 0,
+      "short_base": 75,
+      "leg": 15,
+      "surplus": 41,
+      "strip_counts": [
+        1,
+        12
+      ]
+    },
+    {
+      "trapezoid": 2,
+      "band": 1,
+      "short_base": 60,
+      "leg": 15,
+      "surplus": 26,
+      "strip_counts": [
+        1,
+        7
+      ]
+    },
+    {
+      "trapezoid": 2,
+      "band": 2,
+      "short_base": 45,
+      "leg": 15,
+      "surplus": 11,
+      "strip_counts": [
+        1,
+        2
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "T0_band0_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          0
+        ],
+        [
+          70,
+          15
+        ],
+        [
+          45,
+          15
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band0_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          0
+        ],
+        [
+          94,
+          0
+        ],
+        [
+          70,
+          15
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band0_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          15
+        ],
+        [
+          94,
+          0
+        ],
+        [
+          79,
+          15
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band0_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          0
+        ],
+        [
+          945,
+          0
+        ],
+        [
+          930,
+          15
+        ],
+        [
+          79,
+          15
+        ]
+      ],
+      "counts": [
+        1,
+        282
+      ]
+    },
+    {
+      "id": "T0_band1_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          15
+        ],
+        [
+          70,
+          30
+        ],
+        [
+          45,
+          30
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band1_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          15
+        ],
+        [
+          94,
+          15
+        ],
+        [
+          70,
+          30
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band1_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          30
+        ],
+        [
+          94,
+          15
+        ],
+        [
+          79,
+          30
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band1_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          15
+        ],
+        [
+          930,
+          15
+        ],
+        [
+          915,
+          30
+        ],
+        [
+          79,
+          30
+        ]
+      ],
+      "counts": [
+        1,
+        277
+      ]
+    },
+    {
+      "id": "T0_band2_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          30
+        ],
+        [
+          70,
+          45
+        ],
+        [
+          45,
+          45
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band2_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          30
+        ],
+        [
+          94,
+          30
+        ],
+        [
+          70,
+          45
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band2_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          45
+        ],
+        [
+          94,
+          30
+        ],
+        [
+          79,
+          45
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band2_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          30
+        ],
+        [
+          915,
+          30
+        ],
+        [
+          900,
+          45
+        ],
+        [
+          79,
+          45
+        ]
+      ],
+      "counts": [
+        1,
+        272
+      ]
+    },
+    {
+      "id": "T0_band3_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          45
+        ],
+        [
+          70,
+          60
+        ],
+        [
+          45,
+          60
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band3_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          45
+        ],
+        [
+          94,
+          45
+        ],
+        [
+          70,
+          60
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band3_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          60
+        ],
+        [
+          94,
+          45
+        ],
+        [
+          79,
+          60
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band3_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          45
+        ],
+        [
+          900,
+          45
+        ],
+        [
+          885,
+          60
+        ],
+        [
+          79,
+          60
+        ]
+      ],
+      "counts": [
+        1,
+        267
+      ]
+    },
+    {
+      "id": "T0_band4_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          60
+        ],
+        [
+          70,
+          75
+        ],
+        [
+          45,
+          75
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band4_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          60
+        ],
+        [
+          94,
+          60
+        ],
+        [
+          70,
+          75
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band4_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          75
+        ],
+        [
+          94,
+          60
+        ],
+        [
+          79,
+          75
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band4_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          60
+        ],
+        [
+          885,
+          60
+        ],
+        [
+          870,
+          75
+        ],
+        [
+          79,
+          75
+        ]
+      ],
+      "counts": [
+        1,
+        262
+      ]
+    },
+    {
+      "id": "T0_band5_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          75
+        ],
+        [
+          70,
+          90
+        ],
+        [
+          45,
+          90
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band5_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          75
+        ],
+        [
+          94,
+          75
+        ],
+        [
+          70,
+          90
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band5_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          90
+        ],
+        [
+          94,
+          75
+        ],
+        [
+          79,
+          90
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band5_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          75
+        ],
+        [
+          870,
+          75
+        ],
+        [
+          855,
+          90
+        ],
+        [
+          79,
+          90
+        ]
+      ],
+      "counts": [
+        1,
+        257
+      ]
+    },
+    {
+      "id": "T0_band6_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          90
+        ],
+        [
+          70,
+          105
+        ],
+        [
+          45,
+          105
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band6_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          90
+        ],
+        [
+          94,
+          90
+        ],
+        [
+          70,
+          105
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band6_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          105
+        ],
+        [
+          94,
+          90
+        ],
+        [
+          79,
+          105
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band6_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          90
+        ],
+        [
+          855,
+          90
+        ],
+        [
+          840,
+          105
+        ],
+        [
+          79,
+          105
+        ]
+      ],
+      "counts": [
+        1,
+        252
+      ]
+    },
+    {
+      "id": "T0_band7_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          105
+        ],
+        [
+          70,
+          120
+        ],
+        [
+          45,
+          120
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band7_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          105
+        ],
+        [
+          94,
+          105
+        ],
+        [
+          70,
+          120
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band7_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          120
+        ],
+        [
+          94,
+          105
+        ],
+        [
+          79,
+          120
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band7_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          105
+        ],
+        [
+          840,
+          105
+        ],
+        [
+          825,
+          120
+        ],
+        [
+          79,
+          120
+        ]
+      ],
+      "counts": [
+        1,
+        247
+      ]
+    },
+    {
+      "id": "T0_band8_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          120
+        ],
+        [
+          70,
+          135
+        ],
+        [
+          45,
+          135
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band8_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          120
+        ],
+        [
+          94,
+          120
+        ],
+        [
+          70,
+          135
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band8_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          135
+        ],
+        [
+          94,
+          120
+        ],
+        [
+          79,
+          135
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band8_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          120
+        ],
+        [
+          825,
+          120
+        ],
+        [
+          810,
+          135
+        ],
+        [
+          79,
+          135
+        ]
+      ],
+      "counts": [
+        1,
+        242
+      ]
+    },
+    {
+      "id": "T0_band9_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          135
+        ],
+        [
+          70,
+          150
+        ],
+        [
+          45,
+          150
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band9_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          135
+        ],
+        [
+          94,
+          135
+        ],
+        [
+          70,
+          150
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band9_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          150
+        ],
+        [
+          94,
+          135
+        ],
+        [
+          79,
+          150
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band9_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          135
+        ],
+        [
+          810,
+          135
+        ],
+        [
+          795,
+          150
+        ],
+        [
+          79,
+          150
+        ]
+      ],
+      "counts": [
+        1,
+        237
+      ]
+    },
+    {
+      "id": "T0_band10_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          150
+        ],
+        [
+          70,
+          165
+        ],
+        [
+          45,
+          165
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band10_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          150
+        ],
+        [
+          94,
+          150
+        ],
+        [
+          70,
+          165
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band10_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          165
+        ],
+        [
+          94,
+          150
+        ],
+        [
+          79,
+          165
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band10_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          150
+        ],
+        [
+          795,
+          150
+        ],
+        [
+          780,
+          165
+        ],
+        [
+          79,
+          165
+        ]
+      ],
+      "counts": [
+        1,
+        232
+      ]
+    },
+    {
+      "id": "T0_band11_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          165
+        ],
+        [
+          70,
+          180
+        ],
+        [
+          45,
+          180
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band11_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          165
+        ],
+        [
+          94,
+          165
+        ],
+        [
+          70,
+          180
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band11_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          180
+        ],
+        [
+          94,
+          165
+        ],
+        [
+          79,
+          180
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band11_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          165
+        ],
+        [
+          780,
+          165
+        ],
+        [
+          765,
+          180
+        ],
+        [
+          79,
+          180
+        ]
+      ],
+      "counts": [
+        1,
+        227
+      ]
+    },
+    {
+      "id": "T0_band12_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          180
+        ],
+        [
+          70,
+          195
+        ],
+        [
+          45,
+          195
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band12_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          180
+        ],
+        [
+          94,
+          180
+        ],
+        [
+          70,
+          195
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band12_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          195
+        ],
+        [
+          94,
+          180
+        ],
+        [
+          79,
+          195
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band12_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          180
+        ],
+        [
+          765,
+          180
+        ],
+        [
+          750,
+          195
+        ],
+        [
+          79,
+          195
+        ]
+      ],
+      "counts": [
+        1,
+        222
+      ]
+    },
+    {
+      "id": "T0_band13_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          195
+        ],
+        [
+          70,
+          210
+        ],
+        [
+          45,
+          210
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band13_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          195
+        ],
+        [
+          94,
+          195
+        ],
+        [
+          70,
+          210
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band13_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          210
+        ],
+        [
+          94,
+          195
+        ],
+        [
+          79,
+          210
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band13_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          195
+        ],
+        [
+          750,
+          195
+        ],
+        [
+          735,
+          210
+        ],
+        [
+          79,
+          210
+        ]
+      ],
+      "counts": [
+        1,
+        217
+      ]
+    },
+    {
+      "id": "T0_band14_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          210
+        ],
+        [
+          70,
+          225
+        ],
+        [
+          45,
+          225
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band14_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          210
+        ],
+        [
+          94,
+          210
+        ],
+        [
+          70,
+          225
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band14_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          225
+        ],
+        [
+          94,
+          210
+        ],
+        [
+          79,
+          225
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band14_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          210
+        ],
+        [
+          735,
+          210
+        ],
+        [
+          720,
+          225
+        ],
+        [
+          79,
+          225
+        ]
+      ],
+      "counts": [
+        1,
+        212
+      ]
+    },
+    {
+      "id": "T0_band15_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          225
+        ],
+        [
+          70,
+          240
+        ],
+        [
+          45,
+          240
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band15_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          225
+        ],
+        [
+          94,
+          225
+        ],
+        [
+          70,
+          240
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band15_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          240
+        ],
+        [
+          94,
+          225
+        ],
+        [
+          79,
+          240
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band15_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          225
+        ],
+        [
+          720,
+          225
+        ],
+        [
+          705,
+          240
+        ],
+        [
+          79,
+          240
+        ]
+      ],
+      "counts": [
+        1,
+        207
+      ]
+    },
+    {
+      "id": "T0_band16_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          240
+        ],
+        [
+          70,
+          255
+        ],
+        [
+          45,
+          255
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band16_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          240
+        ],
+        [
+          94,
+          240
+        ],
+        [
+          70,
+          255
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band16_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          255
+        ],
+        [
+          94,
+          240
+        ],
+        [
+          79,
+          255
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band16_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          240
+        ],
+        [
+          705,
+          240
+        ],
+        [
+          690,
+          255
+        ],
+        [
+          79,
+          255
+        ]
+      ],
+      "counts": [
+        1,
+        202
+      ]
+    },
+    {
+      "id": "T0_band17_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          255
+        ],
+        [
+          70,
+          270
+        ],
+        [
+          45,
+          270
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band17_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          255
+        ],
+        [
+          94,
+          255
+        ],
+        [
+          70,
+          270
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band17_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          270
+        ],
+        [
+          94,
+          255
+        ],
+        [
+          79,
+          270
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band17_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          255
+        ],
+        [
+          690,
+          255
+        ],
+        [
+          675,
+          270
+        ],
+        [
+          79,
+          270
+        ]
+      ],
+      "counts": [
+        1,
+        197
+      ]
+    },
+    {
+      "id": "T0_band18_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          270
+        ],
+        [
+          70,
+          285
+        ],
+        [
+          45,
+          285
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band18_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          270
+        ],
+        [
+          94,
+          270
+        ],
+        [
+          70,
+          285
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band18_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          285
+        ],
+        [
+          94,
+          270
+        ],
+        [
+          79,
+          285
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band18_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          270
+        ],
+        [
+          675,
+          270
+        ],
+        [
+          660,
+          285
+        ],
+        [
+          79,
+          285
+        ]
+      ],
+      "counts": [
+        1,
+        192
+      ]
+    },
+    {
+      "id": "T0_band19_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          285
+        ],
+        [
+          70,
+          300
+        ],
+        [
+          45,
+          300
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band19_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          285
+        ],
+        [
+          94,
+          285
+        ],
+        [
+          70,
+          300
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band19_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          300
+        ],
+        [
+          94,
+          285
+        ],
+        [
+          79,
+          300
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band19_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          285
+        ],
+        [
+          660,
+          285
+        ],
+        [
+          645,
+          300
+        ],
+        [
+          79,
+          300
+        ]
+      ],
+      "counts": [
+        1,
+        187
+      ]
+    },
+    {
+      "id": "T0_band20_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          300
+        ],
+        [
+          70,
+          315
+        ],
+        [
+          45,
+          315
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band20_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          300
+        ],
+        [
+          94,
+          300
+        ],
+        [
+          70,
+          315
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band20_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          315
+        ],
+        [
+          94,
+          300
+        ],
+        [
+          79,
+          315
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band20_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          300
+        ],
+        [
+          645,
+          300
+        ],
+        [
+          630,
+          315
+        ],
+        [
+          79,
+          315
+        ]
+      ],
+      "counts": [
+        1,
+        182
+      ]
+    },
+    {
+      "id": "T0_band21_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          315
+        ],
+        [
+          70,
+          330
+        ],
+        [
+          45,
+          330
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band21_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          315
+        ],
+        [
+          94,
+          315
+        ],
+        [
+          70,
+          330
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band21_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          330
+        ],
+        [
+          94,
+          315
+        ],
+        [
+          79,
+          330
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band21_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          315
+        ],
+        [
+          630,
+          315
+        ],
+        [
+          615,
+          330
+        ],
+        [
+          79,
+          330
+        ]
+      ],
+      "counts": [
+        1,
+        177
+      ]
+    },
+    {
+      "id": "T0_band22_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          330
+        ],
+        [
+          70,
+          345
+        ],
+        [
+          45,
+          345
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band22_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          330
+        ],
+        [
+          94,
+          330
+        ],
+        [
+          70,
+          345
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band22_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          345
+        ],
+        [
+          94,
+          330
+        ],
+        [
+          79,
+          345
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band22_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          330
+        ],
+        [
+          615,
+          330
+        ],
+        [
+          600,
+          345
+        ],
+        [
+          79,
+          345
+        ]
+      ],
+      "counts": [
+        1,
+        172
+      ]
+    },
+    {
+      "id": "T0_band23_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          345
+        ],
+        [
+          70,
+          360
+        ],
+        [
+          45,
+          360
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band23_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          345
+        ],
+        [
+          94,
+          345
+        ],
+        [
+          70,
+          360
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band23_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          360
+        ],
+        [
+          94,
+          345
+        ],
+        [
+          79,
+          360
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band23_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          345
+        ],
+        [
+          600,
+          345
+        ],
+        [
+          585,
+          360
+        ],
+        [
+          79,
+          360
+        ]
+      ],
+      "counts": [
+        1,
+        167
+      ]
+    },
+    {
+      "id": "T0_band24_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          360
+        ],
+        [
+          70,
+          375
+        ],
+        [
+          45,
+          375
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band24_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          360
+        ],
+        [
+          94,
+          360
+        ],
+        [
+          70,
+          375
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band24_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          375
+        ],
+        [
+          94,
+          360
+        ],
+        [
+          79,
+          375
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band24_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          360
+        ],
+        [
+          585,
+          360
+        ],
+        [
+          570,
+          375
+        ],
+        [
+          79,
+          375
+        ]
+      ],
+      "counts": [
+        1,
+        162
+      ]
+    },
+    {
+      "id": "T0_band25_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          375
+        ],
+        [
+          70,
+          390
+        ],
+        [
+          45,
+          390
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band25_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          375
+        ],
+        [
+          94,
+          375
+        ],
+        [
+          70,
+          390
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band25_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          390
+        ],
+        [
+          94,
+          375
+        ],
+        [
+          79,
+          390
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band25_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          375
+        ],
+        [
+          570,
+          375
+        ],
+        [
+          555,
+          390
+        ],
+        [
+          79,
+          390
+        ]
+      ],
+      "counts": [
+        1,
+        157
+      ]
+    },
+    {
+      "id": "T0_band26_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          390
+        ],
+        [
+          70,
+          405
+        ],
+        [
+          45,
+          405
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band26_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          390
+        ],
+        [
+          94,
+          390
+        ],
+        [
+          70,
+          405
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band26_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          405
+        ],
+        [
+          94,
+          390
+        ],
+        [
+          79,
+          405
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band26_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          390
+        ],
+        [
+          555,
+          390
+        ],
+        [
+          540,
+          405
+        ],
+        [
+          79,
+          405
+        ]
+      ],
+      "counts": [
+        1,
+        152
+      ]
+    },
+    {
+      "id": "T0_band27_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          405
+        ],
+        [
+          70,
+          420
+        ],
+        [
+          45,
+          420
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band27_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          405
+        ],
+        [
+          94,
+          405
+        ],
+        [
+          70,
+          420
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band27_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          420
+        ],
+        [
+          94,
+          405
+        ],
+        [
+          79,
+          420
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band27_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          405
+        ],
+        [
+          540,
+          405
+        ],
+        [
+          525,
+          420
+        ],
+        [
+          79,
+          420
+        ]
+      ],
+      "counts": [
+        1,
+        147
+      ]
+    },
+    {
+      "id": "T0_band28_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          420
+        ],
+        [
+          70,
+          435
+        ],
+        [
+          45,
+          435
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band28_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          420
+        ],
+        [
+          94,
+          420
+        ],
+        [
+          70,
+          435
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band28_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          435
+        ],
+        [
+          94,
+          420
+        ],
+        [
+          79,
+          435
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band28_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          420
+        ],
+        [
+          525,
+          420
+        ],
+        [
+          510,
+          435
+        ],
+        [
+          79,
+          435
+        ]
+      ],
+      "counts": [
+        1,
+        142
+      ]
+    },
+    {
+      "id": "T0_band29_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          435
+        ],
+        [
+          70,
+          450
+        ],
+        [
+          45,
+          450
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band29_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          435
+        ],
+        [
+          94,
+          435
+        ],
+        [
+          70,
+          450
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band29_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          450
+        ],
+        [
+          94,
+          435
+        ],
+        [
+          79,
+          450
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band29_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          435
+        ],
+        [
+          510,
+          435
+        ],
+        [
+          495,
+          450
+        ],
+        [
+          79,
+          450
+        ]
+      ],
+      "counts": [
+        1,
+        137
+      ]
+    },
+    {
+      "id": "T0_band30_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          450
+        ],
+        [
+          70,
+          465
+        ],
+        [
+          45,
+          465
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band30_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          450
+        ],
+        [
+          94,
+          450
+        ],
+        [
+          70,
+          465
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band30_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          465
+        ],
+        [
+          94,
+          450
+        ],
+        [
+          79,
+          465
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band30_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          450
+        ],
+        [
+          495,
+          450
+        ],
+        [
+          480,
+          465
+        ],
+        [
+          79,
+          465
+        ]
+      ],
+      "counts": [
+        1,
+        132
+      ]
+    },
+    {
+      "id": "T0_band31_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          465
+        ],
+        [
+          70,
+          480
+        ],
+        [
+          45,
+          480
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band31_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          465
+        ],
+        [
+          94,
+          465
+        ],
+        [
+          70,
+          480
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band31_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          480
+        ],
+        [
+          94,
+          465
+        ],
+        [
+          79,
+          480
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band31_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          465
+        ],
+        [
+          480,
+          465
+        ],
+        [
+          465,
+          480
+        ],
+        [
+          79,
+          480
+        ]
+      ],
+      "counts": [
+        1,
+        127
+      ]
+    },
+    {
+      "id": "T0_band32_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          480
+        ],
+        [
+          70,
+          495
+        ],
+        [
+          45,
+          495
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band32_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          480
+        ],
+        [
+          94,
+          480
+        ],
+        [
+          70,
+          495
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band32_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          495
+        ],
+        [
+          94,
+          480
+        ],
+        [
+          79,
+          495
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band32_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          480
+        ],
+        [
+          465,
+          480
+        ],
+        [
+          450,
+          495
+        ],
+        [
+          79,
+          495
+        ]
+      ],
+      "counts": [
+        1,
+        122
+      ]
+    },
+    {
+      "id": "T0_band33_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          495
+        ],
+        [
+          70,
+          510
+        ],
+        [
+          45,
+          510
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band33_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          495
+        ],
+        [
+          94,
+          495
+        ],
+        [
+          70,
+          510
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band33_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          510
+        ],
+        [
+          94,
+          495
+        ],
+        [
+          79,
+          510
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band33_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          495
+        ],
+        [
+          450,
+          495
+        ],
+        [
+          435,
+          510
+        ],
+        [
+          79,
+          510
+        ]
+      ],
+      "counts": [
+        1,
+        117
+      ]
+    },
+    {
+      "id": "T0_band34_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          510
+        ],
+        [
+          70,
+          525
+        ],
+        [
+          45,
+          525
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band34_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          510
+        ],
+        [
+          94,
+          510
+        ],
+        [
+          70,
+          525
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band34_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          525
+        ],
+        [
+          94,
+          510
+        ],
+        [
+          79,
+          525
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band34_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          510
+        ],
+        [
+          435,
+          510
+        ],
+        [
+          420,
+          525
+        ],
+        [
+          79,
+          525
+        ]
+      ],
+      "counts": [
+        1,
+        112
+      ]
+    },
+    {
+      "id": "T0_band35_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          525
+        ],
+        [
+          70,
+          540
+        ],
+        [
+          45,
+          540
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band35_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          525
+        ],
+        [
+          94,
+          525
+        ],
+        [
+          70,
+          540
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band35_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          540
+        ],
+        [
+          94,
+          525
+        ],
+        [
+          79,
+          540
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band35_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          525
+        ],
+        [
+          420,
+          525
+        ],
+        [
+          405,
+          540
+        ],
+        [
+          79,
+          540
+        ]
+      ],
+      "counts": [
+        1,
+        107
+      ]
+    },
+    {
+      "id": "T0_band36_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          540
+        ],
+        [
+          70,
+          555
+        ],
+        [
+          45,
+          555
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band36_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          540
+        ],
+        [
+          94,
+          540
+        ],
+        [
+          70,
+          555
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band36_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          555
+        ],
+        [
+          94,
+          540
+        ],
+        [
+          79,
+          555
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band36_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          540
+        ],
+        [
+          405,
+          540
+        ],
+        [
+          390,
+          555
+        ],
+        [
+          79,
+          555
+        ]
+      ],
+      "counts": [
+        1,
+        102
+      ]
+    },
+    {
+      "id": "T0_band37_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          555
+        ],
+        [
+          70,
+          570
+        ],
+        [
+          45,
+          570
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band37_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          555
+        ],
+        [
+          94,
+          555
+        ],
+        [
+          70,
+          570
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band37_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          570
+        ],
+        [
+          94,
+          555
+        ],
+        [
+          79,
+          570
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band37_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          555
+        ],
+        [
+          390,
+          555
+        ],
+        [
+          375,
+          570
+        ],
+        [
+          79,
+          570
+        ]
+      ],
+      "counts": [
+        1,
+        97
+      ]
+    },
+    {
+      "id": "T0_band38_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          570
+        ],
+        [
+          70,
+          585
+        ],
+        [
+          45,
+          585
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band38_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          570
+        ],
+        [
+          94,
+          570
+        ],
+        [
+          70,
+          585
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band38_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          585
+        ],
+        [
+          94,
+          570
+        ],
+        [
+          79,
+          585
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band38_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          570
+        ],
+        [
+          375,
+          570
+        ],
+        [
+          360,
+          585
+        ],
+        [
+          79,
+          585
+        ]
+      ],
+      "counts": [
+        1,
+        92
+      ]
+    },
+    {
+      "id": "T0_band39_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          585
+        ],
+        [
+          70,
+          600
+        ],
+        [
+          45,
+          600
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band39_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          585
+        ],
+        [
+          94,
+          585
+        ],
+        [
+          70,
+          600
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band39_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          600
+        ],
+        [
+          94,
+          585
+        ],
+        [
+          79,
+          600
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band39_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          585
+        ],
+        [
+          360,
+          585
+        ],
+        [
+          345,
+          600
+        ],
+        [
+          79,
+          600
+        ]
+      ],
+      "counts": [
+        1,
+        87
+      ]
+    },
+    {
+      "id": "T0_band40_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          600
+        ],
+        [
+          70,
+          615
+        ],
+        [
+          45,
+          615
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band40_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          600
+        ],
+        [
+          94,
+          600
+        ],
+        [
+          70,
+          615
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band40_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          615
+        ],
+        [
+          94,
+          600
+        ],
+        [
+          79,
+          615
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band40_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          600
+        ],
+        [
+          345,
+          600
+        ],
+        [
+          330,
+          615
+        ],
+        [
+          79,
+          615
+        ]
+      ],
+      "counts": [
+        1,
+        82
+      ]
+    },
+    {
+      "id": "T0_band41_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          615
+        ],
+        [
+          70,
+          630
+        ],
+        [
+          45,
+          630
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band41_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          615
+        ],
+        [
+          94,
+          615
+        ],
+        [
+          70,
+          630
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band41_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          630
+        ],
+        [
+          94,
+          615
+        ],
+        [
+          79,
+          630
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band41_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          615
+        ],
+        [
+          330,
+          615
+        ],
+        [
+          315,
+          630
+        ],
+        [
+          79,
+          630
+        ]
+      ],
+      "counts": [
+        1,
+        77
+      ]
+    },
+    {
+      "id": "T0_band42_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          630
+        ],
+        [
+          70,
+          645
+        ],
+        [
+          45,
+          645
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band42_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          630
+        ],
+        [
+          94,
+          630
+        ],
+        [
+          70,
+          645
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band42_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          645
+        ],
+        [
+          94,
+          630
+        ],
+        [
+          79,
+          645
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band42_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          630
+        ],
+        [
+          315,
+          630
+        ],
+        [
+          300,
+          645
+        ],
+        [
+          79,
+          645
+        ]
+      ],
+      "counts": [
+        1,
+        72
+      ]
+    },
+    {
+      "id": "T0_band43_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          645
+        ],
+        [
+          70,
+          660
+        ],
+        [
+          45,
+          660
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band43_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          645
+        ],
+        [
+          94,
+          645
+        ],
+        [
+          70,
+          660
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band43_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          660
+        ],
+        [
+          94,
+          645
+        ],
+        [
+          79,
+          660
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band43_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          645
+        ],
+        [
+          300,
+          645
+        ],
+        [
+          285,
+          660
+        ],
+        [
+          79,
+          660
+        ]
+      ],
+      "counts": [
+        1,
+        67
+      ]
+    },
+    {
+      "id": "T0_band44_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          660
+        ],
+        [
+          70,
+          675
+        ],
+        [
+          45,
+          675
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band44_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          660
+        ],
+        [
+          94,
+          660
+        ],
+        [
+          70,
+          675
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band44_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          675
+        ],
+        [
+          94,
+          660
+        ],
+        [
+          79,
+          675
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band44_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          660
+        ],
+        [
+          285,
+          660
+        ],
+        [
+          270,
+          675
+        ],
+        [
+          79,
+          675
+        ]
+      ],
+      "counts": [
+        1,
+        62
+      ]
+    },
+    {
+      "id": "T0_band45_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          675
+        ],
+        [
+          70,
+          690
+        ],
+        [
+          45,
+          690
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band45_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          675
+        ],
+        [
+          94,
+          675
+        ],
+        [
+          70,
+          690
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band45_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          690
+        ],
+        [
+          94,
+          675
+        ],
+        [
+          79,
+          690
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band45_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          675
+        ],
+        [
+          270,
+          675
+        ],
+        [
+          255,
+          690
+        ],
+        [
+          79,
+          690
+        ]
+      ],
+      "counts": [
+        1,
+        57
+      ]
+    },
+    {
+      "id": "T0_band46_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          690
+        ],
+        [
+          70,
+          705
+        ],
+        [
+          45,
+          705
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band46_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          690
+        ],
+        [
+          94,
+          690
+        ],
+        [
+          70,
+          705
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band46_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          705
+        ],
+        [
+          94,
+          690
+        ],
+        [
+          79,
+          705
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band46_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          690
+        ],
+        [
+          255,
+          690
+        ],
+        [
+          240,
+          705
+        ],
+        [
+          79,
+          705
+        ]
+      ],
+      "counts": [
+        1,
+        52
+      ]
+    },
+    {
+      "id": "T0_band47_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          705
+        ],
+        [
+          70,
+          720
+        ],
+        [
+          45,
+          720
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band47_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          705
+        ],
+        [
+          94,
+          705
+        ],
+        [
+          70,
+          720
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band47_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          720
+        ],
+        [
+          94,
+          705
+        ],
+        [
+          79,
+          720
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band47_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          705
+        ],
+        [
+          240,
+          705
+        ],
+        [
+          225,
+          720
+        ],
+        [
+          79,
+          720
+        ]
+      ],
+      "counts": [
+        1,
+        47
+      ]
+    },
+    {
+      "id": "T0_band48_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          720
+        ],
+        [
+          70,
+          735
+        ],
+        [
+          45,
+          735
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band48_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          720
+        ],
+        [
+          94,
+          720
+        ],
+        [
+          70,
+          735
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band48_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          735
+        ],
+        [
+          94,
+          720
+        ],
+        [
+          79,
+          735
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band48_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          720
+        ],
+        [
+          225,
+          720
+        ],
+        [
+          210,
+          735
+        ],
+        [
+          79,
+          735
+        ]
+      ],
+      "counts": [
+        1,
+        42
+      ]
+    },
+    {
+      "id": "T0_band49_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          735
+        ],
+        [
+          70,
+          750
+        ],
+        [
+          45,
+          750
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band49_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          735
+        ],
+        [
+          94,
+          735
+        ],
+        [
+          70,
+          750
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band49_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          750
+        ],
+        [
+          94,
+          735
+        ],
+        [
+          79,
+          750
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band49_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          735
+        ],
+        [
+          210,
+          735
+        ],
+        [
+          195,
+          750
+        ],
+        [
+          79,
+          750
+        ]
+      ],
+      "counts": [
+        1,
+        37
+      ]
+    },
+    {
+      "id": "T0_band50_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          750
+        ],
+        [
+          70,
+          765
+        ],
+        [
+          45,
+          765
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band50_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          750
+        ],
+        [
+          94,
+          750
+        ],
+        [
+          70,
+          765
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band50_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          765
+        ],
+        [
+          94,
+          750
+        ],
+        [
+          79,
+          765
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band50_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          750
+        ],
+        [
+          195,
+          750
+        ],
+        [
+          180,
+          765
+        ],
+        [
+          79,
+          765
+        ]
+      ],
+      "counts": [
+        1,
+        32
+      ]
+    },
+    {
+      "id": "T0_band51_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          765
+        ],
+        [
+          70,
+          780
+        ],
+        [
+          45,
+          780
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band51_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          765
+        ],
+        [
+          94,
+          765
+        ],
+        [
+          70,
+          780
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band51_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          780
+        ],
+        [
+          94,
+          765
+        ],
+        [
+          79,
+          780
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band51_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          765
+        ],
+        [
+          180,
+          765
+        ],
+        [
+          165,
+          780
+        ],
+        [
+          79,
+          780
+        ]
+      ],
+      "counts": [
+        1,
+        27
+      ]
+    },
+    {
+      "id": "T0_band52_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          780
+        ],
+        [
+          70,
+          795
+        ],
+        [
+          45,
+          795
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band52_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          780
+        ],
+        [
+          94,
+          780
+        ],
+        [
+          70,
+          795
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band52_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          795
+        ],
+        [
+          94,
+          780
+        ],
+        [
+          79,
+          795
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band52_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          780
+        ],
+        [
+          165,
+          780
+        ],
+        [
+          150,
+          795
+        ],
+        [
+          79,
+          795
+        ]
+      ],
+      "counts": [
+        1,
+        22
+      ]
+    },
+    {
+      "id": "T0_band53_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          795
+        ],
+        [
+          70,
+          810
+        ],
+        [
+          45,
+          810
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band53_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          795
+        ],
+        [
+          94,
+          795
+        ],
+        [
+          70,
+          810
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band53_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          810
+        ],
+        [
+          94,
+          795
+        ],
+        [
+          79,
+          810
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band53_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          795
+        ],
+        [
+          150,
+          795
+        ],
+        [
+          135,
+          810
+        ],
+        [
+          79,
+          810
+        ]
+      ],
+      "counts": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "T0_band54_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          810
+        ],
+        [
+          70,
+          825
+        ],
+        [
+          45,
+          825
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band54_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          810
+        ],
+        [
+          94,
+          810
+        ],
+        [
+          70,
+          825
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band54_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          825
+        ],
+        [
+          94,
+          810
+        ],
+        [
+          79,
+          825
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band54_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          810
+        ],
+        [
+          135,
+          810
+        ],
+        [
+          120,
+          825
+        ],
+        [
+          79,
+          825
+        ]
+      ],
+      "counts": [
+        1,
+        12
+      ]
+    },
+    {
+      "id": "T0_band55_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          825
+        ],
+        [
+          70,
+          840
+        ],
+        [
+          45,
+          840
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band55_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          825
+        ],
+        [
+          94,
+          825
+        ],
+        [
+          70,
+          840
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band55_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          840
+        ],
+        [
+          94,
+          825
+        ],
+        [
+          79,
+          840
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band55_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          825
+        ],
+        [
+          120,
+          825
+        ],
+        [
+          105,
+          840
+        ],
+        [
+          79,
+          840
+        ]
+      ],
+      "counts": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": "T0_band56_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          840
+        ],
+        [
+          70,
+          855
+        ],
+        [
+          45,
+          855
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T0_band56_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          840
+        ],
+        [
+          94,
+          840
+        ],
+        [
+          70,
+          855
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T0_band56_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          70,
+          855
+        ],
+        [
+          94,
+          840
+        ],
+        [
+          79,
+          855
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T0_band56_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          94,
+          840
+        ],
+        [
+          105,
+          840
+        ],
+        [
+          90,
+          855
+        ],
+        [
+          79,
+          855
+        ]
+      ],
+      "counts": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "T1_band0_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          0,
+          900
+        ],
+        [
+          15,
+          860
+        ],
+        [
+          15,
+          885
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T1_band0_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          0,
+          900
+        ],
+        [
+          0,
+          851
+        ],
+        [
+          15,
+          860
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T1_band0_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          15,
+          860
+        ],
+        [
+          0,
+          851
+        ],
+        [
+          15,
+          851
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T1_band0_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          0,
+          851
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          15,
+          851
+        ]
+      ],
+      "counts": [
+        1,
+        282
+      ]
+    },
+    {
+      "id": "T1_band1_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          15,
+          885
+        ],
+        [
+          30,
+          845
+        ],
+        [
+          30,
+          870
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T1_band1_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          15,
+          885
+        ],
+        [
+          15,
+          836
+        ],
+        [
+          30,
+          845
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T1_band1_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          30,
+          845
+        ],
+        [
+          15,
+          836
+        ],
+        [
+          30,
+          836
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T1_band1_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          15,
+          836
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          30,
+          836
+        ]
+      ],
+      "counts": [
+        1,
+        277
+      ]
+    },
+    {
+      "id": "T1_band2_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          30,
+          870
+        ],
+        [
+          45,
+          830
+        ],
+        [
+          45,
+          855
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T1_band2_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          30,
+          870
+        ],
+        [
+          30,
+          821
+        ],
+        [
+          45,
+          830
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T1_band2_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          45,
+          830
+        ],
+        [
+          30,
+          821
+        ],
+        [
+          45,
+          821
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T1_band2_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          30,
+          821
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          45,
+          821
+        ]
+      ],
+      "counts": [
+        1,
+        272
+      ]
+    },
+    {
+      "id": "T2_band0_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          90,
+          855
+        ],
+        [
+          50,
+          880
+        ],
+        [
+          75,
+          855
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T2_band0_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          90,
+          855
+        ],
+        [
+          41,
+          904
+        ],
+        [
+          50,
+          880
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T2_band0_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          50,
+          880
+        ],
+        [
+          41,
+          904
+        ],
+        [
+          41,
+          889
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T2_band0_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          41,
+          904
+        ],
+        [
+          0,
+          945
+        ],
+        [
+          0,
+          930
+        ],
+        [
+          41,
+          889
+        ]
+      ],
+      "counts": [
+        1,
+        12
+      ]
+    },
+    {
+      "id": "T2_band1_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          75,
+          855
+        ],
+        [
+          35,
+          880
+        ],
+        [
+          60,
+          855
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T2_band1_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          75,
+          855
+        ],
+        [
+          26,
+          904
+        ],
+        [
+          35,
+          880
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T2_band1_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          35,
+          880
+        ],
+        [
+          26,
+          904
+        ],
+        [
+          26,
+          889
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T2_band1_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          26,
+          904
+        ],
+        [
+          0,
+          930
+        ],
+        [
+          0,
+          915
+        ],
+        [
+          26,
+          889
+        ]
+      ],
+      "counts": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": "T2_band2_scale5",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          60,
+          855
+        ],
+        [
+          20,
+          880
+        ],
+        [
+          45,
+          855
+        ]
+      ],
+      "scale": 5
+    },
+    {
+      "id": "T2_band2_scale7",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          60,
+          855
+        ],
+        [
+          11,
+          904
+        ],
+        [
+          20,
+          880
+        ]
+      ],
+      "scale": 7
+    },
+    {
+      "id": "T2_band2_scale3",
+      "kind": "similar_triangle",
+      "vertices": [
+        [
+          20,
+          880
+        ],
+        [
+          11,
+          904
+        ],
+        [
+          11,
+          889
+        ]
+      ],
+      "scale": 3
+    },
+    {
+      "id": "T2_band2_strip",
+      "kind": "strip_parallelogram",
+      "vertices": [
+        [
+          11,
+          904
+        ],
+        [
+          0,
+          915
+        ],
+        [
+          0,
+          900
+        ],
+        [
+          11,
+          889
+        ]
+      ],
+      "counts": [
+        1,
+        2
+      ]
+    }
+  ],
+  "scope": "Exact construction for the specified tile and target; not a classification of all triangle-tiling counts."
+}

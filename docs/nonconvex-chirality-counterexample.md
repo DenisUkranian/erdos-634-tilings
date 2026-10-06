@@ -10,6 +10,12 @@ the fully matched lattice-disk subclass of the
 [phase reduction](nonconvex-pure-island-reduction.md). It does not solve
 Erdős problem 634, which concerns triangular targets and all tile counts.
 
+The [triangular embedding continuation](extreme-pure-island-in-triangle.md)
+places a scaled copy as the unique extreme pure component of an actual
+equilateral tiling. Restriction to triangular targets does not restore
+the proposed opposite-pure exchange. This still leaves mixed and global
+normalization open.
+
 The construction and obstruction were checked in separate internal
 mathematical passes. An exact coordinate certificate is provided below.
 No external review, formal proof-assistant verification, or priority is

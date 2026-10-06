@@ -19,8 +19,8 @@
       "sha256": "e794dba5fe4133c8918b5923f11966ffc4bb4d9841242bd4bc2ea2fa4ad7ecc4"
     },
     "CHANGELOG.md": {
-      "bytes": 11662,
-      "sha256": "4925b3a95474606cc5580970c31e8379abdaa8625f38535038ec22c432fb60cc"
+      "bytes": 12890,
+      "sha256": "89dece1d6ddf7dabb8e5f65c4efff26bf6c5319881db9d2c51b1fceef4097911"
     },
     "CITATION.cff": {
       "bytes": 1425,
@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 8330,
-      "sha256": "77416089dd3ea08bc21fd70bddb1009a488cd2bbb9543372077d7f85423980ff"
+      "bytes": 9264,
+      "sha256": "3373ababb60024945b87e3220975ac6b71bec4b2505b67c5cba1d33c6ec473bf"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 9233,
-      "sha256": "aee97e4ee5c17593c2510f73f27a6b1d7c85739091e13deae151cbd4801b6c80"
+      "bytes": 9797,
+      "sha256": "1de2e88ad02811d3b62619f68097dd84748cbb6d446c4d58101203ee8d2dc327"
     },
     "STATUS.md": {
-      "bytes": 16880,
-      "sha256": "0ede3d7a5ef7944aabcd34e5c1b3a68ee3e407fcdbc288b2a580a0ecff0a2dd3"
+      "bytes": 18111,
+      "sha256": "c15198fb07073cb02a36c0ffcc8c0614b0793875e4cbc0e0b280041c79bd3973"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -214,6 +214,10 @@
       "bytes": 8870,
       "sha256": "2ea659d9cea8f7efbc2cca1454316688026dae1cf60a426e49e63bdf8f4d3244"
     },
+    "docs/extreme-pure-island-in-triangle.md": {
+      "bytes": 11223,
+      "sha256": "5da818e5177024252df969f5365b133804702d3924979b7ffc49e6e8c3fed098"
+    },
     "docs/f1-two-longest-edges.md": {
       "bytes": 4767,
       "sha256": "e02b6d7a1c1e2d7f1108a9c33faea65750533d24b2250ff6b0ff2ddc9e778c8d"
@@ -227,8 +231,8 @@
       "sha256": "af7c912f81c87fcabc6c80bd4392f54ed7cc3d0bae84d1e8d9ed4181e8c06b75"
     },
     "docs/full-solution-roadmap.md": {
-      "bytes": 10663,
-      "sha256": "ef9c8ac70f306405637f90549bacea9ddd9145211e73e1ae98fa9f988f2d11c4"
+      "bytes": 11586,
+      "sha256": "6b6a1df783918371969024d921bd4392fc6abc93a9cf990fb5d9973ac521449e"
     },
     "docs/general-spectra.md": {
       "bytes": 2157,
@@ -253,6 +257,10 @@
     "docs/local-cap-obstruction.md": {
       "bytes": 4469,
       "sha256": "2062b0319eb924960042c6bae0210cfb2defda1660850197fed068e6acc5d1be"
+    },
+    "docs/long-seams-density.md": {
+      "bytes": 16702,
+      "sha256": "8c2cd07883c28ba637ed0c38ae119a69777271b0b286543053e966dc2679a8fe"
     },
     "docs/n105-fixed-collar-obstructions.md": {
       "bytes": 5851,
@@ -283,8 +291,8 @@
       "sha256": "cef42abd205224ee297cf178ccd10dbb42ab3329dc9644a67bdd846127815aa4"
     },
     "docs/nonconvex-chirality-counterexample.md": {
-      "bytes": 9326,
-      "sha256": "53119befb4f05ef27beefab2f08b76f6894947ca024ff5e95999b33bc48c784b"
+      "bytes": 9637,
+      "sha256": "cbb492e3e980b3ef658615adc4ff90a05ec04b0dfe317cca9d9b961bffce1597"
     },
     "docs/nonconvex-pure-island-reduction.md": {
       "bytes": 13156,
@@ -309,6 +317,10 @@
     "docs/pure-island-exchange.md": {
       "bytes": 12164,
       "sha256": "816e76e54bdfa0aad946e46f3e4d88ec4c62192f5ee915b11c218935927c903b"
+    },
+    "docs/quantitative-density.md": {
+      "bytes": 15126,
+      "sha256": "1053906b8071a27a575f7c990e3bc507bfdbbeada24fb1869af03c1afb152500"
     },
     "docs/right-tile-orientation-bound.md": {
       "bytes": 7672,
@@ -445,6 +457,42 @@
     "research/c-relations/check_results.json": {
       "bytes": 547,
       "sha256": "2fcbce5025fcae52e454705ba15c6f0835bd50552f213a532781ab68434bfc3f"
+    },
+    "research/extreme-pure-embedding/README.md": {
+      "bytes": 3792,
+      "sha256": "b83af42ab491c2ef0b643949b8d912f6daad71e11214cae00d084a52a13ddc64"
+    },
+    "research/extreme-pure-embedding/SHA256SUMS.txt": {
+      "bytes": 675,
+      "sha256": "747055c9c474e6a3e02cc47d5c4ae4fe59151be128de63ea342d4537062dc4a6"
+    },
+    "research/extreme-pure-embedding/collar.json": {
+      "bytes": 27879,
+      "sha256": "7846a21c439ca5738a49165c61ef8c0aa2120c271a045272d9554211a22b37c8"
+    },
+    "research/extreme-pure-embedding/collar_verified.json": {
+      "bytes": 455,
+      "sha256": "5d797692564491d7b220875b57f0d98ead8c3c1da69e852fbbaacea5fbede60a"
+    },
+    "research/extreme-pure-embedding/corner_base.json": {
+      "bytes": 84807,
+      "sha256": "be88acbded33ec4e9b3a97a2a5a85de125848f74fb6882f3453124d84372308c"
+    },
+    "research/extreme-pure-embedding/corner_base_verified.json": {
+      "bytes": 572,
+      "sha256": "daac9d93a27bdd848bcbe547cd292498a8b3fb1df4cae885325e1f617c1a819a"
+    },
+    "research/extreme-pure-embedding/embedding_verified.json": {
+      "bytes": 468,
+      "sha256": "54d35345a8518128494670c4ab22b372664f10da72dc6b81e40a18666fc14518"
+    },
+    "research/extreme-pure-embedding/verify_collar.py": {
+      "bytes": 4108,
+      "sha256": "a677d3a2f3d581a935efd9ed1a7cc9cd4527974a1dc686316ac21bb421ba0826"
+    },
+    "research/extreme-pure-embedding/verify_embedding.py": {
+      "bytes": 4165,
+      "sha256": "3aa806d2c8004cbce236d1b3901680e182ede618c6ad7d3cd63e08d93f113491"
     },
     "research/general-spectra/ATTRIBUTION.md": {
       "bytes": 2494,
@@ -1263,8 +1311,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 6852,
-      "sha256": "5b62c97234715b0c69e685ef250b3a07423d19d0365e4b383bdc67798d6e9dd3"
+      "bytes": 7471,
+      "sha256": "ad76496ffffeffecbabf97d202e335d08188c7094bd8f800e50cbb4134e9414b"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,
