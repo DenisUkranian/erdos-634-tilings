@@ -1,5 +1,15 @@
 # Changelog
 
+## Local descent and the unavoidable F3 branch — 6 October 2026
+
+- Exclude every odd multiplier in square classes `6R`, for squarefree products `R` of a positive even number of primes congruent to 7 modulo 24. The proof covers unbounded prime support and all classified branches.
+- Prove a second all-odd exclusion for `30p`, with `p=13 mod24` and `3^((p-1)/4)=5^((p-1)/2) modp`. Use elementary necessary descent covers, without a rank-zero assumption or an asserted local-to-global converse.
+- Prove the exact joint real-sign and 2-adic character criterion for odd alpha coefficients, finite with certified full rational generators; retain the sign condition and give its counterexample when omitted.
+- Combine the new odd exclusions with the prior theta tail: in each family square class, membership is effectively eventually exactly parity. Small even multipliers remain undecided.
+- Give positive-rank controls and a primitive even F3 coefficient in class 1302. These distinguish exclusion of odd multipliers from absence of the whole F3 square class.
+- Refute the proposed universal bypass of F3 by other branches, through an explicit infinite family of actual F3-only counts using the prior constructive tail.
+- Add scoped exact local certificates and independent finite regressions. General small-scale geometry and the full Erdős problem remain unresolved.
+
 ## Elliptic square-class correspondences — 6 October 2026
 
 - Prove both directions of F3 square-class existence versus positive rank, with primitive reconstruction from even multiples of a non-torsion point.

@@ -115,6 +115,12 @@ def main():
         if json.loads(reports['alpha_elliptic_maps']['stdout']).get('result')!='PASS':
             raise ValueError('Alpha rational identities did not pass')
         print('ELLIPTIC_SECTORS_AND_ALPHA_MAPS=PASS',flush=True)
+        reports['local_descent']=run(['run_checks.py'],work/'research/local-descent')
+        ld=json.loads(reports['local_descent']['stdout'])
+        if ld.get('status')!='PASS' or ld.get('full_Erdos634_solved') is not False:
+            raise ValueError('Unexpected local-descent scope/report')
+        reports['local_descent']['report']=ld
+        print('LOCAL_DESCENT_ODD_MULTIPLIER_CHECKS=PASS',flush=True)
     result={'status':'ALL_FINITE_SUITES_PASS','date':datetime.now(timezone.utc).date().isoformat(),'python':sys.version,'seconds':round(time.monotonic()-started,3),'suites':reports,'full_Erdos634_solved':False,'prime_case_formally_verified':False,'human_and_published_theorems_formally_verified':False,'external_peer_review':False,'verification_boundary':'All packaged finite checks, syntax, integrity and local-link targets. Not a proof-assistant verification or independent human referee report.'}
     args.output.parent.mkdir(parents=True,exist_ok=True);args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('ALL_PUBLISHED_FINITE_SUITES=PASS',flush=True)

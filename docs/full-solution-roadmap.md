@@ -120,3 +120,20 @@ an elliptic rank-zero obstruction. The [fixed-support theorem](fixed-prime-suppo
 also supplies an effective stopping bound for composite multipliers on each
 chosen prime support. Neither result bounds the unrestricted collection of
 prime supports or removes the other classes' geometric small-scale questions.
+
+## 6 October: local descent and a limit of global replacement
+
+The [local descent theorem](local-descent-obstructions.md) excludes all odd
+multipliers for uniform families with unbounded kernel prime support. It
+continues to apply at positive elliptic rank, so zero rank is not the only
+way to remove F3 from an entire odd sector. Its finite local cover sieve is
+only a necessary-condition test: surviving covers do not certify rational
+points, and rational coefficient witnesses alone do not settle small scales.
+
+The [global-overlap theorem](f3-global-overlap.md) closes a proposed escape
+route negatively. There are infinitely many actual tiling counts for which
+every classified realization must be F3. Consequently a solution cannot
+simply discard F3 on the ground that other branches always cover its counts.
+This does not prove that a particular small F3 coefficient is unrealizable.
+The remaining general tasks include the surviving arithmetic classes and
+the exact geometric behavior below the established constructive tails.

@@ -19,8 +19,8 @@
       "sha256": "e794dba5fe4133c8918b5923f11966ffc4bb4d9841242bd4bc2ea2fa4ad7ecc4"
     },
     "CHANGELOG.md": {
-      "bytes": 16474,
-      "sha256": "181fea63d7bac8db070956a949477c7e3854d7d6b0bd7b67819abd8e770aa9f6"
+      "bytes": 17843,
+      "sha256": "bd20d6d4b3dae0fc5e662af1e713b5f5409ea661566d2b5a94172504a7515be1"
     },
     "CITATION.cff": {
       "bytes": 1425,
@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 11317,
-      "sha256": "1888af99bd4732b868e7fb86d6d8ce6b9cdd3d41a59f338175f24711950ef0e0"
+      "bytes": 12211,
+      "sha256": "9b4e81032ecb75459a0c8b50c87db7610dcb0f932ba9be8737933a4cd81b22b1"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 11567,
-      "sha256": "e9db2553c73ba32a4c870bdfa5309bb9e3c94ddc308b264f8a5734524552e5ef"
+      "bytes": 11928,
+      "sha256": "d90ba81104c17583ca13348516cec636954bc9f30258c538f5eed99a1bcfb229"
     },
     "STATUS.md": {
-      "bytes": 20825,
-      "sha256": "e65965d15bfa700a06f788f43c3693620d6a45bca7fe7ecd410056b2a76b74a3"
+      "bytes": 22093,
+      "sha256": "e263a8907f53076f7d18c4b9e95d58052a3aea9714e088c8727e9f9d237e8424"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -125,6 +125,10 @@
     "docs/alpha-congruent-numbers.md": {
       "bytes": 9645,
       "sha256": "1f2cdbb400b4d9b15ce44858f62792a6cc927e4ef912c2853c85d695f5c2cd53"
+    },
+    "docs/alpha-odd-multipliers.md": {
+      "bytes": 11598,
+      "sha256": "2d54d3e27146485973c997d41e64809c37b789b6a53dcf7e4b89205d6e7e9461"
     },
     "docs/audits/alpha21.md": {
       "bytes": 5649,
@@ -230,6 +234,10 @@
       "bytes": 4767,
       "sha256": "e02b6d7a1c1e2d7f1108a9c33faea65750533d24b2250ff6b0ff2ddc9e778c8d"
     },
+    "docs/f3-global-overlap.md": {
+      "bytes": 8447,
+      "sha256": "d44bfb52d809735b822cabd10768ae72b1fe7cd06445f7c714813bfc334709e3"
+    },
     "docs/f3-odd-multipliers.md": {
       "bytes": 12730,
       "sha256": "6470c3e34e163083c81a1ea16df606b56454e2a245a920c42959e09a834dfed2"
@@ -247,8 +255,8 @@
       "sha256": "353732e633dc0c352df9553dd82ea73378c7182a42d389981c545b6fb6a3849a"
     },
     "docs/full-solution-roadmap.md": {
-      "bytes": 14699,
-      "sha256": "501a421df8904029c63132be1aa522e1f54b875b0cb9f1a708c80034c183d5c6"
+      "bytes": 15735,
+      "sha256": "55a2ad43bb5243b42e10e13e1e7a6c536a93ef1ad0e91a86b7d5814774fb2724"
     },
     "docs/general-spectra.md": {
       "bytes": 2157,
@@ -273,6 +281,10 @@
     "docs/local-cap-obstruction.md": {
       "bytes": 4469,
       "sha256": "2062b0319eb924960042c6bae0210cfb2defda1660850197fed068e6acc5d1be"
+    },
+    "docs/local-descent-obstructions.md": {
+      "bytes": 17928,
+      "sha256": "f60460719a68eb7e07dd3492639f69bef0df189d991f707c393c20357899bfd1"
     },
     "docs/long-seams-density.md": {
       "bytes": 16702,
@@ -829,6 +841,26 @@
     "research/group2-trapezoids/verify_reversed.py": {
       "bytes": 4086,
       "sha256": "5aa26dbb4c5938c6e12eec699cdcb945b0baeef35ab4abd024b73f26a16f92e6"
+    },
+    "research/local-descent/README.md": {
+      "bytes": 6278,
+      "sha256": "4168381dbb70bcd6ee00a47181bb60229624016d30e15c44aa2c90870193e6ad"
+    },
+    "research/local-descent/SHA256SUMS.txt": {
+      "bytes": 328,
+      "sha256": "9d1373c827a0c62f7fc8104a3a26b447d45157b5ba8ce0d3f7d00bd9a33964fe"
+    },
+    "research/local-descent/local_obstructions.py": {
+      "bytes": 13159,
+      "sha256": "195b5ecbd76a5fb954fb23c18314154f81a9a6f1c2be10d7c1bc49e5a2fe1e5c"
+    },
+    "research/local-descent/run_checks.py": {
+      "bytes": 13084,
+      "sha256": "29a465e98b73e60f5e51cc020bab1e06e771f34822199e1aef0a82a1278dc200"
+    },
+    "research/local-descent/verification.json": {
+      "bytes": 233761,
+      "sha256": "f0aa9e2e586894c61d4ba797a72eb7673049c539e163ea22b5bddc824a6285bb"
     },
     "research/n105/BASELINE_LEMMAS.md": {
       "bytes": 17972,
@@ -1443,8 +1475,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 9015,
-      "sha256": "266587b5dc68bc96e4dc312404ea239ff65e45ff3356048d35fa943353cbe863"
+      "bytes": 9428,
+      "sha256": "31fdd83dc94ec9d6b740a7356384478e1c676e12d64acd658d102a5376ec5b5e"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,
