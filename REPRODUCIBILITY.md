@@ -50,6 +50,10 @@ The historical false rule that marked an interior tile merely touching the exter
 
 `verification/manifest.json` binds source, data and published document bytes. `scripts/build_manifest.py` deliberately rebuilds this ledger for a new publication; it is **not** a mathematical test. Do not regenerate hashes merely to make a failed integrity check disappear. `verification/replay.json` is a legacy mutable output excluded from that manifest; the coordinator produces fresh reports under `audit-output/` instead.
 
+The F3 vertex-inventory package hash is also updated for the explicit
+editorial correction recording the later 990 construction. Its inventory
+algorithm and retained fixtures are unchanged.
+
 Each imported research package retains a `SHA256SUMS.txt`. For this publication the package manifests are synchronized with the explicitly documented editorial changes. Original ZIP digests are in [import-provenance.json](verification/import-provenance.json). The expanded gzip coordinate file is bound both as a file and by its uncompressed stream digest, since gzip timestamps alone can change compressed bytes.
 
 The 6 October seam-certificate continuation corrects one explanatory sentence
@@ -116,12 +120,33 @@ of every older, unchanged suite.
 The last command checks the scoped membership tool's conclusive YES/NO,
 unresolved small-scale status and input rejection. To inspect N=990, run
 `python research/arithmetic-continuation/classify_global_sector.py 110 3`:
-it correctly reports UNRESOLVED_SMALL_SCALE. See the
+it now reports YES using the newly proved nested-corner construction. See the
 [package instructions](research/arithmetic-continuation/) for the exact
 domain and runtime limitations.
 
 The [source continuation audit](docs/audits/source-continuation-2026-10-06.md)
 also records the attribution correction for the F3 vertex-count argument.
+
+## Nested corners and the complete ratio cone (6 October 2026)
+
+```sh
+python research/group2-nested-corners/run_checks.py
+python research/group2-nested-corners/check_balanced_7_5_small.py
+python research/f3-descent-attempt/semigroup_tail.py
+python research/arithmetic-continuation/check_squarefree_f3_front.py
+```
+
+The first command independently verifies the complete 345-, 506- and
+990-tile coordinate certificates, the coordinate-free 990 disk, and a
+negative overlap mutation. The second verifies exact semigroup witnesses
+for all 240 primitive triples with `1<a/b<=7/5` and `b<4900`; it compares
+complete parameter and direct-side enumerations. Together with the written
+uniform `b>=4900` theorem, this closes the whole stated ratio range.
+The third checks the conductor algorithm, including factor-three
+normalization. The fourth is a finite regression for the separately
+proved infinite family of squarefree F3-only arithmetic candidates.
+All are included in the coordinator. This publication records focused
+replays of these new checks, not a fresh run of every unchanged suite.
 
 ## Optional rebuild of publication outputs
 

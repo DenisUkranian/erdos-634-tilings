@@ -244,13 +244,20 @@ The companion CLI prints its finite witness list and cutoff C:
 python research/arithmetic-continuation/classify_global_sector.py 38 3
 python research/arithmetic-continuation/classify_global_sector.py 110 3
 python research/arithmetic-continuation/classify_global_sector.py 110 15
+python research/arithmetic-continuation/classify_global_sector.py 4830 1
 ```
 
-The respective results are `NO`, `UNRESOLVED_SMALL_SCALE`, and `YES`.
-It accepts only positive even squarefree d and positive odd m. It uses
-the already established sufficient thresholds in
-`research/square-class-tails/classify.py`; it does not write a tiling
-certificate or modify files.
+The respective results are `NO`, `YES`, `YES`, and
+`UNRESOLVED_SMALL_SCALE`. It accepts only positive even squarefree d
+and positive odd m. It uses the already established thresholds in
+`research/square-class-tails/classify.py`, improved to threshold one
+when a proved unit seed applies. These improvements are the old
+oriented F4 construction and the new nested-corner condition
+`Bc−A² in <A,B,c>`, for `A=max(a,b)>B=min(a,b)` and width k=1.
+The latter covers reversed F4, symmetric F2 and both F3 orientations,
+as proved in `research/group2-nested-corners/PROOF.md`. It now includes
+the 990 seed and the complete odd-multiplier class-110 criterion.
+The tool does not write a tiling certificate or modify files.
 
 `NO` means that every necessary primitive witness has been excluded,
 not merely that the input falls below C. `YES` supplies a classical or
@@ -264,7 +271,8 @@ The bounds are deliberately coarse, and enumeration can become
 expensive as dH² grows. The tool is a reproducible implementation of
 this scoped reduction, not an efficient general solver for all counts.
 
-`check_global_sector_cli.py` checks these three outputs, the classical
+`check_global_sector_cli.py` checks these four outputs, the classical
 case, and rejection of odd kernels, even multipliers, nonsquarefree
-kernels and nonpositive inputs. Its saved report is
+kernels and nonpositive inputs. It also checks both short-side orders
+for F2/F3 and the two F4 construction orientations. Its saved report is
 `global-sector-cli-verification.json`.

@@ -28,6 +28,45 @@ def load_threshold():
 old_threshold=load_threshold()
 
 
+def three_generator_witness(r,A,B,c):
+    """Return nonnegative x,y,q with r=x*A+y*B+q*c, or None."""
+    if r<0:
+        return None
+    if B==1:
+        return (0,r,0)
+    inverse=pow(A,-1,B)  # Primitive norm sides are coprime.
+    for q in range(r//c+1):
+        remainder=r-q*c
+        x=(remainder*inverse)%B
+        if x*A<=remainder:
+            return (x,(remainder-x*A)//B,q)
+    return None
+
+
+def construction_threshold(witness):
+    """Use proved unit seeds before falling back to prior fixed-tile tails."""
+    branch=witness["branch"]
+    witness["threshold_source"]="prior_square_class_tail"
+    if branch not in ("F2","F3","F4"):
+        return old_threshold(witness)
+    a,b,c=witness["a"],witness["b"],witness["c"]
+    if branch=="F4" and a<b:
+        witness["threshold_source"]="oriented_F4_unit_construction"
+        return 1
+    A,B=max(a,b),min(a,b)
+    r=B*c-A*A
+    seed=three_generator_witness(r,A,B,c)
+    if A>B and c>=A-B and seed is not None:
+        # The reflected F4 theorem uses A>B. Its symmetric F2 bridge
+        # and the two F3 attachments give both F2/F3 side orders.
+        witness["threshold_source"]="nested_corner_unit_construction"
+        witness["nested_corner_seed"]={"larger_short_side":A,
+                                       "smaller_short_side":B,"k":1,
+                                       "remainder":r,"coefficients_a_b_c":list(seed)}
+        return 1
+    return old_threshold(witness)
+
+
 def classify(d,m):
     if d<=0 or d%2 or any(e!=1 for e in norms.factors(d).values()):
         raise ValueError("d must be a positive even squarefree integer")
@@ -61,7 +100,7 @@ def classify(d,m):
     for witness in witnesses:
         s=witness["coefficient_multiplier"]
         assert witness["coefficient"]==d*s*s
-        witness["sufficient_branch_multiplier"]=old_threshold(witness)
+        witness["sufficient_branch_multiplier"]=construction_threshold(witness)
         witness["divides_multiplier"]=(m%s==0)
         witness["residual_multiplier"]=m//s if m%s==0 else None
     witnesses.sort(key=lambda w:(w["branch"],w["coefficient"],
@@ -75,7 +114,7 @@ def classify(d,m):
     result.update(sector_cutoff_C=C,all_witnesses=witnesses,
                   dividing_witness_count=len(dividing))
     if constructive:
-        return dict(result,status="YES",reason="existing_constructive_tail",
+        return dict(result,status="YES",reason="proved_construction_threshold",
                     witness=constructive[0])
     if not dividing:
         return dict(result,status="NO",reason="no_necessary_primitive_witness")

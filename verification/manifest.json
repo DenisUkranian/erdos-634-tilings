@@ -19,8 +19,8 @@
       "sha256": "e794dba5fe4133c8918b5923f11966ffc4bb4d9841242bd4bc2ea2fa4ad7ecc4"
     },
     "CHANGELOG.md": {
-      "bytes": 21369,
-      "sha256": "f91f529ce78c8f4210852ca28f8724c37e22b58dc84398e927896eb6a4506913"
+      "bytes": 23072,
+      "sha256": "7405376c6af9a528fee85b2ea49d07ac13297df8a260676ed5ad0e03e0cc94df"
     },
     "CITATION.cff": {
       "bytes": 1425,
@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 16701,
-      "sha256": "55842fdd13815ff8c0c5567a325341c9159145a83cf563b983c9745a7573223d"
+      "bytes": 18419,
+      "sha256": "d282046688199e72eadb3c42aa30683ad77f6ec68d75aeffb11ffa5f75f64690"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 16107,
-      "sha256": "52a92159b33057e047e7acdf4001939a997697e9268d7d2aa25df1b80ef7b13f"
+      "bytes": 17411,
+      "sha256": "67b37af3c1682eb57f92f289442a5e9fd85ceb4bc9bf0f8282085a3fd3e23464"
     },
     "STATUS.md": {
-      "bytes": 27642,
-      "sha256": "3dbcab512c2e77cbb55b1c324130efd2786ec51e99b4978da0397755a2e6fca6"
+      "bytes": 29165,
+      "sha256": "bed0c5b12d4bab0f17ebf05e8dce6c789fb215d238343243ccde0b8e58e5fbc7"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -174,6 +174,10 @@
       "bytes": 6808,
       "sha256": "8426196433eba31759b528de3a427714e7339b3bb3bd081ca0a0afe2845fe92a"
     },
+    "docs/audits/prime-case-dependency-2026-10-06.md": {
+      "bytes": 4894,
+      "sha256": "f26035da4e175851658a7a8e0bbf1f03465a0f04d7909fb8ab6c867d208b147b"
+    },
     "docs/audits/prime-case-review-addendum.md": {
       "bytes": 13582,
       "sha256": "6de7b383efdb9ab8a441ac0ec6faf7eaa0b80e5dd09b673559b973a588fc5b9e"
@@ -218,6 +222,10 @@
       "bytes": 4026,
       "sha256": "59dc7111919cdd2d69e341c9bd59db6aa6e4d08d534e71681acb08449ac29704"
     },
+    "docs/chirality-collar-budget.md": {
+      "bytes": 1218,
+      "sha256": "c1fcb577302820e3e336518913723c6411f9cc22ec2f2a16ed5406ea52ee8c9b"
+    },
     "docs/convex-pure-island-classification.md": {
       "bytes": 17290,
       "sha256": "343c4ec89db9baf3bbaa41f22c8f71437722b8d2416f7937dd797dadc48c03b1"
@@ -255,8 +263,8 @@
       "sha256": "6470c3e34e163083c81a1ea16df606b56454e2a245a920c42959e09a834dfed2"
     },
     "docs/f3-vertex-defects.md": {
-      "bytes": 6876,
-      "sha256": "584231b808d0021064dff912e73ba203dedde64404a95846ef4214ea16d50818"
+      "bytes": 7019,
+      "sha256": "ebc599148359576e83f38fdbcd2e187b21519e1879eed77b8ee92e526edb76a7"
     },
     "docs/finite-schemes-attack.md": {
       "bytes": 8921,
@@ -271,8 +279,8 @@
       "sha256": "353732e633dc0c352df9553dd82ea73378c7182a42d389981c545b6fb6a3849a"
     },
     "docs/full-solution-roadmap.md": {
-      "bytes": 21686,
-      "sha256": "25f427e77b7d7777407623a380bb6f7de61120d0af28171ea338bc81d1f0e788"
+      "bytes": 22455,
+      "sha256": "e3fa80b8151af58124439c32eef6f6a855911f01ff8b85984eee384b5eab084d"
     },
     "docs/general-spectra.md": {
       "bytes": 2157,
@@ -386,6 +394,10 @@
       "bytes": 3110,
       "sha256": "198fad9d8130b1f8a8686e8f8e0b75896771a7fc70a1ff82af2e7da81be07e76"
     },
+    "docs/square-class-110-odd.md": {
+      "bytes": 3834,
+      "sha256": "a1f4422e0643bb958beb46898497b4f58b182d10049421c01ead864b64291d43"
+    },
     "docs/square-class-22.md": {
       "bytes": 15516,
       "sha256": "29458f0f47d29b259898e54194c9c5d3eb5b6279a4510083b594da2d37fed8e0"
@@ -487,12 +499,12 @@
       "sha256": "629afe216584a34791c9c4c50d6441e11c443676c13cdaf0e439c66cec23d649"
     },
     "research/arithmetic-continuation/F3_SPLIT_PART_REDUCTION.md": {
-      "bytes": 8863,
-      "sha256": "fa50f8ff09bd1a156bc0972b490dc0197c0c1a1c6857d998e89691d8ff247664"
+      "bytes": 9106,
+      "sha256": "0e0aa9b18f33ea979cdfacd28db99e430a837864da2b01b7f05e1c900227ead7"
     },
     "research/arithmetic-continuation/GLOBAL_FIXED_SPLIT_PART.md": {
-      "bytes": 11319,
-      "sha256": "e1a04c74181a5fc3c54adb9ec7b18d4ce3770e604dd640fa126eb7893352d446"
+      "bytes": 11908,
+      "sha256": "5260943207a99be59e731ed1452c24f52b5ae734769e06320a9a1bdb93cce2d6"
     },
     "research/arithmetic-continuation/GLOBAL_FIXED_SPLIT_PART_AUDIT.md": {
       "bytes": 5772,
@@ -511,12 +523,16 @@
       "sha256": "cd887ca8052b502b3cd39b4e6366779a668bb7eac332ce630dfe19d11ce9d80d"
     },
     "research/arithmetic-continuation/README.md": {
-      "bytes": 2875,
-      "sha256": "9c8f916dcd0a3edcae0b655898a97fc7a651933413f06e2a9e0a7c5a165c3ea5"
+      "bytes": 3548,
+      "sha256": "b8c23c6e93184c9ea55e10c75db4413645aff15c0a425d84199b1e40fcf20049"
+    },
+    "research/arithmetic-continuation/SQUAREFREE_F3_FRONT.md": {
+      "bytes": 5820,
+      "sha256": "6f0ded4d2e51beedb66f3a2d904788452e943280611055e53b6b824227d261b7"
     },
     "research/arithmetic-continuation/check_global_sector_cli.py": {
-      "bytes": 1932,
-      "sha256": "765777835d17e253eca203e83eeb9d399b7a5d163ccaead430f29a294a76f074"
+      "bytes": 3103,
+      "sha256": "e9316024e8b7b3b7c3d0b44ce4116dbfec42c163fb50ab681755efae7d4f1034"
     },
     "research/arithmetic-continuation/check_global_split_part.py": {
       "bytes": 5461,
@@ -534,13 +550,17 @@
       "bytes": 4209,
       "sha256": "4d2ecf1f4bf88ba3f97be43783bc0fbf5ce71db6acf76309af7c1603a6f10842"
     },
+    "research/arithmetic-continuation/check_squarefree_f3_front.py": {
+      "bytes": 2363,
+      "sha256": "e208809d22b891b4e34acbf65cff719fc4aaf30abd65aba2e2f98b9154f4ce16"
+    },
     "research/arithmetic-continuation/classify_global_sector.py": {
-      "bytes": 4215,
-      "sha256": "bb60215c0649a723ec144494b97a4813df7bc4eacefd59ba9ab8257b32354da1"
+      "bytes": 5675,
+      "sha256": "8f7af6a6802c6cfc5a7c5da47e9ac1f3425109492f96d57bbeafb410a8b7a513"
     },
     "research/arithmetic-continuation/global-sector-cli-verification.json": {
-      "bytes": 915,
-      "sha256": "63ad102c9347c1496cb066065d21876922b093e348541a4b90b2e7c0c5916800"
+      "bytes": 1848,
+      "sha256": "204e120a2a13c591b2af199af4d967fe5078061e780e7117838429e53be889e3"
     },
     "research/arithmetic-continuation/global-split-verification.json": {
       "bytes": 2303,
@@ -557,6 +577,10 @@
     "research/arithmetic-continuation/split-part-verification.json": {
       "bytes": 530,
       "sha256": "b99e19cd8f65d78930ae5fcb786a1415d11a2728a4adcc18a7ad4d5789d4d525"
+    },
+    "research/arithmetic-continuation/squarefree-f3-front-verification.json": {
+      "bytes": 3551,
+      "sha256": "887d24aeac13dd18e589b58523dd4bbb7ab73cf1a78e002bb8d7a28d6ce3946f"
     },
     "research/attempt-obstructions/README.md": {
       "bytes": 725,
@@ -743,16 +767,40 @@
       "sha256": "3aa806d2c8004cbce236d1b3901680e182ede618c6ad7d3cd63e08d93f113491"
     },
     "research/f3-core-attempt/README.md": {
-      "bytes": 5266,
-      "sha256": "1c755382711e92bef1ea2d6e15f9ed662fc221e54de0a1dc13613198c0939288"
+      "bytes": 5521,
+      "sha256": "01fce573bac942e653e8f1e399ff5db86cbb072c72d4b92e54a023d0f5194e06"
+    },
+    "research/f3-descent-attempt/README.md": {
+      "bytes": 1466,
+      "sha256": "1d444826a99708a5259758f20fe01c121324d5d28dbe6098fb52a4b8e4afc236"
+    },
+    "research/f3-descent-attempt/SMALL_POLYGONS.md": {
+      "bytes": 9114,
+      "sha256": "f0e75f0cb358818041fd255721b4b7d50f3d649a2c91a28d6ed73d56ed512d8f"
+    },
+    "research/f3-descent-attempt/TERNARY_SEMIGROUP_TAIL.md": {
+      "bytes": 8083,
+      "sha256": "4f41ec303dd5660a8f51236547f7efa44c5161032204e03580e0d6ceeb3388e4"
+    },
+    "research/f3-descent-attempt/balanced_7_5_independent_audit.json": {
+      "bytes": 679,
+      "sha256": "e4497209bf2d5415b357840c6d331061477fb587bb10d1386b081dd5f9c0e33e"
+    },
+    "research/f3-descent-attempt/semigroup_tail.py": {
+      "bytes": 3083,
+      "sha256": "59eb6f0648ab4b31a825d32af421b0f9adc53a446a61f963aedc591b871e4643"
+    },
+    "research/f3-descent-attempt/semigroup_tail_report.json": {
+      "bytes": 905,
+      "sha256": "a891576709b4e061972bacc8f9da5243ad2a3e3fb177e944d2a960b98d14d870"
     },
     "research/f3-vertex-defects/README.md": {
-      "bytes": 1813,
-      "sha256": "c0864a7775cf23f58b490cd248cce4419855d23d3bfed8e60933b20169ac6f4b"
+      "bytes": 1914,
+      "sha256": "5fb4f670b2959899836fb08c101e28da34519dea20a930c9c476b6739bbb1887"
     },
     "research/f3-vertex-defects/SHA256SUMS.txt": {
       "bytes": 251,
-      "sha256": "e21c94ae064649e006fecb89ee4680e12c156f49f168f6678e98ce3e2b664a95"
+      "sha256": "7efdb7cd45cc5a01a4d22d6f645cc961380c5290d58d223225fdc702ce378dd3"
     },
     "research/f3-vertex-defects/check_inventory.py": {
       "bytes": 4021,
@@ -861,6 +909,90 @@
     "research/group2-f4/verify.py": {
       "bytes": 4077,
       "sha256": "ae4638b68ee14f3769dff15429c965b06a14b7456be25cc122dabda042b37495"
+    },
+    "research/group2-nested-corners/PROOF.md": {
+      "bytes": 7763,
+      "sha256": "a894b2281fea0a19fcd187aa20949d06972f7d53ad75f4f72a92188740a908e7"
+    },
+    "research/group2-nested-corners/README.md": {
+      "bytes": 1720,
+      "sha256": "aae5616e466e9624d6f390818abfac60224748cb4e6122e414618a27636d342f"
+    },
+    "research/group2-nested-corners/VERIFIED_RESULTS.json": {
+      "bytes": 967,
+      "sha256": "59e83ee7d7284319f0cde45811130c22d1f4354cfcc7d0af7b11bef94b91578b"
+    },
+    "research/group2-nested-corners/balanced-7-5-small-report.json": {
+      "bytes": 257,
+      "sha256": "8daebe1f13bb19dbf902babbd33db807373db5321d9f96303ccd77f53859a299"
+    },
+    "research/group2-nested-corners/balanced-7-5-small-witnesses.json": {
+      "bytes": 35286,
+      "sha256": "da1670a8a00cea1ccd03f6092a38e65e9e04b76578a77466841920043e3a3bd8"
+    },
+    "research/group2-nested-corners/check_balanced_7_5_small.py": {
+      "bytes": 3432,
+      "sha256": "dff9b46bcad02f244991ebadeabac5ac2b17463679dd88c75be14aaa34864eb4"
+    },
+    "research/group2-nested-corners/construct.py": {
+      "bytes": 6084,
+      "sha256": "0a5c58009fc2ffd049733f4238ab092fbd9a3f9b415b7d96cac1884cf1336a33"
+    },
+    "research/group2-nested-corners/disk-990.json": {
+      "bytes": 72681,
+      "sha256": "f60283c6d7a83d63709ee96d02c993b10a8791ec2a809960a2e4256b16b5b54a"
+    },
+    "research/group2-nested-corners/export_disk.py": {
+      "bytes": 4235,
+      "sha256": "11b20765e53a349972c39c21880d97ca4f3c0a2d94e9e6945b4e226bb948e5d2"
+    },
+    "research/group2-nested-corners/f2-506-geometric-report.json": {
+      "bytes": 522,
+      "sha256": "db8a7df0f6cca3bf01d34b97efa3de3df2e40ffa76dbdd8b2196058953d4980b"
+    },
+    "research/group2-nested-corners/f2-506.json": {
+      "bytes": 32364,
+      "sha256": "41c3b600cefab913ccf17cbecb9738f85e4fd67b46ed601c0aa0e804d79df32e"
+    },
+    "research/group2-nested-corners/f3-990-disk-report.json": {
+      "bytes": 1262,
+      "sha256": "8fb475ec034589e0d9babc0d747dd62392db58bc6cf24595d76e92866c96dfc8"
+    },
+    "research/group2-nested-corners/f3-990-export-report.json": {
+      "bytes": 355,
+      "sha256": "8ecca929083f375b014343816a3d74f3cd6b0ffffcc1c8578372b277d3d2120a"
+    },
+    "research/group2-nested-corners/f3-990-geometric-report.json": {
+      "bytes": 522,
+      "sha256": "91268e1a109bf76cbc6b1ff042e0585f42791e61894776618cfde1f4bb216a71"
+    },
+    "research/group2-nested-corners/f3-990.json": {
+      "bytes": 70419,
+      "sha256": "cd277eeb1eba8db80610465dbaac80b85add26cd028789c00bb76512e1b9ce09"
+    },
+    "research/group2-nested-corners/f4-345-geometric-report.json": {
+      "bytes": 520,
+      "sha256": "73d2813d51b85590f829a9bc18fb1e4f4dd5a25d1319dd2fa83ea8b95967b221"
+    },
+    "research/group2-nested-corners/f4-345.json": {
+      "bytes": 18857,
+      "sha256": "7a8eb930d26eb084c30d2212f69abfaf4600cf24695070c0ca904b7da5ca59a7"
+    },
+    "research/group2-nested-corners/run_checks.py": {
+      "bytes": 2092,
+      "sha256": "666505d3499da87c9aaecd25a84c189c36186e6df392a84e2cbf6e3eb360d40e"
+    },
+    "research/group2-nested-corners/test_verifier.py": {
+      "bytes": 1357,
+      "sha256": "4a611e1980dbada2775b096bbbf1e85a21651794079c532b5252fffe221a08f2"
+    },
+    "research/group2-nested-corners/verifier-test-report.json": {
+      "bytes": 209,
+      "sha256": "4ca17b3b34bcd1d7e3760b662df4d82389652ee51ce6736938ac270f17f61d49"
+    },
+    "research/group2-nested-corners/verify.py": {
+      "bytes": 4864,
+      "sha256": "1fc07050b47b6449b2d693242f90915924cc3b6254a920dfbea592c2518a357f"
     },
     "research/group2-trapezoids/BALANCED_F4.md": {
       "bytes": 12544,
@@ -1655,8 +1787,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 10640,
-      "sha256": "dd0099e40ad17bcaabaa0473d20c505015078acb49767b6a18f2f908ac985e27"
+      "bytes": 11024,
+      "sha256": "7268b069532027616931d5d62ee65ad04237338e5440f7201f758d63f00113e4"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

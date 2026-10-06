@@ -1,9 +1,13 @@
 # The 54-tile mixed parallelogram route to the primitive F3 count 990
 
-**Status: INCOMPLETE.** There is no complete tiling certificate or proved
-impossibility for the parallelogram studied here. In particular this attempt
-does not settle 990 or Erdős problem 634. The exploratory search programs
-are not retained as certified repository machinery.
+**Status of this 54-tile parallelogram: INCOMPLETE.** There is no complete
+tiling certificate or proved impossibility for the parallelogram studied
+here. A later [nested-corner construction](../group2-nested-corners/PROOF.md)
+does construct **990** by a different positive partition, with a fully
+checked 990-tile certificate. Thus this unresolved auxiliary parallelogram
+is no longer a barrier to that count. Erdős problem 634 remains unresolved.
+The exploratory search programs are not retained as certified repository
+machinery.
 
 ## Exact sufficient reduction
 

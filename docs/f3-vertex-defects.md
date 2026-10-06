@@ -3,7 +3,9 @@
 **Research directed by Denis Paliy, with ChatGPT assistance — 6 October 2026.**
 
 This note supplies necessary geometric conditions for F3 certificates. It
-does not construct or exclude the scale-one candidates 990 and 4830.
+does not itself construct or exclude the scale-one candidates 990 and 4830.
+A subsequent [nested-corner construction](../research/group2-nested-corners/PROOF.md)
+resolves 990 positively; 4830 remains unresolved.
 The local vertex inventory and triple-obtuse accounting are prior results
 of [Beeson–Zhang, arXiv:2604.01314v1](https://arxiv.org/html/2604.01314v1),
 Table 2 and the proof of Lemma 3.5, Table 3. Their proof of Lemma 3.4 also

@@ -130,7 +130,11 @@ def main():
                 ('f3_split_part','arithmetic-continuation','check_split_part.py'),
                 ('four_norm_split_parts','arithmetic-continuation','check_other_split_branches.py'),
                 ('global_fixed_split_part','arithmetic-continuation','check_global_split_part.py'),
-                ('global_sector_cli','arithmetic-continuation','check_global_sector_cli.py')]:
+                ('global_sector_cli','arithmetic-continuation','check_global_sector_cli.py'),
+                ('nested_corner_certificates','group2-nested-corners','run_checks.py'),
+                ('balanced_ratio_finite_completion','group2-nested-corners','check_balanced_7_5_small.py'),
+                ('ternary_semigroup_conductor','f3-descent-attempt','semigroup_tail.py'),
+                ('squarefree_f3_front','arithmetic-continuation','check_squarefree_f3_front.py')]:
             reports[key]=run([command],work/'research'/package)
             pr=json.loads(reports[key]['stdout'])
             if pr.get('status')!='PASS' or pr.get('full_Erdos634_solved') is not False:

@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "full_Erdos634_solved": false,
+  "coprime_parameter_triples": 489,
+  "residue_representatives_checked": 219351,
+  "normalizations": {
+    "1": 369,
+    "3": 120
+  },
+  "large_examples": [
+    {
+      "tile": [
+        9301,
+        6960,
+        14131
+      ],
+      "normalization": 1,
+      "remainder": 11843159,
+      "representation": {
+        "A": 1184,
+        "B": 28,
+        "C": 45,
+        "m": 101,
+        "n": 30,
+        "conductor_bound": 2720739
+      }
+    },
+    {
+      "tile": [
+        9143,
+        6600,
+        13693
+      ],
+      "normalization": 3,
+      "remainder": 6779351,
+      "representation": {
+        "A": 550,
+        "B": 147,
+        "C": 57,
+        "m": 173,
+        "n": 50,
+        "conductor_bound": 4484753
+      }
+    }
+  ],
+  "scope": "Exact arithmetic replay. Positive tilings use the separately proved nested-corner theorem."
+}

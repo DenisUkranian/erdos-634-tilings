@@ -1,5 +1,16 @@
 # Changelog
 
+## Nested corners, the 990 tiling and a complete odd square class — 6 October 2026
+
+- Construct 990 congruent `(8,7,13)` triangles inside the triangle `(169,286,315)`. Independently verify every pair and a second coordinate-free disk certificate, including 100 T-junctions; retain a negative overlap test.
+- Complete the entire odd sector of square class 110: `110m²` is admissible if and only if `3|m` for odd `m`.
+- Prove the general nested-corner criterion `kc>=m(a-b)` and `mbc-a²k in <a,b,c>` for reversed F4, F2 and both F3 orientations. The coefficient of `c` enlarges the grid height rather than asking for an impossible narrow strip.
+- Obtain all multipliers for every primitive tile with `1<a/b<=7/5`, combining a uniform conductor theorem with exact witnesses for all 240 smaller triples. Every fixed cone below the positive root of `R³-R²-1=0` has a uniform large-side theorem.
+- Prove infinitely many squarefree F3-only arithmetic candidates, beginning with the still-unresolved 4830. Squarefreeness prevents moving these counts into larger residual scales by changing tiles.
+- Audit both existing scale-one W/beta forcing arguments without finding a dependency gap. Retain their manuscript status and distinguish these fixed-scale arguments from full classification.
+- Record the small balanced-polygon rigidity theorem and the fixed-width collar obstruction, with their restricted scope. Neither is a nonexistence result for 4830.
+- Update the membership tool, current claim ledger and verification coordinator. The earlier entries below describe historical snapshots: their unresolved-990 status is superseded by this construction. The complete Erdős problem remains unresolved.
+
 ## Split-prime sectors and the quantitative geometric remainder — 6 October 2026
 
 - Extend the bounded-factor approach to a global theorem for even squarefree kernels and odd multipliers with a fixed joint split part. All eight surviving nonclassical rows admit one finite coefficient list, uniform over unrestricted complementary prime support in `3` and the classes `5,19 mod24`. Existing constructive thresholds give an exact global eventual criterion; the small remainder is not decided.

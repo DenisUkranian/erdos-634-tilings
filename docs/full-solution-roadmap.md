@@ -170,12 +170,25 @@ At scale one, UV=330 has the sole admissible factor pair (22,15), giving
 (8,7,13). These facts do **not** exclude either count; they show that
 coefficient replacement cannot remove their primitive geometric question.
 
-For odd m in the entire class 110m², the same isolation test forces F3.
-If 3 does not divide m, its coefficient cannot exist. If 3 divides m and
-m>=9, the fixed tile (8,7,13) works: its coefficient is 990 and its residual
-scale m/3 is at least 3, covered by the prior balanced construction for
-all scales at least 2. Thus the odd sector of this class reduces to the
-single unresolved count N=990. This is a reduction, not a decision of 990.
+The new [nested-corner theorem](../research/group2-nested-corners/PROOF.md)
+now resolves **990 positively**. Its target `(169,286,315)` has 990
+congruent `(8,7,13)` tiles, checked independently by pairwise rational
+geometry and by the incidence-only disk verifier. Therefore the
+[entire odd sector of square class 110](square-class-110-odd.md) is now
+classified: `110m²` is admissible if and only if `3|m` for odd m.
+The prior 54-tile auxiliary parallelogram remains an unresolved separate
+construction route; it is no longer needed for 990.
+
+The positive theorem covers reversed F4, F2 and both F3 orientations
+whenever `kc>=m(a-b)` and `mbc-a²k in <a,b,c>`. A
+[uniform conductor bound and complete finite audit](../research/f3-descent-attempt/TERNARY_SEMIGROUP_TAIL.md)
+give **every multiplier for every primitive tile with `1<a/b<=7/5`**.
+This removes a full range of primitive geometric cases, not only 990.
+
+The [squarefree F3 front](../research/arithmetic-continuation/SQUAREFREE_F3_FRONT.md)
+contains infinitely many necessary coefficient candidates of residual
+scale one, beginning with **4830, still unresolved**. Neither the positive
+cone nor the large-scale arithmetic theorems decides this front.
 
 The full problem is still unsolved here. The attempted pure-island size
 bound, the diagnostic corner-quadrilateral search, and local transport

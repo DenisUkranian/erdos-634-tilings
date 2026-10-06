@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "primitive_triples": 240,
+  "full_Erdos634_solved": false,
+  "all_integer_witnesses_valid": true,
+  "independent_parameter_and_side_enumerations_agree": true,
+  "scope": "Finite part b<4900; combine with TERNARY_SEMIGROUP_TAIL.md"
+}

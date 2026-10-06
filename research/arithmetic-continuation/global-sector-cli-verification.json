@@ -1,4 +1,5 @@
 {
+  "4830_retains_prior_threshold": 6,
   "full_Erdos634_solved": false,
   "invalid_scope_inputs_rejected": [
     [
@@ -32,6 +33,44 @@
   ],
   "scope": "CLI status and scope controls, not a complete geometric solver",
   "status": "PASS",
+  "unit_seed_orientation_controls": [
+    {
+      "a": 8,
+      "b": 7,
+      "branch": "F2",
+      "threshold_source": "nested_corner_unit_construction"
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "branch": "F2",
+      "threshold_source": "nested_corner_unit_construction"
+    },
+    {
+      "a": 8,
+      "b": 7,
+      "branch": "F3",
+      "threshold_source": "nested_corner_unit_construction"
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "branch": "F3",
+      "threshold_source": "nested_corner_unit_construction"
+    },
+    {
+      "a": 8,
+      "b": 7,
+      "branch": "F4",
+      "threshold_source": "nested_corner_unit_construction"
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "branch": "F4",
+      "threshold_source": "oriented_F4_unit_construction"
+    }
+  ],
   "valid_status_checks": [
     {
       "d": 38,
@@ -43,15 +82,22 @@
     {
       "d": 110,
       "m": 3,
-      "sector_cutoff_C": 15,
-      "status": "UNRESOLVED_SMALL_SCALE",
+      "sector_cutoff_C": 3,
+      "status": "YES",
       "witness_count": 1
     },
     {
       "d": 110,
       "m": 15,
-      "sector_cutoff_C": 15,
+      "sector_cutoff_C": 3,
       "status": "YES",
+      "witness_count": 1
+    },
+    {
+      "d": 4830,
+      "m": 1,
+      "sector_cutoff_C": 6,
+      "status": "UNRESOLVED_SMALL_SCALE",
       "witness_count": 1
     },
     {

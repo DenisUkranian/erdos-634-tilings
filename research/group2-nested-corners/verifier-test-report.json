@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "positive_N": 990,
+  "negative_duplicate_preserves_count_congruence_containment_and_area": true,
+  "negative_rejection": "Positive-area overlap 1, 0",
+  "full_Erdos634_solved": false
+}

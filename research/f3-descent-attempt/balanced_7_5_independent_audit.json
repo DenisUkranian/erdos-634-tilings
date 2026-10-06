@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Separate direct-side enumeration and independent replay of all stored nonnegative semigroup identities; not a second geometric construction.",
+  "direct_side_range": {
+    "b_min": 1,
+    "b_max": 4899,
+    "a_min": "b+1",
+    "a_max": "floor(7*b/5)",
+    "filters": ["gcd(a,b)=1", "a*a+a*b+b*b is an integer square"]
+  },
+  "direct_side_enumeration_count": 240,
+  "maximum_b_in_retained_list": 4888,
+  "semigroup_witnesses_replayed": 240,
+  "complete_set_equality": true,
+  "certificate": "../group2-nested-corners/balanced-7-5-small-witnesses.json",
+  "certificate_sha256": "da1670a8a00cea1ccd03f6092a38e65e9e04b76578a77466841920043e3a3bd8"
+}

@@ -4,7 +4,9 @@ The proof is [Necessary vertex defects](../../docs/f3-vertex-defects.md).
 Every F3 tiling by an integer-sided 120-degree tile must have a triple-γ
 interior vertex and a mixed T-junction, with the exact inequalities stated
 there. For consecutive shorter tile sides it must also have a unit seam
-atom. These are necessary conditions; neither 990 nor 4830 is decided.
+atom. These are necessary conditions only. The subsequent
+[nested-corner construction](../group2-nested-corners/PROOF.md) resolves
+990 positively; 4830 remains unresolved.
 
 Run from the repository root:
 

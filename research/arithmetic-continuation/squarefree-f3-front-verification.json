@@ -1,0 +1,199 @@
+{
+  "examples": [
+    {
+      "coefficient": 4830,
+      "factorization": {
+        "2": 1,
+        "3": 1,
+        "5": 1,
+        "7": 1,
+        "23": 1
+      },
+      "h": 5,
+      "inert_for_2_prime": 5,
+      "residual_scale_forced": 1,
+      "tile": [
+        24,
+        11,
+        31
+      ]
+    },
+    {
+      "coefficient": 2583726,
+      "factorization": {
+        "2": 1,
+        "3": 1,
+        "29": 1,
+        "31": 1,
+        "479": 1
+      },
+      "h": 29,
+      "inert_for_2_prime": 29,
+      "residual_scale_forced": 1,
+      "tile": [
+        840,
+        59,
+        871
+      ]
+    },
+    {
+      "coefficient": 26427390,
+      "factorization": {
+        "2": 1,
+        "3": 1,
+        "5": 1,
+        "11": 1,
+        "53": 1,
+        "1511": 1
+      },
+      "h": 53,
+      "inert_for_2_prime": 53,
+      "residual_scale_forced": 1,
+      "tile": [
+        2808,
+        107,
+        2863
+      ]
+    },
+    {
+      "coefficient": 113837262,
+      "factorization": {
+        "2": 1,
+        "3": 1,
+        "7": 1,
+        "11": 1,
+        "79": 1,
+        "3119": 1
+      },
+      "h": 77,
+      "inert_for_2_prime": 11,
+      "residual_scale_forced": 1,
+      "tile": [
+        5928,
+        155,
+        6007
+      ]
+    },
+    {
+      "coefficient": 331002654,
+      "factorization": {
+        "2": 1,
+        "3": 1,
+        "101": 1,
+        "103": 1,
+        "5303": 1
+      },
+      "h": 101,
+      "inert_for_2_prime": 101,
+      "residual_scale_forced": 1,
+      "tile": [
+        10200,
+        203,
+        10303
+      ]
+    },
+    {
+      "coefficient": 1538796606,
+      "factorization": {
+        "2": 1,
+        "3": 1,
+        "149": 1,
+        "151": 1,
+        "11399": 1
+      },
+      "h": 149,
+      "inert_for_2_prime": 149,
+      "residual_scale_forced": 1,
+      "tile": [
+        22200,
+        299,
+        22351
+      ]
+    },
+    {
+      "coefficient": 4657081182,
+      "factorization": {
+        "2": 1,
+        "3": 1,
+        "13": 1,
+        "197": 1,
+        "199": 1,
+        "1523": 1
+      },
+      "h": 197,
+      "inert_for_2_prime": 197,
+      "residual_scale_forced": 1,
+      "tile": [
+        38808,
+        395,
+        39007
+      ]
+    },
+    {
+      "coefficient": 16060670286,
+      "factorization": {
+        "2": 1,
+        "3": 1,
+        "73": 1,
+        "269": 1,
+        "271": 1,
+        "503": 1
+      },
+      "h": 269,
+      "inert_for_2_prime": 269,
+      "residual_scale_forced": 1,
+      "tile": [
+        72360,
+        539,
+        72631
+      ]
+    },
+    {
+      "coefficient": 22565239710,
+      "factorization": {
+        "2": 1,
+        "3": 1,
+        "5": 1,
+        "13": 1,
+        "59": 1,
+        "293": 1,
+        "3347": 1
+      },
+      "h": 293,
+      "inert_for_2_prime": 293,
+      "residual_scale_forced": 1,
+      "tile": [
+        85848,
+        587,
+        86143
+      ]
+    },
+    {
+      "coefficient": 30870222702,
+      "factorization": {
+        "2": 1,
+        "3": 1,
+        "11": 1,
+        "29": 1,
+        "83": 1,
+        "317": 1,
+        "613": 1
+      },
+      "h": 317,
+      "inert_for_2_prime": 317,
+      "residual_scale_forced": 1,
+      "tile": [
+        100488,
+        635,
+        100807
+      ]
+    }
+  ],
+  "full_Erdos634_solved": false,
+  "infinitude_basis": "Written squarefree-sieve proof, not this finite sample",
+  "max_h": 20000,
+  "parameters_checked": 834,
+  "scope": "Arithmetic candidates only; no positive or negative tiling decisions",
+  "squarefree_candidates_in_sample": 660,
+  "status": "PASS"
+}

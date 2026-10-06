@@ -188,10 +188,13 @@ of positive class-38 multipliers: each of those positive multipliers
 must contain a prime splitting for 3.
 
 For comparison, d=110 has d_+=22. The fixed h=1 arithmetic list consists
-of `(a,b,c,s)=(8,7,13,3)`. It yields the familiar necessary condition
-3|m; the earlier balanced construction already gives the sharper
-positive statement for all odd m>=9 divisible by 3. Nothing here
-decides the unresolved scale-one count 990.
+of `(a,b,c,s)=(8,7,13,3)`. The subsequently verified nested-corner
+construction now realizes the primitive 990 count itself. Combining
+this seed with the old F3-only isolation gives the complete criterion
+`110m² is admissible iff 3|m` for every odd m, without restricting its
+split part; see `docs/square-class-110-odd.md`. The class-110 result is
+a new positive geometric input, not a consequence of the older tail
+estimate alone. The general small-scale gap in other classes remains.
 
 ## 5. Dependencies and verification scope
 

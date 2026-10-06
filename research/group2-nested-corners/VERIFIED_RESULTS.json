@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "geometry": [
+    {
+      "certificate": "f4-345.json",
+      "N": 345,
+      "status": "PASS",
+      "pairs_checked": 59340,
+      "sha256": "7a8eb930d26eb084c30d2212f69abfaf4600cf24695070c0ca904b7da5ca59a7"
+    },
+    {
+      "certificate": "f2-506.json",
+      "N": 506,
+      "status": "PASS",
+      "pairs_checked": 127765,
+      "sha256": "41c3b600cefab913ccf17cbecb9738f85e4fd67b46ed601c0aa0e804d79df32e"
+    },
+    {
+      "certificate": "f3-990.json",
+      "N": 990,
+      "status": "PASS",
+      "pairs_checked": 489555,
+      "sha256": "cd277eeb1eba8db80610465dbaac80b85add26cd028789c00bb76512e1b9ce09"
+    }
+  ],
+  "coordinate_free_disk": {
+    "certificate": "disk-990.json",
+    "N": 990,
+    "status": "PASS",
+    "sha256": "f60283c6d7a83d63709ee96d02c993b10a8791ec2a809960a2e4256b16b5b54a"
+  },
+  "duplicate_tile_negative_test": "Positive-area overlap 1, 0",
+  "full_Erdos634_solved": false,
+  "external_peer_review": false
+}

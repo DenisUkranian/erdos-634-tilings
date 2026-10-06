@@ -14,14 +14,18 @@ CLI=Path(__file__).with_name("classify_global_sector.py")
 
 def check():
     successful=[]
-    for d,m,expected in ((38,3,"NO"),(110,3,"UNRESOLVED_SMALL_SCALE"),
-                         (110,15,"YES"),(2,1,"YES")):
+    for d,m,expected in ((38,3,"NO"),(110,3,"YES"),(110,15,"YES"),
+                         (4830,1,"UNRESOLVED_SMALL_SCALE"),(2,1,"YES")):
         command=[sys.executable,str(CLI),str(d),str(m)]
         run=subprocess.run(command,text=True,capture_output=True,check=True)
         out=json.loads(run.stdout)
         assert out["status"]==expected,(d,m,out)
         assert out["full_Erdos634_solved"] is False
         assert out["N"]==d*m*m
+        if d==110:
+            assert out["witness"]["threshold_source"]=="nested_corner_unit_construction"
+            assert out["witness"]["sufficient_branch_multiplier"]==1
+            assert out["witness"]["nested_corner_seed"]["coefficients_a_b_c"]==[0,2,1]
         successful.append({"d":d,"m":m,"status":out["status"],
                            "sector_cutoff_C":out["sector_cutoff_C"],
                            "witness_count":len(out["all_witnesses"])})
@@ -32,8 +36,24 @@ def check():
         assert run.returncode!=0 and "error:" in run.stderr,(d,m,run)
         assert not run.stdout.strip()
         rejected.append([d,m])
+    # Check orientation handling independently of the CLI's even-kernel scope.
+    import classify_global_sector as classifier
+    seed_controls=[]
+    for branch in ("F2","F3","F4"):
+        for a,b in ((8,7),(7,8)):
+            witness={"branch":branch,"a":a,"b":b,"c":13}
+            assert classifier.construction_threshold(witness)==1
+            if not (branch=="F4" and a<b):
+                assert witness["threshold_source"]=="nested_corner_unit_construction"
+            seed_controls.append({"branch":branch,"a":a,"b":b,
+                                  "threshold_source":witness["threshold_source"]})
+    rejected_seed={"branch":"F3","a":24,"b":11,"c":31}
+    assert classifier.construction_threshold(rejected_seed)==6
+    assert "nested_corner_seed" not in rejected_seed
     return {"status":"PASS","full_Erdos634_solved":False,
             "valid_status_checks":successful,"invalid_scope_inputs_rejected":rejected,
+            "unit_seed_orientation_controls":seed_controls,
+            "4830_retains_prior_threshold":6,
             "scope":"CLI status and scope controls, not a complete geometric solver"}
 
 
