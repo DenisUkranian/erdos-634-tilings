@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "curve": [
+    0,
+    0,
+    0,
+    0,
+    287496
+  ],
+  "conductor_input": 69696,
+  "global_root_number_input": 1,
+  "additive_primes_input": [
+    2,
+    3,
+    11
+  ],
+  "source": "https://www.lmfdb.org/EllipticCurve/Q/69696/ej/4",
+  "input_status": "Conductor and local root/reduction types are cited, not recomputed.",
+  "cutoff": 500,
+  "arithmetic": "Exact integer intervals; common denominator 10^30.",
+  "q_lower": "0.976481040772559332153125397938",
+  "q_upper": "0.976481040772559332169012880104",
+  "partial_sum_lower": "4.142320728773536870191668355962",
+  "partial_sum_upper": "4.142320728773536871621731609645",
+  "tail_absolute_upper": "0.001127751616322288734013176509",
+  "L_at_1_lower": "4.141192977157214581457655179453",
+  "L_at_1_upper": "4.143448480389859160355744786154",
+  "positive": true,
+  "point_counts": {
+    "5": 6,
+    "7": 4
+  },
+  "rank_conclusion": "0 by modularity and the rank-zero theorem from L(E,1) != 0.",
+  "rational_points_conclusion": [
+    "O",
+    [
+      -66,
+      0
+    ]
+  ]
+}

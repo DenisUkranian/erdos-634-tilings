@@ -16,6 +16,8 @@ A complete fixed-tile spectrum for every shape would be one sufficient route. It
 
 | Block | Available result | What it does not decide |
 |---|---|---|
+| Entire square class 22 | [Exact criterion](square-class-22.md) for every `22 m²`: even multipliers are positive; odd multipliers have a finite necessary-and-sufficient QP allocation test. F3 is removed by an elliptic rank-zero obstruction. | This complete class result does not classify other kernels. |
+| Any fixed finite prime support | [Effective finite-basis theorem](fixed-prime-support.md) bounds primitive product coefficients over all support exponents, supplies an eventual divisor test, and reduces an exact basis to finitely many bounded geometric decisions. | Bounds are theoretical and depend on the support; the general unit-equation enumeration and geometric campaign have not been executed. No universal finite obstruction catalog follows. |
 | Square-class tails and prime-power rays | [Finite arithmetic criteria](square-class-tails.md) decide whether all sufficiently large `d m²` occur, and whether any `d q^(2k)` occurs for fixed odd prime `q`. In the latter question only product coefficients with `q^r<2d` need checking. | A positive ray test leaves its small exponents undecided. Failure of cofinal saturation does not exclude arbitrary composite multipliers. |
 | Size of the global set of counts | [Quantitative density bound](quantitative-density.md): `S(X) ≪ X / ((log X)^δ (log log X)^(3/2))`, with `δ=0.086071…`; strengthens the integrated [1 October qualitative proof](long-seams-density.md). | A counting bound does not characterize membership of the remaining sparse set, and does not supply an effective exclusion percentage at a specified finite X. |
 | Classical/similar tilings | Published classifications and explicit constructions; among familiar admissible families are k², 2k², 3k², 6k² and sums of two squares. Exact source hypotheses remain necessary. | Not a proof that these are all global counts; 322 is an explicit nonclassical construction. |
@@ -106,7 +108,14 @@ The proof also identifies a concrete limit of trying to settle each
 square class by one universal cutoff. In class 22, all odd-prime-power
 multipliers are impossible, while the previously constructed composite
 multiplier and its odd multiples yield infinitely many actual tilings.
-Thus the remaining individual-membership problem includes square classes
+Thus the individual-membership problem includes square classes
 with infinitely many positive and negative odd multipliers. The new
 criterion correctly distinguishes these from classes with a cofinal
 positive tail; it does not decide their arbitrary composite multipliers.
+
+The later [class-22 theorem](square-class-22.md) now closes every individual
+multiplier in that particular class, by excluding the last F3 branch through
+an elliptic rank-zero obstruction. The [fixed-support theorem](fixed-prime-support.md)
+also supplies an effective stopping bound for composite multipliers on each
+chosen prime support. Neither result bounds the unrestricted collection of
+prime supports or removes the other classes' geometric small-scale questions.

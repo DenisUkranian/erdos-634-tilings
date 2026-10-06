@@ -1,6 +1,6 @@
 # Erdős Problem 634 — congruent triangle tilings
 
-**Denis Paliy** · Research with ChatGPT assistance · 3 October 2026
+**Denis Paliy** · Research with ChatGPT assistance · 6 October 2026
 
 [Status](STATUS.md) · [Reproduce](REPRODUCIBILITY.md) · [Full-problem roadmap](docs/full-solution-roadmap.md) · [Citation](CITATION.cff)
 
@@ -12,6 +12,8 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 
 | Result | Read and reproduce |
 |---|---|
+| Complete membership criterion for **every** `22 m²` (6 October) | [Full proof](docs/square-class-22.md), [exact YES/NO tool and checks](research/composite-support/). Every even multiplier uses the old 88-tiling; every odd multiplier is decided by a finite QP prime-allocation test. An elliptic rank-zero obstruction removes F3 for the whole class, including multiples of 3. The elliptic input has a new exact central-value certificate, with its cited local data explicit. |
+| Effective finite bases for any fixed prime support (6 October) | [Theorem and proof](docs/fixed-prime-support.md): for fixed squarefree `d` and finite prime set `H`, effective unit-equation theory yields an eventual divisibility basis and a computable finite geometric remainder. This is a theoretical effective result; the general unit-equation solver and geometric campaign have not been run. |
 | Finite criteria for square-class tails and odd-prime-power rays (6 October) | [Theorems and full proof](docs/square-class-tails.md), [exact arithmetic tool and independent checks](research/square-class-tails/): decide whether every sufficiently large `d m²` is admissible, and whether any `d q^(2k)` is admissible for a fixed odd prime `q`. A negative ray test excludes all exponents; a positive test supplies a sufficient tail. Individual small multipliers remain separate. The proof also excludes every `22 q^(2k)` with odd prime `q`, while retaining the previously known positive composite-multiplier witness in square class 22. |
 | Quantitative bound for **all** admissible counts (6 October) | [Complete deduction and dependencies](docs/quantitative-density.md): `S(X) ≪ X / ((log X)^δ (log log X)^(3/2))`, where `δ=0.086071…`. Integrates the [1 October long-seam and zero-density proof](docs/long-seams-density.md), freshly audited, and strengthens it using Ford's uniform divisor estimate. This is a bound on how many counts occur, not an exact membership criterion. |
 | A nonexchangeable extreme pure island inside an equilateral triangle (6 October) | [Proof](docs/extreme-pure-island-in-triangle.md), [hierarchical exact certificate](research/extreme-pure-embedding/): the counterexample below persists as the unique maximal `+1` component while every exterior edge has level `-1` or `0`. Triangular boundary alone cannot justify opposite pure exchanges. Mixed or global replacements remain possible; the entire example has another low-level tiling. |

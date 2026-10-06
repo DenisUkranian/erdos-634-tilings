@@ -10,6 +10,12 @@ The new deduction uses prime-power multipliers to turn an unbounded search over 
 
 This is a classification of two asymptotic properties and of existence somewhere on a fixed prime-power ray. It is **not** a classification of membership in \(\mathcal S\) for each individual integer.
 
+**Subsequent result, 6 October:** the [complete class-22 criterion](square-class-22.md)
+now decides every individual `22 m²`, including arbitrary composite multipliers.
+The [fixed-support theorem](fixed-prime-support.md) supplies an effective finite
+basis for each chosen finite prime support. These later results do not change
+the scope of the two tests proved in this note or solve the unrestricted problem.
+
 ## 1. The finite tests
 
 For a positive squarefree integer \(d\), define the following conditions.

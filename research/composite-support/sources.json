@@ -1,0 +1,55 @@
+{
+  "retrieved_date": "2026-10-06",
+  "curve": {
+    "equation": "y^2=x^3+287496",
+    "lmfdb_label": "69696.ej4",
+    "cremona_label": "69696o3"
+  },
+  "cremona_primary": {
+    "repository": "JohnCremona/ecdata",
+    "commit": "25cec5ecfec8b9f016eb1631ac633194c2bed39f",
+    "path": "allcurves/allcurves.60000-69999",
+    "blob_sha": "c70c52e3a99a6c659499175ce52c7c7f519c4945",
+    "line": 63083,
+    "record": "69696 o 3 [0,0,0,0,287496] 0 2",
+    "rank": 0,
+    "torsion_order": 2
+  },
+  "lmfdb_primary": {
+    "url": "https://www.lmfdb.org/EllipticCurve/Q/69696/ej/4",
+    "conductor": 69696,
+    "local_data": [
+      {
+        "prime": 2,
+        "reduction": "additive",
+        "conductor_exponent": 6,
+        "local_root_number": 1
+      },
+      {
+        "prime": 3,
+        "reduction": "additive",
+        "conductor_exponent": 2,
+        "local_root_number": 1
+      },
+      {
+        "prime": 11,
+        "reduction": "additive",
+        "conductor_exponent": 2,
+        "local_root_number": -1
+      }
+    ],
+    "real_root_number": -1,
+    "global_root_number": 1,
+    "rigor_url": "https://www.lmfdb.org/knowledge/show/rcs.rigor.ec.q"
+  },
+  "unit_equation": {
+    "authors": "J.-H. Evertse and K. Gyory",
+    "url": "https://arxiv.org/html/1107.5756v1",
+    "used": "Theorem 1.1 and Corollary 1.2"
+  },
+  "central_value_formula": {
+    "url": "https://doc.sagemath.org/html/en/reference/arithmetic_curves/sage/schemes/elliptic_curves/lseries_ell.html",
+    "used": "Lseries_ell.at1 central-value series; the new checker supplies its own exact tail bound"
+  },
+  "scope": "Primary source data read directly; source claims and independent finite verifications are distinguished. No general S-unit enumeration was executed."
+}

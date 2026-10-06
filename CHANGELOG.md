@@ -1,5 +1,12 @@
 # Changelog
 
+## Composite multipliers and complete square class 22 — 6 October 2026
+
+- Close membership for every `22 m²`: preserve the old 88-tile positive construction for even multipliers and prove that odd membership is exactly the constructive QP coefficient test. Remove F3 at all scales through the rank-zero curve `Y²=X³+66³`; no restriction `3∤m` remains.
+- Independently confirm the elliptic central value is positive using exact integer intervals, directly computed Euler coefficients and a proved tail bound. Conductor, reduction types and root number remain explicitly cited primary inputs; the rank-zero implication is unconditional, not BSD conjectural.
+- Prove an effective finite divisibility basis on every fixed finite prime support, by reducing the nine primitive product forms to a published effective unit-equation theorem. Bound the remaining finite geometric campaign; do not claim to have run the general unit-equation solver.
+- Add exact class-22 and scoped general allocation tools, independent coefficient checks, quartic identities and a fresh replay of the prior 88-tile certificate. The unrestricted Erdős problem remains unsolved; known constructions and rank data are not claimed as new.
+
 ## Finite square-class criteria and prime-power rays — 6 October 2026
 
 - Prove an exact finite arithmetic test for whether every sufficiently large multiplier in a square class is admissible. The older eventual fixed-tile constructions and W/beta norm tests supply sufficiency; the new bounded-coefficient argument supplies the global converse.

@@ -1,0 +1,276 @@
+{
+  "status": "PASS",
+  "coefficient_crosscheck": [
+    1,
+    5000
+  ],
+  "comparison_method": "independent complete forward conic and Group-1 enumeration",
+  "composite_divisor_crosschecks": 40,
+  "invalid_inputs_rejected": 6,
+  "scoped_status_examples": {
+    "NO": [
+      22,
+      21
+    ],
+    "UNKNOWN": [
+      110,
+      3
+    ],
+    "YES_old_witness": [
+      22,
+      248599631
+    ]
+  },
+  "quartic_check": {
+    "result": "PASS",
+    "arithmetic": "integer polynomial identities and homogeneous discriminants",
+    "coefficient_order": "[y^4,x*y^3,x^2*y^2,x^3*y,x^4]",
+    "quartic_count": 9,
+    "quartics": [
+      {
+        "row": "equilateral_60",
+        "coefficients_y4_to_x4": [
+          1,
+          2,
+          -1,
+          -2,
+          0
+        ],
+        "binary_quartic_discriminant": 144,
+        "distinct_projective_roots": 4,
+        "displayed_constant_factor": 1
+      },
+      {
+        "row": "equilateral_120",
+        "coefficients_y4_to_x4": [
+          -1,
+          2,
+          1,
+          -2,
+          0
+        ],
+        "binary_quartic_discriminant": 144,
+        "distinct_projective_roots": 4,
+        "displayed_constant_factor": 1
+      },
+      {
+        "row": "F1_120",
+        "coefficients_y4_to_x4": [
+          0,
+          -2,
+          5,
+          -2,
+          0
+        ],
+        "binary_quartic_discriminant": 144,
+        "distinct_projective_roots": 4,
+        "displayed_constant_factor": 1
+      },
+      {
+        "row": "isosceles_120",
+        "coefficients_y4_to_x4": [
+          1,
+          -6,
+          9,
+          -2,
+          0
+        ],
+        "binary_quartic_discriminant": 432,
+        "distinct_projective_roots": 4,
+        "displayed_constant_factor": 1
+      },
+      {
+        "row": "F2_120",
+        "coefficients_y4_to_x4": [
+          -1,
+          2,
+          9,
+          -10,
+          2
+        ],
+        "binary_quartic_discriminant": 104976,
+        "distinct_projective_roots": 4,
+        "displayed_constant_factor": 1
+      },
+      {
+        "row": "F3_120",
+        "coefficients_y4_to_x4": [
+          0,
+          -6,
+          27,
+          -18,
+          3
+        ],
+        "binary_quartic_discriminant": 314928,
+        "distinct_projective_roots": 4,
+        "displayed_constant_factor": 3
+      },
+      {
+        "row": "F4_120",
+        "coefficients_y4_to_x4": [
+          0,
+          2,
+          3,
+          -6,
+          2
+        ],
+        "binary_quartic_discriminant": 432,
+        "distinct_projective_roots": 4,
+        "displayed_constant_factor": 1
+      },
+      {
+        "row": "group1_alpha",
+        "coefficients_y4_to_x4": [
+          2,
+          0,
+          -3,
+          0,
+          1
+        ],
+        "binary_quartic_discriminant": 32,
+        "distinct_projective_roots": 4,
+        "displayed_constant_factor": 1
+      },
+      {
+        "row": "group1_other_scalene",
+        "coefficients_y4_to_x4": [
+          6,
+          0,
+          -5,
+          0,
+          1
+        ],
+        "binary_quartic_discriminant": 96,
+        "distinct_projective_roots": 4,
+        "displayed_constant_factor": 1
+      }
+    ],
+    "quadratic_discriminants": {
+      "A": 4,
+      "B_plus": 4,
+      "B_minus": 4,
+      "W": 4,
+      "U": 12,
+      "V": 12
+    },
+    "conic_checks": [
+      {
+        "sigma": -1,
+        "A": [
+          1,
+          0,
+          -1
+        ],
+        "B": [
+          1,
+          2,
+          0
+        ],
+        "C": [
+          1,
+          1,
+          1
+        ],
+        "conic_identity": "PASS",
+        "inverse_slope_identity": "PASS",
+        "gcd_lemma_identities": "PASS",
+        "regression_pairs": 18347
+      },
+      {
+        "sigma": 1,
+        "A": [
+          1,
+          0,
+          -1
+        ],
+        "B": [
+          -1,
+          2,
+          0
+        ],
+        "C": [
+          1,
+          -1,
+          1
+        ],
+        "conic_identity": "PASS",
+        "inverse_slope_identity": "PASS",
+        "gcd_lemma_identities": "PASS",
+        "regression_pairs": 6115
+      }
+    ],
+    "normalization_regression": {
+      "k_max": 200,
+      "primitive_positive_pairs": 24462,
+      "g_counts": {
+        "1": 18304,
+        "3": 6158
+      },
+      "universal_proof": "For a common prime divisor, gcd(h,k)=1 forces it to divide L=2h-sigma*k and then 3. If 9 divides L, A is 3h^2 modulo 9; otherwise B has 3-adic valuation at most one. Thus gcd(A,B,C) is 1 or 3."
+    },
+    "scope": "Algebraic prerequisites only; no Thue-Mahler solutions, geometric tilings, or complete Erdos 634 classification computed."
+  },
+  "rank22_check": {
+    "status": "PASS",
+    "curve": [
+      0,
+      0,
+      0,
+      0,
+      287496
+    ],
+    "conductor_input": 69696,
+    "global_root_number_input": 1,
+    "additive_primes_input": [
+      2,
+      3,
+      11
+    ],
+    "source": "https://www.lmfdb.org/EllipticCurve/Q/69696/ej/4",
+    "input_status": "Conductor and local root/reduction types are cited, not recomputed.",
+    "cutoff": 500,
+    "arithmetic": "Exact integer intervals; common denominator 10^30.",
+    "q_lower": "0.976481040772559332153125397938",
+    "q_upper": "0.976481040772559332169012880104",
+    "partial_sum_lower": "4.142320728773536870191668355962",
+    "partial_sum_upper": "4.142320728773536871621731609645",
+    "tail_absolute_upper": "0.001127751616322288734013176509",
+    "L_at_1_lower": "4.141192977157214581457655179453",
+    "L_at_1_upper": "4.143448480389859160355744786154",
+    "positive": true,
+    "point_counts": {
+      "5": 6,
+      "7": 4
+    },
+    "rank_conclusion": "0 by modularity and the rank-zero theorem from L(E,1) != 0.",
+    "rational_points_conclusion": [
+      "O",
+      [
+        -66,
+        0
+      ]
+    ]
+  },
+  "exact_class22_odd_small_regressions": 51,
+  "exact_class22_even_regressions": 4,
+  "exact_class22_old_positive_and_odd_refinement_regressions": 2,
+  "old_88_tiling_replayed": {
+    "status": "PASS",
+    "tile": [
+      3,
+      5,
+      7
+    ],
+    "multiplier": 1,
+    "unit_triangles": 88,
+    "pairs_checked": 3828,
+    "pairs_clipped_after_exact_bounds": 103,
+    "arithmetic": "exact rational",
+    "coverage_basis": "Containment, pairwise disjoint interiors, and equal total area",
+    "full_Erdos634_solved": false,
+    "external_peer_review": false
+  },
+  "fixed_support_S_unit_solver_executed": false,
+  "new_geometric_tiling_search_executed": false,
+  "full_Erdos634_solved": false
+}
