@@ -3,8 +3,8 @@
 7 October 2026. Denis Paliy, research with ChatGPT assistance.
 
 This continuation does **not** decide whether the triangle `(91,91,154)`
-can be tiled by 154 copies of `(8,7,13)`. It identifies what two proposed
-shortcuts can and cannot establish. The current literature also retains
+can be tiled by 154 copies of `(8,7,13)`. It identifies the scope of the
+invariants and boundary restrictions proved here. The current literature also retains
 this particular candidate: Beeson, *Tilings of an Isosceles Triangle*,
 [arXiv:1206.1974v7](https://arxiv.org/pdf/1206.1974v7), Table 5 and its
 following remarks. No obsolete boundary restriction from the author's
@@ -109,6 +109,13 @@ The complete possible counts `(A,B,C)` of whole `(8,7,13)` edges on a
 There are 17 possible count triples on the 154-side. The checker records
 them all. A count triple is not a boundary placement certificate.
 
+The [boundary-adjacency extension](BOUNDARY_ADJACENCY.md) strengthens
+this for every primitive I120 tile with a>b: **each target side contains
+two consecutive c-edges**. For 154 the remaining length-91 count rows
+are `(0,0,7), (2,7,2), (3,4,3), (4,1,4)`; the length-154 side has
+14 remaining rows. The extension proves a necessary restriction and
+does not decide the remaining placements or their fillings.
+
 ## 3. Why a single short-direction class cannot suffice
 
 This is another corollary of the c-edge boundary restriction, included
@@ -131,7 +138,8 @@ python research/i120-continuation/check_i120.py
 
 The replay imports only the standard-library polynomial arithmetic from
 the existing F3 signature checker. It verifies the universal identity,
-the exact local corner inventories, the two boundary count lists for
-154, and padding on representative norm tiles and scales. These checks
+the exact local corner inventories, the boundary count lists before and
+after the adjacency restriction for 154, and padding on representative
+norm tiles and scales. These checks
 are not an exhaustive geometric search, and the retained outcome for
 154 is `UNRESOLVED`.

@@ -310,3 +310,12 @@ is now exact, `a<5b/2`, but that restricted converse is not a converse
 for unrestricted F3.
 Consequently `C(N) => N in S => A(N)` is still the proved global relation;
 the reverse implication has not been obtained.
+
+The subsequent [I120 boundary lemma](../research/i120-continuation/BOUNDARY_ADJACENCY.md)
+extends the F1 blocked-endpoint argument: when a>b, every external I120
+side has two consecutive c-edges. For 154 this reduces each length-91
+side from six possible count rows to four, and its base from 17 to 14.
+It supplies no exclusion of the remaining rows. A proposed lower bound
+`N>=c²` for the remaining nonclassical targets has not been proved and
+is not used as a necessary condition. In particular neither this bound
+nor an unfinished search changes the unresolved status of 154 or 4830.

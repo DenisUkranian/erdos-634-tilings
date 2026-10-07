@@ -64,9 +64,23 @@ def replay():
               for length in (91,154)}
     if len(counts['91']) != 6 or len(counts['154']) != 17:
         raise ValueError('Boundary enumeration changed')
+    pure_beta_fans = {str(k): fans(-k, k) for k in range(4)}
+    if pure_beta_fans != {str(k): [[0,k,0]] for k in range(4)}:
+        raise ValueError('Pure-beta fan enumeration changed')
+    adjacency_counts = {
+        length: [row for row in rows if row[2] >= 2]
+        for length, rows in counts.items()}
+    if adjacency_counts['91'] != [[0,0,7], [2,7,2], [3,4,3], [4,1,4]]:
+        raise ValueError('I120 two-longest-edge enumeration changed')
+    if len(adjacency_counts['154']) != 14:
+        raise ValueError('I120 base enumeration changed')
     return {'status': 'PASS', 'symbolic_remainder_terms': 0,
             'corner_fans': corner_fans,
             'boundary_counts_154': counts,
+            'pure_beta_fans': pure_beta_fans,
+            'boundary_counts_after_adjacency_154': adjacency_counts,
+            'boundary_adjacency_scope':
+                'Necessary condition only; see BOUNDARY_ADJACENCY.md',
             'fixtures': fixtures,
             'geometric_status_154': 'UNRESOLVED',
             'geometric_tiling_claimed': False,

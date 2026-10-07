@@ -291,8 +291,8 @@
       "sha256": "97282cac68315f25d74f7bc25787271028473adfc76db80aa01d0664a65dba42"
     },
     "docs/global-gap-2026-10-07.md": {
-      "bytes": 16172,
-      "sha256": "f5836c16e11a00b72c578d940fa2edb7e6bd5d9c5296206b97b6eca0dd96b702"
+      "bytes": 16761,
+      "sha256": "5a1cb0341150c2734139937ef8cbf0695fa1360df36403d8b30bd9bcda0c7ef9"
     },
     "docs/grid-capacity-and-orientations.md": {
       "bytes": 10068,
@@ -1338,17 +1338,21 @@
       "bytes": 4086,
       "sha256": "5aa26dbb4c5938c6e12eec699cdcb945b0baeef35ab4abd024b73f26a16f92e6"
     },
+    "research/i120-continuation/BOUNDARY_ADJACENCY.md": {
+      "bytes": 5092,
+      "sha256": "983fb40f3ff978f50ac9cc059a13b48b9a8621d10fad4af99f8c4ea46a90feec"
+    },
     "research/i120-continuation/README.md": {
-      "bytes": 5658,
-      "sha256": "cb774b603367ea86911e4eae54d48e2e9082670ce234bae5846069a7c5edd297"
+      "bytes": 6118,
+      "sha256": "c26632fe09e7aa1f285b53adef6c4d581dbb5b880a39d866336b2d24abb852e2"
     },
     "research/i120-continuation/check_i120.py": {
-      "bytes": 3232,
-      "sha256": "d72e733c29243fdc5a7b0ecc1eb897a262f75b964b36c017d1c0a3d9be1b0bb5"
+      "bytes": 4009,
+      "sha256": "422d8394d9047415bd4bd632d7cce0f129f9e6c6cd0e45c55590dea47af50a87"
     },
     "research/i120-continuation/verified.json": {
-      "bytes": 6018,
-      "sha256": "41154093a9da38d990cab834beca34d0cfffde62d1bb4f181eed2ad29689a8f6"
+      "bytes": 7366,
+      "sha256": "04c3ad14dc7a3367002722d1171830b4727029b868e8e222538947263cfa04c6"
     },
     "research/infinite-minimal/README.md": {
       "bytes": 2153,
