@@ -1,0 +1,356 @@
+{
+  "status": "PASS",
+  "selected_prime_root_checks_below_5000": 159,
+  "mixed_prime_products_checked": 1520,
+  "partitions_checked": 21300,
+  "inconsistent_matrices_with_dual_certificates": 146,
+  "direct_modular_cover_checks": 504,
+  "q_1_mod_104_below_10000": [
+    313,
+    521,
+    937,
+    1249,
+    1873,
+    2081,
+    2393,
+    3121,
+    3329,
+    3433,
+    4057,
+    4889,
+    4993,
+    6449,
+    6553,
+    6761,
+    7177,
+    7489,
+    8009,
+    8737,
+    9049,
+    9257
+  ],
+  "q_157_mod_312_below_10000": [
+    157,
+    1093,
+    2029,
+    2341,
+    6397,
+    6709,
+    7333,
+    8269,
+    8581,
+    8893,
+    9829
+  ],
+  "examples": [
+    {
+      "R": 13,
+      "squarefree_kernel": 78,
+      "column_primes": [
+        13
+      ],
+      "row_primes": [
+        13
+      ],
+      "matrix": [
+        [
+          0
+        ]
+      ],
+      "rhs": [
+        1
+      ],
+      "rank": 0,
+      "matrix_consistent": false,
+      "dual_certificate": [
+        1
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 4069,
+      "squarefree_kernel": 24414,
+      "column_primes": [
+        13,
+        313
+      ],
+      "row_primes": [
+        13,
+        313
+      ],
+      "matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "rhs": [
+        1,
+        0
+      ],
+      "rank": 0,
+      "matrix_consistent": false,
+      "dual_certificate": [
+        1,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 6773,
+      "squarefree_kernel": 40638,
+      "column_primes": [
+        13,
+        521
+      ],
+      "row_primes": [
+        13
+      ],
+      "matrix": [
+        [
+          0,
+          0
+        ]
+      ],
+      "rhs": [
+        1
+      ],
+      "rank": 0,
+      "matrix_consistent": false,
+      "dual_certificate": [
+        1
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 12181,
+      "squarefree_kernel": 73086,
+      "column_primes": [
+        13,
+        937
+      ],
+      "row_primes": [
+        13,
+        937
+      ],
+      "matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "rhs": [
+        1,
+        0
+      ],
+      "rank": 0,
+      "matrix_consistent": false,
+      "dual_certificate": [
+        1,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 124501,
+      "squarefree_kernel": 747006,
+      "column_primes": [
+        13,
+        61,
+        157
+      ],
+      "row_primes": [
+        13,
+        61,
+        157
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "rhs": [
+        1,
+        1,
+        1
+      ],
+      "rank": 2,
+      "matrix_consistent": false,
+      "dual_certificate": [
+        1,
+        0,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 87061,
+      "squarefree_kernel": 522366,
+      "column_primes": [
+        13,
+        37,
+        181
+      ],
+      "row_primes": [
+        13,
+        37,
+        181
+      ],
+      "matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "rhs": [
+        1,
+        1,
+        1
+      ],
+      "rank": 2,
+      "matrix_consistent": false,
+      "dual_certificate": [
+        0,
+        0,
+        1
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 578868589,
+      "squarefree_kernel": 3473211534,
+      "column_primes": [
+        13,
+        37,
+        61,
+        109,
+        181
+      ],
+      "row_primes": [
+        13,
+        37,
+        61,
+        109,
+        181
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "rhs": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "rank": 4,
+      "matrix_consistent": false,
+      "dual_certificate": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 37,
+      "squarefree_kernel": 222,
+      "column_primes": [
+        37
+      ],
+      "row_primes": [
+        37
+      ],
+      "matrix": [
+        [
+          1
+        ]
+      ],
+      "rhs": [
+        1
+      ],
+      "rank": 1,
+      "matrix_consistent": true,
+      "dual_certificate": null,
+      "all_odd_multipliers_excluded": false,
+      "consistency_proves_tiling": false
+    }
+  ],
+  "matrix_consistency_proves_global_solubility": false,
+  "bounded_checks_prove_universal_theorem": false,
+  "full_Erdos634_solved": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "ordered_primitive_triples_checked": 174,
+  "range": "1 <= a,b <= 500",
+  "exact_rational_geometry": true,
+  "new_I120_counts_claimed": 0,
+  "154_status": "UNRESOLVED",
+  "full_Erdos634_solved": false
+}

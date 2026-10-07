@@ -1,0 +1,571 @@
+{
+  "status": "PASS",
+  "mixed_products": 359,
+  "covers": 9460,
+  "direct_odd_prime_cover_checks": 36084,
+  "two_adic_residue_checks": 2048,
+  "excluded_products": 151,
+  "strictly_more_exclusions_than_selected_prime_matrix": 138,
+  "first_strictly_stronger_kernels": [
+    [
+      798,
+      [
+        7,
+        19
+      ]
+    ],
+    [
+      1806,
+      [
+        7,
+        43
+      ]
+    ],
+    [
+      2046,
+      [
+        11,
+        31
+      ]
+    ],
+    [
+      3534,
+      [
+        19,
+        31
+      ]
+    ],
+    [
+      3774,
+      [
+        17,
+        37
+      ]
+    ],
+    [
+      6222,
+      [
+        17,
+        61
+      ]
+    ],
+    [
+      6510,
+      [
+        5,
+        7,
+        31
+      ]
+    ],
+    [
+      7998,
+      [
+        31,
+        43
+      ]
+    ],
+    [
+      13566,
+      [
+        7,
+        17,
+        19
+      ]
+    ],
+    [
+      16926,
+      [
+        7,
+        13,
+        31
+      ]
+    ],
+    [
+      21390,
+      [
+        5,
+        23,
+        31
+      ]
+    ],
+    [
+      30702,
+      [
+        7,
+        17,
+        43
+      ]
+    ],
+    [
+      32718,
+      [
+        7,
+        19,
+        41
+      ]
+    ],
+    [
+      33726,
+      [
+        7,
+        11,
+        73
+      ]
+    ],
+    [
+      34782,
+      [
+        11,
+        17,
+        31
+      ]
+    ]
+  ],
+  "examples": [
+    {
+      "R": 13,
+      "kernel": 78,
+      "primes": [
+        13
+      ],
+      "columns": [
+        "a_13",
+        "f"
+      ],
+      "rows": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "rhs": [
+        1,
+        1
+      ],
+      "row_labels": [
+        "split p=13",
+        "2-adic/3-adic parity"
+      ],
+      "rank": 1,
+      "consistent": false,
+      "dual_certificate": [
+        1,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 221,
+      "kernel": 1326,
+      "primes": [
+        13,
+        17
+      ],
+      "columns": [
+        "a_13",
+        "a_17",
+        "f"
+      ],
+      "rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "rhs": [
+        1,
+        0,
+        1
+      ],
+      "row_labels": [
+        "split p=13",
+        "inert p=17: a=0",
+        "2-adic/3-adic parity"
+      ],
+      "rank": 2,
+      "consistent": false,
+      "dual_certificate": [
+        1,
+        0,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 4069,
+      "kernel": 24414,
+      "primes": [
+        13,
+        313
+      ],
+      "columns": [
+        "a_13",
+        "a_313",
+        "f"
+      ],
+      "rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "rhs": [
+        1,
+        0,
+        1
+      ],
+      "row_labels": [
+        "split p=13",
+        "split p=313",
+        "2-adic/3-adic parity"
+      ],
+      "rank": 1,
+      "consistent": false,
+      "dual_certificate": [
+        1,
+        0,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 6773,
+      "kernel": 40638,
+      "primes": [
+        13,
+        521
+      ],
+      "columns": [
+        "a_13",
+        "a_521",
+        "f"
+      ],
+      "rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "rhs": [
+        1,
+        0,
+        1
+      ],
+      "row_labels": [
+        "split p=13",
+        "inert p=521: a=0",
+        "2-adic/3-adic parity"
+      ],
+      "rank": 2,
+      "consistent": false,
+      "dual_certificate": [
+        1,
+        0,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 133,
+      "kernel": 798,
+      "primes": [
+        7,
+        19
+      ],
+      "columns": [
+        "a_7",
+        "a_19",
+        "f"
+      ],
+      "rows": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "rhs": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "row_labels": [
+        "inert p=7: a=0",
+        "inert p=7: unit character",
+        "inert p=19: a=0",
+        "inert p=19: unit character",
+        "2-adic/3-adic parity"
+      ],
+      "rank": 3,
+      "consistent": false,
+      "dual_certificate": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 124501,
+      "kernel": 747006,
+      "primes": [
+        13,
+        61,
+        157
+      ],
+      "columns": [
+        "a_13",
+        "a_61",
+        "a_157",
+        "f"
+      ],
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rhs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "row_labels": [
+        "split p=13",
+        "split p=61",
+        "split p=157",
+        "2-adic/3-adic parity"
+      ],
+      "rank": 3,
+      "consistent": false,
+      "dual_certificate": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 578868589,
+      "kernel": 3473211534,
+      "primes": [
+        13,
+        37,
+        61,
+        109,
+        181
+      ],
+      "columns": [
+        "a_13",
+        "a_37",
+        "a_61",
+        "a_109",
+        "a_181",
+        "f"
+      ],
+      "rows": [
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rhs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "row_labels": [
+        "split p=13",
+        "split p=37",
+        "split p=61",
+        "split p=109",
+        "split p=181",
+        "2-adic/3-adic parity"
+      ],
+      "rank": 5,
+      "consistent": false,
+      "dual_certificate": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "all_odd_multipliers_excluded": true,
+      "consistency_proves_tiling": false
+    },
+    {
+      "R": 37,
+      "kernel": 222,
+      "primes": [
+        37
+      ],
+      "columns": [
+        "a_37",
+        "f"
+      ],
+      "rows": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "rhs": [
+        1,
+        1
+      ],
+      "row_labels": [
+        "split p=37",
+        "2-adic/3-adic parity"
+      ],
+      "rank": 2,
+      "consistent": true,
+      "dual_certificate": null,
+      "all_odd_multipliers_excluded": false,
+      "consistency_proves_tiling": false
+    }
+  ],
+  "locally_soluble_cover_implies_tiling": false,
+  "full_Erdos634_solved": false
+}

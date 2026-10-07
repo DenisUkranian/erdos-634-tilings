@@ -1,5 +1,14 @@
 # Changelog
 
+## Fixed-class density, local matrices and literature synthesis — 7 October 2026
+
+- Combine the F3 elliptic map, Mordell–Weil height counting and the existing every-integer constructive tails. For fixed d, only `O_d(X^(1/3)(1+log X)^(r_d/2))` odd multipliers through X can pass the arithmetic test without being covered by those constructions. The necessary, actual and sufficient sectors have the same odd-relative density. In class 38 this is a global theorem; its density exists and is positive, without a computed numerical value.
+- Encode all local conditions at primes dividing `6R` by a linear system over F₂ for squarefree `R≡5 mod8`, `3∤R`. Inconsistency supplies an all-odd-multiplier obstruction. A single-prime row at 13 yields further infinite cofactor families, including `78q` for primes `q≡1 mod104`; local consistency is not a global sufficiency statement.
+- Exclude every `342q^(2k)` for odd prime q and `k>=0`. Combine this with the earlier actual prime-avoidance construction to prove that no fixed congruence modulus, even allowing finite exceptions, decides the odd class-38 sector.
+- Prove that the reflected F3 corner in the primitive even-a case cannot be dissected into four or fewer similar triangles, even at arbitrary positive real scales. Record separately the finite exploratory searches, the boundary-filter limitations and the F3-to-I120 transfer whose output is already covered by older tails.
+- Audit current Harries, Zhang, Beeson, Beeson–Laczkovich–Zhang and public proof repositories. Identify retracted dependency uses, conditional formalizations and a side-length/tile-count confusion; no inspected source closes the missing global small-scale theorem.
+- Preserve 154, 4830 and the full problem as unresolved. The strengthened 900-second 154 search is explicitly INCOMPLETE. Internal proof reviews and fresh finite checks have their own scopes; no full historical replay or external refereeing is asserted.
+
 ## Exact gap map and the reflected-gamma construction — 7 October 2026
 
 - Identify the missing all-count implication across all thirteen necessary rows. Prove that both W and F3 are indispensable through exclusive infinite positive families; a global replacement by one existing row cannot finish the problem.

@@ -352,3 +352,66 @@ eventual parity classification. Only the R=13 instance currently has
 a positive seed covering **all** even multipliers; the other small
 even sectors remain separate geometric questions. **154 and 4830 are
 still unresolved**, and the unrestricted classification remains open.
+
+## 7 October: final synthesis, local matrices and fixed-class F3 density
+
+The [final synthesis](../research/final-synthesis-oct7/README.md) strengthens
+the arithmetic conclusions and identifies limits of several geometric
+routes. It does not provide the missing necessary-and-sufficient all-N
+criterion.
+
+The [full local matrix theorem](../research/final-synthesis-oct7/arithmetic/FULL_LOCAL_MATRIX.md)
+gives an exact F₂ system for the relevant quartic covers at 2, 3 and all
+prime factors of R, where R is odd squarefree, `3∤R`, and `R≡5 mod8`.
+Its inconsistency excludes **every odd multiplier of `6Rm²`** after the
+exhaustive branch reduction. Its consistency does not imply a rational
+point or a tiling. The [independent audit](../research/final-synthesis-oct7/arithmetic/FULL_LOCAL_AUDIT.md)
+preserves that distinction.
+
+The [class-38 structural theorem](../research/final-synthesis-oct7/STRUCTURAL_AUDIT.md)
+proves more than the earlier infinite divisibility basis: no fixed
+modulus decides its odd admissible multipliers up to finitely many
+exceptions. For every modulus, one residue class contains infinitely
+many realizable and infinitely many impossible odd multipliers. This
+rules out eventual periodicity, not a parameterized classification.
+
+A different asymptotic question is now answered. The
+[fixed-class F3 theorem](../research/final-synthesis-oct7/F3_FIXED_CLASS_DENSITY.md),
+with its [separate review](../research/final-synthesis-oct7/DENSITY_AUDIT.md),
+proves existence of the natural density of odd F3 multipliers for every
+fixed squarefree d. The necessary coefficient-divisibility set and the
+subset supplied by known constructive tails have the same density as
+the actual F3 set. Their disagreement through multiplier X is at most
+
+\[
+O_d\!\left(X^{1/3}(1+\log X)^{r_d/2}\right),
+\qquad r_d=\operatorname{rank}\bigl(Y^2=X^3+(3d)^3\bigr).
+\]
+
+Thus the unresolved F3 candidates lie in a quantitatively sparse set.
+This is a fixed-class bound, not an exact decision of its members or a
+uniform bound over d. All odd class-38 realizations are F3, so its global
+odd admissible set has positive relative density at most 1/3, while
+remaining nonperiodic. No certified decimal density is supplied.
+
+The decisive next obligations are unchanged. At
+[154](../research/final-synthesis-oct7/i120/README.md), the valid attachment
+`105+49=154` has no proved converse extracting the 49-tile corner from
+an arbitrary tiling. At
+[4830](../research/final-synthesis-oct7/f3/README.md), the unique primitive
+ordered F3 tile `(24,11,31)` still needs a scale-one construction or an
+unrestricted obstruction; every multiplier `m≥2` is already positive.
+The smaller 792-area remainder is only one sufficient route. For
+[W/beta](../research/final-synthesis-oct7/w-beta/BOUNDARY_FILTER_BARRIER.md),
+boundary words and angle inventories pass all scales `m≥2` and the
+remaining interior scale-one parameter range. These filters cannot
+replace a global embedding or forced-patch theorem. Other below-tail
+branch predicates also remain.
+
+The [current primary-source audit](../research/final-synthesis-oct7/LITERATURE.md)
+found no inspected construction or theorem closing these gaps. It
+separates Harries's fixed-tile generator windows from a global finite
+seed list, shape existence in problem 633 from a prescribed tile count,
+and conditional formalizations from the missing geometric reductions.
+Retracted W/base-beta dependencies in older prime claims are not used
+to close the ledger. **Full Erdős 634 remains unresolved here.**

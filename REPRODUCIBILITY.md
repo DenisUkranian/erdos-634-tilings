@@ -2,6 +2,33 @@
 
 **v0.3.0 — 3 October 2026**
 
+## Final synthesis additions — 7 October 2026
+
+The [final synthesis package](research/final-synthesis-oct7/) contains
+seven lightweight exact checks, now included in the full coordinator:
+
+```sh
+python research/final-synthesis-oct7/check_class38_nonperiodic.py
+python research/final-synthesis-oct7/check_f3_height_density.py
+python research/final-synthesis-oct7/arithmetic/check_matrix.py
+python research/final-synthesis-oct7/arithmetic/check_full_matrix.py
+python research/final-synthesis-oct7/w-beta/check_boundary_filter.py
+python research/final-synthesis-oct7/w-beta/check_formal_direction.py
+python research/final-synthesis-oct7/i120/check_transfer.py
+```
+
+Their [fresh combined report](research/final-synthesis-oct7/FRESH_CHECKS.json)
+records only these seven executions. The universal density, nonperiodicity,
+local-descent and geometric statements require their written proofs and
+listed dependencies; separate internal proof reviews are linked in the
+package. No full historical-suite replay, external refereeing, numerical
+elliptic rank or decimal density is asserted by this update.
+
+The retained 900-second I120 search and bounded F3 macro searches have
+separate exploratory reports. An `INCOMPLETE` run is never a negative
+certificate. The finite formal-direction check reproduces an earlier
+result rather than establishing a new geometric theorem.
+
 ## Entire published suite
 
 Python 3.11 or later; verification uses the standard library. Do not use `-O`, `-OO`, or `PYTHONOPTIMIZE`: some preserved legacy checks rely on assertions, and the coordinator explicitly rejects optimized execution.

@@ -594,3 +594,69 @@ This adds infinitely many complete odd-multiplier exclusions, not a
 complete classification of their small even sectors or of all counts.
 **154 and 4830 remain unresolved**, and the remaining geometric scale
 predicates in the other branches still require a general solution.
+
+## 15. Final synthesis addendum: local decisions and a sparse F3 remainder
+
+7 October 2026. The [final synthesis](../research/final-synthesis-oct7/README.md)
+adds the following results without changing the unresolved all-N status.
+
+For odd squarefree R with `3∤R` and `R≡5 mod8`, the
+[full local matrix](../research/final-synthesis-oct7/arithmetic/FULL_LOCAL_MATRIX.md)
+is an exact linear test over F₂ for the relevant quartic covers at every
+prime dividing 6R, with the required 2-adic valuation. **Inconsistency
+excludes every odd multiplier in `6Rm²`**, using the exhaustive F3
+isolation. A surviving assignment supplies local points only; rational
+points, coefficient witnesses and geometric tilings remain separate
+requirements. The [independent audit](../research/final-synthesis-oct7/arithmetic/FULL_LOCAL_AUDIT.md)
+checks both the local equivalence and this one-way global implication.
+
+The [class-38 nonperiodicity theorem](../research/final-synthesis-oct7/STRUCTURAL_AUDIT.md),
+with a [separate audit](../research/final-synthesis-oct7/CLASS38_AUDIT.md),
+rules out another proposed simplification: for every modulus M, some
+residue class contains infinitely many odd realizable multipliers and
+infinitely many odd impossible ones. Thus no fixed congruence test becomes
+exact after finitely many exceptions in this square class.
+
+Nevertheless, the [fixed-class F3 density theorem](../research/final-synthesis-oct7/F3_FIXED_CLASS_DENSITY.md)
+proves that the actual odd F3 multiplier set has a natural density among
+odd integers. For each fixed squarefree d, let A_d be its necessary
+coefficient-divisibility envelope, F_d the actual F3 set, and C_d the
+subset supplied by the established every-integer constructive tails.
+Then `C_d⊆F_d⊆A_d`; all three densities agree, and
+
+\[
+\#((A_d\setminus C_d)\cap[1,X])
+=O_d\!\left(X^{1/3}(1+\log X)^{r_d/2}\right),
+\qquad r_d=\operatorname{rank}\bigl(Y^2=X^3+(3d)^3\bigr).
+\]
+
+The [density audit](../research/final-synthesis-oct7/DENSITY_AUDIT.md)
+checks the elliptic height bound, geometric threshold and order of density
+limits. The bound counts a superset of unresolved F3 multipliers, not
+proven negative cases; its constants depend on d. In class 38 all odd
+realizations are F3, so this is a global density result with
+`0<δ_38≤1/3`, compatible with nonperiodicity. No numerical density or
+certified numerical error constant has been computed.
+
+The geometric obligations remain concrete. For
+[154](../research/final-synthesis-oct7/i120/README.md), subtracting the
+49-tile corner from the `(91,91,154)` target would leave the excluded
+105-tile F1 target, but no theorem forces that corner in every tiling.
+The stronger search remains incomplete. For
+[4830](../research/final-synthesis-oct7/f3/README.md), the sole primitive
+F3 candidate `(24,11,31)` at scale one remains undecided; all `4830m²`
+with `m≥2` are already constructive. The 792-area quadrilateral is one
+sufficient route, and its four-macro obstruction is not an obstruction
+to arbitrary unit tilings. For
+[W/beta](../research/final-synthesis-oct7/w-beta/BOUNDARY_FILTER_BARRIER.md),
+the combined boundary-word tests pass every scale `m≥2` and scale one
+when `u≥2` and `v−u≥2`; their compatibility does not supply a global disk
+or the missing forced-patch converse.
+
+The [fresh source audit](../research/final-synthesis-oct7/LITERATURE.md)
+finds no inspected external result closing those implications. Harries's
+finite generator windows fix the ordered tile and target; the solution
+of problem 633 has a different quantifier; older all-prime statements
+cannot restore retracted W/base-beta lemmas. This is a bounded literature
+audit, not a claim to have exhausted every source. **154, 4830 and the
+full classification remain unresolved.**

@@ -1,0 +1,38 @@
+{
+  "check_boundary_filter": {
+    "status": "PASS",
+    "cases": 9179,
+    "v_max": 50,
+    "m_max": 12,
+    "checks": "side lengths, c adjacency, formal endpoint angles and straight fans",
+    "example": {
+      "u": 2,
+      "v": 3,
+      "m": 2,
+      "W_side_lengths": [
+        54,
+        56,
+        30
+      ],
+      "beta_base_length": 92
+    },
+    "geometric_placement_checked": false,
+    "new_tiling_count_claimed": false,
+    "full_Erdos634_solved": false
+  },
+  "check_formal_direction": {
+    "status": "PASS",
+    "symbolic_identities": 3,
+    "symbolic_ring": "Q[u,v,X,X^-1]; arbitrary common integer factor m",
+    "integer_parameter_scale_cases": 60860,
+    "v_max": 100,
+    "m_max": 20,
+    "W7_sparse_tiles": 5,
+    "W7_half_turn_pairs": 1,
+    "beta11_sparse_tiles": 7,
+    "beta11_half_turn_pairs": 2,
+    "geometry_or_nonoverlap_claimed": false,
+    "new_tiling_count_claimed": false,
+    "full_Erdos634_solved": false
+  }
+}
