@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 23759,
-      "sha256": "a35d17e56285bf8aecfd3237d431b5c4563ac3bb883e5a24eff9c60357a53a30"
+      "bytes": 24295,
+      "sha256": "ad4125c6bf99b29a0dddc55fa2e4fffbca55c651827abba56d7eb6520966e0dd"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 18207,
       "sha256": "488406f60062e36596ff5238b8129d8fa27ebef13b482ef31669118268928ac9"
     },
     "STATUS.md": {
-      "bytes": 37613,
-      "sha256": "a883158a30ba3eb7e82b4bf654d49e46166d928a381b302e05863b6c15d57d59"
+      "bytes": 38105,
+      "sha256": "31541aada007adfc19ea4f6ed66ad61b076df0c517369f599e9bf60b038e69fb"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -283,16 +283,16 @@
       "sha256": "353732e633dc0c352df9553dd82ea73378c7182a42d389981c545b6fb6a3849a"
     },
     "docs/full-solution-roadmap.md": {
-      "bytes": 27890,
-      "sha256": "c1ad3df0a4305d52e45b7a5ee7547fa795bab6fe3e23f44b4b3d24901d05f6d6"
+      "bytes": 29019,
+      "sha256": "0a61357b8de502c832b42b651e32dd306c61b2735ce86b340e5bdadfd01839c8"
     },
     "docs/general-spectra.md": {
       "bytes": 2157,
       "sha256": "97282cac68315f25d74f7bc25787271028473adfc76db80aa01d0664a65dba42"
     },
     "docs/global-gap-2026-10-07.md": {
-      "bytes": 29848,
-      "sha256": "7944d5a32ea544e311516080ed28d4f41868d70a4a1b4c7ea9ad384c80fa034b"
+      "bytes": 32037,
+      "sha256": "3e9e2d13bcbddc92acb9a599f02c94f5a1f43c17c908775f3cc87aff0b629ac0"
     },
     "docs/grid-capacity-and-orientations.md": {
       "bytes": 10068,
@@ -1790,6 +1790,34 @@
       "bytes": 4048,
       "sha256": "03a9e274a4ed25579898b495ef8070b7ea45cfc4b886c69b9415d79a5c825b5c"
     },
+    "research/quartic-descent-oct7/AUDIT.md": {
+      "bytes": 6483,
+      "sha256": "18217c50daf93ff44cc9597690ad62908861cd91005e0400e0259d1200de1b41"
+    },
+    "research/quartic-descent-oct7/PROOF.md": {
+      "bytes": 9918,
+      "sha256": "2e86441ee6eecea2d4206eec2a5549c24de7b56faab2b6356e0c52c07113d228"
+    },
+    "research/quartic-descent-oct7/README.md": {
+      "bytes": 1588,
+      "sha256": "439ff411dca0651df99eca9bd21239aab899f5b3349b75706c372df47ccbf862"
+    },
+    "research/quartic-descent-oct7/check_independent.py": {
+      "bytes": 3557,
+      "sha256": "3a94239827670463c6b19a23e913f2bc3cf954c3c55e429a2e36ae6a4eb10adf"
+    },
+    "research/quartic-descent-oct7/check_odd_product.py": {
+      "bytes": 2386,
+      "sha256": "6f1318427f8b3bb0a183aff29e107b7d6737ea69e727da1716aa1d8d62dd5e94"
+    },
+    "research/quartic-descent-oct7/independent-verification.json": {
+      "bytes": 739,
+      "sha256": "d64c697a77d5c2a7def01adc680e5a84b53fb6f2a0c6b950ff02a51304cd541c"
+    },
+    "research/quartic-descent-oct7/verification.json": {
+      "bytes": 626,
+      "sha256": "8f4b00b6ef82cbf5619ab5493c513c9239dba19fdd03a7c2e79cef312e6dcba6"
+    },
     "research/seam-certificates/README.md": {
       "bytes": 2584,
       "sha256": "2efa1b1c418bc84b502e67e8e5d73702dd6d5f02f1d14f83e6717b3ffb2d142d"
@@ -2319,8 +2347,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 13362,
-      "sha256": "17b6fca96ba0e5466ac017d79baeecc70a9698fd9bf660b1c714d6c56b418e69"
+      "bytes": 13582,
+      "sha256": "29ce579653832d2481bdc7585054547ac9847752bc1f9d5b75a9aa0a5c76fa7c"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

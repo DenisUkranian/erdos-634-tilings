@@ -332,3 +332,23 @@ N. **154 and 4830 are unresolved here**; the latter satisfies
 square multiples were already positive. The unfinished Group-1 and
 other norm-family predicates also remain, so the new complete class
 and sector theorems do not constitute a solution of all Erdős 634.
+
+## 7 October: infinitely many odd-sector exclusions from quartic descent
+
+The [new product theorem](../research/quartic-descent-oct7/PROOF.md), with
+a [separate internal audit](../research/quartic-descent-oct7/AUDIT.md),
+excludes every odd multiplier in square class 6R whenever R is a
+product of an odd number of distinct primes p with
+`p=13 mod24` and `3^((p-1)/4)=1 modp`. A quartic-cover obstruction and
+quadratic reciprocity exclude all possible F3 coefficients; the
+existing residue theorem excludes the other branches. No elliptic
+rank or basis computation is used. The qualifying primes have density
+1/16 among rational primes by the cited Chebotarev theorem, so the
+result allows unbounded prime support.
+
+The existing effective theta tails supply every sufficiently large
+even multiplier for each fixed R. Thus these classes have an effective
+eventual parity classification. Only the R=13 instance currently has
+a positive seed covering **all** even multipliers; the other small
+even sectors remain separate geometric questions. **154 and 4830 are
+still unresolved**, and the unrestricted classification remains open.

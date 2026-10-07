@@ -547,3 +547,50 @@ therefore lies outside the newly completed sector; its multiples
 `4830m²`, m>=2, were already constructed by the staircase theorem.
 General W/beta small-scale questions, other norm branches, and the
 remaining F3 domain still prevent a characterization of every N.
+
+## 14. An infinite product extension of the class-78 obstruction
+
+The [quartic-descent theorem](../research/quartic-descent-oct7/PROOF.md)
+extends the negative half of Section 13 to squarefree products with
+unbounded prime support. Let R be a product of an odd number of distinct
+primes p satisfying
+
+\[
+p\equiv13\pmod{24},\qquad 3^{(p-1)/4}\equiv1\pmod p.
+\]
+
+Then
+
+\[
+\boxed{6Rm^2\notin\mathcal S\qquad\text{for every odd positive integer }m.}
+\]
+
+The existing all-branch residue reduction isolates F3. Its coefficient
+would give a positive rational point with odd 2-adic x-valuation on
+`y²=x³+12Rx²-12R²x`. Every possible square class of x determines a
+partition R=AB. The local quartic equations require `(A/p)=-1` at
+each prime dividing B and `(B/p)=-1` at each prime dividing A. All
+primes are 1 modulo 4, so quadratic reciprocity equates the products
+of these symbols; their signs are opposite because R has an odd
+number of prime factors. This excludes every cover without a rank
+or Mordell–Weil basis calculation. The
+[independent internal audit](../research/quartic-descent-oct7/AUDIT.md)
+checks the rational map, local equations and reciprocity argument.
+
+The qualifying primes have density **1/16 among rational primes**, by
+Chebotarev applied to the explicit degree-16 splitting field in the
+proof. This infinitude input is separate from the elementary exclusion
+for each specified R. Initial kernels include 78, 654, 1086, 1374 and
+1662; products can involve arbitrarily many qualifying primes.
+
+For each fixed R, the existing effective theta construction supplies
+every sufficiently large even multiplier. Consequently membership in
+this square class is eventually equivalent to evenness, with a
+computable sufficient threshold. **Only R=13 is currently closed at
+every even multiplier**, through the 312-tile seed; no assertion that
+all small even multipliers work is made for the other R.
+
+This adds infinitely many complete odd-multiplier exclusions, not a
+complete classification of their small even sectors or of all counts.
+**154 and 4830 remain unresolved**, and the remaining geometric scale
+predicates in the other branches still require a general solution.
