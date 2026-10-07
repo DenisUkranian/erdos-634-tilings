@@ -1,0 +1,115 @@
+{
+  "statement": "Integer multiplicities and individually contained translated triangles satisfy every directed-edge zeroth and first moment. Overlaps are allowed; this is not a tiling.",
+  "parameters": [
+    24,
+    11,
+    31
+  ],
+  "target": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "961",
+      "0"
+    ],
+    [
+      "173926/961",
+      "1275120/961"
+    ]
+  ],
+  "count": 4830,
+  "types": [
+    {
+      "height": 1,
+      "rotation": 0,
+      "chirality": 0,
+      "multiplicity": 38,
+      "translation": [
+        "63528646891/132760600",
+        "2145/589"
+      ]
+    },
+    {
+      "height": 1,
+      "rotation": 0,
+      "chirality": 1,
+      "multiplicity": 31,
+      "translation": [
+        "465",
+        "0"
+      ]
+    },
+    {
+      "height": 1,
+      "rotation": 2,
+      "chirality": 0,
+      "multiplicity": 4,
+      "translation": [
+        "682517/17360",
+        "773/62"
+      ]
+    },
+    {
+      "height": 1,
+      "rotation": 4,
+      "chirality": 0,
+      "multiplicity": 20,
+      "translation": [
+        "9553126031/17468500",
+        "1104/31"
+      ]
+    },
+    {
+      "height": 2,
+      "rotation": 0,
+      "chirality": 0,
+      "multiplicity": 2385,
+      "translation": [
+        "171267187/458397",
+        "67164416/152799"
+      ]
+    },
+    {
+      "height": 2,
+      "rotation": 1,
+      "chirality": 1,
+      "multiplicity": 2,
+      "translation": [
+        "165169407/176824",
+        "28339/961"
+      ]
+    },
+    {
+      "height": 2,
+      "rotation": 3,
+      "chirality": 0,
+      "multiplicity": 2339,
+      "translation": [
+        "861266359/2247779",
+        "1043613120/2247779"
+      ]
+    },
+    {
+      "height": 2,
+      "rotation": 3,
+      "chirality": 1,
+      "multiplicity": 4,
+      "translation": [
+        "325434841349/433218800",
+        "53295/1922"
+      ]
+    },
+    {
+      "height": 2,
+      "rotation": 5,
+      "chirality": 1,
+      "multiplicity": 7,
+      "translation": [
+        "38301604/197225",
+        "24"
+      ]
+    }
+  ]
+}

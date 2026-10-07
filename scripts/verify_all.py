@@ -147,6 +147,8 @@ def main():
                 ('sharp_nested_ratio_cone','global-criterion-oct7','check_sharp_cone.py'),
                 ('norm_orientation_level_divisibility','i120-global-oct7','check_height_levels.py'),
                 ('theta_exact_base_count_threshold','w-global-oct7','check_theta_base.py'),
+                ('f3_contained_position_moment_barrier','f3-moments-oct7','independent_check.py'),
+                ('w_scale_two_universal_local_collar','w-scale-two-oct7','check_symbolic_collar.py'),
                 ('w56_local_escape_patch','group1-global-scales','verify_local_patch.py')]:
             reports[key]=run([command],work/'research'/package)
             pr=json.loads(reports[key]['stdout'])

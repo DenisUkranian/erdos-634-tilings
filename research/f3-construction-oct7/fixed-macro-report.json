@@ -1,0 +1,84 @@
+{
+  "status": "EXPLORATORY",
+  "results": [
+    {
+      "tile": [
+        24,
+        11,
+        31
+      ],
+      "multiplier": 1,
+      "count": 4830,
+      "max_macros": 6,
+      "min_scale": 5,
+      "status": "RESTRICTED_EXHAUSTED",
+      "nodes": 19,
+      "deepest": 3,
+      "seconds": 0.045,
+      "coordinate_field": "(x,y) denotes x+y*sqrt(3)*i",
+      "target": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "961",
+          "0"
+        ],
+        [
+          "811486/961",
+          "637560/961"
+        ]
+      ],
+      "macros": null,
+      "prescribed_scales": [
+        31,
+        31,
+        31,
+        31,
+        31,
+        5
+      ]
+    },
+    {
+      "tile": [
+        24,
+        11,
+        31
+      ],
+      "multiplier": 1,
+      "count": 4830,
+      "max_macros": 6,
+      "min_scale": 7,
+      "status": "RESTRICTED_EXHAUSTED",
+      "nodes": 50,
+      "deepest": 5,
+      "seconds": 0.186,
+      "coordinate_field": "(x,y) denotes x+y*sqrt(3)*i",
+      "target": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "961",
+          "0"
+        ],
+        [
+          "811486/961",
+          "637560/961"
+        ]
+      ],
+      "macros": null,
+      "prescribed_scales": [
+        43,
+        31,
+        31,
+        31,
+        7,
+        7
+      ]
+    }
+  ],
+  "full_Erdos634_solved": false
+}

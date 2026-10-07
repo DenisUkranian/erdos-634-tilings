@@ -1,0 +1,1560 @@
+{
+  "scope": "Only the pure-c length-91 boundary row. Exact exploratory search, no negative claim.",
+  "N": 154,
+  "tile": [
+    8,
+    7,
+    13
+  ],
+  "target_sides": [
+    91,
+    91,
+    154
+  ],
+  "status": "INCOMPLETE",
+  "root_count": 128,
+  "results": [
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    },
+    {
+      "flips": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "EXHAUSTED_REQUIRES_INDEPENDENT_REPLAY"
+    }
+  ],
+  "visited_nodes": 1152,
+  "maximum_placed_tiles": 61,
+  "pruning": {},
+  "seconds": 50.302,
+  "exceptional_height": -1,
+  "full_Erdos634_solved": false
+}

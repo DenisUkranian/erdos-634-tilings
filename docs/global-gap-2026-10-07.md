@@ -355,3 +355,47 @@ also stopped incomplete. None supplies a negative decision.
 Thus these improvements enlarge the proved constructions and necessary
 conditions, while 154, 4830 and the general below-tail geometric
 criterion remain unresolved. No complete classification is asserted.
+
+## 10. Stronger geometric attempts and their remaining limits
+
+An [exact position-moment witness](../research/f3-moments-oct7/README.md)
+now assigns actual rational positions and positive integer multiplicities
+to 4830 congruent `(24,11,31)` triangles inside the correct F3 target.
+It matches the full directed-edge signature, both coordinate first
+moments in every edge direction, total area, area centroid and height
+populations `(93,4737)`. Nevertheless, it has only nine distinct placements,
+and one positive-area triangle is repeated 2385 times. Two exact checkers,
+one independent of the optimization model, verify this explicit overlapping
+multiset. Thus even these position-sensitive additive conditions and
+individual containment do not establish a genuine dissection. This is
+neither a positive nor a negative decision of 4830.
+
+For W with `u=v-1`, `v>=3`, the forced scale-two word `c,c,a,a` has a
+[universal nine-tile collar](../research/w-scale-two-oct7/README.md).
+It fills the five angle fans along that entire short side, including
+both target corners. Congruence and target shape are rational identities;
+containment and all 36 pairwise separations are proved by polynomial
+coefficient signs after `v=3+x`, `x>=0`. Consequently the short-side word
+and these local fans alone give no contradiction for any such parameter.
+The remaining region is not filled, and scale-two W is not classified.
+
+The [population-budget continuation](../research/i120-boundary-oct7/README.md)
+adds a necessary rounded count bound for partial placements. Connectivity
+of positive-length tile contacts also implies that consecutive occupied
+short-edge heights differ by at most two. For 154 the existing congruences
+therefore confine all heights to `[-22,22]` in canonical coordinates.
+The pure-long-91-side search treated 128 initial orientation patterns:
+112 exhausted in the search engine without independent certificates,
+and 16 remained incomplete. None of these reports supplies a global
+exclusion or a proof that a pure-long side forces a complete grid.
+
+Two [prescribed six-macro searches](../research/f3-construction-oct7/README.md)
+also exhausted without finding a construction; their narrow scopes and
+lack of independent refutation certificates are explicit. A proposed
+two-height interface divisibility was discarded because it omitted one
+of the two allowed whole-edge lattice contributions.
+
+The decisive missing statement remains a necessary-and-sufficient global
+geometric criterion. The cases 154 and 4830 are still unresolved here;
+the two new exact results above restrict particular methods, not the
+set of admissible integers. A complete classification has not been proved.

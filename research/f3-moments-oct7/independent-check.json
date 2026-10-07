@@ -1,0 +1,20 @@
+{
+  "area_and_area_centroid": true,
+  "count": 4830,
+  "distinct_placements": 9,
+  "exact_containment_inequalities": 81,
+  "full_Erdos634_solved": false,
+  "has_interior_overlap": true,
+  "height_populations": {
+    "1": 93,
+    "2": 4737
+  },
+  "is_tiling": false,
+  "largest_identical_stack": 2385,
+  "nonzero_direction_groups": 8,
+  "scope": "The stated conditions do not certify this placement as a tiling and cannot exclude 4830. Existence of a genuine tiling is not decided.",
+  "status": "PASS",
+  "target_containment": true,
+  "tile_congruence": true,
+  "zeroth_and_first_directed_edge_moments": true
+}

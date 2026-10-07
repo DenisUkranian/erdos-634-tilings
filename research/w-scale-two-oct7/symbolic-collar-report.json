@@ -1,0 +1,374 @@
+{
+  "status": "PASS",
+  "range": "all real v>=3, hence every integer v>=3",
+  "proof_method": "exact rational identities and nonnegative coefficients in v-3",
+  "tiles": 9,
+  "all_pair_checks": 36,
+  "tile_area_det": "b*u/2",
+  "separators": [
+    {
+      "pair": [
+        1,
+        0
+      ],
+      "separating_tile_edge": [
+        1,
+        2
+      ]
+    },
+    {
+      "pair": [
+        2,
+        0
+      ],
+      "separating_tile_edge": [
+        2,
+        2
+      ]
+    },
+    {
+      "pair": [
+        2,
+        1
+      ],
+      "separating_tile_edge": [
+        2,
+        2
+      ]
+    },
+    {
+      "pair": [
+        3,
+        0
+      ],
+      "separating_tile_edge": [
+        3,
+        2
+      ]
+    },
+    {
+      "pair": [
+        3,
+        1
+      ],
+      "separating_tile_edge": [
+        3,
+        2
+      ]
+    },
+    {
+      "pair": [
+        3,
+        2
+      ],
+      "separating_tile_edge": [
+        3,
+        2
+      ]
+    },
+    {
+      "pair": [
+        4,
+        0
+      ],
+      "separating_tile_edge": [
+        4,
+        0
+      ]
+    },
+    {
+      "pair": [
+        4,
+        1
+      ],
+      "separating_tile_edge": [
+        4,
+        0
+      ]
+    },
+    {
+      "pair": [
+        4,
+        2
+      ],
+      "separating_tile_edge": [
+        4,
+        0
+      ]
+    },
+    {
+      "pair": [
+        4,
+        3
+      ],
+      "separating_tile_edge": [
+        4,
+        0
+      ]
+    },
+    {
+      "pair": [
+        5,
+        0
+      ],
+      "separating_tile_edge": [
+        5,
+        2
+      ]
+    },
+    {
+      "pair": [
+        5,
+        1
+      ],
+      "separating_tile_edge": [
+        5,
+        2
+      ]
+    },
+    {
+      "pair": [
+        5,
+        2
+      ],
+      "separating_tile_edge": [
+        5,
+        2
+      ]
+    },
+    {
+      "pair": [
+        5,
+        3
+      ],
+      "separating_tile_edge": [
+        5,
+        2
+      ]
+    },
+    {
+      "pair": [
+        5,
+        4
+      ],
+      "separating_tile_edge": [
+        4,
+        0
+      ]
+    },
+    {
+      "pair": [
+        6,
+        0
+      ],
+      "separating_tile_edge": [
+        6,
+        2
+      ]
+    },
+    {
+      "pair": [
+        6,
+        1
+      ],
+      "separating_tile_edge": [
+        6,
+        0
+      ]
+    },
+    {
+      "pair": [
+        6,
+        2
+      ],
+      "separating_tile_edge": [
+        6,
+        0
+      ]
+    },
+    {
+      "pair": [
+        6,
+        3
+      ],
+      "separating_tile_edge": [
+        6,
+        0
+      ]
+    },
+    {
+      "pair": [
+        6,
+        4
+      ],
+      "separating_tile_edge": [
+        4,
+        0
+      ]
+    },
+    {
+      "pair": [
+        6,
+        5
+      ],
+      "separating_tile_edge": [
+        6,
+        0
+      ]
+    },
+    {
+      "pair": [
+        7,
+        0
+      ],
+      "separating_tile_edge": [
+        7,
+        2
+      ]
+    },
+    {
+      "pair": [
+        7,
+        1
+      ],
+      "separating_tile_edge": [
+        7,
+        2
+      ]
+    },
+    {
+      "pair": [
+        7,
+        2
+      ],
+      "separating_tile_edge": [
+        7,
+        2
+      ]
+    },
+    {
+      "pair": [
+        7,
+        3
+      ],
+      "separating_tile_edge": [
+        7,
+        0
+      ]
+    },
+    {
+      "pair": [
+        7,
+        4
+      ],
+      "separating_tile_edge": [
+        4,
+        0
+      ]
+    },
+    {
+      "pair": [
+        7,
+        5
+      ],
+      "separating_tile_edge": [
+        7,
+        0
+      ]
+    },
+    {
+      "pair": [
+        7,
+        6
+      ],
+      "separating_tile_edge": [
+        7,
+        2
+      ]
+    },
+    {
+      "pair": [
+        8,
+        0
+      ],
+      "separating_tile_edge": [
+        8,
+        2
+      ]
+    },
+    {
+      "pair": [
+        8,
+        1
+      ],
+      "separating_tile_edge": [
+        8,
+        2
+      ]
+    },
+    {
+      "pair": [
+        8,
+        2
+      ],
+      "separating_tile_edge": [
+        8,
+        0
+      ]
+    },
+    {
+      "pair": [
+        8,
+        3
+      ],
+      "separating_tile_edge": [
+        8,
+        0
+      ]
+    },
+    {
+      "pair": [
+        8,
+        4
+      ],
+      "separating_tile_edge": [
+        4,
+        0
+      ]
+    },
+    {
+      "pair": [
+        8,
+        5
+      ],
+      "separating_tile_edge": [
+        8,
+        0
+      ]
+    },
+    {
+      "pair": [
+        8,
+        6
+      ],
+      "separating_tile_edge": [
+        8,
+        2
+      ]
+    },
+    {
+      "pair": [
+        8,
+        7
+      ],
+      "separating_tile_edge": [
+        8,
+        0
+      ]
+    }
+  ],
+  "claim": "The ccaa side has an actual nine-tile collar completing all its five boundary fans.",
+  "whole_target_tiled": false,
+  "W_scale_two_decided": false,
+  "full_Erdos634_solved": false
+}
