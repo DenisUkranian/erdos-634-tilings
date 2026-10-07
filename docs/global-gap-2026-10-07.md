@@ -399,3 +399,43 @@ The decisive missing statement remains a necessary-and-sufficient global
 geometric criterion. The cases 154 and 4830 are still unresolved here;
 the two new exact results above restrict particular methods, not the
 set of admissible integers. A complete classification has not been proved.
+
+## 11. Three-route audit and an exact moment hierarchy
+
+The [executed strategy audit](../research/strategy-oct7/README.md) tests
+global geometric normalization, same-count parameter descent and direct
+overlap control. None supplies a full classification.
+
+The [parameter calculation](../research/strategy-oct7/plan-b.md) makes one
+barrier exhaustive: 4830 has only the ordered primitive F3 tile
+`(24,11,31)` at residual scale one. In variables `s=a+b`, `t=a+2b`, its
+only divisor pair with `st=1610` and `s<t<2s` is `(35,46)`. Hence a
+different primitive tile cannot automatically transfer this candidate
+to an existing constructive cone. A theorem applying only to realizable
+counts could still exclude 4830, but would need new geometric necessity.
+
+The [moment analysis](../research/strategy-oct7/plan-c.md) now proves a
+uniform limitation rather than a single numerical example. For every
+fixed degree d, there are `(d+3)^2` distinct contained triangular copies
+matching every area moment and each direction's signed boundary moments
+through d, with the correct orientation populations, but with overlaps.
+The argument uses polynomial translations and Newton identities and
+persists after refining any existing nonclassical tiling. It does not
+produce an untileable target passing an existence test.
+
+There is also a precise complementary sufficiency theorem: for a
+specified N-placement, matching signed directional boundary moments
+through degree 2N forces a genuine tiling. A line-isolating polynomial
+reduces the claim to step measures on a line; their at most 2(N+1)
+endpoints are determined by the moment equations via Vandermonde.
+The resulting zero boundary current makes the coverage discrepancy
+identically zero almost everywhere, and closedness gives exact coverage.
+This verifies finite placement data; it does not find placements or
+classify their possible counts.
+
+The [normalization audit](../research/strategy-oct7/plan-a.md) shows why
+even a uniform short-height window would leave an additional positive-
+completion theorem. Its proved conditional lattice bound and one-height
+I120 exclusion do not provide the missing global replacement. Thus the
+remaining work is a substantive geometric existence theorem, not merely
+a fixed-order moment extension or a change of primitive parameters.

@@ -149,6 +149,8 @@ def main():
                 ('theta_exact_base_count_threshold','w-global-oct7','check_theta_base.py'),
                 ('f3_contained_position_moment_barrier','f3-moments-oct7','independent_check.py'),
                 ('w_scale_two_universal_local_collar','w-scale-two-oct7','check_symbolic_collar.py'),
+                ('same_count_parameter_descent_audit','strategy-oct7','check_plan_b.py'),
+                ('fixed_degree_moment_barrier','strategy-oct7','check-plan-c.py'),
                 ('w56_local_escape_patch','group1-global-scales','verify_local_patch.py')]:
             reports[key]=run([command],work/'research'/package)
             pr=json.loads(reports[key]['stdout'])

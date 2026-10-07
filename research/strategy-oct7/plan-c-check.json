@@ -1,0 +1,243 @@
+{
+  "cases": [
+    {
+      "count": 4,
+      "degree": 0,
+      "energy_in_tile_areas": 2,
+      "holes": 1,
+      "identical_pairs": 1,
+      "moment_equalities": 4,
+      "row_length": 2
+    },
+    {
+      "count": 16,
+      "degree": 1,
+      "energy_in_tile_areas": 4,
+      "holes": 2,
+      "identical_pairs": 2,
+      "moment_equalities": 12,
+      "row_length": 4
+    },
+    {
+      "count": 64,
+      "degree": 2,
+      "energy_in_tile_areas": 8,
+      "holes": 4,
+      "identical_pairs": 4,
+      "moment_equalities": 24,
+      "row_length": 8
+    },
+    {
+      "count": 256,
+      "degree": 3,
+      "energy_in_tile_areas": 16,
+      "holes": 8,
+      "identical_pairs": 8,
+      "moment_equalities": 40,
+      "row_length": 16
+    },
+    {
+      "count": 1024,
+      "degree": 4,
+      "energy_in_tile_areas": 32,
+      "holes": 16,
+      "identical_pairs": 16,
+      "moment_equalities": 60,
+      "row_length": 32
+    },
+    {
+      "count": 4096,
+      "degree": 5,
+      "energy_in_tile_areas": 64,
+      "holes": 32,
+      "identical_pairs": 32,
+      "moment_equalities": 84,
+      "row_length": 64
+    },
+    {
+      "count": 16384,
+      "degree": 6,
+      "energy_in_tile_areas": 128,
+      "holes": 64,
+      "identical_pairs": 64,
+      "moment_equalities": 112,
+      "row_length": 128
+    }
+  ],
+  "decides_154": false,
+  "decides_4830": false,
+  "distinct_placement_cases": [
+    {
+      "all_placements_distinct": true,
+      "count": 9,
+      "degree": 0,
+      "disjoint_exact_root_brackets": 1,
+      "moved_tiles": 1,
+      "newton_moments_checked": 1
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 16,
+      "degree": 1,
+      "disjoint_exact_root_brackets": 2,
+      "moved_tiles": 2,
+      "newton_moments_checked": 2
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 25,
+      "degree": 2,
+      "disjoint_exact_root_brackets": 3,
+      "moved_tiles": 3,
+      "newton_moments_checked": 3
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 36,
+      "degree": 3,
+      "disjoint_exact_root_brackets": 4,
+      "moved_tiles": 4,
+      "newton_moments_checked": 4
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 49,
+      "degree": 4,
+      "disjoint_exact_root_brackets": 5,
+      "moved_tiles": 5,
+      "newton_moments_checked": 5
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 64,
+      "degree": 5,
+      "disjoint_exact_root_brackets": 6,
+      "moved_tiles": 6,
+      "newton_moments_checked": 6
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 81,
+      "degree": 6,
+      "disjoint_exact_root_brackets": 7,
+      "moved_tiles": 7,
+      "newton_moments_checked": 7
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 100,
+      "degree": 7,
+      "disjoint_exact_root_brackets": 8,
+      "moved_tiles": 8,
+      "newton_moments_checked": 8
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 121,
+      "degree": 8,
+      "disjoint_exact_root_brackets": 9,
+      "moved_tiles": 9,
+      "newton_moments_checked": 9
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 144,
+      "degree": 9,
+      "disjoint_exact_root_brackets": 10,
+      "moved_tiles": 10,
+      "newton_moments_checked": 10
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 169,
+      "degree": 10,
+      "disjoint_exact_root_brackets": 11,
+      "moved_tiles": 11,
+      "newton_moments_checked": 11
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 196,
+      "degree": 11,
+      "disjoint_exact_root_brackets": 12,
+      "moved_tiles": 12,
+      "newton_moments_checked": 12
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 225,
+      "degree": 12,
+      "disjoint_exact_root_brackets": 13,
+      "moved_tiles": 13,
+      "newton_moments_checked": 13
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 256,
+      "degree": 13,
+      "disjoint_exact_root_brackets": 14,
+      "moved_tiles": 14,
+      "newton_moments_checked": 14
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 289,
+      "degree": 14,
+      "disjoint_exact_root_brackets": 15,
+      "moved_tiles": 15,
+      "newton_moments_checked": 15
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 324,
+      "degree": 15,
+      "disjoint_exact_root_brackets": 16,
+      "moved_tiles": 16,
+      "newton_moments_checked": 16
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 361,
+      "degree": 16,
+      "disjoint_exact_root_brackets": 17,
+      "moved_tiles": 17,
+      "newton_moments_checked": 17
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 400,
+      "degree": 17,
+      "disjoint_exact_root_brackets": 18,
+      "moved_tiles": 18,
+      "newton_moments_checked": 18
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 441,
+      "degree": 18,
+      "disjoint_exact_root_brackets": 19,
+      "moved_tiles": 19,
+      "newton_moments_checked": 19
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 484,
+      "degree": 19,
+      "disjoint_exact_root_brackets": 20,
+      "moved_tiles": 20,
+      "newton_moments_checked": 20
+    },
+    {
+      "all_placements_distinct": true,
+      "count": 529,
+      "degree": 20,
+      "disjoint_exact_root_brackets": 21,
+      "moved_tiles": 21,
+      "newton_moments_checked": 21
+    }
+  ],
+  "full_Erdos634_solved": false,
+  "status": "PASS",
+  "theorem_scope": "Fixed-degree moments do not certify displayed placements; no untileable target is produced.",
+  "witness_4830_energy_lower_in_tile_areas": 11157206
+}
