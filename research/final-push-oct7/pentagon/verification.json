@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checked": 338,
+  "parameter_bound_a": 400,
+  "checks": [
+    "exact direction currents",
+    "hexagon area",
+    "two-height current identity",
+    "positive inventory count"
+  ],
+  "geometric_filling_constructed": false,
+  "new_admissible_count_claimed": false,
+  "full_Erdos634_solved": false
+}

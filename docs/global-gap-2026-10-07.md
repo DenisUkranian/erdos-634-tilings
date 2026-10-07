@@ -439,3 +439,49 @@ completion theorem. Its proved conditional lattice bound and one-height
 I120 exclusion do not provide the missing global replacement. Thus the
 remaining work is a substantive geometric existence theorem, not merely
 a fixed-order moment extension or a change of primitive parameters.
+
+## 12. A new positive macro partition and three precise barriers
+
+The [next three-route continuation](../research/final-push-oct7/README.md)
+tests a different positive F3 partition, an all-orientation W cap repair,
+and decomposition of exact multiple covers. It produces general lemmas,
+but no new decision of a previously unresolved count.
+
+For every ordered plus-norm tile with `a>b`, three c-fold sectors and
+four further triangular grids fit inside the primitive F3 target. The
+seven grids contain `3c²+7b²` unit tiles and leave the explicit simple
+hexagon `H(ab,b²)` of `2b(3a−2b)` tile areas. The
+[universal containment and disjointness proof](../research/final-push-oct7/f3/FAN_HEXAGON.md)
+has no aspect-ratio cutoff. At 4830 its remainder has 1100 tile areas.
+That remainder has not been filled. Its direction-resolved boundary
+current excludes every filling restricted to the one displayed short
+height, including the obvious parallelogram grids. The
+[two-height formal inventory](../research/final-push-oct7/pentagon/SHORT_HEIGHT_OBSTRUCTION.md)
+still passes with positive unplaced counts, so this obstruction does
+not exclude an unrestricted filling. The macro partition supplies a
+sufficient route only; it is not forced in arbitrary F3 tilings.
+
+In W, a [new parity argument](../research/final-push-oct7/w/PARALLELOGRAM_PARITY_AND_CAP.md)
+shows that any parallelogram tiled by the primitive W tile contains an
+even number of copies, with no orientation or edge-matching restriction.
+The problematic parallelogram of the scaled `+d` cap therefore requires
+`u|d²`. For squarefree u it is tileable exactly when `u|d`. This closes
+repair of that unchanged region in additional orientations, but does
+not rule out a replacement crossing its boundary or another W tiling.
+
+For every 120-degree triangle a
+[nine-copy angular construction](../research/final-push-oct7/duality/LOCAL_MULTIPLICITY.md)
+exactly double-covers a small punctured disk while its intersection graph
+contains an induced odd cycle. It cannot split into two local single
+covers. No completion to an exact double cover of an entire triangular
+target is supplied, so this is a local decomposition barrier, not a
+counterexample to a global existence equivalence. Separately, all F3
+boundary words vanish in every prime-exponent quotient of the ordered
+tile group; the [proof](../research/final-push-oct7/duality/NONCOMMUTATIVE_BOUNDARY.md)
+includes nonabelian quotients but makes no claim about all groups or
+positive geometric diagrams.
+
+These routes leave the same decisive obligation: prove a complete
+positive-filling criterion or a necessary global normal form, and cover
+every remaining branch before excluding a count. The new lemmas do not
+settle 154 or 4830 and do not complete the all-integer classification.

@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "local_fans": [
+    {
+      "alpha_over_60": "1/7",
+      "multiplicity": 2,
+      "induced_cycle": [
+        0,
+        4,
+        1,
+        6,
+        3
+      ]
+    },
+    {
+      "alpha_over_60": "1/2",
+      "multiplicity": 2,
+      "induced_cycle": [
+        0,
+        4,
+        1,
+        6,
+        3
+      ]
+    },
+    {
+      "alpha_over_60": "6/7",
+      "multiplicity": 2,
+      "induced_cycle": [
+        0,
+        4,
+        1,
+        6,
+        3
+      ]
+    }
+  ],
+  "nonabelian_quotient": {
+    "tile": [
+      24,
+      11,
+      31
+    ],
+    "group_order": 27,
+    "group_exponent": 3,
+    "nonabelian": true,
+    "tile_relations_checked": 156,
+    "F3_scales_checked": [
+      1,
+      2,
+      3
+    ]
+  },
+  "whole_triangle_multiple_cover_constructed": false,
+  "full_Erdos634_solved": false
+}

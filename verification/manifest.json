@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 22309,
-      "sha256": "4c46c8a14d97c54cb2251e7e98c8e5a3d1a8a1f65ce1db5566d48c30f3c3b2ad"
+      "bytes": 22844,
+      "sha256": "456916e15738f449a7d6343aa7f77069076dcc632011929beb819a2bb6354001"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 18207,
       "sha256": "488406f60062e36596ff5238b8129d8fa27ebef13b482ef31669118268928ac9"
     },
     "STATUS.md": {
-      "bytes": 34508,
-      "sha256": "0f48b5cc4860930e6466ecfb680f4b14fe736d8a6db6d9f87389c7cd4fce7ff2"
+      "bytes": 36316,
+      "sha256": "2e27996f4462d937b27d1ca83ea0a4130db032ff99ade02828c3adcd962316ff"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -291,8 +291,8 @@
       "sha256": "97282cac68315f25d74f7bc25787271028473adfc76db80aa01d0664a65dba42"
     },
     "docs/global-gap-2026-10-07.md": {
-      "bytes": 23838,
-      "sha256": "9589e7409193698e974b807661c2018c5e8ed83d2b65e2f78080bd466daab68f"
+      "bytes": 26637,
+      "sha256": "2e3abb42ac2708c15acaf70d7c72ab75255a24a5fe97527a5a4291757b188dea"
     },
     "docs/grid-capacity-and-orientations.md": {
       "bytes": 10068,
@@ -913,6 +913,58 @@
     "research/f3-vertex-defects/verified_inventory.json": {
       "bytes": 1009,
       "sha256": "dac3099bb56577f0a30191c9c2431ca7a897ccf76a9e10cf6ce18061efc99b0e"
+    },
+    "research/final-push-oct7/README.md": {
+      "bytes": 4424,
+      "sha256": "8be849a5b0eeef741c214abe58ce6526f5cef9f2ddd7b18c2c57c1e8c3d89171"
+    },
+    "research/final-push-oct7/duality/LOCAL_MULTIPLICITY.md": {
+      "bytes": 3265,
+      "sha256": "cf51960f4520f5f901b71e5e3b8802e0d51aca6fd1a696d69ad6f4b6013801a3"
+    },
+    "research/final-push-oct7/duality/NONCOMMUTATIVE_BOUNDARY.md": {
+      "bytes": 4304,
+      "sha256": "6b377f1a87845c3f57c5fe7cb354c07c4c3c0ced3f21f3838eec35a339da3131"
+    },
+    "research/final-push-oct7/duality/README.md": {
+      "bytes": 1352,
+      "sha256": "8049bf818508dea9884ce3340d049939ff902b2d66e7bf0f7aee96d106eef29e"
+    },
+    "research/final-push-oct7/duality/check_duality.py": {
+      "bytes": 3122,
+      "sha256": "079aeea22a21fd43028ec0e05aef8fbfedf8fd2e223a4179353dd4bf51e68389"
+    },
+    "research/final-push-oct7/duality/verification.json": {
+      "bytes": 845,
+      "sha256": "4213c9c49f4dc09f071b83a6cf1162b8754a912851447728ceb66979cdc7248a"
+    },
+    "research/final-push-oct7/f3/FAN_HEXAGON.md": {
+      "bytes": 5851,
+      "sha256": "5175b4bdae40bcc0a414d35b7d895db8a1267b6066fa413eee12a458e4ac15ed"
+    },
+    "research/final-push-oct7/f3/check_fan_hexagon.py": {
+      "bytes": 2062,
+      "sha256": "729e4f41b5fa4e7f8e9350481c92d043a350fd91b56391687be0521a3a34d6ec"
+    },
+    "research/final-push-oct7/f3/verification.json": {
+      "bytes": 851,
+      "sha256": "6c458aac56d7067252928ae6133b26212b1c1a3075db9868a7e0bd4589171bfe"
+    },
+    "research/final-push-oct7/pentagon/SHORT_HEIGHT_OBSTRUCTION.md": {
+      "bytes": 4116,
+      "sha256": "26196f635f5113bf0c9a1652dcb68dd4d6f50669dbcc44b90bcddc518ff507e0"
+    },
+    "research/final-push-oct7/pentagon/check_currents.py": {
+      "bytes": 2371,
+      "sha256": "4cd0bc5beab45f51eac78dbdcb6246ea8c4cb094d825889a3d23fe1b5e9c6190"
+    },
+    "research/final-push-oct7/pentagon/verification.json": {
+      "bytes": 322,
+      "sha256": "bb8a5edec273b30b39c4cc6c7b9fb9d1a5e89e2a672a91e72c2f0c2e926730a8"
+    },
+    "research/final-push-oct7/w/PARALLELOGRAM_PARITY_AND_CAP.md": {
+      "bytes": 6261,
+      "sha256": "6ad173bd032996affd4b7c4414a13bdc908402576430869ecae1de93b0ae2502"
     },
     "research/general-spectra/ATTRIBUTION.md": {
       "bytes": 2494,
@@ -2203,8 +2255,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 12651,
-      "sha256": "b47d14bd10f285df0d23f8a35c5a204b5308ed46cf18724ec63a9ac50578749c"
+      "bytes": 12955,
+      "sha256": "47c1b47b459cecece1c2ef5bca67cc1ba16199b58169b7eb25f7569a010b58fc"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

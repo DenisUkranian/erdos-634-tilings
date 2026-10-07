@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "primitive_range_a_max": 500,
+  "checked": 91,
+  "required_4830": {
+    "tile": [
+      24,
+      11,
+      31
+    ],
+    "count": 4830,
+    "hexagon_count": 1100
+  },
+  "large_ratio_cases": [
+    {
+      "tile": [
+        840,
+        59,
+        871
+      ],
+      "count": 2583726,
+      "hexagon_count": 283436
+    },
+    {
+      "tile": [
+        2808,
+        107,
+        2863
+      ],
+      "count": 26427390,
+      "hexagon_count": 1756940
+    },
+    {
+      "tile": [
+        10200,
+        203,
+        10303
+      ],
+      "count": 331002654,
+      "hexagon_count": 12258764
+    },
+    {
+      "tile": [
+        1002000,
+        2003,
+        1003003
+      ],
+      "count": 3030099126054,
+      "hexagon_count": 12025987964
+    }
+  ],
+  "unrestricted_hexagon_fill": "UNRESOLVED",
+  "full_Erdos634_solved": false
+}

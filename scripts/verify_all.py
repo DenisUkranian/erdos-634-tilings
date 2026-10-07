@@ -151,6 +151,9 @@ def main():
                 ('w_scale_two_universal_local_collar','w-scale-two-oct7','check_symbolic_collar.py'),
                 ('same_count_parameter_descent_audit','strategy-oct7','check_plan_b.py'),
                 ('fixed_degree_moment_barrier','strategy-oct7','check-plan-c.py'),
+                ('f3_positive_fan_hexagon','final-push-oct7/f3','check_fan_hexagon.py'),
+                ('f3_fan_short_height_obstruction','final-push-oct7/pentagon','check_currents.py'),
+                ('local_multiple_cover_and_prime_exponent_barriers','final-push-oct7/duality','check_duality.py'),
                 ('w56_local_escape_patch','group1-global-scales','verify_local_patch.py')]:
             reports[key]=run([command],work/'research'/package)
             pr=json.loads(reports[key]['stdout'])
