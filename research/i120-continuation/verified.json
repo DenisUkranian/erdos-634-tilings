@@ -1,0 +1,410 @@
+{
+  "status": "PASS",
+  "symbolic_remainder_terms": 0,
+  "corner_fans": {
+    "base": [
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "apex": [
+      [
+        1,
+        3,
+        0
+      ]
+    ]
+  },
+  "boundary_counts_154": {
+    "91": [
+      [
+        0,
+        0,
+        7
+      ],
+      [
+        1,
+        10,
+        1
+      ],
+      [
+        2,
+        7,
+        2
+      ],
+      [
+        3,
+        4,
+        3
+      ],
+      [
+        4,
+        1,
+        4
+      ],
+      [
+        8,
+        2,
+        1
+      ]
+    ],
+    "154": [
+      [
+        0,
+        9,
+        7
+      ],
+      [
+        1,
+        6,
+        8
+      ],
+      [
+        1,
+        19,
+        1
+      ],
+      [
+        2,
+        3,
+        9
+      ],
+      [
+        2,
+        16,
+        2
+      ],
+      [
+        3,
+        0,
+        10
+      ],
+      [
+        3,
+        13,
+        3
+      ],
+      [
+        4,
+        10,
+        4
+      ],
+      [
+        5,
+        7,
+        5
+      ],
+      [
+        6,
+        4,
+        6
+      ],
+      [
+        7,
+        1,
+        7
+      ],
+      [
+        8,
+        11,
+        1
+      ],
+      [
+        9,
+        8,
+        2
+      ],
+      [
+        10,
+        5,
+        3
+      ],
+      [
+        11,
+        2,
+        4
+      ],
+      [
+        15,
+        3,
+        1
+      ],
+      [
+        16,
+        0,
+        2
+      ]
+    ]
+  },
+  "fixtures": [
+    {
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "scale": 1,
+      "target_count": 154,
+      "unplaced_inventory_count": 28,
+      "half_turn_pairs": 63
+    },
+    {
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "scale": 2,
+      "target_count": 616,
+      "unplaced_inventory_count": 56,
+      "half_turn_pairs": 280
+    },
+    {
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "scale": 3,
+      "target_count": 1386,
+      "unplaced_inventory_count": 84,
+      "half_turn_pairs": 651
+    },
+    {
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "scale": 7,
+      "target_count": 7546,
+      "unplaced_inventory_count": 196,
+      "half_turn_pairs": 3675
+    },
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "scale": 1,
+      "target_count": 33,
+      "unplaced_inventory_count": 15,
+      "half_turn_pairs": 9
+    },
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "scale": 2,
+      "target_count": 132,
+      "unplaced_inventory_count": 30,
+      "half_turn_pairs": 51
+    },
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "scale": 3,
+      "target_count": 297,
+      "unplaced_inventory_count": 45,
+      "half_turn_pairs": 126
+    },
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "scale": 7,
+      "target_count": 1617,
+      "unplaced_inventory_count": 105,
+      "half_turn_pairs": 756
+    },
+    {
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "scale": 1,
+      "target_count": 65,
+      "unplaced_inventory_count": 15,
+      "half_turn_pairs": 25
+    },
+    {
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "scale": 2,
+      "target_count": 260,
+      "unplaced_inventory_count": 30,
+      "half_turn_pairs": 115
+    },
+    {
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "scale": 3,
+      "target_count": 585,
+      "unplaced_inventory_count": 45,
+      "half_turn_pairs": 270
+    },
+    {
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "scale": 7,
+      "target_count": 3185,
+      "unplaced_inventory_count": 105,
+      "half_turn_pairs": 1540
+    },
+    {
+      "tile": [
+        24,
+        11,
+        31
+      ],
+      "scale": 1,
+      "target_count": 506,
+      "unplaced_inventory_count": 66,
+      "half_turn_pairs": 220
+    },
+    {
+      "tile": [
+        24,
+        11,
+        31
+      ],
+      "scale": 2,
+      "target_count": 2024,
+      "unplaced_inventory_count": 132,
+      "half_turn_pairs": 946
+    },
+    {
+      "tile": [
+        24,
+        11,
+        31
+      ],
+      "scale": 3,
+      "target_count": 4554,
+      "unplaced_inventory_count": 198,
+      "half_turn_pairs": 2178
+    },
+    {
+      "tile": [
+        24,
+        11,
+        31
+      ],
+      "scale": 7,
+      "target_count": 24794,
+      "unplaced_inventory_count": 462,
+      "half_turn_pairs": 12166
+    },
+    {
+      "tile": [
+        11,
+        24,
+        31
+      ],
+      "scale": 1,
+      "target_count": 1416,
+      "unplaced_inventory_count": 66,
+      "half_turn_pairs": 675
+    },
+    {
+      "tile": [
+        11,
+        24,
+        31
+      ],
+      "scale": 2,
+      "target_count": 5664,
+      "unplaced_inventory_count": 132,
+      "half_turn_pairs": 2766
+    },
+    {
+      "tile": [
+        11,
+        24,
+        31
+      ],
+      "scale": 3,
+      "target_count": 12744,
+      "unplaced_inventory_count": 198,
+      "half_turn_pairs": 6273
+    },
+    {
+      "tile": [
+        11,
+        24,
+        31
+      ],
+      "scale": 7,
+      "target_count": 69384,
+      "unplaced_inventory_count": 462,
+      "half_turn_pairs": 34461
+    },
+    {
+      "tile": [
+        112,
+        75,
+        163
+      ],
+      "scale": 1,
+      "target_count": 19650,
+      "unplaced_inventory_count": 350,
+      "half_turn_pairs": 9650
+    },
+    {
+      "tile": [
+        112,
+        75,
+        163
+      ],
+      "scale": 2,
+      "target_count": 78600,
+      "unplaced_inventory_count": 700,
+      "half_turn_pairs": 38950
+    },
+    {
+      "tile": [
+        112,
+        75,
+        163
+      ],
+      "scale": 3,
+      "target_count": 176850,
+      "unplaced_inventory_count": 1050,
+      "half_turn_pairs": 87900
+    },
+    {
+      "tile": [
+        112,
+        75,
+        163
+      ],
+      "scale": 7,
+      "target_count": 962850,
+      "unplaced_inventory_count": 2450,
+      "half_turn_pairs": 480200
+    }
+  ],
+  "geometric_status_154": "UNRESOLVED",
+  "geometric_tiling_claimed": false,
+  "full_Erdos634_solved": false
+}

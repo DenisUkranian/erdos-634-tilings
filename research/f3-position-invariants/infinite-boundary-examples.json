@@ -1,0 +1,227 @@
+{
+  "status": "PASS",
+  "examples": [
+    {
+      "convergent_index": 0,
+      "m": 6,
+      "n": 1,
+      "g": 1,
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "E": 23,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": {
+        "multiplier": 3,
+        "A": 0,
+        "B": 2,
+        "C": 1
+      },
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    },
+    {
+      "convergent_index": 2,
+      "m": 79,
+      "n": 13,
+      "g": 3,
+      "tile": [
+        2024,
+        741,
+        2479
+      ],
+      "E": 1154,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": {
+        "multiplier": 37,
+        "A": 14,
+        "B": 6,
+        "C": 4
+      },
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    },
+    {
+      "convergent_index": 4,
+      "m": 10193,
+      "n": 1677,
+      "g": 1,
+      "tile": [
+        101084920,
+        36999651,
+        123803239
+      ],
+      "E": 819563042,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": {
+        "multiplier": 131,
+        "A": 297,
+        "B": 521,
+        "C": 469
+      },
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    },
+    {
+      "convergent_index": 6,
+      "m": 1258869,
+      "n": 207115,
+      "g": 1,
+      "tile": [
+        1541854535936,
+        564357929095,
+        1888378435321
+      ],
+      "E": 11522614557794,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": null,
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    },
+    {
+      "convergent_index": 8,
+      "m": 10145026,
+      "n": 1669107,
+      "g": 1,
+      "tile": [
+        100135634363227,
+        36652186001013,
+        122640604629907
+      ],
+      "E": 668587568096711,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": null,
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    },
+    {
+      "convergent_index": 10,
+      "m": 78631888,
+      "n": 12936885,
+      "g": 1,
+      "tile": [
+        6015610816941319,
+        2201866378280985,
+        7367588496336649
+      ],
+      "E": 39113690212719119,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": null,
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    },
+    {
+      "convergent_index": 12,
+      "m": 618910078,
+      "n": 101825973,
+      "g": 1,
+      "tile": [
+        372681155872569355,
+        136410770561108517,
+        456439334319218707
+      ],
+      "E": 779323729942155623,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": null,
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    },
+    {
+      "convergent_index": 14,
+      "m": 2565686677,
+      "n": 422118740,
+      "g": 1,
+      "tile": [
+        6404563893876114729,
+        2344233085319241560,
+        7843956782524516909
+      ],
+      "E": 4871132290541598239,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": null,
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    },
+    {
+      "convergent_index": 16,
+      "m": 57772973415,
+      "n": 9505079074,
+      "g": 1,
+      "tile": [
+        3247369929007304064749,
+        1188619889502342332896,
+        3977199666062964277411
+      ],
+      "E": 11381934352205976426839,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": null,
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    },
+    {
+      "convergent_index": 18,
+      "m": 143149590199,
+      "n": 23551638315,
+      "g": 1,
+      "tile": [
+        19937125506821060820376,
+        7297494413935209788595,
+        24417892214769529773511
+      ],
+      "E": 9846244250251504190114,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": null,
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    },
+    {
+      "convergent_index": 20,
+      "m": 2518919650167,
+      "n": 414424410596,
+      "g": 1,
+      "tile": [
+        6173208611899599666052673,
+        2259551174816124973014280,
+        7560605587454425148172637
+      ],
+      "E": 22264985661837909079732751,
+      "E_representations": [],
+      "first_boundary_multiplier_up_to_200": null,
+      "gamma_tiling": "IMPOSSIBLE_BY_BOUNDARY",
+      "full_F3_status": "NOT_DECIDED_BY_THIS_TEST"
+    }
+  ],
+  "gamma_necessity_counterexample": {
+    "tile": [
+      2024,
+      741,
+      2479
+    ],
+    "multiplier": 6,
+    "E": 1154,
+    "full_F3_count": 1046961720,
+    "full_F3_exists_by": "square-class-tails.md Appendix A, threshold6",
+    "gamma_filler": "IMPOSSIBLE_BY_BOUNDARY",
+    "residue_checks": [
+      {
+        "C": 0,
+        "remaining": 6924,
+        "least_nonnegative_A_mod_b": 453
+      },
+      {
+        "C": 1,
+        "remaining": 4445,
+        "least_nonnegative_A_mod_b": 283
+      },
+      {
+        "C": 2,
+        "remaining": 1966,
+        "least_nonnegative_A_mod_b": 113
+      }
+    ]
+  },
+  "infinite_claim_basis": "separate proof using Siegel, not finite tests",
+  "full_Erdos634_solved": false
+}

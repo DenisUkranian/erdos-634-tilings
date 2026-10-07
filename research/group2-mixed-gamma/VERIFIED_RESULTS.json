@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "certificate": {
+    "status": "PASS",
+    "family": "F3",
+    "tile": [
+      24,
+      11,
+      31
+    ],
+    "multiplier": 2,
+    "N": 19320,
+    "target_side_lengths": [
+      1922,
+      2310,
+      2852
+    ],
+    "all_pair_count": 186621540,
+    "spatial_bucket_pair_candidates": 377082,
+    "separating_axis_checks_after_exact_bounds": 83117,
+    "arithmetic": "exact rational",
+    "coverage_basis": "All triangles contained; a complete rational spatial filter and separating axes exclude every positive overlap; total area equals target area.",
+    "full_Erdos634_solved": false,
+    "external_peer_review": false,
+    "certificate_sha256": "77c1cdc8075195383e4342097e5143841cb2b4cbc133ab9e423b51c049efe457"
+  },
+  "small_control": {
+    "N": 264,
+    "spatial_status": "PASS",
+    "independent_quadratic_status": "PASS"
+  },
+  "mutations_rejected": {
+    "duplicate": "positive-area overlap 263, 0",
+    "missing": "wrong number of triangles",
+    "wrong_target": "wrong F3 target",
+    "moved_vertex": "noncongruent tile 0"
+  },
+  "staircase_maximum_integer_controls": 16284,
+  "primitive_4830_rejected_by_this_recipe": true,
+  "primitive_4830_status": "UNRESOLVED",
+  "full_Erdos634_solved": false,
+  "external_peer_review": false
+}

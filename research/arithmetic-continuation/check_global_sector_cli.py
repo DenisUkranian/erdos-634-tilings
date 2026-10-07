@@ -58,13 +58,17 @@ def check():
         assert classifier.construction_threshold(witness)>1
         assert "gamma_corner_seed" not in witness
     rejected_seed={"branch":"F3","a":24,"b":11,"c":31}
-    assert classifier.construction_threshold(rejected_seed)==6
+    assert classifier.construction_threshold(rejected_seed)==2
     assert "nested_corner_seed" not in rejected_seed
+    assert rejected_seed["threshold_source"]=="gamma_staircase_tail"
+    assert classifier.gamma_staircase_at_multiplier(rejected_seed,1) is None
+    assert classifier.gamma_staircase_at_multiplier(rejected_seed,2) is not None
     return {"status":"PASS","full_Erdos634_solved":False,
             "valid_status_checks":successful,"invalid_scope_inputs_rejected":rejected,
             "unit_seed_orientation_controls":seed_controls,
             "gamma_corner_ordered_controls":gamma_controls,
-            "4830_retains_prior_threshold":6,
+            "4830_constructive_tail":2,
+            "4830_primitive_status":"UNRESOLVED",
             "scope":"CLI status and scope controls, not a complete geometric solver"}
 
 

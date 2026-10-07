@@ -272,3 +272,15 @@ larger scales. The [width theorem](audits/seam-automata-global-width-2026-10-07.
 excludes bounded-treewidth normalization even over alternative tilings.
 A position-sensitive construction or obstruction remains necessary.
 No complete classification of all N is asserted.
+
+### The next construction closes every nonprimitive member of class 4830
+
+The [staircase extension](../research/global-classification-continuation/GAMMA_STAIRCASE.md)
+constructs ordered F3 at every m>=2 when b<a<=5b/2. In particular all
+`4830m²`, m>=2, are positive; the explicit 19320-tiling has a
+[complete exact coordinate check](../research/group2-mixed-gamma/README.md).
+Only 4830 remains in this square class. For every positive gamma remainder
+the proof also supplies an exact staircase-scale predicate and an explicit
+every-integer tail. This advances sufficiency without proving necessity
+of the chosen macro partition. The [updated gap map](global-gap-2026-10-07.md)
+retains the unsolved W/beta converse and unrestricted cases 154 and 4830.

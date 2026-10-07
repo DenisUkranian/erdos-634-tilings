@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "metric": "dx^2 + 2 dy^2",
+  "tile_sides": [
+    6,
+    5,
+    9
+  ],
+  "target_sides": [
+    56,
+    54,
+    30
+  ],
+  "target_tile_count": 56,
+  "placed_tile_count": 11,
+  "pairwise_checks": 55,
+  "known_seam_atom_lengths": [
+    1,
+    3,
+    5,
+    6,
+    9
+  ],
+  "remaining_area_in_tile_units": 45,
+  "fan_at_L2": "alpha + beta + alpha; no gamma tile at L2",
+  "partial_patch_only": true,
+  "extendibility": "UNKNOWN",
+  "full_Erdos634_solved": false
+}

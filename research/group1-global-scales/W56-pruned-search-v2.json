@@ -1,0 +1,53 @@
+{
+  "instance": {
+    "branch": "G1-W",
+    "tile": [
+      6,
+      5,
+      9
+    ],
+    "target": [
+      54,
+      56,
+      30
+    ],
+    "n": 56,
+    "parameters": [
+      2,
+      3
+    ],
+    "multiplier": 2
+  },
+  "status": "INCOMPLETE",
+  "nodes": 13331,
+  "maximum_placed": 44,
+  "seconds": 180.000548,
+  "field_D": 3200,
+  "target_coordinates": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "56",
+      "0"
+    ],
+    [
+      "46",
+      "1/2"
+    ]
+  ],
+  "tile_coordinates": null,
+  "resource_stop": "BudgetExceeded",
+  "exact_arithmetic": true,
+  "uses_collar_lemma": false,
+  "uses_prime_candidate": false,
+  "pruning_rejections": {
+    "infeasible_convex_angle_fan": 2133,
+    "nonintegral_known_seam_segment": 60,
+    "nonintegral_residual_component_area": 48
+  },
+  "integer_seam_filter": true,
+  "angle_fan_filter": true,
+  "full_Erdos634_solved": false
+}

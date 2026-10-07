@@ -47,16 +47,17 @@ satisfying the indicated norm. Both orders of a,b are included.
 | 120-degree F1 | b(a+b), plus norm | Positive attachment from an equilateral core and a tail; existence of that core in an arbitrary F1 tiling is not proved. |
 | 120-degree isosceles | b(a+2b), plus norm | Positive attachments and a tail; smaller scales remain. |
 | 120-degree F2 | (a+2b)(2a+b), plus norm | Equilateral-core and reflected-corner constructions, including the new three-generator domain; no necessity of either chosen decomposition. |
-| 120-degree F3 | 3(a+2b)(a+b), plus norm | F2 attachments, the nested-corner domain, and the new ordered gamma construction for b<a<=2b at every scale; complementary parameters remain. |
+| 120-degree F3 | 3(a+2b)(a+b), plus norm | F2 attachments, nested corners, ordered gamma for b<a<=2b at every scale, and the staircase for b<a<=5b/2 at every scale t>=2. Exact staircase scales and a tail cover every positive gamma remainder; complementary cases remain. |
 | 120-degree F4 | (2a+b)(a+b), plus norm | Every scale for a<b; reversed orientation has nested-corner and tail constructions, with an undecided complementary domain. |
 
 The positive sources are the [QP construction](two-piece-construction.md),
 [Group-1 caps](../research/w-beta-caps/PROOF.md),
 [universal rational-scale theorem](universal-rational-scales.md),
 [norm constructions and transfers](square-class-tails.md#appendix-a-every-integer-tails-for-all-norm-rows),
-[oriented F4 construction](../research/group2-f4/PROOF.md), and
-[nested-corner theorem](../research/group2-nested-corners/PROOF.md), and
-[ordered gamma-corner theorem](../research/group2-gamma-corners/PROOF.md).
+[oriented F4 construction](../research/group2-f4/PROOF.md),
+[nested-corner theorem](../research/group2-nested-corners/PROOF.md),
+[ordered gamma-corner theorem](../research/group2-gamma-corners/PROOF.md), and
+[staircase extension](../research/global-classification-continuation/GAMMA_STAIRCASE.md).
 The [long-seam proof](long-seams-density.md) supplies the stated necessary
 isosceles inequalities. A sufficient tail is not asserted to be an
 exact minimum scale.
@@ -229,7 +230,7 @@ The result is therefore an exact description of the logical gap
 and several rigorous reductions, not a declaration that all N
 have been classified.
 
-## 6. Execution of this plan: a new positive domain and its exact limit
+## 7. Execution of this plan: a new positive domain and its exact limit
 
 The first geometric step produced an actual extension: the
 [gamma-corner theorem](../research/group2-gamma-corners/PROOF.md) proves
@@ -242,8 +243,8 @@ The same proof gives an exact boundary for a restricted class of fillings.
 At primitive multiplier one, its gamma remainder has a tiling using one
 common short-edge direction class if and only if `a<2b` (provided the
 remainder is geometrically defined). For `a>2b`, the axis boundary length
-`E=2ab+2b²-a²` is not in `<a,b>`. Thus a staircase using arbitrarily many
-pieces of that same direction class cannot extend the construction.
+`E=2ab+2b²-a²` is not in `<a,b>`. Thus, at that primitive scale, a staircase
+using arbitrarily many pieces of that same direction class cannot extend the construction.
 Any extension must introduce another class or use another macro partition.
 For `(24,11,31)`, the side E=194 permits c-edges but cannot consist of
 24- and 11-edges alone. This is not a negative decision of 4830.
@@ -259,3 +260,53 @@ argument stops. A global collar extraction is still needed.
 
 These are concrete outcomes of the plan, but neither missing global
 implication has been proved. The full classification remains unresolved.
+
+## 8. Further execution: staircase scales and a remaining primitive gap
+
+The [common-cell staircase theorem](../research/global-classification-continuation/GAMMA_STAIRCASE.md)
+removes the unnecessary upper corner of the earlier bounding rectangle.
+For `a>b`, it constructs the ordered F3 target whenever
+
+    b+a*ceil(m(a-b)/b) <= m(a+2b).
+
+This is an exact criterion for that grid recipe and a sufficient condition
+for genuine geometry. If `E=2ab+2b²-a²>0`, it holds at every integer
+`m>=ceil((b(a+b)-a)/E)`. Its successful scales have a finite residue
+description modulo b. In particular **every m>=2 works throughout
+b<a<=5b/2**. This is a general family, not an inference from a search sample.
+
+For `(24,11,31)`, all `4830m²` with m>=2 are now positive. The first case,
+19320, has a [complete exact unit-coordinate certificate](../research/group2-mixed-gamma/README.md)
+and an independent checker. Thus **4830 is the only remaining integer in
+that whole square class**. Its primitive gamma remainder still requires
+additional short-direction classes or a different macro partition.
+
+A converse based on bounded gamma scales is now excluded: for every K,
+[infinitely many positive gamma remainders](../research/f3-position-invariants/GAMMA_BOUNDARY_OBSTRUCTION.md)
+fail to tile at every scale 1,...,K, even with arbitrary directions.
+Their exterior side has length outside `<a,b,c>`; the infinite-family
+proof uses Siegel's integral-point theorem. The new staircase tail proves
+eventual filling for each fixed such tile. These two assertions are
+compatible and neither says the corresponding full F3 targets are impossible.
+In fact necessity of this macro partition is false: tile `(2024,741,2479)`
+has an F3 tiling at scale 6 by the established general tail, whereas its
+gamma remainder has exterior length 6924 outside `<2024,741,2479>`.
+It cannot be filled even with arbitrary directions. The cited proof
+also supplies infinitely many such examples at each fixed scale m>=6.
+
+The other attempts did not yield a matching global converse. The
+[I120 identity](../research/i120-continuation/README.md) shows that full
+directed-edge signatures also pass 154. The
+[diameter barrier](../research/global-normal-forms/DIAMETER_EXCHANGE_BARRIER.md)
+proves that replacing genuine seams by their shortest arithmetic lengths
+discards all discriminatory power on the norm rows. W/beta collar
+extraction and unrestricted fillings at 154 and 4830 remain missing.
+For W56, an [eleven-tile partial patch](../research/group1-global-scales/README.md)
+exhibits the three-acute-angle alternative to the next supposedly forced
+gamma tile. It is a real local escape, with neither completion nor a
+global impossibility asserted. At multiplier two the gamma remainder's
+[single-short-class criterion](../research/global-normal-forms/GAMMA_SCALE_TWO_AUDIT.md)
+is now exact, `a<5b/2`, but that restricted converse is not a converse
+for unrestricted F3.
+Consequently `C(N) => N in S => A(N)` is still the proved global relation;
+the reverse implication has not been obtained.

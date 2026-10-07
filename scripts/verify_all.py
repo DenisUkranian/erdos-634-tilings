@@ -137,7 +137,14 @@ def main():
                 ('squarefree_f3_front','arithmetic-continuation','check_squarefree_f3_front.py'),
                 ('gamma_corner_certificates','group2-gamma-corners','run_checks.py'),
                 ('gamma_single_height_obstruction','group2-gamma-corners','check_two_axis_obstruction.py'),
-                ('f3_full_signature','f3-descent-attempt','check_full_signature.py')]:
+                ('f3_full_signature','f3-descent-attempt','check_full_signature.py'),
+                ('gamma_staircase_arithmetic','global-classification-continuation','check_gamma_staircase.py'),
+                ('gamma_staircase_certificate','group2-mixed-gamma','run_checks.py'),
+                ('gamma_arbitrary_direction_boundary','f3-position-invariants','check_infinite_boundary_examples.py'),
+                ('gamma_4830_boundary_collar','f3-position-invariants','check_boundary.py'),
+                ('norm_exchange_diameter_barrier','global-normal-forms','check_diameter_exchange_barrier.py'),
+                ('i120_full_signature','i120-continuation','check_i120.py'),
+                ('w56_local_escape_patch','group1-global-scales','verify_local_patch.py')]:
             reports[key]=run([command],work/'research'/package)
             pr=json.loads(reports[key]['stdout'])
             if pr.get('status')!='PASS' or pr.get('full_Erdos634_solved') is not False:

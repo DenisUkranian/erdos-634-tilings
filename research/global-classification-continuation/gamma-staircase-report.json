@@ -1,0 +1,91 @@
+{
+  "candidate_lists": [
+    {
+      "N": 4830,
+      "branch": "F3-120",
+      "multiplier": 1,
+      "tile": [
+        24,
+        11,
+        31
+      ]
+    },
+    {
+      "N": 19320,
+      "branch": "F3-120",
+      "multiplier": 2,
+      "tile": [
+        24,
+        11,
+        31
+      ]
+    }
+  ],
+  "class4830": {
+    "all_integer_m_at_least": 2,
+    "m1_sector_status": "UNRESOLVED_SMALL_SCALE",
+    "m2_constructive_staircase": {
+      "maximum_common_cell_cost": 83,
+      "outer_scale": 92,
+      "removed_corner_scale": 26
+    },
+    "m3_sector_status": "YES",
+    "only_unresolved_count": 4830
+  },
+  "classifier_controls": [
+    {
+      "d": 38,
+      "m": 3,
+      "status": "NO"
+    },
+    {
+      "d": 110,
+      "m": 3,
+      "status": "YES"
+    },
+    {
+      "d": 110,
+      "m": 15,
+      "status": "YES"
+    },
+    {
+      "d": 2,
+      "m": 1,
+      "status": "YES"
+    },
+    {
+      "d": 154,
+      "m": 1,
+      "status": "UNRESOLVED_SMALL_SCALE"
+    }
+  ],
+  "exact_positive_scales_below_used_uniform_tail": [
+    [
+      272,
+      105,
+      337,
+      5,
+      6
+    ],
+    [
+      280,
+      111,
+      349,
+      5,
+      6
+    ]
+  ],
+  "full_Erdos634_solved": false,
+  "general_nonexistence_claimed_from_staircase_failure": false,
+  "isolated_scale_CLI_control": {
+    "d": 545142,
+    "m": 5,
+    "reason": "proved_gamma_staircase_at_residual_scale",
+    "status": "YES"
+  },
+  "primitive_norm_triples_checked": 52,
+  "primitive_short_side_bound": 300,
+  "scale_checks": 2080,
+  "sector_CLI_odd_multiplier_scope_preserved": true,
+  "status": "PASS"
+}

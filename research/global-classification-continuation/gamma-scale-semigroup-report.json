@@ -1,0 +1,41 @@
+{
+  "example": {
+    "coefficient": 4830,
+    "exact_common_rectangle_scale_semigroup_generators": [
+      3,
+      4,
+      5
+    ],
+    "proved_all_integer_tail": 3,
+    "scale_3_rectangle": {
+      "cost": 118,
+      "hole_scale": 39,
+      "outer_scale": 138,
+      "p": 2,
+      "q": 4
+    },
+    "scale_3_tiling_count": 43470,
+    "tile": [
+      24,
+      11,
+      31
+    ]
+  },
+  "full_Erdos634_solved": false,
+  "nonexistence_at_omitted_scales_claimed": false,
+  "primitive_norm_short_side_bound": 300,
+  "primitive_norm_triples_checked": 52,
+  "scale_checks": 3269,
+  "status": "PASS",
+  "uniform_domains": [
+    {
+      "all_m_at_least": 3,
+      "maximum_ratio": "7/3"
+    },
+    {
+      "all_m_at_least": 4,
+      "maximum_ratio": "12/5"
+    }
+  ],
+  "unit_geometry_expanded": false
+}

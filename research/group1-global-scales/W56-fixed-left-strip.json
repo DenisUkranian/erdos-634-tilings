@@ -1,0 +1,9 @@
+{
+  "status": "INCOMPLETE",
+  "nodes": 4311,
+  "depth": 42,
+  "pruning": {
+    "nonintegral_known_seam_segment": 45
+  },
+  "scope": "Six fixed left-boundary c-tiles, all in one specified orientation; not arbitrary W56 tilings"
+}

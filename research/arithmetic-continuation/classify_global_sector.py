@@ -64,12 +64,42 @@ def construction_threshold(witness):
                                        "smaller_short_side":B,"k":1,
                                        "remainder":r,"coefficients_a_b_c":list(seed)}
         return 1
-    if branch=="F3" and b<a<=2*b:
-        witness["threshold_source"]="gamma_corner_unit_construction"
-        witness["gamma_corner_seed"]={"outer_scale":a+2*b,
-                                      "removed_corner_scale":a-b}
-        return 1
+    if branch=="F3" and a>b:
+        if a<=2*b:
+            witness["threshold_source"]="gamma_corner_unit_construction"
+            witness["gamma_corner_seed"]={"outer_scale":a+2*b,
+                                          "removed_corner_scale":a-b}
+            return 1
+        margin=2*a*b+2*b*b-a*a
+        if margin>0:
+            numerator=b*(a+b)-a
+            sufficient=(numerator+margin-1)//margin
+            if 2*a<=5*b:
+                sufficient=min(sufficient,2)
+            if sufficient<old_threshold(witness):
+                witness["threshold_source"]="gamma_staircase_tail"
+                witness["gamma_staircase_tail"]={
+                    "positive_margin":margin,
+                    "integer_ceiling_numerator":numerator,
+                    "uniform_ratio_at_most_5_over_2":2*a<=5*b}
+                return sufficient
     return old_threshold(witness)
+
+
+def gamma_staircase_at_multiplier(witness,m):
+    """Exact sufficiency test for this recipe; accepts any positive scale."""
+    if m<=0 or witness["branch"]!="F3":
+        return None
+    a,b=witness["a"],witness["b"]
+    if a<=b:
+        return None
+    outer=m*(a+2*b)
+    hole=m*(a-b)
+    cost=b+a*((hole+b-1)//b)
+    if cost>outer:
+        return None
+    return {"outer_scale":outer,"removed_corner_scale":hole,
+            "maximum_common_cell_cost":cost}
 
 
 def classify(d,m):
@@ -114,12 +144,22 @@ def classify(d,m):
     C=max([1]+[w["coefficient_multiplier"]*w["sufficient_branch_multiplier"]
                for w in witnesses])
     dividing=[w for w in witnesses if w["divides_multiplier"]]
-    constructive=[w for w in dividing
-                  if w["residual_multiplier"]>=w["sufficient_branch_multiplier"]]
+    constructive=[]
+    for witness in dividing:
+        scale=witness["residual_multiplier"]
+        exact=gamma_staircase_at_multiplier(witness,scale)
+        if exact is not None:
+            witness["residual_gamma_staircase"]=exact
+        if scale>=witness["sufficient_branch_multiplier"] or exact is not None:
+            constructive.append(witness)
     result.update(sector_cutoff_C=C,all_witnesses=witnesses,
                   dividing_witness_count=len(dividing))
     if constructive:
-        return dict(result,status="YES",reason="proved_construction_threshold",
+        selected=constructive[0]
+        reason=("proved_gamma_staircase_at_residual_scale"
+                if selected["residual_multiplier"]<selected["sufficient_branch_multiplier"]
+                else "proved_construction_threshold")
+        return dict(result,status="YES",reason=reason,
                     witness=constructive[0])
     if not dividing:
         return dict(result,status="NO",reason="no_necessary_primitive_witness")

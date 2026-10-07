@@ -1,5 +1,6 @@
 {
-  "4830_retains_prior_threshold": 6,
+  "4830_constructive_tail": 2,
+  "4830_primitive_status": "UNRESOLVED",
   "full_Erdos634_solved": false,
   "gamma_corner_ordered_controls": [
     {
@@ -110,7 +111,7 @@
     {
       "d": 4830,
       "m": 1,
-      "sector_cutoff_C": 6,
+      "sector_cutoff_C": 2,
       "status": "UNRESOLVED_SMALL_SCALE",
       "witness_count": 1
     },
