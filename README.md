@@ -1,6 +1,6 @@
 # Erdős Problem 634 — congruent triangle tilings
 
-**Denis Paliy** · Research with ChatGPT assistance · 6 October 2026
+**Denis Paliy** · Research with ChatGPT assistance · 7 October 2026
 
 [Status](STATUS.md) · [Reproduce](REPRODUCIBILITY.md) · [Full-problem roadmap](docs/full-solution-roadmap.md) · [Citation](CITATION.cff)
 
@@ -12,6 +12,8 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 
 | Result | Read and reproduce |
 |---|---|
+| **Ordered F3 at every scale for b<a<=2b; certified N=264** (7 October) | [Gamma-corner proof](research/group2-gamma-corners/PROOF.md) swaps two grids inside the reflected 120-degree corner. The `(5,3,7)` tile gives the target `(49,77,72)` and disproves universal necessity of `bc>=a²`. [Independent geometry and disk checks](research/group2-gamma-corners/VERIFIED_RESULTS.json). The exchanged F3 orientation and other branches are not inferred. |
+| Exact remaining classification target and limits of proposed shortcuts (7 October) | [Thirteen-row gap map and plan](docs/global-gap-2026-10-07.md) separates necessary arithmetic from sufficient constructions. W-only and F3-only infinite families prevent deleting either branch. The new gamma remainder has a complete **single-short-direction-class** criterion, while 4830 remains unresolved. [Full F3 signatures](research/f3-descent-attempt/F3_FULL_SIGNATURE_BARRIER.md) pass even unresolved cases; [minimum graph width](docs/audits/seam-automata-global-width-2026-10-07.md) grows even when alternative tilings are allowed. |
 | **990 is realizable; complete odd sector of square class 110** (6 October) | [Positive partition and proof](research/group2-nested-corners/PROOF.md), [990 unit coordinates](research/group2-nested-corners/f3-990.json), [independent checks](research/group2-nested-corners/VERIFIED_RESULTS.json). A triangle with sides `(169,286,315)` splits into 990 congruent `(8,7,13)` triangles. Consequently [every odd multiplier is classified](docs/square-class-110-odd.md): `110m²` is admissible exactly when `3` divides `m`. |
 | Multiplier one for every primitive 120-degree tile with `1<a/b<=7/5` (6 October) | [General nested-corner theorem](research/group2-nested-corners/PROOF.md) replaces the two-generator width condition by `mbc-a²k in <a,b,c>`, provided `kc>=m(a-b)`. [Conductor proof and finite completion](research/f3-descent-attempt/TERNARY_SEMIGROUP_TAIL.md) give reversed F4, F2 and both F3 orientations at every multiplier throughout this ratio range. Every closed cone below `1.46557...` works for sufficiently large primitive sides. |
 | Infinitely many squarefree F3-only arithmetic candidates (6 October) | [Proof](research/arithmetic-continuation/SQUAREFREE_F3_FRONT.md): a positive-density set of parameters gives squarefree counts `3h(h+2)(h²+4h+1)`, beginning with 4830. Any realization must have residual scale one. These are arithmetic candidates, with neither existence nor nonexistence asserted. |

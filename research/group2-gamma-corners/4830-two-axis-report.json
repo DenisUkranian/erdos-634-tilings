@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Single-short-height filling of the specified gamma-corner remainder only",
+  "tile": [
+    24,
+    11,
+    31
+  ],
+  "F3_count": 4830,
+  "outer_scale": 46,
+  "reflected_corner_scale": 13,
+  "axis_boundary_side": {
+    "lower": 312,
+    "upper": 506,
+    "length": 194
+  },
+  "a_divided_by_b": {
+    "quotient": 2,
+    "remainder": 2
+  },
+  "least_possible_a_coefficient": 9,
+  "least_required_a_length": 216,
+  "boundary_length_minus_least_required_a_length": -22,
+  "boundary_length_in_nonnegative_semigroup_generated_by_a_b": false,
+  "two_axis_gamma_filler_exists": false,
+  "single_short_height_gamma_filler_exists": false,
+  "obstruction": "An actual boundary side cannot be partitioned into whole a,b sides",
+  "rectangle_DFS": "Not run: an exact necessary boundary condition fails",
+  "arbitrary_F3_tiling_excluded": false,
+  "full_Erdos634_solved": false
+}

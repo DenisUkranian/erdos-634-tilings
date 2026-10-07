@@ -1,0 +1,10 @@
+{
+  "status": "EXPORTED",
+  "N": 264,
+  "genuine_T_junction_vertices": 38,
+  "source_sha256": "d6cd173abfc0bb18738448583e58afa7390a7da0f996d2ef9709ada3113a8e8a",
+  "export_sha256": "11f03cec45ef5350f22caf8eec3f8d0d86f38078852c18d13759be76b1c20a58",
+  "coordinates_in_export": false,
+  "atomic_lengths_in_export": false,
+  "full_Erdos634_solved": false
+}

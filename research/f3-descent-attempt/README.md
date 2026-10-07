@@ -1,5 +1,16 @@
 # F3 descent and small-polygon investigation
 
+[F3_FULL_SIGNATURE_BARRIER.md](F3_FULL_SIGNATURE_BARRIER.md) proves that
+every primitive F3 coefficient passes the complete translation-invariant
+directed-edge signature, exact tile-count/area bookkeeping, and known
+height-population congruences. The witness is an unplaced orientation
+inventory, never a tiling. `check_full_signature.py` checks the identity
+symbolically; `full_signature_report.json` records its zero remainder.
+The subsequent [gamma-corner construction](../group2-gamma-corners/PROOF.md)
+gives actual F3 tilings for `b<a<=2b`, including 264 with `(a,b,c)=(5,3,7)`.
+Thus `bc>=a²` is now disproved as a necessary condition for F3 tileability,
+independently of the formal signature barrier.
+
 [TERNARY_SEMIGROUP_TAIL.md](TERNARY_SEMIGROUP_TAIL.md) proves a constructive
 conductor bound for `<a,b,c>`. Combined with the nested-corner theorem, it
 gives multiplier-one tilings, and consequently all positive integer
@@ -23,4 +34,3 @@ auxiliary region. It does not rule out the whole auxiliary region or
 The proof combines exact chirality-count Laurent factorization with
 median-cut lattice divisibility. It allows arbitrary T-junctions and
 does not assume that an extreme component is pure or convex.
-

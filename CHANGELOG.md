@@ -1,5 +1,15 @@
 # Changelog
 
+## Exact gap map and the reflected-gamma construction — 7 October 2026
+
+- Identify the missing all-count implication across all thirteen necessary rows. Prove that both W and F3 are indispensable through exclusive infinite positive families; a global replacement by one existing row cannot finish the problem.
+- Prove every multiplier in the ordered F3 family for `b<a<=2b`, using a reflected 120-degree corner and an interchange of two actual grids. Certify the 264-tiling `(5,3,7)` into `(49,77,72)` by two independent exact routes.
+- Classify single-short-direction-class fillings of the primitive gamma remainder: exactly `a<2b` in its geometric domain. The boundary semigroup obstruction excludes every such extension beyond 2, but does not exclude 4830 or arbitrary F3 tilings.
+- Disprove the proposed universal F3 inequality `bc>=a²` with the 264 construction. Separately prove that every full translation-invariant directed-edge signature passes F3, even in unresolved cases.
+- Prove a minimum contact-graph width bound applying to all alternative tilings of a growing target. Finite seam states cannot imply constant-width global certificates.
+- Exhibit the actual `uc=va` exchange seam that prevents blindly extending the Group-1 scale-one purity induction. Exploratory W56 and fixed-tile W68 searches remain INCOMPLETE.
+- Retain the full-problem status as unresolved. The new constructions and exact restricted classifications do not establish a necessary-and-sufficient criterion for all N.
+
 ## Nested corners, the 990 tiling and a complete odd square class — 6 October 2026
 
 - Construct 990 congruent `(8,7,13)` triangles inside the triangle `(169,286,315)`. Independently verify every pair and a second coordinate-free disk certificate, including 100 T-junctions; retain a negative overlap test.

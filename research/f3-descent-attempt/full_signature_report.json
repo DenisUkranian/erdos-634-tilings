@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "symbolic_remainder_terms": 0,
+  "fixtures": [
+    {
+      "tile": [
+        8,
+        7,
+        13
+      ],
+      "target_count": 990,
+      "unplaced_orientation_inventory_count": 62,
+      "half_turn_pairs": 464,
+      "short_height_populations": {
+        "1": 39,
+        "2": 951
+      }
+    },
+    {
+      "tile": [
+        24,
+        11,
+        31
+      ],
+      "target_count": 4830,
+      "unplaced_orientation_inventory_count": 152,
+      "half_turn_pairs": 2339,
+      "short_height_populations": {
+        "1": 93,
+        "2": 4737
+      }
+    },
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "target_count": 264,
+      "unplaced_orientation_inventory_count": 34,
+      "half_turn_pairs": 115,
+      "short_height_populations": {
+        "1": 21,
+        "2": 243
+      }
+    }
+  ],
+  "geometric_tiling_claimed": false,
+  "full_Erdos634_solved": false
+}

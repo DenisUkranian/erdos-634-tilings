@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "ordered_positive_theorem_scope": {
+    "tile_relation": "c^2=a^2+ab+b^2",
+    "parameter_range": "b<a<=2b; positive integers",
+    "primitivity_required": false,
+    "multipliers": "Every positive integer m",
+    "target_sides": [
+      "m*c^2",
+      "m*c*(a+2b)",
+      "3*m*b*(a+b)"
+    ],
+    "tile_count": "3*(a+b)*(a+2b)*m^2",
+    "exchanged_label_F3_target_automatically_included": false
+  },
+  "gamma_arithmetic": {
+    "status": "PASS",
+    "formal_count_identity": "3c^2+h^2-delta^2=3(a+b)(a+2b)",
+    "substitution": "c^2=a^2+ab+b^2, h=a+2b, delta=a-b",
+    "quadratic_coefficients_a2_ab_b2": [
+      3,
+      9,
+      6
+    ],
+    "example_outer_scale": 11,
+    "example_removed_scale": 2,
+    "example_three_large_triangle_tiles": 147,
+    "example_gamma_remainder_tiles": 117,
+    "example_common_rectangle_tiles_before_deletion": 30,
+    "N": 264,
+    "general_geometry_basis": "PROOF.md; a mathematical positive-partition proof",
+    "finite_checks_claim_general_geometric_completeness": false
+  },
+  "geometry": {
+    "status": "PASS",
+    "family": "F3",
+    "tile": [
+      5,
+      3,
+      7
+    ],
+    "multiplier": 1,
+    "N": 264,
+    "target_side_lengths": [
+      49,
+      72,
+      77
+    ],
+    "pairs_checked": 34716,
+    "separating_axis_checks_after_exact_bounds": 940,
+    "arithmetic": "exact rational",
+    "coverage_basis": "Containment, pairwise disjoint interiors, equal total area",
+    "full_Erdos634_solved": false,
+    "external_peer_review": false,
+    "certificate_sha256": "d6cd173abfc0bb18738448583e58afa7390a7da0f996d2ef9709ada3113a8e8a"
+  },
+  "coordinate_free_disk": {
+    "N": 264,
+    "abstract_complex_is_oriented_disk": true,
+    "all_atom_lengths_integer": true,
+    "all_internal_atom_lengths_recovered_by_integer_leaf_elimination": true,
+    "atomic_edges": 431,
+    "boundary_atoms": 32,
+    "boundary_maps_homeomorphically_to_target_triangle": true,
+    "certificate_sha256": "11f03cec45ef5350f22caf8eec3f8d0d86f38078852c18d13759be76b1c20a58",
+    "coordinate_field_radicand": 675,
+    "coordinate_free_input": true,
+    "exact_development_consistent": true,
+    "full_Erdos634_solved": false,
+    "geometric_nonoverlap_certified_by_degree_one": true,
+    "interior_T_junctions": 38,
+    "interior_atoms": 399,
+    "length_histogram": {
+      "1": 10,
+      "2": 11,
+      "3": 140,
+      "4": 3,
+      "5": 127,
+      "7": 140
+    },
+    "original_tile_sides": 792,
+    "schema": "integer-triangle-disk-v1",
+    "scope": "verification of the supplied finite abstract disk certificate",
+    "side_contact_component_sizes": {
+      "2": 355,
+      "6": 1,
+      "8": 4,
+      "12": 1
+    },
+    "side_contact_components_are_caterpillars": true,
+    "side_contact_tree_components": 361,
+    "status": "PASS",
+    "target_side_lengths": [
+      49,
+      72,
+      77
+    ],
+    "tile_sides": [
+      5,
+      3,
+      7
+    ],
+    "vertices": 168
+  },
+  "primitive_multiplier_one_gamma_obstruction": {
+    "status": "PASS",
+    "scope": "Single-short-height filling of the specified gamma-corner remainder only",
+    "tile": [
+      24,
+      11,
+      31
+    ],
+    "F3_count": 4830,
+    "outer_scale": 46,
+    "reflected_corner_scale": 13,
+    "axis_boundary_side": {
+      "lower": 312,
+      "upper": 506,
+      "length": 194
+    },
+    "a_divided_by_b": {
+      "quotient": 2,
+      "remainder": 2
+    },
+    "least_possible_a_coefficient": 9,
+    "least_required_a_length": 216,
+    "boundary_length_minus_least_required_a_length": -22,
+    "boundary_length_in_nonnegative_semigroup_generated_by_a_b": false,
+    "two_axis_gamma_filler_exists": false,
+    "single_short_height_gamma_filler_exists": false,
+    "obstruction": "An actual boundary side cannot be partitioned into whole a,b sides",
+    "rectangle_DFS": "Not run: an exact necessary boundary condition fails",
+    "arbitrary_F3_tiling_excluded": false,
+    "full_Erdos634_solved": false
+  },
+  "full_Erdos634_solved": false,
+  "external_peer_review": false
+}

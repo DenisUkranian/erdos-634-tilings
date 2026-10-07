@@ -1,6 +1,6 @@
 # What would constitute a complete solution of Erdős problem 634?
 
-**Assessment of this repository, updated 6 October 2026 — not a claim that every remaining subproblem is new or open in the literature.**
+**Assessment of this repository, updated 7 October 2026 — not a claim that every remaining subproblem is new or open in the literature.**
 
 ## The actual quantifiers
 
@@ -247,3 +247,28 @@ with sides 56 and 27 by `(8,7,13)` tiles completes the established
 corner transfers. No such filling or exhaustive obstruction has been
 obtained. Its bounded searches are explicitly INCOMPLETE, and even an
 obstruction to that core would not exclude every possible 990-tiling.
+
+## 7 October: the exact next implication and a larger primitive domain
+
+The [new thirteen-row gap map](global-gap-2026-10-07.md) states exactly
+which scale predicates remain. In particular W and F3 each contain
+infinite families of positive counts realizable in no other branch.
+A complete result therefore cannot simply discard either one.
+
+The constructive attack produced the
+[ordered F3 gamma-corner theorem](../research/group2-gamma-corners/PROOF.md):
+all multipliers for `b<a<=2b`, including an independently certified
+264-tiling by `(5,3,7)`. The matching boundary argument classifies all
+fillings of that gamma remainder using a single short-direction class.
+For primitive multiplier one, that restricted construction is possible
+exactly when `a<2b`. Extending it requires new direction classes or a
+changed macro partition; repeating the same rectangle move cannot suffice.
+
+The [full-signature identity](../research/f3-descent-attempt/F3_FULL_SIGNATURE_BARRIER.md)
+shows why all translation-invariant edge-length inventories still pass
+F3 cases such as 4830. The [Group-1 audit](../research/group1-continuation/SCALE_DESCENT_AUDIT.md)
+locates the realizable `uc=va` exchange that breaks scale-one purity at
+larger scales. The [width theorem](audits/seam-automata-global-width-2026-10-07.md)
+excludes bounded-treewidth normalization even over alternative tilings.
+A position-sensitive construction or obstruction remains necessary.
+No complete classification of all N is asserted.

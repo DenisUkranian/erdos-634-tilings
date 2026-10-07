@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "family": "F3",
+  "tile": [
+    5,
+    3,
+    7
+  ],
+  "multiplier": 1,
+  "N": 264,
+  "target_side_lengths": [
+    49,
+    72,
+    77
+  ],
+  "pairs_checked": 34716,
+  "separating_axis_checks_after_exact_bounds": 940,
+  "arithmetic": "exact rational",
+  "coverage_basis": "Containment, pairwise disjoint interiors, equal total area",
+  "full_Erdos634_solved": false,
+  "external_peer_review": false,
+  "certificate_sha256": "d6cd173abfc0bb18738448583e58afa7390a7da0f996d2ef9709ada3113a8e8a"
+}

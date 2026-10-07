@@ -1,11 +1,15 @@
 # Claim ledger and verification scope
 
-**Research snapshot v0.3.0 · 6 October 2026**
+**Research snapshot v0.3.0 · 7 October 2026**
 
 This ledger distinguishes mathematical claims from their evidence. The research packages are included in the repository. The exact commit and remote verification results are recorded by GitHub Actions; this ledger is not itself a CI success assertion.
 
 | Claim | Status in this work | Supporting material |
 |---|---|---|
+| Ordered F3 at every scale when b<a<=2b | Complete general positive partition and internal independent audit. The target count is `3(a+b)(a+2b)m²`; exchanging a,b or inferring F2 is not justified by this construction | [Proof](research/group2-gamma-corners/PROOF.md) |
+| N=264 is admissible | Exact `(5,3,7)` coordinate certificate, all 34,716 pair checks, and a separate coordinate-free disk with 38 T-junctions. Refutes `bc>=a²` as universal F3 necessity | [Checks](research/group2-gamma-corners/VERIFIED_RESULTS.json) |
+| Primitive gamma remainder: a single short-edge direction class is possible iff a<2b | Exact restricted classification where the gamma remainder is contained. For a>2b its axis edge `E=2ab+2b²-a²` is not in `<a,b>`. This excludes even arbitrary many patches within one class, but does not exclude general F3 tilings or 4830 | [Positive and negative directions](research/group2-gamma-corners/PROOF.md) |
+| All-count gap and tested general routes | Full 13-row ledger; W and F3 each have exclusive infinite positive families. Exact formal-signature obstruction and minimum-width theorem delimit possible methods. Neither supplies the missing universal existence criterion | [Gap and plan](docs/global-gap-2026-10-07.md) |
 | **N=990 is admissible** | Constructed positive partition with tile `(8,7,13)` and target `(169,286,315)`. Independent exact congruence, containment, area and all 489,555 pair checks; separate incidence-only disk verification with 100 T-junctions. No external referee claim | [Proof](research/group2-nested-corners/PROOF.md), [retained checks](research/group2-nested-corners/VERIFIED_RESULTS.json) |
 | **For odd m, `110m²` is admissible iff `3` divides m** | Complete all-branch necessity from prior F3 isolation; sufficiency by the new 990 seed and ordinary subdivision | [Proof and dependencies](docs/square-class-110-odd.md) |
 | All multipliers in reversed F4, F2 and both F3 orientations when `1<a/b<=7/5` | General positive nested-corner partition; uniform semigroup conductor bound for `b>=4900`; all 240 smaller primitive triples certified by integer witnesses and two exhaustive enumerations. Also a uniform large-side theorem for every closed cone below `1.46557...` | [Geometric theorem](research/group2-nested-corners/PROOF.md), [arithmetic theorem](research/f3-descent-attempt/TERNARY_SEMIGROUP_TAIL.md) |

@@ -148,6 +148,23 @@ proved infinite family of squarefree F3-only arithmetic candidates.
 All are included in the coordinator. This publication records focused
 replays of these new checks, not a fresh run of every unchanged suite.
 
+## Gamma-corner continuation (7 October 2026)
+
+```sh
+python research/group2-gamma-corners/run_checks.py
+python research/group2-gamma-corners/check_two_axis_obstruction.py
+python research/f3-descent-attempt/check_full_signature.py
+python research/arithmetic-continuation/check_global_sector_cli.py
+```
+
+These focused replays check the 264-tile coordinate and disk certificates,
+the precise restricted obstruction for the 4830 gamma remainder, the exact
+symbolic edge-signature identity, and the membership tool's ordered F3
+seed handling. The new seed is not applied to the exchanged target or to
+F2/F4 without a separate proof. All are included in the coordinator;
+this update does not assert a fresh run of every unchanged suite.
+The infinite geometric assertions require their written proofs.
+
 ## Optional rebuild of publication outputs
 
 The two new PDFs have editable sources. PDF rebuilding additionally needs Pandoc, XeLaTeX, pdfLaTeX, standard TeX packages and DejaVu fonts. No font files are distributed. From repository root:

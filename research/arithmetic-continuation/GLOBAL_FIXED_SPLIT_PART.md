@@ -257,6 +257,9 @@ oriented F4 construction and the new nested-corner condition
 The latter covers reversed F4, symmetric F2 and both F3 orientations,
 as proved in `research/group2-nested-corners/PROOF.md`. It now includes
 the 990 seed and the complete odd-multiplier class-110 criterion.
+The 7 October ordered gamma-corner theorem additionally supplies unit
+F3 seeds when `b<a<=2b`; this implication is not applied after exchanging
+the short-side labels, nor to F2/F4 without a separate construction.
 The tool does not write a tiling certificate or modify files.
 
 `NO` means that every necessary primitive witness has been excluded,

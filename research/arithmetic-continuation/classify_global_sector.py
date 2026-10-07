@@ -64,6 +64,11 @@ def construction_threshold(witness):
                                        "smaller_short_side":B,"k":1,
                                        "remainder":r,"coefficients_a_b_c":list(seed)}
         return 1
+    if branch=="F3" and b<a<=2*b:
+        witness["threshold_source"]="gamma_corner_unit_construction"
+        witness["gamma_corner_seed"]={"outer_scale":a+2*b,
+                                      "removed_corner_scale":a-b}
+        return 1
     return old_threshold(witness)
 
 

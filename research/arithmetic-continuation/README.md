@@ -36,6 +36,8 @@ counts already settled by a sharper construction elsewhere in the project.
 The tool now tests the proved nested-corner unit-seed criterion in
 reversed F4, symmetric F2 and both F3 orientations, as well as the old
 oriented F4 unit construction, before falling back to the prior tails.
+The 7 October update also uses the ordered gamma-corner F3 seed when
+`b<a<=2b`; it does not apply that theorem to the exchanged-label target.
 
 The program reports the list and its cutoff C(d,H). Its deliberately
 coarse finite enumeration is not intended for huge dH². It writes only

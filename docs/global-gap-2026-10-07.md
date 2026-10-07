@@ -1,0 +1,261 @@
+# The remaining global classification problem
+
+7 October 2026. This note distinguishes the proved necessary spectra,
+the available constructions, and the missing implications. It does
+not claim a complete solution of Erdős problem 634. It uses the
+exhaustive angular classification, rationality and primitive integral
+normalization recorded in the [uniform-reduction proof](../research/uniform-reduction/PROOF.md).
+
+## 1. What has to be decided
+
+Write \(\mathcal S\) for the positive integers that count congruent
+nondegenerate tiles in a dissection of a nondegenerate triangle.
+Reflections and arbitrary T-junctions are allowed.
+
+The classical count families
+
+\[
+r^2,\quad r^2+s^2,\quad2r^2,\quad3r^2,\quad6r^2
+\]
+
+have their existing arithmetic criteria and constructions. After these
+are separated, the classified possibilities are the thirteen rows
+below. Each has an integer residual scale \(t\ge1\) and count \(Dt^2\).
+
+For Group 1 use coprime integers \(0<u<v\), tile
+\((uv,v^2-u^2,v^2)\), and
+
+\[
+b=v^2-u^2,\qquad Q=2v^2-u^2,\qquad P=3v^2-u^2.
+\]
+
+The independent double-angle row has tile
+\((u^2,v^2-u^2,uv)\), with \(0<u<v<2u\) and \(\gcd(u,v)=1\).
+The norm rows use positive primitive short sides a,b and an integer c
+satisfying the indicated norm. Both orders of a,b are included.
+
+| Row | Necessary coefficient D | Available positive coverage; remaining issue |
+| --- | --- | --- |
+| Group-1 W | Q | Explicit cap semigroup and every-integer tail; smaller omitted scales are not generally excluded. |
+| Group-1 beta-isosceles | P | W-to-beta attachment and the cap/tail construction; no general converse that extracts a W patch from an arbitrary beta tiling. |
+| Group-1 theta-isosceles | b | Every-integer tail and complete first-tile spectrum; general smaller scales remain. Scale one is excluded. |
+| Group-1 alpha-isosceles | bQ | Theta-to-alpha construction and explicit tails; the general below-tail region is not classified. |
+| Group-1 QP | QP | **Every positive integer scale is constructive. This entire necessary row is globally positive.** |
+| Double-angle isosceles | \(v^2-u^2\) | Necessary scale and long-seam restrictions, including exclusion of scale one; no complete general scale criterion is supplied here. |
+| 60-degree equilateral | ab, \(c^2=a^2-ab+b^2\) | Explicit every-integer tail; remaining smaller scales are not generally decided. |
+| 120-degree equilateral | ab, \(c^2=a^2+ab+b^2\) | Explicit every-integer tail; same limitation. |
+| 120-degree F1 | b(a+b), plus norm | Positive attachment from an equilateral core and a tail; existence of that core in an arbitrary F1 tiling is not proved. |
+| 120-degree isosceles | b(a+2b), plus norm | Positive attachments and a tail; smaller scales remain. |
+| 120-degree F2 | (a+2b)(2a+b), plus norm | Equilateral-core and reflected-corner constructions, including the new three-generator domain; no necessity of either chosen decomposition. |
+| 120-degree F3 | 3(a+2b)(a+b), plus norm | F2 attachments, the nested-corner domain, and the new ordered gamma construction for b<a<=2b at every scale; complementary parameters remain. |
+| 120-degree F4 | (2a+b)(a+b), plus norm | Every scale for a<b; reversed orientation has nested-corner and tail constructions, with an undecided complementary domain. |
+
+The positive sources are the [QP construction](two-piece-construction.md),
+[Group-1 caps](../research/w-beta-caps/PROOF.md),
+[universal rational-scale theorem](universal-rational-scales.md),
+[norm constructions and transfers](square-class-tails.md#appendix-a-every-integer-tails-for-all-norm-rows),
+[oriented F4 construction](../research/group2-f4/PROOF.md), and
+[nested-corner theorem](../research/group2-nested-corners/PROOF.md), and
+[ordered gamma-corner theorem](../research/group2-gamma-corners/PROOF.md).
+The [long-seam proof](long-seams-density.md) supplies the stated necessary
+isosceles inequalities. A sufficient tail is not asserted to be an
+exact minimum scale.
+
+## 2. The two predicates must not be conflated
+
+For a prescribed N, let A(N) mean that the classical tests or at least
+one of the finite primitive arithmetic candidates survives all
+necessary conditions currently used. Let C(N) mean that an identified
+proved construction, complete branch criterion or positive certificate
+establishes membership. The valid implications are
+
+\[
+\boxed{C(N)\Longrightarrow N\in\mathcal S\Longrightarrow A(N).}
+\]
+
+Failure of A is a global exclusion. Passing C is a global positive
+answer. Passing A but not C means that these tests do not decide the
+count; it does not mean either that a tiling exists or that it is
+impossible. Enlarging a construction domain improves C without
+automatically proving the missing implication \(A\Rightarrow C\).
+
+The complete QP construction eliminates that entire row from the
+undecided remainder: if a candidate in that row exists, the integer
+is already positive. The same holds for the a<b half of F4 and each
+proved nested-corner instance. No proposed universal removal of the
+other rows has been established.
+
+## 3. At least W and F3 are globally indispensable
+
+There are infinite families of actual counts which can occur only
+in W, and others which can occur only in F3. Thus an arithmetic
+replacement that discards either family in favor of the other
+classified rows cannot give a full classification.
+
+**W-only family.** For every odd t>=5 with 3 not dividing t,
+
+\[
+N=14t^2\in\mathcal S,
+\]
+
+and every classified realization belongs to W.
+
+For positivity, choose u=2,v=3, giving tile (6,5,9) and coefficient
+Q=14. The proved cap threshold is uv−u+1=5. For necessity, every
+such N is 14 modulo 16. The complete residue argument in
+[F3 global overlap](f3-global-overlap.md), Section 1, leaves only
+W and F3 at this residue. F3 always has a count divisible by 3,
+whereas this N does not. Only W remains. In particular no 60-degree
+or 120-degree norm row realizes these counts.
+
+**F3-only family.** For every odd positive k,
+
+\[
+N=990k^2\in\mathcal S,
+\]
+
+and every classified realization belongs to F3.
+
+Positivity follows by refining the new 990-tiling. These counts
+are 14 modulo 16 and have odd valuation at 5. The same isolation
+theorem excludes W and all other branches. This is also a special
+case of the [complete odd-multiplier class-110 criterion](square-class-110-odd.md).
+
+These are obstructions to reducing all counts to one existing
+angular branch or to one norm row. They do not rule out a common
+new geometric theorem applicable to several branches. They also
+do not imply that every listed branch is independently indispensable;
+that stronger assertion has not been proved.
+
+## 4. A genuine coefficient redundancy, but not a geometric converse
+
+The 60-degree equilateral and plus-norm F1 **arithmetic coefficient
+sets coincide**, apart from the classical equilateral tile.
+
+Indeed, from a primitive plus-norm tile (a,b,c), set
+
+\[
+(A,B,C)=(b,a+b,c).
+\]
+
+Then \(\gcd(A,B)=1\) and
+
+\[
+C^2=A^2-AB+B^2,
+\qquad AB=b(a+b).
+\]
+
+Conversely, order a nonclassical primitive minus-norm pair as
+\(0<A<B\), and set \((a,b,c)=(B-A,A,C)\). This gives a positive
+primitive plus-norm triple and the same coefficient. If A=B,
+primitivity gives the classical equilateral tile (1,1,1).
+
+Thus a necessary-coefficient enumeration can share these two
+rows' arithmetic work. The transformation changes both the tile
+shape and the target. It supplies no same-count transformation
+of arbitrary tilings, so the two remaining geometric predicates
+cannot yet be merged into an if-and-only-if construction rule.
+
+There is nevertheless a valid global overlap consequence. **For every
+primitive plus-norm tile with a<b, every count**
+
+\[
+b(a+b)t^2,\qquad t\ge6,
+\]
+
+**is globally admissible**, through the equilateral 60-degree tile
+\((b,a+b,c)\). Its aspect ratio is \((a+b)/b\), strictly between
+1 and 2, so the established 60-degree threshold
+\(3(\lfloor\max(A,B)/\min(A,B)\rfloor+1)\) is exactly 6.
+Thus the a<b half of the F1 arithmetic row contributes possible
+global uncertainty only at the five scales t=1,...,5, regardless
+of its original tile's aspect ratio. This does not assert a tiling
+of the original F1 target by the original tile. When a>=b, the
+transferred threshold equals the standard F1 threshold and gives
+no further improvement.
+
+## 5. Square-class tails do not remove the primitive front
+
+Some large sectors are already uniform. Every fixed odd squarefree
+d has an eventual positive multiplier tail: for d>1 choose
+u=(d−1)/2, v=(d+1)/2, so the theta coefficient is d; d=1 is classical.
+For even squarefree d and even m, choose u=d−1,v=d+1, whose primitive
+theta coefficient is 4d. This supplies every sufficiently large
+even multiplier in that class. These are existing constructions,
+not assertions that all smaller multipliers are positive.
+
+For even d and odd m, the
+[fixed-split-part theorem](../research/arithmetic-continuation/GLOBAL_FIXED_SPLIT_PART.md)
+reduces the problem to a finite primitive list and finite remainder
+for each fixed joint split part H. Its bounds depend on d and H.
+
+Even H=1 leaves an infinite primitive front as d varies. The
+[squarefree F3 family](../research/arithmetic-continuation/SQUAREFREE_F3_FRONT.md)
+gives infinitely many squarefree arithmetic candidates D whose
+every possible realization must be F3 at residual scale one.
+Their number through X is asymptotic to a positive constant times
+X^(1/4). In global square-class notation they have d=D,m=1,H=1.
+No such candidate is declared positive or negative by that family
+theorem. Increasing residual multipliers through coefficient
+replacement cannot resolve them, because squarefreeness forces
+the residual multiplier to remain one.
+
+## 6. A route that would actually close the gap
+
+A complete answer needs a proved necessary-and-sufficient criterion
+for every remaining integer. It need not separately solve every
+fixed tile if a rigorous global overlap theorem eliminates some
+cases. It must, however, cover every surviving branch whenever it
+declares a count impossible.
+
+For the current constructive approach, the decisive next result
+would be a **necessary normal-form theorem**, or an exact substitute:
+prove that every remaining tiling admits one of an explicit set of
+positive decompositions, with a terminating arithmetic test for
+their parameters. The existing rectangle, equilateral-core and
+corner formulas would then be matched to necessary conditions.
+At present their successful use is sufficient, not necessary.
+
+The alternatives are to enlarge the constructive domains while
+simultaneously proving that the remaining arithmetic candidates
+are impossible, or to establish valid same-count overlap
+equivalences that remove them. More constructions alone, more
+finite examples, and an exact checker for a supplied disk do not
+provide that missing universal implication. Nor does the existing
+fixed-N decision perspective by itself supply the desired global
+classification rule.
+
+The result is therefore an exact description of the logical gap
+and several rigorous reductions, not a declaration that all N
+have been classified.
+
+## 6. Execution of this plan: a new positive domain and its exact limit
+
+The first geometric step produced an actual extension: the
+[gamma-corner theorem](../research/group2-gamma-corners/PROOF.md) proves
+ordered F3 for every positive multiplier whenever `b<a<=2b`. It gives a
+264-tile `(5,3,7)` certificate in `(49,77,72)`, independently checked both
+by rational geometry and by incidence-only disk development. This example
+also disproves the proposed universal necessity `bc>=a²`.
+
+The same proof gives an exact boundary for a restricted class of fillings.
+At primitive multiplier one, its gamma remainder has a tiling using one
+common short-edge direction class if and only if `a<2b` (provided the
+remainder is geometrically defined). For `a>2b`, the axis boundary length
+`E=2ab+2b²-a²` is not in `<a,b>`. Thus a staircase using arbitrarily many
+pieces of that same direction class cannot extend the construction.
+Any extension must introduce another class or use another macro partition.
+For `(24,11,31)`, the side E=194 permits c-edges but cannot consist of
+24- and 11-edges alone. This is not a negative decision of 4830.
+
+The matching negative-proof route was also tested: the
+[full directed-edge signature](../research/f3-descent-attempt/F3_FULL_SIGNATURE_BARRIER.md)
+has a positive unplaced inventory with the exact F3 tile count for every
+parameter in the stated range, including 4830. Those translation-invariant
+conditions cannot decide the remaining geometry. In Group 1, the
+[scale-descent audit](../research/group1-continuation/SCALE_DESCENT_AUDIT.md)
+exhibits an actual `uc=va` exchange seam where the scale-one purity
+argument stops. A global collar extraction is still needed.
+
+These are concrete outcomes of the plan, but neither missing global
+implication has been proved. The full classification remains unresolved.

@@ -1,0 +1,48 @@
+{
+  "N": 264,
+  "abstract_complex_is_oriented_disk": true,
+  "all_atom_lengths_integer": true,
+  "all_internal_atom_lengths_recovered_by_integer_leaf_elimination": true,
+  "atomic_edges": 431,
+  "boundary_atoms": 32,
+  "boundary_maps_homeomorphically_to_target_triangle": true,
+  "certificate_sha256": "11f03cec45ef5350f22caf8eec3f8d0d86f38078852c18d13759be76b1c20a58",
+  "coordinate_field_radicand": 675,
+  "coordinate_free_input": true,
+  "exact_development_consistent": true,
+  "full_Erdos634_solved": false,
+  "geometric_nonoverlap_certified_by_degree_one": true,
+  "interior_T_junctions": 38,
+  "interior_atoms": 399,
+  "length_histogram": {
+    "1": 10,
+    "2": 11,
+    "3": 140,
+    "4": 3,
+    "5": 127,
+    "7": 140
+  },
+  "original_tile_sides": 792,
+  "schema": "integer-triangle-disk-v1",
+  "scope": "verification of the supplied finite abstract disk certificate",
+  "side_contact_component_sizes": {
+    "2": 355,
+    "6": 1,
+    "8": 4,
+    "12": 1
+  },
+  "side_contact_components_are_caterpillars": true,
+  "side_contact_tree_components": 361,
+  "status": "PASS",
+  "target_side_lengths": [
+    49,
+    72,
+    77
+  ],
+  "tile_sides": [
+    5,
+    3,
+    7
+  ],
+  "vertices": 168
+}

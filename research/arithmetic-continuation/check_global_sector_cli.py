@@ -47,12 +47,23 @@ def check():
                 assert witness["threshold_source"]=="nested_corner_unit_construction"
             seed_controls.append({"branch":branch,"a":a,"b":b,
                                   "threshold_source":witness["threshold_source"]})
+    gamma_controls=[]
+    for a,b,c in ((5,3,7),(112,75,163)):
+        witness={"branch":"F3","a":a,"b":b,"c":c}
+        assert classifier.construction_threshold(witness)==1
+        assert witness["threshold_source"]=="gamma_corner_unit_construction"
+        gamma_controls.append({"a":a,"b":b,"c":c,"threshold":1})
+    for branch,a,b in (("F3",3,5),("F2",5,3),("F4",5,3)):
+        witness={"branch":branch,"a":a,"b":b,"c":7}
+        assert classifier.construction_threshold(witness)>1
+        assert "gamma_corner_seed" not in witness
     rejected_seed={"branch":"F3","a":24,"b":11,"c":31}
     assert classifier.construction_threshold(rejected_seed)==6
     assert "nested_corner_seed" not in rejected_seed
     return {"status":"PASS","full_Erdos634_solved":False,
             "valid_status_checks":successful,"invalid_scope_inputs_rejected":rejected,
             "unit_seed_orientation_controls":seed_controls,
+            "gamma_corner_ordered_controls":gamma_controls,
             "4830_retains_prior_threshold":6,
             "scope":"CLI status and scope controls, not a complete geometric solver"}
 

@@ -1,6 +1,20 @@
 {
   "4830_retains_prior_threshold": 6,
   "full_Erdos634_solved": false,
+  "gamma_corner_ordered_controls": [
+    {
+      "a": 5,
+      "b": 3,
+      "c": 7,
+      "threshold": 1
+    },
+    {
+      "a": 112,
+      "b": 75,
+      "c": 163,
+      "threshold": 1
+    }
+  ],
   "invalid_scope_inputs_rejected": [
     [
       3,

@@ -134,7 +134,10 @@ def main():
                 ('nested_corner_certificates','group2-nested-corners','run_checks.py'),
                 ('balanced_ratio_finite_completion','group2-nested-corners','check_balanced_7_5_small.py'),
                 ('ternary_semigroup_conductor','f3-descent-attempt','semigroup_tail.py'),
-                ('squarefree_f3_front','arithmetic-continuation','check_squarefree_f3_front.py')]:
+                ('squarefree_f3_front','arithmetic-continuation','check_squarefree_f3_front.py'),
+                ('gamma_corner_certificates','group2-gamma-corners','run_checks.py'),
+                ('gamma_single_height_obstruction','group2-gamma-corners','check_two_axis_obstruction.py'),
+                ('f3_full_signature','f3-descent-attempt','check_full_signature.py')]:
             reports[key]=run([command],work/'research'/package)
             pr=json.loads(reports[key]['stdout'])
             if pr.get('status')!='PASS' or pr.get('full_Erdos634_solved') is not False:
