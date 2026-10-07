@@ -1,0 +1,178 @@
+{
+  "status": "INCOMPLETE",
+  "boundary_word": [
+    9,
+    9,
+    6,
+    6
+  ],
+  "boundary_vertices": [
+    [
+      "46",
+      "20"
+    ],
+    [
+      "49",
+      "14"
+    ],
+    [
+      "52",
+      "8"
+    ],
+    [
+      "54",
+      "4"
+    ],
+    [
+      "56",
+      "0"
+    ]
+  ],
+  "boundary_roots": [
+    {
+      "second_c_start_angle": "alpha",
+      "tiles": [
+        [
+          [
+            "133/3",
+            "50/3"
+          ],
+          [
+            "49",
+            "14"
+          ],
+          [
+            "46",
+            "20"
+          ]
+        ],
+        [
+          [
+            "142/3",
+            "32/3"
+          ],
+          [
+            "52",
+            "8"
+          ],
+          [
+            "49",
+            "14"
+          ]
+        ],
+        [
+          [
+            "47",
+            "8"
+          ],
+          [
+            "54",
+            "4"
+          ],
+          [
+            "52",
+            "8"
+          ]
+        ],
+        [
+          [
+            "49",
+            "4"
+          ],
+          [
+            "56",
+            "0"
+          ],
+          [
+            "54",
+            "4"
+          ]
+        ]
+      ],
+      "contained": true,
+      "disjoint": true,
+      "status": "ADMISSIBLE_ROOT"
+    },
+    {
+      "second_c_start_angle": "beta",
+      "tiles": [
+        [
+          [
+            "133/3",
+            "50/3"
+          ],
+          [
+            "49",
+            "14"
+          ],
+          [
+            "46",
+            "20"
+          ]
+        ],
+        [
+          [
+            "1289/27",
+            "266/27"
+          ],
+          [
+            "52",
+            "8"
+          ],
+          [
+            "49",
+            "14"
+          ]
+        ],
+        [
+          [
+            "47",
+            "8"
+          ],
+          [
+            "54",
+            "4"
+          ],
+          [
+            "52",
+            "8"
+          ]
+        ],
+        [
+          [
+            "49",
+            "4"
+          ],
+          [
+            "56",
+            "0"
+          ],
+          [
+            "54",
+            "4"
+          ]
+        ]
+      ],
+      "contained": true,
+      "disjoint": true,
+      "status": "ADMISSIBLE_ROOT"
+    }
+  ],
+  "runs": [
+    {
+      "root": 0,
+      "status": "INCOMPLETE",
+      "nodes": 0,
+      "seconds": 5e-06,
+      "resource_stop": "BudgetExceeded"
+    }
+  ],
+  "nodes": 0,
+  "maximum_placed": 0,
+  "seconds": 0.001662,
+  "pruning_rejections": {},
+  "tile_coordinates": null,
+  "metric": "dx\u00b2+2dy\u00b2",
+  "uses_adjacency_lemma": true,
+  "full_Erdos634_solved": false
+}

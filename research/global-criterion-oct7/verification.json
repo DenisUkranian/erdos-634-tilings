@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact integer",
+  "normalization_cases": 1965,
+  "factor_three_conversions": 496,
+  "independent_apery_comparisons": 287,
+  "distinct_cone_tiles_checked": 1251,
+  "new_interval_tiles_checked": 14,
+  "new_interval_examples": [
+    {
+      "tile": [
+        8229,
+        5875,
+        12271
+      ],
+      "parameters": [
+        86,
+        39
+      ],
+      "remainder": 4375684,
+      "Frobenius": 1415694,
+      "coin_witness": [
+        32,
+        677,
+        11
+      ]
+    },
+    {
+      "tile": [
+        10472,
+        7473,
+        15613
+      ],
+      "parameters": [
+        97,
+        44
+      ],
+      "remainder": 7013165,
+      "Frobenius": 2035919,
+      "coin_witness": [
+        389,
+        385,
+        4
+      ]
+    },
+    {
+      "tile": [
+        12985,
+        9263,
+        19357
+      ],
+      "parameters": [
+        108,
+        49
+      ],
+      "remainder": 10693666,
+      "Frobenius": 2815066,
+      "coin_witness": [
+        50,
+        1076,
+        4
+      ]
+    },
+    {
+      "tile": [
+        15768,
+        11245,
+        23503
+      ],
+      "parameters": [
+        119,
+        54
+      ],
+      "remainder": 15661411,
+      "Frobenius": 3771261,
+      "coin_witness": [
+        672,
+        440,
+        5
+      ]
+    },
+    {
+      "tile": [
+        18821,
+        13419,
+        28051
+      ],
+      "parameters": [
+        130,
+        59
+      ],
+      "remainder": 22186328,
+      "Frobenius": 4922630,
+      "coin_witness": [
+        273,
+        1260,
+        5
+      ]
+    },
+    {
+      "tile": [
+        20651,
+        14749,
+        30799
+      ],
+      "parameters": [
+        150,
+        43
+      ],
+      "remainder": 27790650,
+      "Frobenius": 6131794,
+      "coin_witness": [
+        281,
+        1472,
+        9
+      ]
+    }
+  ],
+  "endpoint_tile": [
+    45,
+    32,
+    67
+  ],
+  "endpoint_remainder": 119,
+  "endpoint_nested_criterion": false,
+  "uniform_theorem": "1<A/B<45/32 implies all positive multipliers for reversed F4, F2, and both F3 orientations",
+  "sharpness_scope": "initial ratio cone for the nested-corner unit criterion only",
+  "full_Erdos634_solved": false,
+  "arbitrary_endpoint_tiling_excluded": false
+}

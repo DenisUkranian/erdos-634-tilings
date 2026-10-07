@@ -39,8 +39,8 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 20462,
-      "sha256": "57598d839b2912062b08e4168f6567196dce52faeb8f01f746f6ea78fb288209"
+      "bytes": 21337,
+      "sha256": "2d7be464ca17667b80ac1b515723bcefc7cacf4531dc07e416bd9301b6a46d75"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 18207,
@@ -291,8 +291,8 @@
       "sha256": "97282cac68315f25d74f7bc25787271028473adfc76db80aa01d0664a65dba42"
     },
     "docs/global-gap-2026-10-07.md": {
-      "bytes": 16761,
-      "sha256": "5a1cb0341150c2734139937ef8cbf0695fa1360df36403d8b30bd9bcda0c7ef9"
+      "bytes": 18838,
+      "sha256": "7eb217a4794410729e7f824bca1815eec449f5e1a8354a303808103b917f2fc0"
     },
     "docs/grid-capacity-and-orientations.md": {
       "bytes": 10068,
@@ -610,6 +610,14 @@
       "bytes": 2437,
       "sha256": "98e5ee75c1078201e6019101ef8008680a206f07a7e579de1562ac9aeaff91b5"
     },
+    "research/barriers-oct7/LONGEST_SIDE_BOUND_AUDIT.md": {
+      "bytes": 4277,
+      "sha256": "3334b3415170e8d145e67102c35f19d8c4f9d12b8b87e1d4bfd6f23dd68ef31e"
+    },
+    "research/barriers-oct7/W_BOUNDARY_INDEPENDENT_AUDIT.md": {
+      "bytes": 5395,
+      "sha256": "d91f6d3eb7876a7345abb760e1fdb177b1562af101d6a85b10a35856a84bd598"
+    },
     "research/c-relations/SHA256SUMS.txt": {
       "bytes": 245,
       "sha256": "e290a090ae374f15839a29c23b029245a41aa6dc11d9151f0caa771020c44b80"
@@ -838,6 +846,22 @@
       "bytes": 5473,
       "sha256": "2a10f4d76b4b3777bfa2afeea96dcc71763c3758db12d4ce5d72715ca845786d"
     },
+    "research/f3-primitive-oct7/README.md": {
+      "bytes": 2557,
+      "sha256": "219dfff494757decf3e1e638c43524fbd6fb4e407395a8b0c4c60274f7811e97"
+    },
+    "research/f3-primitive-oct7/exploratory-4830-six.json": {
+      "bytes": 405,
+      "sha256": "6e81b8c33cc1b3b4fefdc5623e72673dfb6ad2a2cca396ea926896113e7117c9"
+    },
+    "research/f3-primitive-oct7/exploratory-4830.json": {
+      "bytes": 407,
+      "sha256": "71ce8931e9e097894654db468f0e06e5093bdaa12f1ca6cb8d732ea6b844a776"
+    },
+    "research/f3-primitive-oct7/macro_search.py": {
+      "bytes": 3998,
+      "sha256": "7bfa3a1a8a6164a02dcc209e8517c2b3f1df16d6df449fcf96abbd7b8667098b"
+    },
     "research/f3-vertex-defects/README.md": {
       "bytes": 1914,
       "sha256": "5fb4f670b2959899836fb08c101e28da34519dea20a930c9c476b6739bbb1887"
@@ -941,6 +965,18 @@
     "research/global-classification-continuation/gamma-staircase-report.json": {
       "bytes": 1587,
       "sha256": "4287cf2ca856f039b10592b6a41f778e8e96fb7a116c7bd36dae013db86ec444"
+    },
+    "research/global-criterion-oct7/SHARP_NESTED_CONE.md": {
+      "bytes": 7557,
+      "sha256": "0c17d0ba403d14c5ccbdd9a70788968a2ef4399460576cb2106cbd7f2ee2bb5d"
+    },
+    "research/global-criterion-oct7/check_sharp_cone.py": {
+      "bytes": 5310,
+      "sha256": "480353daee6a380d610fdeabe936be82bdefe641939b08ed6769b1ad844a54e7"
+    },
+    "research/global-criterion-oct7/verification.json": {
+      "bytes": 2232,
+      "sha256": "2dfab04e6bb1dc1898e1103e9baca0820e943ff8b6072fee2cd88c3d88dcc07c"
     },
     "research/global-normal-forms/DIAMETER_EXCHANGE_BARRIER.md": {
       "bytes": 3723,
@@ -1119,8 +1155,8 @@
       "sha256": "b3368485c9302451ce43adcfd48e789e5f2e2d54832071f7e6307f2b726b07dd"
     },
     "research/group2-nested-corners/PROOF.md": {
-      "bytes": 7763,
-      "sha256": "a894b2281fea0a19fcd187aa20949d06972f7d53ad75f4f72a92188740a908e7"
+      "bytes": 8114,
+      "sha256": "712f666d5520e616f2e695d51638270faadac2f6a8dbf0c5927cfe0689f12b0e"
     },
     "research/group2-nested-corners/README.md": {
       "bytes": 1720,
@@ -1353,6 +1389,30 @@
     "research/i120-continuation/verified.json": {
       "bytes": 7366,
       "sha256": "04c3ad14dc7a3367002722d1171830b4727029b868e8e222538947263cfa04c6"
+    },
+    "research/i120-global-oct7/HEIGHT_LEVELS.md": {
+      "bytes": 7911,
+      "sha256": "6024cb63f0ae085e07accc4c3d8a883a3071e3f95de1f1af0d3652c3fc9070f6"
+    },
+    "research/i120-global-oct7/README.md": {
+      "bytes": 2946,
+      "sha256": "867e43f8d8d6ec848abe93ab8fbd42d205bcb4cb621fdfcffc3dd2b00b33c238"
+    },
+    "research/i120-global-oct7/check_height_levels.py": {
+      "bytes": 7853,
+      "sha256": "f2eb61f88474d2a5e785e74b893c950b7da9958e3eae06d0b8db87c90bc7dead"
+    },
+    "research/i120-global-oct7/height-level-checks.json": {
+      "bytes": 1982,
+      "sha256": "1853dcb9dc30e8e90c625f1d91a0dde73cfd8e3910b0d881e4d297ae4d3eaeed"
+    },
+    "research/i120-global-oct7/probe-154-integer-seams-report.json": {
+      "bytes": 841,
+      "sha256": "c75290a7e879185c940c046651e1127cf49f96c762e37c979236c743969b5da6"
+    },
+    "research/i120-global-oct7/probe_154_integer_seams.py": {
+      "bytes": 6084,
+      "sha256": "303611f4887e61231e873a9ad759382626fff4315aa9a2869d255a743512d8c6"
     },
     "research/infinite-minimal/README.md": {
       "bytes": 2153,
@@ -1926,6 +1986,42 @@
       "bytes": 8601,
       "sha256": "163e7a449e4a219199551ceb617837d371207f2f7b197ea9a1fee22d5d8e5b42"
     },
+    "research/w-global-oct7/ADJACENT_C_EDGES.md": {
+      "bytes": 8249,
+      "sha256": "e3775b9d8891d606a10e7347a0cf32d91256dfcd5ee744cad8755ea3059219fe"
+    },
+    "research/w-global-oct7/README.md": {
+      "bytes": 1292,
+      "sha256": "2af8b0cc2512d99b9285b8a7d845240df515c222891f445d27ca0363664ab4e3"
+    },
+    "research/w-global-oct7/THETA_BASE_RESIDUES.md": {
+      "bytes": 2562,
+      "sha256": "a928b17cd66fd79647fcf402bd6fe870e82f75de58efb41fb79e95492a796592"
+    },
+    "research/w-global-oct7/W56-boundary-root1-search.json": {
+      "bytes": 2738,
+      "sha256": "779a81762412446c5a185aac70f2776e520f4979763456171966aea10b379b2c"
+    },
+    "research/w-global-oct7/W56-boundary-roots.json": {
+      "bytes": 2616,
+      "sha256": "13f296707d3443ed2afb12dd064d4b500fb301add0b777efbf79a6e5dcfd3fd4"
+    },
+    "research/w-global-oct7/W56-boundary-search.json": {
+      "bytes": 2763,
+      "sha256": "e8f81172df221b3a408ff1dba6df840ef962aab0a365a6eea5df1ccd7d497c87"
+    },
+    "research/w-global-oct7/check_theta_base.py": {
+      "bytes": 1380,
+      "sha256": "c1e5043f89dfa89c835ed58dab189800452edb2cdbd56f16213d68338e9bdcc3"
+    },
+    "research/w-global-oct7/theta-residue-check.json": {
+      "bytes": 398,
+      "sha256": "eed6a01915bb2c5234fbd2dbb26a8500019fe66c4b1c36c08cd9169ecea493fb"
+    },
+    "research/w-global-oct7/w56_boundary_search.py": {
+      "bytes": 3914,
+      "sha256": "16ead98803f7e6a31e9900cdcc5d4e0b586852f92ca583c52e02661241e52983"
+    },
     "scripts/build_manifest.py": {
       "bytes": 1704,
       "sha256": "95576b6acb715495dc1a72ff0c57a614f45b12514f7612cd701c92e00486e7e7"
@@ -2011,8 +2107,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 11993,
-      "sha256": "4e51b977525ec4ea9fc20aa00ae1b0a4ef88055cf6800099d5e9f0ab6ae3c829"
+      "bytes": 12277,
+      "sha256": "d359af01c2b1b2f3144c7ee14b2cd0610b31a9c7f44c9fb3d3b1bf6f027dfbd9"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

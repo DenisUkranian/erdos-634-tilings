@@ -190,6 +190,12 @@ enumerates both reduced parameters and all eligible side pairs and checks
 that their sets agree exactly. This proves the entire ratio interval,
 without a remaining size qualification.
 
+The subsequent [exact Apéry argument](../global-criterion-oct7/SHARP_NESTED_CONE.md)
+extends this uniform cone to `1<a/b<45/32`, without any size
+qualification. This is the maximal initial open ratio interval for
+this particular unit nested-corner criterion: `(45,32,67)` fails it.
+That endpoint is not a nonexistence theorem for arbitrary tilings.
+
 ## 4. The tile (8,7,13)
 
 For this tile,

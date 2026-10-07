@@ -1,0 +1,31 @@
+{
+  "status": "INCOMPLETE",
+  "tile": [
+    8,
+    7,
+    13
+  ],
+  "target_sides": [
+    91,
+    91,
+    154
+  ],
+  "N": 154,
+  "root": "empty; all target-corner fans covered",
+  "source_engine": "research/n105/search/exact_engine.py",
+  "new_pruning": "Integer residual edge lengths and integer vertex-to-endpoint distances at actual tile contacts",
+  "positive_fixture_990_pairs_checked": 489555,
+  "positive_fixture_vertex_on_edge_contacts_checked": 300,
+  "visited_nodes": 2674,
+  "maximum_placed_tiles": 97,
+  "partial_dead_states": 2629,
+  "new_pruning_counts": {
+    "vertex_on_edge_checks": 26498,
+    "distinct_pair_seam_conflicts": 2
+  },
+  "seconds": 300.038,
+  "limit_seconds": 300.0,
+  "limit_nodes": 100000,
+  "scope": "Exact search probe; no nonexistence claim without independent replay.",
+  "full_Erdos634_solved": false
+}

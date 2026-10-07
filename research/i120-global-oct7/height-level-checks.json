@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "full_Erdos634_solved": false,
+  "primitive_norm_triples_checked": 87,
+  "parameter_range": "2 <= b < a <= 500; c is the positive square root",
+  "equilateral": {
+    "tile": [
+      5,
+      3,
+      7
+    ],
+    "m": 9,
+    "count": 1215,
+    "height_counts": {
+      "0": 774,
+      "1": 441
+    },
+    "macro_validation": "ACCEPT_EXACT_HIERARCHICAL_CONSTRUCTION"
+  },
+  "I120": {
+    "tile": [
+      5,
+      3,
+      7
+    ],
+    "m": 9,
+    "count": 2673,
+    "height_counts": {
+      "0": 2232,
+      "1": 441
+    },
+    "positive_three_macro_partition_checked": true
+  },
+  "c_squared_cut_argument_counterexample": {
+    "target": "parallelogram, not I120",
+    "tile": [
+      5,
+      3,
+      7
+    ],
+    "count": 14,
+    "height_counts": {
+      "1": 14
+    },
+    "all_pairs_checked": 91,
+    "tile_count_mod_c_squared": 14
+  },
+  "case_154": {
+    "n0_residue_mod13": 11,
+    "max_occupied_heights": 12,
+    "passing_unplaced_counts": {
+      "0": 141,
+      "1": 13
+    },
+    "status": "UNRESOLVED"
+  },
+  "F2_F3_existing_certificate_checks": [
+    {
+      "certificate": "research/group2-nested-corners/f2-506.json",
+      "count": 506,
+      "height_counts": {
+        "1": 455,
+        "2": 51
+      },
+      "exceptional_height": 2,
+      "canonical_target_normalization_checked": true
+    },
+    {
+      "certificate": "research/group2-nested-corners/f3-990.json",
+      "count": 990,
+      "height_counts": {
+        "1": 455,
+        "2": 535
+      },
+      "exceptional_height": 2,
+      "canonical_target_normalization_checked": true
+    },
+    {
+      "certificate": "research/group2-mixed-gamma/f3-19320.json.gz",
+      "count": 19320,
+      "height_counts": {
+        "1": 11532,
+        "2": 7788
+      },
+      "exceptional_height": 2,
+      "canonical_target_normalization_checked": true
+    }
+  ],
+  "scope": "Finite algebra and construction regression checks; the universal theorem is the written whole-edge-chain proof."
+}

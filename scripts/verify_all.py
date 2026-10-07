@@ -144,6 +144,9 @@ def main():
                 ('gamma_4830_boundary_collar','f3-position-invariants','check_boundary.py'),
                 ('norm_exchange_diameter_barrier','global-normal-forms','check_diameter_exchange_barrier.py'),
                 ('i120_full_signature','i120-continuation','check_i120.py'),
+                ('sharp_nested_ratio_cone','global-criterion-oct7','check_sharp_cone.py'),
+                ('norm_orientation_level_divisibility','i120-global-oct7','check_height_levels.py'),
+                ('theta_exact_base_count_threshold','w-global-oct7','check_theta_base.py'),
                 ('w56_local_escape_patch','group1-global-scales','verify_local_patch.py')]:
             reports[key]=run([command],work/'research'/package)
             pr=json.loads(reports[key]['stdout'])

@@ -1,0 +1,31 @@
+{
+  "tile": [
+    24,
+    11,
+    31
+  ],
+  "multiplier": 1,
+  "count": 4830,
+  "max_macros": 8,
+  "min_scale": 5,
+  "status": "INCOMPLETE",
+  "nodes": 6139,
+  "deepest": 7,
+  "seconds": 55.001,
+  "coordinate_field": "(x,y) denotes x+y*sqrt(3)*i",
+  "target": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "961",
+      "0"
+    ],
+    [
+      "811486/961",
+      "637560/961"
+    ]
+  ],
+  "macros": null
+}

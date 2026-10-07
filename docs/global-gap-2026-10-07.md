@@ -319,3 +319,39 @@ It supplies no exclusion of the remaining rows. A proposed lower bound
 `N>=c²` for the remaining nonclassical targets has not been proved and
 is not used as a necessary condition. In particular neither this bound
 nor an unfinished search changes the unresolved status of 154 or 4830.
+
+## 9. Further general results without the missing converse
+
+The [exact Apéry formula](../research/global-criterion-oct7/SHARP_NESTED_CONE.md)
+extends the nested-corner construction from `1<a/b<=7/5` to the sharp
+initial open cone `1<a/b<45/32`, uniformly at every positive multiplier.
+It covers reversed F4, F2, and both F3 orientations. The endpoint is
+sharp for this construction criterion only; it does not exclude arbitrary
+tilings. Its proof is general, with exact finite arithmetic regressions.
+
+The [Group-1 boundary theorem](../research/w-global-oct7/ADJACENT_C_EDGES.md)
+forces two consecutive longest edges on every side of W, beta and theta
+targets. Its blocked-endpoint proof works with either ordering of a,b
+and includes a separate theta-apex argument. The
+[independent audit](../research/barriers-oct7/W_BOUNDARY_INDEPENDENT_AUDIT.md)
+also checks the complete two-root reduction for W56's short boundary.
+The bounded continuation from those roots remains incomplete.
+
+The [orientation-level theorem](../research/i120-global-oct7/HEIGHT_LEVELS.md)
+gives `c | n_h` outside one exceptional height for five plus-norm rows:
+height zero for equilateral, F1 and I120, and height two for F2 and F3
+in their stated canonical orientations. The exceptional population is
+congruent to N modulo c. The proof uses actual positive tile unions and
+whole-edge chains, rather than a formal unplaced orientation inventory.
+Even so, the existing unplaced 154 inventory passes these congruences.
+
+A fresh 154 search added integer residual-seam and vertex-on-edge
+checks to the previous fan-propagation engine. Its 300-second run
+visited 2674 nodes and stopped at `INCOMPLETE`; the additional pruning
+found only two incompatible tile pairs. The
+[primitive F3 macro searches](../research/f3-primitive-oct7/README.md)
+also stopped incomplete. None supplies a negative decision.
+
+Thus these improvements enlarge the proved constructions and necessary
+conditions, while 154, 4830 and the general below-tail geometric
+criterion remain unresolved. No complete classification is asserted.
