@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "primitive_b_max": 500,
+  "macro_cases": 87,
+  "large_example": {
+    "tile": [
+      136,
+      209,
+      301
+    ],
+    "count": 573390,
+    "macroregions": 5,
+    "macro_pairs_checked": 10,
+    "trapezoid_seed": 56193,
+    "trapezoid_added_width": 44336
+  },
+  "unit_checks": [
+    {
+      "file": "f3-312.json",
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "multiplier": 1,
+      "count": 312,
+      "all_pairs": 48516,
+      "exact_candidate_pairs_checked": 1194,
+      "verified": true
+    },
+    {
+      "file": "f3-2331.json",
+      "tile": [
+        5,
+        16,
+        19
+      ],
+      "multiplier": 1,
+      "count": 2331,
+      "all_pairs": 2715615,
+      "exact_candidate_pairs_checked": 10180,
+      "verified": true
+    }
+  ],
+  "full_Erdos634_solved": false
+}

@@ -152,6 +152,10 @@ def main():
                 ('same_count_parameter_descent_audit','strategy-oct7','check_plan_b.py'),
                 ('fixed_degree_moment_barrier','strategy-oct7','check-plan-c.py'),
                 ('f3_positive_fan_hexagon','final-push-oct7/f3','check_fan_hexagon.py'),
+                ('f3_small_a_unit_certificates','best-move-oct7/hexagon','check_small_a.py'),
+                ('f3_small_a_independent_macro_audit','best-move-oct7/geometry','check_f3_a_lt_b_audit.py'),
+                ('complete_square_class_78','best-move-oct7/new-arithmetic','check_class78.py'),
+                ('f3_count_573390_and_infinite_family','best-move-oct7/new-arithmetic','check_573390.py'),
                 ('f3_fan_short_height_obstruction','final-push-oct7/pentagon','check_currents.py'),
                 ('local_multiple_cover_and_prime_exponent_barriers','final-push-oct7/duality','check_duality.py'),
                 ('w56_local_escape_patch','group1-global-scales','verify_local_patch.py')]:

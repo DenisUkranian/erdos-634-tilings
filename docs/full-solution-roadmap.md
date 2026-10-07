@@ -18,6 +18,7 @@ A complete fixed-tile spectrum for every shape would be one sufficient route. It
 |---|---|---|
 | Elliptic square-class correspondences | [F3 iff positive rank and a class-number exact sector](elliptic-square-classes.md); [finite odd-F3 test on a certified full basis](f3-odd-multipliers.md); [alpha iff congruent-number rank is positive](alpha-congruent-numbers.md). | Branch existence somewhere is different from realization at a prescribed small residual multiplier. Full bases have not been computed generally. |
 | Entire square class 22 | [Exact criterion](square-class-22.md) for every `22 m²`: even multipliers are positive; odd multipliers have a finite necessary-and-sufficient QP allocation test. F3 is removed by an elliptic rank-zero obstruction. | This complete class result does not classify other kernels. |
+| Entire square class 78 | [Complete criterion](../research/best-move-oct7/new-arithmetic/CLASS78.md): `78m²` is admissible exactly when m is even. A new 312-tiling supplies sufficiency; an elementary modulo-13 descent excludes every odd multiplier. | No rank computation is needed, but the argument is specific to this class and does not classify all kernels. |
 | Any fixed finite prime support | [Effective finite-basis theorem](fixed-prime-support.md) bounds primitive product coefficients over all support exponents, supplies an eventual divisor test, and reduces an exact basis to finitely many bounded geometric decisions. | Bounds are theoretical and depend on the support; the general unit-equation enumeration and geometric campaign have not been executed. No universal finite obstruction catalog follows. |
 | Square-class tails and prime-power rays | [Finite arithmetic criteria](square-class-tails.md) decide whether all sufficiently large `d m²` occur, and whether any `d q^(2k)` occurs for fixed odd prime `q`. In the latter question only product coefficients with `q^r<2d` need checking. | A positive ray test leaves its small exponents undecided. Failure of cofinal saturation does not exclude arbitrary composite multipliers. |
 | Size of the global set of counts | [Quantitative density bound](quantitative-density.md): `S(X) ≪ X / ((log X)^δ (log log X)^(3/2))`, with `δ=0.086071…`; strengthens the integrated [1 October qualitative proof](long-seams-density.md). | A counting bound does not characterize membership of the remaining sparse set, and does not supply an effective exclusion percentage at a specified finite X. |
@@ -27,6 +28,7 @@ A complete fixed-tile spectrum for every shape would be one sufficient route. It
 | General W and beta cap | [Explicit collars](../research/w-beta-caps/PROOF.md) construct every scale in v+<u,v>, hence every m>=uv-u+1. | This is a sufficient set, not a proved exact spectrum; for example it leaves scale 4 of tile (6,5,9) undecided. |
 | General 120-degree surgery | [Smaller trapezoids](../research/group2-trapezoids/PROOF.md) and [balanced F4/F2/F3 transfers](../research/group2-trapezoids/BALANCED_F4.md), including all m>=2 when b<a and 3c>=4a. | The exact trapezoid spectrum, the primitive scale-one cases and the complementary parameter range are not settled by these sufficient results. |
 | Oriented 120-degree F4, a<b | [Four-region construction](../research/group2-f4/PROOF.md) supplies every positive integer multiplier. | Reversing a and b changes the target and does not preserve this construction; the a>b branch remains unresolved in general. |
+| Oriented 120-degree F3, 0<a<2b | [New a<b construction](../research/best-move-oct7/hexagon/F3_SMALL_A.md), combined with the earlier ordered gamma theorem, supplies every positive integer multiplier throughout this sector. | The remaining a>2b domain has partial constructions and tails, but no complete scale criterion. In particular 4830 remains unresolved. |
 | 60°/120° equilateral | [Necessary N=abm² and sufficient large-m bounds](../research/general-spectra/PROOF.md). | The exact realizable set below the sufficient threshold for each primitive tile. Passing parity/area tests is not a tiling. |
 | 120° F1 and isosceles | Necessary spectra b(a+b)m² and b(a+2b)m², with large-m constructions by transfer. The spectra are credited to Bonfioli. | Small m; a sufficient cutoff is not a necessary cutoff. The 116640-tile example demonstrates why that distinction matters. |
 | Other classified irrational-angle shapes | Published shape/rationality inputs and explicit branch-specific necessary equations, audited in the [105 reduction](../research/n105/PROOF_N105.md). | A contradiction for squarefree 105 cannot be generalized to all composites. The gamma=2alpha and other 120° scalene families must retain their full hypotheses in a global argument. |
@@ -284,3 +286,49 @@ the proof also supplies an exact staircase-scale predicate and an explicit
 every-integer tail. This advances sufficiency without proving necessity
 of the chosen macro partition. The [updated gap map](global-gap-2026-10-07.md)
 retains the unsolved W/beta converse and unrestricted cases 154 and 4830.
+
+## 7 October: a new F3 construction and complete classification of class 78
+
+The [next positive F3 theorem](../research/best-move-oct7/hexagon/F3_SMALL_A.md)
+constructs every count `3(a+b)(a+2b)m²` for a<b and every integer m>=1.
+Its five-region partition uses a c-fold tile, two b-fold tiles, a
+previously filled F4(a,b) triangle, and an ideal trapezoid. The latter
+has shorter base `2ab+b²`, leg `ab`, and a positive semigroup extension
+`a(3b-c)` from the existing deficit seed. The
+[independent audit](../research/best-move-oct7/geometry/F3_A_LT_B_AUDIT.md)
+checks the dissection, side lengths, count, and applicable F4 order.
+
+Combined with the earlier gamma theorem, the current all-multiplier
+F3 domain is **0<a<2b**. This includes the whole opposite order a<b,
+whose unbounded b/a ratios were not supplied by changing the names of
+the short sides in the earlier construction.
+
+At `(a,b,c)=(3,5,7)` the new theorem gives a complete 312-tile
+certificate. An [elementary local descent](../research/best-move-oct7/new-arithmetic/CLASS78.md)
+then proves the full square-class statement
+
+\[
+\boxed{78m^2\in\mathcal S\quad\Longleftrightarrow\quad m\text{ is even}.}
+\]
+
+Odd multipliers are excluded across all necessary branches: the
+existing residue theorem isolates F3, its coefficient forces a
+rational point with odd 2-adic x-valuation on
+`y²=x³+156x²-2028x`, and four explicit quartic square classes are
+impossible modulo 13. Even multipliers follow from the 312 seed by
+subdivision. The [separate audit](../research/best-move-oct7/geometry/CLASS78_AUDIT.md)
+rederives the map and all local exclusions without a rank assumption.
+
+The positive theorem also supplies **573390** using `(136,209,301)`.
+The [count audit](../research/best-move-oct7/new-arithmetic/COUNT_573390.md)
+isolates F3, proves uniqueness of that primitive ordered tile at scale
+one, and checks that the earlier recorded project constructions did
+not already decide this count. This is a new positive decision within
+the audited project ledger, not an external priority claim.
+
+The remaining goal is still a necessary-and-sufficient rule for every
+N. **154 and 4830 are unresolved here**; the latter satisfies
+24/11>2 and is outside the newly completed F3 sector. Its nonprimitive
+square multiples were already positive. The unfinished Group-1 and
+other norm-family predicates also remain, so the new complete class
+and sector theorems do not constitute a solution of all Erdős 634.

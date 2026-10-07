@@ -47,7 +47,7 @@ satisfying the indicated norm. Both orders of a,b are included.
 | 120-degree F1 | b(a+b), plus norm | Positive attachment from an equilateral core and a tail; existence of that core in an arbitrary F1 tiling is not proved. |
 | 120-degree isosceles | b(a+2b), plus norm | Positive attachments and a tail; smaller scales remain. |
 | 120-degree F2 | (a+2b)(2a+b), plus norm | Equilateral-core and reflected-corner constructions, including the new three-generator domain; no necessity of either chosen decomposition. |
-| 120-degree F3 | 3(a+2b)(a+b), plus norm | F2 attachments, nested corners, ordered gamma for b<a<=2b at every scale, and the staircase for b<a<=5b/2 at every scale t>=2. Exact staircase scales and a tail cover every positive gamma remainder; complementary cases remain. |
+| 120-degree F3 | 3(a+2b)(a+b), plus norm | **Every positive integer scale for 0<a<2b**, combining the new a<b construction with ordered gamma. The staircase also covers b<a<=5b/2 at every scale t>=2. Further nested-corner and tail cases are positive; the remaining a>2b cases are not generally classified. |
 | 120-degree F4 | (2a+b)(a+b), plus norm | Every scale for a<b; reversed orientation has nested-corner and tail constructions, with an undecided complementary domain. |
 
 The positive sources are the [QP construction](two-piece-construction.md),
@@ -55,6 +55,7 @@ The positive sources are the [QP construction](two-piece-construction.md),
 [universal rational-scale theorem](universal-rational-scales.md),
 [norm constructions and transfers](square-class-tails.md#appendix-a-every-integer-tails-for-all-norm-rows),
 [oriented F4 construction](../research/group2-f4/PROOF.md),
+[new a<b F3 construction](../research/best-move-oct7/hexagon/F3_SMALL_A.md),
 [nested-corner theorem](../research/group2-nested-corners/PROOF.md),
 [ordered gamma-corner theorem](../research/group2-gamma-corners/PROOF.md), and
 [staircase extension](../research/global-classification-continuation/GAMMA_STAIRCASE.md).
@@ -82,9 +83,9 @@ automatically proving the missing implication \(A\Rightarrow C\).
 
 The complete QP construction eliminates that entire row from the
 undecided remainder: if a candidate in that row exists, the integer
-is already positive. The same holds for the a<b half of F4 and each
-proved nested-corner instance. No proposed universal removal of the
-other rows has been established.
+is already positive. The same holds for the a<b half of F4, the
+0<a<2b sector of F3, and each proved nested-corner instance. No proposed
+universal removal of the other rows has been established.
 
 ## 3. At least W and F3 are globally indispensable
 
@@ -442,10 +443,12 @@ a fixed-order moment extension or a change of primitive parameters.
 
 ## 12. A new positive macro partition and three precise barriers
 
-The [next three-route continuation](../research/final-push-oct7/README.md)
-tests a different positive F3 partition, an all-orientation W cap repair,
-and decomposition of exact multiple covers. It produces general lemmas,
-but no new decision of a previously unresolved count.
+An [earlier three-route continuation](../research/final-push-oct7/README.md)
+tested a different positive F3 partition, an all-orientation W cap repair,
+and decomposition of exact multiple covers. That continuation produced
+general lemmas, but no new decision of a previously unresolved count.
+Section 13 records the later positive construction and complete class
+result, which go beyond those earlier barriers.
 
 For every ordered plus-norm tile with `a>b`, three c-fold sectors and
 four further triangular grids fit inside the primitive F3 target. The
@@ -481,7 +484,66 @@ tile group; the [proof](../research/final-push-oct7/duality/NONCOMMUTATIVE_BOUND
 includes nonabelian quotients but makes no claim about all groups or
 positive geometric diagrams.
 
-These routes leave the same decisive obligation: prove a complete
+Those routes left the same decisive obligation: prove a complete
 positive-filling criterion or a necessary global normal form, and cover
-every remaining branch before excluding a count. The new lemmas do not
-settle 154 or 4830 and do not complete the all-integer classification.
+every remaining branch before excluding a count. Those lemmas did not
+settle 154 or 4830 or complete the all-integer classification.
+
+## 13. A complete ordered F3 sector and the entire square class 78
+
+The [new positive construction](../research/best-move-oct7/hexagon/F3_SMALL_A.md)
+proves, for every positive integral plus-norm tile with a<b,
+
+\[
+3(a+b)(a+2b)m^2\in\mathcal S\qquad(m\ge1).
+\]
+
+The target is dissected into a c-fold tile, two b-fold tiles, the
+already constructible F4(a,b) triangle, and an ideal trapezoid with
+short base `2ab+b²` and leg `ab`. Its difference from the existing
+trapezoid seed is `a(3b-c)>0`, an explicit short-grid width. All pieces
+have positive fillings and disjoint interiors; there is no unresolved
+hexagon in this partition. The
+[independent symbolic audit](../research/best-move-oct7/geometry/F3_A_LT_B_AUDIT.md)
+checks the exact dissection and the orientation of its F4 block.
+
+Together with the earlier ordered gamma construction, this supplies
+**every positive integer multiplier throughout 0<a<2b**. The new
+theorem covers the previously missing a<b order even when b/a is
+arbitrarily large; swapping short-side labels was not previously a
+valid transfer between the two F3 targets.
+
+The construction at `(a,b,c)=(3,5,7)` gives the independently checked
+312-tile target `(49,91,120)`. Combining that seed with the
+[elementary local obstruction](../research/best-move-oct7/new-arithmetic/CLASS78.md)
+now proves the complete global criterion
+
+\[
+\boxed{78m^2\in\mathcal S\quad\Longleftrightarrow\quad 2\mid m.}
+\]
+
+For odd m the existing exhaustive residue theorem leaves only F3.
+A putative F3 coefficient gives a positive rational point on
+`y²=x³+156x²-2028x` with `v_2(x)=1`. Its only possible positive square
+classes are `2,6,26,78`, all excluded by explicit congruences modulo
+13. The proof uses no rank computation or unproved completeness of
+rational-point data. Every even m follows by subdivision of 312.
+The [separate audit](../research/best-move-oct7/geometry/CLASS78_AUDIT.md)
+checks both directions for arbitrary multipliers.
+
+The new construction also makes an additional positive decision in
+the prior project ledger: **573390**, with tile `(136,209,301)` and
+target `(90601,166754,216315)`. The
+[arithmetic audit](../research/best-move-oct7/new-arithmetic/COUNT_573390.md)
+proves that every realization must belong to F3 and that this ordered
+primitive tile at residual scale one is its unique candidate. It also
+checks why the previously recorded sufficient constructions did not
+supply this count. No priority over the literature is claimed.
+
+These are genuine geometric and all-multiplier classification gains,
+but the full problem remains open in this repository. In particular,
+**154 and 4830 remain unresolved**. The latter has a/b=24/11>2 and
+therefore lies outside the newly completed sector; its multiples
+`4830m²`, m>=2, were already constructed by the staircase theorem.
+General W/beta small-scale questions, other norm branches, and the
+remaining F3 domain still prevent a characterization of every N.
