@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "certificate": "research/closure-position-oct8/equilateral-small/equilateral_735.json",
+  "sha256": "5453d264edeef180c58d738750a0ce1e2558172919f49ddcf1ce5f203d1aece2",
+  "denominator": 7,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "tiles": 735,
+  "exact_squared_lengths_checked": 2205,
+  "contained_triangles": 735,
+  "pairwise_interior_disjointness_checks": 269745,
+  "affine_box_separations": 267539,
+  "exact_edge_separating_axis_checks": 2206,
+  "target_determinant_area": 540225,
+  "sum_tile_determinant_areas": 540225,
+  "coverage": "Exact: containment + pairwise disjoint interiors + equal area.",
+  "independence": "No construction code, matrix, solver, or existing geometric verifier imported.",
+  "seconds": 0.041613552999479
+}

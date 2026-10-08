@@ -1,0 +1,24 @@
+{
+  "status": "INCOMPLETE",
+  "N154_decided": false,
+  "full_Erdos634_solved": false,
+  "checkpoint_files": [
+    {
+      "filename": "search154-strong600-report.json",
+      "bytes": 322,
+      "sha256": "3a44c78039c6954fdd6210ea99d4a866d24a59d413a90869567aa79ca4f6ca9c"
+    },
+    {
+      "filename": "search154-strong600-geometry.txt",
+      "bytes": 22819336,
+      "sha256": "966798b43a55e7c87491ba1dea530909ca89b0fd7e755cb39a4fb7ed76382198"
+    },
+    {
+      "filename": "search154-strong600-trace.txt",
+      "bytes": 123106697,
+      "sha256": "b69627c8e28409f20a43058e7917029189c42d1763266e4afaad28bfd61cf760"
+    }
+  ],
+  "scope": "Trusted operational checkpoint; no independent full dead-state replay, no mathematical nonexistence conclusion",
+  "large_checkpoint_files_in_repository": false
+}

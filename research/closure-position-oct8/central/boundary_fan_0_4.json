@@ -1,0 +1,8 @@
+{
+  "status": "EXACT_INVENTORY_IMPOSSIBLE",
+  "states": 42196,
+  "seconds": 0.7873455230001127,
+  "witness_if_feasible": null,
+  "claim": "Necessary boundary edge and angle-fan inventory; not a full tiling decision.",
+  "N154_solved": false
+}

@@ -1,0 +1,173 @@
+{
+  "scope": "Does not construct the missing trapezoids",
+  "cases": [
+    {
+      "side": 120,
+      "tile_count": 960,
+      "trapezoids": [
+        {
+          "short_base": 30,
+          "leg": 45,
+          "count": 315,
+          "vertices": [
+            [
+              "45",
+              "0"
+            ],
+            [
+              "120",
+              "0"
+            ],
+            [
+              "75",
+              "45"
+            ],
+            [
+              "45",
+              "45"
+            ]
+          ]
+        },
+        {
+          "short_base": 45,
+          "leg": 45,
+          "count": 405,
+          "vertices": [
+            [
+              "0",
+              "90"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "45",
+              "0"
+            ],
+            [
+              "45",
+              "45"
+            ]
+          ]
+        },
+        {
+          "short_base": 45,
+          "leg": 30,
+          "count": 240,
+          "vertices": [
+            [
+              "75",
+              "45"
+            ],
+            [
+              "0",
+              "120"
+            ],
+            [
+              "0",
+              "90"
+            ],
+            [
+              "45",
+              "45"
+            ]
+          ]
+        }
+      ],
+      "result": "CONDITIONAL_PARTITION_VERIFIED",
+      "missing_tilings": [
+        [
+          30,
+          45
+        ]
+      ]
+    },
+    {
+      "side": 105,
+      "tile_count": 735,
+      "trapezoids": [
+        {
+          "short_base": 30,
+          "leg": 45,
+          "count": 315,
+          "vertices": [
+            [
+              "30",
+              "0"
+            ],
+            [
+              "105",
+              "0"
+            ],
+            [
+              "60",
+              "45"
+            ],
+            [
+              "30",
+              "45"
+            ]
+          ]
+        },
+        {
+          "short_base": 45,
+          "leg": 30,
+          "count": 240,
+          "vertices": [
+            [
+              "0",
+              "75"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "30",
+              "0"
+            ],
+            [
+              "30",
+              "45"
+            ]
+          ]
+        },
+        {
+          "short_base": 30,
+          "leg": 30,
+          "count": 180,
+          "vertices": [
+            [
+              "60",
+              "45"
+            ],
+            [
+              "0",
+              "105"
+            ],
+            [
+              "0",
+              "75"
+            ],
+            [
+              "30",
+              "45"
+            ]
+          ]
+        }
+      ],
+      "result": "CONDITIONAL_PARTITION_VERIFIED",
+      "missing_tilings": [
+        [
+          30,
+          45
+        ],
+        [
+          30,
+          30
+        ]
+      ]
+    }
+  ]
+}

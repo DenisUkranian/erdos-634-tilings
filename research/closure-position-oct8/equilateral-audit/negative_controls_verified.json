@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "case": "changed_side",
+      "rejected": true,
+      "reason": "Tile 0 is not congruent: [400, 1261, 2401]."
+    },
+    {
+      "case": "overlap_without_area_change",
+      "rejected": true,
+      "reason": "Positive-area overlap between tiles 0 and 1."
+    },
+    {
+      "case": "rigid_displacement",
+      "rejected": true,
+      "reason": "Tile 0 not contained in target."
+    }
+  ]
+}

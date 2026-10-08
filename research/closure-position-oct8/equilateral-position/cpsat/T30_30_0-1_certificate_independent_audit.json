@@ -1,0 +1,17 @@
+{
+  "status": "EXACT_PASS",
+  "method": "integer separating axes plus collinear interval boundary cancellation",
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "count": 180,
+  "pair_checks": 16110,
+  "lines_checked": 98,
+  "boundary_intervals_checked": 327,
+  "target_area2_scaled": 132300,
+  "coordinate_denominator": 7,
+  "seconds": 0.0809225939992757,
+  "independent_from_search_and_other_geometry_checker": true
+}

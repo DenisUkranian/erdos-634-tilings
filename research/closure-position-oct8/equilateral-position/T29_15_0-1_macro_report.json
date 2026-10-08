@@ -1,0 +1,30 @@
+{
+  "target_short_base": 29,
+  "target_leg": 15,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "levels": [
+    -1,
+    0,
+    1
+  ],
+  "lattice": "integer macro translations",
+  "macro_mode": true,
+  "placements": 4094,
+  "rows": 9872,
+  "entries": 49266,
+  "lattice_points": 600,
+  "propagation_conflict": null,
+  "assigned": 4016,
+  "forced_ones": 0,
+  "remaining": 78,
+  "solver_status": 0,
+  "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "lp_relaxation": false,
+  "status": "EXACT_INTEGRAL_BOUNDARY_SOLUTION",
+  "tiles": 73,
+  "seconds": 0.19861257299999124
+}

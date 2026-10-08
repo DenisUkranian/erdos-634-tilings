@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "uninterrupted_nodes": 4000,
+  "initial_checkpoint_nodes": 1000,
+  "continuation_nodes": 4000,
+  "matching_closed_state_prefix_records": 3971,
+  "partially_explored_ancestors_revisited": true,
+  "scope": "Exact trace-prefix match; checkpoint is trusted operational state, not an independently replayed negative certificate",
+  "N154_decided": false,
+  "full_Erdos634_solved": false
+}

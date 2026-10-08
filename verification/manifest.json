@@ -39,16 +39,16 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 26791,
-      "sha256": "9d757054200096f84511907b54178c374be868df094b51d755338ca18f107dcb"
+      "bytes": 27538,
+      "sha256": "3b102740dea6fb92e529494a226eed47914965ba14e82347049f461b287a79ab"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 20762,
-      "sha256": "06c5228cfbb4fa222bad71c095af26259f75dd6f2a5cedb30f7ef2f4cc8ddbf0"
+      "bytes": 23823,
+      "sha256": "15d50cff5d2751eba2f3bcfd61bad613a88fb7f4ba7ddf70cc937da56a609268"
     },
     "STATUS.md": {
-      "bytes": 41168,
-      "sha256": "7ea324fe61fc59a1954bad232a26ff34126a81cefe4520b8cb7dd7297284803f"
+      "bytes": 42144,
+      "sha256": "20ee742f92308683c97779c076d75c7624360c4f81dd25a4b9c01497856b05db"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -1013,6 +1013,398 @@
     "research/closure-position-oct7/search154/run600-report.json": {
       "bytes": 330,
       "sha256": "d9f82aedcf12c4530a1e8185a6ecce0741fa2e1142d230fcc5f8f9988639caea"
+    },
+    "research/closure-position-oct8/README.md": {
+      "bytes": 3886,
+      "sha256": "496848e20901263eb58b4acbb8df3588452729b6da55dd81992c031498e3661a"
+    },
+    "research/closure-position-oct8/central/BASE_BOUNDARY.md": {
+      "bytes": 6379,
+      "sha256": "0c656ebae4f1c3758e23d7f4cf29ae66859bbaf9d9138dffc7a9bf832ea4d711"
+    },
+    "research/closure-position-oct8/central/CENTRAL_HEIGHT.md": {
+      "bytes": 4854,
+      "sha256": "ff336e8cfa62d53a3f2b777ba3e7a34a2ac3f8362ae24ffc4f0b62144210a8af"
+    },
+    "research/closure-position-oct8/central/README.md": {
+      "bytes": 1382,
+      "sha256": "b9473d5fc99f99adc7449e219fdb95cabce5c659c6e6d351ff3173f907ae8362"
+    },
+    "research/closure-position-oct8/central/base_profiles.json": {
+      "bytes": 174707,
+      "sha256": "7c04e77b40cca0d720df93f0be5295fdec5170317326b9052f29776e92076a91"
+    },
+    "research/closure-position-oct8/central/base_profiles.py": {
+      "bytes": 2202,
+      "sha256": "57e037d2cb54f8276e867d768a129adf7c04360ded25b4429726be0a9d77ce71"
+    },
+    "research/closure-position-oct8/central/base_profiles_verified.json": {
+      "bytes": 284,
+      "sha256": "7e1a0c30a2b3e638e2131b5f08407b64434a39487b29337732e0f63e28232a6a"
+    },
+    "research/closure-position-oct8/central/boundary_fan_0_4.json": {
+      "bytes": 243,
+      "sha256": "9bb3b5ccae17e2c9dabbe987b2502ee8e4bb792a4f7ec23130a62a11e194b793"
+    },
+    "research/closure-position-oct8/central/boundary_fan_inventory.py": {
+      "bytes": 2517,
+      "sha256": "e823bce4d3d4122cb262a4b351b7a87630c675e1aeb00b2459d3d421cb157f16"
+    },
+    "research/closure-position-oct8/central/boundary_fan_m1_3.json": {
+      "bytes": 2427,
+      "sha256": "ae23490f11f5d1fd6426117ec0452da965527001624a945a8b8f701afa6d9e23"
+    },
+    "research/closure-position-oct8/central/boundary_fan_m2_2.json": {
+      "bytes": 2491,
+      "sha256": "18fa645ec5672fa7a11285337ab7ecf459b7954c86d7da6bdbe58e33e672e0aa"
+    },
+    "research/closure-position-oct8/central/central24_probe.json": {
+      "bytes": 7454,
+      "sha256": "21947b4b913b4cfdf944e7d1eb0a4c12f78946767c976be7a36dfef21c5b8608"
+    },
+    "research/closure-position-oct8/central/central_eleven_verified.json": {
+      "bytes": 12002,
+      "sha256": "0e7fa03b1c1f01ac43adad26085307bb6d8a963fad5f498b5a4449626673af23"
+    },
+    "research/closure-position-oct8/central/check_base_profiles.py": {
+      "bytes": 1763,
+      "sha256": "bc04b0a37943c17fb1f88e038dfe77163f478ff6d4144b0476c224348b2917e0"
+    },
+    "research/closure-position-oct8/central/check_central_eleven.py": {
+      "bytes": 2063,
+      "sha256": "c8c523ceacfbea12dd8fdd71cb4cd77647f4faba8b29d5d21c4cb84b33213340"
+    },
+    "research/closure-position-oct8/central/check_fans.py": {
+      "bytes": 1197,
+      "sha256": "70fe50ef2ea9d233d7c222ed3d7d25d320d7fd521fc33a51d5f091dc96cb4bbb"
+    },
+    "research/closure-position-oct8/central/fan_probe.py": {
+      "bytes": 2588,
+      "sha256": "7d3f9219783ddbfe38d26ce5035324ca349068b0c7510f58540b78e1c4521e03"
+    },
+    "research/closure-position-oct8/central/fans_verified.json": {
+      "bytes": 4804,
+      "sha256": "57ca542dec8d0f97fd60a062977c7c68d36cf7452c12c1a28bb2d1b33ac6a754"
+    },
+    "research/closure-position-oct8/central/probe_central_24.py": {
+      "bytes": 3621,
+      "sha256": "8ce5b876b130d9a4f71ca601d2c8933f660b73f93ada22ec5111527d5e46b89e"
+    },
+    "research/closure-position-oct8/equilateral-audit/README.md": {
+      "bytes": 4671,
+      "sha256": "f0eb1f5c2a92996296e5c77d48791de5c1ed92c1b86b5b34952441123b66e034"
+    },
+    "research/closure-position-oct8/equilateral-audit/T30_30_independent.json": {
+      "bytes": 773,
+      "sha256": "20b8e35099e18da57746e2ac98740dc0dca94b23584f5a9d10389cf80f292f77"
+    },
+    "research/closure-position-oct8/equilateral-audit/T30_45_independent.json": {
+      "bytes": 753,
+      "sha256": "fd97f350a2340ae276ccfe1170e08170b0a6f13cb919dc82110108dc65ce87dd"
+    },
+    "research/closure-position-oct8/equilateral-audit/check_negative_controls.py": {
+      "bytes": 1433,
+      "sha256": "cc885e37c89d42b4d327611ac2ad6380020b37a525ac8b2fc1ce82a73102b9eb"
+    },
+    "research/closure-position-oct8/equilateral-audit/equilateral_540_independent.json": {
+      "bytes": 761,
+      "sha256": "89f609a8a66108eefdaf968151630111bdd7f2ccd33d4af23dec655719199017"
+    },
+    "research/closure-position-oct8/equilateral-audit/equilateral_735_independent.json": {
+      "bytes": 758,
+      "sha256": "f673cd51fde17433f13240c12cb58b6667ed10f5f60ca55877e04a1528e49abb"
+    },
+    "research/closure-position-oct8/equilateral-audit/equilateral_960_independent.json": {
+      "bytes": 760,
+      "sha256": "760c9747af38405036049540deefbe018167ee2254311a001ec94fa49db265fa"
+    },
+    "research/closure-position-oct8/equilateral-audit/independent_geometry.py": {
+      "bytes": 4393,
+      "sha256": "525b7bfac9aab5da6071f4bf64ca74b9ca49c8e503abd442f4b1ef8807db3680"
+    },
+    "research/closure-position-oct8/equilateral-audit/negative_controls_verified.json": {
+      "bytes": 440,
+      "sha256": "002d89cadb17c8258faf22a5c8af6a9b7f494d2d40c7be7b80b76fd75444c1bf"
+    },
+    "research/closure-position-oct8/equilateral-position/README.md": {
+      "bytes": 3889,
+      "sha256": "ef98236cc33c6ee308d3573f58c7bb83e32147af8b4a180f3c963234c29f5ea8"
+    },
+    "research/closure-position-oct8/equilateral-position/T29_15_0-1_certificate.json": {
+      "bytes": 2613,
+      "sha256": "d122d99ba339812130ea6833d2d1aba155a133688d76d266651db75f0ab33bce"
+    },
+    "research/closure-position-oct8/equilateral-position/T29_15_0-1_certificate_verification.json": {
+      "bytes": 143,
+      "sha256": "73bc954bd7531d1695d9aca8209dd412dcc9f13ca96a52b2f8adb3e630c447d0"
+    },
+    "research/closure-position-oct8/equilateral-position/T29_15_0-1_macro_certificate.json": {
+      "bytes": 10057,
+      "sha256": "1cb35cbc5532b61667e150bfbb14c501eec1c9ff1893d0b32b6e15249ea8827f"
+    },
+    "research/closure-position-oct8/equilateral-position/T29_15_0-1_macro_certificate_verification.json": {
+      "bytes": 143,
+      "sha256": "447e8b64274bbdc8282aefe752bd45ccda7965cbc1c67b5101a89fd059dbf047"
+    },
+    "research/closure-position-oct8/equilateral-position/T29_15_0-1_macro_report.json": {
+      "bytes": 598,
+      "sha256": "8609f7b8718b71da6706a49ebc38fcbfa95da3438e4aa614d644a4e3668363a5"
+    },
+    "research/closure-position-oct8/equilateral-position/T29_15_0-1_report.json": {
+      "bytes": 573,
+      "sha256": "f16337090f395bb8184d85539b12242f2e6f0df2954e32b171df115f00ca9fee"
+    },
+    "research/closure-position-oct8/equilateral-position/T30_15_0-1_report.json": {
+      "bytes": 622,
+      "sha256": "0d8b3b3236ef161018bf223ceb7c51c9866c347a580026e34de57d8468e1e039"
+    },
+    "research/closure-position-oct8/equilateral-position/T30_30_0-1_lp_report.json": {
+      "bytes": 596,
+      "sha256": "4dfcec721e3d639a75f57989d2dcf05906bc326bbf754dfc9431adbf41a1d3ea"
+    },
+    "research/closure-position-oct8/equilateral-position/T30_30_0-1_report.json": {
+      "bytes": 597,
+      "sha256": "f918b418b22d782d9806fa35ba294067bfb078aecad42f7904bd4e2d6f15360c"
+    },
+    "research/closure-position-oct8/equilateral-position/T30_45_0-1_macro_report.json": {
+      "bytes": 629,
+      "sha256": "b49cdd5ee04664c87b49882946b46efc25f60cd8dd75520dfa025f9a6aa9100b"
+    },
+    "research/closure-position-oct8/equilateral-position/T30_45_0-1_report.json": {
+      "bytes": 339,
+      "sha256": "c1b2b1ba74b610e4d66e3251732babfa6c754d1e9fc22c12198987720b48be19"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T29_15_0-1_certificate.json": {
+      "bytes": 2613,
+      "sha256": "d122d99ba339812130ea6833d2d1aba155a133688d76d266651db75f0ab33bce"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T29_15_0-1_certificate_verification.json": {
+      "bytes": 143,
+      "sha256": "bdbaffeb4a96a47ed81fdccadfaa087a694014af84e69ff32e6617069268ed37"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T29_15_0-1_report.json": {
+      "bytes": 542,
+      "sha256": "2a0907019edcac86caa9e6199b971e36c0b8fd358b4da9a9ad88fb7c6f879b96"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T30_30_0-1_certificate.json": {
+      "bytes": 6463,
+      "sha256": "29892d744a1d368eb1832a8df64d361cea38b72da7f1d219b9061221902cd9ce"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T30_30_0-1_certificate_independent_audit.json": {
+      "bytes": 410,
+      "sha256": "2dfda36c1470158a858af8a0fb1091e714d3970707519b407bf32b38a43a3f2d"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T30_30_0-1_certificate_verification.json": {
+      "bytes": 144,
+      "sha256": "1686ce7de26af2b40c47870f3e8763036e68fe769ebd46639a95ee93a7f3f598"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T30_30_0-1_report.json": {
+      "bytes": 544,
+      "sha256": "e4e61ae3ebf8de505e2d8fa2c261307d0cf332af36c4c7b8ced62fbcea602870"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T30_30_components.json": {
+      "bytes": 5378,
+      "sha256": "ea0fb0c40e95831077a3c0303e61b31bb4961bc95c04352c1b27ceb48c6c3a75"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T30_30_diagram.png": {
+      "bytes": 279017,
+      "sha256": "774b3be2540a6f51631711af918f06e902f536c3725a7a0799c0511336d4f9aa"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T30_30_diagram.svg": {
+      "bytes": 56391,
+      "sha256": "b34fefce21e2af8d5bbb039ed1cf46ea815c919500fcc476d62248e34812c791"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat/T30_30_independent_adversarial_audit.json": {
+      "bytes": 78,
+      "sha256": "4e1317c327af099485552f5f71f5e450a526c2db78d77d4fd77ca7a9846f88a0"
+    },
+    "research/closure-position-oct8/equilateral-position/cpsat_driver.py": {
+      "bytes": 2620,
+      "sha256": "df0713519da99504a557e94f633a61e1ab535dc7a9b799151797dd1a1e4ad833"
+    },
+    "research/closure-position-oct8/equilateral-position/independent_audit.py": {
+      "bytes": 3115,
+      "sha256": "b0349c75f37d21911cf12aaa9492d81c21c0913e9c5b99771552e17fda524b04"
+    },
+    "research/closure-position-oct8/equilateral-position/search.py": {
+      "bytes": 9016,
+      "sha256": "8a4159586366e04e3a335552de045f826fba05dd19976844de322a49e05516f1"
+    },
+    "research/closure-position-oct8/equilateral-position/verify.py": {
+      "bytes": 1299,
+      "sha256": "dcbc03ff870dec41c09b63b5f094f162d60594232e2422d710cbdea9b20d73bf"
+    },
+    "research/closure-position-oct8/equilateral-small/CONSTRUCTIONS.md": {
+      "bytes": 5776,
+      "sha256": "a096e4733f1d6458d5ee5e27a224001110dba46b3dc31e49a456f9ba90f85172"
+    },
+    "research/closure-position-oct8/equilateral-small/README.md": {
+      "bytes": 1194,
+      "sha256": "a0a702bb9e66ba9136939d9e93f77f059770a2e901d8c4de88d06c27adbe551a"
+    },
+    "research/closure-position-oct8/equilateral-small/REDUCTION.md": {
+      "bytes": 4932,
+      "sha256": "a5746a6c96afd15bde4b37c7446c801fef5337149ba06617931e34ea2e321d8e"
+    },
+    "research/closure-position-oct8/equilateral-small/T30L30_macro5.json": {
+      "bytes": 536,
+      "sha256": "2f4d39c460724e1c881fb4c6a6726bf0259b6176c94f2f1c4a77959eca8cd7d9"
+    },
+    "research/closure-position-oct8/equilateral-small/T30L45_large_macro5.json": {
+      "bytes": 546,
+      "sha256": "150c59b915b72cf274b48c158e6ea93231eea947ff662f9229c97eb3ad1d4d21"
+    },
+    "research/closure-position-oct8/equilateral-small/T30L45_macro4.json": {
+      "bytes": 545,
+      "sha256": "bf00d1c1d37fc89172a5fc3d62c6bed08ab242e8607b1fef3b10af47f9427c64"
+    },
+    "research/closure-position-oct8/equilateral-small/T30L45_macro6.json": {
+      "bytes": 546,
+      "sha256": "50b76f7ceb22fbbffa9f1e17b09fed990396fd8c819afc3ebb5f5ee0b4c54535"
+    },
+    "research/closure-position-oct8/equilateral-small/T30L45_macro6_pentagon.json": {
+      "bytes": 546,
+      "sha256": "6d1c3707594995cd53e70e5026b9296eac26594bb0834e66588964de5250952a"
+    },
+    "research/closure-position-oct8/equilateral-small/T30_45_315.json": {
+      "bytes": 43048,
+      "sha256": "ac43f82359936947be542ed308828f4fe84d2cc03041e9b1f7168f7b85a5f358"
+    },
+    "research/closure-position-oct8/equilateral-small/check_cyclic_reduction.py": {
+      "bytes": 1751,
+      "sha256": "ff91d86e3358a9392e582b113da0010c10210e6be2bf858aae436cc38f458fa3"
+    },
+    "research/closure-position-oct8/equilateral-small/construct_new.py": {
+      "bytes": 4503,
+      "sha256": "66096e413c75cb8695fa8bac1bb3e4683d0a0c15b06d308268816158fd0f02c1"
+    },
+    "research/closure-position-oct8/equilateral-small/cyclic_reduction_report.json": {
+      "bytes": 2956,
+      "sha256": "b602f4ec906e2534be80bed81d2edb7644d0b98ae66203196b9cb86f58157650"
+    },
+    "research/closure-position-oct8/equilateral-small/equilateral_540.json": {
+      "bytes": 74619,
+      "sha256": "77b359b3908ee08cbd1c05197afd5369c043f984f045864fdf8905ec2bdcb760"
+    },
+    "research/closure-position-oct8/equilateral-small/equilateral_735.json": {
+      "bytes": 101377,
+      "sha256": "5453d264edeef180c58d738750a0ce1e2558172919f49ddcf1ce5f203d1aece2"
+    },
+    "research/closure-position-oct8/equilateral-small/equilateral_960.json": {
+      "bytes": 132238,
+      "sha256": "75fd0d7c0276c59c4942c39fdccaf96f1ddf9aa3c8d4f65473acc2bcfa667003"
+    },
+    "research/closure-position-oct8/equilateral-small/figures/equilateral_540.svg": {
+      "bytes": 99036,
+      "sha256": "8097bc23c0e920279d54644af09ec408d88c0171459b8aab23f0e3261d09b07f"
+    },
+    "research/closure-position-oct8/equilateral-small/figures/equilateral_735.svg": {
+      "bytes": 133806,
+      "sha256": "80dc93a3c51c8ca58b43ac35b689701d442171a1a1731b1383f2744efa898b93"
+    },
+    "research/closure-position-oct8/equilateral-small/figures/equilateral_960.svg": {
+      "bytes": 174078,
+      "sha256": "760ed33d75e42d38d7e5687476acdbff5d55b20b346da3fb6cc92f4760eac5ec"
+    },
+    "research/closure-position-oct8/equilateral-small/macro_probe.py": {
+      "bytes": 7319,
+      "sha256": "fe4dd93c5080b695d46998d85af38fff51b41d47db8a15e2e5e1c9dd32326d7f"
+    },
+    "research/closure-position-oct8/layers/AFFINE_LINE_CHORD_FILTER.md": {
+      "bytes": 5866,
+      "sha256": "986c3db94992d8e97845c1eb74d09ce887a10ab5781699cb5295dbd6859c0c0d"
+    },
+    "research/closure-position-oct8/layers/check_controls.py": {
+      "bytes": 3298,
+      "sha256": "817c9e4d191aad3b4a9c5cd622a4c19ad61c9c8346a0fef1619f1c866389018d"
+    },
+    "research/closure-position-oct8/layers/controls_verified.json": {
+      "bytes": 885,
+      "sha256": "c5d41ed6d111aa0fe874f81cd1133431026e7b5388c5214967824fd4ad641da9"
+    },
+    "research/closure-position-oct8/layers/filtered_0_4.json": {
+      "bytes": 2247,
+      "sha256": "0558568a5d0057f22de758900bfe877780e61db05c0f9e7fdb463590d17237bf"
+    },
+    "research/closure-position-oct8/layers/filtered_dp.py": {
+      "bytes": 4355,
+      "sha256": "15893d25090b99d2136148a6799959949b94749e0c95b6af90198298aa341762"
+    },
+    "research/closure-position-oct8/layers/filtered_m1_3.json": {
+      "bytes": 2256,
+      "sha256": "3006e664393d4728612bed74233d5246df610cb656c9bea3c91290792583056c"
+    },
+    "research/closure-position-oct8/layers/filtered_m2_2.json": {
+      "bytes": 2250,
+      "sha256": "f009875f85d94e07ccb7440f8b2140b9b6aad63447891d9901749fed76941452"
+    },
+    "research/closure-position-oct8/layers/probe.py": {
+      "bytes": 3041,
+      "sha256": "41edd2c9d0aa7f4d89a2ec99c226a32e7e1daaaff2166cb9af7493644003f7f3"
+    },
+    "research/closure-position-oct8/layers/probe_report.json": {
+      "bytes": 6648,
+      "sha256": "ce7a82d53e50e3fb873e64c50d93f37a59acb880b35cba5dcc1c1e9f1eca2d31"
+    },
+    "research/closure-position-oct8/search154/POSITIONAL_RESIDUE_BOUND.md": {
+      "bytes": 3644,
+      "sha256": "9ed0771873ce16b08532cc107bb235015bfccb255b1ffa843c8b60a180c39e9a"
+    },
+    "research/closure-position-oct8/search154/README.md": {
+      "bytes": 5576,
+      "sha256": "5e0e5445a68519319d7e42480541f1a91f8269bf096742ddeca5d05adef0a992"
+    },
+    "research/closure-position-oct8/search154/candidate-check.json": {
+      "bytes": 452,
+      "sha256": "8edd327a3fa75fb65156048bbddccc9d0b6264ad6637721a8bc607521ef0d3de"
+    },
+    "research/closure-position-oct8/search154/candidate_query.cpp": {
+      "bytes": 529,
+      "sha256": "88fcef6b0011d3755d890807688929d755c94ea1cc75979a7c18d975ae7cc44f"
+    },
+    "research/closure-position-oct8/search154/check_inventory_completion.py": {
+      "bytes": 3818,
+      "sha256": "a4c5c7a28bd7cae28892a647691d77c8052e58b3fcd060995f7347befa0257bf"
+    },
+    "research/closure-position-oct8/search154/check_line_residue_bound.py": {
+      "bytes": 5177,
+      "sha256": "63c1b82bcb272ab9b3126b25a5bb822f703dedc99173bb7001cc939ec841ec4a"
+    },
+    "research/closure-position-oct8/search154/checkpoint-digests.json": {
+      "bytes": 806,
+      "sha256": "4f57d70b1038c7132eebffb27b333d718b309ef165297f11c3ff9f39c5807e3b"
+    },
+    "research/closure-position-oct8/search154/fixed_search.cpp": {
+      "bytes": 17590,
+      "sha256": "aa068a489b2612a5eab88e86c13df483597489428182c276bef33a70bef9188b"
+    },
+    "research/closure-position-oct8/search154/inventory_completion.hpp": {
+      "bytes": 2453,
+      "sha256": "e1d111b39dc0800d3b5b945ee7536b3014d7a4c92d62cfe0875a485e75b62e99"
+    },
+    "research/closure-position-oct8/search154/inventory_completion_check.json": {
+      "bytes": 387,
+      "sha256": "4a90db62a1a4ca83b980fe42b4c65dd40085b79b4d748c42fc05b60699ff374b"
+    },
+    "research/closure-position-oct8/search154/line-residue-bound-check.json": {
+      "bytes": 417,
+      "sha256": "218445ca5c7e49037f1b5c4dfeccc918a807dfb83c96c755260c6f07b815bd78"
+    },
+    "research/closure-position-oct8/search154/primitive_query.cpp": {
+      "bytes": 2079,
+      "sha256": "e2bec6fd7b9c59c85057422f8f5c1345a5790234e3585543dd606548a9fc6f8c"
+    },
+    "research/closure-position-oct8/search154/resume-check.json": {
+      "bytes": 408,
+      "sha256": "a10f6206412d73779320bbb0f89fa9eea09b1b416a89c0613cf9fe623b3c0991"
+    },
+    "research/closure-position-oct8/search154/resume_search.cpp": {
+      "bytes": 4259,
+      "sha256": "c5164c2a1065cab3edd8628fd2435aa0bb3489145b16742ea879084dcb6480d3"
+    },
+    "research/closure-position-oct8/search154/run600-report.json": {
+      "bytes": 322,
+      "sha256": "3a44c78039c6954fdd6210ea99d4a866d24a59d413a90869567aa79ca4f6ca9c"
     },
     "research/composite-support/README.md": {
       "bytes": 4274,

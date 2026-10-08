@@ -1,0 +1,299 @@
+{
+  "status": "PASS",
+  "all_36_base_pairs_match_independent_angle_word_counts": true,
+  "actual_fan_height_range": [
+    -3,
+    3
+  ],
+  "checks": [
+    {
+      "base_pair": [
+        0,
+        0
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        0,
+        1
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 64
+    },
+    {
+      "base_pair": [
+        0,
+        2
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        0,
+        3
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 96
+    },
+    {
+      "base_pair": [
+        0,
+        4
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 64
+    },
+    {
+      "base_pair": [
+        0,
+        5
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 96
+    },
+    {
+      "base_pair": [
+        1,
+        0
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        1,
+        1
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        1,
+        2
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        1,
+        3
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        1,
+        4
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        1,
+        5
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        2,
+        0
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        2,
+        1
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 96
+    },
+    {
+      "base_pair": [
+        2,
+        2
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        2,
+        3
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 64
+    },
+    {
+      "base_pair": [
+        2,
+        4
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 96
+    },
+    {
+      "base_pair": [
+        2,
+        5
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 64
+    },
+    {
+      "base_pair": [
+        3,
+        0
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        3,
+        1
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        3,
+        2
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        3,
+        3
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        3,
+        4
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        3,
+        5
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        4,
+        0
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        4,
+        1
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 96
+    },
+    {
+      "base_pair": [
+        4,
+        2
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        4,
+        3
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 64
+    },
+    {
+      "base_pair": [
+        4,
+        4
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 96
+    },
+    {
+      "base_pair": [
+        4,
+        5
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 64
+    },
+    {
+      "base_pair": [
+        5,
+        0
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        5,
+        1
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 64
+    },
+    {
+      "base_pair": [
+        5,
+        2
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 0
+    },
+    {
+      "base_pair": [
+        5,
+        3
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 96
+    },
+    {
+      "base_pair": [
+        5,
+        4
+      ],
+      "one_extra_tile_fans": 0,
+      "four_extra_tile_fans": 64
+    },
+    {
+      "base_pair": [
+        5,
+        5
+      ],
+      "one_extra_tile_fans": 2,
+      "four_extra_tile_fans": 96
+    }
+  ],
+  "N154_solved": false
+}

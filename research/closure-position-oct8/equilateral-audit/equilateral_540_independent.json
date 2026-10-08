@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "certificate": "research/closure-position-oct8/equilateral-small/equilateral_540.json",
+  "sha256": "77b359b3908ee08cbd1c05197afd5369c043f984f045864fdf8905ec2bdcb760",
+  "denominator": 7,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "tiles": 540,
+  "exact_squared_lengths_checked": 1620,
+  "contained_triangles": 540,
+  "pairwise_interior_disjointness_checks": 145530,
+  "affine_box_separations": 143343,
+  "exact_edge_separating_axis_checks": 2187,
+  "target_determinant_area": 396900,
+  "sum_tile_determinant_areas": 396900,
+  "coverage": "Exact: containment + pairwise disjoint interiors + equal area.",
+  "independence": "No construction code, matrix, solver, or existing geometric verifier imported.",
+  "seconds": 0.038933644002099754
+}

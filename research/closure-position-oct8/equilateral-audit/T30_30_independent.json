@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "certificate": "research/closure-position-oct8/equilateral-position/cpsat/T30_30_0-1_certificate.json",
+  "sha256": "29892d744a1d368eb1832a8df64d361cea38b72da7f1d219b9061221902cd9ce",
+  "denominator": 7,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "tiles": 180,
+  "exact_squared_lengths_checked": 540,
+  "contained_triangles": 180,
+  "pairwise_interior_disjointness_checks": 16110,
+  "affine_box_separations": 15365,
+  "exact_edge_separating_axis_checks": 745,
+  "target_determinant_area": 132300,
+  "sum_tile_determinant_areas": 132300,
+  "coverage": "Exact: containment + pairwise disjoint interiors + equal area.",
+  "independence": "No construction code, matrix, solver, or existing geometric verifier imported.",
+  "seconds": 0.006603932000871282
+}

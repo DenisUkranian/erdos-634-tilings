@@ -1,0 +1,28 @@
+{
+  "target_short_base": 30,
+  "target_leg": 15,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "levels": [
+    0,
+    1
+  ],
+  "lattice": "(i+j*rho)/7 with i=2j mod 7",
+  "macro_mode": false,
+  "placements": 52238,
+  "rows": 35564,
+  "entries": 628224,
+  "lattice_points": 3991,
+  "propagation_conflict": null,
+  "assigned": 48584,
+  "forced_ones": 0,
+  "remaining": 3654,
+  "solver_status": 2,
+  "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "lp_relaxation": false,
+  "status": "RESTRICTED_SOLVER_INFEASIBLE_UNCERTIFIED",
+  "seconds": 1.5645811650028918
+}

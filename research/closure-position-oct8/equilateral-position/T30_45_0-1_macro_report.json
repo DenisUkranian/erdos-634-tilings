@@ -1,0 +1,29 @@
+{
+  "target_short_base": 30,
+  "target_leg": 45,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "levels": [
+    -1,
+    0,
+    1
+  ],
+  "lattice": "integer macro translations",
+  "macro_mode": true,
+  "placements": 29272,
+  "rows": 54139,
+  "entries": 750912,
+  "lattice_points": 2461,
+  "propagation_conflict": null,
+  "assigned": 12106,
+  "forced_ones": 0,
+  "remaining": 17166,
+  "solver_status": 2,
+  "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "lp_relaxation": false,
+  "status": "RESTRICTED_SOLVER_INFEASIBLE_UNCERTIFIED",
+  "seconds": 11.039071054001397
+}

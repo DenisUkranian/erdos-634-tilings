@@ -1,0 +1,11 @@
+{
+  "status": "INCOMPLETE_RESOURCE_TERMINATION",
+  "process_exit_code": 137,
+  "target_short_base": 30,
+  "target_leg": 45,
+  "placements": 314678,
+  "rows": 175964,
+  "entries": 3779124,
+  "remaining_after_exact_propagation": 208994,
+  "comment": "Process killed during MIP root processing; no feasibility or infeasibility conclusion."
+}

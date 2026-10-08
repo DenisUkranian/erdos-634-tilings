@@ -2,12 +2,45 @@
 
 **v0.3.0 — updated 8 October 2026**
 
+## Equilateral constructions — 8 October 2026
+
+The [construction theorem](research/closure-position-oct8/equilateral-small/CONSTRUCTIONS.md)
+proves equilateral `(3,5,7)` tilings with `15m²` tiles for every `m>=6`.
+The new finite inputs are the complete 540-, 735- and 960-tile certificates;
+the previous `m>=9` result is attributed to Zhang. The supplied coordinates
+can be verified with Python's standard library, without a solver:
+
+```sh
+python research/closure-position-oct8/equilateral-audit/independent_geometry.py research/closure-position-oct8/equilateral-position/cpsat/T30_30_0-1_certificate.json
+python research/closure-position-oct8/equilateral-audit/independent_geometry.py research/closure-position-oct8/equilateral-small/equilateral_540.json
+python research/closure-position-oct8/equilateral-audit/independent_geometry.py research/closure-position-oct8/equilateral-small/equilateral_735.json
+python research/closure-position-oct8/equilateral-audit/independent_geometry.py research/closure-position-oct8/equilateral-small/equilateral_960.json
+python research/closure-position-oct8/equilateral-audit/check_negative_controls.py
+```
+
+The independent checker imports neither the constructor nor the search
+program. It checks every unit tile, target containment, every pair of
+tiles and exact area equality. The three full equilateral checks include
+145,530, 269,745 and 460,320 tile pairs respectively. The
+[audit reports](research/closure-position-oct8/equilateral-audit/README.md)
+bind the coordinate files by SHA-256. Corrupted side lengths, duplicated
+tiles and displaced tilings are separately rejected.
+
+To regenerate the full coordinates from the saved 180-tile seed, run
+`python construct_new.py` inside
+`research/closure-position-oct8/equilateral-small/`. This construction
+also needs no solver. Search programs used to discover the seed have
+separate dependencies; their verdicts are not needed to check its geometry.
+These focused commands are additional to the historical coordinator below.
+
 ## Positional and direction-band additions — 8 October 2026
 
 The [direction-band package](research/closure-position-oct7/README.md) gives
 the written geometric proofs and separate exact checks for the 154 candidate.
 Its current conclusion is 3–5 consecutive occupied heights, not a decision
-of 154. The new nonzero-height population bound comes from supporting-line
+of 154. The [central-height addition](research/closure-position-oct8/central/CENTRAL_HEIGHT.md)
+now also proves `n_0>=24`; nonzero occupied heights still have population
+at least 26. The new nonzero-height population bound comes from supporting-line
 incidence and nonoverlap; formal edge inventories alone do not prove it.
 The package includes independent implementations of the finite inventory
 enumerations and precise commands to reproduce their frozen reports.
@@ -20,6 +53,23 @@ checks all 873,496 placements, 19,222,288 matrix entries and 678,493 forced
 assignments. See the [input audit](research/closure-position-oct7/input-audit/AUDIT.md).
 The compiled search and 4830 macro probes remain exploratory; a resource
 limit is recorded as `INCOMPLETE`, never as a negative certificate.
+
+The new central-height proof, boundary profiles, exact angle-fan enumeration
+and general affine-line residue bound have separate lightweight checks:
+
+```sh
+python research/closure-position-oct8/central/check_central_eleven.py
+python research/closure-position-oct8/central/check_base_profiles.py
+python research/closure-position-oct8/central/check_fans.py
+python research/closure-position-oct8/search154/check_line_residue_bound.py
+```
+
+The latest [154 search report](research/closure-position-oct8/search154/run600-report.json)
+is explicitly `INCOMPLETE`. The new affine-line residue bound was not enabled
+in that recorded run. Neither a timeout nor a positive formal inventory
+is a mathematical decision of 154. See the
+[8 October package index](research/closure-position-oct8/README.md) for
+separate proven statements, positive certificates and exploratory searches.
 
 ## Final synthesis additions — 7 October 2026
 

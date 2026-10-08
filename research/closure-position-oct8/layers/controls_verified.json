@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "chords_independently_clipped": 27,
+  "zero_sum_multisets_checked": 183,
+  "minimal_atoms": 20,
+  "records": [
+    {
+      "path": "filtered_0_4.json",
+      "support": [
+        0,
+        4
+      ],
+      "total": 154,
+      "local_geometric_inequalities": "PASS",
+      "global_direction_currents": "PASS",
+      "placement_claimed": false
+    },
+    {
+      "path": "filtered_m1_3.json",
+      "support": [
+        -1,
+        3
+      ],
+      "total": 154,
+      "local_geometric_inequalities": "PASS",
+      "global_direction_currents": "PASS",
+      "placement_claimed": false
+    },
+    {
+      "path": "filtered_m2_2.json",
+      "support": [
+        -2,
+        2
+      ],
+      "total": 154,
+      "local_geometric_inequalities": "PASS",
+      "global_direction_currents": "PASS",
+      "placement_claimed": false
+    }
+  ],
+  "N154_solved": false
+}

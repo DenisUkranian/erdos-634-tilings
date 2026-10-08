@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "independent_method": "Exact rational polygon clipping versus separating-axis and half-plane tests",
+  "containment_checks": 874,
+  "adjacent_pair_checks": 36,
+  "one_intervening_tile_checks": 216,
+  "full_enumeration_profiles": 2561,
+  "N154_solved": false
+}

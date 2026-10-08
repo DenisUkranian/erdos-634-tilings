@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "all_generated_triangles_checked": 507489,
+  "all_triangle_height_and_signed_groups_checked": 507489,
+  "candidate_queries": 600,
+  "candidate_templates_compared": 3438,
+  "methods": [
+    "independent Fraction six-side-permutation generation",
+    "exact full tile-boundary Laurent signatures",
+    "all stored triangles: sides, positive area, containment"
+  ],
+  "search_exhaustion_verified": false,
+  "N154_decided": false
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "certificate": "research/closure-position-oct8/equilateral-small/T30_45_315.json",
+  "sha256": "ac43f82359936947be542ed308828f4fe84d2cc03041e9b1f7168f7b85a5f358",
+  "denominator": 7,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "tiles": 315,
+  "exact_squared_lengths_checked": 945,
+  "contained_triangles": 315,
+  "pairwise_interior_disjointness_checks": 49455,
+  "affine_box_separations": 48382,
+  "exact_edge_separating_axis_checks": 1073,
+  "target_determinant_area": 231525,
+  "sum_tile_determinant_areas": 231525,
+  "coverage": "Exact: containment + pairwise disjoint interiors + equal area.",
+  "independence": "No construction code, matrix, solver, or existing geometric verifier imported.",
+  "seconds": 0.012422684001649031
+}

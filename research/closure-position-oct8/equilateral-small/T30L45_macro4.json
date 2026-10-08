@@ -1,0 +1,33 @@
+{
+  "status": "INCOMPLETE",
+  "nodes": 4138,
+  "deepest": 3,
+  "seconds": 120.0000876899976,
+  "count": 315,
+  "max_macros": 4,
+  "templates": 98,
+  "scope": "Positive construction probe only; no unrestricted negative conclusion",
+  "coordinate_field": "x+i*sqrt(3)*y",
+  "target": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "75",
+      "0"
+    ],
+    [
+      "105/2",
+      "45/2"
+    ],
+    [
+      "45/2",
+      "45/2"
+    ]
+  ],
+  "macros": null,
+  "min_macro_area": 0,
+  "include_pentagon35": true,
+  "include_parallelograms": false
+}
