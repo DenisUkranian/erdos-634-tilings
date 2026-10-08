@@ -1,0 +1,31 @@
+{
+  "status": "OPTIMAL",
+  "seconds": 0.016706228256225586,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "side": 60,
+  "vertices": 24,
+  "region_count": 15,
+  "scope": "one fixed positive grid-macro topology; infeasibility is not a tiling obstruction",
+  "count": 240,
+  "macro_counts": [
+    12,
+    35,
+    24,
+    14,
+    1,
+    16,
+    9,
+    9,
+    8,
+    35,
+    25,
+    9,
+    25,
+    10,
+    8
+  ]
+}

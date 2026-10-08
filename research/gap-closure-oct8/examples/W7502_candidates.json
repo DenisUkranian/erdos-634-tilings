@@ -1,0 +1,28 @@
+{
+  "n": 7502,
+  "classical_witness": null,
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "branch": "G1-W",
+      "tile": [
+        42,
+        13,
+        49
+      ],
+      "target": [
+        3773,
+        4092,
+        1001
+      ],
+      "n": 7502,
+      "parameters": [
+        6,
+        7
+      ],
+      "multiplier": 11
+    }
+  ],
+  "meaning": "Overlist, not an existence proof. Empty list excludes only after the stated exhaustive classification inputs.",
+  "full_problem_solved": false
+}

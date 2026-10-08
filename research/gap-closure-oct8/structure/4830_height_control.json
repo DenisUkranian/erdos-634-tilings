@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "source": "research/universal-closure-oct8/f3-general/f3_4830_macro.json",
+  "source_sha256": "fa2c6096cf8227ce74da0f9de693169af9e79f34d14f6b9efc1b822f753b12dd",
+  "tile": [
+    24,
+    11,
+    31
+  ],
+  "triangles": 4830,
+  "short_height_populations": {
+    "1": 2883,
+    "2": 1823,
+    "3": 124
+  },
+  "scope": "Height audit of previously independently certified positive 4830 tiling; not a new geometric validity test."
+}

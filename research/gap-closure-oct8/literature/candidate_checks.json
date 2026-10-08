@@ -1,0 +1,562 @@
+{
+  "status": "PASS",
+  "gates": [
+    {
+      "count": 14,
+      "classical": null,
+      "arithmetic_candidates": [
+        {
+          "branch": "G1-W",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            27,
+            28,
+            15
+          ],
+          "n": 14,
+          "parameters": [
+            2,
+            3
+          ],
+          "multiplier": 1
+        }
+      ]
+    },
+    {
+      "count": 23,
+      "classical": null,
+      "arithmetic_candidates": [
+        {
+          "branch": "G1-W",
+          "tile": [
+            12,
+            7,
+            16
+          ],
+          "target": [
+            64,
+            69,
+            28
+          ],
+          "n": 23,
+          "parameters": [
+            3,
+            4
+          ],
+          "multiplier": 1
+        },
+        {
+          "branch": "G1-beta",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            27,
+            27,
+            46
+          ],
+          "n": 23,
+          "parameters": [
+            2,
+            3
+          ],
+          "multiplier": 1
+        }
+      ]
+    },
+    {
+      "count": 33,
+      "classical": null,
+      "arithmetic_candidates": [
+        {
+          "branch": "I120",
+          "tile": [
+            5,
+            3,
+            7
+          ],
+          "target": [
+            21,
+            21,
+            33
+          ],
+          "n": 33,
+          "parameters": [
+            5,
+            3
+          ],
+          "multiplier": 1
+        }
+      ]
+    },
+    {
+      "count": 56,
+      "classical": null,
+      "arithmetic_candidates": [
+        {
+          "branch": "E120",
+          "tile": [
+            7,
+            8,
+            13
+          ],
+          "target": [
+            56,
+            56,
+            56
+          ],
+          "n": 56,
+          "parameters": [
+            7,
+            8
+          ],
+          "multiplier": 1
+        },
+        {
+          "branch": "G1-W",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            54,
+            56,
+            30
+          ],
+          "n": 56,
+          "parameters": [
+            2,
+            3
+          ],
+          "multiplier": 2
+        }
+      ]
+    },
+    {
+      "count": 92,
+      "classical": null,
+      "arithmetic_candidates": [
+        {
+          "branch": "G1-W",
+          "tile": [
+            12,
+            7,
+            16
+          ],
+          "target": [
+            128,
+            138,
+            56
+          ],
+          "n": 92,
+          "parameters": [
+            3,
+            4
+          ],
+          "multiplier": 2
+        },
+        {
+          "branch": "G1-beta",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            54,
+            54,
+            92
+          ],
+          "n": 92,
+          "parameters": [
+            2,
+            3
+          ],
+          "multiplier": 2
+        },
+        {
+          "branch": "G1-theta",
+          "tile": [
+            132,
+            23,
+            144
+          ],
+          "target": [
+            552,
+            552,
+            506
+          ],
+          "n": 92,
+          "parameters": [
+            11,
+            12
+          ],
+          "multiplier": 2
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            121,
+            23,
+            132
+          ],
+          "target": [
+            506,
+            506,
+            552
+          ],
+          "n": 92,
+          "parameters": [
+            11,
+            12
+          ],
+          "multiplier": 2
+        }
+      ]
+    },
+    {
+      "count": 132,
+      "classical": null,
+      "arithmetic_candidates": [
+        {
+          "branch": "G1-theta",
+          "tile": [
+            28,
+            33,
+            49
+          ],
+          "target": [
+            462,
+            462,
+            264
+          ],
+          "n": 132,
+          "parameters": [
+            4,
+            7
+          ],
+          "multiplier": 2
+        },
+        {
+          "branch": "G1-theta",
+          "tile": [
+            272,
+            33,
+            289
+          ],
+          "target": [
+            1122,
+            1122,
+            1056
+          ],
+          "n": 132,
+          "parameters": [
+            16,
+            17
+          ],
+          "multiplier": 2
+        },
+        {
+          "branch": "I120",
+          "tile": [
+            5,
+            3,
+            7
+          ],
+          "target": [
+            42,
+            42,
+            66
+          ],
+          "n": 132,
+          "parameters": [
+            5,
+            3
+          ],
+          "multiplier": 2
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            16,
+            33,
+            28
+          ],
+          "target": [
+            264,
+            264,
+            462
+          ],
+          "n": 132,
+          "parameters": [
+            4,
+            7
+          ],
+          "multiplier": 2
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            256,
+            33,
+            272
+          ],
+          "target": [
+            1056,
+            1056,
+            1122
+          ],
+          "n": 132,
+          "parameters": [
+            16,
+            17
+          ],
+          "multiplier": 2
+        }
+      ]
+    },
+    {
+      "count": 143,
+      "classical": null,
+      "arithmetic_candidates": [
+        {
+          "branch": "F2-120",
+          "tile": [
+            5,
+            3,
+            7
+          ],
+          "target": [
+            55,
+            39,
+            49
+          ],
+          "n": 143,
+          "parameters": [
+            5,
+            3
+          ],
+          "multiplier": 1
+        },
+        {
+          "branch": "G1-beta",
+          "tile": [
+            14,
+            45,
+            49
+          ],
+          "target": [
+            343,
+            343,
+            286
+          ],
+          "n": 143,
+          "parameters": [
+            2,
+            7
+          ],
+          "multiplier": 1
+        },
+        {
+          "branch": "G1-beta",
+          "tile": [
+            56,
+            15,
+            64
+          ],
+          "target": [
+            512,
+            512,
+            1001
+          ],
+          "n": 143,
+          "parameters": [
+            7,
+            8
+          ],
+          "multiplier": 1
+        }
+      ]
+    },
+    {
+      "count": 297,
+      "classical": null,
+      "arithmetic_candidates": [
+        {
+          "branch": "G1-theta",
+          "tile": [
+            28,
+            33,
+            49
+          ],
+          "target": [
+            693,
+            693,
+            396
+          ],
+          "n": 297,
+          "parameters": [
+            4,
+            7
+          ],
+          "multiplier": 3
+        },
+        {
+          "branch": "G1-theta",
+          "tile": [
+            272,
+            33,
+            289
+          ],
+          "target": [
+            1683,
+            1683,
+            1584
+          ],
+          "n": 297,
+          "parameters": [
+            16,
+            17
+          ],
+          "multiplier": 3
+        },
+        {
+          "branch": "I120",
+          "tile": [
+            5,
+            3,
+            7
+          ],
+          "target": [
+            63,
+            63,
+            99
+          ],
+          "n": 297,
+          "parameters": [
+            5,
+            3
+          ],
+          "multiplier": 3
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            16,
+            33,
+            28
+          ],
+          "target": [
+            396,
+            396,
+            693
+          ],
+          "n": 297,
+          "parameters": [
+            4,
+            7
+          ],
+          "multiplier": 3
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            256,
+            33,
+            272
+          ],
+          "target": [
+            1584,
+            1584,
+            1683
+          ],
+          "n": 297,
+          "parameters": [
+            16,
+            17
+          ],
+          "multiplier": 3
+        }
+      ]
+    },
+    {
+      "count": 14430,
+      "classical": null,
+      "arithmetic_candidates": [
+        {
+          "branch": "F3-120",
+          "tile": [
+            56,
+            9,
+            61
+          ],
+          "target": [
+            3721,
+            4514,
+            1755
+          ],
+          "n": 14430,
+          "parameters": [
+            56,
+            9
+          ],
+          "multiplier": 1
+        }
+      ]
+    }
+  ],
+  "small_tile_transfer_coefficients": [
+    {
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "equilateral": 15,
+      "isosceles": 65,
+      "F1": 40,
+      "F4": 88,
+      "F2": 143,
+      "F3": 312
+    },
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "equilateral": 15,
+      "isosceles": 33,
+      "F1": 24,
+      "F4": 104,
+      "F2": 143,
+      "F3": 264
+    }
+  ],
+  "high_ratio_transfer": {
+    "tile": [
+      56,
+      9,
+      61
+    ],
+    "equilateral_side": 1008,
+    "equilateral_count": 2016,
+    "F2_count": 8954,
+    "F3_count": 14430,
+    "F2_target": [
+      4144,
+      1089,
+      3721
+    ],
+    "geometric_existence_not_established": true
+  },
+  "new_complete_square_class_claimed": false,
+  "gate_is_not_geometric_sufficiency": true
+}

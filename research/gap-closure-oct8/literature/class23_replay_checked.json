@@ -1,0 +1,37 @@
+{
+  "status": "COMPUTATIONAL_ENGINE_RESULTS",
+  "complete_candidate_count": 2,
+  "count": 23,
+  "source_repository": "ElVec1o/erdos_634_proof",
+  "source_commit": "4bb61193bafa4471f7ba3a35324ae0f70bd2177c",
+  "source_modified": false,
+  "files": {
+    "W23.txt": "1eb7d1ca28a8873f9a34598ade89c160312b244ee14db3e2fe8eafd6aac188db",
+    "beta23.txt": "f74efe16aca612c03de81c0d2e915f0c50ec5db059d9f7c0e9a8033db4ebc184",
+    "vendor/cengine_c2.cpp": "fb77594b5c2330aa5f3f7f1854920f1272c0c3123ba0dfd35a8acf06939dc6b3",
+    "vendor/gen_cevian.py": "22662f035ca76a8b599a9c94bfdcdfde6d8a0bcfd85838120c0f5a898930bee9",
+    "vendor/LICENSE": "d28ff36d10117a2f4020ea17d3bd6b4558c72f8c826b101efd121fc7272c3e71"
+  },
+  "runs": [
+    {
+      "input": "W23.txt",
+      "nodes": 123,
+      "maxdepth": 16,
+      "gmp_crosscheck_operations": 3562041,
+      "result": "EXHAUSTED_NO_TILING"
+    },
+    {
+      "input": "beta23.txt",
+      "nodes": 387,
+      "maxdepth": 18,
+      "gmp_crosscheck_operations": 14302137,
+      "result": "EXHAUSTED_NO_TILING"
+    }
+  ],
+  "command_template": "CENGINE_MRV=1 CENGINE_THREADS=1 cengine_c2_crosscheck FILE:INPUT 100000",
+  "method": "Fresh full serial search, no walk filter, no checkpoint, no direction restriction; node cap not reached",
+  "not_a_proof_assistant_certificate": true,
+  "global23_certified_by_separate_trace": false,
+  "scope": "Two complete-engine EXHAUSTED results; no separately exported/replayed full refutation trace.",
+  "count92": "INCOMPLETE; W92 probe stopped; beta92 not run"
+}

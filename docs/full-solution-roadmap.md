@@ -1,5 +1,11 @@
 # What would constitute a complete solution of Erdős problem 634?
 
+**Latest constructive closure, 8 October:** the [all-adjacent theorem](../research/gap-closure-oct8/group1/PROOF.md)
+now realizes both W and beta at every `m>=v` for all `v=u+1,u>=2`.
+It fills every seed residue, rather than just one new scale. The smaller
+scales and nonadjacent parameters still need classification; the F3-only
+candidate14430 below also remains unresolved.
+
 **8 October update:** [4830 is positively solved](../research/universal-closure-oct8/f3-general/MIXED_CORNER_THEOREM.md), and the ordered F3 sector now extends to [0<a/b<2725/1139](../research/universal-closure-oct8/global/F3_UNIFORM_CONE.md) at every multiplier. The dated roadmap below records the preceding attempts. Its historical references to unresolved 4830 are superseded. [135 is also excluded by a complete independently checked certificate](../research/universal-closure-oct8/global/GLOBAL_135_PROOF.md), closing the entire class `15m²` exactly for `m>=4`. General Erdős 634 remains open in this work.
 
 The additional [uniform W dissection](../research/universal-closure-oct8/group1-adjacent/PROOF.md)

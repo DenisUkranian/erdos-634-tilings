@@ -1,0 +1,218 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "u": 3,
+      "t": 2,
+      "tiles": 420,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 4,
+      "t": 2,
+      "tiles": 756,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 4,
+      "t": 3,
+      "tiles": 981,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 5,
+      "t": 2,
+      "tiles": 1232,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 5,
+      "t": 3,
+      "tiles": 1551,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 5,
+      "t": 4,
+      "tiles": 1892,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 6,
+      "t": 2,
+      "tiles": 1872,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 6,
+      "t": 3,
+      "tiles": 2301,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 6,
+      "t": 4,
+      "tiles": 2756,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 6,
+      "t": 5,
+      "tiles": 3237,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 7,
+      "t": 2,
+      "tiles": 2700,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 7,
+      "t": 3,
+      "tiles": 3255,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 7,
+      "t": 4,
+      "tiles": 3840,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 7,
+      "t": 5,
+      "tiles": 4455,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 7,
+      "t": 6,
+      "tiles": 5100,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 8,
+      "t": 2,
+      "tiles": 3740,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 8,
+      "t": 3,
+      "tiles": 4437,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 8,
+      "t": 4,
+      "tiles": 5168,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 8,
+      "t": 5,
+      "tiles": 5933,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 8,
+      "t": 6,
+      "tiles": 6732,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    },
+    {
+      "u": 8,
+      "t": 7,
+      "tiles": 7565,
+      "status": "PASS",
+      "all_units_exact_A_or_B": true,
+      "all_orientations_positive": true,
+      "duplicate_free": true,
+      "positioned_boundary_identity": true
+    }
+  ],
+  "total_cases": 21,
+  "generator_sha256": "3bad243ccac7455299078dbf3ca29242beba9cad7f606aa3ba08644a53163713",
+  "scope": "Exact examples supplement the uniform written dissection; no finite-sample inference"
+}

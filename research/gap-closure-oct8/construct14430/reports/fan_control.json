@@ -1,0 +1,1 @@
+{"scope":"finite fan-residue lattice zero support propagation","L":0,"U":1,"control_scale":3,"basis_rotation":0,"candidate_placements":6224,"removed":6215,"remaining":9,"passes":2,"trace_records":262,"conflict":false,"incomplete":false,"bad_direction":-1,"bad_y":-1,"bad_word":-1,"bad_mask":0,"seconds":0.00503683,"family_parameter":2,"pentagon":0,"unrestricted_F3_decided":false}

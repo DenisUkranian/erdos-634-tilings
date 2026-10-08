@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "All integer u>=3 and 2<=t<=u-1, v=u+1, m=v+t",
+  "parameter_substitution": "u=p+q+3, t=q+2, p,q>=0",
+  "fixed_full_target_macroregions": 13,
+  "zero_height_final_piece_omitted_when_t_equals_2": true,
+  "full_target_convexity_sign_checks": 180,
+  "generic_cell_and_band_sign_checks": 68,
+  "full_positioned_boundary_identity": true,
+  "metric_and_Gram_identities": true,
+  "W_target_side_length_identities": true,
+  "outside_annulus_homothety_identities": true,
+  "generic_cell_and_band_partitions": true,
+  "positive_strip_width_representations": true,
+  "full_tile_count_identity": true
+}

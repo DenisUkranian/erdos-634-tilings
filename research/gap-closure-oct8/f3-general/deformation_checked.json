@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "control_exact_tile_set_matches_published_240_seed": true,
+  "new_target_status": "INFEASIBLE_FIXED_MACRO_MODEL",
+  "does_not_exclude_504_or_14430": true
+}

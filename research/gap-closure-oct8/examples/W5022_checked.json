@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "count": 5022,
+  "tile": [
+    42,
+    13,
+    49
+  ],
+  "target_sides": [
+    3087,
+    3348,
+    819
+  ],
+  "metric_y_coefficient": 160,
+  "denominator": 98,
+  "all_metrics_exact": true,
+  "all_tiles_contained": true,
+  "all_orientations_positive": true,
+  "exact_area_equality": true,
+  "positioned_boundary_identity": true,
+  "lines": 568,
+  "certificate_sha256": "cd4cf660f7275393d90f3ab89539e19d31ae08da45e5a7e19b3539f9be73aa80"
+}

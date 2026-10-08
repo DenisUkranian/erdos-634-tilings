@@ -1,0 +1,13 @@
+{
+  "u": 3,
+  "v": 4,
+  "scale": 6,
+  "t": 2,
+  "positions": 8591,
+  "rows": 10260,
+  "scope": "Four fixed macros plus two-orientation integer-lattice residual only",
+  "remainder_count": 420,
+  "solver": "OPTIMAL",
+  "seconds": 0.334299993,
+  "status": "EXPORTED_REQUIRES_INDEPENDENT_GEOMETRY"
+}

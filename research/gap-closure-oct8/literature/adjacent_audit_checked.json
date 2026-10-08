@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "audit": "Independent mathematical reading plus exact symbolic-checker replay",
+  "files": {
+    "group1-helper/ADJACENT_ALL_SCALES.md": "8e8b8941f6fa2830977b95c24732a2856cb8554d522c10da9ea01395c6d33480",
+    "group1/check_all_adjacent_symbolic.py": "61a0e01b18ceef521fdb9a550f34679b71f749048e76011045b3aa51e831585c"
+  },
+  "replay": {
+    "status": "PASS",
+    "scope": "All integer u>=3 and 2<=t<=u-1, v=u+1, m=v+t",
+    "parameter_substitution": "u=p+q+3, t=q+2, p,q>=0",
+    "fixed_full_target_macroregions": 13,
+    "zero_height_final_piece_omitted_when_t_equals_2": true,
+    "full_target_convexity_sign_checks": 180,
+    "generic_cell_and_band_sign_checks": 68,
+    "full_positioned_boundary_identity": true,
+    "metric_and_Gram_identities": true,
+    "W_target_side_length_identities": true,
+    "outside_annulus_homothety_identities": true,
+    "generic_cell_and_band_partitions": true,
+    "positive_strip_width_representations": true,
+    "full_tile_count_identity": true
+  },
+  "boundary_note": "At t=2 the last upper aggregate degenerates and is omitted; this is valid."
+}

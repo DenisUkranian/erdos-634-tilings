@@ -1,0 +1,13 @@
+{
+  "PROOF.md": "2cabdbea4822abf7b8dd7c1d699bfa8864cc7e6441792934fdb8d2a7637339fc",
+  "all_adjacent_formula.py": "73b496f4745674a6239948395fe36dd45537a0f47475995ee93938ca48e11626",
+  "check_all_adjacent_symbolic.py": "61a0e01b18ceef521fdb9a550f34679b71f749048e76011045b3aa51e831585c",
+  "all_adjacent_symbolic_verified.json": "07a239b745484af9c4b558e8fb3bcf83578dc7f204c2b2ef47186d18ab07c147",
+  "W828_formula.certificate.json": "be5eb94583466bc5ab45167b3eb6dd1ade00618f2c500ab0f9946c6e6fddd466",
+  "W1666_formula.certificate.json": "287e17b4c9c660f8a5a86701dddfefaac919365f85523495c0a75184393bf15b",
+  "W2176_formula.certificate.json": "1f3316d05ed76f521c02497feb35bf89cfbd6622384c40184dfc4804c26ac0a3",
+  "W4700_formula.certificate.json": "89d4730c011c44d2be3c52dcf67af7ba3598e752e479eb04b9593ba8df2d7322",
+  "../group1-helper/ADJACENT_ALL_SCALES.md": "8e8b8941f6fa2830977b95c24732a2856cb8554d522c10da9ea01395c6d33480",
+  "../group1-helper/residual_formula.py": "3bad243ccac7455299078dbf3ca29242beba9cad7f606aa3ba08644a53163713",
+  "../group1-helper/residual_examples_verified.json": "bd37830149833da17efec538b721ef4be4bd58b7bacc6fd241dc3c04724f9e71"
+}

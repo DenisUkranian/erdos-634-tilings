@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "exact_rational_clipping_comparisons": 3000,
+  "interior_overlap_cases": 395,
+  "tested_family_parameters": [
+    1,
+    2,
+    4
+  ],
+  "claim": "Audit of candidate-obstacle filtering only; no tiling existence result."
+}

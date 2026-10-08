@@ -1,0 +1,13 @@
+{
+  "status": "INFEASIBLE",
+  "seconds": 0.0016293525695800781,
+  "tile": [
+    9,
+    56,
+    61
+  ],
+  "side": 504,
+  "vertices": 24,
+  "region_count": 15,
+  "scope": "one fixed positive grid-macro topology; infeasibility is not a tiling obstruction"
+}

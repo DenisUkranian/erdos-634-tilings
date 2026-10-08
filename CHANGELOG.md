@@ -1,5 +1,14 @@
 # Changelog
 
+## 8 October 2026: every adjacent W/beta scale from v upward
+
+- Prove that for every `u>=2,v=u+1`, the fixed tile `(uv,2u+1,v²)` constructs both W and beta targets at every integer scale `m>=v`. A uniform layered dissection fills all seed residues; the prior +u cap completes the tail.
+- Verify the full two-parameter partition by exact polynomial boundary and positivity checks, with a separate mathematical audit and full coordinate controls. Smaller scales and nonadjacent parameters are not classified.
+- Construct branch-isolated counts5022 and7502 with tile `(42,13,49)`; provide a complete 5022-unit certificate and an independent integer checker.
+- Prove the general one-class whole-c boundary lower bound `2c²`, and divisibility by `2c²` when `ab` is even, with arbitrary mixed interior heights. Preserve the precise boundary hypothesis and the unresolved status of14430.
+- Record F3 residual structure and scoped template failures. The unique F3 candidate14430 remains unresolved; no general Erdős634 solution is claimed.
+- Separate the literature's conditional W-prime dependency from fresh exact23 engine outcomes. Without an independent complete refutation trace, these outcomes remain computational evidence in this checkpoint.
+
 ## 8 October 2026: a direct 4830 construction and a larger primitive F3 sector
 
 - Prove a positive five-region corner theorem from `b²+2ab−a² in c+<a,b,c>` for `a>2b`.

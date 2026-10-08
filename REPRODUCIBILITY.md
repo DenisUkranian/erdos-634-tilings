@@ -2,6 +2,23 @@
 
 **v0.3.0 — updated 8 October 2026**
 
+## All adjacent W/beta scales — 8 October 2026
+
+The [new theorem](research/gap-closure-oct8/group1/PROOF.md) supplies every
+integer scale `m>=v` when `v=u+1,u>=2`. Its universal dissection is verified
+symbolically on the entire two-parameter domain. The separate 5022 check
+reads only the coordinate certificate and uses exact integer arithmetic:
+
+```sh
+python research/gap-closure-oct8/group1/check_all_adjacent_symbolic.py
+python research/gap-closure-oct8/examples/check_5022.py
+```
+
+The [independent mathematical audit](research/gap-closure-oct8/literature/ADJACENT_INDEPENDENT_AUDIT.md)
+explains why the polynomial checks imply a nonoverlapping positive
+partition, including the empty last layer at `t=2`. This does not classify
+smaller scales or arbitrary parameter pairs, and does not decide14430.
+
 ## General F3 and adjacent-W constructions — 8 October 2026
 
 The [current package](research/universal-closure-oct8/README.md) includes
