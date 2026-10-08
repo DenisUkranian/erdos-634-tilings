@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "manifest_records": 22,
+  "input_hashes": {
+    "erdos634_position_current_attempt.md": "55459b55fda41dbb5775ecdbeac0c5bb1141bb2c97dc663d0077f43f4bacc1d5",
+    "erdos634_position_current_certificate.zip": "95716391322c4bbd2daacba08f9061b2d84b9eadb2dbbfb39a3c46a69b179ae0"
+  },
+  "verified_records": [
+    {
+      "file": "README.md",
+      "sha256": "db470b3d38aa4b6840006edc16b5b90518a4608ea16b3b31dd205b1d92cb1741"
+    },
+    {
+      "file": "PROOF.md",
+      "sha256": "55459b55fda41dbb5775ecdbeac0c5bb1141bb2c97dc663d0077f43f4bacc1d5"
+    },
+    {
+      "file": "reproduce.py",
+      "sha256": "3c9a07271870b5140aee4931077994e6eb2811ae031a754c42b059e10733d374"
+    },
+    {
+      "file": "twolevel154_build.py",
+      "sha256": "7a92ddaade16fd8aa8e8977ba06b3700321771ab38ac15caba68ef877df33603"
+    },
+    {
+      "file": "twolevel154_matrix.py",
+      "sha256": "65a2bc3ded7fe0ebf8417820aa7723ece20ccfff7e8eb6ed7bc8102a53172251"
+    },
+    {
+      "file": "independent_geometry_check.py",
+      "sha256": "bf4eb3a481b2f39de24668072879a303b338fdc067c17eb3d85360000b72cc1c"
+    },
+    {
+      "file": "audit_matrix.py",
+      "sha256": "997208c4948f2d4e17ca724a575810852e1af7d195da8e5247cc0611685cdbc0"
+    },
+    {
+      "file": "export_sparse.py",
+      "sha256": "775103fa601029e06fd9f7c7e6012d30fa0d7d1c2152443f73144076cbc7bbcf"
+    },
+    {
+      "file": "propagate.cpp",
+      "sha256": "14d686fadd7738833fddf13ece6a68c6729efa28d81331c210360c23275673c7"
+    },
+    {
+      "file": "prune_certificate.py",
+      "sha256": "5c1c1c60b14731e88958460905c15c4fd55a89a38b49b1175f81fd6d49b45e33"
+    },
+    {
+      "file": "verify_twolevel.cpp",
+      "sha256": "b22515c829fa92fb0f09834f6f2ecede60a26b4bbbd2c083f02be9c536f174ee"
+    },
+    {
+      "file": "positive_controls.py",
+      "sha256": "7baaf5c8589e0ab8baff0e18a22489933dd85484551ec946422de7dbfb2fb69f"
+    },
+    {
+      "file": "twolevel154_steps.txt.gz",
+      "sha256": "7c9ad7ff7360f18fb6d74c465d2d219f7e3ad7679fd49383021969d7da5ac847"
+    },
+    {
+      "file": "twolevel154_meta.json",
+      "sha256": "0a7449ff3fe1b890794793cef22566f0b87cf2b8cb1f662dd05481aee971e584"
+    },
+    {
+      "file": "twolevel154_geometry_audit.json",
+      "sha256": "07cb1769dba76ccb8cdf64c5242e5d9addc6e3b52d774c0863eec28531077241"
+    },
+    {
+      "file": "matrix_audit.json",
+      "sha256": "b158760ec89340b10016610c952c8202b2e9e2ea327627dfc1a17ef3ec5a5f4c"
+    },
+    {
+      "file": "twolevel154_propagation.json",
+      "sha256": "fb0d8de6d5c32e39e0927172fc0bee759fecc48cedf22cc2856e1e974b1395b5"
+    },
+    {
+      "file": "twolevel154_replay.json",
+      "sha256": "860dbdc0b334272b19a6a802b227d6397d9167ee83b0d9da7c871d07fa7159eb"
+    },
+    {
+      "file": "positive_controls.json",
+      "sha256": "1348fe9ad474e24b3c65b031e1cfe685a923cf64df04b3bf0378cf6b7da57b9f"
+    },
+    {
+      "file": "adversarial_proof_test.json",
+      "sha256": "c9193df26283607f82dd2588186f81f28159dcfbca7bbced2241c03255cb92a1"
+    },
+    {
+      "file": "proof_compression.json",
+      "sha256": "87a09cdc5aaab3e395112c07b89727a9527915aa442b025135b62a328ff3f3db"
+    },
+    {
+      "file": "REPLAY_RESULT.json",
+      "sha256": "efcdf04159d1a5e9b6f27c48a4a7d3163ce0b510ca447ecc57670b8cf2145483"
+    }
+  ]
+}

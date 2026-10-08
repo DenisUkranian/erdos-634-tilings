@@ -1,0 +1,4212 @@
+{
+  "status": "PASS",
+  "full_Erdos634_solved": false,
+  "N154_solved": false,
+  "all_modularly_feasible_inventories": 108,
+  "independent_enumerations_agree": true,
+  "rotation_reflection_orbits": 9,
+  "all_108_have_gamma_vertex_contradiction": true,
+  "conclusion": "Every occupied nonzero height has at least 26 tiles.",
+  "representatives": [
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13
+      ],
+      "orbit_size": 12,
+      "contradictions": [
+        {
+          "orientation": "B5",
+          "multiplicity": 13,
+          "direction_totals_8_7": [
+            [
+              0,
+              13
+            ],
+            [
+              13,
+              0
+            ]
+          ],
+          "max_supporting_lines": [
+            1,
+            1
+          ],
+          "max_gamma_vertices": 1
+        }
+      ]
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        0,
+        9
+      ],
+      "orbit_size": 12,
+      "contradictions": [
+        {
+          "orientation": "B5",
+          "multiplicity": 9,
+          "direction_totals_8_7": [
+            [
+              3,
+              9
+            ],
+            [
+              9,
+              1
+            ]
+          ],
+          "max_supporting_lines": [
+            3,
+            1
+          ],
+          "max_gamma_vertices": 3
+        }
+      ]
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        6,
+        0,
+        5
+      ],
+      "orbit_size": 12,
+      "contradictions": [
+        {
+          "orientation": "B3",
+          "multiplicity": 6,
+          "direction_totals_8_7": [
+            [
+              2,
+              6
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "max_supporting_lines": [
+            2,
+            2
+          ],
+          "max_gamma_vertices": 4
+        },
+        {
+          "orientation": "B5",
+          "multiplicity": 5,
+          "direction_totals_8_7": [
+            [
+              6,
+              5
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "max_supporting_lines": [
+            2,
+            1
+          ],
+          "max_gamma_vertices": 2
+        }
+      ]
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        4,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "orbit_size": 12,
+      "contradictions": [
+        {
+          "orientation": "A3",
+          "multiplicity": 3,
+          "direction_totals_8_7": [
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "max_supporting_lines": [
+            1,
+            2
+          ],
+          "max_gamma_vertices": 2
+        }
+      ]
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        5,
+        0
+      ],
+      "orbit_size": 12,
+      "contradictions": [
+        {
+          "orientation": "A3",
+          "multiplicity": 4,
+          "direction_totals_8_7": [
+            [
+              9,
+              1
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "max_supporting_lines": [
+            1,
+            2
+          ],
+          "max_gamma_vertices": 2
+        },
+        {
+          "orientation": "B4",
+          "multiplicity": 5,
+          "direction_totals_8_7": [
+            [
+              2,
+              6
+            ],
+            [
+              9,
+              1
+            ]
+          ],
+          "max_supporting_lines": [
+            2,
+            1
+          ],
+          "max_gamma_vertices": 2
+        }
+      ]
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        1,
+        2,
+        0,
+        5,
+        0,
+        1,
+        0
+      ],
+      "orbit_size": 12,
+      "contradictions": [
+        {
+          "orientation": "A3",
+          "multiplicity": 4,
+          "direction_totals_8_7": [
+            [
+              5,
+              2
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          "max_supporting_lines": [
+            1,
+            3
+          ],
+          "max_gamma_vertices": 3
+        },
+        {
+          "orientation": "B2",
+          "multiplicity": 5,
+          "direction_totals_8_7": [
+            [
+              3,
+              9
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "max_supporting_lines": [
+            3,
+            1
+          ],
+          "max_gamma_vertices": 3
+        }
+      ]
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        1,
+        5,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "orbit_size": 12,
+      "contradictions": [
+        {
+          "orientation": "B0",
+          "multiplicity": 5,
+          "direction_totals_8_7": [
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "max_supporting_lines": [
+            2,
+            2
+          ],
+          "max_gamma_vertices": 4
+        }
+      ]
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "orbit_size": 12,
+      "contradictions": [
+        {
+          "orientation": "A3",
+          "multiplicity": 8,
+          "direction_totals_8_7": [
+            [
+              9,
+              1
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          "max_supporting_lines": [
+            1,
+            3
+          ],
+          "max_gamma_vertices": 3
+        }
+      ]
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        5,
+        0,
+        4,
+        0
+      ],
+      "orbit_size": 12,
+      "contradictions": [
+        {
+          "orientation": "B2",
+          "multiplicity": 5,
+          "direction_totals_8_7": [
+            [
+              2,
+              6
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "max_supporting_lines": [
+            2,
+            2
+          ],
+          "max_gamma_vertices": 4
+        },
+        {
+          "orientation": "B4",
+          "multiplicity": 4,
+          "direction_totals_8_7": [
+            [
+              6,
+              5
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "max_supporting_lines": [
+            2,
+            1
+          ],
+          "max_gamma_vertices": 2
+        }
+      ]
+    }
+  ],
+  "certificate_for_all_inventories": [
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13
+      ],
+      "contradiction": {
+        "orientation": "B5",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            0,
+            13
+          ],
+          [
+            13,
+            0
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B4",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            0,
+            13
+          ],
+          [
+            13,
+            0
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B3",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            0,
+            13
+          ],
+          [
+            13,
+            0
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B2",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            0,
+            13
+          ],
+          [
+            13,
+            0
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        0,
+        9
+      ],
+      "contradiction": {
+        "orientation": "B5",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        6,
+        0,
+        5
+      ],
+      "contradiction": {
+        "orientation": "B3",
+        "multiplicity": 6,
+        "direction_totals_8_7": [
+          [
+            2,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        9,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "B3",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        2,
+        0,
+        6
+      ],
+      "contradiction": {
+        "orientation": "B1",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          1
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        5,
+        0,
+        2
+      ],
+      "contradiction": {
+        "orientation": "B1",
+        "multiplicity": 6,
+        "direction_totals_8_7": [
+          [
+            2,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        1,
+        0,
+        3
+      ],
+      "contradiction": {
+        "orientation": "B1",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B1",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            0,
+            13
+          ],
+          [
+            13,
+            0
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        0,
+        9,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B4",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        6,
+        0,
+        5,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B2",
+        "multiplicity": 6,
+        "direction_totals_8_7": [
+          [
+            2,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        9,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B2",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        2,
+        0,
+        6,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B0",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          1
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        5,
+        0,
+        2,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B0",
+        "multiplicity": 6,
+        "direction_totals_8_7": [
+          [
+            2,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        1,
+        0,
+        3,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B0",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B0",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            0,
+            13
+          ],
+          [
+            13,
+            0
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A5",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            13,
+            0
+          ],
+          [
+            0,
+            13
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A4",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            13,
+            0
+          ],
+          [
+            0,
+            13
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        4,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        5,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        1,
+        2,
+        0,
+        5,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        1,
+        5,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B0",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            13,
+            0
+          ],
+          [
+            0,
+            13
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        3,
+        0,
+        4,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        4,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        5
+      ],
+      "contradiction": {
+        "orientation": "B5",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        4,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        5,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        4,
+        0,
+        1,
+        0,
+        0,
+        5,
+        0,
+        1,
+        0,
+        2
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        8,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            13,
+            0
+          ],
+          [
+            0,
+            13
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        4,
+        1,
+        0,
+        2,
+        0,
+        5,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A5",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        4,
+        2,
+        0,
+        5,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B2",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        4,
+        5,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A5",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        8,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B4",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        5,
+        0,
+        4,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B2",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            2,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B2",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        4,
+        0,
+        1,
+        0,
+        5,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B0",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          1
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        5,
+        0,
+        4,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B0",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            2,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        8,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B0",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        4,
+        0,
+        5,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        5,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        5,
+        0,
+        2,
+        1,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        5,
+        0,
+        2,
+        4,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        1,
+        0,
+        9,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        8,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A5",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        5,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A5",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        5,
+        1,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A5",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        5,
+        4,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A5",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        4,
+        0,
+        3,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B4",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          1
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B0",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          1
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        4,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B2",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          1
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        2,
+        0,
+        5,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A3",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        3,
+        0,
+        1,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A5",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        3,
+        0,
+        4,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        4,
+        0,
+        0,
+        0,
+        3,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A5",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        4,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        5,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B4",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        4,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        5,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        4,
+        0,
+        1,
+        0,
+        0,
+        5,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        4,
+        0,
+        5,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        5,
+        0,
+        1,
+        0,
+        4,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        5,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        5,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        5,
+        0,
+        2,
+        0,
+        1,
+        4,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        5,
+        0,
+        6,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        6,
+        0,
+        2,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 6,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        8,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        9,
+        0,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A1",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            13,
+            0
+          ],
+          [
+            0,
+            13
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        5
+      ],
+      "contradiction": {
+        "orientation": "A4",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        2,
+        0,
+        5,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A4",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        5,
+        0,
+        1,
+        0,
+        2
+      ],
+      "contradiction": {
+        "orientation": "B1",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        8
+      ],
+      "contradiction": {
+        "orientation": "B5",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        5,
+        0,
+        4
+      ],
+      "contradiction": {
+        "orientation": "B3",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            2,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        8,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B3",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "contradiction": {
+        "orientation": "B1",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          1
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        5,
+        0,
+        4,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "B1",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            2,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        2
+      ],
+      "contradiction": {
+        "orientation": "B1",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "max_supporting_lines": [
+          3,
+          1
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        4,
+        0,
+        5,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        5,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        5,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        5,
+        0,
+        2,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        1,
+        0,
+        9,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        2,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A4",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        2,
+        0,
+        1,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4
+      ],
+      "contradiction": {
+        "orientation": "A4",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        2,
+        0,
+        1,
+        0,
+        5,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A4",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        2,
+        0,
+        1,
+        0,
+        5,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A4",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        3
+      ],
+      "contradiction": {
+        "orientation": "B5",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          1
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        4
+      ],
+      "contradiction": {
+        "orientation": "B1",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          1
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        4,
+        0,
+        3,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "B3",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          1
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        2,
+        0,
+        5,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A2",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        3,
+        0,
+        1,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A4",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        3,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        4,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "contradiction": {
+        "orientation": "A4",
+        "multiplicity": 3,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        4,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        5
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        4,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        5,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "B3",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        4,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        1,
+        0,
+        2
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        4,
+        0,
+        5,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 4,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        5,
+        0,
+        1,
+        0,
+        4,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        5,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        5,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        5,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        5,
+        0,
+        6,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 5,
+        "direction_totals_8_7": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          2
+        ],
+        "max_gamma_vertices": 2
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        6,
+        0,
+        2,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 6,
+        "direction_totals_8_7": [
+          [
+            6,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "max_supporting_lines": [
+          2,
+          2
+        ],
+        "max_gamma_vertices": 4
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        8,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 8,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        9,
+        0,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 9,
+        "direction_totals_8_7": [
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          3
+        ],
+        "max_gamma_vertices": 3
+      }
+    },
+    {
+      "inventory_A0_to_A5_B0_to_B5": [
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contradiction": {
+        "orientation": "A0",
+        "multiplicity": 13,
+        "direction_totals_8_7": [
+          [
+            13,
+            0
+          ],
+          [
+            0,
+            13
+          ]
+        ],
+        "max_supporting_lines": [
+          1,
+          1
+        ],
+        "max_gamma_vertices": 1
+      }
+    }
+  ]
+}

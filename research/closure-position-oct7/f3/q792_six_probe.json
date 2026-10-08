@@ -1,0 +1,35 @@
+{
+  "status": "INCOMPLETE",
+  "nodes": 29372,
+  "deepest": 5,
+  "seconds": 240.00022190500022,
+  "target": [
+    [
+      "312",
+      "0"
+    ],
+    [
+      "961",
+      "0"
+    ],
+    [
+      "708",
+      "132"
+    ],
+    [
+      "767/2",
+      "143/2"
+    ]
+  ],
+  "max_macros": 6,
+  "macros": null,
+  "tile": [
+    24,
+    11,
+    31
+  ],
+  "count": 792,
+  "coordinate_field": "(x,y) means x+i*y*sqrt(3)",
+  "scope": "EXPLORATORY integer-grid macro recipe search only",
+  "full_Erdos634_solved": false
+}

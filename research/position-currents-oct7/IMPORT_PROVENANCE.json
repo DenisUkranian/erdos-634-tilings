@@ -1,0 +1,9 @@
+{
+  "source": "User-supplied position-current certificate package, 7 October 2026",
+  "source_baseline": "d460b3d23a90953e9524fba5e7616be71b779efd",
+  "archive_sha256": "95716391322c4bbd2daacba08f9061b2d84b9eadb2dbbfb39a3c46a69b179ae0",
+  "imported_files": 23,
+  "source_files_changed": false,
+  "fresh_replay": "../closure-position-oct7/input-audit/fresh-replay.json",
+  "scope": "At least three short-direction classes for the specified 154 candidate; not an exclusion of154."
+}

@@ -1,0 +1,2022 @@
+{
+  "status": "PASS",
+  "full_Erdos634_solved": false,
+  "N154_solved": false,
+  "scope": "Independent exact finite arithmetic plus line-count pigeonhole; geometric line-divisibility lemma is a written input",
+  "compositions_tested": 8568,
+  "inventories_one_character": 54,
+  "inventories_both_characters": 108,
+  "dihedral_orbit_sizes": [
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12
+  ],
+  "allowed_nonempty_line_pairs": [
+    [
+      0,
+      13
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      13,
+      0
+    ]
+  ],
+  "geometry_derived_positive_character_types": [
+    [
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      2,
+      1
+    ],
+    [
+      0,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      3,
+      2,
+      0
+    ],
+    [
+      1,
+      5,
+      1,
+      2
+    ]
+  ],
+  "source_sha256": "e5cbe427445aaf01f6b826653e85e127571a5e1e9cc6877f9b053e730caa356d",
+  "geometry_source_sha256": "11a06fca033ccc36d7ca05223e4dfdc18dd05c6402a60dfb6f87ecd2cec7eee2",
+  "records": [
+    {
+      "counts_at_positive_character_types": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        13
+      ],
+      "eight_edge_totals": [
+        0,
+        13,
+        0
+      ],
+      "seven_edge_totals": [
+        0,
+        0,
+        13
+      ],
+      "maximum_line_counts": [
+        0,
+        1,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 13,
+          "point_bound": 1
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        0,
+        0,
+        0,
+        13,
+        0
+      ],
+      "eight_edge_totals": [
+        0,
+        0,
+        13
+      ],
+      "seven_edge_totals": [
+        13,
+        0,
+        0
+      ],
+      "maximum_line_counts": [
+        1,
+        0,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 13,
+          "point_bound": 1
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        9
+      ],
+      "eight_edge_totals": [
+        1,
+        9,
+        3
+      ],
+      "seven_edge_totals": [
+        3,
+        1,
+        9
+      ],
+      "maximum_line_counts": [
+        1,
+        1,
+        3
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 9,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        0,
+        0,
+        2,
+        6,
+        5
+      ],
+      "eight_edge_totals": [
+        2,
+        5,
+        6
+      ],
+      "seven_edge_totals": [
+        6,
+        2,
+        5
+      ],
+      "maximum_line_counts": [
+        2,
+        1,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 6,
+          "point_bound": 4
+        },
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 5,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        0,
+        0,
+        3,
+        9,
+        1
+      ],
+      "eight_edge_totals": [
+        3,
+        1,
+        9
+      ],
+      "seven_edge_totals": [
+        9,
+        3,
+        1
+      ],
+      "maximum_line_counts": [
+        3,
+        1,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 9,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        0,
+        0,
+        5,
+        2,
+        6
+      ],
+      "eight_edge_totals": [
+        5,
+        6,
+        2
+      ],
+      "seven_edge_totals": [
+        2,
+        5,
+        6
+      ],
+      "maximum_line_counts": [
+        1,
+        2,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 5,
+          "point_bound": 2
+        },
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 6,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        0,
+        0,
+        6,
+        5,
+        2
+      ],
+      "eight_edge_totals": [
+        6,
+        2,
+        5
+      ],
+      "seven_edge_totals": [
+        5,
+        6,
+        2
+      ],
+      "maximum_line_counts": [
+        2,
+        2,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 6,
+          "point_bound": 4
+        },
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 5,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        0,
+        0,
+        9,
+        1,
+        3
+      ],
+      "eight_edge_totals": [
+        9,
+        3,
+        1
+      ],
+      "seven_edge_totals": [
+        1,
+        9,
+        3
+      ],
+      "maximum_line_counts": [
+        1,
+        3,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 9,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        0,
+        0,
+        13,
+        0,
+        0
+      ],
+      "eight_edge_totals": [
+        13,
+        0,
+        0
+      ],
+      "seven_edge_totals": [
+        0,
+        13,
+        0
+      ],
+      "maximum_line_counts": [
+        1,
+        1,
+        0
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 13,
+          "point_bound": 1
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        0,
+        13,
+        0,
+        0,
+        0
+      ],
+      "eight_edge_totals": [
+        0,
+        13,
+        0
+      ],
+      "seven_edge_totals": [
+        13,
+        0,
+        0
+      ],
+      "maximum_line_counts": [
+        1,
+        1,
+        0
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 13,
+          "point_bound": 1
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        3,
+        4,
+        2,
+        2,
+        2
+      ],
+      "eight_edge_totals": [
+        2,
+        6,
+        5
+      ],
+      "seven_edge_totals": [
+        6,
+        5,
+        2
+      ],
+      "maximum_line_counts": [
+        2,
+        2,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 3,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        4,
+        1,
+        1,
+        2,
+        5
+      ],
+      "eight_edge_totals": [
+        1,
+        6,
+        6
+      ],
+      "seven_edge_totals": [
+        3,
+        5,
+        5
+      ],
+      "maximum_line_counts": [
+        1,
+        2,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 5,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        4,
+        1,
+        2,
+        5,
+        1
+      ],
+      "eight_edge_totals": [
+        2,
+        2,
+        9
+      ],
+      "seven_edge_totals": [
+        6,
+        6,
+        1
+      ],
+      "maximum_line_counts": [
+        2,
+        2,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 4,
+          "point_bound": 2
+        },
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 5,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        4,
+        1,
+        5,
+        1,
+        2
+      ],
+      "eight_edge_totals": [
+        5,
+        3,
+        5
+      ],
+      "seven_edge_totals": [
+        2,
+        9,
+        2
+      ],
+      "maximum_line_counts": [
+        1,
+        3,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 4,
+          "point_bound": 3
+        },
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 5,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        8,
+        2,
+        1,
+        1,
+        1
+      ],
+      "eight_edge_totals": [
+        1,
+        3,
+        9
+      ],
+      "seven_edge_totals": [
+        3,
+        9,
+        1
+      ],
+      "maximum_line_counts": [
+        1,
+        3,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 8,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        0,
+        13,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eight_edge_totals": [
+        0,
+        0,
+        13
+      ],
+      "seven_edge_totals": [
+        0,
+        13,
+        0
+      ],
+      "maximum_line_counts": [
+        0,
+        1,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 13,
+          "point_bound": 1
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        0,
+        4,
+        1,
+        2,
+        5
+      ],
+      "eight_edge_totals": [
+        2,
+        9,
+        2
+      ],
+      "seven_edge_totals": [
+        6,
+        1,
+        6
+      ],
+      "maximum_line_counts": [
+        2,
+        1,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 4,
+          "point_bound": 2
+        },
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 5,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        0,
+        4,
+        2,
+        5,
+        1
+      ],
+      "eight_edge_totals": [
+        3,
+        5,
+        5
+      ],
+      "seven_edge_totals": [
+        9,
+        2,
+        2
+      ],
+      "maximum_line_counts": [
+        3,
+        1,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 4,
+          "point_bound": 3
+        },
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 5,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        0,
+        4,
+        5,
+        1,
+        2
+      ],
+      "eight_edge_totals": [
+        6,
+        6,
+        1
+      ],
+      "seven_edge_totals": [
+        5,
+        5,
+        3
+      ],
+      "maximum_line_counts": [
+        2,
+        2,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 5,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        8
+      ],
+      "eight_edge_totals": [
+        1,
+        9,
+        3
+      ],
+      "seven_edge_totals": [
+        3,
+        1,
+        9
+      ],
+      "maximum_line_counts": [
+        1,
+        1,
+        3
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 8,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        1,
+        1,
+        1,
+        5,
+        4
+      ],
+      "eight_edge_totals": [
+        2,
+        5,
+        6
+      ],
+      "seven_edge_totals": [
+        6,
+        2,
+        5
+      ],
+      "maximum_line_counts": [
+        2,
+        1,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 5,
+          "point_bound": 4
+        },
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 4,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        1,
+        1,
+        2,
+        8,
+        0
+      ],
+      "eight_edge_totals": [
+        3,
+        1,
+        9
+      ],
+      "seven_edge_totals": [
+        9,
+        3,
+        1
+      ],
+      "maximum_line_counts": [
+        3,
+        1,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 8,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        1,
+        1,
+        4,
+        1,
+        5
+      ],
+      "eight_edge_totals": [
+        5,
+        6,
+        2
+      ],
+      "seven_edge_totals": [
+        2,
+        5,
+        6
+      ],
+      "maximum_line_counts": [
+        1,
+        2,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 4,
+          "point_bound": 2
+        },
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 5,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        1,
+        1,
+        5,
+        4,
+        1
+      ],
+      "eight_edge_totals": [
+        6,
+        2,
+        5
+      ],
+      "seven_edge_totals": [
+        5,
+        6,
+        2
+      ],
+      "maximum_line_counts": [
+        2,
+        2,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 5,
+          "point_bound": 4
+        },
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 4,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        1,
+        1,
+        8,
+        0,
+        2
+      ],
+      "eight_edge_totals": [
+        9,
+        3,
+        1
+      ],
+      "seven_edge_totals": [
+        1,
+        9,
+        3
+      ],
+      "maximum_line_counts": [
+        1,
+        3,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 8,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        4,
+        5,
+        1,
+        1,
+        1
+      ],
+      "eight_edge_totals": [
+        2,
+        6,
+        5
+      ],
+      "seven_edge_totals": [
+        6,
+        5,
+        2
+      ],
+      "maximum_line_counts": [
+        2,
+        2,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 4,
+          "point_bound": 2
+        },
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 5,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        5,
+        2,
+        0,
+        1,
+        4
+      ],
+      "eight_edge_totals": [
+        1,
+        6,
+        6
+      ],
+      "seven_edge_totals": [
+        3,
+        5,
+        5
+      ],
+      "maximum_line_counts": [
+        1,
+        2,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 5,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        5,
+        2,
+        1,
+        4,
+        0
+      ],
+      "eight_edge_totals": [
+        2,
+        2,
+        9
+      ],
+      "seven_edge_totals": [
+        6,
+        6,
+        1
+      ],
+      "maximum_line_counts": [
+        2,
+        2,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 5,
+          "point_bound": 2
+        },
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 4,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        5,
+        2,
+        4,
+        0,
+        1
+      ],
+      "eight_edge_totals": [
+        5,
+        3,
+        5
+      ],
+      "seven_edge_totals": [
+        2,
+        9,
+        2
+      ],
+      "maximum_line_counts": [
+        1,
+        3,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 5,
+          "point_bound": 3
+        },
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 4,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        1,
+        9,
+        3,
+        0,
+        0,
+        0
+      ],
+      "eight_edge_totals": [
+        1,
+        3,
+        9
+      ],
+      "seven_edge_totals": [
+        3,
+        9,
+        1
+      ],
+      "maximum_line_counts": [
+        1,
+        3,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 9,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        2,
+        0,
+        8,
+        1,
+        1,
+        1
+      ],
+      "eight_edge_totals": [
+        3,
+        9,
+        1
+      ],
+      "seven_edge_totals": [
+        9,
+        1,
+        3
+      ],
+      "maximum_line_counts": [
+        3,
+        1,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 8,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        2,
+        1,
+        5,
+        0,
+        1,
+        4
+      ],
+      "eight_edge_totals": [
+        2,
+        9,
+        2
+      ],
+      "seven_edge_totals": [
+        6,
+        1,
+        6
+      ],
+      "maximum_line_counts": [
+        2,
+        1,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 5,
+          "point_bound": 2
+        },
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 4,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        2,
+        1,
+        5,
+        1,
+        4,
+        0
+      ],
+      "eight_edge_totals": [
+        3,
+        5,
+        5
+      ],
+      "seven_edge_totals": [
+        9,
+        2,
+        2
+      ],
+      "maximum_line_counts": [
+        3,
+        1,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 5,
+          "point_bound": 3
+        },
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 4,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        2,
+        1,
+        5,
+        4,
+        0,
+        1
+      ],
+      "eight_edge_totals": [
+        6,
+        6,
+        1
+      ],
+      "seven_edge_totals": [
+        5,
+        5,
+        3
+      ],
+      "maximum_line_counts": [
+        2,
+        2,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 5,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        2,
+        2,
+        2,
+        0,
+        4,
+        3
+      ],
+      "eight_edge_totals": [
+        2,
+        5,
+        6
+      ],
+      "seven_edge_totals": [
+        6,
+        2,
+        5
+      ],
+      "maximum_line_counts": [
+        2,
+        1,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 3,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        2,
+        2,
+        2,
+        3,
+        0,
+        4
+      ],
+      "eight_edge_totals": [
+        5,
+        6,
+        2
+      ],
+      "seven_edge_totals": [
+        2,
+        5,
+        6
+      ],
+      "maximum_line_counts": [
+        1,
+        2,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 3,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        2,
+        2,
+        2,
+        4,
+        3,
+        0
+      ],
+      "eight_edge_totals": [
+        6,
+        2,
+        5
+      ],
+      "seven_edge_totals": [
+        5,
+        6,
+        2
+      ],
+      "maximum_line_counts": [
+        2,
+        2,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 3,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        2,
+        5,
+        6,
+        0,
+        0,
+        0
+      ],
+      "eight_edge_totals": [
+        2,
+        6,
+        5
+      ],
+      "seven_edge_totals": [
+        6,
+        5,
+        2
+      ],
+      "maximum_line_counts": [
+        2,
+        2,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 5,
+          "point_bound": 2
+        },
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 6,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        3,
+        1,
+        9,
+        0,
+        0,
+        0
+      ],
+      "eight_edge_totals": [
+        3,
+        9,
+        1
+      ],
+      "seven_edge_totals": [
+        9,
+        1,
+        3
+      ],
+      "maximum_line_counts": [
+        3,
+        1,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 9,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        3,
+        4,
+        0,
+        2,
+        2,
+        2
+      ],
+      "eight_edge_totals": [
+        5,
+        2,
+        6
+      ],
+      "seven_edge_totals": [
+        2,
+        6,
+        5
+      ],
+      "maximum_line_counts": [
+        1,
+        2,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 3,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        4,
+        0,
+        3,
+        2,
+        2,
+        2
+      ],
+      "eight_edge_totals": [
+        6,
+        5,
+        2
+      ],
+      "seven_edge_totals": [
+        5,
+        2,
+        6
+      ],
+      "maximum_line_counts": [
+        2,
+        1,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 3,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        4,
+        1,
+        0,
+        1,
+        2,
+        5
+      ],
+      "eight_edge_totals": [
+        5,
+        5,
+        3
+      ],
+      "seven_edge_totals": [
+        2,
+        2,
+        9
+      ],
+      "maximum_line_counts": [
+        1,
+        1,
+        3
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 4,
+          "point_bound": 3
+        },
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 5,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        4,
+        1,
+        0,
+        2,
+        5,
+        1
+      ],
+      "eight_edge_totals": [
+        6,
+        1,
+        6
+      ],
+      "seven_edge_totals": [
+        5,
+        3,
+        5
+      ],
+      "maximum_line_counts": [
+        2,
+        1,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 1,
+          "rotation": 3,
+          "tile_count": 5,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        4,
+        1,
+        0,
+        5,
+        1,
+        2
+      ],
+      "eight_edge_totals": [
+        9,
+        2,
+        2
+      ],
+      "seven_edge_totals": [
+        1,
+        6,
+        6
+      ],
+      "maximum_line_counts": [
+        1,
+        2,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 4,
+          "point_bound": 2
+        },
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 5,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        4,
+        5,
+        1,
+        1,
+        1,
+        1
+      ],
+      "eight_edge_totals": [
+        5,
+        2,
+        6
+      ],
+      "seven_edge_totals": [
+        2,
+        6,
+        5
+      ],
+      "maximum_line_counts": [
+        1,
+        2,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 4,
+          "point_bound": 2
+        },
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 5,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        5,
+        1,
+        4,
+        1,
+        1,
+        1
+      ],
+      "eight_edge_totals": [
+        6,
+        5,
+        2
+      ],
+      "seven_edge_totals": [
+        5,
+        2,
+        6
+      ],
+      "maximum_line_counts": [
+        2,
+        1,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 5,
+          "point_bound": 4
+        },
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 4,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        5,
+        2,
+        1,
+        0,
+        1,
+        4
+      ],
+      "eight_edge_totals": [
+        5,
+        5,
+        3
+      ],
+      "seven_edge_totals": [
+        2,
+        2,
+        9
+      ],
+      "maximum_line_counts": [
+        1,
+        1,
+        3
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 5,
+          "point_bound": 3
+        },
+        {
+          "type": 1,
+          "rotation": 5,
+          "tile_count": 4,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        5,
+        2,
+        1,
+        1,
+        4,
+        0
+      ],
+      "eight_edge_totals": [
+        6,
+        1,
+        6
+      ],
+      "seven_edge_totals": [
+        5,
+        3,
+        5
+      ],
+      "maximum_line_counts": [
+        2,
+        1,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 5,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        5,
+        2,
+        1,
+        4,
+        0,
+        1
+      ],
+      "eight_edge_totals": [
+        9,
+        2,
+        2
+      ],
+      "seven_edge_totals": [
+        1,
+        6,
+        6
+      ],
+      "maximum_line_counts": [
+        1,
+        2,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 5,
+          "point_bound": 2
+        },
+        {
+          "type": 1,
+          "rotation": 1,
+          "tile_count": 4,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        5,
+        6,
+        2,
+        0,
+        0,
+        0
+      ],
+      "eight_edge_totals": [
+        5,
+        2,
+        6
+      ],
+      "seven_edge_totals": [
+        2,
+        6,
+        5
+      ],
+      "maximum_line_counts": [
+        1,
+        2,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 5,
+          "point_bound": 2
+        },
+        {
+          "type": 0,
+          "rotation": 2,
+          "tile_count": 6,
+          "point_bound": 4
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        6,
+        2,
+        5,
+        0,
+        0,
+        0
+      ],
+      "eight_edge_totals": [
+        6,
+        5,
+        2
+      ],
+      "seven_edge_totals": [
+        5,
+        2,
+        6
+      ],
+      "maximum_line_counts": [
+        2,
+        1,
+        2
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 6,
+          "point_bound": 4
+        },
+        {
+          "type": 0,
+          "rotation": 4,
+          "tile_count": 5,
+          "point_bound": 2
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        8,
+        2,
+        0,
+        1,
+        1,
+        1
+      ],
+      "eight_edge_totals": [
+        9,
+        1,
+        3
+      ],
+      "seven_edge_totals": [
+        1,
+        3,
+        9
+      ],
+      "maximum_line_counts": [
+        1,
+        1,
+        3
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 8,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        9,
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "eight_edge_totals": [
+        9,
+        1,
+        3
+      ],
+      "seven_edge_totals": [
+        1,
+        3,
+        9
+      ],
+      "maximum_line_counts": [
+        1,
+        1,
+        3
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 9,
+          "point_bound": 3
+        }
+      ]
+    },
+    {
+      "counts_at_positive_character_types": [
+        13,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "eight_edge_totals": [
+        13,
+        0,
+        0
+      ],
+      "seven_edge_totals": [
+        0,
+        0,
+        13
+      ],
+      "maximum_line_counts": [
+        1,
+        0,
+        1
+      ],
+      "pigeonhole_contradictions": [
+        {
+          "type": 0,
+          "rotation": 0,
+          "tile_count": 13,
+          "point_bound": 1
+        }
+      ]
+    }
+  ]
+}

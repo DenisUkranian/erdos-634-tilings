@@ -1,0 +1,465 @@
+{
+  "records": [
+    {
+      "status": "EXACT_UNSAT",
+      "support": [
+        -8,
+        0
+      ],
+      "history": [
+        {
+          "height": -8,
+          "states": 273,
+          "seconds": 0.4892234802246094
+        },
+        {
+          "height": -7,
+          "states": 419,
+          "seconds": 0.5524370670318604
+        },
+        {
+          "height": -6,
+          "states": 117,
+          "seconds": 0.5902254581451416
+        },
+        {
+          "height": -5,
+          "states": 159,
+          "seconds": 0.5980889797210693
+        },
+        {
+          "height": -4,
+          "states": 117,
+          "seconds": 0.6142253875732422
+        },
+        {
+          "height": -3,
+          "states": 31,
+          "seconds": 0.62119460105896
+        },
+        {
+          "height": -2,
+          "states": 49,
+          "seconds": 0.6225738525390625
+        },
+        {
+          "height": -1,
+          "states": 14,
+          "seconds": 0.6254289150238037
+        },
+        {
+          "height": 0,
+          "states": 0,
+          "seconds": 0.6263060569763184
+        }
+      ]
+    },
+    {
+      "status": "EXACT_UNSAT",
+      "support": [
+        -7,
+        1
+      ],
+      "history": [
+        {
+          "height": -7,
+          "states": 273,
+          "seconds": 0.4393882751464844
+        },
+        {
+          "height": -6,
+          "states": 419,
+          "seconds": 0.49793243408203125
+        },
+        {
+          "height": -5,
+          "states": 117,
+          "seconds": 0.5339279174804688
+        },
+        {
+          "height": -4,
+          "states": 159,
+          "seconds": 0.5413222312927246
+        },
+        {
+          "height": -3,
+          "states": 117,
+          "seconds": 0.5585565567016602
+        },
+        {
+          "height": -2,
+          "states": 31,
+          "seconds": 0.5644652843475342
+        },
+        {
+          "height": -1,
+          "states": 40,
+          "seconds": 0.565751314163208
+        },
+        {
+          "height": 0,
+          "states": 9,
+          "seconds": 0.5683243274688721
+        },
+        {
+          "height": 1,
+          "states": 0,
+          "seconds": 0.5685856342315674
+        }
+      ]
+    },
+    {
+      "status": "EXACT_UNSAT",
+      "support": [
+        -6,
+        2
+      ],
+      "history": [
+        {
+          "height": -6,
+          "states": 273,
+          "seconds": 0.42384839057922363
+        },
+        {
+          "height": -5,
+          "states": 419,
+          "seconds": 0.48253941535949707
+        },
+        {
+          "height": -4,
+          "states": 117,
+          "seconds": 0.5192530155181885
+        },
+        {
+          "height": -3,
+          "states": 159,
+          "seconds": 0.5263557434082031
+        },
+        {
+          "height": -2,
+          "states": 117,
+          "seconds": 0.5419580936431885
+        },
+        {
+          "height": -1,
+          "states": 15,
+          "seconds": 0.5483570098876953
+        },
+        {
+          "height": 0,
+          "states": 6,
+          "seconds": 0.5493226051330566
+        },
+        {
+          "height": 1,
+          "states": 0,
+          "seconds": 0.5494909286499023
+        }
+      ]
+    },
+    {
+      "status": "EXACT_UNSAT",
+      "support": [
+        -5,
+        3
+      ],
+      "history": [
+        {
+          "height": -5,
+          "states": 273,
+          "seconds": 0.4008340835571289
+        },
+        {
+          "height": -4,
+          "states": 419,
+          "seconds": 0.4572606086730957
+        },
+        {
+          "height": -3,
+          "states": 117,
+          "seconds": 0.4944427013397217
+        },
+        {
+          "height": -2,
+          "states": 159,
+          "seconds": 0.5019216537475586
+        },
+        {
+          "height": -1,
+          "states": 97,
+          "seconds": 0.5180318355560303
+        },
+        {
+          "height": 0,
+          "states": 24,
+          "seconds": 0.5226168632507324
+        },
+        {
+          "height": 1,
+          "states": 8,
+          "seconds": 0.5235707759857178
+        },
+        {
+          "height": 2,
+          "states": 12,
+          "seconds": 0.52386474609375
+        },
+        {
+          "height": 3,
+          "states": 0,
+          "seconds": 0.5241844654083252
+        }
+      ]
+    },
+    {
+      "status": "EXACT_UNSAT",
+      "support": [
+        -4,
+        4
+      ],
+      "history": [
+        {
+          "height": -4,
+          "states": 273,
+          "seconds": 0.40642261505126953
+        },
+        {
+          "height": -3,
+          "states": 419,
+          "seconds": 0.46343088150024414
+        },
+        {
+          "height": -2,
+          "states": 117,
+          "seconds": 0.4970083236694336
+        },
+        {
+          "height": -1,
+          "states": 113,
+          "seconds": 0.5038104057312012
+        },
+        {
+          "height": 0,
+          "states": 57,
+          "seconds": 0.5150995254516602
+        },
+        {
+          "height": 1,
+          "states": 21,
+          "seconds": 0.5177464485168457
+        },
+        {
+          "height": 2,
+          "states": 1,
+          "seconds": 0.5184051990509033
+        },
+        {
+          "height": 3,
+          "states": 12,
+          "seconds": 0.5185065269470215
+        },
+        {
+          "height": 4,
+          "states": 0,
+          "seconds": 0.5188164710998535
+        }
+      ]
+    },
+    {
+      "status": "EXACT_UNSAT",
+      "support": [
+        -3,
+        5
+      ],
+      "history": [
+        {
+          "height": -3,
+          "states": 273,
+          "seconds": 0.40149688720703125
+        },
+        {
+          "height": -2,
+          "states": 419,
+          "seconds": 0.45882725715637207
+        },
+        {
+          "height": -1,
+          "states": 97,
+          "seconds": 0.49300217628479004
+        },
+        {
+          "height": 0,
+          "states": 44,
+          "seconds": 0.4981403350830078
+        },
+        {
+          "height": 1,
+          "states": 8,
+          "seconds": 0.500354528427124
+        },
+        {
+          "height": 2,
+          "states": 12,
+          "seconds": 0.5006632804870605
+        },
+        {
+          "height": 3,
+          "states": 0,
+          "seconds": 0.5010085105895996
+        }
+      ]
+    },
+    {
+      "status": "EXACT_UNSAT",
+      "support": [
+        -2,
+        6
+      ],
+      "history": [
+        {
+          "height": -2,
+          "states": 273,
+          "seconds": 0.3960888385772705
+        },
+        {
+          "height": -1,
+          "states": 307,
+          "seconds": 0.45154380798339844
+        },
+        {
+          "height": 0,
+          "states": 96,
+          "seconds": 0.4754064083099365
+        },
+        {
+          "height": 1,
+          "states": 50,
+          "seconds": 0.4815795421600342
+        },
+        {
+          "height": 2,
+          "states": 63,
+          "seconds": 0.4846916198730469
+        },
+        {
+          "height": 3,
+          "states": 30,
+          "seconds": 0.48938822746276855
+        },
+        {
+          "height": 4,
+          "states": 1,
+          "seconds": 0.4904184341430664
+        },
+        {
+          "height": 5,
+          "states": 12,
+          "seconds": 0.4905085563659668
+        },
+        {
+          "height": 6,
+          "states": 0,
+          "seconds": 0.49083685874938965
+        }
+      ]
+    },
+    {
+      "status": "EXACT_UNSAT",
+      "support": [
+        -1,
+        7
+      ],
+      "history": [
+        {
+          "height": -1,
+          "states": 251,
+          "seconds": 0.4488096237182617
+        },
+        {
+          "height": 0,
+          "states": 246,
+          "seconds": 0.4932286739349365
+        },
+        {
+          "height": 1,
+          "states": 83,
+          "seconds": 0.5101697444915771
+        },
+        {
+          "height": 2,
+          "states": 31,
+          "seconds": 0.5145697593688965
+        },
+        {
+          "height": 3,
+          "states": 49,
+          "seconds": 0.5158493518829346
+        },
+        {
+          "height": 4,
+          "states": 30,
+          "seconds": 0.5188679695129395
+        },
+        {
+          "height": 5,
+          "states": 1,
+          "seconds": 0.5197863578796387
+        },
+        {
+          "height": 6,
+          "states": 12,
+          "seconds": 0.5198662281036377
+        },
+        {
+          "height": 7,
+          "states": 0,
+          "seconds": 0.5202007293701172
+        }
+      ]
+    },
+    {
+      "status": "EXACT_UNSAT",
+      "support": [
+        0,
+        8
+      ],
+      "history": [
+        {
+          "height": 0,
+          "states": 91,
+          "seconds": 0.4259376525878906
+        },
+        {
+          "height": 1,
+          "states": 50,
+          "seconds": 0.4351837635040283
+        },
+        {
+          "height": 2,
+          "states": 63,
+          "seconds": 0.43781185150146484
+        },
+        {
+          "height": 3,
+          "states": 30,
+          "seconds": 0.44125843048095703
+        },
+        {
+          "height": 4,
+          "states": 1,
+          "seconds": 0.4424285888671875
+        },
+        {
+          "height": 5,
+          "states": 12,
+          "seconds": 0.44251275062561035
+        },
+        {
+          "height": 6,
+          "states": 0,
+          "seconds": 0.44287705421447754
+        }
+      ]
+    }
+  ]
+}

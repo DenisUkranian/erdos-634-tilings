@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "cases": 30,
+  "formal_completion_true": 17,
+  "formal_completion_false": 13,
+  "full_Erdos634_solved": false,
+  "scope": "C++ partial signed-inventory filter vs direct-enumeration Python reference"
+}

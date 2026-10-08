@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "fan_queries": 303,
+  "fans_compared": 7221,
+  "incompatibility_queries": 1708,
+  "incompatible_pairs": 319,
+  "positive_control": "Four-tile triangular grid; six compatible pairs and exactly zero residual boundary",
+  "fan_reference": "Rational six-side permutations and independent alpha/beta angle quotas",
+  "N154_decided": false,
+  "search_exhaustion_verified": false,
+  "full_Erdos634_solved": false
+}

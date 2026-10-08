@@ -1,0 +1,18 @@
+{
+  "status": "RESTRICTED_EXHAUSTED",
+  "nodes": 3020,
+  "deepest": 4,
+  "seconds": 14.578126563996193,
+  "tile": [
+    24,
+    11,
+    31
+  ],
+  "count": 4830,
+  "max_macros": 5,
+  "required_macro": "At least one known F4(11,24,31), tile count 1610",
+  "other_macros": "Integer-scaled copies of the original tile",
+  "scope": "Exploratory construction search, not a nonexistence certificate",
+  "full_Erdos634_solved": false,
+  "macros": null
+}

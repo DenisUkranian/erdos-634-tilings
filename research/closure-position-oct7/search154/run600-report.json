@@ -1,0 +1,14 @@
+{
+"status":"INCOMPLETE",
+"nodes":103897,
+"seconds":600.007,
+"maximum_depth":122,
+"generated_triangles":302684,
+"dead_states":103852,
+"height_bound":[-11,11],
+"root":"empty; every convex-corner fan is covered",
+"N154_decided":false,
+"full_Erdos634_solved":false,
+"rejections":{"6":70,"7":11890,"8":26426,"14":240},
+"solution":[]
+}

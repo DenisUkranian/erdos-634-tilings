@@ -1,0 +1,9 @@
+{
+  "status": "PRUNED_AND_INDEPENDENTLY_REPLAYED",
+  "original_steps": 869546,
+  "retained_steps": 678493,
+  "retained_ones": 18,
+  "unique_rows": 298504,
+  "conflict_row": 70104,
+  "retained_replay": "twolevel154_replay.json"
+}

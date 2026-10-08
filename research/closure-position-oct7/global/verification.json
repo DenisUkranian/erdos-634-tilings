@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "primitive_ordered_triples": 68,
+  "lattice_checks": 544,
+  "bands_k": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "full_Erdos634_solved": false,
+  "scope": "Finite arithmetic regression; no geometric decision of 154 or 4830."
+}

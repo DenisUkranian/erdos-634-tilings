@@ -1,0 +1,115 @@
+{
+  "scope": "EXPLORATORY_FLOATING_CONVEX_RELAXATION",
+  "band": [
+    -22,
+    22
+  ],
+  "history": [
+    {
+      "iteration": 1,
+      "live_variants": 540,
+      "sum_domain_area": 1169779.1252720137,
+      "max_area_loss": 981.7407209006878,
+      "seconds": 1.5070812702178955
+    },
+    {
+      "iteration": 2,
+      "live_variants": 540,
+      "sum_domain_area": 1000738.2883415604,
+      "max_area_loss": 865.6638387833984,
+      "seconds": 3.8004472255706787
+    },
+    {
+      "iteration": 3,
+      "live_variants": 540,
+      "sum_domain_area": 806200.5655608022,
+      "max_area_loss": 805.7962571797195,
+      "seconds": 6.709789752960205
+    },
+    {
+      "iteration": 4,
+      "live_variants": 540,
+      "sum_domain_area": 661833.8531914117,
+      "max_area_loss": 711.1664422476294,
+      "seconds": 9.77603006362915
+    },
+    {
+      "iteration": 5,
+      "live_variants": 540,
+      "sum_domain_area": 527943.1062855626,
+      "max_area_loss": 612.4394626668038,
+      "seconds": 13.165320634841919
+    },
+    {
+      "iteration": 6,
+      "live_variants": 540,
+      "sum_domain_area": 433081.66686828964,
+      "max_area_loss": 521.0036792867791,
+      "seconds": 16.478129386901855
+    },
+    {
+      "iteration": 7,
+      "live_variants": 540,
+      "sum_domain_area": 350312.94779381336,
+      "max_area_loss": 418.8818868126116,
+      "seconds": 20.21121883392334
+    },
+    {
+      "iteration": 8,
+      "live_variants": 540,
+      "sum_domain_area": 298394.80570386077,
+      "max_area_loss": 331.17190124057333,
+      "seconds": 23.81507444381714
+    },
+    {
+      "iteration": 9,
+      "live_variants": 540,
+      "sum_domain_area": 260691.92871775798,
+      "max_area_loss": 225.92268847200705,
+      "seconds": 27.57434368133545
+    },
+    {
+      "iteration": 10,
+      "live_variants": 436,
+      "sum_domain_area": 245341.63418019444,
+      "max_area_loss": 138.7661132642491,
+      "seconds": 30.505778551101685
+    },
+    {
+      "iteration": 11,
+      "live_variants": 264,
+      "sum_domain_area": 242080.09061666203,
+      "max_area_loss": 48.08906499681814,
+      "seconds": 32.133567571640015
+    },
+    {
+      "iteration": 12,
+      "live_variants": 244,
+      "sum_domain_area": 241961.3840063435,
+      "max_area_loss": 11.310248882111182,
+      "seconds": 33.48386311531067
+    },
+    {
+      "iteration": 13,
+      "live_variants": 244,
+      "sum_domain_area": 241947.83905871294,
+      "max_area_loss": 1.451253158380041,
+      "seconds": 34.98619532585144
+    },
+    {
+      "iteration": 14,
+      "live_variants": 244,
+      "sum_domain_area": 241947.56659227784,
+      "max_area_loss": 0.13447713201856004,
+      "seconds": 36.518795013427734
+    },
+    {
+      "iteration": 15,
+      "live_variants": 244,
+      "sum_domain_area": 241947.56077681162,
+      "max_area_loss": 0.001331412522517894,
+      "seconds": 38.016122579574585
+    }
+  ],
+  "not_a_tiling_or_nonexistence_certificate": true
+}

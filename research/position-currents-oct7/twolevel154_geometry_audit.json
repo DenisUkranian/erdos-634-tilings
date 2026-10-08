@@ -1,0 +1,27 @@
+{
+  "status": "EXACT_GEOMETRY_AND_COMPLETENESS_PASS",
+  "lattice_anchors": 56183,
+  "variants": 24,
+  "placements": 873496,
+  "primitive_tile_squared_sides": [
+    49,
+    64,
+    169
+  ],
+  "target_scaled_vertices": [
+    [
+      0,
+      0
+    ],
+    [
+      2002,
+      0
+    ],
+    [
+      637,
+      728
+    ]
+  ],
+  "scale_of_integer_coordinates": 13,
+  "enumeration": "independent Cartesian scan and explicit integer half-plane inequalities"
+}

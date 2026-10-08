@@ -1,0 +1,14 @@
+{
+"status":"INCOMPLETE",
+"nodes_this_run":5441,
+"seconds":30.0066,
+"maximum_depth_this_run":112,
+"prior_dead_states":103852,
+"dead_states":109227,
+"generated_triangles":305734,
+"allowed_support_lengths":[3,8],
+"checkpoint_independently_replayed":false,
+"N154_decided":false,
+"full_Erdos634_solved":false,
+"solution":[]
+}

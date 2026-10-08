@@ -1,0 +1,74 @@
+{
+  "status": "ALL_RETAINED_EXACT_CHECKS_PASS",
+  "scope": "No tiling in the prescribed adjacent short-height band for the fixed 154 candidate; see PROOF.md for the three-height corollary.",
+  "N154_fully_decided": false,
+  "N4830_decided": false,
+  "full_Erdos634_solved": false,
+  "external_referee_review": false,
+  "proof_sha256": "946841daa87f519949d1a882b7ebdb5f1d30aec9f4e897dc7b55f361b8af59e3",
+  "reports": {
+    "twolevel154_geometry_audit.json": {
+      "status": "EXACT_GEOMETRY_AND_COMPLETENESS_PASS",
+      "lattice_anchors": 56183,
+      "variants": 24,
+      "placements": 873496,
+      "primitive_tile_squared_sides": [
+        49,
+        64,
+        169
+      ],
+      "target_scaled_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          2002,
+          0
+        ],
+        [
+          637,
+          728
+        ]
+      ],
+      "scale_of_integer_coordinates": 13,
+      "enumeration": "independent Cartesian scan and explicit integer half-plane inequalities"
+    },
+    "matrix_audit.json": {
+      "status": "EXACT_POSITIONED_CURRENT_MATRIX_PASS",
+      "columns_checked": 873496,
+      "nonzero_entries_checked": 19222288,
+      "rows": 550333,
+      "method": "independent lattice-coordinate gcd, exact sorted signed-atom comparison, independent target boundary"
+    },
+    "twolevel154_replay.json": {
+      "status": "EXACT_PASS",
+      "arithmetic": "integers only",
+      "steps_checked": 678493,
+      "conflict_row": 70104,
+      "rhs": 1,
+      "min": -1,
+      "max": 0
+    },
+    "positive_controls.json": {
+      "status": "EXACT_PASS",
+      "known_positive_control": 88,
+      "tile": [
+        3,
+        5,
+        7
+      ],
+      "short_heights": [
+        0,
+        1
+      ],
+      "pair_checks": 3828,
+      "currents": "exact boundary cancellation",
+      "rejected_controls": [
+        "missing tile",
+        "duplicated tile"
+      ],
+      "attribution": "Reconstructed from repository research/group2-f4/PROOF.md, credits Harries 88 example; not a new 88 tiling"
+    }
+  }
+}

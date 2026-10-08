@@ -1,0 +1,7 @@
+{
+  "status": "EXACT_POSITIONED_CURRENT_MATRIX_PASS",
+  "columns_checked": 873496,
+  "nonzero_entries_checked": 19222288,
+  "rows": 550333,
+  "method": "independent lattice-coordinate gcd, exact sorted signed-atom comparison, independent target boundary"
+}

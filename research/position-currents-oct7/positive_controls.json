@@ -1,0 +1,20 @@
+{
+  "status": "EXACT_PASS",
+  "known_positive_control": 88,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "short_heights": [
+    0,
+    1
+  ],
+  "pair_checks": 3828,
+  "currents": "exact boundary cancellation",
+  "rejected_controls": [
+    "missing tile",
+    "duplicated tile"
+  ],
+  "attribution": "Reconstructed from repository research/group2-f4/PROOF.md, credits Harries 88 example; not a new 88 tiling"
+}

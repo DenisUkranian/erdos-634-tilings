@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "mutation": "flip first forced assignment",
+  "verifier_exit_code": 1,
+  "message": "REJECT: Assignment is not forced by its row"
+}

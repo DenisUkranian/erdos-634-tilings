@@ -1,6 +1,25 @@
 # Reproducibility and verification boundary
 
-**v0.3.0 — 3 October 2026**
+**v0.3.0 — updated 8 October 2026**
+
+## Positional and direction-band additions — 8 October 2026
+
+The [direction-band package](research/closure-position-oct7/README.md) gives
+the written geometric proofs and separate exact checks for the 154 candidate.
+Its current conclusion is 3–5 consecutive occupied heights, not a decision
+of 154. The new nonzero-height population bound comes from supporting-line
+incidence and nonoverlap; formal edge inventories alone do not prove it.
+The package includes independent implementations of the finite inventory
+enumerations and precise commands to reproduce their frozen reports.
+
+These additional commands are separate from the historical coordinator
+below. The small arithmetic checks use the Python standard library. The
+imported full two-height positional certificate has its own reproduction
+pipeline requiring NumPy, SciPy and GNU g++ with C++17; the fresh replay
+checks all 873,496 placements, 19,222,288 matrix entries and 678,493 forced
+assignments. See the [input audit](research/closure-position-oct7/input-audit/AUDIT.md).
+The compiled search and 4830 macro probes remain exploratory; a resource
+limit is recorded as `INCOMPLETE`, never as a negative certificate.
 
 ## Final synthesis additions — 7 October 2026
 

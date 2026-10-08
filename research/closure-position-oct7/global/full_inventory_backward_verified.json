@@ -1,0 +1,1517 @@
+{
+  "status": "PASS",
+  "method": "Exact geometry-derived reverse-height dynamic program",
+  "scope": "Formal signed-direction inventories only; positions are not tested",
+  "full_Erdos634_solved": false,
+  "case154_solved": false,
+  "resource_cutoffs": false,
+  "excluded_supports": 42,
+  "positive_formal_controls": 8,
+  "producer_report_sha256": "b45f9aaa57377237aa8346ad5da22e13a6f6f72012efea1e680f933bf8ff0b5b",
+  "source_sha256": "11a06fca033ccc36d7ca05223e4dfdc18dd05c6402a60dfb6f87ecd2cec7eee2",
+  "seconds": 10.65885,
+  "derived_edge_table": [
+    [
+      [
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          -1,
+          3,
+          13
+        ],
+        [
+          0,
+          5,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          -1,
+          4,
+          13
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          -1,
+          5,
+          13
+        ],
+        [
+          0,
+          1,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          8
+        ],
+        [
+          -1,
+          0,
+          13
+        ],
+        [
+          0,
+          2,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          -1,
+          1,
+          13
+        ],
+        [
+          0,
+          3,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          -1,
+          2,
+          13
+        ],
+        [
+          0,
+          4,
+          7
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          1,
+          2,
+          13
+        ],
+        [
+          0,
+          5,
+          8
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          1,
+          3,
+          13
+        ],
+        [
+          0,
+          0,
+          8
+        ]
+      ],
+      [
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          1,
+          4,
+          13
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          1,
+          5,
+          13
+        ],
+        [
+          0,
+          2,
+          8
+        ]
+      ],
+      [
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          1,
+          0,
+          13
+        ],
+        [
+          0,
+          3,
+          8
+        ]
+      ],
+      [
+        [
+          0,
+          5,
+          7
+        ],
+        [
+          1,
+          1,
+          13
+        ],
+        [
+          0,
+          4,
+          8
+        ]
+      ]
+    ]
+  ],
+  "negative_records": [
+    {
+      "support": [
+        -11,
+        0
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 0,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -10,
+        1
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 1,
+          "states": 18
+        },
+        {
+          "height": 0,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -9,
+        2
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 2,
+          "states": 18
+        },
+        {
+          "height": 1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -8,
+        3
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 3,
+          "states": 18
+        },
+        {
+          "height": 2,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -7,
+        4
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 4,
+          "states": 18
+        },
+        {
+          "height": 3,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -6,
+        5
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 5,
+          "states": 18
+        },
+        {
+          "height": 4,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -5,
+        6
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 6,
+          "states": 18
+        },
+        {
+          "height": 5,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -4,
+        7
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 7,
+          "states": 18
+        },
+        {
+          "height": 6,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -3,
+        8
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 8,
+          "states": 18
+        },
+        {
+          "height": 7,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -2,
+        9
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 9,
+          "states": 18
+        },
+        {
+          "height": 8,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -1,
+        10
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 10,
+          "states": 18
+        },
+        {
+          "height": 9,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        0,
+        11
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 11,
+          "states": 18
+        },
+        {
+          "height": 10,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -10,
+        0
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 0,
+          "states": 18
+        },
+        {
+          "height": -1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -9,
+        1
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 1,
+          "states": 121
+        },
+        {
+          "height": 0,
+          "states": 37
+        },
+        {
+          "height": -1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -8,
+        2
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 2,
+          "states": 121
+        },
+        {
+          "height": 1,
+          "states": 72
+        },
+        {
+          "height": 0,
+          "states": 2
+        },
+        {
+          "height": -1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -7,
+        3
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 3,
+          "states": 121
+        },
+        {
+          "height": 2,
+          "states": 72
+        },
+        {
+          "height": 1,
+          "states": 1
+        },
+        {
+          "height": 0,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -6,
+        4
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 4,
+          "states": 121
+        },
+        {
+          "height": 3,
+          "states": 72
+        },
+        {
+          "height": 2,
+          "states": 1
+        },
+        {
+          "height": 1,
+          "states": 18
+        },
+        {
+          "height": 0,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -5,
+        5
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 5,
+          "states": 121
+        },
+        {
+          "height": 4,
+          "states": 72
+        },
+        {
+          "height": 3,
+          "states": 1
+        },
+        {
+          "height": 2,
+          "states": 18
+        },
+        {
+          "height": 1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -4,
+        6
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 6,
+          "states": 121
+        },
+        {
+          "height": 5,
+          "states": 72
+        },
+        {
+          "height": 4,
+          "states": 1
+        },
+        {
+          "height": 3,
+          "states": 18
+        },
+        {
+          "height": 2,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -3,
+        7
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 7,
+          "states": 121
+        },
+        {
+          "height": 6,
+          "states": 72
+        },
+        {
+          "height": 5,
+          "states": 1
+        },
+        {
+          "height": 4,
+          "states": 18
+        },
+        {
+          "height": 3,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -2,
+        8
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 8,
+          "states": 121
+        },
+        {
+          "height": 7,
+          "states": 72
+        },
+        {
+          "height": 6,
+          "states": 1
+        },
+        {
+          "height": 5,
+          "states": 18
+        },
+        {
+          "height": 4,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -1,
+        9
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 9,
+          "states": 121
+        },
+        {
+          "height": 8,
+          "states": 72
+        },
+        {
+          "height": 7,
+          "states": 1
+        },
+        {
+          "height": 6,
+          "states": 18
+        },
+        {
+          "height": 5,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        0,
+        10
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 10,
+          "states": 121
+        },
+        {
+          "height": 9,
+          "states": 72
+        },
+        {
+          "height": 8,
+          "states": 1
+        },
+        {
+          "height": 7,
+          "states": 18
+        },
+        {
+          "height": 6,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -9,
+        0
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 0,
+          "states": 121
+        },
+        {
+          "height": -1,
+          "states": 20
+        },
+        {
+          "height": -2,
+          "states": 18
+        },
+        {
+          "height": -3,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -8,
+        1
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 1,
+          "states": 411
+        },
+        {
+          "height": 0,
+          "states": 299
+        },
+        {
+          "height": -1,
+          "states": 45
+        },
+        {
+          "height": -2,
+          "states": 1
+        },
+        {
+          "height": -3,
+          "states": 18
+        },
+        {
+          "height": -4,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -7,
+        2
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 2,
+          "states": 411
+        },
+        {
+          "height": 1,
+          "states": 513
+        },
+        {
+          "height": 0,
+          "states": 74
+        },
+        {
+          "height": -1,
+          "states": 20
+        },
+        {
+          "height": -2,
+          "states": 18
+        },
+        {
+          "height": -3,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -6,
+        3
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 3,
+          "states": 411
+        },
+        {
+          "height": 2,
+          "states": 513
+        },
+        {
+          "height": 1,
+          "states": 73
+        },
+        {
+          "height": 0,
+          "states": 18
+        },
+        {
+          "height": -1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -5,
+        4
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 4,
+          "states": 411
+        },
+        {
+          "height": 3,
+          "states": 513
+        },
+        {
+          "height": 2,
+          "states": 73
+        },
+        {
+          "height": 1,
+          "states": 121
+        },
+        {
+          "height": 0,
+          "states": 37
+        },
+        {
+          "height": -1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -4,
+        5
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 5,
+          "states": 411
+        },
+        {
+          "height": 4,
+          "states": 513
+        },
+        {
+          "height": 3,
+          "states": 73
+        },
+        {
+          "height": 2,
+          "states": 121
+        },
+        {
+          "height": 1,
+          "states": 72
+        },
+        {
+          "height": 0,
+          "states": 2
+        },
+        {
+          "height": -1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -3,
+        6
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 6,
+          "states": 411
+        },
+        {
+          "height": 5,
+          "states": 513
+        },
+        {
+          "height": 4,
+          "states": 73
+        },
+        {
+          "height": 3,
+          "states": 121
+        },
+        {
+          "height": 2,
+          "states": 72
+        },
+        {
+          "height": 1,
+          "states": 1
+        },
+        {
+          "height": 0,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -2,
+        7
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 7,
+          "states": 411
+        },
+        {
+          "height": 6,
+          "states": 513
+        },
+        {
+          "height": 5,
+          "states": 73
+        },
+        {
+          "height": 4,
+          "states": 121
+        },
+        {
+          "height": 3,
+          "states": 72
+        },
+        {
+          "height": 2,
+          "states": 1
+        },
+        {
+          "height": 1,
+          "states": 18
+        },
+        {
+          "height": 0,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -1,
+        8
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 8,
+          "states": 411
+        },
+        {
+          "height": 7,
+          "states": 513
+        },
+        {
+          "height": 6,
+          "states": 73
+        },
+        {
+          "height": 5,
+          "states": 121
+        },
+        {
+          "height": 4,
+          "states": 72
+        },
+        {
+          "height": 3,
+          "states": 1
+        },
+        {
+          "height": 2,
+          "states": 18
+        },
+        {
+          "height": 1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        0,
+        9
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 9,
+          "states": 411
+        },
+        {
+          "height": 8,
+          "states": 513
+        },
+        {
+          "height": 7,
+          "states": 73
+        },
+        {
+          "height": 6,
+          "states": 121
+        },
+        {
+          "height": 5,
+          "states": 72
+        },
+        {
+          "height": 4,
+          "states": 1
+        },
+        {
+          "height": 3,
+          "states": 18
+        },
+        {
+          "height": 2,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -8,
+        0
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 0,
+          "states": 410
+        },
+        {
+          "height": -1,
+          "states": 170
+        },
+        {
+          "height": -2,
+          "states": 147
+        },
+        {
+          "height": -3,
+          "states": 72
+        },
+        {
+          "height": -4,
+          "states": 1
+        },
+        {
+          "height": -5,
+          "states": 18
+        },
+        {
+          "height": -6,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -7,
+        1
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 1,
+          "states": 993
+        },
+        {
+          "height": 0,
+          "states": 1225
+        },
+        {
+          "height": -1,
+          "states": 317
+        },
+        {
+          "height": -2,
+          "states": 73
+        },
+        {
+          "height": -3,
+          "states": 121
+        },
+        {
+          "height": -4,
+          "states": 72
+        },
+        {
+          "height": -5,
+          "states": 1
+        },
+        {
+          "height": -6,
+          "states": 18
+        },
+        {
+          "height": -7,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -6,
+        2
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 2,
+          "states": 993
+        },
+        {
+          "height": 1,
+          "states": 1889
+        },
+        {
+          "height": 0,
+          "states": 467
+        },
+        {
+          "height": -1,
+          "states": 170
+        },
+        {
+          "height": -2,
+          "states": 147
+        },
+        {
+          "height": -3,
+          "states": 72
+        },
+        {
+          "height": -4,
+          "states": 1
+        },
+        {
+          "height": -5,
+          "states": 18
+        },
+        {
+          "height": -6,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -5,
+        3
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 3,
+          "states": 993
+        },
+        {
+          "height": 2,
+          "states": 1889
+        },
+        {
+          "height": 1,
+          "states": 513
+        },
+        {
+          "height": 0,
+          "states": 158
+        },
+        {
+          "height": -1,
+          "states": 20
+        },
+        {
+          "height": -2,
+          "states": 18
+        },
+        {
+          "height": -3,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -4,
+        4
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 4,
+          "states": 993
+        },
+        {
+          "height": 3,
+          "states": 1889
+        },
+        {
+          "height": 2,
+          "states": 513
+        },
+        {
+          "height": 1,
+          "states": 465
+        },
+        {
+          "height": 0,
+          "states": 299
+        },
+        {
+          "height": -1,
+          "states": 45
+        },
+        {
+          "height": -2,
+          "states": 1
+        },
+        {
+          "height": -3,
+          "states": 18
+        },
+        {
+          "height": -4,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -3,
+        5
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 5,
+          "states": 993
+        },
+        {
+          "height": 4,
+          "states": 1889
+        },
+        {
+          "height": 3,
+          "states": 513
+        },
+        {
+          "height": 2,
+          "states": 465
+        },
+        {
+          "height": 1,
+          "states": 513
+        },
+        {
+          "height": 0,
+          "states": 74
+        },
+        {
+          "height": -1,
+          "states": 20
+        },
+        {
+          "height": -2,
+          "states": 18
+        },
+        {
+          "height": -3,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -2,
+        6
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 6,
+          "states": 993
+        },
+        {
+          "height": 5,
+          "states": 1889
+        },
+        {
+          "height": 4,
+          "states": 513
+        },
+        {
+          "height": 3,
+          "states": 465
+        },
+        {
+          "height": 2,
+          "states": 513
+        },
+        {
+          "height": 1,
+          "states": 73
+        },
+        {
+          "height": 0,
+          "states": 18
+        },
+        {
+          "height": -1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -1,
+        7
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 7,
+          "states": 993
+        },
+        {
+          "height": 6,
+          "states": 1889
+        },
+        {
+          "height": 5,
+          "states": 513
+        },
+        {
+          "height": 4,
+          "states": 465
+        },
+        {
+          "height": 3,
+          "states": 513
+        },
+        {
+          "height": 2,
+          "states": 73
+        },
+        {
+          "height": 1,
+          "states": 121
+        },
+        {
+          "height": 0,
+          "states": 37
+        },
+        {
+          "height": -1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        0,
+        8
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 8,
+          "states": 993
+        },
+        {
+          "height": 7,
+          "states": 1889
+        },
+        {
+          "height": 6,
+          "states": 513
+        },
+        {
+          "height": 5,
+          "states": 465
+        },
+        {
+          "height": 4,
+          "states": 513
+        },
+        {
+          "height": 3,
+          "states": 73
+        },
+        {
+          "height": 2,
+          "states": 121
+        },
+        {
+          "height": 1,
+          "states": 72
+        },
+        {
+          "height": 0,
+          "states": 0
+        }
+      ]
+    }
+  ],
+  "positive_records": [
+    {
+      "support": [
+        -7,
+        0
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        -6,
+        1
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        -5,
+        2
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        -4,
+        3
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        -3,
+        4
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        -2,
+        5
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        -1,
+        6
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        0,
+        7
+      ],
+      "population": 154,
+      "status": "PASS"
+    }
+  ]
+}
