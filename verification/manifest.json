@@ -39,8 +39,8 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 25894,
-      "sha256": "d5c3c4cf186dccb80ada9859110d690c3f92ef4d28aac340010bbaa645823b87"
+      "bytes": 26171,
+      "sha256": "abce298b9cce4d6344282b0f7fee8ae2db96ae55ec87b5e740c5c7d0f82a8bb8"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 19572,
@@ -138,6 +138,10 @@
       "bytes": 2765,
       "sha256": "92f1ce471e9b6a1bea6549a533b259fb1e032e2f52ddc8adc056709744605695"
     },
+    "docs/audits/beta-c-on-side-2026-10-08.md": {
+      "bytes": 8651,
+      "sha256": "755d18f9910e341e27b8e0d0c685a71841747bbfb9b3996e6a8dd05906ace132"
+    },
     "docs/audits/construction-322.md": {
       "bytes": 8594,
       "sha256": "45336ea3f6e9a46d53c6200a6966565b54991bd0e8b5c71012fd7cd82caf861e"
@@ -209,6 +213,10 @@
     "docs/audits/source-continuation-2026-10-06.md": {
       "bytes": 4303,
       "sha256": "e652343538a18c19136083c6eefce599ffbfe380a8785c0d937cfcf1b53a4a00"
+    },
+    "docs/audits/theta-scope-2026-10-08.md": {
+      "bytes": 4785,
+      "sha256": "9f76761a2423cf32274ec5f97d8c8dfd21c87cec1629b6f1b7aa4899c9139805"
     },
     "docs/audits/theta.md": {
       "bytes": 11427,

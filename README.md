@@ -1,6 +1,6 @@
 # Erdős Problem 634 — congruent triangle tilings
 
-**Denis Paliy** · Research with ChatGPT assistance · 7 October 2026
+**Denis Paliy** · Research with ChatGPT assistance · 8 October 2026
 
 [Status](STATUS.md) · [Reproduce](REPRODUCIBILITY.md) · [Full-problem roadmap](docs/full-solution-roadmap.md) · [Citation](CITATION.cff)
 
@@ -59,7 +59,7 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 | General scale restrictions and constructive bounds | [Proof](research/general-spectra/PROOF.md), [PDF](research/general-spectra/paper.pdf), [code and data](research/general-spectra/). Small multipliers remain unclassified in general. |
 | Exact construction with 116,640 tiles | Tile (45,32,67), equilateral side 12,960: [macrocertificate](research/general-spectra/construction_116640.json), [all coordinates](research/general-spectra/tiles_116640.jsonl.gz), [checker](research/general-spectra/verify_certificate.py). |
 | Squarefree obstructions and finite candidate reduction | [Proof](research/uniform-reduction/PROOF.md), [PDF](research/uniform-reduction/paper.pdf), [full supplementary package](research/uniform-reduction/). Includes the double-angle scale restriction and limits of linear boundary signatures. N=154 remains incomplete. |
-| All-prime classification candidate | [Manuscript](paper/prime-case-candidate.pdf), [dependencies](docs/prime-case-dependencies.md), [c-relation audit](research/c-relations/audit.md). The [new dependency audit](docs/audits/prime-case-dependency-2026-10-06.md) reconstructs both scale-one inductions without a detected gap; candidate publication status and the formal-verification boundary are unchanged. |
+| All-prime classification candidate | [Manuscript](paper/prime-case-candidate.pdf), [dependencies](docs/prime-case-dependencies.md), [c-relation audit](research/c-relations/audit.md). The [new dependency audit](docs/audits/prime-case-dependency-2026-10-06.md) reconstructs both scale-one inductions without a detected gap; candidate publication status and the formal-verification boundary are unchanged. [8 October focused review](docs/audits/beta-c-on-side-2026-10-08.md) explains the permitted c/a exchanges and gives a direct both-c-on-equal-sides contradiction conditional on reverse-apex extraction; [shape terminology and theta scope](docs/audits/theta-scope-2026-10-08.md). |
 | Construction with 322 tiles and an infinite family | [Two-piece construction](docs/two-piece-construction.md), [PDF](paper/two-piece-construction.pdf), [certificate](data/tiling-322.json). |
 | All five rational shapes at sufficiently large scales | [Two-annulus theorem](docs/universal-rational-scales.md) and [explicit seeds](docs/explicit-theta-seeds.md). Bounds depend on the fixed tile. |
 | Complete fixed-tile analysis for (2,3,4) | [Classification](docs/first-tile-classification.md), including the [75-tile construction](docs/theta-75-construction.md). Prior results are credited. |
