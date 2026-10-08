@@ -2,6 +2,35 @@
 
 **v0.3.0 — updated 8 October 2026**
 
+## General F3 and adjacent-W constructions — 8 October 2026
+
+The [current package](research/universal-closure-oct8/README.md) includes
+a direct 4830 construction and two parameterized geometric theorems.
+The positive witnesses can be regenerated and checked without a solver:
+
+```sh
+python research/universal-closure-oct8/f3-general/construct_f3_mixed.py
+python research/group2-mixed-gamma/verify_spatial.py research/universal-closure-oct8/f3-general/f3_4830_macro.json
+python research/universal-closure-oct8/verify_4830_boundary.py research/universal-closure-oct8/f3-general/f3_4830_integer.json /tmp/4830-boundary-check.json
+python research/universal-closure-oct8/global/check_f3_uniform_cone.py
+python research/universal-closure-oct8/group1/check_adjacent_symbolic.py
+python research/universal-closure-oct8/group1/adjacent_formula.py --u 3 --output /tmp/W575-formula.json
+python research/universal-closure-oct8/group1/verify_general_geometry.py /tmp/W575-formula.json
+```
+
+The uniform F3 result uses its written large-size estimate and all 710
+integer witnesses in the complete finite remainder. The adjacent-W result
+uses a positive dissection proved for every parameter; its symbolic checker
+verifies polynomial identities and signs on the entire range. The finite
+unit-coordinate checks do not supply an extrapolation premise.
+
+The separate complete135 position reduction and the final SAT-certificate
+gate are documented in the package. A solver's UNSAT verdict, an unfinished
+proof-checking run, or an LP timeout alone is not a negative certificate.
+These targeted checks are additional to the historical suite below; the
+full historical coordinator is not claimed to run every new compiled
+program automatically.
+
 ## Complete60/154 certificates and240/375 constructions - 8 October2026
 
 The [new package](research/final-closure-oct8/README.md) supersedes the earlier

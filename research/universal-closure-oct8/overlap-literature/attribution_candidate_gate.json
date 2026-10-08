@@ -1,0 +1,360 @@
+[
+  {
+    "N": 14,
+    "classical": null,
+    "independent_enumeration_agrees": true,
+    "candidates": [
+      {
+        "branch": "G1-W",
+        "tile": [
+          6,
+          5,
+          9
+        ],
+        "target": [
+          27,
+          28,
+          15
+        ],
+        "n": 14,
+        "parameters": [
+          2,
+          3
+        ],
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "N": 56,
+    "classical": null,
+    "independent_enumeration_agrees": true,
+    "candidates": [
+      {
+        "branch": "E120",
+        "tile": [
+          7,
+          8,
+          13
+        ],
+        "target": [
+          56,
+          56,
+          56
+        ],
+        "n": 56,
+        "parameters": [
+          7,
+          8
+        ],
+        "multiplier": 1
+      },
+      {
+        "branch": "G1-W",
+        "tile": [
+          6,
+          5,
+          9
+        ],
+        "target": [
+          54,
+          56,
+          30
+        ],
+        "n": 56,
+        "parameters": [
+          2,
+          3
+        ],
+        "multiplier": 2
+      }
+    ]
+  },
+  {
+    "N": 224,
+    "classical": null,
+    "independent_enumeration_agrees": null,
+    "candidates": [
+      {
+        "branch": "E120",
+        "tile": [
+          7,
+          8,
+          13
+        ],
+        "target": [
+          112,
+          112,
+          112
+        ],
+        "n": 224,
+        "parameters": [
+          7,
+          8
+        ],
+        "multiplier": 2
+      },
+      {
+        "branch": "G1-W",
+        "tile": [
+          6,
+          5,
+          9
+        ],
+        "target": [
+          108,
+          112,
+          60
+        ],
+        "n": 224,
+        "parameters": [
+          2,
+          3
+        ],
+        "multiplier": 4
+      },
+      {
+        "branch": "G1-theta",
+        "tile": [
+          45,
+          56,
+          81
+        ],
+        "target": [
+          1008,
+          1008,
+          560
+        ],
+        "n": 224,
+        "parameters": [
+          5,
+          9
+        ],
+        "multiplier": 2
+      },
+      {
+        "branch": "G1-theta",
+        "tile": [
+          195,
+          56,
+          225
+        ],
+        "target": [
+          1680,
+          1680,
+          1456
+        ],
+        "n": 224,
+        "parameters": [
+          13,
+          15
+        ],
+        "multiplier": 2
+      },
+      {
+        "branch": "double-angle",
+        "tile": [
+          25,
+          56,
+          45
+        ],
+        "target": [
+          560,
+          560,
+          1008
+        ],
+        "n": 224,
+        "parameters": [
+          5,
+          9
+        ],
+        "multiplier": 2
+      },
+      {
+        "branch": "double-angle",
+        "tile": [
+          169,
+          56,
+          195
+        ],
+        "target": [
+          1456,
+          1456,
+          1680
+        ],
+        "n": 224,
+        "parameters": [
+          13,
+          15
+        ],
+        "multiplier": 2
+      }
+    ]
+  },
+  {
+    "N": 368,
+    "classical": null,
+    "independent_enumeration_agrees": null,
+    "candidates": [
+      {
+        "branch": "G1-W",
+        "tile": [
+          12,
+          7,
+          16
+        ],
+        "target": [
+          256,
+          276,
+          112
+        ],
+        "n": 368,
+        "parameters": [
+          3,
+          4
+        ],
+        "multiplier": 4
+      },
+      {
+        "branch": "G1-beta",
+        "tile": [
+          6,
+          5,
+          9
+        ],
+        "target": [
+          108,
+          108,
+          184
+        ],
+        "n": 368,
+        "parameters": [
+          2,
+          3
+        ],
+        "multiplier": 4
+      },
+      {
+        "branch": "G1-theta",
+        "tile": [
+          132,
+          23,
+          144
+        ],
+        "target": [
+          1104,
+          1104,
+          1012
+        ],
+        "n": 368,
+        "parameters": [
+          11,
+          12
+        ],
+        "multiplier": 4
+      },
+      {
+        "branch": "double-angle",
+        "tile": [
+          121,
+          23,
+          132
+        ],
+        "target": [
+          1012,
+          1012,
+          1104
+        ],
+        "n": 368,
+        "parameters": [
+          11,
+          12
+        ],
+        "multiplier": 4
+      }
+    ]
+  },
+  {
+    "N": 240,
+    "classical": null,
+    "independent_enumeration_agrees": null,
+    "candidates": [
+      {
+        "branch": "E120",
+        "tile": [
+          3,
+          5,
+          7
+        ],
+        "target": [
+          60,
+          60,
+          60
+        ],
+        "n": 240,
+        "parameters": [
+          3,
+          5
+        ],
+        "multiplier": 4
+      },
+      {
+        "branch": "G1-theta",
+        "tile": [
+          4,
+          15,
+          16
+        ],
+        "target": [
+          240,
+          240,
+          60
+        ],
+        "n": 240,
+        "parameters": [
+          1,
+          4
+        ],
+        "multiplier": 4
+      },
+      {
+        "branch": "G1-theta",
+        "tile": [
+          56,
+          15,
+          64
+        ],
+        "target": [
+          480,
+          480,
+          420
+        ],
+        "n": 240,
+        "parameters": [
+          7,
+          8
+        ],
+        "multiplier": 4
+      },
+      {
+        "branch": "double-angle",
+        "tile": [
+          49,
+          15,
+          56
+        ],
+        "target": [
+          420,
+          420,
+          480
+        ],
+        "n": 240,
+        "parameters": [
+          7,
+          8
+        ],
+        "multiplier": 4
+      }
+    ]
+  }
+]

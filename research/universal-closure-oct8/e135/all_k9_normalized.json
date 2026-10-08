@@ -1,0 +1,93 @@
+{
+  "coordinate_denominator": 5764801,
+  "binary_record": "six little-endian signed64 integers, lexicographically sorted triangle vertices and triangle records",
+  "reference_prefix": "/tmp/e135-k7-center",
+  "reference_count": 246600,
+  "reference_sha256": "7a9182ff37328cc6e5b7c6fe822bbcf529687ecd12a0bc31927e6633d71f715a",
+  "reference_reflection_invariant": true,
+  "reference_by_height": {
+    "-3": 42,
+    "-2": 37110,
+    "-1": 58254,
+    "0": 55788,
+    "1": 58254,
+    "2": 37110,
+    "3": 42
+  },
+  "pools": [
+    {
+      "prefix": "/tmp/e135-rle-k9-center",
+      "count": 246600,
+      "normalized_sha256": "7a9182ff37328cc6e5b7c6fe822bbcf529687ecd12a0bc31927e6633d71f715a",
+      "contained_in_reference": true,
+      "reflection_contained_in_reference": true,
+      "by_height": {
+        "-3": 42,
+        "-2": 37110,
+        "-1": 58254,
+        "0": 55788,
+        "1": 58254,
+        "2": 37110,
+        "3": 42
+      }
+    },
+    {
+      "prefix": "/tmp/e135-rle-k9-offset1",
+      "count": 246600,
+      "normalized_sha256": "7a9182ff37328cc6e5b7c6fe822bbcf529687ecd12a0bc31927e6633d71f715a",
+      "contained_in_reference": true,
+      "reflection_contained_in_reference": true,
+      "by_height": {
+        "-3": 42,
+        "-2": 37110,
+        "-1": 58254,
+        "0": 55788,
+        "1": 58254,
+        "2": 37110,
+        "3": 42
+      }
+    },
+    {
+      "prefix": "/tmp/e135-rle-k9-offset2",
+      "count": 246558,
+      "normalized_sha256": "54cca696af5c2dcea84dac8a951d07077da37cd0e3714f3cd53d116ac476e2c1",
+      "contained_in_reference": true,
+      "reflection_contained_in_reference": true,
+      "by_height": {
+        "-2": 37110,
+        "-1": 58254,
+        "0": 55788,
+        "1": 58254,
+        "2": 37110,
+        "3": 42
+      }
+    },
+    {
+      "prefix": "/tmp/e135-rle-k9-offset3",
+      "count": 186798,
+      "normalized_sha256": "79eadf06ada4a19554da5f0484f43719d8e5461d4e01e805931e322c7c945d5b",
+      "contained_in_reference": true,
+      "reflection_contained_in_reference": true,
+      "by_height": {
+        "-1": 40641,
+        "0": 51198,
+        "1": 57807,
+        "2": 37110,
+        "3": 42
+      }
+    },
+    {
+      "prefix": "/tmp/e135-rle-k9-edge",
+      "count": 83163,
+      "normalized_sha256": "bbad63d75d7da88d39949f4db5ef967da4d5ca41d3cfa77b280baa3dba2bc267",
+      "contained_in_reference": true,
+      "reflection_contained_in_reference": true,
+      "by_height": {
+        "0": 19125,
+        "1": 31929,
+        "2": 32067,
+        "3": 42
+      }
+    }
+  ]
+}

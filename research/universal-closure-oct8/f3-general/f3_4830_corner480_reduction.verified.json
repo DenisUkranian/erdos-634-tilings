@@ -1,0 +1,10 @@
+{
+  "status": "PASS_CONDITIONAL_REDUCTION",
+  "sha256": "f6ec1da5aeab9d3d52a4c17637d800d414520a6befb449ced8acaffbf3c78085",
+  "tiles": 4350,
+  "omitted_tiles": 480,
+  "supporting_lines": 422,
+  "nonzero_boundary_intervals": 0,
+  "positive_current_partition": true,
+  "claims_omitted_quad_is_tilable": false
+}

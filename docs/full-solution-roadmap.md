@@ -1,5 +1,20 @@
 # What would constitute a complete solution of Erdős problem 634?
 
+**8 October update:** [4830 is positively solved](../research/universal-closure-oct8/f3-general/MIXED_CORNER_THEOREM.md), and the ordered F3 sector now extends to [0<a/b<2725/1139](../research/universal-closure-oct8/global/F3_UNIFORM_CONE.md) at every multiplier. The dated roadmap below records the preceding attempts. Its historical references to unresolved 4830 are superseded. [135 is also excluded by a complete independently checked certificate](../research/universal-closure-oct8/global/GLOBAL_135_PROOF.md), closing the entire class `15m²` exactly for `m>=4`. General Erdős 634 remains open in this work.
+
+The additional [uniform W dissection](../research/universal-closure-oct8/group1-adjacent/PROOF.md)
+constructs every `t²(t²−2)`, integer `t>=4`, by proving a parameterized
+positive partition. It supplies a missing scale for every adjacent tile
+parameter pair, but does not determine all scales for general W tiles.
+
+The [new all-integer gap audit](../research/universal-closure-oct8/global/ALL_N_GAP_AUDIT.md)
+checks an infinite F3-only arithmetic front with unbounded side ratio.
+Its first member14430 has a unique ordered primitive candidate
+`(56,9,61)` at scale one, outside both proved corner criteria. Changing
+the tile or branch cannot bypass that case. Its realizability remains
+undecided here; the audit does not claim infinitely many globally
+undecided counts from branch isolation alone.
+
 **Assessment of this repository, updated 7 October 2026 — not a claim that every remaining subproblem is new or open in the literature.**
 
 ## The actual quantifiers

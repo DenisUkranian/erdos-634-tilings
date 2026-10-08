@@ -1,0 +1,19 @@
+{
+  "status": "Time limit reached",
+  "variables": 246600,
+  "rows": 247771,
+  "nonzeros": 1726200,
+  "selected": 0,
+  "count": 135,
+  "seconds": 173.82450945299934,
+  "solver": "ipm",
+  "highs_version": "1.15.1",
+  "exact_certificate": false,
+  "global_E135_decided": false,
+  "total_seconds": 173.82535389900295,
+  "configured_solver_time_limit_seconds": 120,
+  "threads": 1,
+  "ipm_iterations": 5,
+  "source_model_sha256": "d3a8d74f65c2d78c6ea0072628c51758d102bcc171fc94d3a1bb1ecdd011501e",
+  "interpretation": "INCOMPLETE: no feasibility decision and no exact negative certificate."
+}

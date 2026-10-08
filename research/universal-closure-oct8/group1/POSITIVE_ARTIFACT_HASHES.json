@@ -1,0 +1,21 @@
+{
+  "PROOF.md": "ca9b8b026b21820ca55188c296da5d0b155d892fd35a34af23c379ac38b9da7b",
+  "beta_lift.py": "fd489823fc491a97f7de1e07eed7551ed8b6bc8c10ff212f8bd1f76ad71729df",
+  "verify_geometry.py": "d9c9ed79c31c4ea0c134c8de7d0dac45903a4cf6587d7c97559a6c5b87d4f7a6",
+  "W224_m3_p1.certificate.json": "8928c45890a05d8e68e8477d453b790d0f342757ed7a0e4ce01d1a72cecbe341",
+  "B368_scale4.certificate.json": "5c23d41bfa1c6ff83a4122a1729aaf66fe36139cdfee3e1282de05471cc91e19",
+  "verify_general_geometry.py": "9e97888d2f153ccd8ec1137c10ac9d744e8fcc8b799fe61a47865bc57e644c59",
+  "W575_adjacent.certificate.json": "41b7d32fa231ff2649cf99744dbade615521e04b08845a1adf4b17be5136f74a",
+  "W1224_adjacent.certificate.json": "901e7fd06cfa1422f9f48e3ad8da0d1aea0309e0a0de4ea51d11062301ea0cc3",
+  "ADJACENT_MACRO_REDUCTION.md": "0f61c30e2611e2598466bd49b06b90713f3ba3acbbeeb80de54805857c353700",
+  "adjacent_macro_search.py": "a6fae8aae2eb4376d1e109fe75bd861cd3f0255c9ebde0ef02dedd2f4bf3b46c",
+  "adjacent_formula.py": "2a981697b48c27a796f0f634d48435ece577248a564e916205108935d25ca403",
+  "check_adjacent_symbolic.py": "bb907772aafed2c2b274cd1e26a55c37077bee021020023e4234b72bad8d82cc",
+  "adjacent_symbolic_verified.json": "8c61d3c84d19931a8e52c827ed1e763d66d493068b17b63a816447261685ff6c",
+  "ADJACENT_UNIVERSAL_AUDIT.md": "dcee42a43fab7c684e26d242356d08108a65660a7d5b4e961f7b3dcdecc66de5",
+  "W224_formula.certificate.json": "a97249911b8951b5fec1ca3612514ab7d80aee4deed35a6642eac6b5a0e7a1bf",
+  "W575_formula.certificate.json": "1288049d654ac166e4f4fce3bd1606a6ff54735f5092d34d8c32c28d264c703c",
+  "W1224_formula.certificate.json": "d9e799f3c66d04d6ed29fb7df39d1a1408e92db6a791ece6facb427f47c872e0",
+  "W2303_formula.certificate.json": "62ef3e5294f50066404985d75e5f3ec10ec68401847927241554a1ffae08a550",
+  "../group1-adjacent/PROOF.md": "9e2446be6647ad38bee732838392be9bd9f6bc52bc44d4f45aa13f4f88c1dba6"
+}

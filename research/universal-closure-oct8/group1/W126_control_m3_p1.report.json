@@ -1,0 +1,23 @@
+{
+  "scope": "All contained positions in prescribed edge-height band only",
+  "u": 2,
+  "v": 3,
+  "scale": 3,
+  "tile_count": 126,
+  "edge_band": [
+    -3,
+    1
+  ],
+  "whole_W56_decided": false,
+  "anchors": 102250,
+  "orientations": 8,
+  "placements": 557172,
+  "rows": 500915,
+  "forced_assignments": 556680,
+  "forced_one": 36,
+  "unknown": 492,
+  "propagation_conflict": null,
+  "solver_status": "OPTIMAL",
+  "status": "TILING_CANDIDATE_REQUIRES_GEOMETRIC_REPLAY",
+  "seconds": 9.50313252200067
+}

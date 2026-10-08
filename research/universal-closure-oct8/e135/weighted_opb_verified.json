@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "variables": 197124,
+  "current_equalities": 166392,
+  "total_equalities": 166393,
+  "original_tile_count": 135,
+  "original_variables": 246600,
+  "original_variable_fixed_counts": {
+    "-1": 236796,
+    "0": 9804
+  },
+  "count_constant": 0,
+  "nonzero_count_weights": 197124,
+  "count_weight_range": [
+    1,
+    14
+  ],
+  "all_repeated_literal_multiplicities_preserved": true,
+  "all_opb_equalities_literally_compared": true,
+  "original_tile_count_reconstructed_from_affine_dsu_map": true,
+  "largest_input_row_l1_bound": 236796,
+  "sha256": {
+    "/tmp/e135-dsu.model.txt": "b664ea726adf74ec01054e7e3d3d193ecbb4a3bbee7a06ef7a64cfd23ccc7bc9",
+    "/tmp/e135-dsu.map.txt": "80566a4a6a902ba14755d58908541552f86b241308a35fbc98dc6cede0584ea4",
+    "/tmp/e135-dsu-count135.opb": "9ed834b4652165c152404367a45ed1c1bb8884e69cfebc5af9e1941ffadc3564"
+  },
+  "unsatisfiability_checked": false
+}

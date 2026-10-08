@@ -1,0 +1,114 @@
+{
+  "status": "VERIFIED_UNSAT",
+  "scope": "Complete residual Boolean endpoint-current model for N135, after all five global nine-height bands and reflections have been reduced into the common 246600-placement pool.",
+  "solver": {
+    "command": [
+      "/tmp/erdos-cadical-lrat/build/cadical",
+      "--lrat",
+      "--no-binary",
+      "--factor=0",
+      "-t",
+      "2400",
+      "/tmp/e135-k7.cnf",
+      "/tmp/e135-k7-direct.lrat"
+    ],
+    "exit_code": 20,
+    "elapsed_seconds": 998.0065639019012,
+    "proof_bytes": 1944819324,
+    "independently_checked": true,
+    "independent_check_report": "direct_lrat_checked.json",
+    "annotation": "Solver run followed by complete independent LRAT verification; see the separate checker report and aggregate certificate."
+  },
+  "checker": {
+    "checker_exit": 0,
+    "status": "VERIFIED",
+    "proof_bytes_streamed": 1944819324,
+    "elapsed_seconds": 931.443391084671,
+    "log": "/tmp/e135-k7-direct-lrat-check.log"
+  },
+  "solver_commit": "7b99c07f0bcab5824a5a3ce62c7066554017f641",
+  "checker_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+  "cnf_variables": 5925966,
+  "cnf_clauses": 12154716,
+  "files": {
+    "cnf": {
+      "path": "/tmp/e135-k7.cnf",
+      "bytes": 259853842,
+      "sha256": "5eba9cd04914c8cc9ee9e7ca6299ee8a90f766b6cbf11c9e17c09c2a2e13c54d"
+    },
+    "lrat": {
+      "path": "/tmp/e135-k7-direct.lrat",
+      "bytes": 1944819324,
+      "sha256": "78953bc1c44275f878eb2428454a3476042de1ae4b247dd5a8f77e2ee27a704a"
+    },
+    "endpoint_model": {
+      "path": "/tmp/e135-k7-center.model.txt",
+      "bytes": 15775256,
+      "sha256": "d3a8d74f65c2d78c6ea0072628c51758d102bcc171fc94d3a1bb1ecdd011501e"
+    },
+    "reference_geometry": {
+      "path": "/tmp/e135-k7-center.remaining.txt",
+      "bytes": 3205168,
+      "sha256": "5a8d8aa1ea52339339b9ac0f63707941a2fedcf244d59d2c012aac274a13cf06"
+    },
+    "reference_metadata": {
+      "path": "/tmp/e135-k7-center.json",
+      "bytes": 363,
+      "sha256": "185e040eb3c063be477d781b6200c6f4e27700e9be6baa3166003631be87ed47"
+    },
+    "solver_log": {
+      "path": "/workspace/scratch/12ca7a077497/erdos-634-tilings/research/universal-closure-oct8/global/direct_lrat_solver.log.txt",
+      "bytes": 37851,
+      "sha256": "cdd4d0486d07afbf905d630b5246f5f56a261ac1e2b5aa788bb73eba06b86812"
+    },
+    "checker_log": {
+      "path": "/workspace/scratch/12ca7a077497/erdos-634-tilings/research/universal-closure-oct8/global/direct_lrat_checker.log.txt",
+      "bytes": 636,
+      "sha256": "f1bd6092c0612c637b7328467882e619e83b0ab1870c6201de047e0dff9ea04b"
+    },
+    "checker_source": {
+      "path": "/tmp/634-drat-trim/lrat-check.c",
+      "bytes": 17682,
+      "sha256": "bf07c2ac96b9035da1ebcc578cb95e956a2b795629d613154cdb307f8a8f4a95"
+    },
+    "reproduction_driver": {
+      "path": "/workspace/scratch/12ca7a077497/erdos-634-tilings/research/universal-closure-oct8/global/reproduce_direct_lrat.py",
+      "bytes": 2446,
+      "sha256": "c077780f9e6b8d317d48c7cfada471af01054a76f3d743712271c08c970bba3f"
+    },
+    "controls": {
+      "path": "/workspace/scratch/12ca7a077497/erdos-634-tilings/research/universal-closure-oct8/global/direct_lrat_controls.json",
+      "bytes": 1766,
+      "sha256": "86481ad0d8ad1398425cff0c23e3c0e03f8a75dd90ca5303371719f62c74b6e8"
+    },
+    "file_checker_log": {
+      "path": "/workspace/scratch/12ca7a077497/erdos-634-tilings/research/universal-closure-oct8/global/direct_lrat_file_checker.log.txt",
+      "bytes": 608,
+      "sha256": "a04b4db97f89f32e515cd54c35996be2929a23f081dd9e67d3b373176ee58998"
+    },
+    "physical_geometry": {
+      "path": "/tmp/e135-k7-center.geometry.txt",
+      "bytes": 5493468,
+      "sha256": "b4db01046977c6a8cf8e274f2b03c015af6295c0131073b95bb11a148864c538"
+    }
+  },
+  "file_checker": {
+    "command": [
+      "/tmp/634-lrat-check",
+      "/tmp/e135-k7.cnf",
+      "/tmp/e135-k7-direct.lrat"
+    ],
+    "exit": 0,
+    "verified": true,
+    "wall_seconds": 37.973062555996876,
+    "user_seconds": 36.362081,
+    "system_seconds": 1.590258,
+    "max_rss_KiB": 498048
+  },
+  "observed_resources": {
+    "solver_wall_seconds": 998.0065639019012,
+    "solver_peak_RSS_MB": 4341.67,
+    "standalone_checker_wall_seconds": 37.973062555996876,
+    "standalone_checker_peak_RSS_KiB": 498048
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "single_row_sizes": "0..9",
+  "cases": 216,
+  "assignments_checked": 37871,
+  "independent_solver": "Glucose3",
+  "seconds": 0.5030197980013327,
+  "scope": "Signed-row equivalence and auxiliary namespaces; not source-model completeness or DRAT replay"
+}

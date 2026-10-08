@@ -1,5 +1,16 @@
 # Changelog
 
+## 8 October 2026: a direct 4830 construction and a larger primitive F3 sector
+
+- Prove a positive five-region corner theorem from `b²+2ab−a² in c+<a,b,c>` for `a>2b`.
+- Construct 4830 with tile `(24,11,31)` and target `(961,1155,1426)`; give a direct generator and independent exact geometric certificates. All 4830m² follow.
+- Prove every ordered F3 multiplier throughout `0<a/b<2725/1139`, using a general size bound and 710 checked finite witnesses. Record the exact endpoint failure of this recipe without excluding arbitrary tilings.
+- Add the W224 seed and fixed-tile beta368 extension for `(6,5,9)`, closing its positive W/beta scales from 3 upward. Explicitly credit the older global368 construction.
+- Generalize the W construction to every adjacent parameter pair `u>=2,v=u+1` at scale `u+2`, giving all counts `t²(t²−2)` for integers `t>=4`. Supply an explicit one-tile-exchange dissection and exact symbolic verification for every parameter, rather than inference from finite examples.
+- Exclude135 globally after all five full nine-level position reductions and their independent replay, independent physical-pool/model audits, and a complete native LRAT contradiction verified by a separate checker. This closes the entire square class15: `15m²` is realizable exactly for `m>=4`.
+- Record prior Bonfioli 60/56 results and the precise extent of local reproduction; no priority claim.
+
+
 ## Complete counts60 and154; the240 equilateral seed - 8 October 2026
 
 - Exclude154 globally using its unique arithmetic candidate, a freshly replayed structural bound of five consecutive direction heights, and three complete positional refutations. The independently reconstructed systems cover14,303,325,332 placements; every asserted elimination and final contradiction is checked with exact arithmetic.

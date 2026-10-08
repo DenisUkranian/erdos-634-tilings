@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tile_count": 368,
+  "exact_pair_checks": 67528,
+  "metric": "x^2+2y^2",
+  "positive_areas": true,
+  "correct_sides": true,
+  "contained": true,
+  "area_equality": true,
+  "pairwise_disjoint_interiors": true
+}

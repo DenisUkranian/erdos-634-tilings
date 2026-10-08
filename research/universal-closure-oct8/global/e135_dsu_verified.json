@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "original_variables": 246600,
+  "original_rows": 247770,
+  "reduced_variables": 197124,
+  "reduced_rows": 166392,
+  "verified_trace_steps": 49476,
+  "verified_units": 6649,
+  "verified_equivalences": 42827,
+  "conflict": false,
+  "all_reduced_rows_independently_reconstructed": true
+}

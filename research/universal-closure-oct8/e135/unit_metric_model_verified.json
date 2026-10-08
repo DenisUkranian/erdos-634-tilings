@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "geometry_sha256": "b4db01046977c6a8cf8e274f2b03c015af6295c0131073b95bb11a148864c538",
+  "model_sha256": "d3a8d74f65c2d78c6ea0072628c51758d102bcc171fc94d3a1bb1ecdd011501e",
+  "physical_pool_sha256_at_denominator_7_to_8": "7a9182ff37328cc6e5b7c6fe822bbcf529687ecd12a0bc31927e6633d71f715a",
+  "placements": 246600,
+  "coordinate_frame_physical_denominator": 343,
+  "target_physical_sides": [
+    45,
+    45,
+    45
+  ],
+  "tile_physical_sides": [
+    3,
+    5,
+    7
+  ],
+  "signed_area_ratio": 135,
+  "height_populations": {
+    "-3": 42,
+    "-2": 37110,
+    "-1": 58254,
+    "0": 55788,
+    "1": 58254,
+    "2": 37110,
+    "3": 42
+  },
+  "current_equations": 247770,
+  "signed_nonzero_entries": 1479600,
+  "all_tiles_exact_metric_contained_unique_and_ccw": true,
+  "every_pool_variable_present_once": true,
+  "reference_pool_compared_as_literal_exact_physical_set": true,
+  "independent_equations_compared_as_literal_multiset": true,
+  "all_arithmetic_exact": true,
+  "unsatisfiability_checked": false,
+  "wall_seconds": 14.288
+}

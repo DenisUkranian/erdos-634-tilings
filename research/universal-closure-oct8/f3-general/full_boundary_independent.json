@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "count": 4830,
+  "tile": [
+    24,
+    11,
+    31
+  ],
+  "target_sides": [
+    961,
+    1155,
+    1426
+  ],
+  "denominator": 29791,
+  "positive_orientations": true,
+  "correct_metric": true,
+  "all_vertices_contained": true,
+  "exact_area_equality": true,
+  "exact_boundary_cancellation": true,
+  "line_count": 504,
+  "event_positions": 7982,
+  "certificate_sha256": "1d9eec4d968a60db9e8560fb03f0d6c8235642e1299ce5c9eaee9d6584649d92"
+}

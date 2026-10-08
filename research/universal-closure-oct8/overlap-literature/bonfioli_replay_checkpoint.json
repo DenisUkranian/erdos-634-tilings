@@ -1,0 +1,30 @@
+{
+  "repository": "ElVec1o/erdos_634_proof",
+  "commit": "4bb61193bafa4471f7ba3a35324ae0f70bd2177c",
+  "source_sha256": {
+    "code/engine/cengine_c2.cpp": "fb77594b5c2330aa5f3f7f1854920f1272c0c3123ba0dfd35a8acf06939dc6b3",
+    "code/engine/cengine.cpp": "d558a343d94db3dd3c994581cdec831da3ad2c73687fd52aae181c0e0d3852c8",
+    "code/engine/engine.py": "8be7ab0128a46981fc1aa94e919d2c39a44359a18d4661adc988d77370b45b9e",
+    "code/engine/gen_cevian.py": "22662f035ca76a8b599a9c94bfdcdfde6d8a0bcfd85838120c0f5a898930bee9"
+  },
+  "completed_replays": [
+    {
+      "instance": "M56",
+      "command": "CENGINE_LOG_SECS=15 ./cengine_c2_audit M56 200000",
+      "result": "EXHAUSTED_NO_TILING",
+      "nodes": 156646,
+      "public_source_modified": false
+    },
+    {
+      "instance": "W14",
+      "command": "CENGINE_MRV=1 ./cengine_c2_crosscheck FILE:W14.txt 100000",
+      "result": "EXHAUSTED_NO_TILING",
+      "nodes": 51,
+      "gmp_arithmetic_crosscheck_operations": 1180215,
+      "public_source_modified": false
+    }
+  ],
+  "W56": "INCOMPLETE replay; external manuscript reports complete exhaustion4,890,763nodes",
+  "W56_replays": "INCOMPLETE; all experimental processes explicitly stopped, no negative conclusion",
+  "last_replay_progress": "  [FILE:W56_reflected.txt] nodes=24531 depth=23 max=40 pruneA=247 pruneR=7841 pruneP4=5423 pruneP5=0 t=240s  done=42.781744%  ETA~ 00:05:20"
+}

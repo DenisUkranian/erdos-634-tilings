@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "theorem": "Infinite family is F3-branch-isolated; displayed scale-one corner criteria fail.",
+  "sample_controls": [
+    {
+      "h": 13,
+      "count": 14430,
+      "tile": [
+        56,
+        9,
+        61
+      ],
+      "multiplier": 1,
+      "mixed_residual": -2047,
+      "nested_residual": -2587,
+      "sufficient_F3_tail": 12
+    },
+    {
+      "h": 613,
+      "count": 47529267630,
+      "tile": [
+        125256,
+        409,
+        125461
+      ],
+      "multiplier": 1,
+      "mixed_residual": -15586438847,
+      "nested_residual": -15637751987,
+      "sufficient_F3_tail": 462
+    },
+    {
+      "h": 1213,
+      "count": 725216200830,
+      "tile": [
+        490456,
+        809,
+        490861
+      ],
+      "multiplier": 1,
+      "mixed_residual": -239752875647,
+      "nested_residual": -240149981387,
+      "sufficient_F3_tail": 912
+    },
+    {
+      "h": 1813,
+      "count": 3613316814030,
+      "tile": [
+        1095656,
+        1209,
+        1096261
+      ],
+      "multiplier": 1,
+      "mixed_residual": -1197811312447,
+      "nested_residual": -1199136690787,
+      "sufficient_F3_tail": 1362
+    },
+    {
+      "h": 2413,
+      "count": 11328887107230,
+      "tile": [
+        1940856,
+        1609,
+        1941661
+      ],
+      "multiplier": 1,
+      "mixed_residual": -3760673749247,
+      "nested_residual": -3763797880187,
+      "sufficient_F3_tail": 1812
+    },
+    {
+      "h": 3013,
+      "count": 27525783080430,
+      "tile": [
+        3026056,
+        2009,
+        3027061
+      ],
+      "multiplier": 1,
+      "mixed_residual": -9144852186047,
+      "nested_residual": -9150933549587,
+      "sufficient_F3_tail": 2262
+    },
+    {
+      "h": 3613,
+      "count": 56894660733630,
+      "tile": [
+        4351256,
+        2409,
+        4352461
+      ],
+      "multiplier": 1,
+      "mixed_residual": -18912458622847,
+      "nested_residual": -18922943698987,
+      "sufficient_F3_tail": 2712
+    },
+    {
+      "h": 4213,
+      "count": 105162976066830,
+      "tile": [
+        5916456,
+        2809,
+        5917861
+      ],
+      "multiplier": 1,
+      "mixed_residual": -34971205059647,
+      "nested_residual": -34987828328387,
+      "sufficient_F3_tail": 3162
+    },
+    {
+      "h": 4813,
+      "count": 179094985080030,
+      "tile": [
+        7721656,
+        3209,
+        7723261
+      ],
+      "multiplier": 1,
+      "mixed_residual": -59574403496447,
+      "nested_residual": -59599187437787,
+      "sufficient_F3_tail": 3612
+    },
+    {
+      "h": 5413,
+      "count": 286491743773230,
+      "tile": [
+        9766856,
+        3609,
+        9768661
+      ],
+      "multiplier": 1,
+      "mixed_residual": -95320965933247,
+      "nested_residual": -95356221027187,
+      "sufficient_F3_tail": 4062
+    }
+  ],
+  "fully_gated_count": 14430,
+  "factorization": [
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      37,
+      1
+    ]
+  ],
+  "independent_divisor_pairs": [
+    {
+      "V": 65,
+      "U": 74,
+      "a": 56,
+      "b": 9,
+      "norm": 3721,
+      "square": true,
+      "c": 61,
+      "primitive": true
+    }
+  ],
+  "complete_repository_candidates": [
+    {
+      "branch": "F3-120",
+      "tile": [
+        56,
+        9,
+        61
+      ],
+      "target": [
+        3721,
+        4514,
+        1755
+      ],
+      "n": 14430,
+      "parameters": [
+        56,
+        9
+      ],
+      "multiplier": 1
+    }
+  ],
+  "exclusions_disabled_in_global_gate": "scale-one theta and double-angle removals",
+  "count_14430_geometrically_decided": false,
+  "infinite_candidate_uniqueness_claimed": false,
+  "full_problem_solved": false
+}

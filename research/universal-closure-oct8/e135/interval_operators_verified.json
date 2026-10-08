@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "cases": 10000,
+  "checks_per_case": [
+    "union_with_shift",
+    "difference_with_shift",
+    "deleted_cardinality",
+    "membership",
+    "remove_single_integer"
+  ],
+  "cpp_source_sha256": "42d40cb44569e6d3c99572b63882dc59f5ca6c300e3e7504ff6008e53854da09"
+}

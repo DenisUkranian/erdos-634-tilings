@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "all_compressed_payloads_decoded_and_hashed": true,
+  "files": [
+    {
+      "name": "e135-k7-center.geometry.txt.zst",
+      "bytes": 2042665,
+      "sha256": "0bceb1c4b32f68b589c75df7214163489cad2cd5760c03968f2d9a9ceecd71c7",
+      "decoded_bytes": 5493468,
+      "decoded_sha256": "b4db01046977c6a8cf8e274f2b03c015af6295c0131073b95bb11a148864c538"
+    },
+    {
+      "name": "e135-k7-center.model.txt.zst",
+      "bytes": 4801665,
+      "sha256": "acdbbc79296dcba5f41ff91d4e0e7820cf359eb6a6d969c800491cb912b9c98a",
+      "decoded_bytes": 15775256,
+      "decoded_sha256": "d3a8d74f65c2d78c6ea0072628c51758d102bcc171fc94d3a1bb1ecdd011501e"
+    },
+    {
+      "name": "e135-k7-center.remaining.txt.zst",
+      "bytes": 628131,
+      "sha256": "c6f16201cb4dd023b0f326cafe50bac13a5e8aea417942bedc5bfc6d01ee5313",
+      "decoded_bytes": 3205168,
+      "decoded_sha256": "5a8d8aa1ea52339339b9ac0f63707941a2fedcf244d59d2c012aac274a13cf06"
+    },
+    {
+      "name": "e135-k7-direct.lrat.zst",
+      "bytes": 378500973,
+      "sha256": "4d19142641c1591c614a31fe26ba58470d324dcab933a1550f94208f4ad42d2f",
+      "decoded_bytes": 1944819324,
+      "decoded_sha256": "78953bc1c44275f878eb2428454a3476042de1ae4b247dd5a8f77e2ee27a704a"
+    },
+    {
+      "name": "e135-k7.cnf.zst",
+      "bytes": 55640952,
+      "sha256": "202aa5fc6b25af0865426357468af662788dcc7ea2d581539fa235aa3283c910",
+      "decoded_bytes": 259853842,
+      "decoded_sha256": "5eba9cd04914c8cc9ee9e7ca6299ee8a90f766b6cbf11c9e17c09c2a2e13c54d"
+    }
+  ],
+  "archive": {
+    "path": "/workspace/scratch/12ca7a077497/Erdos634_135_Verified_Certificate.zip",
+    "safe_temporary_copy": "/tmp/Erdos634_135_Verified_Certificate_COMPLETE.zip",
+    "bytes": 441709276,
+    "sha256": "56766bd0d2961dd91cdc1333413ba346011befe2a12bd0d15c940576b8517cd4",
+    "zip_CRC_checked": true,
+    "completed_workspace_copy_hash_matches": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "same_full_4830_tile_set": true,
+  "solver_free_generator": "construct_f3_mixed.py",
+  "original_geometric_certificate": "f3_4830.json",
+  "direct_macro_certificate": "f3_4830_macro.json",
+  "count": 4830
+}

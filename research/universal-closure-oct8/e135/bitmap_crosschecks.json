@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "control",
+      "byte_identical_remaining_pool": true,
+      "sha256": "af7cf129021b21159f62cd9e262d5cef68c8d96f65993cfccf5bd73e12e64bd8"
+    },
+    {
+      "case": "k5",
+      "byte_identical_remaining_pool": true,
+      "sha256": "4d5ad934cffa3faf4218848693a14ae0749edbd178a1c0dcf1753b6c91fb9dcd"
+    },
+    {
+      "case": "k7",
+      "byte_identical_remaining_pool": true,
+      "sha256": "5a8d8aa1ea52339339b9ac0f63707941a2fedcf244d59d2c012aac274a13cf06"
+    }
+  ]
+}

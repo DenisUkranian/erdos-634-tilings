@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/tmp/634-lrat-check",
+    "/tmp/e135-k7.cnf",
+    "/tmp/e135-k7-direct.lrat"
+  ],
+  "exit": 0,
+  "verified": true,
+  "wall_seconds": 37.973062555996876,
+  "user_seconds": 36.362081,
+  "system_seconds": 1.590258,
+  "max_rss_KiB": 498048
+}

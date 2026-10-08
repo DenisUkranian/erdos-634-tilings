@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "count": 480,
+  "pairwise_checks": 114960,
+  "exact_lengths": true,
+  "exact_containment": true,
+  "exact_oriented_boundary": true,
+  "pairwise_interior_disjoint": true,
+  "solutions_in_compressed_model": 3
+}

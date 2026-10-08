@@ -1,0 +1,156 @@
+{
+  "status": "PASS",
+  "covers": [
+    {
+      "name": "E_d5",
+      "coefficients": [
+        5,
+        -15,
+        15
+      ],
+      "modulus": 25,
+      "primitive_pairs_tested": 600,
+      "possible_pairs": []
+    },
+    {
+      "name": "Eprime_d3",
+      "coefficients": [
+        3,
+        30,
+        -25
+      ],
+      "modulus": 9,
+      "primitive_pairs_tested": 72,
+      "possible_pairs": []
+    },
+    {
+      "name": "Eprime_d5",
+      "coefficients": [
+        5,
+        30,
+        -15
+      ],
+      "modulus": 25,
+      "primitive_pairs_tested": 600,
+      "possible_pairs": []
+    },
+    {
+      "name": "Eprime_dm5",
+      "coefficients": [
+        -5,
+        30,
+        15
+      ],
+      "modulus": 25,
+      "primitive_pairs_tested": 600,
+      "possible_pairs": []
+    }
+  ],
+  "descent_images": [
+    [
+      1,
+      3
+    ],
+    [
+      -3,
+      1
+    ]
+  ],
+  "rank_from_two_isogeny_formula": 0,
+  "good_reduction_counts": [
+    {
+      "prime": 7,
+      "count": 4,
+      "affine_points": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ]
+    },
+    {
+      "prime": 17,
+      "count": 18,
+      "affine_points": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          15,
+          10
+        ]
+      ]
+    }
+  ],
+  "rational_torsion_order": 2,
+  "scope": "Finite checks supporting CLASS15_NO_W_F3.md; no geometric135 decision"
+}

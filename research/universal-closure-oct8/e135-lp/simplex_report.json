@@ -1,0 +1,14 @@
+{
+  "status": "Time limit reached",
+  "variables": 246600,
+  "rows": 247771,
+  "nonzeros": 1726200,
+  "selected": 0,
+  "count": 135,
+  "seconds": 181.87860296099825,
+  "solver": "simplex",
+  "highs_version": "1.15.1",
+  "exact_certificate": false,
+  "global_E135_decided": false,
+  "total_seconds": 181.87939419399845
+}

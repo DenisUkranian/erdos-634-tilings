@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tile_count": 575,
+  "exact_pair_checks": 165025,
+  "metric_y_coefficient": 55,
+  "integer_coordinates": true,
+  "congruence": true,
+  "containment": true,
+  "area_equality": true,
+  "pairwise_disjoint_interiors": true
+}

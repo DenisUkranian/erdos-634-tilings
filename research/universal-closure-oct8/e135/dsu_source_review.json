@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "reviewer": "position-model agent independently of presolver author",
+  "new_variable_indices_bijective": true,
+  "representatives_distinct": true,
+  "all_map_indices_parities_and_values_valid": true,
+  "source_review": [
+    "row-conditioned Boolean unit/parity implications",
+    "xor union/find and fixed-value transport",
+    "exact substitution with coefficient multiplicities",
+    "gcd row normalization and full reduced equation reconstruction"
+  ],
+  "sha256": {
+    "research/universal-closure-oct8/global/presolve_boolean_rows.cpp": "8af988114694ab9194da072478614bc6555a408552deb0f62516bfa293c39612",
+    "research/universal-closure-oct8/global/check_boolean_presolve.py": "7d846f35b2dda27a1390262545ade9771c169cf74a6e60cebaf738a6a94b234f",
+    "/tmp/e135-dsu.model.txt": "b664ea726adf74ec01054e7e3d3d193ecbb4a3bbee7a06ef7a64cfd23ccc7bc9",
+    "/tmp/e135-dsu.map.txt": "80566a4a6a902ba14755d58908541552f86b241308a35fbc98dc6cede0584ea4",
+    "/tmp/e135-dsu.trace.txt": "cac23f1551150e3ad37c0e30462ab054db60e312429259cb1d74e7c934ba7da8"
+  },
+  "unsatisfiability_checked": false
+}

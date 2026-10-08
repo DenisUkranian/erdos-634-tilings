@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Exact polynomial identities for every integer u>=2",
+  "fixed_positive_macroregions": 15,
+  "symbolic_nonnegative_sign_checks": 219,
+  "positioned_boundary_identity": true,
+  "area_identity": true,
+  "corner_exchange_identity": true,
+  "full_W_positive_macroregions": 19,
+  "full_W_boundary_identity": true,
+  "full_W_area_and_count_identity": true,
+  "outside_grid_metric_and_homothety_identities": true,
+  "primitive_A_B_metric_identities": true,
+  "positive_definite_Gram_form": true,
+  "method": "All sign polynomials have nonnegative coefficients in t=u-2; all boundary endpoint currents cancel identically."
+}

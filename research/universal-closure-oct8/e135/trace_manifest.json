@@ -1,0 +1,52 @@
+[
+  {
+    "band": [
+      -4,
+      4
+    ],
+    "name": "center",
+    "trace_filename": "e135-rle-k9-center.rle_trace.bin",
+    "raw_bytes": 989592780,
+    "raw_sha256": "c4cd2e1f49bd55b2fa97cf12509f91b8cb0b5bd780a31d748d5ef418ec2f0a56"
+  },
+  {
+    "band": [
+      -3,
+      5
+    ],
+    "name": "offset1",
+    "trace_filename": "e135-rle-k9-offset1.rle_trace.bin",
+    "raw_bytes": 1012880620,
+    "raw_sha256": "13bf4d97d028c2b0d41bd94b684728fb716e43ed4b38d5f201e33fe0c56bae11"
+  },
+  {
+    "band": [
+      -2,
+      6
+    ],
+    "name": "offset2",
+    "trace_filename": "e135-rle-k9-offset2.rle_trace.bin",
+    "raw_bytes": 1008588500,
+    "raw_sha256": "2a516ac5f207ca821712fc500016681fd8b53d49e9a87bd30333bd215f92ef8c"
+  },
+  {
+    "band": [
+      -1,
+      7
+    ],
+    "name": "offset3",
+    "trace_filename": "e135-rle-k9-offset3.rle_trace.bin",
+    "raw_bytes": 984370900,
+    "raw_sha256": "a42b0ad913f53eb5bbb175c668854b00b6a9e46b5aac9e44b41645590d37128b"
+  },
+  {
+    "band": [
+      0,
+      8
+    ],
+    "name": "edge",
+    "trace_filename": "e135-rle-k9-edge.rle_trace.bin",
+    "raw_bytes": 1019460300,
+    "raw_sha256": "8b5e51d5ef1188dfd4efb4e938284f76ea8c3fc601aa26ffcc1a6c5e77cd35b2"
+  }
+]

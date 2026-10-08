@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "direct_positive_witnesses_checked": 710,
+  "endpoint_residue_mod_1139": 633,
+  "D_minus_c": 75807,
+  "least_endpoint_semigroup_representative": 130479,
+  "endpoint_method": "Dijkstra on residues modulo1139 with edge weights2725,3439",
+  "endpoint_check_uses_apery_formula": false
+}

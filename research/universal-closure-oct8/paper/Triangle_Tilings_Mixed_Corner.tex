@@ -1,0 +1,224 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=23mm,headheight=15pt,headsep=7mm,footskip=12mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo,amsmath,amssymb,amsthm,graphicx,booktabs,array,xcolor,fancyhdr,enumitem,microtype}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!50!black]{hyperref}
+\definecolor{ink}{HTML}{22374D}
+\definecolor{muted}{HTML}{566675}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{muted}A mixed-direction construction for triangle tilings}
+\fancyhead[R]{\small\color{muted}8 October 2026}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\setlength{\abovedisplayskip}{8pt}\setlength{\belowdisplayskip}{8pt}
+\renewcommand{\arraystretch}{1.18}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newcommand{\sg}[1]{\langle #1\rangle}
+\newcommand{\repo}{https://github.com/DenisUkranian/erdos-634-tilings}
+\newcommand{\base}{https://github.com/DenisUkranian/erdos-634-tilings/blob/main/research/}
+\newcommand{\sect}[1]{\vspace{5pt}{\large\bfseries\color{ink}#1}\par\vspace{1pt}}
+\newcommand{\smallcap}[1]{{\small\color{muted}#1}}
+\hypersetup{pdftitle={A mixed-direction construction for triangle tilings},pdfauthor={Denis Paliy},pdfsubject={An explicit 4830-tile construction and a uniform F3 sector}}
+\begin{document}
+\thispagestyle{plain}
+{\LARGE\bfseries\color{ink}A mixed-direction construction\\[3pt] for triangle tilings\par}
+\vspace{8pt}
+{\large Denis Paliy\par}
+\smallcap{Research developed with ChatGPT assistance\quad\textbullet\quad 8 October 2026}
+\vspace{9pt}
+
+\textbf{Abstract.} We give an explicit five-region filling of a triangular corner defect for integral $120^\circ$ tiles. It yields a sufficient numerical-semigroup criterion for the ordered F3 family, constructs $4830$ congruent $(24,11,31)$ triangles in a triangle with sides $(961,1155,1426)$, and extends an all-multiplier F3 sector to $0<a/b<2725/1139$. The last bound combines an exact Frobenius formula with 710 finite integer witnesses. The final construction uses ordinary grids and requires no search output. This note does not claim a complete classification of Erd\H{o}s problem 634.
+
+\sect{1. A sufficient construction theorem}
+Let $a,b,c$ be positive integers satisfying
+\[
+ c^2=a^2+ab+b^2.
+\]
+Thus the angle between the sides $a$ and $b$ of the tile is $120^\circ$. By the \emph{ordered F3 target} we mean the triangle whose side lengths are
+\[
+ c^2,\qquad c(a+2b),\qquad 3b(a+b).
+\]
+An $n$-fold grid means the usual subdivision of an $n$-fold enlargement of the tile into $n^2$ congruent copies.
+
+\begin{theorem}[Mixed-corner criterion]\label{thm:main}
+Suppose $a>2b$ and
+\begin{equation}\label{eq:criterion}
+ D:=b^2+2ab-a^2=qc+Aa+Bb,
+ \qquad q\ge1,\quad A,B\ge0,
+\end{equation}
+with integer coefficients. Then the ordered F3 target has a tiling by
+\[
+ N=3(a+b)(a+2b)
+\]
+congruent $(a,b,c)$ triangles. In particular, every count $Nm^2$, $m\ge1$, is realizable by subdivision.
+\end{theorem}
+
+Primitivity is not required in this theorem. Condition~\eqref{eq:criterion} implies $D>0$, hence $2<a/b<1+\sqrt2$.
+
+\sect{2. Reduction to a smaller corner}
+Use unit axes meeting at $120^\circ$, with squared metric $X^2-XY+Y^2$. Write $C(L,t)$ for the ordinary $L$-fold triangle with vertices $0,(La,0),(0,Lb)$, minus the reflected $t$-fold corner with vertices $0,(tb,0),(0,ta)$.
+
+The positive gamma partition supplies three $c$-fold grids and the residual $C(a+2b,a-b)$; the coordinate proof is linked in Section~6. There is a simple transport from $C(L,t)$ to $C(L-a,t-b)$ when $b<t<a$ and $L\ge a+b$. The common cell $[0,ab]^2$ admits both the ordinary $(a,b)$ grid and the reflected $(b,a)$ grid. Switch that cell to the reflected grid. Above its top side, translate by $(0,ab)$: the outer grid scale becomes $L-a$ and the removed corner scale becomes $t-b$. All remaining cells retain explicit ordinary or reflected grid fillings.
+
+With $k=a-2b$, this leaves exactly
+\begin{equation}\label{eq:quad}
+ Q=[(bk,0),(2ab,0),(0,2b^2),(0,ak)],
+\end{equation}
+of area $4b^2-k^2$ in tile units. The already filled pieces contain $3c^2+(a^2+2ab)+3b^2$ tiles. Their positivity follows from $a/b<1+\sqrt2<1+\sqrt3$.
+
+\newpage
+\sect{3. Five positive regions fill the corner}
+Put $r=D-qc=Aa+Bb$. The identity
+\begin{equation}\label{eq:height}
+ ak+r+qc=b^2
+\end{equation}
+ensures that every following piece is contained in $Q$; the strip is omitted if $r=0$.
+
+\begin{center}\small
+\begin{tabular}{@{}p{27mm}p{96mm}r@{}}
+\toprule
+Region & Description in $120^\circ$ coordinates & Tiles\\
+\midrule
+Right triangle & $[(ab,0),(2ab,0),(ab,b^2)]$ & $b^2$\\
+Upper triangle & $[(0,ak+r),(ab,ak+r),(0,ak+r+b^2)]$ & $b^2$\\
+Cut rectangle & $[0,ab]\times[0,ak]$ minus $[0,(bk,0),(0,ak)]$ & $2ak-k^2$\\
+Middle strip & $[0,ab]\times[ak,ak+r]$ & $2r$\\
+Rotated grid & $[(0,2b^2),(0,2b^2-qc),$\newline\hspace*{3mm}$(ab,b^2-qc),(ab,b^2)]$ & $2qc$\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Coverage.} For $0\le X\le ab$, the lower boundary of $Q$ is $\max(0,ak-aX/b)$ and its upper boundary is $2b^2-bX/a$. The successive top levels of the cut rectangle, middle strip, upper triangle and rotated grid are
+\[
+ ak,\quad ak+r,\quad 2b^2-qc-bX/a,\quad 2b^2-bX/a.
+\]
+Their lower levels coincide with the preceding top levels. For $ab\le X\le2ab$, the right triangle supplies the remaining part of $Q$. Thus the pieces cover $Q$ with disjoint interiors.
+
+\textbf{The ordinary pieces.} Both displayed triangles are $b$-fold grids. The cut rectangle has $a$ columns of width $b$ and $k$ rows of height $a$, giving $2ak$ reflected tiles. Its $k$-fold corner consists of exactly $k^2$ whole tiles; it fits because $k<a$. For the middle strip, use $A$ strips of height $a$ and $B$ strips of height $b$. Their common width $ab$ is divisible by both short side lengths, so two-tile parallelogram cells fill them. The count is $2r$.
+
+\textbf{The rotated piece.} In complex Eisenstein coordinates let
+\[
+ \rho=e^{i\pi/3},\qquad z=\frac{a+b\rho}{c},\qquad |z|=1.
+\]
+The map from the coordinates of this section is $(X,Y)\mapsto X+Y\rho^2$. Adjacent side vectors of the rotated piece are $qc\rho^{-1}$ and $bc\overline z$. Set
+\[
+ u=c\rho^{-1},\qquad v=b\overline z.
+\]
+Direct multiplication, using the norm equation, gives
+\begin{equation}\label{eq:cell}
+ |u|=c,\quad |v|=b,\quad u-v=a\overline z\rho^{-1},\quad |u-v|=a.
+\end{equation}
+The cell spanned by $u,v$ therefore splits along its $u-v$ diagonal into two original tiles. A $q$-by-$c$ array fills the piece with $2qc$ tiles. Its short sides lie in a different direction class from those of the four surrounding grids.
+
+Finally, by~\eqref{eq:height},
+\[
+ 2b^2+(2ak-k^2)+2r+2qc=4b^2-k^2.
+\]
+Adding the already filled part from Section~2 gives $3(a+b)(a+2b)$, proving Theorem~\ref{thm:main}. The canonical insertion is an isometry: the coordinate construction simplifies to $w\mapsto O-z^2\overline w$ for its specified origin $O$.
+
+\newpage
+\sect{4. The 4830-tile construction}
+For $(a,b,c)=(24,11,31)$, one has $k=2$ and
+\[
+ D=73=2\cdot31+11,\qquad q=2,\quad r=11.
+\]
+The five corner counts are $124+121+121+22+92=480$. The other pieces contribute $3\cdot31^2+1104+363=4350$. Thus a triangle with sides $(961,1155,1426)$ is tiled by exactly $4830$ congruent $(24,11,31)$ triangles. Every $4830m^2$ follows.
+
+\begin{center}
+\includegraphics[width=.96\linewidth]{../f3-general/q480_five_regions.png}
+\end{center}
+\vspace{-11pt}
+\smallcap{Figure 1. The corner patch. Labels give exact unit-tile counts; each colored region has the grid filling proved in Section~3.}
+
+\begin{center}
+\includegraphics[width=.84\linewidth]{../f3-general/f3_4830_macro.png}
+\end{center}
+\vspace{-10pt}
+\smallcap{Figure 2. The full F3 target, partitioned into the five new corner pieces and the five surrounding regions. These are exact macro diagrams, not drawings of all unit seams.}
+
+\newpage
+\sect{5. An entire all-multiplier F3 sector}
+\begin{theorem}[Uniform sector]\label{thm:cone}
+Every positive integral norm triple with
+\[
+ 0<\frac ab< R:=\frac{2725}{1139}\approx2.3924495
+\]
+has the ordered F3 tiling at multiplier one, and therefore at every positive integer multiplier. The endpoint $R$ is sharp for an initial uniform interval obtained from criterion~\eqref{eq:criterion}; it is not an obstruction to arbitrary F3 tilings.
+\end{theorem}
+
+The range $0<a/b<2$ uses the earlier positive F3 constructions. It remains to prove~\eqref{eq:criterion} for $2<a/b<R$. We first normalize to a primitive triple and write $d=D-c$. The required statement is $d\in\sg{a,b,c}$, where $\sg{a,b,c}$ denotes nonnegative integer combinations.
+
+\textbf{Exact semigroup input.} Up to exchanging the two short sides, every primitive triple has the form
+\begin{equation}\label{eq:param}
+ a_0=p^2-t^2,\qquad b_0=t(2p+t),\qquad c=p^2+pt+t^2,
+\end{equation}
+with $p>t>0$, $\gcd(p,t)=1$ and $3\nmid p-t$. The parameter families initially requiring division by three enter this form after exchanging the two short sides. The Ap\'ery set relative to $a_0$ is
+\[
+ \{j b_0+\ell c:0\le j,\ell<p,\ \text{not both }j,\ell\ge p-t\}.
+\]
+Indeed, the reductions
+\[
+ pb_0=t a_0+t c,\quad pc=(p+t)a_0+t b_0,\quad
+ (p-t)(b_0+c)=(p+2t)a_0
+\]
+strictly decrease the nonnegative weight while preserving its residue modulo $a_0$. The displayed domain has $p^2-t^2=a_0$ pairs and supplies every residue, so it supplies each exactly once and with minimal weight. Since $c>b_0$, its largest weight gives the Frobenius number
+\begin{equation}\label{eq:frob}
+ F=(p-t-1)b_0+(p-1)c-a_0<p(b_0+c).
+\end{equation}
+
+\textbf{A uniform large-size bound.} Put $x=a/b$ and $y=c/b$. For $2<x\le R$,
+\[
+ x<\frac{12}{5},\quad y<\frac{31}{10},\quad
+ 1+2x-x^2\ge\frac{79246}{1297321}>\frac3{50}.
+\]
+Consequently $d>\frac3{50}b^2-\frac{31}{10}b$. Also $p<\frac85\sqrt b$: if $(a_0,b_0)=(a,b)$, set $s=p/t=x+y<11/2$, giving
+\[
+ \frac{p^2}{b}=\frac{s^2}{2s+1}<\frac{121}{48}<\frac{64}{25};
+\]
+in the exchanged case $s=(1+y)/x>17/12$, giving $p^2/b=s^2/(s^2-1)<289/145<64/25$. Thus~\eqref{eq:frob} yields
+\[
+ F<\frac{44}{5}b^{3/2}.
+\]
+For $b\ge22500$, the lower bound for $d$ exceeds this quantity, since
+\[
+ \frac3{50}\sqrt b-\frac{31}{10\sqrt b}
+ \ge9-\frac{31}{1500}>\frac{44}{5}.
+\]
+Hence $d>F$, proving the required semigroup membership in this range.
+
+\newpage
+\sect{5.1. The finite remainder and the exact endpoint}
+For $b<22500$, the preceding bound implies $p<240$. Enumerate all
+\[
+ 2\le p\le239,\quad 1\le t<p,\quad \gcd(p,t)=1,\quad3\nmid p-t,
+\]
+form~\eqref{eq:param}, and retain the ordered tiles with $2b<a$, $1139a\le2725b$ and $b<22500$. There are exactly 711 cases. The 710 cases in the strict interval have saved, directly checked witnesses
+\[
+ D-c=i a+j b+\ell c,\qquad i,j,\ell\in\mathbb Z_{\ge0}.
+\]
+The script and all coefficients are linked below. The proof uses a bounded exhaustive enumeration, not a sample of parameter values.
+
+The sole endpoint is $(a,b,c)=(2725,1139,3439)$, with $p=42$, $t=25$ and $d=75807$. Its least Ap\'ery representative modulo $1139$ is
+\[
+ 34\cdot2725+11\cdot3439=130479=75807+48\cdot1139.
+\]
+It exceeds $d$, so criterion~\eqref{eq:criterion} fails at this endpoint. Every larger initial open interval contains this tile, establishing the stated sharpness for this criterion only.
+
+The two sufficient sectors join without an integral exception: $a=2b$ would require $c^2=7b^2$. For a nonprimitive triple $g(a_0,b_0,c_0)$, multiply each coefficient of a primitive witness~\eqref{eq:criterion} by $g$. Both sides then scale by $g^2$. The earlier sector extends by the corresponding ordinary subdivision. This proves Theorem~\ref{thm:cone}.
+
+\sect{6. Reproducibility, dependencies and scope}
+The geometric discovery used a finite positional search, but the final five-region construction is explicit and can be rebuilt without loading its search output. The exact 4830 certificate passed separate rational checks of every tile metric, the full oriented boundary and spatial nonoverlap. The latter covers all $11{,}662{,}035$ pairs by a complete exact filter, followed by $21{,}373$ separating-axis checks. These are independent internal implementations, not external peer review.
+
+All links below point to the accompanying repository, \href{\repo}{\texttt{DenisUkranian/erdos-634-tilings}}. They provide the supporting reductions, constructors and exact finite witnesses.
+\begin{enumerate}[leftmargin=*,itemsep=3pt,topsep=3pt,label={\arabic*.}]
+\item \href{\base universal-closure-oct8/f3-general/MIXED_CORNER_THEOREM.md}{Mixed-corner theorem} and \href{\base universal-closure-oct8/f3-general/CORNER_REDUCTION.md}{positive gamma partition and corner transport}. The latter supplies the established reduction used in Section~2.
+\item \href{\base universal-closure-oct8/f3-general/construct_f3_mixed.py}{Complete solver-free F3 constructor}, \href{\base universal-closure-oct8/f3-general/construct_mixed_corner.py}{five-region constructor}, and \href{\base group2-mixed-gamma/verify_spatial.py}{independent spatial verifier}.
+\item \href{\base universal-closure-oct8/4830-position/GENERAL_CORNER_AUDIT.md}{Independent geometric audit}, including the canonical insertion isometry and the positive coverage argument.
+\item \href{\base universal-closure-oct8/global/F3_UNIFORM_CONE.md}{Uniform-sector arithmetic proof}, \href{\base universal-closure-oct8/global/check_f3_uniform_cone.py}{exhaustive finite checker}, and \href{\base universal-closure-oct8/global/f3_uniform_cone_verified.json}{all 710 integer witnesses}.
+\item \href{\base global-criterion-oct7/SHARP_NESTED_CONE.md}{Exact Ap\'ery formula and primitive normalization}; \href{\base best-move-oct7/hexagon/F3_SMALL_A.md}{earlier positive F3 sector} and its cited gamma construction.
+\end{enumerate}
+
+\textbf{Scope.} This note proves a positive construction and an infinite sufficient sector. Failure of its semigroup criterion is not a nonexistence proof for arbitrary tilings. In particular, no conclusion of impossibility is drawn for the endpoint tile. The general classification requested in Erd\H{o}s problem 634 remains unfinished.
+\end{document}

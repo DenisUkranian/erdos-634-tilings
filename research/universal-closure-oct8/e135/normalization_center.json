@@ -1,0 +1,35 @@
+{
+  "coordinate_denominator": 5764801,
+  "binary_record": "six little-endian signed64 integers, lexicographically sorted triangle vertices and triangle records",
+  "reference_prefix": "/tmp/e135-k7-center",
+  "reference_count": 246600,
+  "reference_sha256": "7a9182ff37328cc6e5b7c6fe822bbcf529687ecd12a0bc31927e6633d71f715a",
+  "reference_reflection_invariant": true,
+  "reference_by_height": {
+    "-3": 42,
+    "-2": 37110,
+    "-1": 58254,
+    "0": 55788,
+    "1": 58254,
+    "2": 37110,
+    "3": 42
+  },
+  "pools": [
+    {
+      "prefix": "/tmp/e135-rle-k9-center",
+      "count": 246600,
+      "normalized_sha256": "7a9182ff37328cc6e5b7c6fe822bbcf529687ecd12a0bc31927e6633d71f715a",
+      "contained_in_reference": true,
+      "reflection_contained_in_reference": true,
+      "by_height": {
+        "-3": 42,
+        "-2": 37110,
+        "-1": 58254,
+        "0": 55788,
+        "1": 58254,
+        "2": 37110,
+        "3": 42
+      }
+    }
+  ]
+}

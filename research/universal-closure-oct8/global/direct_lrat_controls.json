@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "solver_commit": "7b99c07f0bcab5824a5a3ce62c7066554017f641",
+  "solver_tag": "rel-3.0.0",
+  "solver_flags": "g++ -Wall -Wextra -O3 -DNDEBUG",
+  "checker_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+  "checker_source_sha256": "bf07c2ac96b9035da1ebcc578cb95e956a2b795629d613154cdb307f8a8f4a95",
+  "cases": [
+    {
+      "case": 0,
+      "expected": "VERIFIED",
+      "exit": 0,
+      "proof": "3 0 1 2 0\n",
+      "cnf": "p cnf 3 2\n1 0\n-1 0\n"
+    },
+    {
+      "case": 1,
+      "expected": "VERIFIED",
+      "exit": 0,
+      "proof": "5 0 1 2 0\n",
+      "cnf": "p cnf 3 4\n1 0\n-1 0\n2 0\n-2 0\n"
+    },
+    {
+      "case": 2,
+      "expected": "VERIFIED",
+      "exit": 0,
+      "proof": "5 1 0 1 3 0\n6 2 0 5 2 0\n7 0 5 6 4 0\n",
+      "cnf": "p cnf 3 4\n1 2 0\n-1 2 0\n1 -2 0\n-1 -2 0\n"
+    },
+    {
+      "case": 3,
+      "expected": "VERIFIED",
+      "exit": 0,
+      "proof": "6 1 0 1 0\n6 d 1 2 0\n7 0 6 3 0\n",
+      "cnf": "p cnf 3 5\n1 1 0\n1 -1 0\n-1 0\n2 3 0\n-2 -3 0\n"
+    },
+    {
+      "case": "empty",
+      "expected": "NOT_VERIFIED",
+      "exit": 1,
+      "proof": "",
+      "cnf": "p cnf 3 4\n1 2 0\n-1 2 0\n1 -2 0\n-1 -2 0\n"
+    },
+    {
+      "case": "bad_hint",
+      "expected": "NOT_VERIFIED",
+      "exit": 1,
+      "proof": "5 1 0 1 2 0\n",
+      "cnf": "p cnf 3 4\n1 2 0\n-1 2 0\n1 -2 0\n-1 -2 0\n"
+    },
+    {
+      "case": "missing_final",
+      "expected": "NOT_VERIFIED",
+      "exit": 1,
+      "proof": "5 1 0 1 3 0\n6 2 0 5 2 0\n",
+      "cnf": "p cnf 3 4\n1 2 0\n-1 2 0\n1 -2 0\n-1 -2 0\n"
+    }
+  ],
+  "cadical_binary_sha256": "cefb89b296d692359979fa669dff8141175b4344bd1b73c2e85774e48e387301",
+  "checker_binary_sha256": "24a16c51ce33bfe1f05c864581b1a24cd552664ff7656c16a7eecb87b57eb2a8"
+}

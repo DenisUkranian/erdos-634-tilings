@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "reference_count": 246600,
+  "reference_sha256": "7a9182ff37328cc6e5b7c6fe822bbcf529687ecd12a0bc31927e6633d71f715a",
+  "independent_physical_templates": true,
+  "direct_inverse_coordinate_matrix": true,
+  "records": [
+    {
+      "prefix": "/tmp/e135-rle-k9-center",
+      "count": 246600,
+      "sha256": "7a9182ff37328cc6e5b7c6fe822bbcf529687ecd12a0bc31927e6633d71f715a",
+      "subset_of_reference": true,
+      "reflected_subset_of_reference": true
+    },
+    {
+      "prefix": "/tmp/e135-rle-k9-offset1",
+      "count": 246600,
+      "sha256": "7a9182ff37328cc6e5b7c6fe822bbcf529687ecd12a0bc31927e6633d71f715a",
+      "subset_of_reference": true,
+      "reflected_subset_of_reference": true
+    },
+    {
+      "prefix": "/tmp/e135-rle-k9-offset2",
+      "count": 246558,
+      "sha256": "54cca696af5c2dcea84dac8a951d07077da37cd0e3714f3cd53d116ac476e2c1",
+      "subset_of_reference": true,
+      "reflected_subset_of_reference": true
+    },
+    {
+      "prefix": "/tmp/e135-rle-k9-offset3",
+      "count": 186798,
+      "sha256": "79eadf06ada4a19554da5f0484f43719d8e5461d4e01e805931e322c7c945d5b",
+      "subset_of_reference": true,
+      "reflected_subset_of_reference": true
+    },
+    {
+      "prefix": "/tmp/e135-rle-k9-edge",
+      "count": 83163,
+      "sha256": "bbad63d75d7da88d39949f4db5ef967da4d5ca41d3cfa77b280baa3dba2bc267",
+      "subset_of_reference": true,
+      "reflected_subset_of_reference": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "family": "F3",
+  "tile": [
+    24,
+    11,
+    31
+  ],
+  "multiplier": 1,
+  "N": 4830,
+  "target_side_lengths": [
+    961,
+    1155,
+    1426
+  ],
+  "all_pair_count": 11662035,
+  "spatial_bucket_pair_candidates": 93080,
+  "separating_axis_checks_after_exact_bounds": 21373,
+  "arithmetic": "exact rational",
+  "coverage_basis": "All triangles contained; a complete rational spatial filter and separating axes exclude every positive overlap; total area equals target area.",
+  "full_Erdos634_solved": false,
+  "external_peer_review": false,
+  "certificate_sha256": "fa2c6096cf8227ce74da0f9de693169af9e79f34d14f6b9efc1b822f753b12dd"
+}

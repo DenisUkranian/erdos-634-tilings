@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "tile_count": 368,
+  "line_count": 131,
+  "event_locations": 798,
+  "target_squared_sides_scaled": [
+    76527504,
+    76527504,
+    222129216
+  ],
+  "denominator": 81,
+  "tile": [
+    6,
+    5,
+    9
+  ],
+  "certificate_sha256": "5c23d41bfa1c6ff83a4122a1729aaf66fe36139cdfee3e1282de05471cc91e19",
+  "method": "Exact signed boundary cancellation, distinct from pairwise intersection checker"
+}

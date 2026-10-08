@@ -1,0 +1,28 @@
+{
+  "scope": "All contained positions in prescribed edge-height band only",
+  "u": 2,
+  "v": 3,
+  "scale": 2,
+  "tile_count": 56,
+  "edge_band": [
+    -3,
+    1
+  ],
+  "whole_W56_decided": false,
+  "anchors": 45487,
+  "orientations": 8,
+  "placements": 198828,
+  "rows": 217100,
+  "forced_assignments": 152918,
+  "forced_one": 10,
+  "unknown": 45910,
+  "propagation_conflict": {
+    "row": 128210,
+    "rhs": 1,
+    "lower": 0,
+    "upper": 0
+  },
+  "solver_status": null,
+  "status": "RESTRICTED_PROPAGATION_CONFLICT",
+  "seconds": 3.082740350997483
+}

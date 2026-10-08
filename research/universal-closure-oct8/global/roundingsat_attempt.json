@@ -1,0 +1,14 @@
+{
+  "status": "TIME_LIMIT",
+  "claimed_satisfiability_result": null,
+  "proof_is_complete": false,
+  "proof_independently_checked": false,
+  "budget_seconds": 600,
+  "solver": "RoundingSAT 2",
+  "solver_commit": "d4edbf7908a9bb951fd181940919e0f3ac7ab1ee",
+  "official_download": "https://gitlab.com/MIAOresearch/software/roundingsat/-/jobs/artifacts/master/raw/build/roundingsat?job=build-linux",
+  "binary_sha256": "cf115250c7539000b39b950d53ddf9d1dfd4ca0d004caf52038a116e7efe3ed5",
+  "input_sha256": "9ed834b4652165c152404367a45ed1c1bb8884e69cfebc5af9e1941ffadc3564",
+  "partial_proof_sha256": "9a91776c8b9c352226bbf6a7af3fb711e7d7f26ed663dd077c3251be74886ef2",
+  "partial_proof_bytes": 38110907
+}

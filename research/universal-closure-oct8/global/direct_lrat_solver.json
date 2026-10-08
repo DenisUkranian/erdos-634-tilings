@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/tmp/erdos-cadical-lrat/build/cadical",
+    "--lrat",
+    "--no-binary",
+    "--factor=0",
+    "-t",
+    "2400",
+    "/tmp/e135-k7.cnf",
+    "/tmp/e135-k7-direct.lrat"
+  ],
+  "exit_code": 20,
+  "elapsed_seconds": 998.0065639019012,
+  "proof_bytes": 1944819324,
+  "independently_checked": true,
+  "independent_check_report": "direct_lrat_checked.json",
+  "annotation": "Solver run followed by complete independent LRAT verification; see the separate checker report and aggregate certificate."
+}

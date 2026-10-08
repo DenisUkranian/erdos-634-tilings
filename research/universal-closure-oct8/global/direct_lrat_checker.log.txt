@@ -1,0 +1,14 @@
+c expecting proof in stdin
+c topTable reallocation from 1024 to 1536
+c increasing the number of buckets from 1024 to 1536
+c parsed a formula with 5925966 variables and 12154716 clauses
+c topTable reallocation from 1536 to 2304
+c increasing the number of buckets from 1536 to 2304
+c topTable reallocation from 2304 to 3456
+c increasing the number of buckets from 2304 to 3456
+c topTable reallocation from 3456 to 5184
+c increasing the number of buckets from 3456 to 5184
+c VERIFIED
+c allocated 5184 82044333 59259660
+c Added clauses = 29768242.  Deleted clauses = 25368478.  Max live clauses = 12787690
+c verification time = 931.39 secs
