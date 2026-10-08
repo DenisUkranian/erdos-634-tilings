@@ -1,0 +1,10 @@
+{
+  "solver_status": "INFEASIBLE",
+  "center": 0,
+  "variables": 126996,
+  "rows": 117342,
+  "forced_tiles": 0,
+  "seconds": 86.48033997400125,
+  "scope": "Complete prescribed three-height placement pool; a negative status is not a global N135 exclusion",
+  "N135_decided": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "ALL_PASS",
+  "traces": [
+    {
+      "band": "center",
+      "status": "PASS",
+      "decompressed_bytes": 809256868,
+      "sha256": "8b669fcea78e41611cef8b738bfb80f93293fba4a4dd844d1e3609e2417662d1"
+    },
+    {
+      "band": "offset",
+      "status": "PASS",
+      "decompressed_bytes": 835834776,
+      "sha256": "19328d8514ca2ef966a044e0b00871d68e0863b270f1bf5272046ed21e43c22d"
+    },
+    {
+      "band": "extreme",
+      "status": "PASS",
+      "decompressed_bytes": 835715356,
+      "sha256": "f3f21184ec48f71b3b547b1ae1e4449552b1a96a44b8e2f703c89ad73a02e4a7"
+    }
+  ]
+}

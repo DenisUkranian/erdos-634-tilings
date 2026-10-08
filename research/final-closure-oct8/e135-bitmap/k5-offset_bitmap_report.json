@@ -1,0 +1,27 @@
+{
+  "scope": "complete band lattice zero support propagation",
+  "L": -1,
+  "U": 3,
+  "control_scale": 0,
+  "basis_rotation": 0,
+  "candidate_placements": 97518171,
+  "removed": 97331373,
+  "remaining": 186798,
+  "passes": 23,
+  "trace_records": 1163873,
+  "conflict": false,
+  "incomplete": false,
+  "bad_direction": -1,
+  "bad_y": -1,
+  "bad_word": -1,
+  "bad_mask": 0,
+  "seconds": 2.75645,
+  "equilateral_135_decided": false,
+  "surviving_by_height": {
+    "-1": 40641,
+    "0": 51198,
+    "1": 57807,
+    "2": 37110,
+    "3": 42
+  }
+}

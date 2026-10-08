@@ -1,0 +1,29 @@
+[
+  {
+    "band": "center",
+    "raw_bytes": 809256868,
+    "raw_sha256": "8b669fcea78e41611cef8b738bfb80f93293fba4a4dd844d1e3609e2417662d1",
+    "compressed_bytes": 55226815,
+    "compressed_sha256": "0d753a1bd73495bb9ba96facbe6189d297252311eea48342cd2b856c155d773a",
+    "raw_filename": "634-bitmap-five-center.bitmap_trace.bin",
+    "compressed_filename": "band_center.trace.zst"
+  },
+  {
+    "band": "offset",
+    "raw_bytes": 835834776,
+    "raw_sha256": "19328d8514ca2ef966a044e0b00871d68e0863b270f1bf5272046ed21e43c22d",
+    "compressed_bytes": 59308852,
+    "compressed_sha256": "895f6a4dc5d9232ce4e5b67670ba9b82a31555dc92b747d3494dccee204911fb",
+    "raw_filename": "634-bitmap-five-offset.bitmap_trace.bin",
+    "compressed_filename": "band_offset.trace.zst"
+  },
+  {
+    "band": "extreme",
+    "raw_bytes": 835715356,
+    "raw_sha256": "f3f21184ec48f71b3b547b1ae1e4449552b1a96a44b8e2f703c89ad73a02e4a7",
+    "compressed_bytes": 72540250,
+    "compressed_sha256": "64a56e746820053a6bbf13b47a5a3a373b5af3826f75e55c43892ccc1f4487f3",
+    "raw_filename": "634-bitmap-five-extreme.bitmap_trace.bin",
+    "compressed_filename": "band_extreme.trace.zst"
+  }
+]

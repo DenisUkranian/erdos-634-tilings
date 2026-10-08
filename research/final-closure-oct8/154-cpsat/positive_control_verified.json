@@ -1,0 +1,13 @@
+{
+  "status": "EXACT_PASS",
+  "tile_count": 4,
+  "band": [
+    -1,
+    3
+  ],
+  "basis_rotation": 1,
+  "pair_checks": 6,
+  "boundary_current": "PASS",
+  "reject_missing_tile": true,
+  "reject_duplicate_tile": true
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "certificate": "research/final-closure-oct8/equilateral-search/cpsat_count/E60_0-1_certificate.json",
+  "sha256": "2030d6e1dc9b1ee960ec90d88b227fee90b683e700f013d3aa5ecb00e5a15452",
+  "denominator": 7,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "tiles": 240,
+  "exact_squared_lengths_checked": 720,
+  "contained_triangles": 240,
+  "pairwise_interior_disjointness_checks": 28680,
+  "affine_box_separations": 27954,
+  "exact_edge_separating_axis_checks": 726,
+  "target_determinant_area": 176400,
+  "sum_tile_determinant_areas": 176400,
+  "coverage": "Exact: containment + pairwise disjoint interiors + equal area.",
+  "independence": "No construction code, matrix, solver, or existing geometric verifier imported.",
+  "seconds": 0.026790621999680297
+}

@@ -1,0 +1,25 @@
+{
+  "target_side": 30,
+  "shape": "equilateral",
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "levels": [
+    0,
+    1
+  ],
+  "lattice": "(i+j*rho)/7 with i=2j mod 7",
+  "macro_mode": false,
+  "placements": 40971,
+  "rows": 28122,
+  "entries": 492885,
+  "lattice_points": 3196,
+  "propagation_conflict": 11362,
+  "assigned": 40953,
+  "forced_ones": 0,
+  "remaining": 18,
+  "status": "RESTRICTED_PROPAGATION_INFEASIBLE",
+  "seconds": 1.5791614820009272
+}

@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "E135_solved": false,
+  "local_patch_tiles": 14,
+  "pair_checks": 91,
+  "short_height": 1,
+  "long_height": 0,
+  "short_line_nonzero_currents": [
+    -21,
+    21
+  ],
+  "contained_in_equilateral_side45": true,
+  "formal_population21_inventory": [
+    7,
+    0,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7
+  ],
+  "formal_population21_line_totals": [
+    [
+      7,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      7,
+      14
+    ]
+  ],
+  "formal_population21_pigeonhole_tests": [
+    {
+      "orientation": "A0",
+      "count": 7,
+      "line_bounds": [
+        7,
+        8
+      ],
+      "gamma_intersection_bound": 56
+    },
+    {
+      "orientation": "A3",
+      "count": 7,
+      "line_bounds": [
+        7,
+        7
+      ],
+      "gamma_intersection_bound": 49
+    },
+    {
+      "orientation": "B5",
+      "count": 7,
+      "line_bounds": [
+        8,
+        1
+      ],
+      "gamma_intersection_bound": 8
+    }
+  ]
+}

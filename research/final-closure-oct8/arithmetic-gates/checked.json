@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "method1": "factor/divisor sieve",
+  "method2": "independently implemented bounded parameter sweep",
+  "cases": [
+    {
+      "N": 60,
+      "classical_witness": null,
+      "independent_enumerations_agree": true,
+      "candidates": [
+        {
+          "branch": "E120",
+          "tile": [
+            3,
+            5,
+            7
+          ],
+          "target": [
+            30,
+            30,
+            30
+          ],
+          "n": 60,
+          "parameters": [
+            3,
+            5
+          ],
+          "multiplier": 2
+        },
+        {
+          "branch": "G1-theta",
+          "tile": [
+            4,
+            15,
+            16
+          ],
+          "target": [
+            120,
+            120,
+            30
+          ],
+          "n": 60,
+          "parameters": [
+            1,
+            4
+          ],
+          "multiplier": 2
+        },
+        {
+          "branch": "G1-theta",
+          "tile": [
+            56,
+            15,
+            64
+          ],
+          "target": [
+            240,
+            240,
+            210
+          ],
+          "n": 60,
+          "parameters": [
+            7,
+            8
+          ],
+          "multiplier": 2
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            49,
+            15,
+            56
+          ],
+          "target": [
+            210,
+            210,
+            240
+          ],
+          "n": 60,
+          "parameters": [
+            7,
+            8
+          ],
+          "multiplier": 2
+        }
+      ],
+      "candidate_count": 4
+    },
+    {
+      "N": 135,
+      "classical_witness": null,
+      "independent_enumerations_agree": true,
+      "candidates": [
+        {
+          "branch": "E120",
+          "tile": [
+            3,
+            5,
+            7
+          ],
+          "target": [
+            45,
+            45,
+            45
+          ],
+          "n": 135,
+          "parameters": [
+            3,
+            5
+          ],
+          "multiplier": 3
+        },
+        {
+          "branch": "G1-theta",
+          "tile": [
+            4,
+            15,
+            16
+          ],
+          "target": [
+            180,
+            180,
+            45
+          ],
+          "n": 135,
+          "parameters": [
+            1,
+            4
+          ],
+          "multiplier": 3
+        },
+        {
+          "branch": "G1-theta",
+          "tile": [
+            56,
+            15,
+            64
+          ],
+          "target": [
+            360,
+            360,
+            315
+          ],
+          "n": 135,
+          "parameters": [
+            7,
+            8
+          ],
+          "multiplier": 3
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            49,
+            15,
+            56
+          ],
+          "target": [
+            315,
+            315,
+            360
+          ],
+          "n": 135,
+          "parameters": [
+            7,
+            8
+          ],
+          "multiplier": 3
+        }
+      ],
+      "candidate_count": 4
+    },
+    {
+      "N": 154,
+      "classical_witness": null,
+      "independent_enumerations_agree": true,
+      "candidates": [
+        {
+          "branch": "I120",
+          "tile": [
+            8,
+            7,
+            13
+          ],
+          "target": [
+            91,
+            91,
+            154
+          ],
+          "n": 154,
+          "parameters": [
+            8,
+            7
+          ],
+          "multiplier": 1
+        }
+      ],
+      "candidate_count": 1
+    }
+  ],
+  "geometric_nonexistence_inferred_here": false,
+  "classification_inputs": "Published exhaustive angular classification and rationality, with classical cases separated; uniform-reduction/PROOF.md and references"
+}

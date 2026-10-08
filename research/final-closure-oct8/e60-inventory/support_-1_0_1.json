@@ -1,0 +1,113 @@
+{
+  "status": "FORMAL_FEASIBLE_NOT_GEOMETRIC",
+  "support": [
+    -1,
+    0,
+    1
+  ],
+  "witness": [
+    {
+      "h": -1,
+      "A": [
+        0,
+        0,
+        0
+      ],
+      "B": [
+        -2,
+        1,
+        3
+      ],
+      "n": 14,
+      "unsigned_A0_to_A5_B0_to_B5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "h": 0,
+      "A": [
+        -1,
+        2,
+        3
+      ],
+      "B": [
+        -4,
+        -2,
+        -2
+      ],
+      "n": 32,
+      "unsigned_A0_to_A5_B0_to_B5": [
+        0,
+        2,
+        3,
+        1,
+        0,
+        0,
+        0,
+        2,
+        7,
+        4,
+        4,
+        9
+      ]
+    },
+    {
+      "h": 1,
+      "A": [
+        -8,
+        2,
+        -4
+      ],
+      "B": [
+        0,
+        0,
+        0
+      ],
+      "n": 14,
+      "unsigned_A0_to_A5_B0_to_B5": [
+        0,
+        2,
+        0,
+        8,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "history": [
+    {
+      "h": -1,
+      "states": 339,
+      "seconds": 0.5851382750006451
+    },
+    {
+      "h": 0,
+      "states": 613,
+      "seconds": 3.816185431998747
+    },
+    {
+      "h": 1,
+      "states": 1,
+      "seconds": 3.8850231079995865
+    }
+  ],
+  "seconds": 3.8860258200002136,
+  "filters": "unsigned affine-line chord caps; central boundary-line inventories"
+}

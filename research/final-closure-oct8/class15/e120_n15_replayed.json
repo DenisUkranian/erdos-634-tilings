@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "certificate_sha256": "bd021560e4078f6f3a14baa30335bedf3faadfe9595e2c50e0a2308cf66898b1",
+  "certificate_nodes": 102,
+  "all_nodes_reachable": true,
+  "expanded_nodes_without_memoization": 102,
+  "expanded_dead_ends": 45,
+  "maximum_depth": 7,
+  "angle_fans": 26,
+  "methods": {
+    "corner": "exact local tangent cones; no residual-boundary subtraction",
+    "overlap": "exact rational convex polygon clipping",
+    "angle_inventory": "bounded integer-triple enumeration",
+    "memoization": "not trusted; every incoming placement history rechecked"
+  },
+  "scope": "No tiling of equilateral side15 by15 congruent (3,5,7) triangles, allowing reflections and arbitrary T-junctions. Global exclusion of N=15 additionally uses the exhaustive arithmetic reduction."
+}

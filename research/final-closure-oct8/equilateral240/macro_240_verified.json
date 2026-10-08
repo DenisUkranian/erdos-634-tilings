@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "regions": 15,
+  "tiles": 240,
+  "macro_pairwise_disjointness_checks": 105,
+  "counts": [
+    12,
+    35,
+    24,
+    14,
+    1,
+    16,
+    9,
+    9,
+    8,
+    35,
+    25,
+    9,
+    25,
+    10,
+    8
+  ],
+  "method": "Convex grid polygons: integer lattice coordinates, grid edges, containment, disjoint macro interiors, equal areas. No solver or unit-coordinate seed imported."
+}

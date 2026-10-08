@@ -1,0 +1,247 @@
+{
+  "N": 135,
+  "target_side": 45,
+  "records": [
+    {
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "EXACT_FORMAL_UNSAT",
+      "file": "support_0_1_2_3_4_5_6_7_8_9.json",
+      "seconds": 0.010377561000495916,
+      "reason": null
+    },
+    {
+      "support": [
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "status": "EXACT_FORMAL_UNSAT",
+      "file": "support_-1_0_1_2_3_4_5_6_7_8.json",
+      "seconds": 0.05685754400110454,
+      "reason": null
+    },
+    {
+      "support": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "status": "EXACT_FORMAL_UNSAT",
+      "file": "support_-2_-1_0_1_2_3_4_5_6_7.json",
+      "seconds": 0.059897694998653606,
+      "reason": null
+    },
+    {
+      "support": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "EXACT_FORMAL_UNSAT",
+      "file": "support_-3_-2_-1_0_1_2_3_4_5_6.json",
+      "seconds": 0.07100242399974377,
+      "reason": null
+    },
+    {
+      "support": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "EXACT_FORMAL_UNSAT",
+      "file": "support_-4_-3_-2_-1_0_1_2_3_4_5.json",
+      "seconds": 0.0629080350008735,
+      "reason": null
+    },
+    {
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "status": "FORMAL_FEASIBLE_NOT_GEOMETRIC",
+      "file": "support_0_1_2_3_4_5_6_7_8.json",
+      "seconds": 0.22869170799822314,
+      "reason": null
+    },
+    {
+      "support": [
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "status": "FORMAL_FEASIBLE_NOT_GEOMETRIC",
+      "file": "support_-1_0_1_2_3_4_5_6_7.json",
+      "seconds": 1.6642455000001064,
+      "reason": null
+    },
+    {
+      "support": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "FORMAL_FEASIBLE_NOT_GEOMETRIC",
+      "file": "support_-2_-1_0_1_2_3_4_5_6.json",
+      "seconds": 1.914920589999383,
+      "reason": null
+    },
+    {
+      "support": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "FORMAL_FEASIBLE_NOT_GEOMETRIC",
+      "file": "support_-3_-2_-1_0_1_2_3_4_5.json",
+      "seconds": 1.6022757739992812,
+      "reason": null
+    },
+    {
+      "support": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "status": "FORMAL_FEASIBLE_NOT_GEOMETRIC",
+      "file": "support_-4_-3_-2_-1_0_1_2_3_4.json",
+      "seconds": 1.762247902002855,
+      "reason": null
+    },
+    {
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "status": "FORMAL_FEASIBLE_NOT_GEOMETRIC",
+      "file": "support_0_1_2_3_4_5_6_7.json",
+      "seconds": 3.077525994998723,
+      "reason": null
+    },
+    {
+      "support": [
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "INCOMPLETE",
+      "file": "support_-1_0_1_2_3_4_5_6.json",
+      "seconds": 12.003559545999451,
+      "reason": null
+    },
+    {
+      "support": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "INCOMPLETE",
+      "file": "support_-2_-1_0_1_2_3_4_5.json",
+      "seconds": 12.003049472001294,
+      "reason": null
+    },
+    {
+      "support": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "status": "INCOMPLETE",
+      "file": "support_-3_-2_-1_0_1_2_3_4.json",
+      "seconds": 12.002998525000294,
+      "reason": null
+    }
+  ],
+  "seconds": 47.45495193399984,
+  "scope": "Necessary finite-band inventories, not positioned tilings"
+}

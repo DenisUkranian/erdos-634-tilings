@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-08",
+  "full_Erdos634_solved": false,
+  "external_peer_review_claimed": false,
+  "results": {
+    "N60": {
+      "status": "NO",
+      "proof": "e60-position/PROOF.md",
+      "computer_assisted": true,
+      "independent_replays": 2
+    },
+    "N154": {
+      "status": "NO",
+      "proof": "154-audit/GLOBAL_154_PROOF.md",
+      "computer_assisted": true,
+      "independent_replays": 3,
+      "complete_candidate_placements": 14303325332
+    },
+    "square_class_15": {
+      "positive_multipliers": "all integers m>=4",
+      "negative_multipliers": [
+        1,
+        2
+      ],
+      "unresolved_multipliers": [
+        3
+      ],
+      "proof": "class15/REDUCTION.md"
+    },
+    "N240": {
+      "status": "YES",
+      "certificate": "equilateral240/equilateral_240.json",
+      "independent_pair_checks": 28680
+    },
+    "N375": {
+      "status": "YES",
+      "certificate": "equilateral240/equilateral_375.json",
+      "independent_pair_checks": 70125
+    },
+    "N135": {
+      "status": "UNRESOLVED"
+    },
+    "N4830": {
+      "status": "UNRESOLVED"
+    }
+  },
+  "scope": "These status entries summarize linked written proofs and separately executed exact checks; this JSON is not an independent proof."
+}

@@ -1,0 +1,70 @@
+{
+  "status": "EXACT_FORMAL_UNSAT",
+  "support": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "history": [
+    {
+      "h": -4,
+      "states": 31,
+      "seconds": 0.01862209899991285
+    },
+    {
+      "h": -3,
+      "states": 73,
+      "seconds": 0.03244525300033274
+    },
+    {
+      "h": -2,
+      "states": 73,
+      "seconds": 0.04520114299884881
+    },
+    {
+      "h": -1,
+      "states": 19,
+      "seconds": 0.049759732999518747
+    },
+    {
+      "h": 0,
+      "states": 3,
+      "seconds": 0.051656736999575514
+    },
+    {
+      "h": 1,
+      "states": 16,
+      "seconds": 0.05406080900138477
+    },
+    {
+      "h": 2,
+      "states": 19,
+      "seconds": 0.056021772001258796
+    },
+    {
+      "h": 3,
+      "states": 32,
+      "seconds": 0.05889205499988748
+    },
+    {
+      "h": 4,
+      "states": 32,
+      "seconds": 0.06253852699956042
+    },
+    {
+      "h": 5,
+      "states": 0,
+      "seconds": 0.06288569400203414
+    }
+  ],
+  "seconds": 0.0629080350008735,
+  "N": 135,
+  "filters": "unsigned affine-line chord caps; central boundary-line inventories"
+}

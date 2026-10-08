@@ -1,0 +1,28 @@
+{
+  "target_side": 75,
+  "shape": "equilateral",
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "levels": [
+    0,
+    1
+  ],
+  "lattice": "(i+j*rho)/7 with i=2j mod 7",
+  "macro_mode": false,
+  "placements": 377931,
+  "rows": 210372,
+  "entries": 4538835,
+  "lattice_points": 19801,
+  "propagation_conflict": null,
+  "assigned": 119388,
+  "forced_ones": 0,
+  "remaining": 258543,
+  "solver_status": 1,
+  "solver_message": "CP-SAT: UNKNOWN",
+  "lp_relaxation": false,
+  "status": "INCOMPLETE",
+  "seconds": 189.69028980499934
+}

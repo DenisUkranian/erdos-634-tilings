@@ -1,0 +1,9 @@
+{
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "variables": 246516,
+  "rows": 247602,
+  "seconds": 31.404843383999832,
+  "exact_certificate": false,
+  "global_E135_decided": false
+}

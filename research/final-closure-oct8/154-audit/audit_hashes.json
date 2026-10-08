@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "sources": {
+    "research/final-closure-oct8/154-cpsat/full_three_level.cpp": "175ee667c084bd9c0832a88623d0b83f44f3b8eea56a9db80b2646236456cb53",
+    "research/final-closure-oct8/154-audit/replay_three_level.cpp": "e91b9acdcc57759b2d1c31b16b21d6657aae54eb99e0e15d05b4b435d3013c85",
+    "research/final-closure-oct8/154-audit/symmetric_replayed.json": "d9c38846e7f44b40bedcf9011c8705d1d6c69554d8d0ace6c8863b75a7f777d0",
+    "research/final-closure-oct8/154-audit/asymmetric_replayed.json": "5f9b30482f539ebe2ef59fbef580236245857617b34bc6636754df0402ab1d14"
+  },
+  "reproducible_traces": {
+    "634-full-symmetric.assignments.bin": {
+      "bytes": 68050544,
+      "sha256": "319ca25ec1a4f122247fc17dfdfe7ee84e98fa5f8d09e07a4989173bcff208a5"
+    },
+    "634-full-asymmetric.assignments.bin": {
+      "bytes": 67889424,
+      "sha256": "6520916ecabf43a3451f0b2938ae319be0d3b5f28a643efdff8b9f9853622589"
+    }
+  },
+  "scope": "All three-height candidates excluded; four/five heights remain"
+}

@@ -2,6 +2,29 @@
 
 **v0.3.0 — updated 8 October 2026**
 
+## Complete60/154 certificates and240/375 constructions - 8 October2026
+
+The [new package](research/final-closure-oct8/README.md) supersedes the earlier
+154-unresolved status. The [154 proof](research/final-closure-oct8/154-audit/GLOBAL_154_PROOF.md)
+links every arithmetic/structural gate and gives commands for the three complete
+five-height bitmap generators and the independent replayer. C++17 and roughly
+3GB free memory per sequential case suffice. A resource interruption never
+counts as an exclusion. Trace SHA-256 hashes and independent reports are frozen.
+The exact elimination rule uses only nonnegative variables, with no solver.
+
+The [60 proof](research/final-closure-oct8/e60-position/PROOF.md) gives the two
+complete four-height generators and independent forcing-row replays, together
+with the necessary structural and all-branch arithmetic checks. Each full run
+regenerates its trace in seconds on the development machine.
+
+The [240/375 construction](research/final-closure-oct8/equilateral240/PROOF.md)
+and [15-region seed](research/final-closure-oct8/equilateral240/MACRO_240_PROOF.md)
+can be regenerated without an optimizer. Full independent geometry reports
+check all28,680 and70,125 tile pairs respectively. These additions were verified
+separately; the historical full-suite coordinator below has not been represented
+as having run all new compiled checks automatically.
+
+
 ## Equilateral constructions — 8 October 2026
 
 The [construction theorem](research/closure-position-oct8/equilateral-small/CONSTRUCTIONS.md)
@@ -37,8 +60,8 @@ These focused commands are additional to the historical coordinator below.
 
 The [direction-band package](research/closure-position-oct7/README.md) gives
 the written geometric proofs and separate exact checks for the 154 candidate.
-Its current conclusion is 3–5 consecutive occupied heights, not a decision
-of 154. The [central-height addition](research/closure-position-oct8/central/CENTRAL_HEIGHT.md)
+Its historical conclusion was 3–5 consecutive occupied heights; the new
+complete positional certificates above now decide154. The [central-height addition](research/closure-position-oct8/central/CENTRAL_HEIGHT.md)
 now also proves `n_0>=24`; nonzero occupied heights still have population
 at least 26. The new nonzero-height population bound comes from supporting-line
 incidence and nonoverlap; formal edge inventories alone do not prove it.
@@ -64,7 +87,7 @@ python research/closure-position-oct8/central/check_fans.py
 python research/closure-position-oct8/search154/check_line_residue_bound.py
 ```
 
-The latest [154 search report](research/closure-position-oct8/search154/run600-report.json)
+The historical [154 search report](research/closure-position-oct8/search154/run600-report.json)
 is explicitly `INCOMPLETE`. The new affine-line residue bound was not enabled
 in that recorded run. Neither a timeout nor a positive formal inventory
 is a mathematical decision of 154. See the

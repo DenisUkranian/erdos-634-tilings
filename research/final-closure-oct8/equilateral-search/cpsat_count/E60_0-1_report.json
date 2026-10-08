@@ -1,0 +1,29 @@
+{
+  "target_side": 60,
+  "shape": "equilateral",
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "levels": [
+    0,
+    1
+  ],
+  "lattice": "(i+j*rho)/7 with i=2j mod 7",
+  "macro_mode": false,
+  "placements": 227811,
+  "rows": 130722,
+  "entries": 2736585,
+  "lattice_points": 12691,
+  "propagation_conflict": null,
+  "assigned": 94638,
+  "forced_ones": 0,
+  "remaining": 133173,
+  "solver_status": 0,
+  "solver_message": "OPTIMAL",
+  "lp_relaxation": false,
+  "status": "EXACT_INTEGRAL_BOUNDARY_SOLUTION",
+  "tiles": 240,
+  "seconds": 51.81485685499865
+}

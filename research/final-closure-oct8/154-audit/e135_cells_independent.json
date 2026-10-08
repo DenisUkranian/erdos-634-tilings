@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "independent_forward_coordinate_clipping": true,
+  "direct_physical_vertex_containment": true,
+  "records": [
+    {
+      "k": 1,
+      "potential_cells": 47,
+      "lines": 85,
+      "arrangement_vertices": 100,
+      "individual_maxima": [
+        12,
+        14
+      ],
+      "maximum_balanced_pairs": 12,
+      "tail98_excluded": true
+    },
+    {
+      "k": 2,
+      "potential_cells": 45,
+      "lines": 81,
+      "arrangement_vertices": 161,
+      "individual_maxima": [
+        12,
+        14
+      ],
+      "maximum_balanced_pairs": 12,
+      "tail98_excluded": true
+    },
+    {
+      "k": 3,
+      "potential_cells": 46,
+      "lines": 83,
+      "arrangement_vertices": 165,
+      "individual_maxima": [
+        16,
+        13
+      ],
+      "maximum_balanced_pairs": 13,
+      "tail98_excluded": true
+    }
+  ],
+  "hashes": {
+    "154-audit/check_e135_cells_independent.py": "0d376268e4044ae19a8ffa809502f68abac0c8b2e5b9d6cc4797b937992a6c31",
+    "e135-structure/cell_bound.py": "c8207434f4b7f44b2fa6f4d8dadd7cebb98038e05866b04e06b9c84877efd643",
+    "e135-structure/NO_GAPS.md": "3828abb0afb93b3c5a517ef4f9300559a069ce379c5c598349063cf85f60af02"
+  }
+}

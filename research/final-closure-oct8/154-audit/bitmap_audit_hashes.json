@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "all_three_completed_independent_replays": true,
+  "hashes": {
+    "154-audit/replay_bitmap.cpp": "5f6d3af2c864b0bb0bc49aed9609c46e89337b5e20b1bcd3bf84cafd9814c769",
+    "154-audit/reproduce_bitmap.py": "0ee409497e6e7b25abf7fb0cab2d157d60892f3501859110d99d3ccd900a305a",
+    "154-cpsat/bitmap_zero.cpp": "b5a0091728eea4ef156323bc5da0143df38cd8fbda6a1d1775e94fab849129e9",
+    "154-cpsat/bitmap_zero_rotated.cpp": "af873031ff30e75c6364b72f9257885566b8d95051be113154296ff978689784",
+    "154-audit/GLOBAL_154_PROOF.md": "d703591ef0464240f7a7fc84bda6db9029bd652de8aea919daf02c28f020348c"
+  },
+  "traces": [
+    {
+      "case": "center",
+      "trace_sha256": "8b669fcea78e41611cef8b738bfb80f93293fba4a4dd844d1e3609e2417662d1",
+      "bytes": 809256868,
+      "replay": {
+        "status": "PASS",
+        "L": -2,
+        "U": 2,
+        "basis_rotation": 0,
+        "placements": 4773371018,
+        "points": 123169229,
+        "verified_zero_mask_records": 28902031,
+        "verified_removed": 4773370672,
+        "remaining": 346,
+        "terminal_direction": 12,
+        "terminal_y": 9464,
+        "terminal_word": 129,
+        "terminal_mask": 33554432,
+        "required_sign": -1,
+        "required_sign_support_empty": true,
+        "proof_uses_only_nonnegative_variables": true,
+        "producer_label": "bitmap_zero.cpp"
+      }
+    },
+    {
+      "case": "offset",
+      "trace_sha256": "19328d8514ca2ef966a044e0b00871d68e0863b270f1bf5272046ed21e43c22d",
+      "bytes": 835834776,
+      "replay": {
+        "status": "PASS",
+        "L": -1,
+        "U": 3,
+        "basis_rotation": 1,
+        "placements": 4770414013,
+        "points": 123163769,
+        "verified_zero_mask_records": 29851242,
+        "verified_removed": 4770413440,
+        "remaining": 573,
+        "terminal_direction": 3,
+        "terminal_y": 16016,
+        "terminal_word": 0,
+        "terminal_mask": 1,
+        "required_sign": 1,
+        "required_sign_support_empty": true,
+        "proof_uses_only_nonnegative_variables": true,
+        "producer_label": "bitmap_zero_rotated.cpp"
+      }
+    },
+    {
+      "case": "extreme",
+      "trace_sha256": "f3f21184ec48f71b3b547b1ae1e4449552b1a96a44b8e2f703c89ad73a02e4a7",
+      "bytes": 835715356,
+      "replay": {
+        "status": "PASS",
+        "L": 0,
+        "U": 4,
+        "basis_rotation": 1,
+        "placements": 4759540301,
+        "points": 123155705,
+        "verified_zero_mask_records": 29846977,
+        "verified_removed": 4759539691,
+        "remaining": 610,
+        "terminal_direction": 4,
+        "terminal_y": 10591,
+        "terminal_word": 110,
+        "terminal_mask": 512,
+        "required_sign": 1,
+        "required_sign_support_empty": true,
+        "proof_uses_only_nonnegative_variables": true,
+        "producer_label": "bitmap_zero_rotated.cpp"
+      }
+    }
+  ]
+}

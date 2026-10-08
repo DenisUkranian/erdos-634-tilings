@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "comparison": "Exact unordered unit-triangle coordinate sets, common denominator7",
+  "new_triangles": 180,
+  "old_triangles": 180,
+  "distinct_triangles": 180,
+  "coordinate_sets_identical": true,
+  "optimized_python_rejected": true,
+  "optimized_exit_code": 1,
+  "files": {
+    "constructor": {
+      "path": "research/final-closure-oct8/seed-generalization/macro_seed.py",
+      "sha256": "02bbc4914564022ce2c3d851bc0aa49e2fdf3f5fe8ed949c12cb7b81fcdb218f"
+    },
+    "new_certificate": {
+      "path": "research/final-closure-oct8/seed-generalization/macro_seed_certificate.json",
+      "sha256": "853d87a2f0d6f0495f9b999c150b8e2e11c193e608b533b33ef3c88afe06a60d"
+    },
+    "old_certificate": {
+      "path": "research/closure-position-oct8/equilateral-position/cpsat/T30_30_0-1_certificate.json",
+      "sha256": "29892d744a1d368eb1832a8df64d361cea38b72da7f1d219b9061221902cd9ce"
+    }
+  },
+  "review": "MACRO_SEED_AUDIT.md",
+  "scope": "Internal independent proof and reconstruction review; not full Erdos634 or external refereeing"
+}

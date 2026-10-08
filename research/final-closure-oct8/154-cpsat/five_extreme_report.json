@@ -1,0 +1,20 @@
+{
+  "scope": "complete band lattice zero support propagation",
+  "L": 0,
+  "U": 4,
+  "control_scale": 0,
+  "basis_rotation": 1,
+  "candidate_placements": 4759540301,
+  "removed": 4759539691,
+  "remaining": 610,
+  "passes": 14,
+  "trace_records": 29846977,
+  "conflict": true,
+  "incomplete": false,
+  "bad_direction": 4,
+  "bad_y": 10591,
+  "bad_word": 110,
+  "bad_mask": 512,
+  "seconds": 113.921,
+  "N154_decided": false
+}

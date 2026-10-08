@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "sources": {
+    "research/final-closure-oct8/154-cpsat/full_band_packed.cpp": "110bed293215d1fee6de19ec04b423c5c79251bdf2b6c79c2125f92d1a9ea0fc",
+    "research/final-closure-oct8/154-audit/replay_packed_band.cpp": "a62c5bdfad9baf2cb257abeb4590b4c351ce2f5f4066cf97c4694f2497656b69",
+    "research/final-closure-oct8/154-audit/four_center_replayed.json": "871651616ace89e5b4b5173f9fd85673408f2f012322a7ba3f8124fd8e6e7f6b"
+  },
+  "trace": {
+    "filename": "634-packed-four-center.rows.bin",
+    "bytes": 432339636,
+    "sha256": "f22a72e6e4e4aeb8608c1c1989e93ca4d72395b09f3c7e975a9a09259f38420e"
+  },
+  "scope": "Four-height bands [-1,2] and reflected [-2,1] excluded; not full154"
+}

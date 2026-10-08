@@ -1,0 +1,12 @@
+{
+  "status": "INFEASIBLE",
+  "variables": 246516,
+  "rows": 247602,
+  "selected_by_propagation": 0,
+  "seconds": 76.22786085600092,
+  "band": [
+    -2,
+    2
+  ],
+  "global_E135_decided": false
+}

@@ -1,0 +1,16 @@
+{
+  "target": "sufficient Q792",
+  "tile": [
+    24,
+    11,
+    31
+  ],
+  "pool": 30694,
+  "rows": 76719,
+  "generation_depth": 3,
+  "expanded_states": 1698,
+  "generation_stopped": true,
+  "status": "INFEASIBLE",
+  "scope": "Finite heuristic macro pool only. No unrestricted nonexistence claim.",
+  "seconds": 183.8094415359992
+}

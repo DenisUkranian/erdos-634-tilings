@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "regions": 15,
+  "tiles": 240,
+  "unit_coordinate_sets_identical": true,
+  "all_15_markdown_table_rows_match_constructor_input": true,
+  "macro_pair_checks": 105,
+  "proof_review": "Integer grid polygons, explicit positive orientation, convex macro containment/separation, equal areas. No solver or old unit seed required.",
+  "sha256": {
+    "research/final-closure-oct8/equilateral240/macro_240_certificate.json": "30d5acb8e417d15d4a3f6d9adc0ae8b1802a715e06766388a5385d3e7f8859e7",
+    "research/final-closure-oct8/equilateral-search/cpsat_count/E60_0-1_certificate.json": "2030d6e1dc9b1ee960ec90d88b227fee90b683e700f013d3aa5ecb00e5a15452",
+    "research/final-closure-oct8/equilateral240/macro_240.py": "eb64afda395bad4063f27775513f0f997bf2bab8b8f0296c62dcc2102b44f07d",
+    "research/final-closure-oct8/equilateral240/macro_grid_regions.json": "10163035ca76402eeb33233fb7ace3b03310671de9dd411948bae5f10ba653b1",
+    "research/final-closure-oct8/equilateral240/MACRO_240_PROOF.md": "96b896b31ccd4027cea9ab293a1b3c2a2d88dfbb2edb7353f0cfd99f2b9c4503"
+  }
+}

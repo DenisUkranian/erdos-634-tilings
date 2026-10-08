@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "certificate": "research/final-closure-oct8/e135-construction/equilateral_2160_extreme14.json",
+  "sha256": "c7a5567014da661c06f4d5ac20a3f183bb5d899544416ce24f2b3c5cf67aead9",
+  "denominator": 49,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "tiles": 2160,
+  "exact_squared_lengths_checked": 6480,
+  "contained_triangles": 2160,
+  "pairwise_interior_disjointness_checks": 2331720,
+  "affine_box_separations": 2324510,
+  "exact_edge_separating_axis_checks": 7210,
+  "target_determinant_area": 77792400,
+  "sum_tile_determinant_areas": 77792400,
+  "coverage": "Exact: containment + pairwise disjoint interiors + equal area.",
+  "independence": "No construction code, matrix, solver, or existing geometric verifier imported.",
+  "seconds": 0.22022331500193104
+}

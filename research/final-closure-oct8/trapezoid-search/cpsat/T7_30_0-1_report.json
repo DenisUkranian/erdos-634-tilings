@@ -1,0 +1,25 @@
+{
+  "target_short_base": 7,
+  "target_leg": 30,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "levels": [
+    0,
+    1
+  ],
+  "lattice": "(i+j*rho)/7 with i=2j mod 7",
+  "macro_mode": false,
+  "placements": 69062,
+  "rows": 43874,
+  "entries": 830094,
+  "lattice_points": 4673,
+  "propagation_conflict": 7888,
+  "assigned": 66060,
+  "forced_ones": 13,
+  "remaining": 3002,
+  "status": "RESTRICTED_PROPAGATION_INFEASIBLE",
+  "seconds": 2.2035832069996104
+}

@@ -1,0 +1,1 @@
+{"status":"PASS","scope":"independent complete three-height placement enumeration and forced-assignment replay","center":0,"placements":17013246,"assignments_checked":17012488,"forced_ones":13,"terminal_point":[637,637],"terminal_direction":[0,1],"lower":-1,"upper":-1,"rhs":0,"full_154_decided":false}

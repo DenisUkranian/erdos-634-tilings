@@ -1,0 +1,12 @@
+{
+  "scope": "Restricted one-short-level filling of the sufficient 792 remainder, not full 4830",
+  "placements": 510090,
+  "rows": 305525,
+  "entries": 35706300,
+  "propagation_conflict": 282090,
+  "assigned": 468685,
+  "forced_ones": 150,
+  "remaining": 41405,
+  "status": "RESTRICTED_PROPAGATION_CONFLICT_UNCERTIFIED",
+  "seconds": 28.05811860600079
+}

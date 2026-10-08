@@ -1,0 +1,257 @@
+{
+  "status": "PASS",
+  "scope": "Independent replay of prior nonzero-floor26 six-height exclusion",
+  "new_154_decision": false,
+  "signed_A_vectors_enumerated": 82239,
+  "l1_bound": 39,
+  "resource_cutoffs": false,
+  "negative_records": [
+    {
+      "support": [
+        -5,
+        0
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 0,
+          "states": 18
+        },
+        {
+          "height": -1,
+          "states": 19
+        },
+        {
+          "height": -2,
+          "states": 26
+        },
+        {
+          "height": -3,
+          "states": 38
+        },
+        {
+          "height": -4,
+          "states": 38
+        },
+        {
+          "height": -5,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -4,
+        1
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 1,
+          "states": 411
+        },
+        {
+          "height": 0,
+          "states": 54
+        },
+        {
+          "height": -1,
+          "states": 19
+        },
+        {
+          "height": -2,
+          "states": 26
+        },
+        {
+          "height": -3,
+          "states": 38
+        },
+        {
+          "height": -4,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -3,
+        2
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 2,
+          "states": 411
+        },
+        {
+          "height": 1,
+          "states": 925
+        },
+        {
+          "height": 0,
+          "states": 54
+        },
+        {
+          "height": -1,
+          "states": 19
+        },
+        {
+          "height": -2,
+          "states": 26
+        },
+        {
+          "height": -3,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -2,
+        3
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 3,
+          "states": 411
+        },
+        {
+          "height": 2,
+          "states": 925
+        },
+        {
+          "height": 1,
+          "states": 925
+        },
+        {
+          "height": 0,
+          "states": 54
+        },
+        {
+          "height": -1,
+          "states": 19
+        },
+        {
+          "height": -2,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        -1,
+        4
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 4,
+          "states": 411
+        },
+        {
+          "height": 3,
+          "states": 925
+        },
+        {
+          "height": 2,
+          "states": 925
+        },
+        {
+          "height": 1,
+          "states": 925
+        },
+        {
+          "height": 0,
+          "states": 54
+        },
+        {
+          "height": -1,
+          "states": 0
+        }
+      ]
+    },
+    {
+      "support": [
+        0,
+        5
+      ],
+      "status": "EXACT_UNSAT",
+      "layers": [
+        {
+          "height": 5,
+          "states": 411
+        },
+        {
+          "height": 4,
+          "states": 925
+        },
+        {
+          "height": 3,
+          "states": 925
+        },
+        {
+          "height": 2,
+          "states": 925
+        },
+        {
+          "height": 1,
+          "states": 925
+        },
+        {
+          "height": 0,
+          "states": 0
+        }
+      ]
+    }
+  ],
+  "positive_controls": [
+    {
+      "support": [
+        -4,
+        0
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        -3,
+        1
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        -2,
+        2
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        -1,
+        3
+      ],
+      "population": 154,
+      "status": "PASS"
+    },
+    {
+      "support": [
+        0,
+        4
+      ],
+      "population": 154,
+      "status": "PASS"
+    }
+  ],
+  "seconds": 1.1503420820008614,
+  "source_hashes": {
+    "research/closure-position-oct7/global/check_all_height_backward.py": "e5a38b9825dd6031a73efcf0469ac638de27422ee61db9d1bc602c3ed10e456c",
+    "research/closure-position-oct7/global/check_full_inventory_backward.py": "11a06fca033ccc36d7ca05223e4dfdc18dd05c6402a60dfb6f87ecd2cec7eee2",
+    "research/closure-position-oct7/global/check_no_thirteen_independent.py": "e5cbe427445aaf01f6b826653e85e127571a5e1e9cc6877f9b053e730caa356d",
+    "research/closure-position-oct7/oct8-structural/all_height_direction_probe.json": "8e649b8a121efdea0f6f5fbdb360e6d59656d1ebb00989d93f1ce948c5d03a48"
+  }
+}

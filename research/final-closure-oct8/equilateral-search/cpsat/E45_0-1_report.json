@@ -1,0 +1,28 @@
+{
+  "target_side": 45,
+  "shape": "equilateral",
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "levels": [
+    0,
+    1
+  ],
+  "lattice": "(i+j*rho)/7 with i=2j mod 7",
+  "macro_mode": false,
+  "placements": 115491,
+  "rows": 69972,
+  "entries": 1387935,
+  "lattice_points": 7156,
+  "propagation_conflict": null,
+  "assigned": 69909,
+  "forced_ones": 0,
+  "remaining": 45582,
+  "solver_status": 2,
+  "solver_message": "CP-SAT: INFEASIBLE",
+  "lp_relaxation": false,
+  "status": "RESTRICTED_SOLVER_INFEASIBLE_UNCERTIFIED",
+  "seconds": 11.169318214000668
+}

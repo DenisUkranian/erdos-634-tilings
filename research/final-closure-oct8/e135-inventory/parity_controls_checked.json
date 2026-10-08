@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "file": "support_-1_0_1_2_3_4_5_6_7.json",
+      "odd_height_population": 77,
+      "scalar_character_sum": 15,
+      "alternating_scalar_sum": -27
+    },
+    {
+      "file": "support_-2_-1_0_1_2_3_4_5_6.json",
+      "odd_height_population": 63,
+      "scalar_character_sum": 15,
+      "alternating_scalar_sum": -27
+    },
+    {
+      "file": "support_-3_-2_-1_0_1_2_3_4_5.json",
+      "odd_height_population": 77,
+      "scalar_character_sum": 15,
+      "alternating_scalar_sum": -27
+    },
+    {
+      "file": "support_-4_-3_-2_-1_0_1_2_3_4.json",
+      "odd_height_population": 63,
+      "scalar_character_sum": 15,
+      "alternating_scalar_sum": -27
+    },
+    {
+      "file": "support_0_1_2_3_4_5_6_7.json",
+      "odd_height_population": 63,
+      "scalar_character_sum": 15,
+      "alternating_scalar_sum": -27
+    },
+    {
+      "file": "support_0_1_2_3_4_5_6_7_8.json",
+      "odd_height_population": 63,
+      "scalar_character_sum": 15,
+      "alternating_scalar_sum": -27
+    }
+  ]
+}

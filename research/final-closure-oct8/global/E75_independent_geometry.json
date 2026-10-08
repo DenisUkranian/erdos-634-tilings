@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "certificate": "research/final-closure-oct8/equilateral240/equilateral_375.json",
+  "sha256": "69e0aac769c0ab5a899500b96a7903e00d1b6575ee1c3e007b66ad997721d2ec",
+  "denominator": 7,
+  "tile": [
+    3,
+    5,
+    7
+  ],
+  "tiles": 375,
+  "exact_squared_lengths_checked": 1125,
+  "contained_triangles": 375,
+  "pairwise_interior_disjointness_checks": 70125,
+  "affine_box_separations": 69071,
+  "exact_edge_separating_axis_checks": 1054,
+  "target_determinant_area": 275625,
+  "sum_tile_determinant_areas": 275625,
+  "coverage": "Exact: containment + pairwise disjoint interiors + equal area.",
+  "independence": "No construction code, matrix, solver, or existing geometric verifier imported.",
+  "seconds": 0.03088997200029553
+}

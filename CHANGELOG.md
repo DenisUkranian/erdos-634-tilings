@@ -1,5 +1,13 @@
 # Changelog
 
+## Complete counts60 and154; the240 equilateral seed - 8 October 2026
+
+- Exclude154 globally using its unique arithmetic candidate, a freshly replayed structural bound of five consecutive direction heights, and three complete positional refutations. The independently reconstructed systems cover14,303,325,332 placements; every asserted elimination and final contradiction is checked with exact arithmetic.
+- Exclude60 globally. A new Laurent-current argument eliminates the possible49-tile tail beyond a direction gap; at mostfour consecutive heights remain. Two complete positional certificates have independent exact replays.
+- Construct an equilateral side60 triangle with240 copies of(3,5,7), and a side75 triangle with375 copies. A compact15-region ordinary-grid proof and all-pairs geometry checks establish the seed; classical trapezoid attachment gives every15m² for m>=4. Only135 remains undecided in square class15.
+- Record stronger trapezoid families, compact180-seed geometry, the4830 one-height corner obstruction and explicitly scoped unsuccessful135/macro searches.135,4830 and the full classification remain unresolved.
+- These updates supersede the historical154-unresolved statements below. No all-primes candidate is used in the new global exclusions, and no external refereeing is claimed.
+
 ## Fixed-class density, local matrices and literature synthesis — 7 October 2026
 
 - Combine the F3 elliptic map, Mordell–Weil height counting and the existing every-integer constructive tails. For fixed d, only `O_d(X^(1/3)(1+log X)^(r_d/2))` odd multipliers through X can pass the arithmetic test without being covered by those constructions. The necessary, actual and sufficient sectors have the same odd-relative density. In class 38 this is a global theorem; its density exists and is positive, without a computed numerical value.
