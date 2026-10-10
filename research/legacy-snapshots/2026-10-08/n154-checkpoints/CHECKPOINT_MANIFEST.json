@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-10",
+  "content": "Erdos 634 two Oct 8 N=154 resumed positional-search checkpoint datasets",
+  "format": "zstd compressed POSIX tar",
+  "archive_filename": "Erdos634_N154_search_checkpoints_2026-10-08.tar.zst",
+  "archive_bytes": 13799579,
+  "archive_sha256": "38e2c7b43e53329ad4d71e735545b5fbc2514070d0580de3e32cbed0096ccaa4",
+  "parts": [
+    {
+      "name": "Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part001",
+      "size": 1572864,
+      "sha256": "4811a54d2e485b49a35f8bff44588a63e998eabbb8b6c37c23c82ca9b074a32f",
+      "git_blob_sha1": "6646661105d00bfe3306ee60955e7d533e2e534f",
+      "base64_lines": 1748
+    },
+    {
+      "name": "Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part002",
+      "size": 1572864,
+      "sha256": "853196a46d5054d8e60d125588eadad48d15b5b47ea2dae7ce317c3c12d86799",
+      "git_blob_sha1": "eb18895f5365301811c78b753f57ddd83105a87c",
+      "base64_lines": 1748
+    },
+    {
+      "name": "Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part003",
+      "size": 1572864,
+      "sha256": "af6aefb8a35167ccd4e8df09b01b17b5fe4ac590a621b25148911d3e0f8791ac",
+      "git_blob_sha1": "d36d1d3f7459d88f81e20fc12edead91e04f0929",
+      "base64_lines": 1748
+    },
+    {
+      "name": "Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part004",
+      "size": 1572864,
+      "sha256": "413ff0c972e5008d5465d36fe62a42e47003aa23d5cf7dfe3072dc2d23350613",
+      "git_blob_sha1": "096cd5d0dadd449bc4b28cff1d23eed473b7d312",
+      "base64_lines": 1748
+    },
+    {
+      "name": "Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part005",
+      "size": 1572864,
+      "sha256": "0aad5b204af50bedf31ae8c55bf72aac4acbd920f406ec7757ca4a776a8f456f",
+      "git_blob_sha1": "a88922749621128e644f97aaa07f4de756bfa4b9",
+      "base64_lines": 1748
+    },
+    {
+      "name": "Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part006",
+      "size": 1572864,
+      "sha256": "afcd1ae8e2e24d515872dbda01e922cb61355df7cf4ca9b01f154898b70f0595",
+      "git_blob_sha1": "acd44fda90ecd9b32bf2588218f5fe41e796878f",
+      "base64_lines": 1748
+    },
+    {
+      "name": "Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part007",
+      "size": 1572864,
+      "sha256": "2173a9697fd42bc032a75a6167cd98061ef7fead5163b22358699144d9ec2fea",
+      "git_blob_sha1": "3f2b69e7b03d1c480c967d4e54dc7a1dae981194",
+      "base64_lines": 1748
+    },
+    {
+      "name": "Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part008",
+      "size": 1572864,
+      "sha256": "cccbc7b815915a2c385a5bbdf6c345832fa732a2415e6a6b261e70fd452559c3",
+      "git_blob_sha1": "f36dc6e47aeb60f9a881db8602c57034f86f7304",
+      "base64_lines": 1748
+    },
+    {
+      "name": "Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part009",
+      "size": 1216667,
+      "sha256": "f1c8d2396314c921c69d718d2549cdbeaa229cd5e3a49e4dcc6b03055b9c1f8d",
+      "git_blob_sha1": "808765f36c53d3e5bb6f345918e4a06e8bb6e960",
+      "base64_lines": 1352
+    }
+  ],
+  "original_zip_sources": [
+    {
+      "name": "Erdos634_Search_Checkpoint_2026-10-08.zip",
+      "size": 7530385,
+      "sha256": "8f4c9e5bbdfcde4e0f0fb04d994d78bb9b9df57600875b055f2ac5dd42742a20"
+    },
+    {
+      "name": "Erdos634_Search_Checkpoint_Strong_2026-10-08.zip",
+      "size": 10566232,
+      "sha256": "fd223694d5c500073578eab4abbe4863a4de45be9622ebc026f537f9985cd300"
+    }
+  ],
+  "members": [
+    {
+      "name": "first/README.txt",
+      "size": 350,
+      "sha256": "d978f6d82830966519fc4c88feb625131564bf82646e7d248bb625698af23c44"
+    },
+    {
+      "name": "first/search154-second600-geometry.txt",
+      "size": 18336385,
+      "sha256": "eb95be64bd046f83fa96fabf9000f4c8d8500e0217c89421faf7e74ed4890447"
+    },
+    {
+      "name": "first/search154-second600-report.json",
+      "size": 323,
+      "sha256": "e88e6019361ab5509c58a69212ef0a91b4043c182ec939a94176109dcf1d6507"
+    },
+    {
+      "name": "first/search154-second600-trace.txt",
+      "size": 85055608,
+      "sha256": "dcb60525e50437317c0cbcd2a32dd4653eef1a8ed00fdb9f289abe6e27be07ab"
+    },
+    {
+      "name": "strong/SCOPE.txt",
+      "size": 232,
+      "sha256": "d84c2bd10abb1f33732ada4ae6e8fe733b6130da5302a226a2ef2af98eeca0e8"
+    },
+    {
+      "name": "strong/metadata/README.md",
+      "size": 5576,
+      "sha256": "5e0e5445a68519319d7e42480541f1a91f8269bf096742ddeca5d05adef0a992"
+    },
+    {
+      "name": "strong/metadata/checkpoint-digests.json",
+      "size": 806,
+      "sha256": "4f57d70b1038c7132eebffb27b333d718b309ef165297f11c3ff9f39c5807e3b"
+    },
+    {
+      "name": "strong/metadata/run600-report.json",
+      "size": 322,
+      "sha256": "3a44c78039c6954fdd6210ea99d4a866d24a59d413a90869567aa79ca4f6ca9c"
+    },
+    {
+      "name": "strong/search154-strong600-geometry.txt",
+      "size": 22819336,
+      "sha256": "966798b43a55e7c87491ba1dea530909ca89b0fd7e755cb39a4fb7ed76382198"
+    },
+    {
+      "name": "strong/search154-strong600-report.json",
+      "size": 322,
+      "sha256": "3a44c78039c6954fdd6210ea99d4a866d24a59d413a90869567aa79ca4f6ca9c"
+    },
+    {
+      "name": "strong/search154-strong600-trace.txt",
+      "size": 123106697,
+      "sha256": "b69627c8e28409f20a43058e7917029189c42d1763266e4afaad28bfd61cf760"
+    },
+    {
+      "name": "strong/search154-strong600.log",
+      "size": 7178,
+      "sha256": "271eaafaa9a0a76ce0a40303d3928acc19bb9485dcfcc25e2f47efd04f5c6949"
+    }
+  ]
+}

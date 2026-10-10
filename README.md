@@ -14,7 +14,9 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 
 **[Full supplementary index, original sources, proof status and checks](research/updates-2026-10-10/README.md).** The research synchronization preserves **242 source files from 10 dated archives** (220 also directly accessible as ordinary files). It covers a sufficient fixed-tile W/β construction for every multiplier M≥v, global square class 14 / N=56, more F3/14430 necessary obstructions, finite W92/β92 search data, square-class density and two independent audits. **F3/14430, 92, the reverse-apex prime induction and the full Erdős 634 problem are not settled.** See the dated index for qualifications and an exact SHA-256 source-integrity checker.
 
-**Historical archive recheck:** [30 September recovery-preservation report](research/legacy-snapshots/2026-09-30/README.md) reconstructs 236 archival files from 142 unchanged repository files and 94 exact archived copies. Old versions are retained without overwriting newer results. Large N=135 and raw N=154 checkpoint sources remain separately inventoried.\n\n## Results and complete materials
+**Historical archive recheck:** [30 September recovery-preservation report](research/legacy-snapshots/2026-09-30/README.md) reconstructs 236 archival files from 142 unchanged repository files and 94 exact archived copies. Old versions are retained without overwriting newer results. Large N=135 and raw N=154 checkpoint sources remain separately inventoried.\n\n**Additional archival preservation:** [September 30 historical recovery](research/legacy-snapshots/2026-09-30/), [August 29 N=83 certificate](research/legacy-snapshots/2026-08-29/), and [October 8 N=154 source checkpoints](research/legacy-snapshots/2026-10-08/n154-checkpoints/) (the last are *bounded search records*, not new mathematical claims). The September/October packages have SHA-256 verifiers.
+
+## Results and complete materials
 
 | Result | Read and reproduce |
 |---|---|
