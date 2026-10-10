@@ -7,8 +7,8 @@
       "sha256": "d0f55e5c1ad211d6b3afedab5c688c4a0c7d78b6be550510b1faaf6bf29bef9e"
     },
     ".github/workflows/verify.yml": {
-      "bytes": 1269,
-      "sha256": "e9ff092444d6e014d3e148256fcac7f5b21f8eb5f1a9e39a112113b762a45f72"
+      "bytes": 1394,
+      "sha256": "0197e1788846a331f76324d56cc80cc9eb35c84811a20e45c98220ad34490bbd"
     },
     ".gitignore": {
       "bytes": 168,
@@ -39,8 +39,8 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 30517,
-      "sha256": "de8e3b158c429921c83b6b1565540421435c0268eda4a96c2c871698defc0015"
+      "bytes": 30922,
+      "sha256": "771dec00c3e26626c5004d0f1695e936cd3edc01ca09070c7e11d57ada81f847"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 28683,
@@ -3627,8 +3627,8 @@
       "sha256": "ff2b52424e0bc8a1bf43838a5eb9ad4c75054b1cc98ed2a0522041e0eaac18ae"
     },
     "research/legacy-snapshots/2026-09-30/README.md": {
-      "bytes": 2450,
-      "sha256": "80b69a16584685ca3ce54f4ee13f1b73001424639026988731bd7393ae69980e"
+      "bytes": 2733,
+      "sha256": "3a5fbd7d7315572016dce9fe21db6fbf5f843cd56a1e509a1655f3e4c85cd6d9"
     },
     "research/local-descent/README.md": {
       "bytes": 6278,
@@ -6161,6 +6161,54 @@
     "research/legacy-snapshots/2026-08-29/README.md": {
       "bytes": 826,
       "sha256": "b5e5bb5c5183b41a744fa7f8a2d11cef73aa6114c5915ac933fb2e2c74a15c3a"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/CHECKPOINT_MANIFEST.json": {
+      "bytes": 5402,
+      "sha256": "b56e888c02d0b17d9c8e869ef9764f089d0f2091f7effc85a4abdb0bb8af2380"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/README.md": {
+      "bytes": 1683,
+      "sha256": "06de0be333021a92a0384b8ab67e639639a34bb06edcf7071b6f4d643adc0595"
+    },
+    "scripts/verify_checkpoint_archive.py": {
+      "bytes": 3001,
+      "sha256": "b5e52b5aa51ee7107494bef6cb3a41e4185e2ac3b5a922cf7fa1dcfe7a5331be"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part001": {
+      "bytes": 1572864,
+      "sha256": "4811a54d2e485b49a35f8bff44588a63e998eabbb8b6c37c23c82ca9b074a32f"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part002": {
+      "bytes": 1572864,
+      "sha256": "853196a46d5054d8e60d125588eadad48d15b5b47ea2dae7ce317c3c12d86799"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part003": {
+      "bytes": 1572864,
+      "sha256": "af6aefb8a35167ccd4e8df09b01b17b5fe4ac590a621b25148911d3e0f8791ac"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part004": {
+      "bytes": 1572864,
+      "sha256": "413ff0c972e5008d5465d36fe62a42e47003aa23d5cf7dfe3072dc2d23350613"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part005": {
+      "bytes": 1572864,
+      "sha256": "0aad5b204af50bedf31ae8c55bf72aac4acbd920f406ec7757ca4a776a8f456f"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part006": {
+      "bytes": 1572864,
+      "sha256": "afcd1ae8e2e24d515872dbda01e922cb61355df7cf4ca9b01f154898b70f0595"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part007": {
+      "bytes": 1572864,
+      "sha256": "2173a9697fd42bc032a75a6167cd98061ef7fead5163b22358699144d9ec2fea"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part008": {
+      "bytes": 1572864,
+      "sha256": "cccbc7b815915a2c385a5bbdf6c345832fa732a2415e6a6b261e70fd452559c3"
+    },
+    "research/legacy-snapshots/2026-10-08/n154-checkpoints/Erdos634_N154_search_checkpoints_2026-10-08.tar.zst.part009": {
+      "bytes": 1216667,
+      "sha256": "f1c8d2396314c921c69d718d2549cdbeaa229cd5e3a49e4dcc6b03055b9c1f8d"
     }
   }
 }
