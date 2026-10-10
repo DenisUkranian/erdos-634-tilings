@@ -6,7 +6,7 @@ Current results supersede historical entries that describe4830 or135 as unresolv
 
 This ledger distinguishes mathematical claims from their evidence. The research packages are included in the repository. The exact commit and remote verification results are recorded by GitHub Actions; this ledger is not itself a CI success assertion.
 
-## New claims and limitations: 9–10 October 2026
+**Preservation addendum (10 October):** The [30 September archival recovery](research/legacy-snapshots/2026-09-30/README.md) now has a lossless SHA-256-manifested delta. Of 215 earlier repository snapshots, 142 match current immutable blobs, 38 missing paths and 35 older versions are archived, and 21 supplemental logs are kept. This says nothing about theorem correctness.\n\n## New claims and limitations: 9–10 October 2026
 
 | Update | Scientific status | Sources |
 | --- | --- | --- |
