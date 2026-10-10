@@ -1,5 +1,17 @@
 # Changelog
 
+## 10 October 2026: publish and audit the 9–10 October research
+
+- Consolidate 10 original source archives into one byte-for-byte hash-verified ZIP containing 242 files, and publish 220 smaller text, JSON, Python and C++ sources directly in the Git tree.
+- Add independent Phase 1 (9 October) and Phase 2 (10 October) audits, including 29,600 N=56 tree nodes, 14,556 contradiction leaves, new independent exact polygon checks, and counterexamples to two overly strong boundary/T-junction rules.
+- Add unrestricted Group-1 W/β sufficient construction M≥v, along with separate recorded golden-cone and small-scale research history.
+- Add the complete square class 14 claim, N=56 global negative package and explicitly stated proof dependencies.
+- Record additional F3/14430 necessary height bounds and N=92 finite searches as UNDECIDED.
+- Preserve new square-class effective-density and prime-sector results alongside supporting arithmetic checks.
+- Quarantine the reversed-apex global prime candidate in view of the unresolved Beeson base-case objection.
+- Add exact source/expanded copy checker and a GitHub Actions integrity step. A source-integrity PASS is not acceptance of the mathematics.
+- [Index, original sources, evidence and caveats](research/updates-2026-10-10/README.md). The 441 MB separately saved 135 certificate is not redundantly imported.
+
 ## 8 October 2026: every adjacent W/beta scale from v upward
 
 - Prove that for every `u>=2,v=u+1`, the fixed tile `(uv,2u+1,v²)` constructs both W and beta targets at every integer scale `m>=v`. A uniform layered dissection fills all seed residues; the prior +u cap completes the tail.

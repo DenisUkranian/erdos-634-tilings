@@ -1,11 +1,22 @@
 # Claim ledger and verification scope
 
-**Research snapshot v0.3.0 · 8 October 2026**
+**Research snapshot v0.3.0 + 10 October 2026 supplement**
 
 Current results supersede historical entries that describe4830 or135 as unresolved. The new positive4830 construction and independently checked135 exclusion are complete.
 
 This ledger distinguishes mathematical claims from their evidence. The research packages are included in the repository. The exact commit and remote verification results are recorded by GitHub Actions; this ledger is not itself a CI success assertion.
 
+## New claims and limitations: 9–10 October 2026
+
+| Update | Scientific status | Sources |
+| --- | --- | --- |
+| W/β for every multiplier M≥v with arbitrary coprime 0<u<v | Sufficient positive construction; not all-scale necessity or prime classification | [Construction](research/updates-2026-10-10/w-beta/UNRESTRICTED_CONSTRUCTION.md), [Phase 2 audit](research/updates-2026-10-10/audit-phase2/REPORT.md) |
+| Square class 14 iff m≥3 | Computational and mathematical proof package; relies on its specified all-branch and geometry completeness assumptions | [Proof](research/updates-2026-10-10/class-14/COMPLETE_CLASS14_PROOF.md), [Phase 1](research/updates-2026-10-10/audit-phase1/REPORT.md) |
+| F3/14430 | Necessary directional bounds and a height-61 exclusion; UNDECIDED | [F3 analysis](research/updates-2026-10-10/f3-14430/NO_61_HEIGHT.md) |
+| N=92 / W92 and β92 | Incomplete finite geometric searches; UNDECIDED | [Source package](research/updates-2026-10-10/expanded/Erdos634_parallel_W92_boundary_2026-10-09/) |
+| Fixed square-class density | Conditional analytic/arithmetic deduction; not an exact small-m test | [Full original records](research/updates-2026-10-10/expanded/erdos634_effective_density_2026-10-09/) |
+| Beeson reverse-apex candidate | QUARANTINED: incomplete first-column to interior-column induction, despite other valid local checks | [External-objection audit](research/updates-2026-10-10/quarantine/BEESON_BASE_CASE_AUDIT.md) |
+| 242 exact source files / 220 expanded files | Hashes and local integrity checker PASS. This does not prove their mathematical claims. | [Dated index](research/updates-2026-10-10/README.md), [checker](scripts/verify_oct10_archive.py) |
 | Claim | Status in this work | Supporting material |
 |---|---|---|
 | A one-class whole-c boundary needs at least `2c²` primitive120 tiles; if `ab` is even, its population is divisible by `2c²` | Written area and two-character proof, permitting mixed interior heights, holes and T-junctions. The entire boundary must satisfy the one-class whole-c hypothesis; this does not decide14430 | [Theorem and exact hypotheses](research/gap-closure-oct8/structure/WHOLE_C_BOUNDARY.md) |

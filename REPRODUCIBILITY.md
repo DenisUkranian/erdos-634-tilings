@@ -1,6 +1,16 @@
 # Reproducibility and verification boundary
 
-**v0.3.0 — updated 8 October 2026**
+**v0.3.0 + 10 October 2026 supplement**
+
+## 9–10 October 2026 supplements and source-integrity check
+
+See the [full dated source index](research/updates-2026-10-10/README.md) for preserved packages, mathematical scope and traceability. To verify the exact original archive and its 220 directly published text mirrors without third-party Python libraries, run:
+
+```sh
+python3 scripts/verify_oct10_archive.py
+```
+
+This checks the ZIP SHA-256 `fda301389453d0579d45c595e59552769baf363138084444d4df07ee26a8d048`, hashes/sizes of all 242 source members, and byte-for-byte equality of 220 small UTF-8 files. The 22 large/binary members remain inside the ZIP. Phase 2 original `reproduce.py` was run successfully on the extracted original package, but no fresh full scientific replay, independent validation of universal geometric lemmas, or fresh heavyweight 135-LRAT replay is asserted here. CI also runs the integrity check.
 
 ## All adjacent W/beta scales — 8 October 2026
 

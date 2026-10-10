@@ -1,6 +1,6 @@
 # Erdős Problem 634 — congruent triangle tilings
 
-**Denis Paliy** · Research with ChatGPT assistance · 8 October 2026
+**Denis Paliy** · Research with ChatGPT assistance · 10 October 2026
 
 [Status](STATUS.md) · [Reproduce](REPRODUCIBILITY.md) · [Full-problem roadmap](docs/full-solution-roadmap.md) · [Citation](CITATION.cff)
 
@@ -9,6 +9,10 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 **This repository contains partial research results, not a complete solution of Erdős problem 634.** The N=60,105,135,154 arguments combine written geometric lemmas, published classification inputs, and separately replayed exact certificates. Universal arguments are not formally certified by running the code; the all-primes manuscript remains a candidate.
 
 **Current update:** 4830 is now positively settled by the direct construction below. Historical dated entries retain the scope of their original attempts; they do not override this result. 135 is now excluded by a complete, independently checked LRAT certificate, completing the criterion `15m²` realizable if and only if `m>=4`.
+
+## New supplement: 9–10 October 2026
+
+**[Full supplementary index, original sources, proof status and checks](research/updates-2026-10-10/README.md).** The research synchronization preserves **242 source files from 10 dated archives** (220 also directly accessible as ordinary files). It covers a sufficient fixed-tile W/β construction for every multiplier M≥v, global square class 14 / N=56, more F3/14430 necessary obstructions, finite W92/β92 search data, square-class density and two independent audits. **F3/14430, 92, the reverse-apex prime induction and the full Erdős 634 problem are not settled.** See the dated index for qualifications and an exact SHA-256 source-integrity checker.
 
 ## Results and complete materials
 
