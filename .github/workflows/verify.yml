@@ -22,6 +22,9 @@ jobs:
       - name: Verify Oct 9-10 source snapshots
         run: |
           python3 scripts/verify_oct10_archive.py
+      - name: Verify preserved September 30 historical snapshot
+        run: |
+          python3 scripts/verify_legacy_recovery_delta.py
       - name: Replay every published finite suite
         run: |
           set -o pipefail
