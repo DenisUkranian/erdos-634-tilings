@@ -32,6 +32,6 @@ Expected output begins OCT10_ARCHIVE=PASS, checking all 242 source SHA-256 hashe
 
 Source integrity is not a mathematical proof. The ten source ZIPs retain their original dated limitations and statuses (PASS, INCOMPLETE, UNDECIDED). A negative claim requires its actual complete refutation, not a timed-out search.
 
-The separate 441,709,276-byte `Erdos634_135_Verified_Certificate.zip` archive from 8 October was not duplicated here because of GitHub file-size constraints. See the already-published smaller [135 proof and replay material](../../universal-closure-oct8/global/GLOBAL_135_PROOF.md). No claim of a fresh independent run of that full heavyweight external file is made.
+The separate 441,709,276-byte `Erdos634_135_Verified_Certificate.zip` archive from 8 October was not duplicated here because of GitHub file-size constraints. See the already-published smaller [135 proof and replay material](../universal-closure-oct8/global/GLOBAL_135_PROOF.md). No claim of a fresh independent run of that full heavyweight external file is made.
 
 Baseline prior to integration: [3a0ad269f645850ed9fd01bbd76a08c9b456032e](https://github.com/DenisUkranian/erdos-634-tilings/commit/3a0ad269f645850ed9fd01bbd76a08c9b456032e) (8 October 2026). All original historical files are preserved. No external peer-review acceptance or proof-assistant verification of the full problem is claimed.

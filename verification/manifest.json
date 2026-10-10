@@ -4979,8 +4979,8 @@
       "sha256": "4a42b58132d9713a7d9fca804a881de89e2d857c604b847a6446c55c69352271"
     },
     "research/updates-2026-10-10/README.md": {
-      "bytes": 3941,
-      "sha256": "47d04bf511c323f1e846a21b8a25d3b7661c3703f763603b46d9c94f2cc653df"
+      "bytes": 3938,
+      "sha256": "4d41e1873d9f64145da94f68f8f6bcbb3877b24982bf1526a9a2f07b9a4d465e"
     },
     "research/updates-2026-10-10/audit-phase1/REPORT.md": {
       "bytes": 20858,
@@ -6153,6 +6153,14 @@
     "verification/universal-annuli.json": {
       "bytes": 2698,
       "sha256": "0a0d7449721d43ad69a15c6d5237b954f081b2db8ece6f3cf4a5a531746f7500"
+    },
+    "research/legacy-snapshots/2026-08-29/Erdos634_N83_certificate_2026-08-29.zip": {
+      "bytes": 701938,
+      "sha256": "3cff1854a63ba682ef3cedbaadab86892df4897dc4e43b1f799c1bf4ba492cdb"
+    },
+    "research/legacy-snapshots/2026-08-29/README.md": {
+      "bytes": 826,
+      "sha256": "b5e5bb5c5183b41a744fa7f8a2d11cef73aa6114c5915ac933fb2e2c74a15c3a"
     }
   }
 }
