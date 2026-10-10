@@ -1,0 +1,18 @@
+{
+  "name": "six_small",
+  "status": "COMPLETED_ZERO_EXIT",
+  "exit_code": 0,
+  "seconds": 5.782,
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "verify_certificate.py",
+    "W_1_2_1_refutation.json",
+    "W_1_3_1_refutation.json",
+    "W_2_3_1_refutation.json",
+    "beta_1_2_1_refutation.json",
+    "beta_1_3_1_refutation.json",
+    "beta_2_3_1_refutation.json"
+  ],
+  "cwd": "/mnt/data/ep634_consolidation_work/replay_workspace/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09",
+  "log": "/mnt/data/ep634_consolidation_work/fresh_logs/six_small.log"
+}

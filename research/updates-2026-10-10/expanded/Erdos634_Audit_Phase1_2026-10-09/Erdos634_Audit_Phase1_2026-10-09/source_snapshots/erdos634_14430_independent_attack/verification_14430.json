@@ -1,0 +1,412 @@
+{
+  "status": "PASS",
+  "scope": "Necessary-condition and formal-current audit; N=14430 remains undecided.",
+  "tile": [
+    56,
+    9,
+    61
+  ],
+  "N": 14430,
+  "canonical_top_eisenstein": [
+    "11934646/3721",
+    "7272720/3721"
+  ],
+  "boundary_lengths_in_height_order_0_2_3": [
+    3721,
+    1755,
+    4514
+  ],
+  "normalized_area": "7272720",
+  "number_of_boundary_count_rows": [
+    233,
+    55,
+    341
+  ],
+  "height_2_boundary_rows": [
+    [
+      0,
+      12,
+      27
+    ],
+    [
+      0,
+      73,
+      18
+    ],
+    [
+      0,
+      134,
+      9
+    ],
+    [
+      0,
+      195,
+      0
+    ],
+    [
+      1,
+      60,
+      19
+    ],
+    [
+      1,
+      121,
+      10
+    ],
+    [
+      1,
+      182,
+      1
+    ],
+    [
+      2,
+      47,
+      20
+    ],
+    [
+      2,
+      108,
+      11
+    ],
+    [
+      2,
+      169,
+      2
+    ],
+    [
+      3,
+      34,
+      21
+    ],
+    [
+      3,
+      95,
+      12
+    ],
+    [
+      3,
+      156,
+      3
+    ],
+    [
+      4,
+      21,
+      22
+    ],
+    [
+      4,
+      82,
+      13
+    ],
+    [
+      4,
+      143,
+      4
+    ],
+    [
+      5,
+      8,
+      23
+    ],
+    [
+      5,
+      69,
+      14
+    ],
+    [
+      5,
+      130,
+      5
+    ],
+    [
+      6,
+      56,
+      15
+    ],
+    [
+      6,
+      117,
+      6
+    ],
+    [
+      7,
+      43,
+      16
+    ],
+    [
+      7,
+      104,
+      7
+    ],
+    [
+      8,
+      30,
+      17
+    ],
+    [
+      8,
+      91,
+      8
+    ],
+    [
+      9,
+      17,
+      18
+    ],
+    [
+      9,
+      78,
+      9
+    ],
+    [
+      9,
+      139,
+      0
+    ],
+    [
+      10,
+      4,
+      19
+    ],
+    [
+      10,
+      65,
+      10
+    ],
+    [
+      10,
+      126,
+      1
+    ],
+    [
+      11,
+      52,
+      11
+    ],
+    [
+      11,
+      113,
+      2
+    ],
+    [
+      12,
+      39,
+      12
+    ],
+    [
+      12,
+      100,
+      3
+    ],
+    [
+      13,
+      26,
+      13
+    ],
+    [
+      13,
+      87,
+      4
+    ],
+    [
+      14,
+      13,
+      14
+    ],
+    [
+      14,
+      74,
+      5
+    ],
+    [
+      15,
+      0,
+      15
+    ],
+    [
+      15,
+      61,
+      6
+    ],
+    [
+      16,
+      48,
+      7
+    ],
+    [
+      17,
+      35,
+      8
+    ],
+    [
+      18,
+      22,
+      9
+    ],
+    [
+      18,
+      83,
+      0
+    ],
+    [
+      19,
+      9,
+      10
+    ],
+    [
+      19,
+      70,
+      1
+    ],
+    [
+      20,
+      57,
+      2
+    ],
+    [
+      21,
+      44,
+      3
+    ],
+    [
+      22,
+      31,
+      4
+    ],
+    [
+      23,
+      18,
+      5
+    ],
+    [
+      24,
+      5,
+      6
+    ],
+    [
+      27,
+      27,
+      0
+    ],
+    [
+      28,
+      14,
+      1
+    ],
+    [
+      29,
+      1,
+      2
+    ]
+  ],
+  "minimum_short_edges_on_height_2_side": 12,
+  "minimum_rows": [
+    [
+      0,
+      12,
+      27
+    ]
+  ],
+  "formal_orientation_witness": [
+    [
+      1,
+      "A",
+      3,
+      61
+    ],
+    [
+      1,
+      "B",
+      3,
+      122
+    ],
+    [
+      2,
+      "A",
+      0,
+      6916
+    ],
+    [
+      2,
+      "A",
+      3,
+      6990
+    ],
+    [
+      2,
+      "A",
+      2,
+      121
+    ],
+    [
+      2,
+      "B",
+      1,
+      147
+    ],
+    [
+      2,
+      "B",
+      4,
+      73
+    ]
+  ],
+  "formal_populations": {
+    "1": 183,
+    "2": 14247
+  },
+  "directional_currents": {
+    "0": [
+      3721,
+      0,
+      0
+    ],
+    "2": [
+      0,
+      1755,
+      0
+    ],
+    "3": [
+      -4514,
+      0,
+      0
+    ]
+  },
+  "characters": {
+    "D": -182,
+    "D_star": -60,
+    "even": -121,
+    "odd": -61
+  },
+  "external_gap_tail_counts": [
+    7442
+  ],
+  "missing_height_1_lower_counts": [
+    3721,
+    11163
+  ],
+  "maximum_occupied_heights": 237,
+  "maximum_height_span_from_gap_and_parity_lemmas": 237,
+  "excluded_extreme_two_gap_supports": [
+    {
+      "minimum_height": -60,
+      "maximum_height": 178,
+      "even_height_population": 7232,
+      "odd_height_population": 7198,
+      "failure": "Both populations even; character requires both odd."
+    },
+    {
+      "minimum_height": -183,
+      "maximum_height": 55,
+      "even_height_population": 7232,
+      "odd_height_population": 7198,
+      "failure": "Both populations even; character requires both odd."
+    }
+  ],
+  "not_proved": [
+    "Existence of a positioned tiling",
+    "Nonexistence of a tiling",
+    "A single-class exterior boundary",
+    "Geometric realizability of the formal orientation witness"
+  ]
+}

@@ -1,0 +1,428 @@
+[
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/PROOF.md",
+    "size": 18516,
+    "sha256": "d09802cb073999694d3c211e64683d3b95bca8ff7ea3130aafa407d6f3513f47",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/README.md",
+    "size": 2007,
+    "sha256": "0cbf8f2ae5af3656159b92986cc45fef998ae21d59b2f50bd4aea2fd6017cd0e",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/SHA256SUMS",
+    "size": 1316,
+    "sha256": "cb993d3a39ffde6a2f1904fdd84e430c4c29dc9da11d795bae0092223112c340",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/W_1656.json",
+    "size": 66515,
+    "sha256": "891f69e6041c015eeff6871b2f04e14ed3aac0148d5ee60c3a3863754e6528bf",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/W_1656_verified.json",
+    "size": 596,
+    "sha256": "72efec188ad5b9c8def6a5d12dfeaf5d4d6106fb98d268c6bae261467ba93faa",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/W_27504.json",
+    "size": 1395769,
+    "sha256": "e9ccb2c3facdc1a4a8655d8e645e8eb5753d72031c4c28106fd41cb2882ff6b3",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/W_27504_verified.json",
+    "size": 603,
+    "sha256": "17dbf573023d13192a2861a3d860a30afc74b1d6f725d6edaec53eb41ecf1dd6",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/W_34272.json",
+    "size": 1768359,
+    "sha256": "ea1dfa65af5bd19ba76bb85b7ea5b1a85f21cc39fa0b9b3c7db97fc9c8866b62",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/W_34272_verified.json",
+    "size": 603,
+    "sha256": "a196c3aa8ad36ea8c11adf8f33aa2c874dce64c54e5078c17c284f2d922359a2",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/beta_2556.json",
+    "size": 104798,
+    "sha256": "4ee542f77ef571ae5bd399ac486f1a7e50bcc006a7a10bb74c5f85438677481a",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/beta_2556_verified.json",
+    "size": 602,
+    "sha256": "1c5b49875f372f88870febde337bbb780ef4e2ed52d6a7f577858a35e633d200",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/check_symbolic.py",
+    "size": 4730,
+    "sha256": "58c89d90ad4823420989d695105c9e18422bd700268cc8b57443ec9f2ac2d759",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/construct.py",
+    "size": 10104,
+    "sha256": "d80564f15e7289bf8ea696098a74185db80c1367a3fbcbe557b3e3dad9ecfff5",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/regression.py",
+    "size": 2536,
+    "sha256": "98403b613ae75c9f3dc1b11b746c90ca09d12d37fb6712284b3958c4724dc0f8",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/regression_report.json",
+    "size": 15634,
+    "sha256": "212cc7d6199dcc0a3482ad02345245a6020e9ff88530dbf94e007bb2e2f78c91",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/symbolic_report.json",
+    "size": 1607,
+    "sha256": "4fffc0e9779bc6700ed42fe14d8f1a474748c8e2f8b83521198abee86c18c50b",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/verify.py",
+    "size": 4862,
+    "sha256": "71f026cec04456a4a62a95d6fb178ea531d8f74119a16c08738157231cb80a60",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/E56.json",
+    "size": 2812365,
+    "sha256": "bb46df17bf6d4f33940225088d29b90036c8da09b385c8ca44fd3cb15bab385a",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/PROOF.md",
+    "size": 22022,
+    "sha256": "b0fde9c29b42f1f8c187bf0492973aed5aba5b79e3e93173c25db334165a5600",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/README.md",
+    "size": 1649,
+    "sha256": "8f5d63ab33bbd1fb299c5d5d242a0aa9a6b88d29f1a9ff37e538d46d816aa692",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/SHA256SUMS",
+    "size": 1238,
+    "sha256": "47b3b151c431201dd12bf1fd79d5d5eb21087be3887dae446729b006e787a906",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/W56proof0.json",
+    "size": 1104802,
+    "sha256": "199dcc07822b96b7bfb9a2698da0cdb2d7abb207006e5d7c420b9ccf07d65eec",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/W56proof1.json",
+    "size": 488320,
+    "sha256": "5c431a45cf13f267edea740b968f28f5d51e9c23db63065010f63f661a59c394",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/check_controls.py",
+    "size": 3358,
+    "sha256": "8cdbbd5ba3b98e3f02d3950d0049451381ec89574ab95cbacfa86c901697c162",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/check_gate.py",
+    "size": 3216,
+    "sha256": "47468a7d2f0c61843f83dbe68257fa6f9c65b4db2e5947959fe277fcf5653cbb",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/controls_new.json",
+    "size": 1117,
+    "sha256": "6ee300097bfa6c8f8ab0834f4c932df69c1a75307debece4cc1e884f10971915",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/dependencies/prior_positive_constructor.py",
+    "size": 10104,
+    "sha256": "d80564f15e7289bf8ea696098a74185db80c1367a3fbcbe557b3e3dad9ecfff5",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/gate_report.json",
+    "size": 3409,
+    "sha256": "8487bc9dfb11d1d80d39c3437a7772ed24dd344302fdad14a9e715973b1006bc",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/generate.cpp",
+    "size": 15040,
+    "sha256": "65c02549d1cf276b550a9ed3a5b988c2f5f4ea605bcfd23f4f4a28599e7b38ec",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/incomplete_searches.json",
+    "size": 2035,
+    "sha256": "e0dc63f11f8cf1282972d710f76bde81ba78936005ddd77b4211ce7710e5cf44",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/replay_report.json",
+    "size": 1919,
+    "sha256": "759ef74e016153ecd3ddb68b46921c03c1669db5d28e82f16f1560dea7795cbf",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/reproduce.py",
+    "size": 1422,
+    "sha256": "663d52b8f0ebe6814baf754e7ab458e3ee68d1b6a3375f765ecfa1d7153562de",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/verify.py",
+    "size": 10524,
+    "sha256": "f58b8955522da906c5b8a14b00c90e977179b1b1287bb497a327609cd1bf7dba",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/README.md",
+    "size": 7100,
+    "sha256": "69003c3440b66b7a3bc72bec9ff9d1f5a6483e848a64791b0e461d82242ed48d",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/SHA256SUMS",
+    "size": 1414,
+    "sha256": "aeecf959dc4caa15848cfae0a4be0356e5ea37f40026c1e4234498e188d213aa",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/W28_positive_control.json",
+    "size": 9087,
+    "sha256": "6a5816f2ad3d443d76f1d5c9ac89c7a37055c9f4c54cebc86a4f3ccaa5341e42",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/W56_INCOMPLETE.json",
+    "size": 6487,
+    "sha256": "0a6a8056350fc23d10f55f58dcc4adbe838c077a291837b6e826f4a66f8e288e",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/W_1_2_1_refutation.json",
+    "size": 7960,
+    "sha256": "92270c95d93200aed616cc3e93b93c2ed9e8ce312bb2363be0b280de31d2b873",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/W_1_3_1_refutation.json",
+    "size": 48123,
+    "sha256": "c3c264295a6418d2ea0bebdfe3b314219871441527e1195e9cb53466287928c0",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/W_2_3_1_refutation.json",
+    "size": 48414,
+    "sha256": "93a696134fc5c98d9d1f3b9b5692e03beb574f9d1ef0baaa27d45ce1b9524797",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/beta92_INCOMPLETE.json",
+    "size": 10815,
+    "sha256": "0f39c5be8e25394e5f537995e0601435bc8f8249596b167f69aa7f3bd080ed80",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/beta_1_2_1_refutation.json",
+    "size": 26801,
+    "sha256": "984a2823785eee7ca58739427c4c7dd235e80594895fb0d27280da4a490822b5",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/beta_1_3_1_refutation.json",
+    "size": 421086,
+    "sha256": "cbf9f1199c85622e9a1d214080df164a56eb7d2a6e956999d4dddeb17d08f6c9",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/beta_2_3_1_refutation.json",
+    "size": 254864,
+    "sha256": "22332ea40578bfd44f3d95b63a31d006755d2cf28d4633cd1abb297b8de003c0",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/check_controls.py",
+    "size": 1500,
+    "sha256": "68aa9b3fd7d78ee905ee607d9ba17cb4415f26e7c1b105b118c330755dda2eea",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/controls_report.json",
+    "size": 178,
+    "sha256": "a757f22841c58f323a2d0d9a8d7692e14ee819b5c1d1b896737aa1f795e7ee81",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/exact_small_search.py",
+    "size": 10158,
+    "sha256": "9a9e29ce70da23dcae0583969eeb00a08ae918a68b214366163ff597e2e82aa9",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/generate_certificate.py",
+    "size": 2265,
+    "sha256": "be593db84f3d9c7190cd283fbec322f70e7eb6065dba2f71bcce828d62b76e32",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/replay_report.json",
+    "size": 2992,
+    "sha256": "51cb42c5d7512dc75dcccb9e6fad386588ea8074e2bcea7db008b761fe7f94eb",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/Erdos634_small_scale_audit_2026-10-09/Erdos634_small_scale_audit_2026-10-09/verify_certificate.py",
+    "size": 5740,
+    "sha256": "70726406f43f01078758ff364318cb1cd10643843bf68b30cead99d6dab72663",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_independent_attack_2026-10-09/F3_14430_independent_attack/RESULTS_RU.md",
+    "size": 28384,
+    "sha256": "a39db82d8c361965126c6b8b2527aea360bb5b53c5c2095825158ef8ce4dc3ba",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_independent_attack_2026-10-09/F3_14430_independent_attack/SHA256SUMS.txt",
+    "size": 326,
+    "sha256": "902621861bdcfbd2b74fba30edb07eca6d72d3a2859dbf5eac45f40aa9cd0aa3",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_independent_attack_2026-10-09/F3_14430_independent_attack/check_14430.py",
+    "size": 11200,
+    "sha256": "1a91603329ddfde705c287942752f7bb21d9f220099ecd3470df77a6d662a37d",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_independent_attack_2026-10-09/F3_14430_independent_attack/verification.json",
+    "size": 1426,
+    "sha256": "88879ed46214c6212dbe402252b9fc1063e0b73971325bfdf056c703eac8d684",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_independent_attack_2026-10-09/F3_14430_independent_attack/witnesses.json",
+    "size": 10048,
+    "sha256": "05338bd0cd2629236de8e4b47bebabe2489ec72ce136807917c7940978c4131b",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_no61_height_2026-10-09(1)/F3_14430_no61/DEPENDENCIES.md",
+    "size": 2551,
+    "sha256": "c71b1e2f89ff5c59664ecdabbb1df2cedce7d72b826c803095dca098558cd414",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_no61_height_2026-10-09(1)/F3_14430_no61/NO_61_HEIGHT.md",
+    "size": 19251,
+    "sha256": "5ef3b099089f56c646770b21f207bbe0e3de764011fa7dc38328290194c4d6bc",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_no61_height_2026-10-09(1)/F3_14430_no61/README.md",
+    "size": 1089,
+    "sha256": "0a253188fe64fd9c799a5eb6eacb044677be32d9b9970f5dd78df2b43da3043d",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_no61_height_2026-10-09(1)/F3_14430_no61/SHA256.json",
+    "size": 448,
+    "sha256": "81173539cde8363ca1c8bf6c06897c2d8b0cc397bda44cd230f632eb3ea9c0cc",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_no61_height_2026-10-09(1)/F3_14430_no61/verification_no61.json",
+    "size": 6979,
+    "sha256": "d467da3a7a9af9b5b59bc7c78fc1b1d4571b84a849c446f5ae0285626770fa68",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/F3_14430_no61_height_2026-10-09(1)/F3_14430_no61/verify_no61.py",
+    "size": 8593,
+    "sha256": "fbd4489d9098cf4b355899b455e04c60a27642bad81e7a11938c8d455e048981",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/erdos634_14430_independent_attack/F3_14430_boundary_and_gap_analysis.md",
+    "size": 20049,
+    "sha256": "ac38a263162f5986bfc0b1bb4145c8b82fc35ae6557ff7e2e0937c2812cc5778",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/erdos634_14430_independent_attack/verification_14430.json",
+    "size": 4428,
+    "sha256": "5f088b6c88b7656422059c616054bc68c4927ea39d77a334d8f63dc97d51becb",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/erdos634_14430_independent_attack/verify_14430.py",
+    "size": 7488,
+    "sha256": "72332fb6d1b5b24103f510ff66e880007145b2ed8d80946b1b8bdc23fe0f24f5",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/erdos634_effective_density_2026-10-09/effective-density/AUDIT.md",
+    "size": 4813,
+    "sha256": "de3288946e2bc428d078621c7b448d365e12552d9301477687a8186ff3d88665",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/erdos634_effective_density_2026-10-09/effective-density/MANIFEST.json",
+    "size": 1016,
+    "sha256": "ea65685bed7f600dcf31ff5f843a83b2c88d51502c4157b446a6c7c92d42642a",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/erdos634_effective_density_2026-10-09/effective-density/PROOF.md",
+    "size": 24085,
+    "sha256": "ff3a7d9c50393bf5902f0a2022f35c715e9112b6fa9e27d1d96afec6156381af",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/erdos634_effective_density_2026-10-09/effective-density/README_RU.md",
+    "size": 5736,
+    "sha256": "382f2f1cfb1a4e38325809279d6939e4bf7bad9334f6b2a31b48e779c308e9a7",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/erdos634_effective_density_2026-10-09/effective-density/check_density.py",
+    "size": 12550,
+    "sha256": "24b8c042f900145f6cafc0a238cdaeebee7bcb287e0eae77b2f8abe3891c75ee",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/erdos634_effective_density_2026-10-09/effective-density/cutoff_plans.json",
+    "size": 1068,
+    "sha256": "c9ad6925863624188e1ceefea4eb3e0610ea8581a08e4e6c8880f08dde86a946",
+    "scope": "input bytes; inclusion is not a proof audit"
+  },
+  {
+    "path": "source_snapshots/erdos634_effective_density_2026-10-09/effective-density/verification.json",
+    "size": 3801,
+    "sha256": "8955e6a62685a400c8cd093268c02a48776d4dae0773ad4cc1d5e988676722ea",
+    "scope": "input bytes; inclusion is not a proof audit"
+  }
+]

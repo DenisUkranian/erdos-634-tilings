@@ -1,0 +1,117 @@
+[
+  {
+    "path": "CLAIM_LEDGER_UPDATE.json",
+    "bytes": 1489,
+    "sha256": "d22d3f46e9ecfce5ab3dad5b1bcc1c733472b41e94c0b010c58f93285c6f38cb"
+  },
+  {
+    "path": "ENVIRONMENT.json",
+    "bytes": 285,
+    "sha256": "ebce8e6f43f468640fccfdd235f4e58ddd1346507fe5536b129fa2ca9d0f5dfa"
+  },
+  {
+    "path": "INPUT_MANIFEST.json",
+    "bytes": 1194,
+    "sha256": "77aa5af15c74b33d136acd0068dd7db2cd37fba8a36d5a6dc669de19fc0bca85"
+  },
+  {
+    "path": "REPORT.md",
+    "bytes": 21252,
+    "sha256": "9e18b40ef0dade3aba4962a0f4dce708af4cef6781d2d6ef63b5a230e55cefe3"
+  },
+  {
+    "path": "REPORT.pdf",
+    "bytes": 90509,
+    "sha256": "870bc90e723b3f657fd30b8a8a1297530fb1bd1c56e80202cfbdd8e1ae1130cc"
+  },
+  {
+    "path": "code/check_boundary_foundations.py",
+    "bytes": 12968,
+    "sha256": "d9e5c103b64891982bf7a8829130405b6961e6bb8dd6e72dc709512530f4da6c"
+  },
+  {
+    "path": "code/check_universal_geometry.py",
+    "bytes": 8118,
+    "sha256": "5ddaeddb53ef597d9dc3db6907df26c9143a18b67d9e17dfd64b1e5d3d752b78"
+  },
+  {
+    "path": "code/exact_geometry.py",
+    "bytes": 1638,
+    "sha256": "700b770040bf1a005764e92dd658f931dcedc0b3d5cbd7620ef9db8b6e37a0aa"
+  },
+  {
+    "path": "inputs/Erdos634_W_beta_unrestricted_PROOF_2026-10-09.md",
+    "bytes": 18516,
+    "sha256": "d09802cb073999694d3c211e64683d3b95bca8ff7ea3130aafa407d6f3513f47"
+  },
+  {
+    "path": "inputs/Erdos634_class14_complete_PROOF_2026-10-09.md",
+    "bytes": 22022,
+    "sha256": "b0fde9c29b42f1f8c187bf0492973aed5aba5b79e3e93173c25db334165a5600"
+  },
+  {
+    "path": "inputs/construct_prior.py",
+    "bytes": 10104,
+    "sha256": "d80564f15e7289bf8ea696098a74185db80c1367a3fbcbe557b3e3dad9ecfff5"
+  },
+  {
+    "path": "inputs/verify_prior_W.py",
+    "bytes": 4862,
+    "sha256": "71f026cec04456a4a62a95d6fb178ea531d8f74119a16c08738157231cb80a60"
+  },
+  {
+    "path": "inputs/verify_prior_negative.py",
+    "bytes": 10524,
+    "sha256": "f58b8955522da906c5b8a14b00c90e977179b1b1287bb497a327609cd1bf7dba"
+  },
+  {
+    "path": "notes/FOUNDATION_LEMMAS.md",
+    "bytes": 11540,
+    "sha256": "07f8b615f4e048a34472e23326703f6fb5d81bf052465b297a4ad55d6cf8a147"
+  },
+  {
+    "path": "notes/SOURCE_BOUNDARIES.md",
+    "bytes": 2543,
+    "sha256": "35fc9ef63a2528c5d93c0927119aeb9fec135845de6b0dfdcbc0b2952364ce20"
+  },
+  {
+    "path": "notes/W_BETA_PROOF_REVIEW.md",
+    "bytes": 9160,
+    "sha256": "f52c265cf95e44fe73d173088f4d52eb723540b0e363d51a2602301702d702aa"
+  },
+  {
+    "path": "reproduce.py",
+    "bytes": 415,
+    "sha256": "cc67c3d86bcf23ceab1a96c420af9bcacd3d1871740dc1759edbe864785aa672"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 14,
+    "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+  },
+  {
+    "path": "results/boundary_foundations.json",
+    "bytes": 4212,
+    "sha256": "c6f0f5608ee84793a6599d43c82ecea7be4f380b31e23a636702fb83c979d74a"
+  },
+  {
+    "path": "results/boundary_foundations.log",
+    "bytes": 4212,
+    "sha256": "326bae93728a0a3b79d4e729f159a3c45e0008ba33daa21156eb134f014f1705"
+  },
+  {
+    "path": "results/final_replay.log",
+    "bytes": 5366,
+    "sha256": "5046e7f419b3c170fe24aac56dccff9322f37a4685f7a41828278298fca66a64"
+  },
+  {
+    "path": "results/universal_geometry.json",
+    "bytes": 1090,
+    "sha256": "3d56a6e8d7adba24905c89dcead1cd7677fc37890e253a0bdded74e244376dc7"
+  },
+  {
+    "path": "results/wrong_mark_counterexample.json",
+    "bytes": 5210,
+    "sha256": "3284cee8d497b69b8b0876830a398115a73d56e7b0ea198a00e5349185d97414"
+  }
+]

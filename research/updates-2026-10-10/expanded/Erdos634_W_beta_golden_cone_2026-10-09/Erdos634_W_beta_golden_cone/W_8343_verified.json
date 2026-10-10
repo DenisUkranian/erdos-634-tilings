@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "file": "W_8343.json",
+  "sha256": "6da2e47da0646b45a211ed4ba352b0aab810891d7f4a6d15ebea0fe644aa05cc",
+  "branch": "W",
+  "u": 5,
+  "v": 8,
+  "m": 9,
+  "N": 8343,
+  "metric": "exact integer PASS",
+  "containment": "exact integer PASS",
+  "area": "exact integer PASS",
+  "positioned_boundary": "exact integer PASS",
+  "nonzero_boundary_events": 0,
+  "distinct_boundary_events_checked": 13798,
+  "all_pairs_checked": 34798653,
+  "external_review": false,
+  "full_problem_solved": false,
+  "all_pairs_status": "exact integer separating-axis PASS",
+  "elapsed_seconds": 0.704
+}

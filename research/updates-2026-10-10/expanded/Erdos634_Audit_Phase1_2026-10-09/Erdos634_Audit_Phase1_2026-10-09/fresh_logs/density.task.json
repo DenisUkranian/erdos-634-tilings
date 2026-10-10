@@ -1,0 +1,16 @@
+{
+  "name": "density",
+  "status": "COMPLETED_ZERO_EXIT",
+  "exit_code": 0,
+  "seconds": 2.057,
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "check_density.py",
+    "--limit",
+    "3000",
+    "--output",
+    "/mnt/data/ep634_consolidation_work/fresh_logs/density.report.json"
+  ],
+  "cwd": "/mnt/data/ep634_consolidation_work/replay_workspace/erdos634_effective_density_2026-10-09/effective-density",
+  "log": "/mnt/data/ep634_consolidation_work/fresh_logs/density.log"
+}

@@ -1,0 +1,113 @@
+replayed 1000 elapsed 1.33
+replayed 1000 elapsed 1.33
+replayed 2000 elapsed 2.1
+replayed 2000 elapsed 2.1
+{
+  "scope": "Finite certificate integrity, geometric verification covariance, and arithmetic counterexamples to stronger claims. Not a full theorem audit.",
+  "tests": [
+    {
+      "test": "positive_replace_tile_by_duplicate",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "('positioned-boundary', [((92, -125, -55125, 40572), 2), ((92, -125, -55125, 88750), -2), ((1, 0, 250, 625), 1), ((1, 0, 250, 1066), -1), ((5, -2, -882, 2205), -1)])"
+    },
+    {
+      "test": "positive_move_vertex",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "('metric', 0, [5512500, 24200000, 34332500], [5512500, 24310125, 34453125])"
+    },
+    {
+      "test": "positive_flip_orientation",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "('orientation', 0)"
+    },
+    {
+      "test": "positive_wrong_scale",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": ""
+    },
+    {
+      "test": "positive_wrong_denominator",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": ""
+    },
+    {
+      "test": "positive_wrong_branch",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": ""
+    },
+    {
+      "test": "translated_positive",
+      "outcome": "PASS",
+      "N": 1656
+    },
+    {
+      "test": "redundant_denominator_positive",
+      "outcome": "PASS",
+      "N": 1656
+    },
+    {
+      "test": "python_O_guard",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "explicit __debug__ guard"
+    },
+    {
+      "test": "negative_deleted_branch",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "missing or extra geometric branch"
+    },
+    {
+      "test": "negative_cycle",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "cycle or repeated proof node"
+    },
+    {
+      "test": "negative_unjustified_boundary",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "boundary refutation is not justified"
+    },
+    {
+      "test": "negative_shifted_triangle",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "missing or extra geometric branch"
+    },
+    {
+      "test": "negative_unreachable_record",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "unreachable records"
+    },
+    {
+      "test": "negative_wrong_N",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "N"
+    },
+    {
+      "test": "negative_incomplete_status",
+      "outcome": "REJECTED_AS_EXPECTED",
+      "reason": "not a complete proof"
+    },
+    {
+      "test": "short_c_does_not_mean_c_only",
+      "outcome": "COUNTEREXAMPLE_TO_STRENGTHENING",
+      "u": 2,
+      "v": 5,
+      "equation": "2*25=5*10",
+      "not_a_tiling": true
+    },
+    {
+      "test": "equal_side_no_b_does_not_mean_c_only",
+      "outcome": "COUNTEREXAMPLE_TO_ARITHMETIC_INFERENCE",
+      "equation": "5*25=5*10+3*25",
+      "not_a_tiling": true
+    },
+    {
+      "test": "short_c_strict_bound_necessary",
+      "outcome": "COUNTEREXAMPLE_TO_WEAKENED_HYPOTHESIS",
+      "n": 5,
+      "A": 2,
+      "B": 5,
+      "C": 0,
+      "equation": "5*25=2*10+5*21"
+    }
+  ],
+  "seconds": 5.928
+}

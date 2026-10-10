@@ -1,0 +1,125 @@
+{
+  "status": "COMPLETED_SUBCHECKS_PASS",
+  "N92_decided": false,
+  "full_Erdos634_solved": false,
+  "reports": [
+    {
+      "N": 23,
+      "status": "ARITHMETIC_GATE_PASS",
+      "surviving_instances": [
+        {
+          "branch": "W",
+          "tile": [
+            12,
+            7,
+            16
+          ],
+          "target": [
+            64,
+            69,
+            28
+          ],
+          "scale": 1,
+          "parameters": [
+            3,
+            4
+          ]
+        },
+        {
+          "branch": "beta",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            27,
+            27,
+            46
+          ],
+          "scale": 1,
+          "parameters": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "N": 92,
+      "status": "ARITHMETIC_GATE_PASS",
+      "surviving_instances": [
+        {
+          "branch": "W",
+          "tile": [
+            12,
+            7,
+            16
+          ],
+          "target": [
+            128,
+            138,
+            56
+          ],
+          "scale": 2,
+          "parameters": [
+            3,
+            4
+          ]
+        },
+        {
+          "branch": "beta",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            54,
+            54,
+            92
+          ],
+          "scale": 2,
+          "parameters": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "root-boundary candidate eliminations only",
+      "u": 3,
+      "v": 4,
+      "m": 2,
+      "branch": "W",
+      "N": 92,
+      "root": 0,
+      "status": "PASS",
+      "initial_boundary_candidates": 1554,
+      "certified_eliminated_supported_tiles": 650,
+      "boundary_candidates_not_banned_after_replay": 644,
+      "original_sidewise_relaxation_still_feasible": true,
+      "W92_tiling_or_nonexistence_proved": false,
+      "full_problem_solved": false,
+      "seconds": 6.106788490000099
+    },
+    {
+      "scope": "root-boundary candidate eliminations only",
+      "u": 3,
+      "v": 4,
+      "m": 2,
+      "branch": "W",
+      "N": 92,
+      "root": 1,
+      "status": "PASS",
+      "initial_boundary_candidates": 1554,
+      "certified_eliminated_supported_tiles": 650,
+      "boundary_candidates_not_banned_after_replay": 644,
+      "original_sidewise_relaxation_still_feasible": true,
+      "W92_tiling_or_nonexistence_proved": false,
+      "full_problem_solved": false,
+      "seconds": 6.244124400000032
+    }
+  ]
+}

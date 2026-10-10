@@ -1,0 +1,170 @@
+[
+  {
+    "status": "PASS",
+    "N": 7,
+    "tile": [
+      2,
+      3,
+      4
+    ],
+    "target_sides": [
+      8,
+      7,
+      6
+    ],
+    "parameters": {
+      "u": 1,
+      "v": 2,
+      "m": 1,
+      "branch": "W"
+    },
+    "nodes": 15,
+    "max_depth": 5,
+    "contradiction_leaves": 8,
+    "scope": "specified tile and target only",
+    "uses_reverse_apex_or_packing": false,
+    "direction_cutoff": null,
+    "file": "W_1_2_1_refutation.json",
+    "replay_seconds": 0.0116
+  },
+  {
+    "status": "PASS",
+    "N": 17,
+    "tile": [
+      3,
+      8,
+      9
+    ],
+    "target_sides": [
+      27,
+      17,
+      24
+    ],
+    "parameters": {
+      "u": 1,
+      "v": 3,
+      "m": 1,
+      "branch": "W"
+    },
+    "nodes": 91,
+    "max_depth": 11,
+    "contradiction_leaves": 29,
+    "scope": "specified tile and target only",
+    "uses_reverse_apex_or_packing": false,
+    "direction_cutoff": null,
+    "file": "W_1_3_1_refutation.json",
+    "replay_seconds": 0.1636
+  },
+  {
+    "status": "PASS",
+    "N": 14,
+    "tile": [
+      6,
+      5,
+      9
+    ],
+    "target_sides": [
+      27,
+      28,
+      15
+    ],
+    "parameters": {
+      "u": 2,
+      "v": 3,
+      "m": 1,
+      "branch": "W"
+    },
+    "nodes": 93,
+    "max_depth": 10,
+    "contradiction_leaves": 42,
+    "scope": "specified tile and target only",
+    "uses_reverse_apex_or_packing": false,
+    "direction_cutoff": null,
+    "file": "W_2_3_1_refutation.json",
+    "replay_seconds": 0.1789
+  },
+  {
+    "status": "PASS",
+    "N": 11,
+    "tile": [
+      2,
+      3,
+      4
+    ],
+    "target_sides": [
+      8,
+      8,
+      11
+    ],
+    "parameters": {
+      "u": 1,
+      "v": 2,
+      "m": 1,
+      "branch": "beta"
+    },
+    "nodes": 52,
+    "max_depth": 9,
+    "contradiction_leaves": 29,
+    "scope": "specified tile and target only",
+    "uses_reverse_apex_or_packing": false,
+    "direction_cutoff": null,
+    "file": "beta_1_2_1_refutation.json",
+    "replay_seconds": 0.0671
+  },
+  {
+    "status": "PASS",
+    "N": 26,
+    "tile": [
+      3,
+      8,
+      9
+    ],
+    "target_sides": [
+      27,
+      27,
+      26
+    ],
+    "parameters": {
+      "u": 1,
+      "v": 3,
+      "m": 1,
+      "branch": "beta"
+    },
+    "nodes": 805,
+    "max_depth": 22,
+    "contradiction_leaves": 258,
+    "scope": "specified tile and target only",
+    "uses_reverse_apex_or_packing": false,
+    "direction_cutoff": null,
+    "file": "beta_1_3_1_refutation.json",
+    "replay_seconds": 2.9942
+  },
+  {
+    "status": "PASS",
+    "N": 23,
+    "tile": [
+      6,
+      5,
+      9
+    ],
+    "target_sides": [
+      27,
+      27,
+      46
+    ],
+    "parameters": {
+      "u": 2,
+      "v": 3,
+      "m": 1,
+      "branch": "beta"
+    },
+    "nodes": 490,
+    "max_depth": 19,
+    "contradiction_leaves": 186,
+    "scope": "specified tile and target only",
+    "uses_reverse_apex_or_packing": false,
+    "direction_cutoff": null,
+    "file": "beta_2_3_1_refutation.json",
+    "replay_seconds": 1.9419
+  }
+]

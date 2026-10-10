@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "classification_is_external_input": true,
+  "counts": [
+    {
+      "N": 14,
+      "classical_witnesses": [],
+      "all_candidates": [
+        {
+          "branch": "W",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            27,
+            28,
+            15
+          ],
+          "scale": 1,
+          "parameters": [
+            2,
+            3
+          ]
+        }
+      ],
+      "after_proved_scale_one_isosceles_exclusions": [
+        {
+          "branch": "W",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            27,
+            28,
+            15
+          ],
+          "scale": 1,
+          "parameters": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "N": 56,
+      "classical_witnesses": [],
+      "all_candidates": [
+        {
+          "branch": "E120",
+          "tile": [
+            8,
+            7,
+            13
+          ],
+          "target": [
+            56,
+            56,
+            56
+          ],
+          "scale": 1,
+          "parameters": [
+            8,
+            7
+          ]
+        },
+        {
+          "branch": "W",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            54,
+            56,
+            30
+          ],
+          "scale": 2,
+          "parameters": [
+            2,
+            3
+          ]
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            25,
+            56,
+            45
+          ],
+          "target": [
+            280,
+            280,
+            504
+          ],
+          "scale": 1,
+          "parameters": [
+            5,
+            9
+          ]
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            169,
+            56,
+            195
+          ],
+          "target": [
+            728,
+            728,
+            840
+          ],
+          "scale": 1,
+          "parameters": [
+            13,
+            15
+          ]
+        },
+        {
+          "branch": "theta",
+          "tile": [
+            45,
+            56,
+            81
+          ],
+          "target": [
+            504,
+            504,
+            280
+          ],
+          "scale": 1,
+          "parameters": [
+            5,
+            9
+          ]
+        },
+        {
+          "branch": "theta",
+          "tile": [
+            195,
+            56,
+            225
+          ],
+          "target": [
+            840,
+            840,
+            728
+          ],
+          "scale": 1,
+          "parameters": [
+            13,
+            15
+          ]
+        }
+      ],
+      "after_proved_scale_one_isosceles_exclusions": [
+        {
+          "branch": "E120",
+          "tile": [
+            8,
+            7,
+            13
+          ],
+          "target": [
+            56,
+            56,
+            56
+          ],
+          "scale": 1,
+          "parameters": [
+            8,
+            7
+          ]
+        },
+        {
+          "branch": "W",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            54,
+            56,
+            30
+          ],
+          "scale": 2,
+          "parameters": [
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ]
+}

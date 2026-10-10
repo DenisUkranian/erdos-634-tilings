@@ -1,0 +1,101 @@
+{
+  "scope": "These are incomplete exploratory runs, not negative certificates. The E120 case is settled by the separate completed boundary-assisted proof, not by its plain-search timeout.",
+  "runs": [
+    {
+      "file": "W68b.json",
+      "status": "INCOMPLETE",
+      "u": 1,
+      "v": 3,
+      "m": 2,
+      "branch": "W",
+      "N": 68,
+      "nodes": 32512,
+      "maximum_placed": 65,
+      "seconds": 90.1227
+    },
+    {
+      "file": "B104b.json",
+      "status": "INCOMPLETE",
+      "u": 1,
+      "v": 3,
+      "m": 2,
+      "branch": "beta",
+      "N": 104,
+      "nodes": 18560,
+      "maximum_placed": 87,
+      "seconds": 90.3689
+    },
+    {
+      "file": "B92b.json",
+      "status": "INCOMPLETE",
+      "u": 2,
+      "v": 3,
+      "m": 2,
+      "branch": "beta",
+      "N": 92,
+      "nodes": 23552,
+      "maximum_placed": 77,
+      "seconds": 90.1973
+    },
+    {
+      "file": "E56plain.json",
+      "status": "INCOMPLETE",
+      "u": 8,
+      "v": 7,
+      "m": 1,
+      "branch": "E120",
+      "N": 56,
+      "nodes": 48128,
+      "maximum_placed": 38,
+      "seconds": 75.1161
+    },
+    {
+      "file": "B92long0.json",
+      "status": "INCOMPLETE",
+      "u": 2,
+      "v": 3,
+      "m": 2,
+      "branch": "beta",
+      "N": 92,
+      "nodes": 38656,
+      "maximum_placed": 70,
+      "seconds": 210.423
+    },
+    {
+      "file": "B92long1.json",
+      "status": "INCOMPLETE",
+      "u": 2,
+      "v": 3,
+      "m": 2,
+      "branch": "beta",
+      "N": 92,
+      "nodes": 42240,
+      "maximum_placed": 83,
+      "seconds": 210.245
+    },
+    {
+      "file": "B92long5.json",
+      "status": "INCOMPLETE",
+      "u": 2,
+      "v": 3,
+      "m": 2,
+      "branch": "beta",
+      "N": 92,
+      "nodes": 40576,
+      "maximum_placed": 84,
+      "seconds": 210.089
+    },
+    {
+      "file": "B92long6.json",
+      "status": "INCOMPLETE",
+      "u": 2,
+      "v": 3,
+      "m": 2,
+      "branch": "beta",
+      "N": 92,
+      "nodes": 39680,
+      "maximum_placed": 67,
+      "seconds": 210.027
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"positive_control": "PASS", "positive_tiles": 28, "positive_pairs": 378, "corrupted_certificates_rejected": ["deleted_branch", "moved_tile", "cycle"]}

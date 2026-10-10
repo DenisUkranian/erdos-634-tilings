@@ -1,0 +1,16 @@
+{
+  "name": "beta_2556_all_pairs",
+  "status": "COMPLETED_ZERO_EXIT",
+  "exit_code": 0,
+  "seconds": 1.955,
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "verify.py",
+    "beta_2556.json",
+    "--all-pairs",
+    "--report",
+    "/mnt/data/ep634_consolidation_work/fresh_logs/beta_2556.report.json"
+  ],
+  "cwd": "/mnt/data/ep634_consolidation_work/replay_workspace/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted",
+  "log": "/mnt/data/ep634_consolidation_work/fresh_logs/beta_2556_all_pairs.log"
+}

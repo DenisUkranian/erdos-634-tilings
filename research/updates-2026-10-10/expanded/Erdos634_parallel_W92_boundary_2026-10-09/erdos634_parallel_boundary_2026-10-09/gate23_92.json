@@ -1,0 +1,446 @@
+{
+  "scope": "Arithmetic gate under the prior exhaustive classification; not a tiling test",
+  "classification_dependency": "research/uniform-reduction/PROOF.md at 3a0ad269",
+  "counts": [
+    {
+      "N": 23,
+      "classical_witnesses": [],
+      "all_candidates": [
+        {
+          "branch": "W",
+          "tile": [
+            12,
+            7,
+            16
+          ],
+          "target": [
+            64,
+            69,
+            28
+          ],
+          "scale": 1,
+          "parameters": [
+            3,
+            4
+          ]
+        },
+        {
+          "branch": "beta",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            27,
+            27,
+            46
+          ],
+          "scale": 1,
+          "parameters": [
+            2,
+            3
+          ]
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            121,
+            23,
+            132
+          ],
+          "target": [
+            253,
+            253,
+            276
+          ],
+          "scale": 1,
+          "parameters": [
+            11,
+            12
+          ]
+        },
+        {
+          "branch": "theta",
+          "tile": [
+            132,
+            23,
+            144
+          ],
+          "target": [
+            276,
+            276,
+            253
+          ],
+          "scale": 1,
+          "parameters": [
+            11,
+            12
+          ]
+        }
+      ],
+      "after_proved_scale_one_isosceles_exclusions": [
+        {
+          "branch": "W",
+          "tile": [
+            12,
+            7,
+            16
+          ],
+          "target": [
+            64,
+            69,
+            28
+          ],
+          "scale": 1,
+          "parameters": [
+            3,
+            4
+          ]
+        },
+        {
+          "branch": "beta",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            27,
+            27,
+            46
+          ],
+          "scale": 1,
+          "parameters": [
+            2,
+            3
+          ]
+        }
+      ],
+      "after_long_seam_bounds": [
+        {
+          "branch": "W",
+          "tile": [
+            12,
+            7,
+            16
+          ],
+          "target": [
+            64,
+            69,
+            28
+          ],
+          "scale": 1,
+          "parameters": [
+            3,
+            4
+          ]
+        },
+        {
+          "branch": "beta",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            27,
+            27,
+            46
+          ],
+          "scale": 1,
+          "parameters": [
+            2,
+            3
+          ]
+        }
+      ],
+      "long_seam_exclusions": [
+        {
+          "candidate": {
+            "branch": "double-angle",
+            "tile": [
+              121,
+              23,
+              132
+            ],
+            "target": [
+              253,
+              253,
+              276
+            ],
+            "scale": 1,
+            "parameters": [
+              11,
+              12
+            ]
+          },
+          "reason": "necessary long-seam inequality fails",
+          "actual": 23,
+          "required_at_least": 121
+        },
+        {
+          "candidate": {
+            "branch": "theta",
+            "tile": [
+              132,
+              23,
+              144
+            ],
+            "target": [
+              276,
+              276,
+              253
+            ],
+            "scale": 1,
+            "parameters": [
+              11,
+              12
+            ]
+          },
+          "reason": "necessary long-seam inequality fails",
+          "actual": 23,
+          "required_at_least": 132
+        }
+      ]
+    },
+    {
+      "N": 92,
+      "classical_witnesses": [],
+      "all_candidates": [
+        {
+          "branch": "W",
+          "tile": [
+            12,
+            7,
+            16
+          ],
+          "target": [
+            128,
+            138,
+            56
+          ],
+          "scale": 2,
+          "parameters": [
+            3,
+            4
+          ]
+        },
+        {
+          "branch": "beta",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            54,
+            54,
+            92
+          ],
+          "scale": 2,
+          "parameters": [
+            2,
+            3
+          ]
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            121,
+            23,
+            132
+          ],
+          "target": [
+            506,
+            506,
+            552
+          ],
+          "scale": 2,
+          "parameters": [
+            11,
+            12
+          ]
+        },
+        {
+          "branch": "theta",
+          "tile": [
+            132,
+            23,
+            144
+          ],
+          "target": [
+            552,
+            552,
+            506
+          ],
+          "scale": 2,
+          "parameters": [
+            11,
+            12
+          ]
+        }
+      ],
+      "after_proved_scale_one_isosceles_exclusions": [
+        {
+          "branch": "W",
+          "tile": [
+            12,
+            7,
+            16
+          ],
+          "target": [
+            128,
+            138,
+            56
+          ],
+          "scale": 2,
+          "parameters": [
+            3,
+            4
+          ]
+        },
+        {
+          "branch": "beta",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            54,
+            54,
+            92
+          ],
+          "scale": 2,
+          "parameters": [
+            2,
+            3
+          ]
+        },
+        {
+          "branch": "double-angle",
+          "tile": [
+            121,
+            23,
+            132
+          ],
+          "target": [
+            506,
+            506,
+            552
+          ],
+          "scale": 2,
+          "parameters": [
+            11,
+            12
+          ]
+        },
+        {
+          "branch": "theta",
+          "tile": [
+            132,
+            23,
+            144
+          ],
+          "target": [
+            552,
+            552,
+            506
+          ],
+          "scale": 2,
+          "parameters": [
+            11,
+            12
+          ]
+        }
+      ],
+      "after_long_seam_bounds": [
+        {
+          "branch": "W",
+          "tile": [
+            12,
+            7,
+            16
+          ],
+          "target": [
+            128,
+            138,
+            56
+          ],
+          "scale": 2,
+          "parameters": [
+            3,
+            4
+          ]
+        },
+        {
+          "branch": "beta",
+          "tile": [
+            6,
+            5,
+            9
+          ],
+          "target": [
+            54,
+            54,
+            92
+          ],
+          "scale": 2,
+          "parameters": [
+            2,
+            3
+          ]
+        }
+      ],
+      "long_seam_exclusions": [
+        {
+          "candidate": {
+            "branch": "double-angle",
+            "tile": [
+              121,
+              23,
+              132
+            ],
+            "target": [
+              506,
+              506,
+              552
+            ],
+            "scale": 2,
+            "parameters": [
+              11,
+              12
+            ]
+          },
+          "reason": "necessary long-seam inequality fails",
+          "actual": 46,
+          "required_at_least": 121
+        },
+        {
+          "candidate": {
+            "branch": "theta",
+            "tile": [
+              132,
+              23,
+              144
+            ],
+            "target": [
+              552,
+              552,
+              506
+            ],
+            "scale": 2,
+            "parameters": [
+              11,
+              12
+            ]
+          },
+          "reason": "necessary long-seam inequality fails",
+          "actual": 46,
+          "required_at_least": 132
+        }
+      ]
+    }
+  ]
+}

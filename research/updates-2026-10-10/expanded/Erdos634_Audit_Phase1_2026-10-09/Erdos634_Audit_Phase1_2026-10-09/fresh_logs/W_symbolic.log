@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "universal_symbolic_identities": 46,
+  "universal_nonnegative_coefficient_sign_checks": 14,
+  "regression_parameter_pairs": 3247,
+  "regression_residue_seeds": 66640,
+  "regression_rectangle_checks": 1427531,
+  "regression_range": "2<=u<=35, u<v<=4u+40, every 1<=t<u; includes nonprimitive pairs",
+  "geometric_forcing_formally_verified": false,
+  "all_parameter_proof": "PROOF.md",
+  "full_Erdos634_solved": false
+}

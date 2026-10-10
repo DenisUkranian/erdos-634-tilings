@@ -1,0 +1,132 @@
+{
+  "symbolic": {
+    "status": "PASS",
+    "identities": [
+      "metric s",
+      "metric e",
+      "metric e-s",
+      "metric s2",
+      "metric e2",
+      "metric e2-s2",
+      "metric A-grid-u",
+      "metric A-grid-v",
+      "metric A-grid-third",
+      "metric B-grid-third",
+      "Gram determinant",
+      "outer side OA",
+      "outer side OC",
+      "outer side AC",
+      "third annulus x",
+      "third annulus y",
+      "third-fourth join x",
+      "third-fourth join y",
+      "macro signed area 0",
+      "macro signed area 1",
+      "macro signed area 2",
+      "macro signed area 3",
+      "macro signed area 4",
+      "whole count",
+      "full positioned boundary cancellation",
+      "lower rectangle",
+      "middle full rectangle",
+      "upper full rectangle",
+      "omega identity",
+      "middle clipped width",
+      "upper clipped width",
+      "clipped corner upper endpoint x",
+      "clipped corner upper endpoint y",
+      "clipped corner lower endpoint x",
+      "clipped corner lower endpoint y",
+      "beta extra side",
+      "beta base",
+      "beta added grid side",
+      "beta count"
+    ],
+    "identity_count": 39,
+    "positioned_endpoint_events": 26
+  },
+  "arithmetic_regression": {
+    "status": "PASS",
+    "u_limit": 100,
+    "v_limit_rule": "v<=2u+2",
+    "accepted_parameter_pairs": 3257,
+    "golden_cone_pairs": 3071,
+    "seed_parameter_cases": 213005,
+    "critical_rectangle_checks": 1459167,
+    "sample_extra_pairs": [
+      [
+        2,
+        4,
+        12,
+        0,
+        3
+      ],
+      [
+        3,
+        5,
+        29,
+        3,
+        4
+      ],
+      [
+        3,
+        6,
+        18,
+        0,
+        3
+      ],
+      [
+        4,
+        7,
+        46,
+        1,
+        6
+      ],
+      [
+        4,
+        8,
+        16,
+        0,
+        2
+      ],
+      [
+        5,
+        9,
+        57,
+        6,
+        3
+      ],
+      [
+        6,
+        10,
+        108,
+        3,
+        9
+      ],
+      [
+        6,
+        11,
+        56,
+        2,
+        4
+      ],
+      [
+        7,
+        12,
+        124,
+        4,
+        8
+      ],
+      [
+        8,
+        13,
+        204,
+        6,
+        12
+      ]
+    ]
+  },
+  "scope": "Universal identities plus a written geometric proof. Bounded regression is not the proof of the infinite quantifier.",
+  "formal_proof_assistant": false,
+  "external_review": false
+}

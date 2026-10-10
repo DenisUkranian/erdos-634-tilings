@@ -1,0 +1,52 @@
+[
+  {
+    "id": "BOUNDARY_WHOLE",
+    "status": "written_logic_review_and_controls",
+    "scope": "convex exterior and whole endpoints, not arbitrary subsegments"
+  },
+  {
+    "id": "CORNER_SIX",
+    "status": "written_logic_review_and_665_sector_checks",
+    "scope": "convex sectors, overrun allowed; not all negative trees replayed"
+  },
+  {
+    "id": "BLOCKED_C",
+    "status": "written_logic_review_and_controls",
+    "scope": "W,beta and documented equilateral120 hypotheses only"
+  },
+  {
+    "id": "BAD_MARK_ANY_GAMMA",
+    "status": "refuted_by_actual_W28_tiling",
+    "witness": "results/wrong_mark_counterexample.json",
+    "scope": "false strengthening, not the existing theorem"
+  },
+  {
+    "id": "BAD_ATOM_LENGTH_CAP",
+    "status": "loses_known_completions_in_18_occurrences",
+    "scope": "invalid rule strengthening, not a full global negative decision"
+  },
+  {
+    "id": "W_BETA_M_GE_V",
+    "status": "expanded_positive_proof_review_and_independent_macro_tests",
+    "necessary": false,
+    "uses_reverse_apex": false
+  },
+  {
+    "id": "CLASS_14",
+    "status": "phase1_negative_replay_retained_foundation_rules_audited",
+    "fresh_negative_forest_replay": false
+  },
+  {
+    "id": "BETA_APEX_PRIME",
+    "status": "candidate_quarantined",
+    "resolved_by_this_audit": false
+  },
+  {
+    "id": "CLASSIFICATION_13",
+    "status": "external_rationality_statement_checked_full_chain_pending"
+  },
+  {
+    "id": "N92_N14430",
+    "status": "unresolved_unchanged"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "status": "PASS: exact finite witness replay only",
+  "N_14430": "UNDECIDED",
+  "tiling_certificate_produced": false,
+  "nonexistence_certificate_produced": false,
+  "numeric_arithmetic": "fractions.Fraction; zero floating-point tolerance",
+  "boundary_heights": [
+    0,
+    2,
+    3
+  ],
+  "formal_inventory_populations": {
+    "1": 7015,
+    "2": 7415
+  },
+  "moment_multiset": {
+    "count": 14430,
+    "distinct_listed_placements": 18,
+    "height_populations": {
+      "1": 13969,
+      "2": 461
+    },
+    "largest_coincident_multiplicity": 4737,
+    "is_a_tiling": false,
+    "first_edge_moments": "PASS",
+    "area_centroid": "PASS",
+    "individual_containment": "PASS",
+    "height_congruences": "PASS"
+  },
+  "contained_hexagon": {
+    "tile_area_equivalent": 7442,
+    "whole_c_height": 3,
+    "strict_containment": "PASS",
+    "tiling_of_hexagon_asserted": false
+  },
+  "necessary_condition_arithmetic": {
+    "n2_minimum": 95,
+    "occupied_heights_maximum": 236,
+    "derived_height_span_bound": 237,
+    "gap_one_lower_population_options": [
+      3721,
+      11163
+    ],
+    "small_whole_c_component_cells": 1008,
+    "up_cells": 504,
+    "down_cells": 504
+  },
+  "control_4830": "Population and parity consistency PASS; not a full tiling replay",
+  "scope": "Universal necessity proofs are written in the note; this script checks the finite witnesses and their arithmetic, not all possible tilings."
+}

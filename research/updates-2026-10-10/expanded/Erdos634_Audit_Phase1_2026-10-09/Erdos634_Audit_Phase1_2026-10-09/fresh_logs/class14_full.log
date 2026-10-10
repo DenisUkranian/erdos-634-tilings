@@ -1,0 +1,32 @@
+replayed 1000 elapsed 1.6
+replayed 3000 elapsed 3.64
+replayed 3000 elapsed 3.64
+replayed 5000 elapsed 5.21
+replayed 6000 elapsed 6.08
+{"status": "PASS", "family": "W", "u": 2, "v": 3, "m": 2, "N": 56, "root_kind": "W_short", "root_id": 0, "boundary_candidates": 650, "nodes": 7680, "maximum_depth": 50, "boundary_leaves": 652, "corner_leaves": 3119, "seconds": 7.42360481999998, "whole_problem_solved": false, "direction_bound": null, "uses_reverse_apex": false, "independent_implementation": "Python fractions vs C++ GMP", "file": "W56proof0.json"}
+replayed 1000 elapsed 1.35
+replayed 1000 elapsed 1.35
+replayed 2000 elapsed 2.14
+replayed 2000 elapsed 2.14
+{"status": "PASS", "family": "W", "u": 2, "v": 3, "m": 2, "N": 56, "root_kind": "W_short", "root_id": 1, "boundary_candidates": 650, "nodes": 3372, "maximum_depth": 49, "corner_leaves": 825, "boundary_leaves": 312, "seconds": 3.111082457000009, "whole_problem_solved": false, "direction_bound": null, "uses_reverse_apex": false, "independent_implementation": "Python fractions vs C++ GMP", "file": "W56proof1.json"}
+replayed 1000 elapsed 1.53
+replayed 1000 elapsed 1.53
+replayed 1000 elapsed 1.53
+replayed 1000 elapsed 1.53
+replayed 1000 elapsed 1.53
+replayed 2000 elapsed 2.53
+replayed 2000 elapsed 2.53
+replayed 2000 elapsed 2.53
+replayed 2000 elapsed 2.53
+replayed 2000 elapsed 2.53
+replayed 2000 elapsed 2.53
+replayed 6000 elapsed 6.17
+replayed 8000 elapsed 7.99
+replayed 9000 elapsed 9.31
+replayed 11000 elapsed 10.7
+replayed 12000 elapsed 11.59
+replayed 16000 elapsed 15.2
+replayed 16000 elapsed 15.2
+replayed 17000 elapsed 15.9
+{"status": "PASS", "family": "E120", "u": 8, "v": 7, "m": 1, "N": 56, "root_kind": "empty", "root_id": 0, "boundary_candidates": 768, "nodes": 18548, "maximum_depth": 36, "corner_leaves": 6872, "boundary_leaves": 2776, "seconds": 17.069931662000016, "whole_problem_solved": false, "direction_bound": null, "uses_reverse_apex": false, "independent_implementation": "Python fractions vs C++ GMP", "file": "E56.json"}
+{"status": "PASS", "global_56_geometric_candidates_all_refuted": true, "classification_is_external_input": true, "nodes": 29600, "terminal_contradictions": 14556, "reports": [{"status": "PASS", "family": "W", "u": 2, "v": 3, "m": 2, "N": 56, "root_kind": "W_short", "root_id": 0, "boundary_candidates": 650, "nodes": 7680, "maximum_depth": 50, "boundary_leaves": 652, "corner_leaves": 3119, "seconds": 7.42360481999998, "whole_problem_solved": false, "direction_bound": null, "uses_reverse_apex": false, "independent_implementation": "Python fractions vs C++ GMP", "file": "W56proof0.json"}, {"status": "PASS", "family": "W", "u": 2, "v": 3, "m": 2, "N": 56, "root_kind": "W_short", "root_id": 1, "boundary_candidates": 650, "nodes": 3372, "maximum_depth": 49, "corner_leaves": 825, "boundary_leaves": 312, "seconds": 3.111082457000009, "whole_problem_solved": false, "direction_bound": null, "uses_reverse_apex": false, "independent_implementation": "Python fractions vs C++ GMP", "file": "W56proof1.json"}, {"status": "PASS", "family": "E120", "u": 8, "v": 7, "m": 1, "N": 56, "root_kind": "empty", "root_id": 0, "boundary_candidates": 768, "nodes": 18548, "maximum_depth": 36, "corner_leaves": 6872, "boundary_leaves": 2776, "seconds": 17.069931662000016, "whole_problem_solved": false, "direction_bound": null, "uses_reverse_apex": false, "independent_implementation": "Python fractions vs C++ GMP", "file": "E56.json"}], "seconds": 27.91572831900001, "all_small_scales_solved": false, "erdos634_fully_solved": false}

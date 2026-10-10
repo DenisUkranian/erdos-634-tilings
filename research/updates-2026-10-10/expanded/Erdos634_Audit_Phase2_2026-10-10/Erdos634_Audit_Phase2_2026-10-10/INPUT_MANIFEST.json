@@ -1,0 +1,27 @@
+[
+  {
+    "path": "inputs/construct_prior.py",
+    "source_path_in_phase1": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/construct.py",
+    "sha256": "d80564f15e7289bf8ea696098a74185db80c1367a3fbcbe557b3e3dad9ecfff5"
+  },
+  {
+    "path": "inputs/verify_prior_W.py",
+    "source_path_in_phase1": "source_snapshots/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted/verify.py",
+    "sha256": "71f026cec04456a4a62a95d6fb178ea531d8f74119a16c08738157231cb80a60"
+  },
+  {
+    "path": "inputs/verify_prior_negative.py",
+    "source_path_in_phase1": "source_snapshots/Erdos634_class14_complete_2026-10-09/Erdos634_class14_complete_2026-10-09/verify.py",
+    "sha256": "f58b8955522da906c5b8a14b00c90e977179b1b1287bb497a327609cd1bf7dba"
+  },
+  {
+    "path": "inputs/Erdos634_W_beta_unrestricted_PROOF_2026-10-09.md",
+    "source": "conversation attachment",
+    "sha256": "d09802cb073999694d3c211e64683d3b95bca8ff7ea3130aafa407d6f3513f47"
+  },
+  {
+    "path": "inputs/Erdos634_class14_complete_PROOF_2026-10-09.md",
+    "source": "conversation attachment",
+    "sha256": "b0fde9c29b42f1f8c187bf0492973aed5aba5b79e3e93173c25db334165a5600"
+  }
+]

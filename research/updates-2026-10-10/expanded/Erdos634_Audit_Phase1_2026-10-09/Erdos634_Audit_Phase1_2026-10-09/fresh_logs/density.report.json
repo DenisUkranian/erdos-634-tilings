@@ -1,0 +1,123 @@
+{
+  "scope": "Exact arithmetic regressions; not an exhaustive geometric tiling decision.",
+  "regression": {
+    "forward_inverse_witnesses": {
+      "alpha": 489,
+      "QP": 489,
+      "E60": 105,
+      "E120": 76,
+      "F1": 76,
+      "I120": 76,
+      "F2": 76,
+      "F3": 76,
+      "F4": 76
+    },
+    "total_forward_inverse_witnesses": 1539,
+    "exact_period_tests": 7,
+    "divisor_majorant_tests": 3000,
+    "fixed_factor_counts": {
+      "difference_of_squares": 300,
+      "Pell_2": 300,
+      "Pell_3": 300,
+      "fixed_side_sign_-1": 300,
+      "fixed_side_sign_1": 300,
+      "fixed_sum": 300,
+      "fixed_weighted_sum": 300
+    }
+  },
+  "classes": {
+    "22": {
+      "K": 3000,
+      "easy_cofinal": {
+        "odd_kernel": false,
+        "classical": false,
+        "W": false,
+        "beta": false
+      },
+      "primitive_odd_coefficient_multipliers": [],
+      "minimal_finite_generators": [],
+      "finite_odd_relative_density": "0",
+      "decimal_for_orientation_only": 0.0,
+      "effective_constant_Cd": 3456,
+      "witnesses": {},
+      "warning": "Finite density is a lower approximation to the limiting odd density in the non-cofinal even case. It is not an exact density or proof of small-scale realizability."
+    },
+    "38": {
+      "K": 3000,
+      "easy_cofinal": {
+        "odd_kernel": false,
+        "classical": false,
+        "W": false,
+        "beta": false
+      },
+      "primitive_odd_coefficient_multipliers": [],
+      "minimal_finite_generators": [],
+      "finite_odd_relative_density": "0",
+      "decimal_for_orientation_only": 0.0,
+      "effective_constant_Cd": 3456,
+      "witnesses": {},
+      "warning": "Finite density is a lower approximation to the limiting odd density in the non-cofinal even case. It is not an exact density or proof of small-scale realizability."
+    },
+    "78": {
+      "K": 3000,
+      "easy_cofinal": {
+        "odd_kernel": false,
+        "classical": false,
+        "W": false,
+        "beta": false
+      },
+      "primitive_odd_coefficient_multipliers": [],
+      "minimal_finite_generators": [],
+      "finite_odd_relative_density": "0",
+      "decimal_for_orientation_only": 0.0,
+      "effective_constant_Cd": 9504,
+      "witnesses": {},
+      "warning": "Finite density is a lower approximation to the limiting odd density in the non-cofinal even case. It is not an exact density or proof of small-scale realizability."
+    },
+    "110": {
+      "K": 3000,
+      "easy_cofinal": {
+        "odd_kernel": false,
+        "classical": false,
+        "W": false,
+        "beta": false
+      },
+      "primitive_odd_coefficient_multipliers": [
+        3
+      ],
+      "minimal_finite_generators": [
+        3
+      ],
+      "finite_odd_relative_density": "1/3",
+      "decimal_for_orientation_only": 0.3333333333333333,
+      "effective_constant_Cd": 20736,
+      "witnesses": {
+        "3": [
+          {
+            "row": "F3",
+            "a": 8,
+            "b": 7,
+            "c": 13
+          }
+        ]
+      },
+      "warning": "Finite density is a lower approximation to the limiting odd density in the non-cofinal even case. It is not an exact density or proof of small-scale realizability."
+    },
+    "1302": {
+      "K": 3000,
+      "easy_cofinal": {
+        "odd_kernel": false,
+        "classical": false,
+        "W": false,
+        "beta": false
+      },
+      "primitive_odd_coefficient_multipliers": [],
+      "minimal_finite_generators": [],
+      "finite_odd_relative_density": "0",
+      "decimal_for_orientation_only": 0.0,
+      "effective_constant_Cd": 57024,
+      "witnesses": {},
+      "warning": "Finite density is a lower approximation to the limiting odd density in the non-cofinal even case. It is not an exact density or proof of small-scale realizability."
+    }
+  }
+}

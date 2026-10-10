@@ -1,0 +1,16 @@
+{
+  "name": "W_1656_all_pairs",
+  "status": "COMPLETED_ZERO_EXIT",
+  "exit_code": 0,
+  "seconds": 1.956,
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "verify.py",
+    "W_1656.json",
+    "--all-pairs",
+    "--report",
+    "/mnt/data/ep634_consolidation_work/fresh_logs/W_1656.report.json"
+  ],
+  "cwd": "/mnt/data/ep634_consolidation_work/replay_workspace/Erdos634_W_beta_unrestricted_2026-10-09/Erdos634_W_beta_unrestricted",
+  "log": "/mnt/data/ep634_consolidation_work/fresh_logs/W_1656_all_pairs.log"
+}

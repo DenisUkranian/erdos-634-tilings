@@ -1,0 +1,7 @@
+boundary dictionary 1554
+root boundary pass=1 filters=650 tests=1294 secs=4.4287
+root boundary pass=2 filters=650 tests=1938 secs=4.54733
+nodes=2048 depth=76 seconds=10.358 boundary=188 cached=0
+nodes=6272 depth=77 seconds=20.4134 boundary=565 cached=0
+nodes=10496 depth=77 seconds=30.4434 boundary=941 cached=0
+INCOMPLETE nodes=11904 depth=77 secs=34.1045 saved=W92_supported_root1.json

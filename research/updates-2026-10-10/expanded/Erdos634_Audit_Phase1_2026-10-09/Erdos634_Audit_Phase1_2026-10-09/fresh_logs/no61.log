@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "Exact arithmetic and finite inventory audit; the geometric proof is in NO_61_HEIGHT.md. N=14430 remains UNRESOLVED.",
+  "allowed_bounded_line_pairs": [
+    [
+      5,
+      4
+    ],
+    [
+      10,
+      8
+    ]
+  ],
+  "one_sign_current_inventories_checked": 2430,
+  "minimum_occupied_population_outside_height_2": 122,
+  "minimum_height_2_population": 95,
+  "maximum_occupied_heights": 118,
+  "maximum_span_using_previous_gap_theorem": 119
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "positive_controls": [
+    {
+      "N": 126,
+      "family": "W",
+      "m": 3,
+      "positive_subset_checks": 283,
+      "status": "PASS"
+    },
+    {
+      "N": 207,
+      "family": "beta",
+      "m": 3,
+      "positive_subset_checks": 445,
+      "status": "PASS"
+    },
+    {
+      "N": 224,
+      "family": "W",
+      "m": 4,
+      "positive_subset_checks": 479,
+      "status": "PASS"
+    },
+    {
+      "N": 368,
+      "family": "beta",
+      "m": 4,
+      "positive_subset_checks": 767,
+      "status": "PASS"
+    }
+  ],
+  "fault_injections": [
+    {
+      "mutation": "delete_branch",
+      "status": "REJECTED",
+      "reason": "missing or extra geometric branch"
+    },
+    {
+      "mutation": "cycle",
+      "status": "REJECTED",
+      "reason": "cycle or repeated proof node"
+    },
+    {
+      "mutation": "spurious_boundary",
+      "status": "REJECTED",
+      "reason": "boundary refutation is not justified"
+    },
+    {
+      "mutation": "moved_tile",
+      "status": "REJECTED",
+      "reason": "missing or extra geometric branch"
+    }
+  ],
+  "seconds": 7.459940059000019
+}

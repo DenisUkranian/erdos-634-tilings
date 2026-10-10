@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Necessary-condition and formal-current audit; N=14430 remains undecided.",
+  "boundary_lengths_in_height_order_0_2_3": [
+    3721,
+    1755,
+    4514
+  ],
+  "minimum_short_edges_on_height_2_side": 12,
+  "formal_populations": {
+    "1": 183,
+    "2": 14247
+  },
+  "external_gap_tail_counts": [
+    7442
+  ],
+  "missing_height_1_lower_counts": [
+    3721,
+    11163
+  ],
+  "maximum_occupied_heights": 237,
+  "maximum_height_span_from_gap_and_parity_lemmas": 237
+}

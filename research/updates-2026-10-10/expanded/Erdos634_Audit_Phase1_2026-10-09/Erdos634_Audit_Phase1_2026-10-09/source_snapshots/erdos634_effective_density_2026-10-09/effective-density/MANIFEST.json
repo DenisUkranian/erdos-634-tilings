@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-09",
+  "repository_snapshot": "3a0ad269f645850ed9fd01bbd76a08c9b456032e",
+  "scope": "New research package in this conversation; the GitHub repository was not modified.",
+  "files": {
+    "README_RU.md": {
+      "bytes": 5736,
+      "sha256": "382f2f1cfb1a4e38325809279d6939e4bf7bad9334f6b2a31b48e779c308e9a7"
+    },
+    "PROOF.md": {
+      "bytes": 24085,
+      "sha256": "ff3a7d9c50393bf5902f0a2022f35c715e9112b6fa9e27d1d96afec6156381af"
+    },
+    "AUDIT.md": {
+      "bytes": 4813,
+      "sha256": "de3288946e2bc428d078621c7b448d365e12552d9301477687a8186ff3d88665"
+    },
+    "check_density.py": {
+      "bytes": 12550,
+      "sha256": "24b8c042f900145f6cafc0a238cdaeebee7bcb287e0eae77b2f8abe3891c75ee"
+    },
+    "verification.json": {
+      "bytes": 3801,
+      "sha256": "8955e6a62685a400c8cd093268c02a48776d4dae0773ad4cc1d5e988676722ea"
+    },
+    "cutoff_plans.json": {
+      "bytes": 1068,
+      "sha256": "c9ad6925863624188e1ceefea4eb3e0610ea8581a08e4e6c8880f08dde86a946"
+    }
+  }
+}

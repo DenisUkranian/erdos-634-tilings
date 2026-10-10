@@ -1,0 +1,35 @@
+{
+  "15": {
+    "density": "1",
+    "reason": "Existing finite cofinal test succeeds."
+  },
+  "38": {
+    "d": 38,
+    "epsilon": "1/100",
+    "j": 42,
+    "K": 19342813113834066795298816,
+    "certified_odd_density_tail_bound": "101521971/17179869184",
+    "warning": "This is a cutoff plan, not execution of the coefficient enumeration to K."
+  },
+  "78": {
+    "d": 78,
+    "epsilon": "1/100",
+    "j": 43,
+    "K": 77371252455336267181195264,
+    "certified_odd_density_tail_bound": "152700471/17179869184",
+    "warning": "This is a cutoff plan, not execution of the coefficient enumeration to K."
+  },
+  "110": {
+    "d": 110,
+    "epsilon": "1/100",
+    "j": 45,
+    "K": 1237940039285380274899124224,
+    "certified_odd_density_tail_bound": "49544865/8589934592",
+    "warning": "This is a cutoff plan, not execution of the coefficient enumeration to K."
+  },
+  "154": {
+    "density": "1",
+    "reason": "Existing finite cofinal test succeeds."
+  },
+  "scope": "Only exact cutoff calculations. Huge coefficient searches to these cutoffs were NOT executed."
+}

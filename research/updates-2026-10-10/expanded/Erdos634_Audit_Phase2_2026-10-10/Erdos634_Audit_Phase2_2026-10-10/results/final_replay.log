@@ -1,0 +1,262 @@
+{
+  "status": "PASS",
+  "seed_parameter_cases": 217,
+  "seed_convex_intersection_tests": 4774,
+  "seed_macropieces_checked": 1519,
+  "old_seed_parameter_cases": 49,
+  "old_seed_intersections": 294,
+  "cap_cases": 147,
+  "cap_intersections": 2646,
+  "symbolic": {
+    "identities": 10,
+    "nonnegative_polynomials": {
+      "first height gap": "x**3 + 3*x**2*y + x**2*z + 7*x**2 + 3*x*y**2 + x*y*z + 13*x*y + 3*x*z + 15*x + y**3 + 6*y**2 + y*z + 13*y + 2*z + 10",
+      "second height gap": "x*y*z + x*y + x*z + x + y**2*z + y**2 + 3*y*z + 3*y + 2*z + 2",
+      "third height gap": "2*x**2*z + 2*x**2 + 5*x*y*z + 5*x*y + 3*x*z**2 + 15*x*z + 12*x + 3*y**2*z + 3*y**2 + 4*y*z**2 + 19*y*z + 15*y + z**3 + 10*z**2 + 27*z + 18",
+      "K": "2*x*z + 2*x + 3*y*z + 3*y + z**2 + 7*z + 6",
+      "q_middle": "x*z + 2*y*z + y + 2*z"
+    }
+  },
+  "seconds": 3.352,
+  "new_checker": "independent rational polygon clipping; no import of project constructor or validator",
+  "scope": "sampled macro geometry plus symbolic algebra and separately written universal proof; not full theorem formalization"
+}
+{
+  "status": "PASS",
+  "positive_controls": [
+    {
+      "N": 28,
+      "family": "W",
+      "transformed": true,
+      "reflected": false,
+      "supported_dictionary_entries": 178,
+      "all_pairs_considered": 378,
+      "positive_AABB_pairs_clipped": 51,
+      "partial_placements": 16,
+      "convex_sectors_checked": 140
+    },
+    {
+      "N": 44,
+      "family": "beta",
+      "transformed": true,
+      "reflected": true,
+      "supported_dictionary_entries": 244,
+      "all_pairs_considered": 946,
+      "positive_AABB_pairs_clipped": 114,
+      "partial_placements": 16,
+      "convex_sectors_checked": 115
+    },
+    {
+      "N": 126,
+      "family": "W",
+      "transformed": true,
+      "reflected": false,
+      "supported_dictionary_entries": 1070,
+      "all_pairs_considered": 7875,
+      "positive_AABB_pairs_clipped": 301,
+      "partial_placements": 16,
+      "convex_sectors_checked": 132
+    },
+    {
+      "N": 207,
+      "family": "beta",
+      "transformed": true,
+      "reflected": true,
+      "supported_dictionary_entries": 1582,
+      "all_pairs_considered": 21321,
+      "positive_AABB_pairs_clipped": 536,
+      "partial_placements": 16,
+      "convex_sectors_checked": 138
+    },
+    {
+      "N": 224,
+      "family": "W",
+      "transformed": true,
+      "reflected": true,
+      "supported_dictionary_entries": 1490,
+      "all_pairs_considered": 24976,
+      "positive_AABB_pairs_clipped": 415,
+      "partial_placements": 16,
+      "convex_sectors_checked": 140
+    }
+  ],
+  "full_pairs_considered": 55496,
+  "convex_sectors_checked": 665,
+  "exact_counterparts_survived_all_sectors": true,
+  "actual_full_edge_overrun_witnesses": 18,
+  "first_overruns": [
+    {
+      "u": 1,
+      "v": 2,
+      "m": 2,
+      "beta": false,
+      "x": [
+        "25/28",
+        "25/44"
+      ],
+      "atom_length": "2",
+      "full_edge_length": "3"
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "m": 2,
+      "beta": false,
+      "x": [
+        "-59/28",
+        "25/44"
+      ],
+      "atom_length": "1",
+      "full_edge_length": "3"
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "m": 2,
+      "beta": false,
+      "x": [
+        "25/28",
+        "25/44"
+      ],
+      "atom_length": "2",
+      "full_edge_length": "4"
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "m": 2,
+      "beta": false,
+      "x": [
+        "25/28",
+        "25/44"
+      ],
+      "atom_length": "2",
+      "full_edge_length": "3"
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "m": 2,
+      "beta": false,
+      "x": [
+        "25/28",
+        "25/44"
+      ],
+      "atom_length": "2",
+      "full_edge_length": "4"
+    }
+  ],
+  "wrong_mark_rule_rejects_true_c_edges": 85,
+  "first_wrong_mark_witness": {
+    "u": 1,
+    "v": 2,
+    "m": 2,
+    "beta": false,
+    "side_index": 0,
+    "c_edge": [
+      [
+        "-143/28",
+        "25/44"
+      ],
+      [
+        "-45/28",
+        "3/44"
+      ]
+    ],
+    "correct_blocked": [
+      true,
+      false
+    ],
+    "incorrect_blocked": [
+      true,
+      true
+    ]
+  },
+  "non_supported_gamma_contacts_found": 70,
+  "gamma_examples": [
+    {
+      "u": 1,
+      "v": 2,
+      "m": 2,
+      "beta": false,
+      "point": [
+        "-45/28",
+        "3/44"
+      ]
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "m": 2,
+      "beta": false,
+      "point": [
+        "36/7",
+        "9/11"
+      ]
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "m": 2,
+      "beta": false,
+      "point": [
+        "29/7",
+        "20/11"
+      ]
+    }
+  ],
+  "boundary_DP_trials": 24,
+  "complete_words_examined_by_separate_oracle": 68824,
+  "group1_exact_angle_inventories": {
+    "alpha": [
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "beta": [
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "theta": [
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "2alpha": [
+      [
+        2,
+        0,
+        0
+      ]
+    ],
+    "3alpha": [
+      [
+        3,
+        0,
+        0
+      ]
+    ],
+    "flat": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        0
+      ]
+    ]
+  },
+  "seconds": 7.542,
+  "scope": "finite regression and soundness audit, not verification of every possible tiling"
+}
+Phase 2 audit suites completed. Read scope limits in REPORT.md.

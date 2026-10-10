@@ -1,0 +1,12 @@
+{
+  "name": "14430_currents",
+  "status": "COMPLETED_ZERO_EXIT",
+  "exit_code": 0,
+  "seconds": 0.838,
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "verify_14430.py"
+  ],
+  "cwd": "/mnt/data/ep634_consolidation_work/replay_workspace/erdos634_14430_independent_attack",
+  "log": "/mnt/data/ep634_consolidation_work/fresh_logs/14430_currents.log"
+}

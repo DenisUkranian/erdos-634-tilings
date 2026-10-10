@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "file": "beta_2556.json",
+  "sha256": "4ee542f77ef571ae5bd399ac486f1a7e50bcc006a7a10bb74c5f85438677481a",
+  "branch": "beta",
+  "u": 2,
+  "v": 5,
+  "m": 6,
+  "N": 2556,
+  "metric": "exact integer PASS",
+  "containment": "exact integer PASS",
+  "area": "exact integer PASS",
+  "positioned_boundary": "exact integer PASS",
+  "nonzero_boundary_events": 0,
+  "distinct_boundary_events_checked": 4364,
+  "all_pairs_checked": 3265290,
+  "external_review": false,
+  "full_problem_solved": false,
+  "all_pairs_status": "exact integer separating-axis PASS",
+  "elapsed_seconds": 0.635
+}

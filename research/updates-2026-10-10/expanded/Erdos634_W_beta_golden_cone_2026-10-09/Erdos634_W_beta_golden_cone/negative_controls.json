@@ -1,0 +1,17 @@
+[
+  {
+    "mutation": "duplicate_tile",
+    "rejected": true,
+    "reason": "positioned-boundary"
+  },
+  {
+    "mutation": "alter_vertex",
+    "rejected": true,
+    "reason": "metric"
+  },
+  {
+    "mutation": "reverse_orientation",
+    "rejected": true,
+    "reason": "orientation"
+  }
+]
