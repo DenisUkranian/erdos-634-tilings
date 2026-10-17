@@ -1,6 +1,6 @@
 # Human direction and generative-AI assistance
 
-Denis Paliy set the research direction, selected the research objectives and guided the investigation. ChatGPT assisted with exploring proof strategies, developing and revising arguments, writing checking programs, carrying out internal checks and preparing the presentation.
+Denis set the research direction, selected the research objectives and guided the investigation. ChatGPT assisted with exploring proof strategies, developing and revising arguments, writing checking programs, carrying out internal checks and preparing the presentation.
 
 Denis Paliy is the named human author and maintainer. ChatGPT is not listed as an author. This disclosure records both the human direction and the software assistance involved in the work.
 
