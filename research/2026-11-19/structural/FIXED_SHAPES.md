@@ -6,7 +6,7 @@ $$
 $$
 The boards $sB$ are homothetic. Both orientations of a tile are allowed and side subdivisions on adjoining pieces may differ.
 
-**Theorem.** Every nonempty $S$ contains all sufficiently large multiples of $\gcd(S)$. Two attained scales give the explicit bound below. If both shapes are fixed but *all positive real scales* of the board are allowed, the tile counts form a union of at most three families $Ck^2$ with only finitely many omissions. The proof for arbitrary real scales is in the last section.
+**Theorem.** Every nonempty $S$ contains all sufficiently large multiples of $\gcd(S)$. Two attained scales give the explicit bound below. For all real board scales two fixed shapes yield at most three families $Ck^2$ with finitely many omissions. Even when the external triangle is completely free, each fixed tile shape yields a finite union of such families, with a finite exceptional set depending on the tile.
 
 ## A strip that propagates tilings
 
@@ -66,3 +66,18 @@ $$
 Writing $N=dm^2$ with $d$ squarefree, the radical $\sqrt d$ lies in the same fixed rational vector space on the right. Distinct positive squarefree radicals, including $1$, are linearly independent over $\mathbb Q$. Thus at most the displayed number of distinct $d$ occur, with no condition on angles or algebraicity of the original lengths. [Independence of squarefree radicals](https://kam.mff.cuni.cz/~klazar/tomek_pr.pdf).
 
 For each occurring $d$ choose the reference board $B_d=\sqrt{da/A}\,B$. By area, the real scale for a count $dm^2$ is now the integer multiplier $m$ of $B_d$. The integer-scale theorem applies to its nonempty attainable set $S_d$. Put $g_d=\gcd S_d$. Up to finitely many omissions the counts of that squarefree part are exactly $d\,g_d^2k^2$ for $k\ge1$. Taking the finite union proves the formula. For example, when both shapes are right isosceles, counts 1 and 2 occur; subdivision supplies all $k^2$ and $2k^2$. Their two squarefree parts already saturate the rational dimension of the sides $1,1,\sqrt2$. No assertion of sharpness in dimension three is needed.
+
+## A fixed tile with an arbitrary triangular target
+
+**Theorem.** Fix a nondegenerate tile $T$ up to similarity. There are positive integers $C_1,\ldots,C_q$ and a finite set $F_T$ such that, over **all** triangular targets of all sizes,
+$$
+ \{N:\text{some triangle is tiled by }N\text{ congruent copies of }T\}
+  =\left(\bigcup_{i=1}^q\{C_i k^2:k\ge1\}\right)\setminus F_T .
+$$
+If $\delta$ is the smallest angle of $T$, put $J=\lceil\pi/\delta\rceil-1$ and $r=\dim_{\mathbb Q}\operatorname{span}_{\mathbb Q}(\ell_1,\ell_2,\ell_3)$. One sufficient upper bound is $q\le r\binom{J+3}{3}^2$. A tiling by a single copy and its subdivisions give every perfect square.
+
+At an outer corner of angle less than $\pi$, every incident tile has a vertex there. A relative interior point of an edge or an interior point of the tile would occupy an angle at least $\pi$. The incident tile angles add to the outer angle. With tile angles $\alpha,\beta,\gamma$, every outer angle is therefore $i\alpha+j\beta+k\gamma$ for nonnegative integers $i,j,k$ with $1\le i+j+k\le J$. There are at most $\binom{J+3}{3}$ candidates. Two angles determine the target shape by similarity, so at most the square of this number of shapes require consideration. For each such shape apply the all-real-scales corollary. Taking a finite union preserves finiteness of the omissions: any count missing from the actual union but present in one of its proposed families belongs to that constituent's finite exceptional set. This proof treats reflected tiles and arbitrary T-junctions.
+
+In particular the counting function for any one fixed tile, summed over all triangular targets, satisfies $A_T(X)=\kappa_T\sqrt X+O_T(1)$ with $\kappa_T\ge1$. Write $C_i=d\,g_i^2$ and group by squarefree $d$. For each such group the allowable multipliers, up to finitely many omissions, are the integers divisible by at least one of its $g_i$. They are periodic modulo their lcm, with some rational density $\rho_d$, and their count up to $Y$ is $\rho_dY+O_T(1)$. Summing at $Y=\sqrt{X/d}$ gives $\kappa_T=\sum_d \rho_d/\sqrt d$. Every square occurs, giving the lower bound. Thus the same fixed tile can occur for infinitely many counts while contributing only finitely many squarefree counts.
+
+The proof bounds the number of families; it does not compute all constants or exceptions from the three angles alone. Across all tile shapes even the squarefree parts are unbounded, since every prime $1\bmod4$ is a sum of two squares and is realized by some tile. A solution for unrestricted $N$ still has to control that union.

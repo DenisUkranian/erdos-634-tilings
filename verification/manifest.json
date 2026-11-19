@@ -515,12 +515,12 @@
       "sha256": "b34bbae2c700f2d290ef5a28a5222e5edd9ad61f176c45cd8e42614992eff171"
     },
     "research/2026-11-19/README.md": {
-      "bytes": 6715,
-      "sha256": "b48b9c3e64095ff73f5a6a8d5f9ea9f9b28ac60d7cdb46a0fd62bedfdfbe859a"
+      "bytes": 6800,
+      "sha256": "ae397c674601c614110939c27010e9dbbc98004a67aade1cea13bb5f98b79099"
     },
     "research/2026-11-19/SHA256.json": {
       "bytes": 17126,
-      "sha256": "2eda03a4498e71d9bd7be4af9cdbcd7bf74495263d2d4d7e9695723272298a52"
+      "sha256": "82f98eb2fdd1abe41d2593e76c772f0f01f9cb00e488ccfd0a6836e70bc06f87"
     },
     "research/2026-11-19/check_paliy_examples.py": {
       "bytes": 2388,
@@ -1015,8 +1015,8 @@
       "sha256": "519543d8bfd6aedd34a20f1f3bac34cc0cac016a63ba50d6aafdcbbc1cc7bd5b"
     },
     "research/2026-11-19/structural/FIXED_SHAPES.md": {
-      "bytes": 12232,
-      "sha256": "555765e4aed84b9c2f82297f3fe1b43e53f7baac268a63ae7bf80efe9c7888b6"
+      "bytes": 14841,
+      "sha256": "5e79965bc8ae99232d395af6b048757d005305d6cba43163afaeaf6789042199"
     },
     "research/2026-11-19/structural/PROOF.md": {
       "bytes": 10657,

@@ -1,5 +1,5 @@
 {
-  "README.md": "b48b9c3e64095ff73f5a6a8d5f9ea9f9b28ac60d7cdb46a0fd62bedfdfbe859a",
+  "README.md": "ae397c674601c614110939c27010e9dbbc98004a67aade1cea13bb5f98b79099",
   "check_paliy_examples.py": "e10c6c754a36521ec5369665745415106793eaff9cc06bb5232fee8130324541",
   "continuation/RESULTS.md": "1a41d04b203c24f5c059f55b9e0335723e2fe666e343f4744a8b261b386d1c0c",
   "continuation/f3_layer122.png": "6bf2dec039e37cdea7f43f6202aa49ce0c948a860c97849e325a2de48f109f6b",
@@ -155,7 +155,7 @@
   "positive280/tiling_280.svg": "f77a7036f854b0eca4409d5b2c53ac3a679999b837e3dde9218a2c97f5e9e249",
   "positive280/verify.py": "9c688a1189d2cccccef3168374e1f826b439038559604e946886cd5d0d6d4501",
   "positive280/verify_slices.py": "519543d8bfd6aedd34a20f1f3bac34cc0cac016a63ba50d6aafdcbbc1cc7bd5b",
-  "structural/FIXED_SHAPES.md": "555765e4aed84b9c2f82297f3fe1b43e53f7baac268a63ae7bf80efe9c7888b6",
+  "structural/FIXED_SHAPES.md": "5e79965bc8ae99232d395af6b048757d005305d6cba43163afaeaf6789042199",
   "structural/PROOF.md": "0234396f74072ce3f0196e169e3bdfb31a9ab4486fefc121df37ec3bc266fe5c",
   "structural/census_extension.py": "b5c7593da66a7cf5364d651e0966ebd5ac0f9bd0e3265b31d7fc348351a16b72",
   "structural/gluing_boundaries.json": "2eaa5806e05081d19ef1f73d891bd9038d90a79dff3b24e2e527e4f5d0bb36c2",
