@@ -12,7 +12,7 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 
 ## 19 November 2026
 
-The [November research note and reproducible certificates](research/2026-11-19/README.md) record a computer-assisted exclusion at 236, a census through 279 and exact thresholds for two fixed tile/target families. The first unresolved count in these materials is 280. The note also compares Paliy’s September construction with Theorems 15 and 18 of Beeson v6. [Updated prime-case dependencies](docs/prime-case-dependencies.md).
+The [November research note](research/2026-11-19/README.md) records 141 positive and 142 negative decisions through 283. The [280-tile coordinates and two exact verifiers](research/2026-11-19/positive280/README.md) complete the class 70m². A [large-prime-factor test and square-class density bound](research/2026-11-19/structural/PROOF.md) and a [two-scale gluing theorem](research/2026-11-19/structural/FIXED_SHAPES.md) apply to infinite families. The first unresolved count in this project is 284. The same note compares Paliy’s September construction with Theorems 15 and 18 of Beeson v6. [Prime-case dependencies](docs/prime-case-dependencies.md).
 
 ## New supplement: 9–10 October 2026
 

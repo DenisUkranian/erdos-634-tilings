@@ -4,13 +4,15 @@ Erdős problem 634 asks which positive integers occur as the number of congruent
 
 | Scope | Result | Proof or data |
 |---|---|---|
-| All triangles, \(1\le N\le279\) | 139 counts occur and 140 are excluded, including the trivial positive count 1. The extension uses Bonfioli's theorem through 200 and the geometric exclusions at 231 and 236. | [Individual decisions and sources](next/global/CENSUS_279.md) · [machine-readable table](next/global/census279.json) |
+| All triangles, 1 ≤ N ≤ 283 | 141 counts occur and 142 are excluded. Decisions through 279 use Bonfioli's theorem through 200 and the geometric exclusions at 231 and 236. The four additions are YES, YES, NO, NO at 280–283. | [Frozen decisions through 279](next/global/CENSUS_279.md) · [extension](structural/census_extension.py) · [280 witness](positive280/README.md) |
 | All triangles, \(N=236\) | Excluded. The only surviving arithmetic candidate is a \(250,250,472\) triangle with tile \(9,20,25\). Exact conservative tests rule out every way to fill its apex. | [Geometric argument](next/beta/CERTIFICATE_236.md) · [standalone source and certificate](next/beta/Erdos634-N236-certificate.zip) |
 | Tile \(6,5,9\), target \(15t,15t,10t\) | Exactly the integer scales \(t\ge7\). The first example uses 245 tiles. | [Both directions](next/theta6/SPECTRA.md) · [exclusion at \(t=6\)](next/theta6/PROOF.md) |
 | Tile \(3,8,9\), target \(72g,72g,136g\) | Exactly the integer scales \(g\ge2\). The first example uses 544 tiles. The \(g=1\) instance was a test case in Beeson §14.3. As an unrestricted numerical count, \(136=10^2+6^2\) is realizable. | [Both directions](next/theta6/SPECTRA.md) · [integer certificate for \(g=1\)](next/alpha136mesh/PROOF.md) |
-| Tile \(6,5,9\), target \(45g,45g,70g\) | \(g=1\) is excluded and every integer \(g\ge3\) works. The only undecided scale is \(g=2\), corresponding to the first undecided global count, 280. | [Geometry of 280](next/alpha280mesh/README.md) · [proof for complete straight seams](next/alpha/VERTEX_SEAMS.md) |
+| All triangles, N = 70m² | A tiling exists exactly for positive integers m ≥ 2. All these counts are attained with the same (5,6,9) tile and board sides (45m,45m,70m). | [Both directions, exact coordinates and two verifiers](positive280/README.md) |
 
-For \(N=280\), any dissection would have to be asymmetric and have no full straight segment of tile edges joining a vertex to the opposite side. A segment starting at the apex would force either a piece of area \(810/7\) in tile units or a tiling of the excluded \(90,90,60\) target. The tests permit T-junctions, rotations, reflections and arbitrary real translations. The exact finite reduction for 280 leaves 1,000,898 individually possible tile placements after vertex and contact tests. Whether 280 of them can cover the target jointly remains undecided. The classifications are for the specified tile and target shape. The general problem remains open.
+At 281 the classical construction uses 16² + 5². For 282 = 6·47 the squarefree-cofactor large-prime theorem applies since 4·47 > 3·6² + 6·6 − 1 and 47 has odd valuation. At 283 the prime theorem of Beeson and Roşu excludes the count. The first outstanding count in this project is 284. [Earlier large-prime test, §3](continuation/RESULTS.md) · [Prime theorem](https://arxiv.org/abs/2607.23453v4).
+
+[Large prime factors and delayed square classes](structural/PROOF.md) gives an arithmetic equivalence on a sector of natural density (log 2)/4, and a lower density estimate for kernels whose first positive multiplier grows as a power of the kernel. [Gluing theorem](structural/FIXED_SHAPES.md) constructs all sufficiently large multiples of the gcd of two attained scales for every fixed triangle and tile. The explicit 280 witness and these deductions were obtained with AI assistance. Internal mathematical and computational checks are documented; external review of these contributions is pending.
 
 Bonfioli's notch and unit extension give the positive theta cases. The new step in the first exact threshold is the negative certificate at scale six. The second threshold uses Bonfioli's scale necessity, the positive theta construction and the new scale-one exclusion. Beeson and Paliy are credited in the cited sources for the earlier gluing and eventual-existence results. [Pinned sources for 245, 288 and 544](next/positive/SOURCES.md) · [Bonfioli's release 6.0](https://github.com/ElVec1o/erdos634_primes_and_N200/blob/752005605ca4e607d2a08f57bdc2445dd5558dbb/paper/erdos634_v6_main.tex).
 
@@ -22,7 +24,7 @@ Just before Table 6, §16 still presents \(N=322\) as undecided. §§11.3 and 11
 
 ## Reproduction
 
-From the repository root, run the quick verification with Python 3.9 or later. It recomputes the finite table, checks the positive coordinates for 240, 264, 322 and 897, checks the exact weight bounds for the 136 and 180 targets, and checks the 277-tile packing and local corner choices for 280.
+From the repository root, run the quick verification with Python 3.9 or later. It checks the frozen census through 279 and the four new decisions, replays the 280 witness in two ways, tests the large-prime bound at its finite boundary and builds example dissections for the general gluing theorem. It also replays the earlier coordinate and exclusion certificates.
 
 ~~~sh
 python3 research/2026-11-19/verify.py

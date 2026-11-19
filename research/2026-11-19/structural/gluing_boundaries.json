@@ -1,0 +1,74 @@
+[
+  {
+    "m": 2,
+    "n": 3,
+    "K": 1207,
+    "m_tiles": 353419,
+    "n_tiles": 4797,
+    "vertex_patches": 6,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 3,
+    "n": 2,
+    "K": 1811,
+    "m_tiles": 353617,
+    "n_tiles": 24292,
+    "vertex_patches": 10,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 3,
+    "n": 4,
+    "K": 3613,
+    "m_tiles": 1407233,
+    "n_tiles": 24292,
+    "vertex_patches": 10,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 4,
+    "n": 3,
+    "K": 4819,
+    "m_tiles": 1408231,
+    "n_tiles": 76785,
+    "vertex_patches": 15,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 5,
+    "n": 2,
+    "K": 5027,
+    "m_tiles": 980833,
+    "n_tiles": 187476,
+    "vertex_patches": 21,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 5,
+    "n": 7,
+    "K": 17532,
+    "m_tiles": 11927388,
+    "n_tiles": 187476,
+    "vertex_patches": 21,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 6,
+    "n": 5,
+    "K": 18041,
+    "m_tiles": 8771071,
+    "n_tiles": 388765,
+    "vertex_patches": 28,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 7,
+    "n": 3,
+    "K": 14752,
+    "m_tiles": 4308964,
+    "n_tiles": 720252,
+    "vertex_patches": 36,
+    "exact_edge_cancellation": true
+  }
+]
