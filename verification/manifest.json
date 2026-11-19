@@ -39,16 +39,20 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 31599,
-      "sha256": "5fb66d6a021f5a0185d62cdacdcf30e55889d39f5562bc70c91838f1124f0df9"
+      "bytes": 1644,
+      "sha256": "b67483b6db2da6136b43e0b66dc0ad6cf78a65f5d8bb3f25a48fec73e884e587"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 28683,
       "sha256": "8009977bc97e7f7190d2bc6560dbe503e5b7194edb7b09f15cada32510aa47b9"
     },
+    "RESULTS_INDEX.md": {
+      "bytes": 30014,
+      "sha256": "55067e0d0a41d7bb4901dcdb1873e60bbac6adf50bce22f406acde9f3a345458"
+    },
     "STATUS.md": {
-      "bytes": 47969,
-      "sha256": "a9cad4edf1054e3be712e21428df3d74cfe3d0305934039a4c3187deeb598bac"
+      "bytes": 47865,
+      "sha256": "e2c5c744f10dce6b07d2b07f2c067f91782b5c83b628b07c088a6abcbfadc63b"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -515,12 +519,12 @@
       "sha256": "b34bbae2c700f2d290ef5a28a5222e5edd9ad61f176c45cd8e42614992eff171"
     },
     "research/2026-11-19/README.md": {
-      "bytes": 6800,
-      "sha256": "ae397c674601c614110939c27010e9dbbc98004a67aade1cea13bb5f98b79099"
+      "bytes": 6036,
+      "sha256": "52724333a0bad00b3bf3c09d1be32e8cc8bc72149ef4c4db593b3905a3bb5c59"
     },
     "research/2026-11-19/SHA256.json": {
       "bytes": 17126,
-      "sha256": "82f98eb2fdd1abe41d2593e76c772f0f01f9cb00e488ccfd0a6836e70bc06f87"
+      "sha256": "e14f3b01c817bfcc533ea9c81ec328a60b66dd116e5d6222805bc75a7fb7721d"
     },
     "research/2026-11-19/check_paliy_examples.py": {
       "bytes": 2388,
@@ -995,8 +999,8 @@
       "sha256": "8b0a161571876bfab10eb358695361d48120014b53405f635e8cc0f75a43f1a8"
     },
     "research/2026-11-19/positive280/README.md": {
-      "bytes": 3208,
-      "sha256": "15036ba3af5de50b838d004fca53f9c4c4243bee9eaa58c11873c4d8f0c373fb"
+      "bytes": 3658,
+      "sha256": "9ffc546c20d93b88c05140cb6a3626c81866a89fbb2a05148c9bae2a4978cec7"
     },
     "research/2026-11-19/positive280/tiling_280.csv": {
       "bytes": 7858,
@@ -1015,8 +1019,8 @@
       "sha256": "519543d8bfd6aedd34a20f1f3bac34cc0cac016a63ba50d6aafdcbbc1cc7bd5b"
     },
     "research/2026-11-19/structural/FIXED_SHAPES.md": {
-      "bytes": 14841,
-      "sha256": "5e79965bc8ae99232d395af6b048757d005305d6cba43163afaeaf6789042199"
+      "bytes": 10474,
+      "sha256": "f7e912517df1a9fc0bdab5cb67affd387a2c3cb4ec4a8f9b1465b0285ff40661"
     },
     "research/2026-11-19/structural/PROOF.md": {
       "bytes": 10657,
@@ -1027,8 +1031,8 @@
       "sha256": "b5c7593da66a7cf5364d651e0966ebd5ac0f9bd0e3265b31d7fc348351a16b72"
     },
     "research/2026-11-19/structural/gluing_boundaries.json": {
-      "bytes": 1254,
-      "sha256": "2eaa5806e05081d19ef1f73d891bd9038d90a79dff3b24e2e527e4f5d0bb36c2"
+      "bytes": 1986,
+      "sha256": "a400ab46c6d576a0b23513b4244ea311588d43d2a3fa4749158e88ffd793611d"
     },
     "research/2026-11-19/structural/verification.json": {
       "bytes": 799,
@@ -1039,12 +1043,12 @@
       "sha256": "ff26abc395065a9f217b469002736ecc7a686b1de4884b308e7fc8d7ad0bffb8"
     },
     "research/2026-11-19/structural/verify_gluing_boundaries.py": {
-      "bytes": 5553,
-      "sha256": "19a9d3f347dae635d613955b0aa610f86d3345096188f2ed180f09290e848a08"
+      "bytes": 5616,
+      "sha256": "5a0f4fced48c496065494532b4b18f354a38384f5b84630914c38a345955daa1"
     },
     "research/2026-11-19/structural/verify_two_scale.py": {
-      "bytes": 5138,
-      "sha256": "f9ef7273245a5e9c8c04aaedbd98cc47a5de9d461eb67af4f17a218a8ee2eba9"
+      "bytes": 5271,
+      "sha256": "fbcbbc741c33dc78953f374ecaca83161a28ac26fcaf1b5829b258a1c3ac112c"
     },
     "research/2026-11-19/verify.py": {
       "bytes": 3096,

@@ -4,8 +4,9 @@ No tiling solver or source data. Convex m-grid cores are counted by exact area.
 Each complementary elementary n-triangle is enumerated by positive winding number.
 Its actual boundary is compared to the recomputed boundary deficit.
 """
-from collections import Counter, defaultdict, deque
+from collections import Counter, defaultdict
 from math import gcd
+import argparse
 import json
 
 
@@ -38,10 +39,6 @@ def cuts(poly,weight,ends):
         ends[ln][b[axis]]-=weight
 
 
-def canonical(a,b):
-    return (a,b),1 if a<b else -1
-
-
 def inc_edge(edges,a,b):
     key=(a,b) if a<b else (b,a)
     edges[key]+=1 if a<b else -1
@@ -57,39 +54,25 @@ def cells(m):
     return faces
 
 
-def offsets(m,faces):
-    incident=defaultdict(list)
-    for i,face in enumerate(faces):
-        for a,b in cycle(face):incident[tuple(sorted((a,b)))].append(i)
-    dual=defaultdict(list); shift={}
-    for edge,fs in incident.items():
-        if len(fs)==2:
-            i,j=fs;dual[i].append((j,edge));dual[j].append((i,edge));shift[edge]=0
-        else:shift[edge]=int(line(*edge)[0]=='z')
-    def sum_face(i):
-        return sum((1 if line(a,b)[0]=='z' else -1)*shift[tuple(sorted((a,b)))]
-                   for a,b in cycle(faces[i]))
-    queue=deque([0]);tree={0:None};order=[]
-    while queue:
-        i=queue.popleft();order.append(i)
-        for j,e in dual[i]:
-            if j not in tree:
-                tree[j]=e;queue.append(j)
-    assert len(order)==m*m
-    for i in reversed(order[1:]):
-        e=tree[i];sgn=1 if line(*e)[0]=='z' else -1
-        shift[e]=(-sum_face(i)*sgn)%m
-    assert all(sum_face(i)%m==0 for i in order)
-    return shift
-
-
-def core(face,shift,H,m,n):
-    ct={}
+def core(face, H, m, n, K):
+    # Only the outermost row of coarse vertices carries a nonzero potential.
+    # Compute the final levels directly, without sharing the other verifier's code.
+    levels = {}
     for a,b in cycle(face):
-        e=tuple(sorted((a,b)));d,k=line(a,b)
-        ct[d]=k*H+n*shift[e]
-    x,y,z=map(ct.get,'xyz');s=abs(z-x-y)
-    v=((x,y),(z-y,y),(x,z-x));R=10*m*n
+        direction, index = line(a,b)
+        i,j = min(a,b)
+        if direction == 'z':
+            residue = K if index == m else 0
+        elif i+j == m-1:
+            residue = K*(i+1) if direction == 'y' else -K*i
+        else:
+            residue = 0
+        old = index*H
+        levels[direction] = next(old+n*t for t in range(m) if (old+n*t-residue) % m == 0)
+    x,y,z = map(levels.get, 'xyz')
+    s = abs(z-x-y)
+    v = ((x,y),(z-y,y),(x,z-x))
+    R = 5*m*n
     assert s>2*R and s%m==0
     poly=[]
     for i,a in enumerate(v):
@@ -135,14 +118,17 @@ def patch(pieces):
     return count
 
 
-def audit(m,n):
-    assert gcd(m,n)==1
-    H=m+100*m*n;K=m*H+n;assert gcd(K,m*n)==1
-    f=cells(m);ofs=offsets(m,f);ends=defaultdict(Counter)
+def audit(m,n,K):
+    assert m >= 2 and n >= 2 and gcd(m,n)==1 and K >= 20*m*m*n
+    H = K//m
+    while (K-m*H) % n:
+        H -= 1
+    f = cells(m)
+    ends = defaultdict(Counter)
     cuts(((0,0),(K,0),(0,K)),1,ends)
     cores=0
     for tri in f:
-        c=core(tri,ofs,H,m,n)
+        c=core(tri,H,m,n,K)
         assert area2(c)%(m*m)==0
         cores+=area2(c)//(m*m)
         cuts(c,-1,ends)
@@ -159,7 +145,7 @@ def audit(m,n):
                 points=[]
                 for x,y in (a,b):
                     x-=ox;y-=oy
-                    assert max(abs(x),abs(y),abs(x+y))<=20*m*n
+                    assert max(abs(x),abs(y),abs(x+y))<=9*m*n
                     assert x%n==y%n==0
                     points.append((x//n,y//n))
                 local[ia,ja].append(tuple(points))
@@ -174,4 +160,15 @@ def audit(m,n):
 if __name__=='__main__':
     if not __debug__:
         raise SystemExit('Run with assertions enabled.')
-    print(json.dumps([audit(m,n) for m,n in ((2,3),(3,2),(3,4),(4,3),(5,2),(5,7),(6,5),(7,3))],indent=2))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('case', nargs='*', type=int, help='Optional m n K for a single board.')
+    args = parser.parse_args()
+    if args.case and len(args.case) != 3:
+        parser.error('Supply m n K, or omit all three to run the reference examples.')
+    if args.case:
+        cases = [args.case]
+    else:
+        cases = [(2,3,240+j) for j in range(6)]
+        cases += [(3,2,361), (3,4,727), (4,3,971), (5,2,1003),
+                  (5,7,3534), (6,5,3619), (7,3,2953)]
+    print(json.dumps([audit(m,n,k) for m,n,k in cases], indent=2))

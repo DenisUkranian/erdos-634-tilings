@@ -1,83 +1,85 @@
-# A gluing theorem for every fixed triangle and tile
+# What one triangular tile can do
 
-Let $B$ be any nondegenerate Euclidean triangle and $T$ any fixed physical triangle. Put
+Fix the shape and size of a triangular tile. Let the outside triangle have any shape and size. Which numbers of tiles can occur?
+
+**Theorem.** There is a finite list of positive integers $C_1,\ldots,C_q$, depending on the tile, such that the possible counts are exactly
+
 $$
- S=\{s\in\mathbb Z_{\ge1}:sB\text{ can be tiled by congruent copies of }T\}.
+\left(\bigcup_{i=1}^q\{C_i k^2:k=1,2,\ldots\}\right)\setminus F_T
 $$
-The boards $sB$ are homothetic. Both orientations of a tile are allowed and side subdivisions on adjoining pieces may differ.
 
-**Theorem.** Every nonempty $S$ contains all sufficiently large multiples of $\gcd(S)$. Two attained scales give the explicit bound below. For all real board scales two fixed shapes yield at most three families $Ck^2$ with finitely many omissions. Even when the external triangle is completely free, each fixed tile shape yields a finite union of such families, with a finite exceptional set depending on the tile.
+for some finite set $F_T$. For a fixed outside shape there are at most three families. If the side ratios of the tile are rational, there is at most one family for each outside shape. Reflections and T-junctions are allowed.
 
-## A strip that propagates tilings
+For example, when both shapes are right isosceles, the counts are exactly $k^2$ and $2k^2$. One copy and two copies give the first examples. Subdivision gives every member of both families. The side-length argument below rules out any others.
 
-Write $D_k$ for the reference triangle with vertices $(0,0),(k,0),(0,k)$. Work in coordinates along the two sides of $dB$. Translations and half-turns in these coordinates are Euclidean translations and half-turns in the original plane.
+The geometric idea is to reuse two tilings as larger building blocks. Fill the middle of each large triangle with blocks of the first size. Adjust the dividing lines so the spaces around the corners can all be filled with blocks of the second size. This works at **every** sufficiently large multiple of the two scales’ greatest common divisor.
 
-If $dm,dn,dk\in S$ with $k=am+bn$ for nonnegative integers $a,b$, then $d(k+mn)\in S$. Put $L=mn$ and partition $D_{k+L}$ into $D_k+(0,L)$, $D_L+(k,0)$ and $[0,k]\times[0,L]$. The first region uses its given tiling. Subdivision tiles $D_L$ with copies of $D_m$. Partition the box into $a$ strips of width $m$ and $b$ strips of width $n$. A strip of width $s$ consists of $L/s$ coordinate squares of side $s$. Each square splits into two copies of $D_s$ related by a half-turn. Filling these with the original physical tile gives the assertion.
+## Building any large scale from two tilings
 
-## Coprime sizes construct a scale coprime to both
+Suppose copies of the same physical tile fill $dmB$ and $dnB$, where $B$ is a triangle, $d>0$, and $m,n$ are coprime positive integers. Relabel the sizes so that $m\le n$. Then the same tile fills $dkB$ for every integer
 
-Write $D_s=\{x,y\ge0,\ x+y\le s\}$. A size-$s$ grid triangle is a translate of $D_s$ or of $-D_s$. We give an explicit positive dissection, allowing T-junctions.
-
-**Lemma.** If $m,n\ge2$ are coprime, set $M=mn$, $H=100M+m$, $r=m$, $K=rH+n$. Then $D_K$ is tiled by grid triangles of sizes $m$ and $n$, and $\gcd(K,mn)=1$.
-
-**Compatible lines.** Take the usual triangulation of $D_{rH}$ into $r^2$ grid triangles of size $H$. Its edges have supporting lines $x=iH$, $y=jH$, or $x+y=kH$. To each *edge segment* assign a residue $a_e$ modulo $m$. On the two coordinate sides assign zero, and on the diagonal boundary assign one. Across each cell require $a_x+a_y-a_{x+y}=0\bmod m$ for its three edge segments. These conditions can be solved: multiply the equations of the downward triangles by $-1$. The two incidences of each internal edge now have opposite signs. This is a flow problem on the connected graph dual to the triangulation. Its only compatibility condition is that the sum of all prescribed boundary contributions vanish. That sum is $-r=0\bmod m$. Concretely put zero on non-tree internal edges of the dual graph and solve successively from leaves of a spanning tree. The final equation holds by the sum condition.
-
-Choose representatives $0\le a_e<m$ and shift the corresponding support level by $na_e$. In particular the new boundary supports are $x=0,y=0,x+y=K$. Use each common shifted support for both adjacent cells. Inside each cell the three shifted lines belong to a translate of the $m$-grid: the residues of the $x$- and $y$-levels sum to that of the diagonal level, since $m\mid H$ and the face equation holds. The inward half-planes of one cell cut out a triangle of side between $H-3M$ and $H+3M$. At each of its three new vertices remove a corner triangle of side $\tau=10M$ using the parallel to the opposite edge. The remaining hexagon lies on the same translated $m$-grid, as $m\mid\tau$. Fill it with its elementary size-$m$ triangles.
-
-**Disjointness and coverage.** Use the norm $\|(x,y)\|=\max(|x|,|y|,|x+y|)$. On a coarse cell let $a,b,c$ be its inward slack variables (the signed differences from its three support levels). They sum to $H$. After the shifts write $a',b',c'$, each differing from its old value by less than $M$. The hexagon has all three shifted slacks nonnegative and each pair sum at least $\tau$.
-
-Within norm distance $2M$ of a coarse vertex $v$ no incident hexagon is present: for the two slacks zero at $v$, their original sum has absolute value at most $2M$, and the shifted sum is less than $4M$. A nonincident cell has some old slack at most $-H$ at $v$ and cannot reach that neighborhood. Elsewhere at most one supporting line of the entire coarse grid can be within $M$ in level difference. Indeed two nonparallel close levels would locate their intersection, a grid vertex, within $2M$, and distinct parallel levels differ by at least $H$. This argument can equally be made in the full planar coarse grid before restricting to the board. A coarse lattice vertex outside the original board cannot be within $R$ of $D_K$, since its violation of an old board inequality is at least $H$ and the exterior diagonal moved only by $n$.
-
-If there is no close line, no inward sign can change. If there is one, projection to it can be made with norm displacement at most $M$. No other level is crossed. Thus the only two potential coarse cells are the two incident to the single edge where the projection lands. Both use the *same* shifted line on opposite sides. On the board boundary the incident inside half-plane is precisely the half-plane of the new board. These observations establish that the hexagons have disjoint interiors and stay inside $D_K$. Near a coarse vertex they were removed entirely within distance $2M$; away from all such neighborhoods this argument also covers points near the three outer sides and permits equality on a supporting line.
-
-Outside the radius-$R$ neighborhoods of the coarse vertices, $R=20M$, every point of $D_K$ is covered by those hexagons. The preceding sign argument first chooses a cell satisfying its three shifted half-plane conditions. If, for example, its $a'+b'$ cut fails, then $a,b\ge-M$ and $a+b<\tau+2M$. Relative to the old intersection of these two lines the three norm coordinates have absolute values $|a|,|b|,|a+b|$, each at most $\tau+3M<R$. This contradicts the choice of point.
-
-**Filling the remaining regions.** The closed radius-$R$ hexagons about distinct coarse vertices are disjoint since $2R<H$. Fix the neighborhood of a coarse vertex $v$. Only incident coarse cells can reach it. Only their two shifted supports through the vicinity of $v$ and their cut opposite $v$ can affect the local boundary. Indeed the old far support is at level distance $H$, and the cuts at the two other vertices remain at level distance at least $H-\tau-2M>R$. Each relevant line belongs to the translated $n$-grid $v+n\mathbb Z^2$: its level measured relative to $v$ is a sum of the shifts $na_e$ and possibly $\tau$, all divisible by $n$. The sides of the radius-$R$ hexagon are on that grid as well, since $n\mid R$. Every outer board boundary meeting this neighborhood also has the required level. Thus every remaining open region in this neighborhood is a union of elementary size-$n$ triangle interiors and their intervening edges. Take their closures. Together with the previously filled hexagons these cover the entire closed board; all tile interiors are disjoint. Finally $K\equiv n\bmod m$ and $K\equiv m^2\bmod n$, proving coprimality.
-
-## Consequence for arbitrary physical triangles
-
-**Theorem.** If $d mB$ and $d nB$ both have tilings by the same fixed tile $T$, where $\gcd(m,n)=1$, then $d kB$ has such a tiling for every sufficiently large $k$. For $m,n\ge2$ one sufficient bound is
 $$
- k\ \ge\ (m-1)(n-1)+mn\big(100m^2n+m^2+n\big).
+k\ge 20m^2 n=20mn\min(m,n).
 $$
-If one normalized size equals one, every positive $k$ works.
 
-In the affine side coordinates of $dB$, the lemma supplies a third attained scale $dK$ by substituting the original two tilings into its macrotriangles. All positive multiples of $K$ are attained in normalized units. All integers from $F=(m-1)(n-1)$ onward are nonnegative combinations of $m,n$ (use the least representative $b\in[0,m-1]$ with $bn\equiv k\bmod m$). In this range the strip construction above propagates any attained scale by $mn$. Given $k\ge F+Kmn$, there is a multiple $jK\in[F,F+Kmn]$ congruent to $k$ modulo $mn$, since $\gcd(K,mn)=1$. It propagates to $k$.
+If $m=1$, ordinary subdivision gives every $k\ge1$. The displayed bound is sufficient. In particular it gives no prediction about the first scale at which a tiling exists.
 
-Consequently, for **every** nonempty fixed-pair spectrum $S$, its eventual members are exactly the multiples of $\gcd(S)$. Choose finitely many attained scales generating the gcd: begin with any attained scale and adjoin one reducing the current positive gcd whenever it still exceeds $\gcd(S)$. If all sufficiently large multiples of $g$ have already been obtained and another seed is $u$, choose a large $gk\in S$ with $k\equiv1\bmod u$. Applying the two-seed theorem to $gk,u$ yields all sufficiently large multiples of $\gcd(g,u)$. Induction gives the claim. This is a theorem on a fixed board and a fixed physical tile. For the unrestricted spectrum the shapes, the integer scales that occur first, and their gcd can all vary. This proof has been checked inside the project; external mathematical review is pending.
+Use affine coordinates along two sides of $dB$. Its model is $D_1$, where $D_h$ has vertices $(0,0),(h,0),(0,h)$. A translate of $D_m$ or $-D_m$ becomes a translate or a half-turn of the actual board $dmB$. Thus substituting the given tilings preserves the physical tile.
 
-There is a direct interpretation in tile counts. For a fixed pair with nonempty $S$, put $d=\gcd(S)$ and $C=d^2\operatorname{area}(B)/\operatorname{area}(T)$. Then $C$ is a positive integer. Indeed, for finitely many attained $dk_i$ with $\gcd_i k_i=1$, all $Ck_i^2$ are tile counts and $\gcd_i k_i^2=1$. An integer linear combination gives $C$. Consequently the exact set of counts from the integer dilates of this board with this tile is $\{Ck^2:k\ge1\}$ with at most finitely many counts removed. The coefficient $C$ need not be squarefree.
+**1. Make room for the corners.** Put $M=mn$. Choose the largest integer $H$ with $mH\le k$ and $mH\equiv k\pmod n$. Coprimality gives $0\le k-mH<M$ and $H>20M-n\ge19M$. Subdivide $D_{mH}$ into $m^2$ triangles of side $H$ on the lines $x=iH$, $y=jH$, $x+y=hH$. We will move the diagonal boundary to $x+y=k$. Each edge of the subdivision gets its own shifted supporting line. Its two incident triangles use the same shift.
 
-The sample with $(m,n)=(2,3)$ has $K=1207$, with 353419 triangles of size 2 and 4797 of size 3. Two standalone implementations check example constructions. One checks containment, area and separation of convex blocks. The other reconstructs the complementary cells by winding numbers and cancels their oriented boundaries exactly. [Area and disjointness test](verify_two_scale.py) · [Independent boundary check](verify_gluing_boundaries.py) · [Eight test pairs](gluing_boundaries.json).
+**2. Choose the lines.** At a coarse vertex $(iH,jH)$ put $w=ki\pmod m$ if $i+j=m$, and $w=0$ elsewhere. Assign a desired level modulo $m$ to each edge as follows.
 
-## All real scales for a fixed pair of similarity types
+| Supporting line | Desired level modulo $m$ |
+|---|---|
+| Vertical, $x=X$ | $w(\mathrm{bottom})-w(\mathrm{top})$ |
+| Horizontal, $y=Y$ | $w(\mathrm{right})-w(\mathrm{left})$ |
+| Diagonal, $x+y=Z$ | $w(\mathrm{lower\ right})-w(\mathrm{upper\ left})$ |
 
-**Corollary.** For any two fixed triangle shapes, the possible counts over all sizes have the form
+These differences telescope around either orientation of a coarse triangle, so $X+Y\equiv Z\pmod m$. Given the original level $L_0$, choose the unique integer in $[L_0,L_0+M)$ equal to $L_0$ modulo $n$ and equal to the desired residue modulo $m$. This is the Chinese remainder theorem. Both axis boundaries stay fixed. Along the outer diagonal every desired residue is $k\bmod m$, so its shifted level is exactly $k$.
+
+**3. Fill the middles.** The three new lines of each cell form a triangle on a translated grid of step $m$, since $X+Y\equiv Z\pmod m$. The side is greater than $H-3M$. Cut a corner triangle of side $5M$ off each vertex. The remaining hexagon is a union of elementary $m$-triangles. Because the line shifts and the cut size are multiples of $n$, the exposed edges around each old vertex lie on one common grid of step $n$. Fill each corner region with its elementary $n$-triangles.
+
+<details>
+<summary>Why the hexagons and corner fillings cover the board exactly</summary>
+
+Measure distance by $\|(x,y)\|=\max(|x|,|y|,|x+y|)$. The three inward slacks $a,b,c$ of a coarse triangle are signed distances in support levels and sum to $H$. Shifting a line changes its slack by less than $M$. A point is in the central hexagon exactly when the three shifted slacks are nonnegative and each pair sums to at least $5M$.
+
+Within distance $2M$ of a coarse vertex, both slacks through that vertex have old sum of absolute value at most $2M$, so their shifted sum is less than $4M$. No incident hexagon reaches this neighborhood. A nonincident cell has a slack at most $-H$ at the vertex and cannot reach it either.
+
+Away from those neighborhoods at most one coarse grid line is within $M$ in level. Two nonparallel such lines would put their intersection within distance $2M$, and parallel levels differ by $H$. If there is no close line, all half-plane signs stay fixed. If there is one close line, project to it by a displacement of norm at most $M$. No other coarse line is crossed. The two possible cells are the ones sharing the projected edge, and they use opposite sides of the same shifted line. On the outer boundary the inward side is exactly the corresponding half-plane of $D_k$. Equivalently this sign test can be applied in the full planar coarse grid, retaining only the cells of the board. An exterior coarse vertex violates an old board inequality by at least $H$, so lies farther than $9M$ from the new board. This proves containment and disjoint interiors for the hexagons.
+
+Outside distance $9M$ from every coarse vertex the hexagons already cover $D_k$. Indeed the sign test gives a triangle containing the point before clipping. If a corner cut fails, two old slacks satisfy $a,b\ge-M$ and $a+b<7M$. The distance to their old vertex is $\max(|a|,|b|,|a+b|)<8M$.
+
+The closed neighborhoods of radius $9M$ are disjoint since $H>18M$. In a neighborhood about $v$, only incident cells can contribute. In each, the far support and the other two cuts are at level distance at least $H-5M-2M>9M$ from $v$. The remaining two supports, the nearby cut, the relevant outer boundaries and the six walls of the neighborhood all lie on the grid translated by $v$ with step $n$. The complement there is therefore tiled by whole elementary $n$-triangles. Taking their closures also covers every boundary point. This proves the construction for arbitrary $k$ in the stated range.
+
+</details>
+
+To see a direct example, take $m=2$, $n=3$, $k=241$. The construction gives 11,827 blocks of size 2 and 1,197 of size 3. Two programs starting from the three sizes check the same dissection. One tests area, containment and disjointness. The other reconstructs the corner fillings from their oriented boundaries. [Area check](verify_two_scale.py) · [Boundary check](verify_gluing_boundaries.py) · [Exact counts for 13 examples](gluing_boundaries.json).
+
+~~~sh
+python3 research/2026-11-19/structural/verify_two_scale.py 2 3 --target 241
+python3 research/2026-11-19/structural/verify_gluing_boundaries.py 2 3 241
+~~~
+
+## Why the counts are square families
+
+**Integer scales.** For fixed physical $B,T$, let $S$ consist of the positive integers $s$ for which $sB$ is tiled by copies of $T$. If $S$ is nonempty, it contains all sufficiently large multiples of $g=\gcd(S)$, and every member is divisible by $g$.
+
+Choose finitely many attained scales with gcd $g$, adjoining one scale whenever it decreases the current gcd. For the first scale, subdividing gives every positive multiple. Suppose all sufficiently large multiples of $h$ are attained and $u$ is the next scale. Choose $t$ large with $t\equiv1\pmod u$. Then $ht,u$ are attained and $\gcd(ht,u)=\gcd(h,u)$. The two-size construction supplies every large multiple of this new gcd. This proves the claim by induction.
+
+Write $A,a$ for the areas of $B,T$. The counts at integer dilates are all $Ck^2$ with just finitely many omissions, where $C=g^2 A/a$ is a positive integer. Indeed finitely many attained scales $gk_i$ have $\gcd_i k_i=1$. All $Ck_i^2$ are integers and $\gcd_i k_i^2=1$, so Bézout's identity gives $C\in\mathbb Z$.
+
+**All real scales for a fixed outside shape.** Choose a side of $B$ of length $L$. It is tiled along its full length by whole tile edges. Two such edges cannot overlap on an open interval, since both tile interiors would lie on its inward side. Let $\ell_1,\ell_2,\ell_3$ be the tile side lengths. For a count $N$, comparison of areas fixes the outside scale at $\sqrt{Na/A}$. For some nonnegative integers $n_i$ this gives
+
 $$
- \bigcup_{i=1}^{j}\{C_i k^2:k\ge1\}\ \setminus F,\qquad
- j\le \dim_{\mathbb Q}\operatorname{span}_{\mathbb Q}(\ell_1,\ell_2,\ell_3)\le3,
+\sqrt N=\frac{\sqrt{A/a}}{L}(n_1\ell_1+n_2\ell_2+n_3\ell_3).
 $$
-where $\ell_1,\ell_2,\ell_3$ are the sides of a representative physical tile, the $C_i$ are positive integers of distinct squarefree parts, and $F$ is finite. An empty union is allowed. In particular a tile with rational side ratios contributes at most one family to any fixed target shape. Its initial omissions can depend on the shapes.
 
-**Proof.** Fix the physical tile $T$ of area $a$ and a representative board $B$ of area $A$ with one chosen side of length $L$. In a tiling of $\lambda B$ by $N$ tiles, $\lambda=\sqrt{Na/A}$. That entire board side is partitioned into whole tile sides: every tile is inside the convex board, and two boundary edges cannot overlap on an open interval, as both tile interiors would then occupy the inward side there. Consequently there are nonnegative integers $n_i$ with
-$$
- \sqrt N=\frac{\sqrt{A/a}}{L}\,(n_1\ell_1+n_2\ell_2+n_3\ell_3).
-$$
-Writing $N=dm^2$ with $d$ squarefree, the radical $\sqrt d$ lies in the same fixed rational vector space on the right. Distinct positive squarefree radicals, including $1$, are linearly independent over $\mathbb Q$. Thus at most the displayed number of distinct $d$ occur, with no condition on angles or algebraicity of the original lengths. [Independence of squarefree radicals](https://kam.mff.cuni.cz/~klazar/tomek_pr.pdf).
+Thus for every occurring squarefree part $d$ of $N$, the number $\sqrt d$ lies in a single rational vector space of dimension $r=\dim_{\mathbb Q}\operatorname{span}_{\mathbb Q}(\ell_1,\ell_2,\ell_3)\le3$. The square roots of distinct positive squarefree integers, including $1$, are rationally linearly independent. Hence at most $r$ different $d$ occur. For one such $d$, take $\sqrt{da/A}\,B$ as reference board. Counts $dt^2$ now correspond exactly to its attainable integer scales $t$. The preceding argument shows that these counts form a family $d\,g_d^2 k^2$ with finitely many omissions. [Independence of squarefree radicals](https://kam.mff.cuni.cz/~klazar/tomek_pr.pdf).
 
-For each occurring $d$ choose the reference board $B_d=\sqrt{da/A}\,B$. By area, the real scale for a count $dm^2$ is now the integer multiplier $m$ of $B_d$. The integer-scale theorem applies to its nonempty attainable set $S_d$. Put $g_d=\gcd S_d$. Up to finitely many omissions the counts of that squarefree part are exactly $d\,g_d^2k^2$ for $k\ge1$. Taking the finite union proves the formula. For example, when both shapes are right isosceles, counts 1 and 2 occur; subdivision supplies all $k^2$ and $2k^2$. Their two squarefree parts already saturate the rational dimension of the sides $1,1,\sqrt2$. No assertion of sharpness in dimension three is needed.
+**Allowing the outside shape to vary.** At any outside corner, all incident tiles have a vertex there, since a tile edge meeting the corner in its relative interior would occupy an angle of at least $\pi$. Therefore each outside angle is a sum of tile angles. If the smallest tile angle is $\delta$ and $J=\lceil\pi/\delta\rceil-1$, there are at most $\binom{J+3}{3}$ such sums, counting nonnegative triples of total at most $J$. Two angles determine the shape. Applying the fixed-shape result to this finite list proves the theorem with $q\le r\binom{J+3}{3}^2$. A finite union of finite sets of omissions stays finite.
 
-## A fixed tile with an arbitrary triangular target
+**Counting consequence.** The number of admissible counts up to $X$ for this one tile is $\kappa_T\sqrt X+O_T(1)$. Group the coefficients as $C_i=d g_i^2$ by squarefree $d$. Within each group the allowed multipliers, apart from finitely many omissions, are the integers divisible by one of the $g_i$. They are periodic modulo their least common multiple and have rational density $\rho_d$. Summing up to $\sqrt{X/d}$ gives $\kappa_T=\sum_d\rho_d/\sqrt d$. Every square occurs by subdivision of the tile itself, so $\kappa_T\ge1$.
 
-**Theorem.** Fix a nondegenerate tile $T$ up to similarity. There are positive integers $C_1,\ldots,C_q$ and a finite set $F_T$ such that, over **all** triangular targets of all sizes,
-$$
- \{N:\text{some triangle is tiled by }N\text{ congruent copies of }T\}
-  =\left(\bigcup_{i=1}^q\{C_i k^2:k\ge1\}\right)\setminus F_T .
-$$
-If $\delta$ is the smallest angle of $T$, put $J=\lceil\pi/\delta\rceil-1$ and $r=\dim_{\mathbb Q}\operatorname{span}_{\mathbb Q}(\ell_1,\ell_2,\ell_3)$. One sufficient upper bound is $q\le r\binom{J+3}{3}^2$. A tiling by a single copy and its subdivisions give every perfect square.
-
-At an outer corner of angle less than $\pi$, every incident tile has a vertex there. A relative interior point of an edge or an interior point of the tile would occupy an angle at least $\pi$. The incident tile angles add to the outer angle. With tile angles $\alpha,\beta,\gamma$, every outer angle is therefore $i\alpha+j\beta+k\gamma$ for nonnegative integers $i,j,k$ with $1\le i+j+k\le J$. There are at most $\binom{J+3}{3}$ candidates. Two angles determine the target shape by similarity, so at most the square of this number of shapes require consideration. For each such shape apply the all-real-scales corollary. Taking a finite union preserves finiteness of the omissions: any count missing from the actual union but present in one of its proposed families belongs to that constituent's finite exceptional set. This proof treats reflected tiles and arbitrary T-junctions.
-
-In particular the counting function for any one fixed tile, summed over all triangular targets, satisfies $A_T(X)=\kappa_T\sqrt X+O_T(1)$ with $\kappa_T\ge1$. Write $C_i=d\,g_i^2$ and group by squarefree $d$. For each such group the allowable multipliers, up to finitely many omissions, are the integers divisible by at least one of its $g_i$. They are periodic modulo their lcm, with some rational density $\rho_d$, and their count up to $Y$ is $\rho_dY+O_T(1)$. Summing at $Y=\sqrt{X/d}$ gives $\kappa_T=\sum_d \rho_d/\sqrt d$. Every square occurs, giving the lower bound. Thus the same fixed tile can occur for infinitely many counts while contributing only finitely many squarefree counts.
-
-The proof bounds the number of families; it does not compute all constants or exceptions from the three angles alone. Across all tile shapes even the squarefree parts are unbounded, since every prime $1\bmod4$ is a sum of two squares and is realized by some tile. A solution for unrestricted $N$ still has to control that union.
+The coefficients and early exceptions may change with the tile. Determining the union over all tiles remains the open part of Erdős 634. The project supplies a mathematical proof and exact checks of sample constructions. Independent scholarly review is pending.

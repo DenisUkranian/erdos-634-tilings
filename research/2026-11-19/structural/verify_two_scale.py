@@ -3,10 +3,10 @@
 The hexagons represent blocks tiled by a single translated m-grid. The other
 tiles are genuine n-triangles. All predicates use only Python integers.
 """
+import argparse
 from collections import defaultdict
 from itertools import combinations
 from math import gcd
-import sys
 
 
 def edge(a, b):
@@ -25,44 +25,24 @@ def face_grid(r):
     return faces
 
 
-def compatible_shifts(faces, m):
-    adjacent = defaultdict(list)
-    for face_id, (sign, _, sides) in enumerate(faces):
-        for side, coefficient in zip(sides, (sign, sign, -sign)):
-            adjacent[side].append((face_id, coefficient))
-    assigned = {}
-    balance = [0] * len(faces)
-    neighbours = [[] for _ in faces]
-    for side, connections in adjacent.items():
-        if len(connections) == 1:
-            f, coeff = connections[0]
-            a, b = side
-            val = int(sum(a) == sum(b))
-            assigned[side] = val
-            balance[f] += coeff*val
-        else:
-            (f, c), (g, d) = connections
-            assert c == -d
-            neighbours[f].append((g, side, d))
-            neighbours[g].append((f, side, c))
-            assigned[side] = 0
-    parents = {0: None}
-    order = [0]
-    for f in order:
-        for g, side, coeff_g in neighbours[f]:
-            if g not in parents:
-                parents[g] = (f, side, coeff_g)
-                order.append(g)
-    assert len(order) == len(faces)
-    for g in reversed(order[1:]):
-        f, side, coeff_g = parents[g]
-        value = (-balance[g]*coeff_g) % m
-        assigned[side] = value
-        balance[f] -= coeff_g*value
-    assert balance[0] % m == 0
-    for _, _, (x, y, z) in faces:
-        assert (assigned[x]+assigned[y]-assigned[z]) % m == 0
-    return assigned
+def support_levels(faces, m, n, k, height):
+    # Boundary values on the coarse vertices prescribe compatible line levels.
+    def potential(vertex):
+        i, j = vertex
+        return k*i if i+j == m else 0
+
+    levels = {}
+    inverse = pow(n, -1, m)
+    for _, _, sides in faces:
+        for direction, (a,b) in enumerate(sides):
+            if (a,b) in levels:
+                continue
+            dx = potential(b)-potential(a)
+            # Endpoints are sorted by x, then by y. Vertical edges run up.
+            residue = -dx if direction == 0 else dx
+            old = height*(a[0], a[1], sum(a))[direction]
+            levels[a,b] = old + n*(((residue-old)*inverse) % m)
+    return levels
 
 
 def separated(first, second):
@@ -70,20 +50,24 @@ def separated(first, second):
     return any(b <= c or d <= a for (a, b), (c, d) in zip(first, second))
 
 
-def certify(m, n):
+def certify(m, n, target=None):
     assert m > 1 and n > 1 and gcd(m, n) == 1
     r, M = m, m*n
-    H, cap, radius = 100*M+m, 10*M, 20*M
-    K = r*H+n
+    K = 20*m*M if target is None else target
+    if K < 20*m*M:
+        raise ValueError(f'The construction guarantees K >= {20*m*M} for this ordering.')
+    limit = K//m
+    H = limit - (limit - K*pow(m, -1, n)) % n
+    cap, radius = 5*M, 9*M
+    assert 0 <= K-m*H < M and (K-m*H) % n == 0
+    assert H > 2*radius and H-cap-2*M > radius
     faces = face_grid(r)
-    shifts = compatible_shifts(faces, m)
+    levels = support_levels(faces, m, n, K, H)
     by_vertex = defaultdict(list)
     boxes = []
     macro_area = 0
     for sign, vertices, (xe, ye, ze) in faces:
-        X = H*xe[0][0] + n*shifts[xe]
-        Y = H*ye[0][1] + n*shifts[ye]
-        Z = H*sum(ze[0]) + n*shifts[ze]
+        X, Y, Z = levels[xe], levels[ye], levels[ze]
         side = sign*(Z-X-Y)
         assert side > 2*cap and side % m == 0 and cap % m == 0
         if sign == 1:
@@ -122,17 +106,24 @@ def certify(m, n):
     # Patches themselves are separated because their centers are H apart.
     assert H > 2*radius
     assert macro_area + small*n**2 == K*K
-    assert gcd(K, m*n) == 1 and macro_area % (m*m) == 0
+    assert macro_area % (m*m) == 0
     return K, macro_area//(m*m), small
 
 
 if __name__ == '__main__':
     if not __debug__:
         raise SystemExit('Run with assertions enabled.')
-    args = list(map(int, sys.argv[1:]))
-    if len(args) % 2:
-        raise SystemExit('Supply size pairs m n.')
-    pairs = [(2,3), (3,5), (4,3), (5,2)] if not args else list(zip(args[::2],args[1::2]))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('sizes', type=int, nargs='*', help='Pairs of coprime sizes m n.')
+    parser.add_argument('--target', type=int, help='Requested board size for one pair.')
+    args = parser.parse_args()
+    if len(args.sizes) % 2 or (args.target is not None and len(args.sizes) != 2):
+        parser.error('Supply size pairs m n and use --target with a single pair.')
+    pairs = list(zip(args.sizes[::2], args.sizes[1::2])) or [(2,3), (3,5), (4,3), (5,2)]
     for m, n in pairs:
-        K, small_m, small_n = certify(m,n)
-        print(f"m={m}, n={n}, K={K}: {small_m} of size {m} and {small_n} of size {n}; exact full area and disjointness.")
+        if min(m,n) < 2 or gcd(m,n) != 1:
+            parser.error('Positive coprime sizes greater than one are required.')
+        if args.target is not None and args.target < 20*m*m*n:
+            parser.error(f'The stated bound is {20*m*m*n} for sizes {m} and {n} in this order.')
+        k, count_m, count_n = certify(m, n, args.target)
+        print(f'm={m}, n={n}, K={k}: {count_m} of size {m} and {count_n} of size {n}.')
