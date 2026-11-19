@@ -1,2 +1,0 @@
-weighted endpoints=27941 placements=232806 demand=699192857 packing=560713722 positive excess=2329008 mass weight=1000000
-exact lower bound 136150127/1000000; at least 137 unit tiles

@@ -1,6 +1,0 @@
-PASS band 0 2 verified_packed_rows 13601241 endpoint_deductions 346727411 root -7623 9240 axis 40 -7 sign -1
-PASS band -1 1 verified_packed_rows 14129619 endpoint_deductions 354827395 root 0 8547 axis 0 1 sign 1
-Side proof, first inference signs exchanged, exit status 1
-REJECT after 1 packed deductions: an opposite endpoint placement is still possible
-Centered proof, first inference signs exchanged, exit status 1
-REJECT after 1 packed deductions: an opposite endpoint placement is still possible

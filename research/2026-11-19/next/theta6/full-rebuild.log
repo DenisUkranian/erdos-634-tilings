@@ -1,9 +1,0 @@
-D=729 N=180 shapes=52 placements=146434 weights=111448 mass=1000000 demand=180902886 positive_count=19810 excess=892648 integer_gap=10238
-Checking angular window 80, mesh 3.
-Checking angular window 30, mesh 18.
-Checking angular window 15, mesh 36.
-Checking angular window 7, mesh 54.
-Checking angular window 6, mesh 81.
-Rebuilt all 146,434 candidates and the exact reference digest.
-D=729 N=180 shapes=52 placements=146434 weights=111448 mass=1000000 demand=180902886 positive_count=19810 excess=892648 integer_gap=10238
-maximum_tile=1001552 uniform_ceiling=180279360 uniform_gap=623526 top180=180130676 top180_gap=772210
