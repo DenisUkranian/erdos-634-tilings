@@ -12,6 +12,4 @@ The project records 141 positive and 142 negative decisions through 283. Its nex
 
 Denis Paliy, with ChatGPT assistance. The new results are shared for review. [Reproduction guide](REPRODUCIBILITY.md) · [Status](STATUS.md) · [Citation](CITATION.cff) · [Software license](LICENSE) · [Documentation license](LICENSE-DOCUMENTATION.md).
 
-**Задача Эрдёша №634.** Для каких чисел $N$ найдётся треугольник, который можно разрезать на $N$ равных треугольников? В репозитории есть чертежи разбиений, координаты плиток и код для проверки примеров.
-
 See also Denis Paliy’s work on [Erdős Problem 506, the minimum number of circles determined by planar points](https://github.com/DenisUkranian/erdos-506-circles).
