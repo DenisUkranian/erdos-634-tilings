@@ -1,4 +1,9 @@
-# Congruent triangle dissections, 19 November 2026
+# Triangle tilings, 19 November 2026
+
+An exact construction settles the 280 row in Beeson §14.3 and the remaining case of $70m^2$. The census now reaches 283. The updated research note also gives a gluing theorem for every fixed triangular tile. [Current note and replay instructions](https://github.com/DenisUkranian/erdos-634-tilings/blob/a837eb58e837132734342a53b889aade5cad723b/research/2026-11-19/README.md) · [280-tile picture](https://github.com/DenisUkranian/erdos-634-tilings/blob/a837eb58e837132734342a53b889aade5cad723b/research/2026-11-19/positive280/README.md) · [Gluing proof](https://github.com/DenisUkranian/erdos-634-tilings/blob/a837eb58e837132734342a53b889aade5cad723b/research/2026-11-19/structural/FIXED_SHAPES.md).
+
+<details>
+<summary>Earlier snapshot through 279, with the original checks</summary>
 
 Erdős problem 634 asks which positive integers occur as the number of congruent triangles in a dissection of some triangle. The results below combine cited earlier theorems with new computer-assisted exclusions. The new computations were developed with ChatGPT assistance. Separate implementations and integer certificates were checked within this project. External peer review and Lean verification of the new exclusions are outstanding. [Problem statement](https://www.erdosproblems.com/634).
 
@@ -8,9 +13,9 @@ Erdős problem 634 asks which positive integers occur as the number of congruent
 | All triangles, \(N=236\) | Excluded. The only surviving arithmetic candidate is a \(250,250,472\) triangle with tile \(9,20,25\). Exact conservative tests rule out every way to fill its apex. | [Geometric argument](next/beta/CERTIFICATE_236.md) · [standalone source and certificate](next/beta/Erdos634-N236-certificate.zip) |
 | Tile \(6,5,9\), target \(15t,15t,10t\) | Exactly the integer scales \(t\ge7\). The first example uses 245 tiles. | [Both directions](next/theta6/SPECTRA.md) · [exclusion at \(t=6\)](next/theta6/PROOF.md) |
 | Tile \(3,8,9\), target \(72g,72g,136g\) | Exactly the integer scales \(g\ge2\). The first example uses 544 tiles. The \(g=1\) instance was a test case in Beeson §14.3. As an unrestricted numerical count, \(136=10^2+6^2\) is realizable. | [Both directions](next/theta6/SPECTRA.md) · [integer certificate for \(g=1\)](next/alpha136mesh/PROOF.md) |
-| Tile \(6,5,9\), target \(45g,45g,70g\) | \(g=1\) is excluded and every integer \(g\ge3\) works. The only undecided scale is \(g=2\), corresponding to the first undecided global count, 280. | [Geometry of 280](next/alpha280mesh/README.md) · [proof for complete straight seams](next/alpha/VERTEX_SEAMS.md) |
+| Tile \(6,5,9\), target \(45g,45g,70g\) | \(g=1\) is excluded and every integer \(g\ge3\) works. At the time of this snapshot the only undecided scale was \(g=2\), corresponding to 280. | [Geometry of 280](next/alpha280mesh/README.md) · [proof for complete straight seams](next/alpha/VERTEX_SEAMS.md) |
 
-For \(N=280\), any dissection would have to be asymmetric and have no full straight segment of tile edges joining a vertex to the opposite side. A segment starting at the apex would force either a piece of area \(810/7\) in tile units or a tiling of the excluded \(90,90,60\) target. The tests permit T-junctions, rotations, reflections and arbitrary real translations. The exact finite reduction for 280 leaves 1,000,898 individually possible tile placements after vertex and contact tests. Whether 280 of them can cover the target jointly remains undecided. The classifications are for the specified tile and target shape. The general problem remains open.
+The placement reduction for \(N=280\) showed that any dissection must be asymmetric and have no full straight segment of tile edges joining a vertex to the opposite side. A segment starting at the apex would force either a piece of area \(810/7\) in tile units or a tiling of the excluded \(90,90,60\) target. The tests permit T-junctions, rotations, reflections and arbitrary real translations. The exact finite reduction for 280 leaves 1,000,898 individually possible tile placements after vertex and contact tests. Whether 280 of them can cover the target jointly remains undecided. The classifications are for the specified tile and target shape. The general problem remains open.
 
 Bonfioli's notch and unit extension give the positive theta cases. The new step in the first exact threshold is the negative certificate at scale six. The second threshold uses Bonfioli's scale necessity, the positive theta construction and the new scale-one exclusion. Beeson and Paliy are credited in the cited sources for the earlier gluing and eventual-existence results. [Pinned sources for 245, 288 and 544](next/positive/SOURCES.md) · [Bonfioli's release 6.0](https://github.com/ElVec1o/erdos634_primes_and_N200/blob/752005605ca4e607d2a08f57bdc2445dd5558dbb/paper/erdos634_v6_main.tex).
 
@@ -34,3 +39,6 @@ The two heavier checks regenerate the 236 obstruction and the full candidate lis
 python3 research/2026-11-19/verify.py --rebuild-236
 python3 research/2026-11-19/next/theta6/reproduce.py --rebuild
 ~~~
+
+
+</details>

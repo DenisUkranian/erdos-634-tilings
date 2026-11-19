@@ -39,16 +39,20 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 31373,
-      "sha256": "c04f7abaf4c070e2519ef679ba42a577ad9284c522ce9ad1d845307240f6d3c8"
+      "bytes": 2032,
+      "sha256": "6d2f38b21c81f56c2a407682a0552a421266b1ec4458eaa37c9dac7215842d27"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 28683,
       "sha256": "8009977bc97e7f7190d2bc6560dbe503e5b7194edb7b09f15cada32510aa47b9"
     },
+    "RESULTS_INDEX.md": {
+      "bytes": 30014,
+      "sha256": "55067e0d0a41d7bb4901dcdb1873e60bbac6adf50bce22f406acde9f3a345458"
+    },
     "STATUS.md": {
-      "bytes": 47767,
-      "sha256": "e2c9ab51aa7d1bcc8316a90e551ce9662aded85202894972660f087eb81f4cbc"
+      "bytes": 47962,
+      "sha256": "e5fadc711c7be9a4bbffe965f94b33614da804a6faa6d6083eded0e9a87451c5"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -515,12 +519,12 @@
       "sha256": "b34bbae2c700f2d290ef5a28a5222e5edd9ad61f176c45cd8e42614992eff171"
     },
     "research/2026-11-19/README.md": {
-      "bytes": 6176,
-      "sha256": "2a9702f6f10881b63a78e0a723f92fe74c04017a9c07d469653d45937343530f"
+      "bytes": 6985,
+      "sha256": "f087fd62cf3fb9655c317762f359f3e3d4ed75f2116d3f49da5bca457694b21d"
     },
     "research/2026-11-19/SHA256.json": {
       "bytes": 15818,
-      "sha256": "9a732165fc28a82a5f1f3e756c00ff1f8f8c481b1beb3ebeedb31ff163fcc5b9"
+      "sha256": "137819479478c5ea5a422a2f26f2554ee3f1ab3ae700834d029ae086cda90556"
     },
     "research/2026-11-19/check_paliy_examples.py": {
       "bytes": 2388,
