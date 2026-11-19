@@ -35,6 +35,11 @@ def main():
     check_json("check_paliy_examples.py", "paliy_examples.json")
     print(f"Verified {len(manifest)} files. Census through 279: 139 positive, 140 negative.")
     print("Exact positive coordinate witnesses verified for 240, 264, 322 and 897.")
+    check_json("structural/verify.py", "structural/verification.json")
+    check_json("structural/verify_gluing_boundaries.py", "structural/gluing_boundaries.json")
+    for script in ("positive280/verify.py", "positive280/verify_slices.py",
+                   "structural/census_extension.py", "structural/verify_two_scale.py"):
+        print(run_python(script).strip(), flush=True)
     for script in ("next/alpha136mesh/recheck_direct.py", "next/theta6/reproduce.py",
                    "next/audit/transfer280/packing.py", "next/alpha280mesh/corner_patterns.py"):
         print(run_python(script).strip(), flush=True)

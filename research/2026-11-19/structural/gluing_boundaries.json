@@ -1,0 +1,119 @@
+[
+  {
+    "m": 2,
+    "n": 3,
+    "K": 240,
+    "m_tiles": 11700,
+    "n_tiles": 1200,
+    "vertex_patches": 6,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 2,
+    "n": 3,
+    "K": 241,
+    "m_tiles": 11827,
+    "n_tiles": 1197,
+    "vertex_patches": 6,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 2,
+    "n": 3,
+    "K": 242,
+    "m_tiles": 11950,
+    "n_tiles": 1196,
+    "vertex_patches": 6,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 2,
+    "n": 3,
+    "K": 243,
+    "m_tiles": 12069,
+    "n_tiles": 1197,
+    "vertex_patches": 6,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 2,
+    "n": 3,
+    "K": 244,
+    "m_tiles": 12184,
+    "n_tiles": 1200,
+    "vertex_patches": 6,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 2,
+    "n": 3,
+    "K": 245,
+    "m_tiles": 12313,
+    "n_tiles": 1197,
+    "vertex_patches": 6,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 3,
+    "n": 2,
+    "K": 361,
+    "m_tiles": 11789,
+    "n_tiles": 6055,
+    "vertex_patches": 10,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 3,
+    "n": 4,
+    "K": 727,
+    "m_tiles": 47961,
+    "n_tiles": 6055,
+    "vertex_patches": 10,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 4,
+    "n": 3,
+    "K": 971,
+    "m_tiles": 48163,
+    "n_tiles": 19137,
+    "vertex_patches": 15,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 5,
+    "n": 2,
+    "K": 1003,
+    "m_tiles": 32765,
+    "n_tiles": 46721,
+    "vertex_patches": 21,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 5,
+    "n": 7,
+    "K": 3534,
+    "m_tiles": 407997,
+    "n_tiles": 46719,
+    "vertex_patches": 21,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 6,
+    "n": 5,
+    "K": 3619,
+    "m_tiles": 296801,
+    "n_tiles": 96493,
+    "vertex_patches": 28,
+    "exact_edge_cancellation": true
+  },
+  {
+    "m": 7,
+    "n": 3,
+    "K": 2953,
+    "m_tiles": 145024,
+    "n_tiles": 179337,
+    "vertex_patches": 36,
+    "exact_edge_cancellation": true
+  }
+]

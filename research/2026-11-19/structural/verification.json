@@ -1,0 +1,44 @@
+{
+  "finite_primes": {
+    "19": {
+      "primitive_records_examined": 76,
+      "hits": 0
+    },
+    "29": {
+      "primitive_records_examined": 114,
+      "hits": 0
+    },
+    "43": {
+      "primitive_records_examined": 178,
+      "hits": 0
+    },
+    "53": {
+      "primitive_records_examined": 229,
+      "hits": 0
+    },
+    "67": {
+      "primitive_records_examined": 294,
+      "hits": 0
+    },
+    "101": {
+      "primitive_records_examined": 450,
+      "hits": 0
+    }
+  },
+  "largest_coefficient_examined": 18361,
+  "primitive_records_per_row_at_largest_bound": {
+    "F1": 59,
+    "F2": 20,
+    "F3": 15,
+    "F4": 27,
+    "alpha": 47,
+    "equilateral+": 92,
+    "equilateral-": 119,
+    "isosceles": 51,
+    "other-scalene": 20
+  },
+  "control_p_5_coefficients": [
+    15,
+    40
+  ]
+}
