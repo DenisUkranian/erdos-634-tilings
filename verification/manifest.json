@@ -524,7 +524,7 @@
     },
     "research/2026-11-19/SHA256.json": {
       "bytes": 15818,
-      "sha256": "137819479478c5ea5a422a2f26f2554ee3f1ab3ae700834d029ae086cda90556"
+      "sha256": "7a1cb1cd46af7f725ac65e62ef65946b509bebde3786ba49a25a43caa6574d7f"
     },
     "research/2026-11-19/check_paliy_examples.py": {
       "bytes": 2388,
@@ -903,8 +903,8 @@
       "sha256": "afae071b19023d723dc9768201fd6ddd2181e4bd65a888e4395c9ebd43baddb5"
     },
     "research/2026-11-19/nov19/equilateral231/RESULT_UK.md": {
-      "bytes": 8286,
-      "sha256": "675ce1181a8abc32e39a91c59097fecad01c1047a6e5ce2d9aeb9ebd8acf6b2d"
+      "bytes": 4909,
+      "sha256": "6e531de1c8cc3ca2723af01bdcbd0b82499c565c08185c716d047c4cd4cbdcab"
     },
     "research/2026-11-19/nov19/equilateral231/bcenter.json": {
       "bytes": 308,
@@ -979,8 +979,8 @@
       "sha256": "06931bb03d16798844245db7f115e52471dbd6142bf40c1f0b5af1e07f308c5b"
     },
     "research/2026-11-19/nov19/powers/POWERS.md": {
-      "bytes": 10646,
-      "sha256": "8a2e81a4b20ebbafe84d948fc1345c990fc02c88a892cd8ef2e1f95c7d7db527"
+      "bytes": 7003,
+      "sha256": "b680b2950e5be54c5830c99a1936ff09e8f3ad1238966749378a3de9ca3f8d37"
     },
     "research/2026-11-19/nov19/powers/check_powers.py": {
       "bytes": 3047,
