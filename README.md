@@ -1,4 +1,4 @@
-# How many congruent triangles can tile a triangle?
+# Erdős Problem 634 — How many congruent triangles can tile a triangle?
 
 [Erdős problem 634](https://www.erdosproblems.com/634) asks which integers $N$ can occur when a triangle is cut into $N$ congruent triangles. The pieces may be reflected, and one edge may meet several shorter edges.
 
@@ -9,3 +9,7 @@
 The project records 141 positive and 142 negative decisions through 283. Its next undecided count is 284. A separate arithmetic result decides an infinite set of inputs with a large prime factor. [Results and sources](https://github.com/DenisUkranian/erdos-634-tilings/blob/a837eb58e837132734342a53b889aade5cad723b/research/2026-11-19/README.md) · [Large-prime theorem](https://github.com/DenisUkranian/erdos-634-tilings/blob/a837eb58e837132734342a53b889aade5cad723b/research/2026-11-19/structural/PROOF.md) · [Earlier work](RESULTS_INDEX.md).
 
 Denis Paliy, with ChatGPT assistance. The new results are shared for review. [Reproduction guide](REPRODUCIBILITY.md) · [Status](STATUS.md) · [Citation](CITATION.cff) · [Software license](LICENSE) · [Documentation license](LICENSE-DOCUMENTATION.md).
+
+**Задача Эрдёша №634.** Для каких чисел $N$ найдётся треугольник, который можно разрезать на $N$ равных треугольников? В репозитории есть чертежи разбиений, координаты плиток и код для проверки примеров.
+
+See also Denis Paliy’s work on [Erdős Problem 506, the minimum number of circles determined by planar points](https://github.com/DenisUkranian/erdos-506-circles).
