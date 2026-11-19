@@ -515,12 +515,12 @@
       "sha256": "b34bbae2c700f2d290ef5a28a5222e5edd9ad61f176c45cd8e42614992eff171"
     },
     "research/2026-11-19/README.md": {
-      "bytes": 6589,
-      "sha256": "f2949fd8079f10b66d6b43de7e34af2d48677db56bc364b9a699f6aa2feb7a8f"
+      "bytes": 6715,
+      "sha256": "b48b9c3e64095ff73f5a6a8d5f9ea9f9b28ac60d7cdb46a0fd62bedfdfbe859a"
     },
     "research/2026-11-19/SHA256.json": {
       "bytes": 17126,
-      "sha256": "4725dbf9c45c3aa35ceaaabc7a0676076909ff921d9d948a43e59feeeb5a38d9"
+      "sha256": "2eda03a4498e71d9bd7be4af9cdbcd7bf74495263d2d4d7e9695723272298a52"
     },
     "research/2026-11-19/check_paliy_examples.py": {
       "bytes": 2388,
@@ -1015,8 +1015,8 @@
       "sha256": "519543d8bfd6aedd34a20f1f3bac34cc0cac016a63ba50d6aafdcbbc1cc7bd5b"
     },
     "research/2026-11-19/structural/FIXED_SHAPES.md": {
-      "bytes": 9815,
-      "sha256": "3550071d083692a90ae1374e5818b70111ead6f53f7552d1acc3a5417c60c5f4"
+      "bytes": 12232,
+      "sha256": "555765e4aed84b9c2f82297f3fe1b43e53f7baac268a63ae7bf80efe9c7888b6"
     },
     "research/2026-11-19/structural/PROOF.md": {
       "bytes": 10657,
@@ -1039,8 +1039,8 @@
       "sha256": "ff26abc395065a9f217b469002736ecc7a686b1de4884b308e7fc8d7ad0bffb8"
     },
     "research/2026-11-19/structural/verify_gluing_boundaries.py": {
-      "bytes": 5609,
-      "sha256": "a36996525a4aab112b0da05fa3ae4e2d3d87a819ef2859cea50227271599a183"
+      "bytes": 5553,
+      "sha256": "19a9d3f347dae635d613955b0aa610f86d3345096188f2ed180f09290e848a08"
     },
     "research/2026-11-19/structural/verify_two_scale.py": {
       "bytes": 5138,

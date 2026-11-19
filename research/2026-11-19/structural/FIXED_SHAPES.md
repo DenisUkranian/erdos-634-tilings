@@ -6,7 +6,7 @@ $$
 $$
 The boards $sB$ are homothetic. Both orientations of a tile are allowed and side subdivisions on adjoining pieces may differ.
 
-**Theorem.** Every nonempty $S$ contains all sufficiently large multiples of $\gcd(S)$. Thus for a fixed physical tile and board the gcd decides the entire tail. Two attained scales give the explicit bound proved in the last section.
+**Theorem.** Every nonempty $S$ contains all sufficiently large multiples of $\gcd(S)$. Two attained scales give the explicit bound below. If both shapes are fixed but *all positive real scales* of the board are allowed, the tile counts form a union of at most three families $Ck^2$ with only finitely many omissions. The proof for arbitrary real scales is in the last section.
 
 ## A strip that propagates tilings
 
@@ -49,3 +49,20 @@ Consequently, for **every** nonempty fixed-pair spectrum $S$, its eventual membe
 There is a direct interpretation in tile counts. For a fixed pair with nonempty $S$, put $d=\gcd(S)$ and $C=d^2\operatorname{area}(B)/\operatorname{area}(T)$. Then $C$ is a positive integer. Indeed, for finitely many attained $dk_i$ with $\gcd_i k_i=1$, all $Ck_i^2$ are tile counts and $\gcd_i k_i^2=1$. An integer linear combination gives $C$. Consequently the exact set of counts from the integer dilates of this board with this tile is $\{Ck^2:k\ge1\}$ with at most finitely many counts removed. The coefficient $C$ need not be squarefree.
 
 The sample with $(m,n)=(2,3)$ has $K=1207$, with 353419 triangles of size 2 and 4797 of size 3. Two standalone implementations check example constructions. One checks containment, area and separation of convex blocks. The other reconstructs the complementary cells by winding numbers and cancels their oriented boundaries exactly. [Area and disjointness test](verify_two_scale.py) · [Independent boundary check](verify_gluing_boundaries.py) · [Eight test pairs](gluing_boundaries.json).
+
+## All real scales for a fixed pair of similarity types
+
+**Corollary.** For any two fixed triangle shapes, the possible counts over all sizes have the form
+$$
+ \bigcup_{i=1}^{j}\{C_i k^2:k\ge1\}\ \setminus F,\qquad
+ j\le \dim_{\mathbb Q}\operatorname{span}_{\mathbb Q}(\ell_1,\ell_2,\ell_3)\le3,
+$$
+where $\ell_1,\ell_2,\ell_3$ are the sides of a representative physical tile, the $C_i$ are positive integers of distinct squarefree parts, and $F$ is finite. An empty union is allowed. In particular a tile with rational side ratios contributes at most one family to any fixed target shape. Its initial omissions can depend on the shapes.
+
+**Proof.** Fix the physical tile $T$ of area $a$ and a representative board $B$ of area $A$ with one chosen side of length $L$. In a tiling of $\lambda B$ by $N$ tiles, $\lambda=\sqrt{Na/A}$. That entire board side is partitioned into whole tile sides: every tile is inside the convex board, and two boundary edges cannot overlap on an open interval, as both tile interiors would then occupy the inward side there. Consequently there are nonnegative integers $n_i$ with
+$$
+ \sqrt N=\frac{\sqrt{A/a}}{L}\,(n_1\ell_1+n_2\ell_2+n_3\ell_3).
+$$
+Writing $N=dm^2$ with $d$ squarefree, the radical $\sqrt d$ lies in the same fixed rational vector space on the right. Distinct positive squarefree radicals, including $1$, are linearly independent over $\mathbb Q$. Thus at most the displayed number of distinct $d$ occur, with no condition on angles or algebraicity of the original lengths. [Independence of squarefree radicals](https://kam.mff.cuni.cz/~klazar/tomek_pr.pdf).
+
+For each occurring $d$ choose the reference board $B_d=\sqrt{da/A}\,B$. By area, the real scale for a count $dm^2$ is now the integer multiplier $m$ of $B_d$. The integer-scale theorem applies to its nonempty attainable set $S_d$. Put $g_d=\gcd S_d$. Up to finitely many omissions the counts of that squarefree part are exactly $d\,g_d^2k^2$ for $k\ge1$. Taking the finite union proves the formula. For example, when both shapes are right isosceles, counts 1 and 2 occur; subdivision supplies all $k^2$ and $2k^2$. Their two squarefree parts already saturate the rational dimension of the sides $1,1,\sqrt2$. No assertion of sharpness in dimension three is needed.
