@@ -23,6 +23,8 @@ def main():
     with tempfile.TemporaryDirectory(prefix='erdos634-full-replay-') as td:
         work=Path(td)/'repo'
         shutil.copytree(ROOT,work,ignore=shutil.ignore_patterns('.git','__pycache__','audit-output','.publication','*.pyc'))
+        reports['november19']=run(['research/2026-11-19/verify.py'],work)
+        print('NOVEMBER19_CENSUS_AND_CERTIFICATES=PASS',flush=True)
         reports['legacy']=run(['scripts/reproduce.py'],work)
         print('LEGACY_SUITE=PASS',flush=True)
         nw=work/'research/n105'

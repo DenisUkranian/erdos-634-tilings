@@ -6583,8 +6583,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 14298,
-      "sha256": "5c8b872cf3e99113c596dde4fd7689c44e4460aa0a90252c185e11a151fb7c06"
+      "bytes": 14440,
+      "sha256": "99780693833c91a9e411b022eb06e2c1af7a100f363b3dbad4602fdd8b0cac78"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,
