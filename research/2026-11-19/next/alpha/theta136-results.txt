@@ -1,0 +1,4 @@
+N=9 nodes=10 result=TILABLE
+N=8 nodes=1 result=EXHAUSTED
+N=32 nodes=7 result=EXHAUSTED
+N=72 nodes=116317 result=EXHAUSTED

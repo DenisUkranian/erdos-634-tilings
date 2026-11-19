@@ -1,0 +1,6 @@
+D=27 candidates=13536 target=3001 capacity=1363 gap=1638
+D=81 candidates=13616 target=3001 capacity=1366 gap=1635
+D=243 candidates=13616 target=3001 capacity=1366 gap=1635
+D=729 candidates=13616 target=3001 capacity=1366 gap=1635
+D=2187 candidates=13616 target=3001 capacity=1366 gap=1635
+D=6561 candidates=13616 target=3001 capacity=1366 gap=1635

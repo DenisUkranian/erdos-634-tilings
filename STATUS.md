@@ -6,6 +6,8 @@ Current results supersede historical entries that describe4830 or135 as unresolv
 
 This ledger distinguishes mathematical claims from their evidence. The research packages are included in the repository. The exact commit and remote verification results are recorded by GitHub Actions; this ledger is not itself a CI success assertion.
 
+**19 November 2026.** The new research note gives exact finite checks for the exclusions at 236 and for the 136- and 180-tile targets, plus the prior results needed for two complete fixed-shape classifications. The combined census reaches 279. The 280 target and the full Erdős problem remain open. [Evidence, provenance and replay commands](research/2026-11-19/README.md).
+
 **Preservation addendum (10 October):** The [30 September archival recovery](research/legacy-snapshots/2026-09-30/README.md) now has a lossless SHA-256-manifested delta. Of 215 earlier repository snapshots, 142 match current immutable blobs, 38 missing paths and 35 older versions are archived, and 21 supplemental logs are kept. This says nothing about theorem correctness.\n\n## New claims and limitations: 9–10 October 2026
 
 | Update | Scientific status | Sources |

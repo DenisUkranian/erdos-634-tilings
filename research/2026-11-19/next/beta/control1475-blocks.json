@@ -1,0 +1,256 @@
+{
+  "format": "erdos634-w-beta-caps-v1",
+  "kind": "tiling",
+  "u": 4,
+  "v": 5,
+  "m": 5,
+  "family": "beta",
+  "metric_D": 84,
+  "tile_sides": [
+    20,
+    9,
+    25
+  ],
+  "tile_count": 1475,
+  "target": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        -425,
+        1
+      ],
+      [
+        -50,
+        1
+      ]
+    ],
+    [
+      [
+        47,
+        1
+      ],
+      [
+        68,
+        1
+      ]
+    ]
+  ],
+  "blocks": [
+    {
+      "type": "triangle_grid",
+      "vertices": [
+        [
+          [
+            -81,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            -153,
+            1
+          ],
+          [
+            18,
+            1
+          ]
+        ]
+      ],
+      "n": 9
+    },
+    {
+      "type": "triangle_grid",
+      "vertices": [
+        [
+          [
+            -81,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            -153,
+            1
+          ],
+          [
+            -18,
+            1
+          ]
+        ]
+      ],
+      "n": 9
+    },
+    {
+      "type": "triangle_grid",
+      "vertices": [
+        [
+          [
+            -81,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            -153,
+            1
+          ],
+          [
+            18,
+            1
+          ]
+        ],
+        [
+          [
+            -353,
+            1
+          ],
+          [
+            -32,
+            1
+          ]
+        ]
+      ],
+      "n": 20
+    },
+    {
+      "type": "parallelogram_grid",
+      "vertices": [
+        [
+          [
+            -81,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            -153,
+            1
+          ],
+          [
+            -18,
+            1
+          ]
+        ],
+        [
+          [
+            -425,
+            1
+          ],
+          [
+            -50,
+            1
+          ]
+        ],
+        [
+          [
+            -353,
+            1
+          ],
+          [
+            -32,
+            1
+          ]
+        ]
+      ],
+      "rows": 9,
+      "columns": 16,
+      "diagonal": "difference"
+    },
+    {
+      "type": "triangle_grid",
+      "vertices": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            -153,
+            1
+          ],
+          [
+            18,
+            1
+          ]
+        ],
+        [
+          [
+            47,
+            1
+          ],
+          [
+            68,
+            1
+          ]
+        ]
+      ],
+      "n": 25
+    }
+  ],
+  "stages": [
+    {
+      "kind": "seed",
+      "scale": 5,
+      "block_end": 5
+    }
+  ],
+  "arithmetic_plan": {
+    "seed_scale": 5,
+    "seed_factor": 1,
+    "steps": 0,
+    "sufficient_tail": 17
+  },
+  "expanded_individual_tiles": false,
+  "attribution": "Scale-v triquadratic seed: Beeson. Six-block cap: project internal construction; no priority claim."
+}

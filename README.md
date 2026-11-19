@@ -10,6 +10,10 @@ Which positive integers N allow a triangle to be dissected into N congruent tria
 
 **Current update:** 4830 is now positively settled by the direct construction below. Historical dated entries retain the scope of their original attempts; they do not override this result. 135 is now excluded by a complete, independently checked LRAT certificate, completing the criterion `15m²` realizable if and only if `m>=4`.
 
+## 19 November 2026
+
+The [November research note and reproducible certificates](research/2026-11-19/README.md) record a computer-assisted exclusion at 236, a census through 279 and exact thresholds for two fixed tile/target families. The first unresolved count in these materials is 280. The note also compares Paliy’s September construction with Theorems 15 and 18 of Beeson v6. [Updated prime-case dependencies](docs/prime-case-dependencies.md).
+
 ## New supplement: 9–10 October 2026
 
 **[Full supplementary index, original sources, proof status and checks](research/updates-2026-10-10/README.md).** The research synchronization preserves **242 source files from 10 dated archives** (220 also directly accessible as ordinary files). It covers a sufficient fixed-tile W/β construction for every multiplier M≥v, global square class 14 / N=56, more F3/14430 necessary obstructions, finite W92/β92 search data, square-class density and two independent audits. **F3/14430, 92, the reverse-apex prime induction and the full Erdős 634 problem are not settled.** See the dated index for qualifications and an exact SHA-256 source-integrity checker.

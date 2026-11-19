@@ -1,0 +1,750 @@
+{
+  "all_repair_jobs": 92,
+  "maximum_partial": 177,
+  "small_edit_replays": [
+    "EXHAUSTED masks 56371 boundary_invalid 0 total_nodes 72925",
+    "EXHAUSTED masks 184 boundary_invalid 184 total_nodes 0",
+    "EXHAUSTED masks 16 boundary_invalid 16 total_nodes 0",
+    "EXHAUSTED masks 1 boundary_invalid 1 total_nodes 0",
+    "EXHAUSTED masks 1 boundary_invalid 1 total_nodes 0",
+    "EXHAUSTED masks 1 boundary_invalid 1 total_nodes 0"
+  ],
+  "local_repairs": [
+    {
+      "job": "r0-band10-0",
+      "pinned": 121,
+      "new_cells": 59,
+      "calls": 5263,
+      "max_added": 56,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band10-1",
+      "pinned": 135,
+      "new_cells": 45,
+      "calls": 1375,
+      "max_added": 42,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band12-0",
+      "pinned": 107,
+      "new_cells": 73,
+      "calls": 29009,
+      "max_added": 70,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band12-1",
+      "pinned": 126,
+      "new_cells": 54,
+      "calls": 2473,
+      "max_added": 51,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band14-0",
+      "pinned": 97,
+      "new_cells": 83,
+      "calls": 33932,
+      "max_added": 80,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band14-1",
+      "pinned": 118,
+      "new_cells": 62,
+      "calls": 2808,
+      "max_added": 59,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band17-1",
+      "pinned": 106,
+      "new_cells": 74,
+      "calls": 35911,
+      "max_added": 71,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band20-1",
+      "pinned": 96,
+      "new_cells": 84,
+      "calls": 59963,
+      "max_added": 77,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band5-0",
+      "pinned": 139,
+      "new_cells": 41,
+      "calls": 398,
+      "max_added": 28,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band5-1",
+      "pinned": 149,
+      "new_cells": 31,
+      "calls": 105,
+      "max_added": 18,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band8-0",
+      "pinned": 126,
+      "new_cells": 54,
+      "calls": 2652,
+      "max_added": 51,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-band8-1",
+      "pinned": 140,
+      "new_cells": 40,
+      "calls": 805,
+      "max_added": 37,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-edge0",
+      "pinned": 176,
+      "new_cells": 4,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-edge1",
+      "pinned": 169,
+      "new_cells": 11,
+      "calls": 3,
+      "max_added": 2,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-edge2",
+      "pinned": 162,
+      "new_cells": 18,
+      "calls": 39,
+      "max_added": 9,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-edge3",
+      "pinned": 154,
+      "new_cells": 26,
+      "calls": 228,
+      "max_added": 18,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-edge4",
+      "pinned": 146,
+      "new_cells": 34,
+      "calls": 2003,
+      "max_added": 31,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-edge5",
+      "pinned": 136,
+      "new_cells": 44,
+      "calls": 2619,
+      "max_added": 41,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-edge6",
+      "pinned": 125,
+      "new_cells": 55,
+      "calls": 11352,
+      "max_added": 52,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r0-edge7",
+      "pinned": 114,
+      "new_cells": 66,
+      "calls": 40064,
+      "max_added": 63,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-band10-0",
+      "pinned": 118,
+      "new_cells": 62,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-band10-1",
+      "pinned": 126,
+      "new_cells": 54,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-band12-0",
+      "pinned": 103,
+      "new_cells": 77,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-band12-1",
+      "pinned": 113,
+      "new_cells": 67,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-band14-1",
+      "pinned": 106,
+      "new_cells": 74,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-band17-1",
+      "pinned": 96,
+      "new_cells": 84,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-band5-0",
+      "pinned": 138,
+      "new_cells": 42,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-band5-1",
+      "pinned": 142,
+      "new_cells": 38,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-band8-0",
+      "pinned": 121,
+      "new_cells": 59,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-band8-1",
+      "pinned": 129,
+      "new_cells": 51,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-edge0",
+      "pinned": 160,
+      "new_cells": 20,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-edge1",
+      "pinned": 145,
+      "new_cells": 35,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-edge2",
+      "pinned": 126,
+      "new_cells": 54,
+      "calls": 4,
+      "max_added": 3,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r1-edge3",
+      "pinned": 102,
+      "new_cells": 78,
+      "calls": 3,
+      "max_added": 2,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band10-0",
+      "pinned": 119,
+      "new_cells": 61,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band10-1",
+      "pinned": 126,
+      "new_cells": 54,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band12-0",
+      "pinned": 107,
+      "new_cells": 73,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band12-1",
+      "pinned": 116,
+      "new_cells": 64,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band14-0",
+      "pinned": 97,
+      "new_cells": 83,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band14-1",
+      "pinned": 108,
+      "new_cells": 72,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band17-1",
+      "pinned": 96,
+      "new_cells": 84,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band5-0",
+      "pinned": 139,
+      "new_cells": 41,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band5-1",
+      "pinned": 143,
+      "new_cells": 37,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band8-0",
+      "pinned": 127,
+      "new_cells": 53,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-band8-1",
+      "pinned": 134,
+      "new_cells": 46,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-edge0",
+      "pinned": 166,
+      "new_cells": 14,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-edge1",
+      "pinned": 153,
+      "new_cells": 27,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-edge2",
+      "pinned": 133,
+      "new_cells": 47,
+      "calls": 8,
+      "max_added": 6,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-edge3",
+      "pinned": 117,
+      "new_cells": 63,
+      "calls": 153,
+      "max_added": 14,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r2-edge4",
+      "pinned": 98,
+      "new_cells": 82,
+      "calls": 4021,
+      "max_added": 40,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band10-0",
+      "pinned": 110,
+      "new_cells": 70,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band10-1",
+      "pinned": 117,
+      "new_cells": 63,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band12-0",
+      "pinned": 100,
+      "new_cells": 80,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band12-1",
+      "pinned": 107,
+      "new_cells": 73,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band14-0",
+      "pinned": 95,
+      "new_cells": 85,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band14-1",
+      "pinned": 103,
+      "new_cells": 77,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band17-1",
+      "pinned": 87,
+      "new_cells": 93,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band5-0",
+      "pinned": 131,
+      "new_cells": 49,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band5-1",
+      "pinned": 135,
+      "new_cells": 45,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band8-0",
+      "pinned": 117,
+      "new_cells": 63,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-band8-1",
+      "pinned": 122,
+      "new_cells": 58,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-edge0",
+      "pinned": 157,
+      "new_cells": 23,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-edge1",
+      "pinned": 140,
+      "new_cells": 40,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r3-edge2",
+      "pinned": 114,
+      "new_cells": 66,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-band10-0",
+      "pinned": 112,
+      "new_cells": 68,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-band10-1",
+      "pinned": 117,
+      "new_cells": 63,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-band12-0",
+      "pinned": 103,
+      "new_cells": 77,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-band12-1",
+      "pinned": 109,
+      "new_cells": 71,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-band14-1",
+      "pinned": 101,
+      "new_cells": 79,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-band5-0",
+      "pinned": 132,
+      "new_cells": 48,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-band5-1",
+      "pinned": 134,
+      "new_cells": 46,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-band8-0",
+      "pinned": 117,
+      "new_cells": 63,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-band8-1",
+      "pinned": 121,
+      "new_cells": 59,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-edge0",
+      "pinned": 151,
+      "new_cells": 29,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-edge1",
+      "pinned": 134,
+      "new_cells": 46,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-edge2",
+      "pinned": 114,
+      "new_cells": 66,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r4-edge3",
+      "pinned": 93,
+      "new_cells": 87,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-band10-0",
+      "pinned": 112,
+      "new_cells": 68,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-band10-1",
+      "pinned": 121,
+      "new_cells": 59,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-band12-0",
+      "pinned": 102,
+      "new_cells": 78,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-band12-1",
+      "pinned": 112,
+      "new_cells": 68,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-band14-0",
+      "pinned": 96,
+      "new_cells": 84,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-band14-1",
+      "pinned": 107,
+      "new_cells": 73,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-band5-0",
+      "pinned": 133,
+      "new_cells": 47,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-band5-1",
+      "pinned": 138,
+      "new_cells": 42,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-band8-0",
+      "pinned": 121,
+      "new_cells": 59,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-band8-1",
+      "pinned": 128,
+      "new_cells": 52,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-edge0",
+      "pinned": 166,
+      "new_cells": 14,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-edge1",
+      "pinned": 155,
+      "new_cells": 25,
+      "calls": 1,
+      "max_added": 0,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-edge2",
+      "pinned": 141,
+      "new_cells": 39,
+      "calls": 35,
+      "max_added": 14,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-edge3",
+      "pinned": 126,
+      "new_cells": 54,
+      "calls": 2030,
+      "max_added": 40,
+      "status": "EXHAUSTED"
+    },
+    {
+      "job": "r5-edge4",
+      "pinned": 107,
+      "new_cells": 73,
+      "calls": 6480,
+      "max_added": 59,
+      "status": "EXHAUSTED"
+    }
+  ]
+}

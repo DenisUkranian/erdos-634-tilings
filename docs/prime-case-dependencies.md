@@ -14,6 +14,23 @@ The only new geometric inputs are the two scale-one exclusions in `prime-case-ca
 
 The global deduction passes this audit. All tilings here allow T-junctions; an edge-to-edge assumption is not added.
 
+## External proofs checked against this ledger on 18 November 2026
+
+The entries below retain the editions and theorem numbers used on 29 September. Beeson and Roşu subsequently gave a separate proof of the prime classification. The published Lean sources follow their argument. The two geometric arguments in this repository retain the review status recorded in [STATUS.md](../STATUS.md).
+
+| Use in the September deduction | Corresponding result in [Beeson–Roşu v4](https://arxiv.org/abs/2607.23453v4) |
+|---|---|
+| Non-isosceles shape split, v1 Theorems 6 and 9 | v4 Theorems 4 and 9. Theorem 4 also includes the isosceles right target. Theorem 9 allows a consistent relabelling of the tile angles and opposite sides. |
+| Four scalene $120^\circ$ formulas, v1 Theorems 18–21 | v4 Theorems 19–22, respectively. All four count formulas below agree. In the third, $b\mid\lambda^2$ and $Nb=\lambda^2(a+b)$. See [case2 through case5](https://github.com/mjbeeson/TriangleTilingPrimeLean/blob/7880520e81b39e48af61ebf59548ccccfe2d8371/TriangleTiling/Laczkovich/PrimeGroup2.lean#L136). |
+| Equilateral target | v4 Theorem 3 assumes $N>3$. Its proof includes both $2n^2$ and $6n^2$ for a $30^\circ$–$60^\circ$–$90^\circ$ tile. |
+| Isosceles, non-equilateral target with an irrational $120^\circ$ tile | v4 Corollary 8 uses Bonfioli's Theorem 42. The [Lean specialization](https://github.com/mjbeeson/TriangleTilingPrimeLean/blob/7880520e81b39e48af61ebf59548ccccfe2d8371/TriangleTiling/Laczkovich/Bonfioli/ThmIsoFull.lean#L325) requires a prime $N>3$ and has no congruence condition on $N$. |
+| Group 1, isosceles base $\beta$ and triquadratic $W$ | v4 Theorems 37 and 41 give $j>1$ for the respective normalized scales. Their proof first excludes the isosceles case and then extends a hypothetical $W$ tiling by a quadratic patch. Our manuscript first excludes $W$ and uses a forced patch for the isosceles case. |
+| Global deduction | v4 Theorem 42 gives necessity and the shape of every tiling with prime $N>3$. Corollary 43 gives both directions for every prime. The September deduction does not use either global theorem as a premise. |
+
+For arXiv:1206.2229 the September references are to v4, also reference [3] of Beeson–Roşu v4. In [1206.2229v6, Appendix A, Table 9](https://arxiv.org/html/1206.2229v6#A1), Lemma 11, Theorem 9 and Corollary 1 retain their numbers. The old Theorems 16, 19, 22 and 26 correspond to v6 Theorems 17, 21, 24 and 29, respectively. The second of these gives the $\beta$ count equation. The exclusion of $j=1$ comes from the separate prime paper.
+
+[Lean release v1.0](https://github.com/mjbeeson/TriangleTilingPrimeLean/releases/tag/v1.0) uses Lean 4.30.0. For coprime $0<m<k$, the normalized primitive tile is $(mk,k^2-m^2,k^2)$, with $(m,k)=(u,v)$ here. The [successful default build](https://github.com/mjbeeson/TriangleTilingPrimeLean/actions/runs/42707582034) includes the normalized [isosceles exclusion](https://github.com/mjbeeson/TriangleTilingPrimeLean/blob/7880520e81b39e48af61ebf59548ccccfe2d8371/TriangleTiling/Prime/IsoBetaMain.lean#L55) and [triquadratic exclusion](https://github.com/mjbeeson/TriangleTilingPrimeLean/blob/7880520e81b39e48af61ebf59548ccccfe2d8371/TriangleTiling/Prime/TriquadMain.lean#L50). The [general forms](https://github.com/mjbeeson/TriangleTilingPrimeLean/blob/7880520e81b39e48af61ebf59548ccccfe2d8371/TriangleTiling/Laczkovich/PrimeJOne.lean#L160) and [prime classification](https://github.com/mjbeeson/TriangleTilingPrimeLean/blob/7880520e81b39e48af61ebf59548ccccfe2d8371/TriangleTiling/Laczkovich/PrimeMain.lean#L142) belong to the separately built target `TriangleTilingLaczkovich`. The authors report kernel checks using the standard axioms. This update records a source comparison and the scope of the public CI run. Independent refereeing and an independent kernel replay of the separate target have not been established here.
+
 ## Version-controlled outside inputs
 
 | Input | Exact source and use |
@@ -21,7 +38,7 @@ The global deduction passes this audit. All tilings here allow T-junctions; an e
 | Shape classification | M. Laczkovich, *Tilings of triangles*, Discrete Mathematics 140 (1995), 79–94, [DOI](https://doi.org/10.1016/0012-365X(93)E0176-5), Theorems 4.1, 5.1, 5.3. Its isosceles specialization is written explicitly in Beeson [1206.1974v7](https://arxiv.org/html/1206.1974v7), Theorem 3.1 and Table 1. The non-isosceles specialization is restated in [2607.23453v1](https://arxiv.org/pdf/2607.23453v1), Theorems 6 and 9; independently compare Table 1 of [2604.01314v1](https://arxiv.org/pdf/2604.01314v1). |
 | Reptilings | S. L. Snover, C. Waiveris, J. K. Williams, *Rep-tiling for triangles*, Discrete Mathematics 91 (1991), 193–200, [DOI](https://doi.org/10.1016/0012-365X(91)90110-N); also [1206.1974v7](https://arxiv.org/html/1206.1974v7), Theorem 2.1. |
 | Isosceles right-tile and double-angle branches | Beeson, *Tilings of an Isosceles Triangle*, [1206.1974v7](https://arxiv.org/abs/1206.1974v7), revision 4 May 2026: Theorems 7.8 and 11.7. |
-| Group 1 | Beeson, *Triangle Tiling: The case 3α+2β=π*, [1206.2229v4](https://arxiv.org/abs/1206.2229v4), revision 25 September 2026: Lemma 11, Theorem 9, Corollary 1, Theorems 16, 19, 22, 26. Local PDF has manuscript date 29 September 2026. **Version 4 is essential.** |
+| Group 1 | Beeson, *Triangle Tiling: The case 3α+2β=π*, [1206.2229v4](https://arxiv.org/abs/1206.2229v4), revision 25 September 2026: Lemma 11, Theorem 9, Corollary 1, Theorems 16, 19, 22, 26. Local PDF has manuscript date 29 September 2026. **The theorem numbers in this row refer to version 4.** |
 | Equilateral branches | Beeson, *Tiling an Equilateral Triangle*, [1812.07014v3](https://arxiv.org/html/1812.07014v3), revision 28 May 2024: five tile types in the introduction, Theorem 3(i), Theorem 6. Elementary arithmetic below replaces the printed prime calculation for the 60° case. |
 | Rationality for irrational 120° tiles | Beeson–Zhang, *Rationality of certain triangle tilings*, [2604.01314v1](https://arxiv.org/pdf/2604.01314v1), Theorem **1.1**, a self-contained result for a nonsimilar 120° tile. This also replaces any appeal to the flawed older rationality argument. |
 | Non-isosceles 120° arithmetic | Beeson, [2607.23453v1](https://arxiv.org/pdf/2607.23453v1), only the individual computations in Theorems 18–21, reproduced as formulas below. |
@@ -77,7 +94,7 @@ N=j^2(2v^2-u^2),\qquad
 (|AB|,|BC|,|CA|)=j(v^3,u(2v^2-u^2),v(v^2-u^2)).
 $$
 
-For isosceles base β, Theorem 19 gives
+For isosceles base β, Theorem 19 of 1206.2229v4 gives the count. The side lengths follow from the side ratios and the area comparison above (also [Beeson–Roşu v4](https://arxiv.org/abs/2607.23453v4), Lemma 35). With the primitive tile normalization,
 
 $$
 N=j^2(3v^2-u^2),\qquad

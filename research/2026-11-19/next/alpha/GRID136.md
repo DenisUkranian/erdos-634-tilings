@@ -1,0 +1,29 @@
+# An orientation constraint for Beeson's 136-tile test
+
+The target has sides $(72,72,136)$ and the unit tile has sides $(a,b,c)=(3,8,9)$. Write $w=(1+i\sqrt{35})/2$ and $z=(w-1)/3$. The target vertices are $0,136,64+8w$. A hypothetical tiling requires a tile with its length-eight edge parallel to $z^h$ for an integer $h$ with $|h|\ge9$. In particular no tiling has all vertices in $3^{-8}\mathbb Z[w]$. The separate [mesh replay](AUDIT136.md) rules out the orientations this would require, settling this particular shape. A [direct finite certificate](ENDPOINT_LP136.md) gives an independent exclusion over all translations and orientations. The integer 136 is already a tile count for a different shape, since $136=10^2+6^2$.
+
+**Orientation and position.** The angle of $z$ is $\gamma$ and $2\cos\gamma=-1/3$. Therefore $\gamma/\pi$ is irrational and the indexed line directions are distinct. Every edge has one of these directions, by starting at the outer base and passing from tile to tile along positive-length contacts. These contacts connect all tiles, as seen by taking a generic interior path avoiding finitely many vertices. If the $b$-edge has height $h$, the $a$- and $c$-edges have heights $h+\varepsilon$ and $h-2\varepsilon$ for a common $\varepsilon\in\{-1,1\}$. This follows from the tile angles $\alpha=2\gamma-\pi$, $\beta=2\pi-3\gamma$. The two orientations include reflected tiles.
+
+Set $R=\mathbb Z[w]$. Since $3z=w-1$ and $3z^{-1}=-w$, both lie in $R$ after multiplication by 3. If all $|h|\le 8$, each displacement $8z^h,3z^{h\pm1},9z^{h\pm2}$ belongs to $3^{-8}R$. All vertices are reached using *whole* side displacements. Indeed take a maximal connected straight interval in the union of tile edges. Each occupied bank is partitioned by whole sides into a chain with the same endpoints. Vertices on the different banks are therefore connected by walking to one end and back along whole sides. Together with connectivity by positive-length contacts this connects the full-side graphs of all the tiles, including a tile at 0. T-junctions are covered by this argument.
+
+**Candidate enumeration.** For denominator $D=3^8$, the candidate vectors $(x,y)$ in the coordinates $(x+yw)/D$ satisfy $x^2+xy+9y^2=\ell^2D^2$. The replay uses $(2x+y)^2=4\ell^2D^2-35y^2$. An integer-adjusted and checked square root finds all solutions. It enumerates the two shorter incident vectors of lengths 8 and 3 from their common corner, and checks that their difference has length 9. All integer translates inside the outer triangle are enumerated by exact horizontal intervals. No restriction on a tile's handedness or orientation is required by this lattice enumeration.
+
+Give each triangle the counterclockwise orientation. Record $+1$ for a start and $-1$ for an end at each pair (point, unoriented edge direction). In every tiling the resulting endpoints cancel internally and give exactly the six incidences of the outer triangle. This follows from addition of the signed boundaries on each supporting line, and survives subdivision at T-junctions. If any tile incidence lacks both a possible cancelling incidence and an exterior demand, that tile can be deleted. Iterating these deletions leaves 13,616 placements. The same calculation at denominator 27 leaves 13,536 placements with capacity 1,363. Denominators $81,243,729,2187$ give the same capacity as $6561$.
+
+**Integer certificate.** Assign the integer weights in `weights136.tsv.gz` to pairs (point, direction), with zero elsewhere. Each line gives two integer numerators for the coordinates in $81^{-1}R$, the direction exponent, and the weight. Let $v(t)$ be the signed sum of these weights for one candidate. The boundary demand has value **3,001**. Every placement can be used at most once, so the total value from any subset is at most $\sum_t\max(0,v(t))=$ **1,366**. The gap of **1,635** proves the bounded-lattice exclusion using only integer arithmetic. A numerical linear program was used to find the weights. The verifier uses its integer output alone.
+
+**Separate check for the small auxiliary triangles.** The exact fan search `theta136.cpp` uses coordinates $(x,y)$ for points $x+i\sqrt{35}\,y$. At a convex vertex of an uncovered sector, every completion must contain a fan of whole tile angles incident to the vertex. The first tile lies along one bounding ray. For each of the three angles and either ordering of its incident sides this fixes all three vertices. Repeating the step enumerates all possible fans. The program checks exact containment and disjoint interiors. All distances between endpoints of a straight seam must be integers, by the full-side chain argument above. An uncovered straight segment with two convex ends on its unfilled bank must be a sum of $3,8,9$ since no next tile may extend past either convex end. These are the only extra geometric rejection tests. The search updates the whole oriented boundary and branches on a sector with the fewest candidate fans. All finite representation limits throw an exception and return a distinct unknown outcome. The three theta targets are exhausted and the nine-tile grid is a successful positive control.
+
+## Replay
+
+These commands can be run from this directory with a C++20 compiler, GMP and standard Python 3. The temporary pool output and executables need not be retained.
+
+```sh
+c++ -O3 -std=c++17 pool136.cpp -o /tmp/pool136
+/tmp/pool136 6561 136 /tmp/alpha136-6561.dat
+python3 verify_grid136.py /tmp/alpha136-6561.dat
+c++ -O3 -std=c++20 theta136.cpp -lgmpxx -lgmp -o /tmp/theta136-replay
+for t in 0 1 2 3; do /tmp/theta136-replay "$t"; done
+```
+
+The signed weights and the geometry checks are computational results of this investigation. The original angle-family terminology and the open test in §14.3 are [Beeson's](https://arxiv.org/html/1206.2229v6#S14.SS3). The proper-subtriangle and vertex-seam conclusions are in [VERTEX_SEAMS.md](VERTEX_SEAMS.md).

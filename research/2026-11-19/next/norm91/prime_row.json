@@ -1,0 +1,832 @@
+{
+  "checked_base_word_controls": 2090,
+  "prime_bound": 2197,
+  "prime_19_mod24_yes": [
+    19
+  ],
+  "prime_19_mod24_excluded": [],
+  "unresolved_candidates": {
+    "43": [
+      {
+        "family": "theta",
+        "e": 63,
+        "f": 106,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 63,
+        "f": 106,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 21,
+        "f": 22,
+        "t": 91,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 21,
+        "f": 22,
+        "t": 91,
+        "known": false
+      }
+    ],
+    "67": [
+      {
+        "family": "theta",
+        "e": 51,
+        "f": 118,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 9,
+        "f": 58,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 33,
+        "f": 34,
+        "t": 91,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 33,
+        "f": 34,
+        "t": 91,
+        "known": false
+      }
+    ],
+    "139": [
+      {
+        "family": "theta",
+        "e": 45,
+        "f": 94,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 69,
+        "f": 70,
+        "t": 91,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 69,
+        "f": 70,
+        "t": 91,
+        "known": false
+      }
+    ],
+    "163": [
+      {
+        "family": "theta",
+        "e": 57,
+        "f": 106,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 57,
+        "f": 106,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 81,
+        "f": 82,
+        "t": 91,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 81,
+        "f": 82,
+        "t": 91,
+        "known": false
+      }
+    ],
+    "211": [
+      {
+        "family": "theta",
+        "e": 81,
+        "f": 130,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 81,
+        "f": 130,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "283": [
+      {
+        "family": "theta",
+        "e": 117,
+        "f": 166,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 117,
+        "f": 166,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "307": [
+      {
+        "family": "theta",
+        "e": 69,
+        "f": 238,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 129,
+        "f": 178,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 129,
+        "f": 178,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "331": [
+      {
+        "family": "theta",
+        "e": 81,
+        "f": 250,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 141,
+        "f": 190,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 141,
+        "f": 190,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "379": [
+      {
+        "family": "theta",
+        "e": 105,
+        "f": 274,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 165,
+        "f": 214,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 165,
+        "f": 214,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "499": [
+      {
+        "family": "theta",
+        "e": 165,
+        "f": 334,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 225,
+        "f": 274,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 225,
+        "f": 274,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "523": [
+      {
+        "family": "theta",
+        "e": 177,
+        "f": 346,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 177,
+        "f": 346,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 237,
+        "f": 286,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 237,
+        "f": 286,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "547": [
+      {
+        "family": "theta",
+        "e": 189,
+        "f": 358,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 189,
+        "f": 358,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 249,
+        "f": 298,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 249,
+        "f": 298,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "571": [
+      {
+        "family": "theta",
+        "e": 201,
+        "f": 370,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 201,
+        "f": 370,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 261,
+        "f": 310,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 261,
+        "f": 310,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "619": [
+      {
+        "family": "theta",
+        "e": 225,
+        "f": 394,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 225,
+        "f": 394,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 285,
+        "f": 334,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 285,
+        "f": 334,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "643": [
+      {
+        "family": "theta",
+        "e": 237,
+        "f": 406,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 237,
+        "f": 406,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 297,
+        "f": 346,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 297,
+        "f": 346,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "691": [
+      {
+        "family": "theta",
+        "e": 261,
+        "f": 430,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 261,
+        "f": 430,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 321,
+        "f": 370,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 321,
+        "f": 370,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "739": [
+      {
+        "family": "theta",
+        "e": 285,
+        "f": 454,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 285,
+        "f": 454,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 345,
+        "f": 394,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 345,
+        "f": 394,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "787": [
+      {
+        "family": "theta",
+        "e": 309,
+        "f": 478,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 309,
+        "f": 478,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 369,
+        "f": 418,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 369,
+        "f": 418,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "811": [
+      {
+        "family": "theta",
+        "e": 321,
+        "f": 490,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 321,
+        "f": 490,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 381,
+        "f": 430,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 381,
+        "f": 430,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "859": [
+      {
+        "family": "theta",
+        "e": 345,
+        "f": 514,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 345,
+        "f": 514,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 405,
+        "f": 454,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 405,
+        "f": 454,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "883": [
+      {
+        "family": "theta",
+        "e": 357,
+        "f": 526,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 357,
+        "f": 526,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 417,
+        "f": 466,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 417,
+        "f": 466,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "907": [
+      {
+        "family": "theta",
+        "e": 369,
+        "f": 538,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 369,
+        "f": 538,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "theta",
+        "e": 429,
+        "f": 478,
+        "t": 13,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 429,
+        "f": 478,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "1051": [
+      {
+        "family": "theta",
+        "e": 441,
+        "f": 610,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 441,
+        "f": 610,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 501,
+        "f": 550,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "1123": [
+      {
+        "family": "theta",
+        "e": 477,
+        "f": 646,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 477,
+        "f": 646,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 537,
+        "f": 586,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "1171": [
+      {
+        "family": "theta",
+        "e": 501,
+        "f": 670,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 501,
+        "f": 670,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 561,
+        "f": 610,
+        "t": 13,
+        "known": false
+      }
+    ],
+    "1291": [
+      {
+        "family": "theta",
+        "e": 561,
+        "f": 730,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 561,
+        "f": 730,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "1459": [
+      {
+        "family": "theta",
+        "e": 645,
+        "f": 814,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 645,
+        "f": 814,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "1483": [
+      {
+        "family": "theta",
+        "e": 657,
+        "f": 826,
+        "t": 7,
+        "known": false
+      },
+      {
+        "family": "double",
+        "e": 657,
+        "f": 826,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "1531": [
+      {
+        "family": "double",
+        "e": 681,
+        "f": 850,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "1579": [
+      {
+        "family": "double",
+        "e": 705,
+        "f": 874,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "1627": [
+      {
+        "family": "double",
+        "e": 729,
+        "f": 898,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "1699": [
+      {
+        "family": "double",
+        "e": 765,
+        "f": 934,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "1723": [
+      {
+        "family": "double",
+        "e": 777,
+        "f": 946,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "1747": [
+      {
+        "family": "double",
+        "e": 789,
+        "f": 958,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "1867": [
+      {
+        "family": "double",
+        "e": 849,
+        "f": 1018,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "1987": [
+      {
+        "family": "double",
+        "e": 909,
+        "f": 1078,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "2011": [
+      {
+        "family": "double",
+        "e": 921,
+        "f": 1090,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "2083": [
+      {
+        "family": "double",
+        "e": 957,
+        "f": 1126,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "2131": [
+      {
+        "family": "double",
+        "e": 981,
+        "f": 1150,
+        "t": 7,
+        "known": false
+      }
+    ],
+    "2179": [
+      {
+        "family": "double",
+        "e": 1005,
+        "f": 1174,
+        "t": 7,
+        "known": false
+      }
+    ]
+  }
+}
