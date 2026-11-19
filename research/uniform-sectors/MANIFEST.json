@@ -12,13 +12,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5843,
-      "sha256": "de34f48ba0b715a6b917d5cc6a87c04c001dfcf8b3607580159f4233d86a5e69"
-    },
-    {
-      "path": "RESULT_RU.md",
-      "bytes": 15319,
-      "sha256": "c87f5d833430a4403a93b2e2e30e0280966d72de7b61def64142155cec59defa"
+      "bytes": 5800,
+      "sha256": "1f180a5eb193d322fdc4cbe2e8a5f7ca6e13fbc8a4eab2e2779a55ab6ca7d032"
     },
     {
       "path": "arithmetic_sectors.py",

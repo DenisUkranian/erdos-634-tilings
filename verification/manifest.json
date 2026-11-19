@@ -39,8 +39,8 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 2032,
-      "sha256": "6d2f38b21c81f56c2a407682a0552a421266b1ec4458eaa37c9dac7215842d27"
+      "bytes": 2324,
+      "sha256": "d16ad9ecca47f3651700d667589c99aac51d23c7e684a05f05361a16a1a3c4cc"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 28683,
@@ -4511,16 +4511,12 @@
       "sha256": "a598d3f2bdd7b738f841a63c4b877699aceb1840cca4aa4181a7601be42c3dc1"
     },
     "research/square-class-saturation/README.md": {
-      "bytes": 2189,
-      "sha256": "15d4a5d10c1ccf56f1a5f9a06b1c2fde9eed9b657c3ccc7632383e06a18f837c"
-    },
-    "research/square-class-saturation/README_RU.md": {
-      "bytes": 13045,
-      "sha256": "7b238c46fafa32ea6be013c43b59bc87bc6746170193d1ff705472c5de1eaceb"
+      "bytes": 2119,
+      "sha256": "320591d93fff6593523f6a98fe274042290a673e44dd345e68b2b064bc9c7204"
     },
     "research/square-class-saturation/SHA256SUMS.txt": {
-      "bytes": 1693,
-      "sha256": "7b3091fee4b75f582bbc8b6341d38d0a840a6a732f83d5bd0715d751fa603767"
+      "bytes": 1614,
+      "sha256": "d95cbf7cd0473400a33ef3dd94219f44f1d8bed9ef792b5f053c85d31be7280a"
     },
     "research/square-class-saturation/arithmetic.py": {
       "bytes": 4793,
@@ -4567,8 +4563,8 @@
       "sha256": "580eb07a45822bb14e2083333e730452ca9121de85978ef4b2c5da1478b33ed8"
     },
     "research/square-class-saturation/manifest.json": {
-      "bytes": 1905,
-      "sha256": "3fedcff190f4e720a641db910686f90145e1b8a1212e565b495f94d7442ab110"
+      "bytes": 1817,
+      "sha256": "948bba764a95f24605f4dfb40d3dcfd70f65c605df86292d16a64bb108afa0f3"
     },
     "research/square-class-saturation/run_checks.py": {
       "bytes": 7742,
@@ -4731,24 +4727,20 @@
       "sha256": "1596f8ebc1f1a5fe46d272e3079d8d64b1940a65f6fa41b8c297e1cb9aa6e2f2"
     },
     "research/uniform-sectors/MANIFEST.json": {
-      "bytes": 2675,
-      "sha256": "2685aaedf018e9a876485e6a24a4aaa232f884cce05d66416370846bfcf13855"
+      "bytes": 2527,
+      "sha256": "c1392e0a938fc8ebe8861a505b17d9c3494a2842edcf140a983a9085b899db1f"
     },
     "research/uniform-sectors/PROOF.md": {
       "bytes": 34187,
       "sha256": "bd14faf6bedc9c5a227cbe69f7bea9d0e6c441e9b77dd3830818a6b75b584252"
     },
     "research/uniform-sectors/README.md": {
-      "bytes": 5843,
-      "sha256": "de34f48ba0b715a6b917d5cc6a87c04c001dfcf8b3607580159f4233d86a5e69"
-    },
-    "research/uniform-sectors/RESULT_RU.md": {
-      "bytes": 15319,
-      "sha256": "c87f5d833430a4403a93b2e2e30e0280966d72de7b61def64142155cec59defa"
+      "bytes": 5800,
+      "sha256": "1f180a5eb193d322fdc4cbe2e8a5f7ca6e13fbc8a4eab2e2779a55ab6ca7d032"
     },
     "research/uniform-sectors/SHA256SUMS.txt": {
-      "bytes": 1437,
-      "sha256": "a1ae79caaeeea117741c2b8f65330f617fd153730ec7f38a027c1456c06ff8eb"
+      "bytes": 1358,
+      "sha256": "e6f426c30fc367fac05ab780b493ab2ef8056e4257a07b6e5b21a188dae3d8df"
     },
     "research/uniform-sectors/arithmetic_sectors.py": {
       "bytes": 6717,

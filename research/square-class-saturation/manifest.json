@@ -3,8 +3,7 @@
   "scope": "Final package files except manifest.json; pycache excluded.",
   "sha256": {
     "PROOF.md": "a598d3f2bdd7b738f841a63c4b877699aceb1840cca4aa4181a7601be42c3dc1",
-    "README.md": "15d4a5d10c1ccf56f1a5f9a06b1c2fde9eed9b657c3ccc7632383e06a18f837c",
-    "README_RU.md": "7b238c46fafa32ea6be013c43b59bc87bc6746170193d1ff705472c5de1eaceb",
+    "README.md": "320591d93fff6593523f6a98fe274042290a673e44dd345e68b2b064bc9c7204",
     "arithmetic.py": "f8e1aeeab3c8ee206f2085f5af85de83651df27e447c997ed4e004f1b39b6d3d",
     "cli_report.json": "45dc22f8c0631995c0acf781979e5818857b3fe51b6c73a5740de60c99cafad9",
     "dependencies/UNIFORM_SECTORS_PROOF.md": "c63473b82bf0461824aea0c2477ca7343dfc81e25bfb11aaf80d7d689599e8f1",

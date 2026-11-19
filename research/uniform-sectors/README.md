@@ -4,7 +4,7 @@
 
 This package contains written proofs, exact arithmetic code, and independently checked constructive certificates. It does **not** solve the complete all-integer problem. External refereeing, formal proof verification, and first priority have not been established.
 
-Read `RESULT_RU.md` for the Russian overview and `PROOF.md` for the complete English argument and dependency ledger.
+Read [PROOF.md](PROOF.md) for the complete argument and its dependencies.
 
 ## Results in this continuation
 

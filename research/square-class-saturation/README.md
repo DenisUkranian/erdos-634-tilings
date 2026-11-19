@@ -1,6 +1,6 @@
 # Erdős 634: constructive square-class saturation
 
-Read [PROOF.md](PROOF.md) for the mathematical statements and dependency boundary, or [README_RU.md](README_RU.md) for the Russian explanation.
+Read [PROOF.md](PROOF.md) for the complete argument and its dependencies.
 
 For squarefree d whose odd primes are 1 or7 modulo8, a fixed W tile constructs every d*m² for m≥2d (kernels1 and2 are classical). A companion negative-norm test supplies beta constructions. There is a sharper computable C<2d. On the W-only sector d≡14 modulo16, 3∤d, gcd(m,6)=1, this gives an exact all-tile tail criterion. It is **not a complete solution** of Erdős634. No external review or priority is claimed.
 
