@@ -1,0 +1,93 @@
+{
+  "format": "charge-transport-exact-controls-v1",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "physical_cut_transport",
+      "command": [
+        "flux/verify_flux.py",
+        "--out",
+        "<temporary>"
+      ],
+      "exit_code": 0,
+      "seconds": 0.075,
+      "saved_report_equal": true,
+      "stdout": "{\n  \"full_143\": {\n    \"scope\": \"Signed transport, physical displacement, and area on the previously verified complete 143 tiling.\",\n    \"long_edge_pairs\": 60,\n    \"unmatched\": 23,\n    \"trees\": [\n      {\n        \"tree\": 1,\n        \"edge_count\": 7,\n        \"ordinary_energy\": 23,\n        \"actual_unmatched\": 23,\n        \"nonzero_cuts\": [\n          {\n            \"child\": [\n              1,\n              4,\n              0\n            ],\n            \"physical_root_height\": 1,\n            \"subtree_tiles\": 105,\n            \"G\": -7,\n            \"G_star\": 7,\n            \"exterior_current\": -49,\n            \"exterior_vector\": [\n              -39,\n              55\n            ],\n            \"exterior_determinant\": 2145,\n            \"P\": -14,\n            \"Q\": -2,\n            \"uP\": 14,\n            \"uQ\": 2,\n            \"tilesP\": 68,\n            \"tilesQ\": 2,\n            \"vectorP\": [\n              49,\n              -49\n            ],\n            \"vectorQ\": [\n              10,\n              6\n            ],\n            \"detP\": -609,\n            \"detQ\": -39\n          },\n          {\n            \"child\": [\n              2,\n              39,\n              0\n            ],\n            \"physical_root_height\": 2,\n            \"subtree_tiles\": 0,\n            \"G\": 0,\n            \"G_star\": 0,\n            \"exterior_current\": -49,\n            \"exterior_vector\": [\n              -39,\n              55\n            ],\n            \"exterior_determinant\": 2145,\n            \"P\": 0,\n            \"Q\": 7,\n            \"uP\": 0,\n            \"uQ\": 7,\n            \"tilesP\": 0,\n            \"tilesQ\": 7,\n            \"vectorP\": [\n              0,\n              0\n            ],\n            \"vectorQ\": [\n              -39,\n              55\n            ],\n            \"detP\": 0,\n            \"detQ\": 2145\n          }\n        ]\n      },\n      {\n        \"tree\": -1,\n        \"edge_count\": 13,\n        \"ordinary_energy\": 23,\n        \"actual_unmatched\": 23,\n        \"nonzero_cuts\": [\n          {\n            \"child\": [\n              0,\n              0,\n              0\n            ],\n            \"physical_root_height\": 0,\n            \"subtree_tiles\": 38,\n            \"G\": -2,\n            \"G_star\": -2,\n            \"exterior_current\": 94,\n            \"exterior_vector\": [\n              39,\n              -55\n            ],\n            \"exterior_determinant\": 0,\n            \"P\": -2,\n            \"Q\": -14,\n            \"uP\": 2,\n            \"uQ\": 14,\n            \"tilesP\": 2,\n            \"tilesQ\": 14,\n            \"vectorP\": [\n              10,\n              6\n            ],\n            \"vectorQ\": [\n              49,\n              -49\n            ],\n            \"detP\": -39,\n            \"detQ\": -609\n          },\n          {\n            \"child\": [\n              -1,\n              0,\n              0\n            ],\n            \"physical_root_height\": 1,\n            \"subtree_tiles\": 143,\n            \"G\": -9,\n            \"G_star\": 5,\n            \"exterior_current\": 94,\n            \"exterior_vector\": [\n              39,\n              -55\n            ],\n            \"exterior_determinant\": 0,\n            \"P\": 7,\n            \"Q\": 0,\n            \"uP\": 7,\n            \"uQ\": 0,\n            \"tilesP\": 37,\n            \"tilesQ\": 0,\n            \"vectorP\": [\n              -39,\n              55\n            ],\n            \"vectorQ\": [\n              0,\n              0\n            ],\n            \"detP\": 2145,\n            \"detQ\": 0\n          }\n        ]\n      }\n    ]\n  },\n  \"local_balanced_strips\": [\n    {\n      \"N\": 143,\n      \"root\": [\n        0,\n        1,\n        1\n      ],\n      \"P\": 0,\n      \"Q\": 0,\n      \"unmatched_inside_crossing\": 2,\n      \"unmatched_outside_crossing\": 10,\n      \"bidirectional_target_lower_bound\": null,\n      \"scope\": \"Exact local strip cut only; no F2 completion or continued terminality asserted.\"\n    },\n    {\n      \"N\": 3431,\n      \"root\": [\n        0,\n        1,\n        1\n      ],\n      \"P\": 0,\n      \"Q\": 0,\n      \"unmatched_inside_crossing\": 2,\n      \"unmatched_outside_crossing\": 66,\n      \"bidirectional_target_lower_bound\": 4,\n      \"scope\": \"Exact local strip cut only; no F2 completion or continued terminality asserted.\"\n    },\n    {\n      \"N\": 5063,\n      \"root\": [\n        0,\n        1,\n        1\n      ],\n      \"P\": 0,\n      \"Q\": 0,\n      \"unmatched_inside_crossing\": 2,\n      \"unmatched_outside_crossing\": 70,\n      \"bidirectional_target_lower_bound\": 4,\n      \"scope\": \"Exact local strip cut only; no F2 completion or continued terminality asserted.\"\n    }\n  ],\n  \"scope\": \"Necessary transport identities and geometric matching counts; neither target is decided.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "charged_parent_tradeoff",
+      "command": [
+        "flux/verify_parent_tradeoff.py",
+        "--out",
+        "<temporary>"
+      ],
+      "exit_code": 0,
+      "seconds": 0.076,
+      "saved_report_equal": true,
+      "stdout": "{\n  \"scope\": \"Necessary arithmetic costs of actual terminal leaves and their parents; neither target is decided.\",\n  \"targets\": [\n    {\n      \"N\": 3431,\n      \"tile\": [\n        33,\n        7,\n        37\n      ],\n      \"d\": 26,\n      \"core_residues\": [\n        19,\n        8\n      ],\n      \"baseline_even_sign_inventory\": [\n        19,\n        45\n      ],\n      \"baseline_even_population\": 64,\n      \"unit_core_attached_leaves\": [\n        {\n          \"leaf_sign\": 1,\n          \"leaf_minimum\": 111,\n          \"leaf_sign_inventory\": [\n            74,\n            37\n          ],\n          \"outside_odd_minimum\": 148,\n          \"outside_odd_sign_inventory\": [\n            37,\n            111\n          ],\n          \"even_sign_minimum\": [\n            56,\n            82\n          ],\n          \"even_minimum\": 138,\n          \"total_minimum\": 397\n        },\n        {\n          \"leaf_sign\": -1,\n          \"leaf_minimum\": 111,\n          \"leaf_sign_inventory\": [\n            37,\n            74\n          ],\n          \"outside_odd_minimum\": 74,\n          \"outside_odd_sign_inventory\": [\n            37,\n            37\n          ],\n          \"even_sign_minimum\": [\n            19,\n            45\n          ],\n          \"even_minimum\": 64,\n          \"total_minimum\": 249\n        }\n      ],\n      \"ordinary_parent_formula_controls\": 455\n    },\n    {\n      \"N\": 5063,\n      \"tile\": [\n        35,\n        13,\n        43\n      ],\n      \"d\": 22,\n      \"core_residues\": [\n        5,\n        27\n      ],\n      \"baseline_even_sign_inventory\": [\n        5,\n        27\n      ],\n      \"baseline_even_population\": 32,\n      \"unit_core_attached_leaves\": [\n        {\n          \"leaf_sign\": 1,\n          \"leaf_minimum\": 129,\n          \"leaf_sign_inventory\": [\n            86,\n            43\n          ],\n          \"outside_odd_minimum\": 172,\n          \"outside_odd_sign_inventory\": [\n            43,\n            129\n          ],\n          \"even_sign_minimum\": [\n            48,\n            70\n          ],\n          \"even_minimum\": 118,\n          \"total_minimum\": 419\n        },\n        {\n          \"leaf_sign\": -1,\n          \"leaf_minimum\": 129,\n          \"leaf_sign_inventory\": [\n            43,\n            86\n          ],\n          \"outside_odd_minimum\": 86,\n          \"outside_odd_sign_inventory\": [\n            43,\n            43\n          ],\n          \"even_sign_minimum\": [\n            5,\n            27\n          ],\n          \"even_minimum\": 32,\n          \"total_minimum\": 247\n        }\n      ],\n      \"ordinary_parent_formula_controls\": 455\n    }\n  ],\n  \"ordinary_parent_control_range\": {\n    \"positive_children\": [\n      0,\n      5\n    ],\n    \"negative_children\": [\n      0,\n      5\n    ],\n    \"at_least_one_child\": true,\n    \"parent_charge_blocks\": [\n      -6,\n      6\n    ],\n    \"enumerated_positive_and_negative_blocks\": [\n      0,\n      29\n    ],\n    \"method\": \"Direct integer enumeration against the closed formula; not a geometric search.\"\n  },\n  \"checks\": \"PASS\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "two_complete_actual_median_controls",
+      "command": [
+        "geometry/verify_actual_median.py",
+        "--out",
+        "<temporary>"
+      ],
+      "exit_code": 0,
+      "seconds": 0.104,
+      "saved_report_equal": true,
+      "stdout": "known {\"complete_certificate\": {\"positive_boundary_chain_equals_board\": \"PASS\", \"tile_area_and_containment\": \"PASS\", \"tiles\": 143}, \"paths\": [{\"J\": -2, \"K\": 14, \"i\": 2, \"j\": -2, \"length\": 16, \"lower\": {\"G_even\": 0, \"G_odd\": 7, \"heights\": {\"1\": 105}, \"n\": 105}, \"steps\": [[2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 4], [2, 4], [1, 1], [2, 0], [2, 4], [2, 4], [1, 1], [2, 0], [2, 4], [2, 4], [2, 4]], \"t\": 2, \"upper\": {\"G_even\": 2, \"G_odd\": 0, \"heights\": {\"2\": 38}, \"n\": 38}}], \"source_sha256\": \"f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9\", \"unmatched_upper_edges\": 16}\nmacro {\"complete_certificate\": {\"positive_boundary_chain_equals_board\": \"PASS\", \"tile_area_and_containment\": \"PASS\", \"tiles\": 143}, \"paths\": [{\"J\": -2, \"K\": 14, \"i\": 2, \"j\": -2, \"length\": 16, \"lower\": {\"G_even\": 0, \"G_odd\": 7, \"heights\": {\"1\": 91}, \"n\": 91}, \"steps\": [[2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 4], [2, 4], [2, 4], [2, 0], [2, 0], [1, 1], [1, 1], [2, 4], [2, 4], [2, 4], [2, 4]], \"t\": 2, \"upper\": {\"G_even\": 2, \"G_odd\": 0, \"heights\": {\"2\": 52}, \"n\": 52}}], \"source_sha256\": \"ea3dc23562921dea3575cec2ca238c5fd3b0a6962205a8ae1c7b164c8a29756c\", \"unmatched_upper_edges\": 16}\n",
+      "stderr": ""
+    },
+    {
+      "name": "even_corner_and_base_gap_controls",
+      "command": [
+        "geometry/verify_even_corner.py",
+        "--out",
+        "<temporary>"
+      ],
+      "exit_code": 0,
+      "seconds": 0.056,
+      "saved_report_equal": true,
+      "stdout": "{\"N\": 143, \"corner_scope\": \"Two even-height tiles strictly form a local partial packing at the path-frame O corner; no completion claimed.\", \"exact_containment_and_disjointness\": \"PASS\", \"gap_scope\": \"Arithmetic for a gap of length kc covered only by a,b edges; geometric realizability is not asserted.\", \"minimum_nonzero_base_gap_multiple\": {\"k\": 2, \"short_edge_counts\": [[1, 3]]}, \"path_frame_short_heights\": [0, 2], \"shared_long_edge\": [[0, 0, 0], [5, 3, 0]], \"standard_frame_placements\": [[[195, 2420, 2], 2, 4, -1], [[0, 50, 0], 0, 4, 1]], \"tile\": [5, 3, 7]}\n{\"N\": 3431, \"corner_scope\": \"Two even-height tiles strictly form a local partial packing at the path-frame O corner; no completion claimed.\", \"exact_containment_and_disjointness\": \"PASS\", \"gap_scope\": \"Arithmetic for a gap of length kc covered only by a,b edges; geometric realizability is not asserted.\", \"minimum_nonzero_base_gap_multiple\": {\"k\": 4, \"short_edge_counts\": [[3, 7]]}, \"path_frame_short_heights\": [0, 2], \"shared_long_edge\": [[0, 0, 0], [33, 7, 0]], \"standard_frame_placements\": [[[16863, 2072136, 2], 2, 4, -1], [[0, 1518, 0], 0, 4, 1]], \"tile\": [33, 7, 37]}\n{\"N\": 5063, \"corner_scope\": \"Two even-height tiles strictly form a local partial packing at the path-frame O corner; no completion claimed.\", \"exact_containment_and_disjointness\": \"PASS\", \"gap_scope\": \"Arithmetic for a gap of length kc covered only by a,b edges; geometric realizability is not asserted.\", \"minimum_nonzero_base_gap_multiple\": {\"k\": 6, \"short_edge_counts\": [[7, 1]]}, \"path_frame_short_heights\": [0, 2], \"shared_long_edge\": [[0, 0, 0], [35, 13, 0]], \"standard_frame_placements\": [[[37765, 3872890, 2], 2, 4, -1], [[0, 2100, 0], 0, 4, 1]], \"tile\": [35, 13, 43]}\n",
+      "stderr": ""
+    },
+    {
+      "name": "exact_abstract_axis_flow",
+      "command": [
+        "joint/abstract_flow.py",
+        "--out",
+        "<temporary>"
+      ],
+      "exit_code": 0,
+      "seconds": 0.234,
+      "saved_report_equal": true,
+      "stdout": "{\"tile\": [33, 7, 37], \"N\": 3431, \"m\": 1425, \"t\": 222, \"height_totals\": {\"G_even\": -26, \"G_odd\": -37, \"n0\": 2876, \"n1\": 555}, \"boundary_partitions\": {\"A\": [11, \"a\", 4, \"c\"], \"H\": [211, \"b\", 2, \"c\"], \"c_squared\": [37, \"c\"]}, \"contact_port_graph\": {\"whole_halfturn_pairs\": 1647, \"unpaired_long_tiles\": 137, \"boundary_tiles\": 265, \"remaining_unit_contacts\": 69439, \"connected_to_exterior\": true, \"tile_contact_components\": 1, \"random_matching_seed\": 634}}\n{\"tile\": [35, 13, 43], \"N\": 5063, \"m\": 2155, \"t\": 301, \"height_totals\": {\"G_even\": -22, \"G_odd\": -43, \"n0\": 4332, \"n1\": 731}, \"boundary_partitions\": {\"A\": [21, \"a\", 8, \"c\"], \"H\": [151, \"b\", 4, \"c\"], \"c_squared\": [43, \"c\"]}, \"contact_port_graph\": {\"whole_halfturn_pairs\": 2456, \"unpaired_long_tiles\": 151, \"boundary_tiles\": 227, \"remaining_unit_contacts\": 122227, \"connected_to_exterior\": true, \"tile_contact_components\": 1, \"random_matching_seed\": 634}}\n{\"tile\": [5, 3, 7], \"N\": 143, \"m\": 18, \"t\": 42, \"height_totals\": {\"G_even\": -2, \"G_odd\": -7, \"n0\": 38, \"n1\": 105}, \"boundary_partitions\": {\"A\": [5, \"a\", 2, \"c\"], \"H\": [16, \"b\", 1, \"c\"], \"c_squared\": [7, \"c\"]}, \"contact_port_graph\": {\"whole_halfturn_pairs\": 60, \"unpaired_long_tiles\": 23, \"boundary_tiles\": 31, \"remaining_unit_contacts\": 581, \"connected_to_exterior\": true, \"tile_contact_components\": 1, \"random_matching_seed\": 634}}\n",
+      "stderr": ""
+    }
+  ],
+  "source_sha256": {
+    "flux/CHARGED_PARENT_REPLAY.json": "8448d21a36a6b04a812463d59eecd37bcc2910227162fdf9859644b80330c97d",
+    "flux/FLUX_REPLAY.json": "834107b74ed60a2403a16a9ad7bed211128e87ef46bac03429977f417723bf08",
+    "flux/verify_flux.py": "d4c687cb1dd0b64a9bde4a17a2fd3049b0e5c65ae67c5b0b9511be4b15086855",
+    "flux/verify_parent_tradeoff.py": "a38eddb2f78eea1bc5f238d65d72d95011b4239130adc84f5efa31c54e88335d",
+    "geometry/ACTUAL_MEDIAN_REPLAY.json": "8c1c59e43a575df4dade66c4fc763ba8c2d202994cb4528e7381439a87ab57c9",
+    "geometry/EVEN_CORNER_REPLAY.json": "c61009032f2cbea5ab468d2ad43a433d65ee678008f6ebe9e7403ee0c2909c07",
+    "geometry/macro143_certificate.json": "ea3dc23562921dea3575cec2ca238c5fd3b0a6962205a8ae1c7b164c8a29756c",
+    "geometry/verify_actual_median.py": "914baeae7f09fc6dab8e84cf5d70a22176771185bf6242c1fd1654244a306424",
+    "geometry/verify_even_corner.py": "e270beedce511f32bff0acf29ed08ed824b65d91bd317c7fcfc19b99af7bde73",
+    "joint/ABSTRACT_FLOW.json": "36510c91689162bdb308828f37ee313ed63d51348764648570fd3782484e27a3",
+    "joint/abstract_flow.py": "dde5c2f47753c18c87f54777bad978ec87341e9a86b3513d18fa29dd0c114bd4",
+    "replay.py": "96c48b5b26acd15199dc951df8cde4937e13f224a57b9355e9c2c4863b17cc49"
+  },
+  "target_status": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "unrestricted_nonexistence_certificate": false,
+  "complete_target_tiling_certificate": false,
+  "full_Erdos634_solved": false,
+  "scope": "Exact finite transport, geometric controls and integer axis-flow assignments. The assignments have no common endpoint coordinates or planar tiling realization. The conditional 3c structure does not exclude that mode."
+}

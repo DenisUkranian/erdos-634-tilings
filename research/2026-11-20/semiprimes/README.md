@@ -13,6 +13,12 @@ under additional native-mesh hypotheses, and local geometric controls
 showing why stronger conclusions still require a global argument. Neither
 original count is decided by these results.
 
+The [physical charge transport continuation](continuation/charge-transport/README.md)
+connects phase charges to real contact boundaries, proves a positive cost
+even for balanced cuts, and localizes the conditional minimum odd population.
+An exact abstract axis-flow countermodel identifies why the retained count
+and flow constraints alone still do not decide either target.
+
 [New results for prime products and their triples](continuation/README.md) include the exact criterion for simultaneous tileability of pq and 3pq, partial pentagon constructions, and obstructions to completing them. The seven unit prime products listed below remain undecided.
 
 **Restrictions on the whole board.** Group tiles by the direction

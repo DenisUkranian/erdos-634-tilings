@@ -2,6 +2,17 @@
 
 Research record, 20 November 2026. Denis Paliy project, with ChatGPT assistance. This continues the [prime-product reduction](../README.md). The geometric framework and individual certificates used as inputs are identified in each proof. The new results have internal mathematical and computational checks. Independent refereeing and formal verification of the new claims are outstanding.
 
+## Odd charge and real contact boundaries
+
+The [charge transport continuation](charge-transport/README.md) proves exact
+phase-cut identities on physical long-side contacts, with exterior terms
+and position-dependent area retained. Balanced nonempty exterior-free cuts
+still cost at least four boundary-carrying tiles. Costs over distinct edges
+of one prime tree add without repetition. A conditional theorem localizes
+the smallest odd population to a particular three-height configuration;
+an exact abstract axis-flow model identifies the remaining gap between
+population constraints and planar realization. **3431 and 5063 remain OPEN.**
+
 ## A local rebuild and obstructions for all tilings
 
 Swapping two directions of the grid at the midpoint of the outside sloping side adds exactly $a$ whole tiles for every primitive odd F2 tile. The gains are 33 and 35 on the first two mixed boards. In every complete tiling the multiplicities of the two banks of internal contacts differ in at least two nonparallel directions. Integer edge-weight certificates require at least 138 and 146 distinct interior T-junctions on the two boards. [Construction, illustration and proofs](moves/README.md).

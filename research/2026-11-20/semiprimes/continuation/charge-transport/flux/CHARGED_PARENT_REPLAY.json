@@ -1,0 +1,144 @@
+{
+  "scope": "Necessary arithmetic costs of actual terminal leaves and their parents; neither target is decided.",
+  "targets": [
+    {
+      "N": 3431,
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "d": 26,
+      "core_residues": [
+        19,
+        8
+      ],
+      "baseline_even_sign_inventory": [
+        19,
+        45
+      ],
+      "baseline_even_population": 64,
+      "unit_core_attached_leaves": [
+        {
+          "leaf_sign": 1,
+          "leaf_minimum": 111,
+          "leaf_sign_inventory": [
+            74,
+            37
+          ],
+          "outside_odd_minimum": 148,
+          "outside_odd_sign_inventory": [
+            37,
+            111
+          ],
+          "even_sign_minimum": [
+            56,
+            82
+          ],
+          "even_minimum": 138,
+          "total_minimum": 397
+        },
+        {
+          "leaf_sign": -1,
+          "leaf_minimum": 111,
+          "leaf_sign_inventory": [
+            37,
+            74
+          ],
+          "outside_odd_minimum": 74,
+          "outside_odd_sign_inventory": [
+            37,
+            37
+          ],
+          "even_sign_minimum": [
+            19,
+            45
+          ],
+          "even_minimum": 64,
+          "total_minimum": 249
+        }
+      ],
+      "ordinary_parent_formula_controls": 455
+    },
+    {
+      "N": 5063,
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "d": 22,
+      "core_residues": [
+        5,
+        27
+      ],
+      "baseline_even_sign_inventory": [
+        5,
+        27
+      ],
+      "baseline_even_population": 32,
+      "unit_core_attached_leaves": [
+        {
+          "leaf_sign": 1,
+          "leaf_minimum": 129,
+          "leaf_sign_inventory": [
+            86,
+            43
+          ],
+          "outside_odd_minimum": 172,
+          "outside_odd_sign_inventory": [
+            43,
+            129
+          ],
+          "even_sign_minimum": [
+            48,
+            70
+          ],
+          "even_minimum": 118,
+          "total_minimum": 419
+        },
+        {
+          "leaf_sign": -1,
+          "leaf_minimum": 129,
+          "leaf_sign_inventory": [
+            43,
+            86
+          ],
+          "outside_odd_minimum": 86,
+          "outside_odd_sign_inventory": [
+            43,
+            43
+          ],
+          "even_sign_minimum": [
+            5,
+            27
+          ],
+          "even_minimum": 32,
+          "total_minimum": 247
+        }
+      ],
+      "ordinary_parent_formula_controls": 455
+    }
+  ],
+  "ordinary_parent_control_range": {
+    "positive_children": [
+      0,
+      5
+    ],
+    "negative_children": [
+      0,
+      5
+    ],
+    "at_least_one_child": true,
+    "parent_charge_blocks": [
+      -6,
+      6
+    ],
+    "enumerated_positive_and_negative_blocks": [
+      0,
+      29
+    ],
+    "method": "Direct integer enumeration against the closed formula; not a geometric search."
+  },
+  "checks": "PASS"
+}

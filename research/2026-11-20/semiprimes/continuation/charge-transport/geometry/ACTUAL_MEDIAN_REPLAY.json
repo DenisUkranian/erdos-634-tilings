@@ -1,0 +1,205 @@
+{
+  "scope": "Exact actual-median cuts of two complete positive 143 tilings. Neither target is decided.",
+  "known": {
+    "source_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+    "complete_certificate": {
+      "tiles": 143,
+      "tile_area_and_containment": "PASS",
+      "positive_boundary_chain_equals_board": "PASS"
+    },
+    "unmatched_upper_edges": 16,
+    "paths": [
+      {
+        "length": 16,
+        "J": -2,
+        "K": 14,
+        "i": 2,
+        "j": -2,
+        "t": 2,
+        "lower": {
+          "n": 105,
+          "G_even": 0,
+          "G_odd": 7,
+          "heights": {
+            "1": 105
+          }
+        },
+        "upper": {
+          "n": 38,
+          "G_even": 2,
+          "G_odd": 0,
+          "heights": {
+            "2": 38
+          }
+        },
+        "steps": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      }
+    ]
+  },
+  "macro": {
+    "source_sha256": "ea3dc23562921dea3575cec2ca238c5fd3b0a6962205a8ae1c7b164c8a29756c",
+    "complete_certificate": {
+      "tiles": 143,
+      "tile_area_and_containment": "PASS",
+      "positive_boundary_chain_equals_board": "PASS"
+    },
+    "unmatched_upper_edges": 16,
+    "paths": [
+      {
+        "length": 16,
+        "J": -2,
+        "K": 14,
+        "i": 2,
+        "j": -2,
+        "t": 2,
+        "lower": {
+          "n": 91,
+          "G_even": 0,
+          "G_odd": 7,
+          "heights": {
+            "1": 91
+          }
+        },
+        "upper": {
+          "n": 52,
+          "G_even": 2,
+          "G_odd": 0,
+          "heights": {
+            "2": 52
+          }
+        },
+        "steps": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "N": 143,
+    "tile": [
+      5,
+      3,
+      7
+    ],
+    "corner_scope": "Two even-height tiles strictly form a local partial packing at the path-frame O corner; no completion claimed.",
+    "path_frame_short_heights": [
+      0,
+      2
+    ],
+    "shared_long_edge": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        3,
+        0
+      ]
+    ],
+    "standard_frame_placements": [
+      [
+        [
+          195,
+          2420,
+          2
+        ],
+        2,
+        4,
+        -1
+      ],
+      [
+        [
+          0,
+          50,
+          0
+        ],
+        0,
+        4,
+        1
+      ]
+    ],
+    "exact_containment_and_disjointness": "PASS",
+    "minimum_nonzero_base_gap_multiple": {
+      "k": 2,
+      "short_edge_counts": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "gap_scope": "Arithmetic for a gap of length kc covered only by a,b edges; geometric realizability is not asserted."
+  },
+  {
+    "N": 3431,
+    "tile": [
+      33,
+      7,
+      37
+    ],
+    "corner_scope": "Two even-height tiles strictly form a local partial packing at the path-frame O corner; no completion claimed.",
+    "path_frame_short_heights": [
+      0,
+      2
+    ],
+    "shared_long_edge": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        33,
+        7,
+        0
+      ]
+    ],
+    "standard_frame_placements": [
+      [
+        [
+          16863,
+          2072136,
+          2
+        ],
+        2,
+        4,
+        -1
+      ],
+      [
+        [
+          0,
+          1518,
+          0
+        ],
+        0,
+        4,
+        1
+      ]
+    ],
+    "exact_containment_and_disjointness": "PASS",
+    "minimum_nonzero_base_gap_multiple": {
+      "k": 4,
+      "short_edge_counts": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    "gap_scope": "Arithmetic for a gap of length kc covered only by a,b edges; geometric realizability is not asserted."
+  },
+  {
+    "N": 5063,
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "corner_scope": "Two even-height tiles strictly form a local partial packing at the path-frame O corner; no completion claimed.",
+    "path_frame_short_heights": [
+      0,
+      2
+    ],
+    "shared_long_edge": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        35,
+        13,
+        0
+      ]
+    ],
+    "standard_frame_placements": [
+      [
+        [
+          37765,
+          3872890,
+          2
+        ],
+        2,
+        4,
+        -1
+      ],
+      [
+        [
+          0,
+          2100,
+          0
+        ],
+        0,
+        4,
+        1
+      ]
+    ],
+    "exact_containment_and_disjointness": "PASS",
+    "minimum_nonzero_base_gap_multiple": {
+      "k": 6,
+      "short_edge_counts": [
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    "gap_scope": "Arithmetic for a gap of length kc covered only by a,b edges; geometric realizability is not asserted."
+  }
+]

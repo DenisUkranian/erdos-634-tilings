@@ -39,8 +39,8 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 5227,
-      "sha256": "7fa3207a2fee55d605bba1fce3d2a45915feec81a13b5a45d7961dc995f10e93"
+      "bytes": 5952,
+      "sha256": "825d0016bb220947f8a5dabd730a98c592d8517254a5ea4310cdd6779a71fe4c"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 30390,
@@ -1003,8 +1003,8 @@
       "sha256": "734e35093a2f54d39b22415154b5b44905197b8b6c6e26638e7a9faccf147603"
     },
     "research/2026-11-20/SHA256SUMS.txt": {
-      "bytes": 52875,
-      "sha256": "2a86ceeed0510118c84334a2e5d1c70865ec36f01944bca646d71e28f1dd5f8e"
+      "bytes": 55537,
+      "sha256": "20d7fce2453a06cb0aed638f68147c5bfdfb53e6ca22869d4af57769453dd58f"
     },
     "research/2026-11-20/semiprimes/EXTRACTION.md": {
       "bytes": 2846,
@@ -1023,8 +1023,8 @@
       "sha256": "f04d914881c6cebc99cec7eee9b5dab18d68ed214b0b901ad057358d5ca61192"
     },
     "research/2026-11-20/semiprimes/README.md": {
-      "bytes": 4335,
-      "sha256": "ee8de9bda5c9be08bc3a05a04313247a07d55c421e5b9110ffa3a5b92f61a97a"
+      "bytes": 4711,
+      "sha256": "2de5bb4e004c6b9d9059df2b6941e9d2d6620880fe07b0e571435dd827d30ca1"
     },
     "research/2026-11-20/semiprimes/REPLAY.txt": {
       "bytes": 5000,
@@ -1043,8 +1043,8 @@
       "sha256": "97a8afe0ed44ccedb6555d3a3b1e3ac31005a768c4ce39f800f40fbf4b2b3082"
     },
     "research/2026-11-20/semiprimes/continuation/README.md": {
-      "bytes": 12244,
-      "sha256": "584b4716fb29e29e8dcf625272a71d9a9e5828bf0020bc6c6df1e51acc2be063"
+      "bytes": 12884,
+      "sha256": "3852dbc0d45c8bfcf860e0c72e83b3627d0e8c81688feb74e7e72ea89a932b51"
     },
     "research/2026-11-20/semiprimes/continuation/REPLAY.md": {
       "bytes": 7685,
@@ -1057,6 +1057,86 @@
     "research/2026-11-20/semiprimes/continuation/SPLIT_SECTOR.md": {
       "bytes": 6161,
       "sha256": "f480a0fd568cb49316bf12603818c1ca551e73df868683f492d81e06c643ebaa"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/README.md": {
+      "bytes": 8892,
+      "sha256": "28a6dcfdc16efab2f9165eded7fa6ccef49c1d6b5c1541a577727dc5997151c5"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/REPLAY.json": {
+      "bytes": 16019,
+      "sha256": "a51728fa81a17e4ec6c67297b3d48440282e8bf9de59d50e4923ae5f54a86657"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/flux/AUDIT_JOINT.md": {
+      "bytes": 10661,
+      "sha256": "d4fbdd7023b78d79aa05476bf421d2e99bc1d5f3492cebdcfd804679fa3f0900"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/flux/CHARGED_PARENT_REPLAY.json": {
+      "bytes": 2956,
+      "sha256": "8448d21a36a6b04a812463d59eecd37bcc2910227162fdf9859644b80330c97d"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/flux/CHARGED_PARENT_TRADEOFF.md": {
+      "bytes": 9806,
+      "sha256": "52ef41c34a49e99f8e357833fd5156a9464789bff866a3705c84bb5706e741c3"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/flux/FLUX_REPLAY.json": {
+      "bytes": 4573,
+      "sha256": "834107b74ed60a2403a16a9ad7bed211128e87ef46bac03429977f417723bf08"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/flux/SIGNED_CUT_TRANSPORT.md": {
+      "bytes": 18486,
+      "sha256": "494c5aadf9a38128f9aca6e11b4a6e6b1fe4be2d1bf68032ea5b06f03c6d5ff1"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/flux/verify_flux.py": {
+      "bytes": 8495,
+      "sha256": "d4c687cb1dd0b64a9bde4a17a2fd3049b0e5c65ae67c5b0b9511be4b15086855"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/flux/verify_parent_tradeoff.py": {
+      "bytes": 4236,
+      "sha256": "a38eddb2f78eea1bc5f238d65d72d95011b4239130adc84f5efa31c54e88335d"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/geometry/ACTUAL_MEDIAN_CHARGES.md": {
+      "bytes": 15856,
+      "sha256": "5a4ca8f6a58e028b5b6e91187be52daf671be9bbdad03daff582b5eacf2cf37e"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/geometry/ACTUAL_MEDIAN_REPLAY.json": {
+      "bytes": 3359,
+      "sha256": "8c1c59e43a575df4dade66c4fc763ba8c2d202994cb4528e7381439a87ab57c9"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/geometry/AUDIT_GEOMETRY.md": {
+      "bytes": 9047,
+      "sha256": "d327541723fea86cc98e1154c87e2a9d2888d2718cc5a1d79621ead598010f06"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/geometry/EVEN_CORNER_REPLAY.json": {
+      "bytes": 2946,
+      "sha256": "c61009032f2cbea5ab468d2ad43a433d65ee678008f6ebe9e7403ee0c2909c07"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/geometry/macro143_certificate.json": {
+      "bytes": 6825,
+      "sha256": "ea3dc23562921dea3575cec2ca238c5fd3b0a6962205a8ae1c7b164c8a29756c"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/geometry/verify_actual_median.py": {
+      "bytes": 7270,
+      "sha256": "914baeae7f09fc6dab8e84cf5d70a22176771185bf6242c1fd1654244a306424"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/geometry/verify_even_corner.py": {
+      "bytes": 2611,
+      "sha256": "e270beedce511f32bff0acf29ed08ed824b65d91bd317c7fcfc19b99af7bde73"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/joint/ABSTRACT_AXIS_FLOW.md": {
+      "bytes": 10158,
+      "sha256": "5c65748fc174600557f61e83d22a594f3ef9d5e5ebb64f91aeee1aaf5196189c"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/joint/ABSTRACT_FLOW.json": {
+      "bytes": 17512,
+      "sha256": "36510c91689162bdb308828f37ee313ed63d51348764648570fd3782484e27a3"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/joint/abstract_flow.py": {
+      "bytes": 10689,
+      "sha256": "dde5c2f47753c18c87f54777bad978ec87341e9a86b3513d18fa29dd0c114bd4"
+    },
+    "research/2026-11-20/semiprimes/continuation/charge-transport/replay.py": {
+      "bytes": 3711,
+      "sha256": "96c48b5b26acd15199dc951df8cde4937e13f224a57b9355e9c2c4863b17cc49"
     },
     "research/2026-11-20/semiprimes/continuation/check_sector.py": {
       "bytes": 2295,
@@ -8335,8 +8415,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 14817,
-      "sha256": "10066f16cce319c502305c034d54d47af77a05a283bf6287fc941b83f09f1124"
+      "bytes": 15012,
+      "sha256": "88ebdabc58b1798b6bac3fbd1f93c78591ae213ceb2f9aa2e2f38e31c7a3230f"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

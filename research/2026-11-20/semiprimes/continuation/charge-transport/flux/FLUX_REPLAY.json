@@ -1,0 +1,202 @@
+{
+  "full_143": {
+    "scope": "Signed transport, physical displacement, and area on the previously verified complete 143 tiling.",
+    "long_edge_pairs": 60,
+    "unmatched": 23,
+    "trees": [
+      {
+        "tree": 1,
+        "edge_count": 7,
+        "ordinary_energy": 23,
+        "actual_unmatched": 23,
+        "nonzero_cuts": [
+          {
+            "child": [
+              1,
+              4,
+              0
+            ],
+            "physical_root_height": 1,
+            "subtree_tiles": 105,
+            "G": -7,
+            "G_star": 7,
+            "exterior_current": -49,
+            "exterior_vector": [
+              -39,
+              55
+            ],
+            "exterior_determinant": 2145,
+            "P": -14,
+            "Q": -2,
+            "uP": 14,
+            "uQ": 2,
+            "tilesP": 68,
+            "tilesQ": 2,
+            "vectorP": [
+              49,
+              -49
+            ],
+            "vectorQ": [
+              10,
+              6
+            ],
+            "detP": -609,
+            "detQ": -39
+          },
+          {
+            "child": [
+              2,
+              39,
+              0
+            ],
+            "physical_root_height": 2,
+            "subtree_tiles": 0,
+            "G": 0,
+            "G_star": 0,
+            "exterior_current": -49,
+            "exterior_vector": [
+              -39,
+              55
+            ],
+            "exterior_determinant": 2145,
+            "P": 0,
+            "Q": 7,
+            "uP": 0,
+            "uQ": 7,
+            "tilesP": 0,
+            "tilesQ": 7,
+            "vectorP": [
+              0,
+              0
+            ],
+            "vectorQ": [
+              -39,
+              55
+            ],
+            "detP": 0,
+            "detQ": 2145
+          }
+        ]
+      },
+      {
+        "tree": -1,
+        "edge_count": 13,
+        "ordinary_energy": 23,
+        "actual_unmatched": 23,
+        "nonzero_cuts": [
+          {
+            "child": [
+              0,
+              0,
+              0
+            ],
+            "physical_root_height": 0,
+            "subtree_tiles": 38,
+            "G": -2,
+            "G_star": -2,
+            "exterior_current": 94,
+            "exterior_vector": [
+              39,
+              -55
+            ],
+            "exterior_determinant": 0,
+            "P": -2,
+            "Q": -14,
+            "uP": 2,
+            "uQ": 14,
+            "tilesP": 2,
+            "tilesQ": 14,
+            "vectorP": [
+              10,
+              6
+            ],
+            "vectorQ": [
+              49,
+              -49
+            ],
+            "detP": -39,
+            "detQ": -609
+          },
+          {
+            "child": [
+              -1,
+              0,
+              0
+            ],
+            "physical_root_height": 1,
+            "subtree_tiles": 143,
+            "G": -9,
+            "G_star": 5,
+            "exterior_current": 94,
+            "exterior_vector": [
+              39,
+              -55
+            ],
+            "exterior_determinant": 0,
+            "P": 7,
+            "Q": 0,
+            "uP": 7,
+            "uQ": 0,
+            "tilesP": 37,
+            "tilesQ": 0,
+            "vectorP": [
+              -39,
+              55
+            ],
+            "vectorQ": [
+              0,
+              0
+            ],
+            "detP": 2145,
+            "detQ": 0
+          }
+        ]
+      }
+    ]
+  },
+  "local_balanced_strips": [
+    {
+      "N": 143,
+      "root": [
+        0,
+        1,
+        1
+      ],
+      "P": 0,
+      "Q": 0,
+      "unmatched_inside_crossing": 2,
+      "unmatched_outside_crossing": 10,
+      "bidirectional_target_lower_bound": null,
+      "scope": "Exact local strip cut only; no F2 completion or continued terminality asserted."
+    },
+    {
+      "N": 3431,
+      "root": [
+        0,
+        1,
+        1
+      ],
+      "P": 0,
+      "Q": 0,
+      "unmatched_inside_crossing": 2,
+      "unmatched_outside_crossing": 66,
+      "bidirectional_target_lower_bound": 4,
+      "scope": "Exact local strip cut only; no F2 completion or continued terminality asserted."
+    },
+    {
+      "N": 5063,
+      "root": [
+        0,
+        1,
+        1
+      ],
+      "P": 0,
+      "Q": 0,
+      "unmatched_inside_crossing": 2,
+      "unmatched_outside_crossing": 70,
+      "bidirectional_target_lower_bound": 4,
+      "scope": "Exact local strip cut only; no F2 completion or continued terminality asserted."
+    }
+  ],
+  "scope": "Necessary transport identities and geometric matching counts; neither target is decided."
+}

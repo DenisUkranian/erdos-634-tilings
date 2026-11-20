@@ -1,0 +1,881 @@
+{
+  "scope": "Abstract necessary-condition countermodels, not geometric tilings.",
+  "cases": [
+    {
+      "format": "joint-axis-port-countermodel-v1",
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "N": 3431,
+      "K": 15,
+      "m": 1425,
+      "t": 222,
+      "scope": "Exact abstract population/phase/axis/contact-port network. No common coordinates, supporting-line placement, planar sector embedding, nonoverlap or tiling are asserted.",
+      "inventory": [
+        {
+          "tag": "core_plus",
+          "short_cell": "core",
+          "long_cell": "closed",
+          "h": 0,
+          "j": 0,
+          "s": 1,
+          "count": 1425
+        },
+        {
+          "tag": "core_minus",
+          "short_cell": "core",
+          "long_cell": "closed",
+          "h": 0,
+          "j": 3,
+          "s": 1,
+          "count": 1425
+        },
+        {
+          "tag": "core_source",
+          "short_cell": "core",
+          "long_cell": "middle",
+          "h": 0,
+          "j": 3,
+          "s": 1,
+          "count": 26
+        },
+        {
+          "tag": "middle_down_base0",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 0,
+          "s": -1,
+          "count": 37
+        },
+        {
+          "tag": "middle_down_pair0",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 0,
+          "s": -1,
+          "count": 222
+        },
+        {
+          "tag": "middle_down_pair3",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 3,
+          "s": -1,
+          "count": 222
+        },
+        {
+          "tag": "middle_down_base4",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 4,
+          "s": -1,
+          "count": 37
+        },
+        {
+          "tag": "middle_up_boundary",
+          "short_cell": "middle",
+          "long_cell": "outer",
+          "h": 1,
+          "j": 4,
+          "s": 1,
+          "count": 37
+        }
+      ],
+      "joint_cells": {
+        "core": {
+          "h": 0,
+          "anchor": [
+            0,
+            0,
+            0
+          ],
+          "prime_nodes": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "closed": {
+          "h": 1,
+          "anchor": [
+            0,
+            0,
+            0
+          ],
+          "prime_nodes": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ]
+        },
+        "middle": {
+          "h": 1,
+          "anchor": [
+            0,
+            1551,
+            0
+          ],
+          "prime_nodes": [
+            [
+              1,
+              30,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ]
+        },
+        "outer": {
+          "h": 2,
+          "anchor": [
+            511,
+            0,
+            0
+          ],
+          "prime_nodes": [
+            [
+              2,
+              511,
+              0
+            ],
+            [
+              -2,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "signed_flows": [
+        {
+          "source": "core",
+          "target": "closed",
+          "positive": 1425,
+          "negative": 1425,
+          "net": 0
+        },
+        {
+          "source": "core",
+          "target": "middle",
+          "positive": 0,
+          "negative": 26,
+          "net": -26
+        },
+        {
+          "source": "middle",
+          "target": "core",
+          "positive": 222,
+          "negative": 296,
+          "net": -74
+        },
+        {
+          "source": "middle",
+          "target": "outer",
+          "positive": 37,
+          "negative": 0,
+          "net": 37
+        }
+      ],
+      "node_populations": {
+        "core": {
+          "positive": 1425,
+          "negative": 1451,
+          "total": 2876,
+          "G": -26
+        },
+        "middle": {
+          "positive": 259,
+          "negative": 296,
+          "total": 555,
+          "G": -37
+        }
+      },
+      "axis_boundary": [
+        [
+          "core",
+          0,
+          511
+        ],
+        [
+          "core",
+          1,
+          -1551
+        ],
+        [
+          "outer",
+          1,
+          1369
+        ]
+      ],
+      "height_totals": {
+        "G_even": -26,
+        "G_odd": -37,
+        "n0": 2876,
+        "n1": 555
+      },
+      "prime_tree_checks": [
+        {
+          "sign": 1,
+          "occupied_ordinary_nodes": 1,
+          "core_sign_counts": [
+            1425,
+            1451
+          ],
+          "ordinary_sign_counts": [
+            259,
+            296
+          ],
+          "required_exterior_free_nodes": 0
+        },
+        {
+          "sign": -1,
+          "occupied_ordinary_nodes": 1,
+          "core_sign_counts": [
+            1425,
+            1451
+          ],
+          "ordinary_sign_counts": [
+            259,
+            296
+          ],
+          "required_exterior_free_nodes": 0
+        }
+      ],
+      "boundary_partitions": {
+        "A": [
+          11,
+          "a",
+          4,
+          "c"
+        ],
+        "H": [
+          211,
+          "b",
+          2,
+          "c"
+        ],
+        "c_squared": [
+          37,
+          "c"
+        ]
+      },
+      "contact_port_graph": {
+        "whole_halfturn_pairs": 1647,
+        "unpaired_long_tiles": 137,
+        "boundary_tiles": 265,
+        "remaining_unit_contacts": 69439,
+        "connected_to_exterior": true,
+        "tile_contact_components": 1,
+        "random_matching_seed": 634
+      },
+      "target_status": "OPEN"
+    },
+    {
+      "format": "joint-axis-port-countermodel-v1",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "N": 5063,
+      "K": 17,
+      "m": 2155,
+      "t": 301,
+      "scope": "Exact abstract population/phase/axis/contact-port network. No common coordinates, supporting-line placement, planar sector embedding, nonoverlap or tiling are asserted.",
+      "inventory": [
+        {
+          "tag": "core_plus",
+          "short_cell": "core",
+          "long_cell": "closed",
+          "h": 0,
+          "j": 0,
+          "s": 1,
+          "count": 2155
+        },
+        {
+          "tag": "core_minus",
+          "short_cell": "core",
+          "long_cell": "closed",
+          "h": 0,
+          "j": 3,
+          "s": 1,
+          "count": 2155
+        },
+        {
+          "tag": "core_source",
+          "short_cell": "core",
+          "long_cell": "middle",
+          "h": 0,
+          "j": 3,
+          "s": 1,
+          "count": 22
+        },
+        {
+          "tag": "middle_down_base0",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 0,
+          "s": -1,
+          "count": 43
+        },
+        {
+          "tag": "middle_down_pair0",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 0,
+          "s": -1,
+          "count": 301
+        },
+        {
+          "tag": "middle_down_pair3",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 3,
+          "s": -1,
+          "count": 301
+        },
+        {
+          "tag": "middle_down_base4",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 4,
+          "s": -1,
+          "count": 43
+        },
+        {
+          "tag": "middle_up_boundary",
+          "short_cell": "middle",
+          "long_cell": "outer",
+          "h": 1,
+          "j": 4,
+          "s": 1,
+          "count": 43
+        }
+      ],
+      "joint_cells": {
+        "core": {
+          "h": 0,
+          "anchor": [
+            0,
+            0,
+            0
+          ],
+          "prime_nodes": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "closed": {
+          "h": 1,
+          "anchor": [
+            0,
+            0,
+            0
+          ],
+          "prime_nodes": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ]
+        },
+        "middle": {
+          "h": 1,
+          "anchor": [
+            0,
+            2135,
+            0
+          ],
+          "prime_nodes": [
+            [
+              1,
+              4,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ]
+        },
+        "outer": {
+          "h": 2,
+          "anchor": [
+            1079,
+            0,
+            0
+          ],
+          "prime_nodes": [
+            [
+              2,
+              1079,
+              0
+            ],
+            [
+              -2,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "signed_flows": [
+        {
+          "source": "core",
+          "target": "closed",
+          "positive": 2155,
+          "negative": 2155,
+          "net": 0
+        },
+        {
+          "source": "core",
+          "target": "middle",
+          "positive": 0,
+          "negative": 22,
+          "net": -22
+        },
+        {
+          "source": "middle",
+          "target": "core",
+          "positive": 301,
+          "negative": 387,
+          "net": -86
+        },
+        {
+          "source": "middle",
+          "target": "outer",
+          "positive": 43,
+          "negative": 0,
+          "net": 43
+        }
+      ],
+      "node_populations": {
+        "core": {
+          "positive": 2155,
+          "negative": 2177,
+          "total": 4332,
+          "G": -22
+        },
+        "middle": {
+          "positive": 344,
+          "negative": 387,
+          "total": 731,
+          "G": -43
+        }
+      },
+      "axis_boundary": [
+        [
+          "core",
+          0,
+          1079
+        ],
+        [
+          "core",
+          1,
+          -2135
+        ],
+        [
+          "outer",
+          1,
+          1849
+        ]
+      ],
+      "height_totals": {
+        "G_even": -22,
+        "G_odd": -43,
+        "n0": 4332,
+        "n1": 731
+      },
+      "prime_tree_checks": [
+        {
+          "sign": 1,
+          "occupied_ordinary_nodes": 1,
+          "core_sign_counts": [
+            2155,
+            2177
+          ],
+          "ordinary_sign_counts": [
+            344,
+            387
+          ],
+          "required_exterior_free_nodes": 0
+        },
+        {
+          "sign": -1,
+          "occupied_ordinary_nodes": 1,
+          "core_sign_counts": [
+            2155,
+            2177
+          ],
+          "ordinary_sign_counts": [
+            344,
+            387
+          ],
+          "required_exterior_free_nodes": 0
+        }
+      ],
+      "boundary_partitions": {
+        "A": [
+          21,
+          "a",
+          8,
+          "c"
+        ],
+        "H": [
+          151,
+          "b",
+          4,
+          "c"
+        ],
+        "c_squared": [
+          43,
+          "c"
+        ]
+      },
+      "contact_port_graph": {
+        "whole_halfturn_pairs": 2456,
+        "unpaired_long_tiles": 151,
+        "boundary_tiles": 227,
+        "remaining_unit_contacts": 122227,
+        "connected_to_exterior": true,
+        "tile_contact_components": 1,
+        "random_matching_seed": 634
+      },
+      "target_status": "OPEN"
+    },
+    {
+      "format": "joint-axis-port-countermodel-v1",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "N": 143,
+      "K": 15,
+      "m": 18,
+      "t": 42,
+      "scope": "Exact abstract population/phase/axis/contact-port network. No common coordinates, supporting-line placement, planar sector embedding, nonoverlap or tiling are asserted.",
+      "inventory": [
+        {
+          "tag": "core_plus",
+          "short_cell": "core",
+          "long_cell": "closed",
+          "h": 0,
+          "j": 0,
+          "s": 1,
+          "count": 18
+        },
+        {
+          "tag": "core_minus",
+          "short_cell": "core",
+          "long_cell": "closed",
+          "h": 0,
+          "j": 3,
+          "s": 1,
+          "count": 18
+        },
+        {
+          "tag": "core_source",
+          "short_cell": "core",
+          "long_cell": "middle",
+          "h": 0,
+          "j": 3,
+          "s": 1,
+          "count": 2
+        },
+        {
+          "tag": "middle_down_base0",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 0,
+          "s": -1,
+          "count": 7
+        },
+        {
+          "tag": "middle_down_pair0",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 0,
+          "s": -1,
+          "count": 42
+        },
+        {
+          "tag": "middle_down_pair3",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 3,
+          "s": -1,
+          "count": 42
+        },
+        {
+          "tag": "middle_down_base4",
+          "short_cell": "middle",
+          "long_cell": "core",
+          "h": 1,
+          "j": 4,
+          "s": -1,
+          "count": 7
+        },
+        {
+          "tag": "middle_up_boundary",
+          "short_cell": "middle",
+          "long_cell": "outer",
+          "h": 1,
+          "j": 4,
+          "s": 1,
+          "count": 7
+        }
+      ],
+      "joint_cells": {
+        "core": {
+          "h": 0,
+          "anchor": [
+            0,
+            0,
+            0
+          ],
+          "prime_nodes": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "closed": {
+          "h": 1,
+          "anchor": [
+            0,
+            0,
+            0
+          ],
+          "prime_nodes": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ]
+        },
+        "middle": {
+          "h": 1,
+          "anchor": [
+            0,
+            55,
+            0
+          ],
+          "prime_nodes": [
+            [
+              1,
+              4,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ]
+        },
+        "outer": {
+          "h": 2,
+          "anchor": [
+            39,
+            0,
+            0
+          ],
+          "prime_nodes": [
+            [
+              2,
+              39,
+              0
+            ],
+            [
+              -2,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "signed_flows": [
+        {
+          "source": "core",
+          "target": "closed",
+          "positive": 18,
+          "negative": 18,
+          "net": 0
+        },
+        {
+          "source": "core",
+          "target": "middle",
+          "positive": 0,
+          "negative": 2,
+          "net": -2
+        },
+        {
+          "source": "middle",
+          "target": "core",
+          "positive": 42,
+          "negative": 56,
+          "net": -14
+        },
+        {
+          "source": "middle",
+          "target": "outer",
+          "positive": 7,
+          "negative": 0,
+          "net": 7
+        }
+      ],
+      "node_populations": {
+        "core": {
+          "positive": 18,
+          "negative": 20,
+          "total": 38,
+          "G": -2
+        },
+        "middle": {
+          "positive": 49,
+          "negative": 56,
+          "total": 105,
+          "G": -7
+        }
+      },
+      "axis_boundary": [
+        [
+          "core",
+          0,
+          39
+        ],
+        [
+          "core",
+          1,
+          -55
+        ],
+        [
+          "outer",
+          1,
+          49
+        ]
+      ],
+      "height_totals": {
+        "G_even": -2,
+        "G_odd": -7,
+        "n0": 38,
+        "n1": 105
+      },
+      "prime_tree_checks": [
+        {
+          "sign": 1,
+          "occupied_ordinary_nodes": 1,
+          "core_sign_counts": [
+            18,
+            20
+          ],
+          "ordinary_sign_counts": [
+            49,
+            56
+          ],
+          "required_exterior_free_nodes": 0
+        },
+        {
+          "sign": -1,
+          "occupied_ordinary_nodes": 1,
+          "core_sign_counts": [
+            18,
+            20
+          ],
+          "ordinary_sign_counts": [
+            49,
+            56
+          ],
+          "required_exterior_free_nodes": 0
+        }
+      ],
+      "boundary_partitions": {
+        "A": [
+          5,
+          "a",
+          2,
+          "c"
+        ],
+        "H": [
+          16,
+          "b",
+          1,
+          "c"
+        ],
+        "c_squared": [
+          7,
+          "c"
+        ]
+      },
+      "contact_port_graph": {
+        "whole_halfturn_pairs": 60,
+        "unpaired_long_tiles": 23,
+        "boundary_tiles": 31,
+        "remaining_unit_contacts": 581,
+        "connected_to_exterior": true,
+        "tile_contact_components": 1,
+        "random_matching_seed": 634
+      },
+      "target_status": "OPEN"
+    }
+  ]
+}
