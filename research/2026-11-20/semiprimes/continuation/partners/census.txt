@@ -1,0 +1,14 @@
+endpoint bound 1000000
+incident primes >3 78496
+even partner 19612
+inert prime 39278
+odd composite partner 13557
+residual partner 511
+staircase partner 5538
+distinct prime pairs 3459
+distinct staircase pairs 3147
+distinct residual pairs 312
+residual pairs with both endpoints <= bound 199
+largest residual product 1977914809727
+all pairs CSV SHA-256 997d4277ebad93a0ff5521989b8aa048f79c47fdfea7cd98a0b03fcc0ba9351a
+residual CSV SHA-256 602d69ec1dad0333bfe049ed81314922068153593d803e343d3ad12b44b0dfdd

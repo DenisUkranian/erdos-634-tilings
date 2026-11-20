@@ -2,6 +2,10 @@
 
 Research record, 20 November 2026. Denis Paliy project, with ChatGPT assistance. This continues the [prime-product reduction](../README.md). The geometric framework and individual certificates used as inputs are identified in each proof. The new results have internal mathematical and computational checks. Independent refereeing and formal verification of the new claims are outstanding.
 
+## Prime partners without a bound on the second factor
+
+Each prime greater than three has at most one possible mixed-residue partner. An exact reconstruction and two independent enumerations find 312 pairs outside the unit staircase with at least one prime at most one million. The original tiling question has a complete answer for every prime partner of 1031. The mixed decisions at 3431 and 5063 remain open. [Partner theorem, classifier and census](partners/README.md) · [Full 1031 row](partners/PALIY_PATHS.md).
+
 ## Straight cuts on the 3431 and 5063 boards
 
 Any maximal sequence of straight cuts through the tile edges of a hypothetical 3431 tiling leaves at least one convex piece of 924, 2111, 2311 or 3431 tiles among the terminal pieces. The fixed (231,259,280) triangle cannot be filled by 280 copies of (33,7,37), as verified in all three possible orientation bands. For 5063 a terminal piece has at least 455 tiles. A tiling with all terminal pieces below 1820 would imply a tiling of the (455,559,624) triangle by 624 copies of (35,13,43). Both original scale-one decisions remain open. [Cut theorem and small certificates](cuts/README.md) · [Fixed-tile exclusion at 280](cuts/f1_280/PROOF.md).
