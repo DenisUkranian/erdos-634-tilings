@@ -9,7 +9,7 @@ In the triangle for 3431 we can place 3427 complete congruent tiles with disjoin
 
 For any F2 prime pair the [single-strip packing](GRID_STRIP.md) places $pq-p-q+1$ tiles on the board. Its proof covers the whole mixed family and gives the optimum among translations of the specified grid.
 
-The 3427 packing puts fourteen tiles into each of two pentagons, leaving a total of four tile areas. At least twenty of the 3427 placements must change in any full tiling. Keeping even one of the twenty tiles in the higher directions forces 38 different new placements. [Packing and proof](BRIDGES.md) · [Exact full-board checker](check_3427.py). Another arrangement of 3425 tiles has a separate [nine-change lower bound](TRIPLES.md).
+The 3427 packing is saturated, including arbitrary rotations and translations. It puts fourteen tiles into each of two pentagons, leaving a total of four tile areas. At least twenty of the 3427 placements must change in any full tiling. Keeping even one of the twenty tiles in the higher directions forces 38 different new placements. [Packing and proof](BRIDGES.md) · [Exact full-board checker](check_3427.py). Another arrangement of 3425 tiles has a separate [nine-change lower bound](TRIPLES.md).
 
 ## Constructing and checking the sets of tiles
 
@@ -27,6 +27,7 @@ Run in this directory with Python 3.10 or later, assertions enabled, and the adj
 
 ```sh
 python3 check_3427.py
+python3 check_3427_saturation.py
 python3 height_changes.py
 python3 check_boards.py
 python3 check_triples.py

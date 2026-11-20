@@ -10,7 +10,7 @@ For every prime $P$ congruent to 19 modulo 2184, the only prime $Q$ for which $P
 
 ## Actual scale-one packings for the first two mixed pairs
 
-The 3431 and 5063 boards admit packings of 3427 and 5059 complete tiles, respectively. Each leaves four tile units of area. At 3431 every full tiling must omit at least twenty of the 3427 placements. The 5059 packing is saturated. [The 3431 packing and its direction obstruction](packing/BRIDGES.md). At 5063 the two residual hexagons each have area two tiles, yet their longest contained segment has length $1289/35<43$, below the largest tile side. Any full 5063 tiling would require at least ten placements outside the signed construction's list of 5071 positive placements. [Packings and replay](packing/README.md) · [Sharp bound on contained segments](packing/LONGEST_SEGMENT.md) · [Forbidden placement groups](packing/FORBIDDEN_PATTERNS.md).
+The 3431 and 5063 boards admit packings of 3427 and 5059 complete tiles, respectively. Each leaves four tile units of area. At 3431 every full tiling must omit at least twenty of the 3427 placements. Both displayed packings are saturated under arbitrary real rotations and translations. [The 3431 packing and its direction obstruction](packing/BRIDGES.md). At 5063 the two residual hexagons each have area two tiles, yet their longest contained segment has length $1289/35<43$, below the largest tile side. Any full 5063 tiling would require at least ten placements outside the signed construction's list of 5071 positive placements. [Packings and replay](packing/README.md) · [Sharp bound on contained segments](packing/LONGEST_SEGMENT.md) · [Forbidden placement groups](packing/FORBIDDEN_PATTERNS.md).
 
 ## The common boundary in an explicitly tiled trapezoid
 
