@@ -98,6 +98,17 @@ def analyze(a,b,c,board,rows):
                 shape=tuple(sorted(cells+[polygon_key(core)],key=lambda z:(area(z),z)))
                 if sum(map(area,shape))==board_area:result.add(shape)
     live=[r for r in result if not any(stopped(cell) for cell in r)]
+    if all(edge[0]==2*a*b for edge in board):
+        n=(a+2*b)*(2*a+b)
+        cases=json.loads((folder/'local'/f'cases_{n}.json').read_text())
+        excluded={polygon_key([tuple(e) for e in word]) for (_,word),_ in cases}
+        uncovered={layout for layout in result if not any(cell in excluded for cell in layout)}
+        assert uncovered==set(live)
+        if c==43:
+            special=polygon_key(((43,0,0),(420,1,0),(468,1,2),(455,1,4)))
+            assert all(special in layout for layout in uncovered)
+        else:
+            assert not uncovered
     print('Unit tile',a,b,c,'board area',board_area,'layouts up to cell shapes',len(result),'after stopped-run check',len(live),flush=True)
     return sorted(live),len(result)
 
