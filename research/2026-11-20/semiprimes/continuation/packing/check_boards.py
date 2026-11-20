@@ -46,6 +46,36 @@ def check_holes(board, tiles):
     verify_boundary([(1, tri) for tri in tiles] + [(1, h) for h in holes] + [(-1, board)])
 
 
+def check_pentagons(board, tiles):
+    rows = (HERE / 'remaining_region.txt').read_text().splitlines()
+    assert tuple(map(int, rows[0].split())) == (33, 7, 37, 12)
+    shapes = []
+    for row in rows[1:]:
+        size, *entries = map(int, row.split())
+        shape = list(zip(entries[::2], entries[1::2], strict=True))
+        assert len(shape) == size
+        shapes.append(shape)
+    hull, *obstacles = shapes
+    assert len(obstacles) == 12
+    assert area(hull) == 16*33*7*37**2
+    assert min(norm(sub(v, u)) for u, v in edges(hull)) == 37**2
+    known = {tile_key(t) for t in tiles}
+    traced = [(1, t) for t in tiles] + [(-1, board)]
+    hulls = []
+    for offset in ((0, 0), (-4662, 6105)):
+        polygon = [add(p, offset) for p in hull]
+        assert contained(polygon, board)
+        hulls.append(polygon)
+        traced.append((1, polygon))
+        for obstacle in obstacles:
+            tri = [add(p, offset) for p in obstacle]
+            assert tile_key(tri) in known
+            assert contained(tri, polygon)
+            traced.append((-1, tri))
+    assert max(x for x,y in hulls[1]) < min(x for x,y in hulls[0])
+    verify_boundary(traced)
+
+
 if __name__ == '__main__':
     if not __debug__:
         raise SystemExit('Run with assertions enabled.')
@@ -59,8 +89,10 @@ if __name__ == '__main__':
             files = sorted(HERE.glob('exchange_3431*.json'))
             assert files
             for path in files:
-                tiles = exchange(board, tiles, json.loads(path.read_text()), sides)
-            print(f'3431: verified {len(tiles)} complete tiles after the coordinate exchanges.')
+                candidate = exchange(board, tiles, json.loads(path.read_text()), sides)
+                print(f'3431: verified {len(candidate)} complete tiles using {path.name}.')
+                if len(candidate) == 3423:
+                    check_pentagons(board, candidate)
         else:
             check_holes(board, tiles)
             print('5063: the complement consists of two translates of the two-unit hexagon.')
