@@ -1,0 +1,49 @@
+{
+  "scope": "Exact conditional exclusion of odd population3c in the entire two-tree exterior-spine class; unrestricted targets remain open.",
+  "certificates": [
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "open_singles_checked": 444,
+      "closed_pairs_checked": 7992,
+      "charge_multiplier": 3784753,
+      "tile_bound": 1000001,
+      "largest_single_score": 1000001,
+      "largest_pair_score": 2000002,
+      "population_lower_fraction": "140035861/1000001",
+      "minimum_odd_c_blocks": 5,
+      "rounded_population": 185,
+      "all_integer_inequalities": "PASS"
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "open_singles_checked": 516,
+      "closed_pairs_checked": 10836,
+      "charge_multiplier": 4516698,
+      "tile_bound": 1000001,
+      "largest_single_score": 1000001,
+      "largest_pair_score": 2000002,
+      "population_lower_fraction": "194218014/1000001",
+      "minimum_odd_c_blocks": 5,
+      "rounded_population": 215,
+      "all_integer_inequalities": "PASS"
+    }
+  ],
+  "positive_143_control": {
+    "actual_height_one_tiles": 105,
+    "positive": 56,
+    "negative": 49,
+    "open_single_columns": 21,
+    "actual_closed_pair_columns": 42,
+    "all_residue_current_rows_zero": true,
+    "scope": "Projection of the previously independently verified complete 143 tiling."
+  },
+  "checks": "PASS"
+}

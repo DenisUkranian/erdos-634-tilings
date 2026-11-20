@@ -39,20 +39,20 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 5952,
-      "sha256": "825d0016bb220947f8a5dabd730a98c592d8517254a5ea4310cdd6779a71fe4c"
+      "bytes": 6792,
+      "sha256": "821c5a17f1f9e8321dec394d723a6fe3f8362e63f2011e7ab18d66fbe89d0e72"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 30390,
-      "sha256": "6966c9abd7390e46841973a96015cbc81786d0cfbafde1857f2aca8d9353a338"
+      "bytes": 31346,
+      "sha256": "d163387604cd20364015395bee3965262fe767ca292cc76868458d0fa844b50d"
     },
     "RESULTS_INDEX.md": {
       "bytes": 30483,
       "sha256": "cd3d70116afc423e8385be7cfd34a53bc8987cbed67f88ef2a14da2451707625"
     },
     "STATUS.md": {
-      "bytes": 52006,
-      "sha256": "7cef14d42db8eb0f17edb9877ff3ab5a9b2c9b2110e1b77847799b44f4cc8ccb"
+      "bytes": 53434,
+      "sha256": "0b43e5778dd79667a1e15e2982ca83bdfc4ccde41d0ba2f33b4bbae616d4faf0"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -1003,8 +1003,8 @@
       "sha256": "734e35093a2f54d39b22415154b5b44905197b8b6c6e26638e7a9faccf147603"
     },
     "research/2026-11-20/SHA256SUMS.txt": {
-      "bytes": 55537,
-      "sha256": "20d7fce2453a06cb0aed638f68147c5bfdfb53e6ca22869d4af57769453dd58f"
+      "bytes": 61479,
+      "sha256": "0e51c7d28f1a2565b1d2a33a02d3bedef6252403efdeb095fe61577429c56c28"
     },
     "research/2026-11-20/semiprimes/EXTRACTION.md": {
       "bytes": 2846,
@@ -1043,8 +1043,8 @@
       "sha256": "97a8afe0ed44ccedb6555d3a3b1e3ac31005a768c4ce39f800f40fbf4b2b3082"
     },
     "research/2026-11-20/semiprimes/continuation/README.md": {
-      "bytes": 12884,
-      "sha256": "3852dbc0d45c8bfcf860e0c72e83b3627d0e8c81688feb74e7e72ea89a932b51"
+      "bytes": 13776,
+      "sha256": "fcd30d4f6fe93cd6f9dbcf47d42f668428a925084ca8aa3336a73f824bfb07a7"
     },
     "research/2026-11-20/semiprimes/continuation/REPLAY.md": {
       "bytes": 7685,
@@ -1569,6 +1569,182 @@
     "research/2026-11-20/semiprimes/continuation/first-cuts/verify_virtual.py": {
       "bytes": 3102,
       "sha256": "11caf6df0c6ca9e46ef11366fb81c64e8f28b996a2408093b6a9ac5d5d5ab840"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/README.md": {
+      "bytes": 11345,
+      "sha256": "f28c6928d73081687583fbd6eb405a47edb60aa97056dd251a8ba776cd44f11b"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/REPLAY.json": {
+      "bytes": 6698,
+      "sha256": "46346ce7c126ebff7660ba18da2e64ae89037ebfac64ef8632853e0268dbf8f1"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/AUDIT_GATE_CAPACITY.md": {
+      "bytes": 4786,
+      "sha256": "84e3f028c35f10a16e29fca59a8c4282f0004a2e980c5859a93ecf58019a73a1"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/AUDIT_GENERAL_GATE.md": {
+      "bytes": 3885,
+      "sha256": "fe62ed0b35214904d972dc1040d7b99d8e76ea324f6fd350baeee69bdbb557d9"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/AUDIT_REMOTE_ZERO_MINIMUM.md": {
+      "bytes": 4648,
+      "sha256": "7ce21dab4be3132d9212cd766d59c6f4d7503e825cd8168b29ad69ead5de003d"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/GATE_CAPACITY_REPLAY.json": {
+      "bytes": 1847,
+      "sha256": "3eb51d8f11fe34ca00811e7e033ccc245503bcc75145be99d3822f4a8633a7fc"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/MINIMAL_ODD_PHASE_CLASSIFICATION.md": {
+      "bytes": 7494,
+      "sha256": "25a7ab5afbd8db267df37943c1accf305b0e175451453505cd3d0f6bb4a4a3a4"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/NATIVE_GATE_CAPACITY.md": {
+      "bytes": 10085,
+      "sha256": "53c68ecbb3c3537b9f01272d591e88374137dd39c3e7d16c800829ab8cc77baa"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/PER_GATE_INTEGRALITY.md": {
+      "bytes": 8614,
+      "sha256": "e087c67847a766e0dd54af6b17bef92e45a43972b6e8c11fb8309a70bdb38de7"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/PER_GATE_STATUS.json": {
+      "bytes": 3875,
+      "sha256": "cff7b73717659f352046aa2673550358e346b114ba3bb34e5558dd0a1860093b"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/REMOTE_ZERO_MINIMUM_REPLAY.json": {
+      "bytes": 1269,
+      "sha256": "6ac1dc33c191db3b199cb54a7d059a6b7cdd43ff5092969b336756dbd3f3fb78"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/REMOTE_ZERO_MIN_43_IPM.json": {
+      "bytes": 96387,
+      "sha256": "6234ed7caa598a9f6929edaf32fad52b946f07ff7c5c7b62b156c8fa148a6a80"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/REMOTE_ZERO_OBSTRUCTION_5063.md": {
+      "bytes": 9245,
+      "sha256": "49ea8bf02999d1dbfdb24bc47827e30735c5e7dcb739d3d808a7d5e40f385269"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/extreme_gate_quotient.py": {
+      "bytes": 2841,
+      "sha256": "ee02bd44455cc74c979ebc9a3e3cca37e1208865ff68624e6d16fe100587b0c3"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/fixed_gate_probe.py": {
+      "bytes": 1478,
+      "sha256": "387d9720c051648db8f957820d487488092443f0f74ea3588db0d9684c93e794"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/gate_capacity_certificates.json": {
+      "bytes": 4811,
+      "sha256": "da57da6086a51e01fd618c2c3afbdef32181c6af55a930e02b0af2eac0a6b38b"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/gate_capacity_probe.py": {
+      "bytes": 2067,
+      "sha256": "ec237547ddc17523ef0b4a39afedbb2d1690cc60348b479c6691dabcab9c2148"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/per_gate_integrality.py": {
+      "bytes": 3756,
+      "sha256": "d12d3b53625b197c014867cb2f3e50c3ae5745bbbd3b65d4d30c2be9ddd78250"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/remote_zero_minimum.py": {
+      "bytes": 3117,
+      "sha256": "41f4d21e0ed950c47a8658e93a2fe6ef6e78951a5f4b706db1991cf86e37fd22"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/verify_gate_capacity.py": {
+      "bytes": 6653,
+      "sha256": "cdedcf765eda3358cf6f3d94a4d64f99711f00401e32313f23786e5a7783ff84"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/median/verify_remote_zero_minimum.py": {
+      "bytes": 6683,
+      "sha256": "c77a4304e738aef5658dd53571e6c642543b0cb27d146bbdbf03b16419fea20b"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/replay.py": {
+      "bytes": 4628,
+      "sha256": "c1c975715640f99ce5d0034e25ecb1fc50deef4a9fba9ba1d00d1547030025fb"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/AUDIT_BOTH_GATES.md": {
+      "bytes": 6055,
+      "sha256": "47f82f78aa7e1dd8e92c686649512b48b4abd31718da114cb2dc3585ab88d674"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/AUDIT_SPINE.md": {
+      "bytes": 5257,
+      "sha256": "6b6ff67a7a707413e00627edbcfc9d607efaf402ad02f9700e9506a357b0e197"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/BOTH_GATE_MIN_37.json": {
+      "bytes": 73406,
+      "sha256": "cf36b59d1a94cfbb23f8068a947b2663dbd481edae96e9d16214cc91cc9c842d"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/BOTH_GATE_MIN_43.json": {
+      "bytes": 100128,
+      "sha256": "e4aaef1bb4d87a8f738c3afb56342f9238fc3ea995f06e294714761e3315c15c"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/BOTH_GATE_POPULATION.md": {
+      "bytes": 9115,
+      "sha256": "ecf976e5192f5819d8bc514d8dafb45cad71f094b5ea422102195c131e781463"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/BOTH_GATE_REPLAY.json": {
+      "bytes": 1393,
+      "sha256": "11b0d5b932ee26dc20f7c088d842c627dc7d88509c322cf1eee6d5ef779c6416"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/CLOSED_GATES_AND_NATIVE_THROUGH.md": {
+      "bytes": 6124,
+      "sha256": "006e7ab8ad2222c2d7c1a2a88359ace51b1f4ebd8792f7df8a21b9adcbec7650"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/NATIVE_ENDPOINT_COMPLETENESS.md": {
+      "bytes": 10175,
+      "sha256": "9f893587a0feae27437dcfc9cf8fd3f664c111c9b70adf3cb8735e1917e27ea2"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/SPINE_CATALOGUE.json": {
+      "bytes": 18882,
+      "sha256": "7ad706e26075a24cfcf977aa76664ff139aa57f7c5a5ece819a10c00c2ef563a"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/SPINE_DICHOTOMY.md": {
+      "bytes": 5727,
+      "sha256": "dcd6c05222e84f624b8a819c6b07fa179bfd6b1e037714e726f14a9b75d72072"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/SPINE_RESTRICTIONS_REPLAY.json": {
+      "bytes": 616,
+      "sha256": "879e1a31d69db883dac13d84564e2e1f15d4af7cd6ed23c472fffcb53fcced35"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/SPINE_SEARCH_STATUS.json": {
+      "bytes": 4522,
+      "sha256": "2ae39542e6cd79b8951c39799b468bb59c33dc0d507e97d02569955a039a7539"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/both_gate_torus.py": {
+      "bytes": 6873,
+      "sha256": "36c9ab8b158262744dfefd1b29372b69cb93f2ac8b745be40a736684aa801f38"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/native_spine.py": {
+      "bytes": 9319,
+      "sha256": "b0581500e8471ac43b9cc54a7d7b4594cb0e8949d97237daafcaeaf5a85727b7"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/spine_sat.py": {
+      "bytes": 6526,
+      "sha256": "03d40b102eacbd68917ea9fc02584702558c97e8eac83bebf96e795ab224e9e0"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/verify_both_gate_torus.py": {
+      "bytes": 6669,
+      "sha256": "183f0555585e20012dbffcd650a6feb23b38a3ead58756b8e96089ab694c2154"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/spine/verify_spine_restrictions.py": {
+      "bytes": 4879,
+      "sha256": "2d501561f95c4e057e01b829a243244fbfbb6df0e2f8c71a52ee51d7371d69e3"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/topology/JOINT_NULL_REPLAY.json": {
+      "bytes": 5805,
+      "sha256": "f5733de7f0c5168493a6549cc1dfe00d30c755833394ef389f89be509989f8ec"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/topology/MIXED_SYLLABLE_REPLAY.json": {
+      "bytes": 13082,
+      "sha256": "b216464a87b5d1cd31a9d10d0b2fa9396fc8c5d152f9444b1685bd6ef7e434a3"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/topology/SIMULTANEOUS_QUOTIENTS.md": {
+      "bytes": 11619,
+      "sha256": "620c90df57de9587ea7032f2ffd9395c571086715ae9dcc2895a635f5b9f3525"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/topology/check_mixed_syllable.py": {
+      "bytes": 4934,
+      "sha256": "f588f3e3db7a8e6e81819d268a6d5e66f4ecbe2e86ab8bb9a05d373ce9f58157"
+    },
+    "research/2026-11-20/semiprimes/continuation/global-closure/topology/verify_joint_null.py": {
+      "bytes": 5686,
+      "sha256": "da77100152f6ec0b05e49b53eb102222f56eea8c8e2942d4857c9c6b339d2dab"
     },
     "research/2026-11-20/semiprimes/continuation/global-endpoints/AUDIT.md": {
       "bytes": 4565,
@@ -8415,8 +8591,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 15012,
-      "sha256": "88ebdabc58b1798b6bac3fbd1f93c78591ae213ceb2f9aa2e2f38e31c7a3230f"
+      "bytes": 15222,
+      "sha256": "8e8ba1aad8152d20eff12c44d1d85d3fb0e0545f4c45611d4d65b62554871d40"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

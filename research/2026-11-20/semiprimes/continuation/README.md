@@ -2,6 +2,21 @@
 
 Research record, 20 November 2026. Denis Paliy project, with ChatGPT assistance. This continues the [prime-product reduction](../README.md). The geometric framework and individual certificates used as inputs are identified in each proof. The new results have internal mathematical and computational checks. Independent refereeing and formal verification of the new claims are outstanding.
 
+## Global restrictions covering both target boards
+
+The [global geometric continuation](global-closure/README.md) gives an
+exhaustive alternative: an occupied exterior-free phase branch, or exactly
+three fixed Euclidean cells. In the latter class, two exact endpoint
+certificates require at least `5c` odd tiles, excluding its entire `3c`
+mode. A global one-cell contact-capacity inequality excludes two median
+parameter values even without that three-cell hypothesis. The full minimal
+mode has 75 or 87 permitted Euclidean classes, and at 5063 at least one
+even exterior-free terminal node must be charged: a separate integer
+certificate excludes the all-balanced case. Simultaneous ordered quotients
+also distinguish all prefix positions on any actual upper median path.
+The proofs retain arbitrary translations and partial
+contacts in their stated classes. **3431 and 5063 remain OPEN.**
+
 ## Odd charge and real contact boundaries
 
 The [charge transport continuation](charge-transport/README.md) proves exact

@@ -1,0 +1,264 @@
+{
+  "scope": "Necessary simultaneous-quotient path condition only; neither target is decided.",
+  "geometric_periods": [
+    {
+      "N": 143,
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "pi": [
+        "1",
+        "2"
+      ],
+      "path_board_C": [
+        "880/49",
+        "2145/49"
+      ],
+      "joint_period_generator": [
+        "-15/7",
+        "285/7"
+      ],
+      "minimum_nonzero_period_norm_squared": 1575,
+      "next_shell_norm_squared_at_least": 4725,
+      "board_diameter_squared": 3025,
+      "six_shortest_periods": [
+        {
+          "vector": [
+            "-15/7",
+            "285/7"
+          ],
+          "is_board_chord": true
+        },
+        {
+          "vector": [
+            "-285/7",
+            "270/7"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "-270/7",
+            "-15/7"
+          ],
+          "is_board_chord": true
+        },
+        {
+          "vector": [
+            "15/7",
+            "-285/7"
+          ],
+          "is_board_chord": true
+        },
+        {
+          "vector": [
+            "285/7",
+            "-270/7"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "270/7",
+            "15/7"
+          ],
+          "is_board_chord": true
+        }
+      ],
+      "first_shell_exhausts_possible_nonzero_chords": true,
+      "no_nonzero_joint_period_is_board_chord": false
+    },
+    {
+      "N": 3431,
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "pi": [
+        "3",
+        "4"
+      ],
+      "path_board_C": [
+        "1613040/1369",
+        "792561/1369"
+      ],
+      "joint_period_generator": [
+        "16401/37",
+        "41811/37"
+      ],
+      "minimum_nonzero_period_norm_squared": 1974357,
+      "next_shell_norm_squared_at_least": 5923071,
+      "board_diameter_squared": 2405601,
+      "six_shortest_periods": [
+        {
+          "vector": [
+            "16401/37",
+            "41811/37"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "-41811/37",
+            "58212/37"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "-58212/37",
+            "16401/37"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "-16401/37",
+            "-41811/37"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "41811/37",
+            "-58212/37"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "58212/37",
+            "-16401/37"
+          ],
+          "is_board_chord": false
+        }
+      ],
+      "first_shell_exhausts_possible_nonzero_chords": true,
+      "no_nonzero_joint_period_is_board_chord": true
+    },
+    {
+      "N": 5063,
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "pi": [
+        "6",
+        "1"
+      ],
+      "path_board_C": [
+        "2254560/1849",
+        "2303665/1849"
+      ],
+      "joint_period_generator": [
+        "89635/43",
+        "57330/43"
+      ],
+      "minimum_nonzero_period_norm_squared": 8902075,
+      "next_shell_norm_squared_at_least": 26706225,
+      "board_diameter_squared": 4558225,
+      "six_shortest_periods": [
+        {
+          "vector": [
+            "89635/43",
+            "57330/43"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "-57330/43",
+            "146965/43"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "-146965/43",
+            "89635/43"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "-89635/43",
+            "-57330/43"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "57330/43",
+            "-146965/43"
+          ],
+          "is_board_chord": false
+        },
+        {
+          "vector": [
+            "146965/43",
+            "-89635/43"
+          ],
+          "is_board_chord": false
+        }
+      ],
+      "first_shell_exhausts_possible_nonzero_chords": true,
+      "no_nonzero_joint_period_is_board_chord": true
+    }
+  ],
+  "canonical_word_controls": [
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "steps": 8,
+      "both_boundary_words": "PASS",
+      "joint_prefix_states_distinct": true,
+      "scope": "The canonical word passes this necessary condition; no completion above it is asserted."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "steps": 40,
+      "both_boundary_words": "PASS",
+      "joint_prefix_states_distinct": true,
+      "scope": "The canonical word passes this necessary condition; no completion above it is asserted."
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "steps": 48,
+      "both_boundary_words": "PASS",
+      "joint_prefix_states_distinct": true,
+      "scope": "The canonical word passes this necessary condition; no completion above it is asserted."
+    }
+  ],
+  "actual_143_replay_sha256": "8c1c59e43a575df4dade66c4fc763ba8c2d202994cb4528e7381439a87ab57c9",
+  "actual_143_paths": [
+    {
+      "control": "known",
+      "steps": 16,
+      "both_boundary_words": "PASS",
+      "simultaneous_null_subpaths": [],
+      "complete_certificate_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9"
+    },
+    {
+      "control": "macro",
+      "steps": 16,
+      "both_boundary_words": "PASS",
+      "simultaneous_null_subpaths": [],
+      "complete_certificate_sha256": "ea3dc23562921dea3575cec2ca238c5fd3b0a6962205a8ae1c7b164c8a29756c"
+    }
+  ]
+}

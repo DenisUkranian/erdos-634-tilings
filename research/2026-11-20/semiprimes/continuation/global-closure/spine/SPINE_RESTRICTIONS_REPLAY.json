@@ -1,0 +1,18 @@
+{
+  "scope": "Exact positive controls of necessary geometric restrictions, not target nonexistence.",
+  "native_control_catalogue": 26654,
+  "closed_gate_control_placements": 24122,
+  "all_native_placements_nonfree_in_both_trees": true,
+  "closed_gate_exactly_free_long_node_in_at_least_one_tree": true,
+  "known_143_tiles": 143,
+  "known_closed_gate_tiles_with_actual_mates": 120,
+  "actual_through_contacts_checked": 38,
+  "through_side_lengths": {
+    "3": 10,
+    "5": 16,
+    "7": 12
+  },
+  "all_actual_offsets_integral": true,
+  "all_actual_through_tiles_retained_by_native_oracle": true,
+  "checks": "PASS"
+}

@@ -1,0 +1,42 @@
+{
+  "certificate": {
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "exact_columns": 22188,
+    "minimum_score": -4162910,
+    "maximum_score": 1000002,
+    "column_upper_bound_D": 1000002,
+    "charge_multiplier_t": 3115886,
+    "population_lower_bound_at_G_c": "66991549/500001",
+    "strictly_excludes_population_3c": true,
+    "status": "PASS"
+  },
+  "positive_143_projection_controls": [
+    {
+      "source": "tiling_143.json",
+      "source_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+      "population": 105,
+      "signed_charge": 7,
+      "native_up_current": 14,
+      "native_down_current": -7,
+      "all_remote_signed_currents_zero": true,
+      "all_short_endpoint_rows_zero": true,
+      "status": "PASS"
+    },
+    {
+      "source": "macro143_certificate.json",
+      "source_sha256": "ea3dc23562921dea3575cec2ca238c5fd3b0a6962205a8ae1c7b164c8a29756c",
+      "population": 91,
+      "signed_charge": 7,
+      "native_up_current": 14,
+      "native_down_current": -7,
+      "all_remote_signed_currents_zero": true,
+      "all_short_endpoint_rows_zero": true,
+      "status": "PASS"
+    }
+  ],
+  "scope": "Exact population inequality under zero remote signed gate currents; neither target is globally excluded."
+}

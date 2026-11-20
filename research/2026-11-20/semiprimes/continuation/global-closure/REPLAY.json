@@ -1,0 +1,110 @@
+{
+  "format": "global-geometric-restrictions-exact-replay-v1",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "complete_spine_catalogues_and_positive_control",
+      "script": "spine/native_spine.py",
+      "exit_code": 0,
+      "seconds": 0.34,
+      "saved_report_equal": true
+    },
+    {
+      "name": "closed_gate_mates_and_actual_through_contacts",
+      "script": "spine/verify_spine_restrictions.py",
+      "exit_code": 0,
+      "seconds": 0.56,
+      "saved_report_equal": true
+    },
+    {
+      "name": "both_gates_exclude_three_odd_blocks_in_spine",
+      "script": "spine/verify_both_gate_torus.py",
+      "exit_code": 0,
+      "seconds": 0.387,
+      "saved_report_equal": true
+    },
+    {
+      "name": "universal_single_cell_gate_capacities",
+      "script": "median/verify_gate_capacity.py",
+      "exit_code": 0,
+      "seconds": 0.21,
+      "saved_report_equal": true
+    },
+    {
+      "name": "5063_minimal_mode_requires_charged_even_branch",
+      "script": "median/verify_remote_zero_minimum.py",
+      "exit_code": 0,
+      "seconds": 0.138,
+      "saved_report_equal": true
+    },
+    {
+      "name": "joint_quotient_periods_and_actual_path_controls",
+      "script": "topology/verify_joint_null.py",
+      "exit_code": 0,
+      "seconds": 0.055,
+      "saved_report_equal": true
+    },
+    {
+      "name": "actual_mixed_syllable_countercontrols",
+      "script": "topology/check_mixed_syllable.py",
+      "exit_code": 0,
+      "seconds": 0.037,
+      "saved_report_equal": true
+    }
+  ],
+  "source_sha256": {
+    "README.md": "f28c6928d73081687583fbd6eb405a47edb60aa97056dd251a8ba776cd44f11b",
+    "median/AUDIT_GATE_CAPACITY.md": "84e3f028c35f10a16e29fca59a8c4282f0004a2e980c5859a93ecf58019a73a1",
+    "median/AUDIT_GENERAL_GATE.md": "fe62ed0b35214904d972dc1040d7b99d8e76ea324f6fd350baeee69bdbb557d9",
+    "median/AUDIT_REMOTE_ZERO_MINIMUM.md": "7ce21dab4be3132d9212cd766d59c6f4d7503e825cd8168b29ad69ead5de003d",
+    "median/GATE_CAPACITY_REPLAY.json": "3eb51d8f11fe34ca00811e7e033ccc245503bcc75145be99d3822f4a8633a7fc",
+    "median/MINIMAL_ODD_PHASE_CLASSIFICATION.md": "25a7ab5afbd8db267df37943c1accf305b0e175451453505cd3d0f6bb4a4a3a4",
+    "median/NATIVE_GATE_CAPACITY.md": "53c68ecbb3c3537b9f01272d591e88374137dd39c3e7d16c800829ab8cc77baa",
+    "median/PER_GATE_INTEGRALITY.md": "e087c67847a766e0dd54af6b17bef92e45a43972b6e8c11fb8309a70bdb38de7",
+    "median/PER_GATE_STATUS.json": "cff7b73717659f352046aa2673550358e346b114ba3bb34e5558dd0a1860093b",
+    "median/REMOTE_ZERO_MINIMUM_REPLAY.json": "6ac1dc33c191db3b199cb54a7d059a6b7cdd43ff5092969b336756dbd3f3fb78",
+    "median/REMOTE_ZERO_MIN_43_IPM.json": "6234ed7caa598a9f6929edaf32fad52b946f07ff7c5c7b62b156c8fa148a6a80",
+    "median/REMOTE_ZERO_OBSTRUCTION_5063.md": "49ea8bf02999d1dbfdb24bc47827e30735c5e7dcb739d3d808a7d5e40f385269",
+    "median/extreme_gate_quotient.py": "ee02bd44455cc74c979ebc9a3e3cca37e1208865ff68624e6d16fe100587b0c3",
+    "median/fixed_gate_probe.py": "387d9720c051648db8f957820d487488092443f0f74ea3588db0d9684c93e794",
+    "median/gate_capacity_certificates.json": "da57da6086a51e01fd618c2c3afbdef32181c6af55a930e02b0af2eac0a6b38b",
+    "median/gate_capacity_probe.py": "ec237547ddc17523ef0b4a39afedbb2d1690cc60348b479c6691dabcab9c2148",
+    "median/per_gate_integrality.py": "d12d3b53625b197c014867cb2f3e50c3ae5745bbbd3b65d4d30c2be9ddd78250",
+    "median/remote_zero_minimum.py": "41f4d21e0ed950c47a8658e93a2fe6ef6e78951a5f4b706db1991cf86e37fd22",
+    "median/verify_gate_capacity.py": "cdedcf765eda3358cf6f3d94a4d64f99711f00401e32313f23786e5a7783ff84",
+    "median/verify_remote_zero_minimum.py": "c77a4304e738aef5658dd53571e6c642543b0cb27d146bbdbf03b16419fea20b",
+    "replay.py": "c1c975715640f99ce5d0034e25ecb1fc50deef4a9fba9ba1d00d1547030025fb",
+    "spine/AUDIT_BOTH_GATES.md": "47f82f78aa7e1dd8e92c686649512b48b4abd31718da114cb2dc3585ab88d674",
+    "spine/AUDIT_SPINE.md": "6b6ff67a7a707413e00627edbcfc9d607efaf402ad02f9700e9506a357b0e197",
+    "spine/BOTH_GATE_MIN_37.json": "cf36b59d1a94cfbb23f8068a947b2663dbd481edae96e9d16214cc91cc9c842d",
+    "spine/BOTH_GATE_MIN_43.json": "e4aaef1bb4d87a8f738c3afb56342f9238fc3ea995f06e294714761e3315c15c",
+    "spine/BOTH_GATE_POPULATION.md": "ecf976e5192f5819d8bc514d8dafb45cad71f094b5ea422102195c131e781463",
+    "spine/BOTH_GATE_REPLAY.json": "11b0d5b932ee26dc20f7c088d842c627dc7d88509c322cf1eee6d5ef779c6416",
+    "spine/CLOSED_GATES_AND_NATIVE_THROUGH.md": "006e7ab8ad2222c2d7c1a2a88359ace51b1f4ebd8792f7df8a21b9adcbec7650",
+    "spine/NATIVE_ENDPOINT_COMPLETENESS.md": "9f893587a0feae27437dcfc9cf8fd3f664c111c9b70adf3cb8735e1917e27ea2",
+    "spine/SPINE_CATALOGUE.json": "7ad706e26075a24cfcf977aa76664ff139aa57f7c5a5ece819a10c00c2ef563a",
+    "spine/SPINE_DICHOTOMY.md": "dcd6c05222e84f624b8a819c6b07fa179bfd6b1e037714e726f14a9b75d72072",
+    "spine/SPINE_RESTRICTIONS_REPLAY.json": "879e1a31d69db883dac13d84564e2e1f15d4af7cd6ed23c472fffcb53fcced35",
+    "spine/SPINE_SEARCH_STATUS.json": "2ae39542e6cd79b8951c39799b468bb59c33dc0d507e97d02569955a039a7539",
+    "spine/both_gate_torus.py": "36c9ab8b158262744dfefd1b29372b69cb93f2ac8b745be40a736684aa801f38",
+    "spine/native_spine.py": "b0581500e8471ac43b9cc54a7d7b4594cb0e8949d97237daafcaeaf5a85727b7",
+    "spine/spine_sat.py": "03d40b102eacbd68917ea9fc02584702558c97e8eac83bebf96e795ab224e9e0",
+    "spine/verify_both_gate_torus.py": "183f0555585e20012dbffcd650a6feb23b38a3ead58756b8e96089ab694c2154",
+    "spine/verify_spine_restrictions.py": "2d501561f95c4e057e01b829a243244fbfbb6df0e2f8c71a52ee51d7371d69e3",
+    "topology/JOINT_NULL_REPLAY.json": "f5733de7f0c5168493a6549cc1dfe00d30c755833394ef389f89be509989f8ec",
+    "topology/MIXED_SYLLABLE_REPLAY.json": "b216464a87b5d1cd31a9d10d0b2fa9396fc8c5d152f9444b1685bd6ef7e434a3",
+    "topology/SIMULTANEOUS_QUOTIENTS.md": "620c90df57de9587ea7032f2ffd9395c571086715ae9dcc2895a635f5b9f3525",
+    "topology/check_mixed_syllable.py": "f588f3e3db7a8e6e81819d268a6d5e66f4ecbe2e86ab8bb9a05d373ce9f58157",
+    "topology/verify_joint_null.py": "da77100152f6ec0b05e49b53eb102222f56eea8c8e2942d4857c9c6b339d2dab"
+  },
+  "target_status": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "excluded_subclass": "No occupied exterior-free short nodes in either prime tree, together with odd population 3c.",
+  "additional_5063_exclusion": "Odd population 3c with every exterior-free even terminal node balanced.",
+  "unrestricted_nonexistence_certificate": false,
+  "complete_target_tiling_certificate": false,
+  "full_Erdos634_solved": false,
+  "scope": "Exact arithmetic certificates, complete positive controls, and the finite parts of the stated global geometric proofs. No numerical optimization or target placement search is run."
+}

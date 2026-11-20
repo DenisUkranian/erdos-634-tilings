@@ -1,0 +1,77 @@
+{
+  "certificates": [
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "exact_two_dimensional_columns": 588,
+      "minimum_integer_slack": 0,
+      "capacity_at_populations_2c_c": "21/2",
+      "integer_gate_capacity": 10,
+      "remaining_upper_parameters_under_3c": null,
+      "status": "PASS"
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "exact_two_dimensional_columns": 16428,
+      "minimum_integer_slack": 0,
+      "capacity_at_populations_2c_c": "265/6",
+      "integer_gate_capacity": 44,
+      "remaining_upper_parameters_under_3c": [
+        2,
+        3,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "exact_two_dimensional_columns": 22188,
+      "minimum_integer_slack": 0,
+      "capacity_at_populations_2c_c": "51",
+      "integer_gate_capacity": 51,
+      "remaining_upper_parameters_under_3c": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "PASS"
+    }
+  ],
+  "complete_143_controls": [
+    {
+      "source": "repository",
+      "source_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+      "height_one_population": 105,
+      "positive": 56,
+      "negative": 49,
+      "positive_native_up_gate_population": 14,
+      "exact_endpoint_sum": 0,
+      "capacity": "105/2",
+      "status": "PASS"
+    },
+    {
+      "source": "macro",
+      "source_sha256": "ea3dc23562921dea3575cec2ca238c5fd3b0a6962205a8ae1c7b164c8a29756c",
+      "height_one_population": 91,
+      "positive": 49,
+      "negative": 42,
+      "positive_native_up_gate_population": 14,
+      "exact_endpoint_sum": 0,
+      "capacity": "91/2",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Exact universal endpoint gate capacities and positive controls; no global target exclusion."
+}

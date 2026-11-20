@@ -2,6 +2,24 @@
 
 **v0.3.0 + 10 October 2026 supplement**
 
+## 21 November 2026: global geometric restrictions
+
+Run the seven deterministic exact suites, without an optimizer or placement search:
+
+```sh
+python3 research/2026-11-20/semiprimes/continuation/global-closure/replay.py
+```
+
+They check the complete three-cell catalogue and positive control, actual
+closed-gate mates and through-contacts, the two-gate integer certificates
+requiring at least five odd blocks in that entire class, the universal
+single-cell gate inequalities, the exact 5063 certificate forcing a charged
+remote even branch in the minimal mode, simultaneous ordered-quotient periods,
+and mixed-syllable countercontrols. The new proofs have independent internal
+reviews. These checks do not exclude unrestricted tilings of 3431 or 5063.
+[Proofs and precise remaining cases](research/2026-11-20/semiprimes/continuation/global-closure/README.md) ·
+[Fresh exact replay](research/2026-11-20/semiprimes/continuation/global-closure/REPLAY.json).
+
 ## 20 November 2026: vertex and phase controls
 
 The new finite standard-library controls are included in the root replay:

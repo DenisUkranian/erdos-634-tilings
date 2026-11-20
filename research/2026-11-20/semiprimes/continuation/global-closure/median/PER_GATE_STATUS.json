@@ -1,0 +1,124 @@
+[
+  {
+    "tile": [
+      33,
+      7,
+      37
+    ],
+    "odd_population": 111,
+    "rows": 4183,
+    "continuous_placement_columns": 16428,
+    "integer_gate_charges": 74,
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+    "seconds": 84.8818677829986,
+    "scope": "All-residue necessary relaxation with continuous tile multiplicities and integer actual-node charges; feasibility is not a geometric tiling, numerical infeasibility is not an exported exact proof."
+  },
+  {
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "odd_population": 129,
+    "rows": 5635,
+    "continuous_placement_columns": 22188,
+    "integer_gate_charges": 86,
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+    "seconds": 83.8654680489999,
+    "scope": "All-residue necessary relaxation with continuous tile multiplicities and integer actual-node charges; feasibility is not a geometric tiling, numerical infeasibility is not an exported exact proof."
+  },
+  {
+    "tile": [
+      33,
+      7,
+      37
+    ],
+    "remote_gate_charges": "all zero",
+    "native_gate_currents": [
+      22,
+      15
+    ],
+    "rows": 4183,
+    "columns": 16428,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "seconds": 10.361248755994893,
+    "scope": "Continuous all-residue necessary projection with fixed integral gate charges. Feasibility is not a geometric tiling.",
+    "maximum_equality_residual": 1.4210854715202004e-13,
+    "fixed_native_charge_parameter_f": 2
+  },
+  {
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "remote_gate_charges": "all zero",
+    "native_gate_currents": [
+      42,
+      1
+    ],
+    "rows": 5635,
+    "columns": 22188,
+    "status": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)",
+    "seconds": 5.718173798995849,
+    "scope": "Continuous all-residue necessary projection with fixed integral gate charges. Feasibility is not a geometric tiling.",
+    "fixed_native_charge_parameter_f": 2
+  },
+  {
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "remote_gate_charges": "all zero",
+    "native_gate_currents": [
+      20,
+      23
+    ],
+    "rows": 5635,
+    "columns": 22188,
+    "status": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)",
+    "seconds": 5.567307582001376,
+    "scope": "Continuous all-residue necessary projection with fixed integral gate charges. Feasibility is not a geometric tiling.",
+    "fixed_native_charge_parameter_f": 3
+  },
+  {
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "remote_gate_charges": "all zero",
+    "native_gate_currents": [
+      -2,
+      45
+    ],
+    "rows": 5635,
+    "columns": 22188,
+    "status": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)",
+    "seconds": 4.796195837996493,
+    "scope": "Continuous all-residue necessary projection with fixed integral gate charges. Feasibility is not a geometric tiling.",
+    "fixed_native_charge_parameter_f": 4
+  },
+  {
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "test": "Minimum native height-one population, all remote currents zero, G=c; native currents free",
+    "status": "EXACT CERTIFICATE VERIFIED",
+    "D": 1000002,
+    "charge_multiplier_t": 3115886,
+    "exact_population_lower_bound": "66991549/500001",
+    "certificate": "REMOTE_ZERO_MIN_43_IPM.json",
+    "replay": "REMOTE_ZERO_MINIMUM_REPLAY.json",
+    "scope": "Excludes 3c only when all remote even nodes are balanced; forces a charged remote terminal even node in any minimal-odd 5063 tiling. No full target exclusion."
+  }
+]

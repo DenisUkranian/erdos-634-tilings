@@ -29,6 +29,8 @@ def main():
         print('COMMON_OBSTRUCTION_EXACT_CONTROLS=PASS',flush=True)
         reports['charge_transport']=run(['research/2026-11-20/semiprimes/continuation/charge-transport/replay.py'],work)
         print('PHYSICAL_CHARGE_TRANSPORT_EXACT_CONTROLS=PASS',flush=True)
+        reports['global_geometric_restrictions']=run(['research/2026-11-20/semiprimes/continuation/global-closure/replay.py'],work)
+        print('GLOBAL_GEOMETRIC_RESTRICTIONS_EXACT_CONTROLS=PASS',flush=True)
         reports['november19']=run(['research/2026-11-19/verify.py'],work)
         print('NOVEMBER19_CENSUS_AND_CERTIFICATES=PASS',flush=True)
         reports['legacy']=run(['scripts/reproduce.py'],work)

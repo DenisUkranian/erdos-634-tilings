@@ -1,0 +1,146 @@
+{
+  "scope": "Finite necessary searches restricted to the complete two-tree exterior-spine class. No target class has been excluded.",
+  "runs": [
+    {
+      "name": "sat143",
+      "N": 143,
+      "status": "sat",
+      "columns": 574,
+      "complete_rows": 6,
+      "partial_rows": 1907,
+      "peak_rss_mb": 41.0,
+      "independent_positive_metric_current_verifier": "PASS:143 distinct contained congruent tiles, exact area and zero endpoint residual.",
+      "target_nonexistence_certificate": false
+    },
+    {
+      "name": "corner143",
+      "N": 143,
+      "status": "sat",
+      "columns": 965,
+      "complete_rows": 6,
+      "partial_rows": 2183,
+      "peak_rss_mb": 64.9,
+      "independent_positive_metric_current_verifier": "PASS:143 distinct contained congruent tiles, exact area and zero endpoint residual.",
+      "unguarded_probes": [
+        {
+          "round": 0,
+          "columns": 965,
+          "complete_rows": 6,
+          "status": "sat",
+          "seconds": 2.629,
+          "temporary_assumptions": false,
+          "tile_and_population_caps_active": true
+        }
+      ],
+      "target_nonexistence_certificate": false
+    },
+    {
+      "name": "sat3431",
+      "N": 3431,
+      "status": "round-limit",
+      "columns": 87167,
+      "complete_rows": 11948,
+      "partial_rows": 178682,
+      "peak_rss_mb": 1622.7,
+      "all_observed_unsat_cores": "Contained temporary incomplete-row guards.",
+      "target_nonexistence_certificate": false
+    },
+    {
+      "name": "sat5063",
+      "N": 5063,
+      "status": "rebuilding-equivalent-context",
+      "columns": 85097,
+      "complete_rows": 9934,
+      "partial_rows": 184914,
+      "peak_rss_mb": 1638.5,
+      "actual_termination": "OS resource kill, exit 137, during rebuild50; saved status predates termination.",
+      "all_observed_unsat_cores": "Contained temporary incomplete-row guards.",
+      "target_nonexistence_certificate": false
+    },
+    {
+      "name": "corner3431",
+      "N": 3431,
+      "status": "corner-memory-resource-limit",
+      "columns": 27182,
+      "complete_rows": 6,
+      "partial_rows": 57073,
+      "peak_rss_mb": 785.9,
+      "target_nonexistence_certificate": false
+    },
+    {
+      "name": "corner3431_geometry",
+      "N": 3431,
+      "status": "corner-memory-resource-limit",
+      "columns": 28159,
+      "complete_rows": 449,
+      "partial_rows": 58775,
+      "peak_rss_mb": 807.9,
+      "unguarded_probes": [
+        {
+          "round": 0,
+          "columns": 27182,
+          "complete_rows": 6,
+          "status": "unknown",
+          "seconds": 5.003,
+          "temporary_assumptions": false,
+          "tile_and_population_caps_active": true,
+          "reason": "(:reason-unknown \"canceled\")"
+        },
+        {
+          "round": 5,
+          "columns": 27732,
+          "complete_rows": 242,
+          "status": "unknown",
+          "seconds": 5.005,
+          "temporary_assumptions": false,
+          "tile_and_population_caps_active": true,
+          "reason": "(:reason-unknown \"canceled\")"
+        }
+      ],
+      "target_nonexistence_certificate": false
+    },
+    {
+      "name": "corner5063",
+      "N": 5063,
+      "status": "corner-memory-resource-limit",
+      "columns": 42138,
+      "complete_rows": 1164,
+      "partial_rows": 86445,
+      "peak_rss_mb": 838.7,
+      "unguarded_probes": [
+        {
+          "round": 0,
+          "columns": 38918,
+          "complete_rows": 6,
+          "status": "unknown",
+          "seconds": 5.002,
+          "temporary_assumptions": false,
+          "tile_and_population_caps_active": true,
+          "reason": "(:reason-unknown \"canceled\")"
+        },
+        {
+          "round": 10,
+          "columns": 40027,
+          "complete_rows": 841,
+          "status": "unknown",
+          "seconds": 5.003,
+          "temporary_assumptions": false,
+          "tile_and_population_caps_active": true,
+          "reason": "(:reason-unknown \"canceled\")"
+        },
+        {
+          "round": 20,
+          "columns": 41635,
+          "complete_rows": 1062,
+          "status": "unknown",
+          "seconds": 5.011,
+          "temporary_assumptions": false,
+          "tile_and_population_caps_active": true,
+          "reason": "(:reason-unknown \"canceled\")"
+        }
+      ],
+      "target_nonexistence_certificate": false
+    }
+  ],
+  "publication_note": "The large SMT journals and trusted local pickle checkpoints are research intermediates, not proof certificates; they need not be published."
+}
