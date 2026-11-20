@@ -1,0 +1,23 @@
+# An equal-boundary grid exchange in every residual F2 board
+
+Take primitive sides $a>b>0$, $c^2=a^2+ab+b^2$, and put $p=a+2b$, $q=2a+b$. Use the physical axial basis $1,\rho=e^{i\pi/3}$. The outside triangle is $0,bq,ap\rho$; the cells of its [single-strip packing](../packing/GRID_STRIP.md) have vectors $b$ and $a\rho$, and their positive diagonal has length $c$.
+
+**The exchange.** Put $u=(b+a\rho)/c$. The unit rays 1 and $u$ enclose the tile angle opposite $a$. Take the rhombus with these rays as axes and both side lengths $bc$. One grid uses steps $b$ along 1 and $c$ along $u$, with $c$ steps and $b$ steps respectively. The other uses $c$ along 1 and $b$ along $u$, with the two step counts interchanged. In either case the difference of the two primitive step vectors has length $a$, so the corresponding diagonal splits every cell into two copies of the original tile. Each filling has exactly $2bc$ tiles. Both cover the same closed rhombus, hence either may replace the other in a larger tiling or packing, irrespective of contacts outside its boundary. Intermediate subdivisions of that boundary can change.
+
+The two fillings have different short-side heights. In the first, the $b$ side is horizontal. In the second the $b$ side points along $u=\rho\bar z$, where $z=(a+b\rho)/c$. Their respective short heights are 0 and $-1$. All $2bc$ positions change. [Small-replacement rigidity](SMALL_SURGERIES.md) gives a general lower bound of $2c$ changes for any such introduction of a new short height.
+
+**On the original unit board.** Use grid coordinates $(X,Y)$ for the physical point $bX+aY\rho$, so the board is $pX+qY\le pq$, $X,Y\ge0$. In these coordinates the rhombus has corners $(0,0),(c,0),(c+b,b),(b,b)$. Every one of its first-grid triangles is an ordinary triangle of the single-strip packing when the rhombus's enclosing rectangle sits inside the board. The condition is
+$$
+ (c+b)/q+b/p\le1.
+$$
+Equivalently $pc\le 2a^2+2ab-b^2$. Squaring the positive quantities gives difference $3(a+b)(a^3-3ab^2-b^3)$. In particular it fits for $a\ge2b$, throughout the residual mixed-prime family. The triangular wedge up to the $Y$ axis has physical axial vertices $0,(b^2,ab),(0,ab)$ and sides $b^2,ab,bc$. It is a scale-$b$ tile with its own $b^2$-tile grid. The complete corner trapezoid has area $b^2+2bc$ in tile units.
+
+Independently exchange any subset of the rhombi translated by $(0,jb)$ in grid coordinates, $0\le j<R$, where
+$$
+ R=\left\lfloor\frac{p(2a-c)}{qb}\right\rfloor .
+$$
+Indeed their $Y$ interiors are disjoint and their upper-right corners satisfy $p(c+b)+q(j+1)b\le pq$. Consequently the strip packing has at least $2^R$ distinct realizations with identical residual region. At 3431 the move exchanges 518 tiles and there are two independent sites in the explicit packing of 3312. At 5063 it exchanges 1118 tiles at one site in the explicit packing of 4920. This is a common unit-scale rebuilding mechanism; the exterior strip still requires a filling.
+
+**Minimality for the two infinite periodic grids.** In the coordinates of the two unit rays 1 and $u$, the common edge directions of these two specified infinite triangular grids are precisely the two axes. The third directions are $cu-b$ and $bu-c$, and their determinant is nonzero since $b\ne c$ and the axes are independent. Neither is axial. A finite polygon tiled by whole placements from the first grid and also from the second has its boundary on lines common to both grids. In each axis coordinate these common lines have separation $\operatorname{lcm}(b,c)=bc$. This also holds with arbitrary grid translates whenever a bounded common region of positive area exists: both families of common lines must exist to enclose it, and each family is then a single residue class modulo $bc$. Thus every such region is a union of side-$bc$ coarse cells. Conversely all finite unions of these cells can be exchanged. In particular $2bc$ is the minimum number of tiles in a finite exchange between the two fixed periodic-grid types. Other geometries are allowed by the original problem.
+
+**An obstruction to nesting switches.** In the second filling put $S=c$ and $T=bu$, so the rhombus in $(S,T)$ coordinates is $[0,b]\times[0,c]$. Its short vectors have lengths $b,a$ along $T,S-T$. A short-side $a\leftrightarrow b$ exchange would require an $ab$ rhombus spanned by $b(S-T)$ and $aT$. Its coordinate extents are $b$ and $a+b$. It cannot fit inside one switched rhombus since $c<a+b$. Two adjacent switched rhombi along the $T$ axis give height $2c>a+b$ and do permit that short-side exchange after translation. This last claim concerns the tiled block; its fitting on a given board is a separate inequality.

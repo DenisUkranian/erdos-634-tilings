@@ -2,6 +2,10 @@
 
 Research record, 20 November 2026. Denis Paliy project, with ChatGPT assistance. This continues the [prime-product reduction](../README.md). The geometric framework and individual certificates used as inputs are identified in each proof. The new results have internal mathematical and computational checks. Independent refereeing and formal verification of the new claims are outstanding.
 
+## A local rebuild and obstructions for all tilings
+
+Swapping two directions of the grid at the midpoint of the outside sloping side adds exactly $a$ whole tiles for every primitive odd F2 tile. The gains are 33 and 35 on the first two mixed boards. In every complete tiling the multiplicities of the two banks of internal contacts differ in at least two nonparallel directions. Integer edge-weight certificates require at least 138 and 146 distinct interior T-junctions on the two boards. [Construction, illustration and proofs](moves/README.md).
+
 ## Prime partners without a bound on the second factor
 
 Each prime greater than three has at most one possible mixed-residue partner. An exact reconstruction and two independent enumerations find 312 pairs outside the unit staircase with at least one prime at most one million. The original tiling question has a complete answer for every prime partner of 1031. The mixed decisions at 3431 and 5063 remain open. [Partner theorem, classifier and census](partners/README.md) · [Full 1031 row](partners/PALIY_PATHS.md).
@@ -10,7 +14,7 @@ For every prime $P$ congruent to 19 modulo 2184, the only prime $Q$ for which $P
 
 ## Actual scale-one packings for the first two mixed pairs
 
-The 3431 and 5063 boards admit packings of 3427 and 5059 complete tiles, respectively. Each leaves four tile units of area. At 3431 every full tiling must omit at least twenty of the 3427 placements. Both displayed packings are saturated under arbitrary real rotations and translations. [The 3431 packing and its direction obstruction](packing/BRIDGES.md). At 5063 the two residual hexagons each have area two tiles, yet their longest contained segment has length $1289/35<43$, below the largest tile side. Any full 5063 tiling would require at least ten placements outside the signed construction's list of 5071 positive placements. [Packings and replay](packing/README.md) · [Sharp bound on contained segments](packing/LONGEST_SEGMENT.md) · [Forbidden placement groups](packing/FORBIDDEN_PATTERNS.md).
+The 3431 and 5063 boards admit packings of 3427 and 5059 complete tiles, respectively. Each leaves four tile units of area. At 3431 every full tiling must omit at least thirty of the 3427 placements. Keeping even one of the eight low replacements forces at least 290 omissions. [Position-sensitive proof](phase-height/3431.md). Both displayed packings are saturated under arbitrary real rotations and translations. [The 3431 packing and its direction obstruction](packing/BRIDGES.md). At 5063 the two residual hexagons each have area two tiles, yet their longest contained segment has length $1289/35<43$, below the largest tile side. Any full 5063 tiling would require at least ten placements outside the signed construction's list of 5071 positive placements. [Packings and replay](packing/README.md) · [Sharp bound on contained segments](packing/LONGEST_SEGMENT.md) · [Forbidden placement groups](packing/FORBIDDEN_PATTERNS.md).
 
 ## The common boundary in an explicitly tiled trapezoid
 
