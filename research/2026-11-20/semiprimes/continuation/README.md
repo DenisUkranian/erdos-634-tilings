@@ -6,6 +6,12 @@ Research record, 20 November 2026. Denis Paliy project, with ChatGPT assistance.
 
 Each prime greater than three has at most one possible mixed-residue partner. An exact reconstruction and two independent enumerations find 312 pairs outside the unit staircase with at least one prime at most one million. The original tiling question has a complete answer for every prime partner of 1031. The mixed decisions at 3431 and 5063 remain open. [Partner theorem, classifier and census](partners/README.md) · [Full 1031 row](partners/PALIY_PATHS.md).
 
+## The common boundary in an explicitly tiled trapezoid
+
+For every unit F2 board, attaching one tiled parallelogram along its full side gives a convex trapezoid with an ordinary tiling by the same tile. At 3431 the padding and trapezoid contain 5840 and 9271 tiles. At 5063 their counts are 7968 and 13031. Realizing the indicated edge across the padded tiling is equivalent to the original unit question. [Construction, diagram and exact checker](signed/PADDING.md). The associated [signed scale spectrum](signed/GCD_SPECTRUM.md) is closed under greatest common divisors.
+
+For every mixed pair outside the staircase, the first straight cut has at most six arithmetically possible placements at denominator one and seven at higher denominators. The seventh placement passes the length tests for all those higher-denominator parameters. [Classification of cuts](first-cuts/PROOF.md). The scale-two equilateral corner admits a proper partition into tiled convex polygons with sides in three 60-degree directions precisely when the scale-one equilateral triangle tiles. [Convex partition theorem](cuts/AXIS_POLYGONS.md). For 5063 an exact two-height certificate eliminates 27 small terminal polygons under that orientation restriction. [Certificate and replay](cuts/f1_624_two_heights/PROOF.md).
+
 ## Straight cuts on the 3431 and 5063 boards
 
 Any maximal sequence of straight cuts through the tile edges of a hypothetical 3431 tiling leaves at least one convex piece of 924, 2111, 2311 or 3431 tiles among the terminal pieces. The fixed (231,259,280) triangle cannot be filled by 280 copies of (33,7,37), as verified in all three possible orientation bands. For 5063 a terminal piece has at least 455 tiles. A tiling with all terminal pieces below 1820 would imply a tiling of the (455,559,624) triangle by 624 copies of (35,13,43). Both original scale-one decisions remain open. [Cut theorem and small certificates](cuts/README.md) · [Fixed-tile exclusion at 280](cuts/f1_280/PROOF.md).

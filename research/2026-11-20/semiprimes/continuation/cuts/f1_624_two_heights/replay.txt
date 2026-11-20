@@ -1,0 +1,22 @@
+make_trace.cpp: OK
+verify.cpp: OK
+board_-1.remaining.txt: OK
+verified packed endpoint records 3907102 endpoint deductions 51879913 exact survivors 5450803
+sweep 1 surviving 4757177
+sweep 2 surviving 3951341
+sweep 3 surviving 3026448
+sweep 4 surviving 2057644
+sweep 5 surviving 1198501
+contradiction on sweep 6 axis 6,1 line 0 interval 0,2730 surviving 922077
+sweep 1 surviving 4
+all four control placements survive
+board_0.remaining.txt: OK
+verified packed endpoint records 4433843 endpoint deductions 54071466 exact survivors 3826933
+sweep 1 surviving 3330516
+sweep 2 surviving 2743903
+sweep 3 surviving 2011469
+sweep 4 surviving 1243838
+sweep 5 surviving 601448
+contradiction on sweep 6 axis 1,6 line 0 interval 0,624 surviving 463132
+sweep 1 surviving 4
+all four control placements survive

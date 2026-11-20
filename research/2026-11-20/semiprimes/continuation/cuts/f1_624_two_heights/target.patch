@@ -1,0 +1,136 @@
+--- make_trace.cpp
++++ make_trace.cpp
+@@ -18,12 +18,12 @@
+ struct Bits{vector<UI>b;explicit Bits(UI n):b((n+63)/64,0){}bool get(UI v)const{return (b[v>>6]>>(v&63))&1;}void set(UI v){b[v>>6]|=UI(1)<<(v&63);}void reset(UI v){b[v>>6]&=~(UI(1)<<(v&63));}};
+ int main(int argc,char**argv){try{
+ if(argc<4)throw runtime_error("full_band_packed L U prefix [seconds=180] [trace=0] [control_scale=0]");int L=atoi(argv[1]),U=atoi(argv[2]);string prefix=argv[3];double limit=argc>4?atof(argv[4]):180;bool saveTrace=argc>5?atoi(argv[5]):false;int control=argc>6?atoi(argv[6]):0;if(L>0||U<0||U<L||U-L>4)throw runtime_error("support outside supported bounds");auto start=Clock::now();auto elapsed=[&](){return chrono::duration<double>(Clock::now()-start).count();};
+-P invg=prod(power({7,-3},-L),power({4,3},U));array<P,3> target{{P{0,0},mul(invg,231),prod(invg,{0,231})}};if(control)target={P{0,0},mul(invg,33*control),mul(rot(rot(invg)),7*control)};
++P invg=prod(power({6,1},-L),power({7,-1},U));array<P,3> target{{P{0,0},mul(invg,455),prod(invg,{0,624})}};if(control)target={P{0,0},mul(invg,35*control),mul(rot(rot(invg)),13*control)};
+ int xmin=target[0].x,xmax=xmin,ymin=target[0].y,ymax=ymin;for(P p:target){xmin=min(xmin,p.x);xmax=max(xmax,p.x);ymin=min(ymin,p.y);ymax=max(ymax,p.y);}int H=ymax-ymin+1;if(H>65535)throw runtime_error("y index exceeds uint16");vector<int> left(H),right(H);vector<UI> offsets(H+1,0);
+ for(int yy=0;yy<H;yy++){int y=yy+ymin;I lo=xmin,hi=xmax;for(int k=0;k<3;k++){P a=target[k],d=sub(target[(k+1)%3],a);I num=I(d.x)*(y-a.y)+I(d.y)*a.x;if(d.y>0)hi=min(hi,floordiv(num,d.y));else if(d.y<0)lo=max(lo,ceildiv(-num,-I(d.y)));else if(num<0)hi=lo-1;}left[yy]=lo;right[yy]=hi;offsets[yy+1]=offsets[yy]+max(I(0),hi-lo+1);}
+ UI NP=offsets.back();auto point=[&](int x,int yy)->I{if(yy<0||yy>=H||x<left[yy]||x>right[yy])return -1;return offsets[yy]+x-left[yy];};
+ vector<Temp> temps;map<pair<int,int>,int> dids;vector<P> directions;auto direction=[&](P p){p=primitive(p);auto key=make_pair(p.x,p.y);auto it=dids.find(key);if(it!=dids.end())return it->second;int id=directions.size();directions.push_back(p);dids[key]=id;return id;};
+-for(int h=L;h<=U;h++){P u=prod(power({7,-3},h-L),power({4,3},U-h));for(int order=0;order<2;order++){P a=mul(u,order?7:33),b=mul(rot(rot(u)),order?33:7);for(int r=0;r<6;r++){Temp t{{P{0,0},a,b},h,{}};for(int k=0;k<3;k++)t.dirs[k]=direction(sub(t.p[(k+1)%3],t.p[k]));temps.push_back(t);a=rot(a);b=rot(b);}}}
++for(int h=L;h<=U;h++){P u=prod(power({6,1},h-L),power({7,-1},U-h));for(int order=0;order<2;order++){P a=mul(u,order?13:35),b=mul(rot(rot(u)),order?35:13);for(int r=0;r<6;r++){Temp t{{P{0,0},a,b},h,{}};for(int k=0;k<3;k++)t.dirs[k]=direction(sub(t.p[(k+1)%3],t.p[k]));temps.push_back(t);a=rot(a);b=rot(b);}}}
+ int NT=temps.size(),ND=directions.size();UI NR=NP*ND,NV=NP*NT;vector<vector<Term>> terms(ND);for(int o=0;o<NT;o++)for(int k=0;k<3;k++)for(int end=0;end<2;end++){P p=temps[o].p[(k+end)%3];terms[temps[o].dirs[k]].push_back({o,-p.x,-p.y,end?-1:1});}
+ array<UI,3> corners;array<int,3> bd;for(int k=0;k<3;k++){corners[k]=point(target[k].x,target[k].y-ymin);bd[k]=direction(sub(target[(k+1)%3],target[k]));if(bd[k]>=ND)throw runtime_error("unsupported boundary direction");}
+ auto rhs=[&](UI p,int d){int b=0;for(int k=0;k<3;k++){if(p==corners[k]&&d==bd[k])b++;if(p==corners[(k+1)%3]&&d==bd[k])b--;}return b;};
+@@ -41,4 +41,16 @@
+ cerr<<"pass="<<passes<<" removed="<<removed<<" remaining="<<valid-removed<<" seconds="<<elapsed()<<"\n";}while(removed>before&&!conflict&&!incomplete);
+ if(trace)trace.close();ofstream report(prefix+".json");report<<"{\"scope\":\"complete band lattice zero support propagation\",\"L\":"<<L<<",\"U\":"<<U<<",\"control_scale\":"<<control<<",\"candidate_placements\":"<<valid<<",\"removed\":"<<removed<<",\"remaining\":"<<valid-removed<<",\"passes\":"<<passes<<",\"trace_records\":"<<traceRecords<<",\"conflict\":"<<(conflict?"true":"false")<<",\"incomplete\":"<<(incomplete?"true":"false")<<",\"bad_direction\":"<<badD<<",\"bad_y\":"<<badY<<",\"bad_word\":"<<badW<<",\"bad_mask\":"<<badMask<<",\"seconds\":"<<elapsed()<<"}\n";
+ if(!conflict&&!incomplete && valid-removed<3000000){ofstream geom(prefix+".remaining.txt");geom<<L<<' '<<U<<' '<<valid-removed<<'\n';for(int o=0;o<NT;o++)for(int y=0;y<H;y++)for(int w=0;w<WP;w++){UI v=bitmap[o][size_t(y)*WP+w];while(v){int bit=__builtin_ctzll(v);v&=v-1;geom<<o<<' '<<xmin+64*w+bit<<' '<<y+ymin<<'\n';}}}
++if(!conflict&&!incomplete) {
++    ofstream rows(prefix+".remaining.txt");
++    rows<<L<<' '<<U<<' '<<valid-removed<<'\n';
++    for(int o=0;o<NT;o++)for(int y=0;y<H;y++)for(int w=0;w<WP;w++) {
++        UI bits=bitmap[o][size_t(y)*WP+w];
++        while(bits) {
++            int bit=__builtin_ctzll(bits);bits&=bits-1;
++            rows<<o<<' '<<xmin+64*w+bit<<' '<<y+ymin<<'\n';
++        }
++    }
++    if(!rows)throw runtime_error("could not export survivors");
++}
+ }catch(const exception&e){cerr<<"ERROR "<<e.what()<<'\n';return 1;}}
+--- verify.cpp
++++ verify.cpp
+@@ -1,7 +1,3 @@
+-// Independently replay packed endpoint deductions, in reverse order on disk.
+-// Usage: ./verify L U proof.backtrace.bin root_vertex root_axis_x root_axis_y root_sign
+-// root_sign = 0 for the start or 1 for the end of a CCW target edge.
+-// Build with c++ -O3 -std=c++17 verify.cpp -o verify
+ #include <algorithm>
+ #include <array>
+ #include <cstdint>
+@@ -68,13 +64,12 @@
+ int main(int argc,char**argv){
+     size_t processed=0;
+     try {
+-        require(argc==8,"arguments: L U certificate root_vertex root_axis_x root_axis_y root_sign");
+-        int lo=stoi(argv[1]),hi=stoi(argv[2]),corner=stoi(argv[4]),ux=stoi(argv[5]),uy=stoi(argv[6]),rootEnd=stoi(argv[7]);
+-        require((lo==0&&hi==2)||(lo==-1&&hi==1),"unknown band");
+-        require(corner>=0&&corner<3&&(rootEnd==0||rootEnd==1),"invalid root");
+-        const V p{7,-3},q{4,3},rho{0,1};
++        require(argc==5,"arguments: L U forward_certificate ordered_survivors");
++        int lo=stoi(argv[1]),hi=stoi(argv[2]);
++        require((lo==-1&&hi==0)||(lo==0&&hi==1),"unknown band");
++        const V p{6,1},q{7,-1},rho{0,1};
+         V factor=product(power(p,-lo),power(q,hi));
+-        Triangle target{{{0,0},scale(factor,231),scale(product(rho,factor),231)}};
++        Triangle target{{{0,0},scale(factor,455),scale(product(rho,factor),624)}};
+         array<V,3> wall;
+         map<V,Constraint> rules;
+         for(int k=0;k<3;++k){
+@@ -85,10 +80,10 @@
+         vector<Shape> shapes;vector<V> axes;
+         for(int h=lo;h<=hi;h++){
+             V basis=product(power(p,h-lo),power(q,hi-h));
+-            for(int first: {33,7}){
++            for(int first: {35,13}){
+                 for(int j=0;j<6;j++){
+                     V u=product(basis,power(rho,j));
+-                    Triangle t{{{0,0},scale(u,first),scale(product(u,power(rho,2)),40-first)}};
++                    Triangle t{{{0,0},scale(u,first),scale(product(u,power(rho,2)),48-first)}};
+                     require(cross(t[1],t[2])>0,"internal orientation");
+                     Shape shape;int o=shapes.size();
+                     for(int k=0;k<3;k++){
+@@ -107,8 +102,8 @@
+         int xmin=0,xmax=0,ymin=0,ymax=0;
+         for(V v:target){xmin=min(xmin,v.first);xmax=max(xmax,v.first);ymin=min(ymin,v.second);ymax=max(ymax,v.second);}
+         int height=ymax-ymin+1,width=(xmax-xmin+64)/64;
+-        vector<vector<Range>> admissible(36,vector<Range>(height));
+-        for(int o=0;o<36;++o)for(int iy=0;iy<height;++iy){
++        vector<vector<Range>> admissible(24,vector<Range>(height));
++        for(int o=0;o<24;++o)for(int iy=0;iy<height;++iy){
+             LL low=xmin,high=xmax;int y=iy+ymin;
+             for(int k=0;k<3;++k){
+                 auto [dx,dy]=wall[k];LL val=LL(dx)*y-shapes[o].boundary[k];
+@@ -151,20 +146,15 @@
+             rejected.mark(s.o,y+s.dy,w+s.blocks,mask<<s.bits);
+             if(s.bits)rejected.mark(s.o,y+s.dy,w+s.blocks+1,mask>>(64-s.bits));
+         };
+-        auto rootIt=find(axes.begin(),axes.end(),V{ux,uy});
+-        require(rootIt!=axes.end(),"unknown root direction");
+-        auto& root=rules[*rootIt];V rp=target[corner];
+-        auto rhs=root.external.find(rp);
+-        require(rhs!=root.external.end()&&rhs->second==(rootEnd?-1:1),"root lacks required exterior sign");
+         ifstream f(argv[3],ios::binary|ios::ate);require(bool(f),"cannot read proof");
+         auto bytes=static_cast<size_t>(f.tellg());require(bytes%sizeof(Packed)==0,"truncated proof record");
+         size_t remaining=bytes/sizeof(Packed),bit_count=0;
+         vector<Packed> buf(65536);
+         while(remaining){
+-            size_t n=min(remaining,buf.size());remaining-=n;f.seekg(remaining*sizeof(Packed));
++            size_t n=min(remaining,buf.size());remaining-=n;f.seekg(processed*sizeof(Packed));
+             require(bool(f.read(reinterpret_cast<char*>(buf.data()),n*sizeof(Packed))),"read failure");
+-            while(n-->0){
+-                const auto& r=buf[n];++processed;
++            for(size_t i=0;i<n;++i){
++                const auto& r=buf[i];++processed;
+                 require(r.di<axes.size()&&r.y<unsigned(height)&&r.w<unsigned(width),"row out of range");
+                 require((r.starts||r.ends)&&!(r.starts&r.ends),"empty or contradictory mask");
+                 for(const auto& b:outer[r.di])if(b.iy==int(r.y)&&b.w==int(r.w))
+@@ -181,10 +171,19 @@
+                 }
+             }
+         }
+-        int x=rp.first-xmin;
+-        for(const auto& t:tests[rootIt-axes.begin()][rootEnd])
+-            require(!(possible(t,rp.second-ymin,x/64)&(Word(1)<<(x%64))),"root still has a placement");
+-        cout<<"PASS band "<<lo<<" "<<hi<<" verified_packed_rows "<<processed<<" endpoint_deductions "<<bit_count
+-            <<" root "<<rp.first<<" "<<rp.second<<" axis "<<ux<<" "<<uy<<" sign "<<(rootEnd?-1:1)<<"\n";
++        ifstream rows(argv[4]);int lower,upper,total;
++        require(bool(rows>>lower>>upper>>total)&&lower==lo&&upper==hi&&total>0,"bad survivor header");
++        int count=0;
++        for(int o=0;o<24;o++)for(int y=0;y<height;y++)for(int w=0;w<width;w++){
++            Word bits=available(o,y,w);
++            while(bits){
++                int bit=__builtin_ctzll(bits);bits&=bits-1;
++                int orient,px,py;
++                require(bool(rows>>orient>>px>>py)&&orient==o&&px==xmin+64*w+bit&&py==y+ymin,"survivor list mismatch");
++                ++count;
++            }
++        }
++        require(count==total,"survivor count mismatch");int extra;require(!(rows>>extra),"extra survivors");
++        cout<<"verified packed endpoint records "<<processed<<" endpoint deductions "<<bit_count<<" exact survivors "<<count<<"\n";
+     }catch(const exception& e){cerr<<"REJECT after "<<processed<<" packed deductions: "<<e.what()<<"\n";return 1;}
+ }

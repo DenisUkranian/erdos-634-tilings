@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="656.39952pt" height="156.756239pt" viewBox="0 0 656.39952 156.756239" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 156.756239 
+L 656.39952 156.756239 
+L 656.39952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 152.264238 74.847185 
+L 305.321812 74.847185 
+L 177.477784 31.176042 
+z
+" clip-path="url(#p53f884c3e2)" style="fill: #fff6df; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 22.002473 74.847185 
+L 152.264238 74.847185 
+L 177.477784 31.176042 
+L 47.216019 31.176042 
+z
+" clip-path="url(#p53f884c3e2)" style="fill: #afd9df; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(75.113408 46.019354)">Padding</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(69.363954 56.097386)">5,840 tiles</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(201.208142 49.473265)">Board</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(179.281189 59.551296)">3,431 tile areas</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="166.07988" y="15.558281" transform="rotate(-0 166.07988 15.558281)">Original board and exterior padding</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
+    <path d="M 522.095616 74.847185 
+L 629.561572 74.847185 
+L 510.697712 55.105436 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #9bc8ba; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 510.697712 55.105436 
+L 501.717544 31.176042 
+L 499.299807 35.363686 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #f0ad73; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 629.561572 74.847185 
+L 501.717544 31.176042 
+L 510.697712 55.105436 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #b0bdd6; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 386.998376 74.847185 
+L 505.862237 55.105436 
+L 398.396281 55.105436 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #9bc8ba; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 386.998376 74.847185 
+L 522.095616 74.847185 
+L 505.862237 55.105436 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #b0bdd6; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 505.862237 55.105436 
+L 522.095616 74.847185 
+L 510.697712 55.105436 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #f0ad73; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 346.242233 74.847185 
+L 386.998376 74.847185 
+L 398.396281 55.105436 
+L 357.640138 55.105436 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #eee6c2; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 375.600472 55.105436 
+L 494.464333 35.363686 
+L 386.998376 35.363686 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #9bc8ba; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 375.600472 55.105436 
+L 510.697712 55.105436 
+L 494.464333 35.363686 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #b0bdd6; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 494.464333 35.363686 
+L 510.697712 55.105436 
+L 499.299807 35.363686 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #f0ad73; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 357.640138 55.105436 
+L 375.600472 55.105436 
+L 386.998376 35.363686 
+L 369.038042 35.363686 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #eee6c2; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 369.038042 35.363686 
+L 499.299807 35.363686 
+L 501.717544 31.176042 
+L 371.455779 31.176042 
+z
+" clip-path="url(#pd824b17ab0)" style="fill: #eee6c2; stroke: #24354a; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 476.503998 74.847185 
+L 501.717544 31.176042 
+" clip-path="url(#pd824b17ab0)" style="fill: none; stroke-dasharray: 7.03,3.04; stroke-dashoffset: 0; stroke: #a22239; stroke-width: 1.9"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="490.31964" y="15.558281" transform="rotate(-0 490.31964 15.558281)">One tiling of the combined trapezoid</text>
+   </g>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="347.63976" y="147.68452" transform="rotate(-0 347.63976 147.68452)">Dashed line: the full cut needed to recover the original board.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p53f884c3e2">
+   <rect x="7.2" y="21.558281" width="317.75976" height="58.716477"/>
+  </clipPath>
+  <clipPath id="pd824b17ab0">
+   <rect x="331.43976" y="21.558281" width="317.75976" height="58.716477"/>
+  </clipPath>
+ </defs>
+</svg>
