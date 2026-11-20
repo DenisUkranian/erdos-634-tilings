@@ -59,3 +59,5 @@ $$
 j< vq/c = 2v-\frac{3v^3}{u^2+uv+v^2}.
 $$
 The subtracted fraction lies strictly between zero and one by $u>4v(v-1)$ and $v\ge3$. This proves $j\le2v-1$.
+
+Following these cuts through a whole dissection forces a [terminal quadrilateral with an explicit area bound](TERMINAL.md).

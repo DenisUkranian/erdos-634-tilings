@@ -55,3 +55,5 @@ Run `python3 classify.py 47 73` for a result with its reason. A result of OPEN i
 Internal checks are recorded here. No independent referee report or formal proof of these new results is claimed.
 
 The [all-prime row estimate](ALL_PRIME_ROWS.md) controls actual positive counts as well. Only $O(Y/(\log Y)^2)$ primes $P\le Y$ have any nonclassical positive product $PQ$, even allowing arbitrary primes $Q$. It uses the older necessary geometric overlist and hence avoids the two additional manuscript exclusions.
+
+The classifier also reproduces the project census on all 88 products of two primes through 279, including repeated primes (31 YES, 57 NO). [Census and sources](../../../../2026-11-19/next/global/CENSUS_279.md).
