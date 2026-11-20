@@ -1,0 +1,7 @@
+# How much the two reference packings must change
+
+The exact certificate covers every complete tiling by congruent copies of the specified unit tile. For 3431, at least 70 of the 3427 reference placements must be omitted, and at least 74 new placements must occur. For 5063, the numbers are at least 82 of 5059 omitted, and at least 86 new. These are necessary conditions on full tilings, allowing translated, rotated and reflected tiles and T-junctions.
+
+Download and unpack [the reproducible source bundle](unit_boards_packing_replay.zip). Its English README gives the argument and every previous mathematical input. Run `python3 replay.py` in the extracted directory. The archive includes the original packing certificates, a 143-tile positive control, the geometry scanner, the exact rational dual check, and hashes of the bundled files. [Complete verifier output](REPLAY.txt).
+
+The proof distinguishes distinct short-edge orientation heights and their translated lattices. A third class already costs at least 74 or 86 additions under the bounds required here. With just the two reference classes, every exact tiling has at least 75 or 90 new placements, respectively, by the geometric candidate elimination and the rational certificate. Subtracting the four-tile deficit gives the omission counts above. The archive SHA-256 is `c4d09a22a61ee7bdc1623a99192e401d0e2551446d5ffa9a9c4661fb16609f3b`.

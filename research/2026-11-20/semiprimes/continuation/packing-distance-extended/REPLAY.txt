@@ -1,0 +1,37 @@
+All verified placements retained: 143 / 143
+initial 12734268 12717225
+absent 0/0, fan removed 747718; sweep 0 retained 12124041 12187801 teeth 43 of 43
+absent 0/0, fan removed 1076139; sweep 1 retained 11359128 11364788 teeth 43 of 43
+absent 0/0, fan removed 971694; sweep 2 retained 10668269 10564290 teeth 43 of 43
+absent 0/0, fan removed 919039; sweep 3 retained 10014338 9821522 teeth 43 of 43
+absent 0/0, fan removed 818555; sweep 4 retained 9434404 9149454 teeth 43 of 43
+absent 0/0, fan removed 739059; sweep 5 retained 8915654 8546394 teeth 43 of 43
+absent 0/0, fan removed 671951; sweep 6 retained 8415438 8018600 teeth 43 of 43
+absent 0/0, fan removed 585307; sweep 7 retained 7969148 7554490 teeth 43 of 43
+absent 0/0, fan removed 495700; sweep 8 retained 7574638 7148430 teeth 43 of 43
+absent 0/0, fan removed 440677; sweep 9 retained 7219773 6796913 teeth 43 of 43
+absent 0/0, fan removed 374956; sweep 10 retained 6907448 6495817 teeth 43 of 43
+absent 0/0, fan removed 324714; sweep 11 retained 6621807 6235373 teeth 43 of 43
+absent 0/0, fan removed 278831; sweep 12 retained 6376559 6011908 teeth 43 of 43
+absent 0/0, fan removed 249431; sweep 13 retained 6158936 5813251 teeth 43 of 43
+absent 0/0, fan removed 204683; sweep 14 retained 5970779 5641727 teeth 43 of 43
+absent 0/0, fan removed 181147; sweep 15 retained 5804895 5488220 teeth 43 of 43
+absent 0/0, fan removed 159994; sweep 16 retained 5649022 5351205 teeth 43 of 43
+absent 0/0, fan removed 143753; sweep 17 retained 5508565 5228485 teeth 43 of 43
+absent 0/0, fan removed 130238; sweep 18 retained 5379560 5115602 teeth 43 of 43
+absent 0/0, fan removed 116709; sweep 19 retained 5258932 5013431 teeth 43 of 43
+absent 0/0, fan removed 105177; sweep 20 retained 5151097 4921394 teeth 43 of 43
+absent 0/0, fan removed 92692; sweep 21 retained 5054352 4835148 teeth 43 of 43
+absent 0/0, fan removed 84804; sweep 22 retained 4962535 4759127 teeth 43 of 43
+absent 0/0, fan removed 76631; sweep 23 retained 4880022 4688748 teeth 43 of 43
+absent 0/0, fan removed 67843; sweep 24 retained 4804251 4625383 teeth 43 of 43
+3431: 3559 candidates, 3485 inside, 70 matched overlaps, 3415 packed, 16 units of free area.
+3427 congruent tiles inside the 3431 board; all pairs disjoint in their interiors.
+Two area-16 pentagons hold 14 tiles each. Uncovered area: four tile areas.
+Short heights in one added patch: [0, 1, 41, 91, 131, 132, 239, 240, 242]
+N 3431 checked legal support 23792 exact objective -65635079/20000 at least 43 omitted from canonical reference, at least 75 new placements in the two-translate case
+3431 at least 70 reference omissions and 74 new placements
+5063: 5071 candidates, 5071 inside, 12 matched overlaps, 5059 packed, 4 units of free area.
+Applied 25 complete pruning sweeps
+N 5063 checked legal support 25139 exact objective -30518901/6250 at least 86 omitted from canonical reference, at least 90 new placements in the two-translate case
+5063 at least 82 reference omissions and 86 new placements
