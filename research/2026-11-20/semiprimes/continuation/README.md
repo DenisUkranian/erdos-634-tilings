@@ -8,6 +8,10 @@ Each prime greater than three has at most one possible mixed-residue partner. An
 
 For every prime $P$ congruent to 19 modulo 2184, the only prime $Q$ for which $PQ$ tiles is $Q=P$. [Proof from the older geometric overlist](partners/ISOLATED_ROWS.md). On every primitive F2 board the straight seam issuing from the 60-degree corner cannot meet either other corner seam at unit scale. Walks with arbitrarily many turns are subject to a related restriction on their edge directions. [Corner seams](first-cuts/CORNER_RAYS.md) · [Paths between corners](first-cuts/CORNER_PATHS.md).
 
+## Actual scale-one packings for the first two mixed pairs
+
+The 3431 board admits a packing of 3421 complete tiles. The 5063 board admits a saturated packing of 5059. Its two residual hexagons each have area two tiles, yet their longest contained segment has length $1289/35<43$, below the largest tile side. Any full 5063 tiling would require at least ten placements outside the signed construction's list of 5071 positive placements. [Packings and replay](packing/README.md) · [Sharp bound on contained segments](packing/LONGEST_SEGMENT.md) · [Forbidden placement groups](packing/FORBIDDEN_PATTERNS.md).
+
 ## The common boundary in an explicitly tiled trapezoid
 
 For every unit F2 board, attaching one tiled parallelogram along its full side gives a convex trapezoid with an ordinary tiling by the same tile. At 3431 the padding and trapezoid contain 5840 and 9271 tiles. At 5063 their counts are 7968 and 13031. Realizing the indicated edge across the padded tiling is equivalent to the original unit question. [Construction, diagram and exact checker](signed/PADDING.md). The associated [signed scale spectrum](signed/GCD_SPECTRUM.md) is closed under greatest common divisors.

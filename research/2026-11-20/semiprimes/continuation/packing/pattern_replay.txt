@@ -1,0 +1,8 @@
+P [(13, 43, 35, 'forced'), (35, 43, 13, 'C'), (43, 13, 35, 'C'), (43, 35, 13, 'C')]
+Q [(13, 43, 35, 'E'), (35, 43, 13, 'F'), (43, 13, 35, 'F'), (43, 35, 13, 'F')]
+two disjoint copies in the ordinary bridge and outer grids, outside both defect interiors
+first 4 fixed tiles, 8 verified split nodes, all leaves impossible
+alternate 4 fixed tiles, 37 verified split nodes, all leaves impossible
+second 14 fixed tiles, 13 verified split nodes, all leaves impossible
+third 16 fixed tiles, 45 verified split nodes, all leaves impossible
+6 disjoint impossible groups on 68 isolated inventory placements
