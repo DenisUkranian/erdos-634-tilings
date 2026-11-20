@@ -1,0 +1,103 @@
+CPython 3.12.14 on Linux (x86_64)
+
+$ python3 verify_full_board.py
+Exact scalar checks on 382 primitive odd shapes with u <= 100.
+N  low  high  forced_bisector  interface_edges_min  detour_edges
+3431 1369 2062 185 40 42
+5063 1849 3214 129 48 50
+19367 8281 11086 728 96 98
+60023 24649 35374 942 168 170
+64367 28561 35806 1859 176 178
+271151 117649 153502 3087 360 362
+641591 299209 342382 10940 560 562
+10206071 4313929 5892142 16616 2200 2202
+Certified tiling 143, short-height populations: {1: 105, 2: 38}
+Certified tiling 13724, short-height populations: {1: 11174, 2: 2550}
+Certified tiling 20252, short-height populations: {1: 16168, 2: 4084}
+[exit 0]
+
+$ python3 verify_line_counts.py
+Line-inventory convex hulls exclude the single block in 382 shapes (50600 line counts).
+3431: v=1, g=3, c=37, 5 line counts excluded
+5063: v=1, g=1, c=43, 14 line counts excluded
+10206071: v=3, g=1, c=2077, 95 line counts excluded
+59686343: v=5, g=3, c=5173, 55 line counts excluded
+[exit 0]
+
+$ python3 interface_graph.py
+143: 24 vertices, 93 directed edges; shortest/detour collar tile counts 16/20
+3431: 291 vertices, 1530 directed edges; shortest/detour collar tile counts 80/84
+5063: 625 vertices, 3465 directed edges; shortest/detour collar tile counts 96/100
+19367: 1095 vertices, 6094 directed edges; shortest/detour collar tile counts 192/196
+60023: 4355 vertices, 25260 directed edges; shortest/detour collar tile counts 336/340
+64367: 2723 vertices, 15509 directed edges; shortest/detour collar tile counts 352/356
+271151: 13775 vertices, 80910 directed edges; shortest/detour collar tile counts 720/724
+641591: 15431 vertices, 90125 directed edges; shortest/detour collar tile counts 1120/1124
+[exit 0]
+
+$ python3 census_f2.py
+N p q a b c u v
+3431 47 73 33 7 37 10 1
+5063 61 83 35 13 43 6 1
+19367 107 181 85 11 91 16 1
+60023 193 311 143 25 157 12 1
+64367 191 337 161 15 169 22 1
+271151 397 683 323 37 343 18 1
+641591 587 1093 533 27 547 40 1
+[exit 0]
+
+$ python3 scan_patches.py
+Four-copy positive control: 4 unit patches, also after reflection.
+certificate_143.json: unit patches 1, whole-source patches 1
+double_3431.json: unit patches 0, whole-source patches 1
+double_5063.json: unit patches 0, whole-source patches 1
+[exit 0]
+
+$ python3 sweep_dilations.py
+3431: unit patches at scales 3, 4, 5, 6: [0, 0, 0, 0]
+5063: unit patches at scales 3, 4, 5, 6: [0, 0, 0, 0]
+19367: unit patches at scales 3, 4, 5, 6: [0, 0, 0, 0]
+60023: unit patches at scales 3, 4, 5, 6: [0, 0, 0, 0]
+64367: unit patches at scales 3, 4, 5, 6: [0, 0, 0, 0]
+271151: unit patches at scales 3, 4, 5, 6: [0, 0, 0, 0]
+641591: unit patches at scales 3, 4, 5, 6: [0, 0, 0, 0]
+[exit 0]
+
+$ python3 corners/check.py
+Twelve orientations verified. Polygon signs, row telescoping, nonnegative transport, and independent direct residue minima verified. All four integral estimates tested on 546 primitive triples.
+[exit 0]
+
+$ python3 corners/cycles.py
+N=3431, (u,v)=(10,1), tile=(33, 7, 37), D=[534, 534, 507, 507], needed=1041, available=315
+N=5063, (u,v)=(6,1), tile=(35, 13, 43), D=[623, 623, 517, 517], needed=1140, available=650
+N=19367, (u,v)=(16,1), tile=(85, 11, 91), D=[3585, 3585, 3515, 3515], needed=7100, available=1320
+N=60023, (u,v)=(12,1), tile=(143, 25, 157), D=[10244, 10244, 9853, 9853], needed=20097, available=5225
+N=64367, (u,v)=(22,1), tile=(161, 15, 169), D=[12908, 12908, 12775, 12775], needed=25683, available=3465
+N=271151, (u,v)=(18,1), tile=(323, 37, 343), D=[52193, 52193, 51337, 51337], needed=103530, available=17612
+N=641591, (u,v)=(40,1), tile=(533, 27, 547), D=[141869, 141869, 141427, 141427], needed=283296, available=21060
+N=15871823, (u,v)=(86,5), tile=(2457, 295, 2617), D=[3099847, 3057116, 2874199, 2827571], needed=30085293861/25370, available=1084833
+[exit 0]
+
+$ python3 corners/boundary.py
+Apéry checks: 634 primitive triples, 624254 residue minima, 26 positive cap-length tests.
+u=10, v=1, minimum for residue of 71 = 99
+u=6, v=1, minimum for residue of 71 = 175
+[exit 0]
+
+$ python3 staircase/arithmetic.py
+Counter({'ordered shapes': 13663, 'constructed': 12320, 'outside staircase': 1343, 'independent integer DPs': 65})
+649 455 u,v,g 46 13 3 load frequencies Counter({(24, 11, 11): 16, (61, 68, 9): 2})
+3325 2291 u,v,g 104 29 3 load frequencies Counter({(54, 25, 25): 38, (137, 154, 21): 4})
+7289 5031 u,v,g 154 43 3 load frequencies Counter({(80, 37, 37): 56, (203, 228, 31): 6})
+33 7 u,v,g 10 1 3 load frequencies Counter()
+[exit 0]
+
+$ python3 staircase/check_staircase.py
+certificate_143.json {'count': 143, 'regions': 19, 'pairs': 171}
+certificate_174191.json {'count': 174191, 'regions': 51, 'pairs': 1275}
+certificate_2732927.json {'count': 2732927, 'regions': 27, 'pairs': 351}
+certificate_273743.json {'count': 273743, 'regions': 51, 'pairs': 1275}
+certificate_340235759.json {'count': 340235759, 'regions': 59, 'pairs': 1711}
+certificate_70696487.json {'count': 70696487, 'regions': 59, 'pairs': 1711}
+certificate_825887.json {'count': 825887, 'regions': 51, 'pairs': 1275}
+[exit 0]
