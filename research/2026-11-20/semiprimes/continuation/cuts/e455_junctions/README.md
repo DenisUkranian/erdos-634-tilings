@@ -1,6 +1,6 @@
 # The equilateral 455-tile candidate has no straight fan partition
 
-For the tile of sides 35, 13 and 43, let E be the equilateral triangle of side 455. Its area is 455 tile areas. Four copies of E and three ordinary triangular grids of scales 35, 13 and 43 would give the full 5063 board, since 4·455 + 35² + 13² + 43² = 5063. Whether E itself tiles, and whether the original board tiles, remain open in this note.
+For the tile of sides 35, 13 and 43, let E be the equilateral triangle of side 455. Its area is 455 tile areas. Four copies of E and three ordinary triangular grids of scales 35, 13 and 43 would give the full 5063 board, since 4·455 + 35² + 13² + 43² = 5063. The project already excludes E itself via the [manuscript stopped-run theorem](../../counting/inputs/F2_V1_PURITY.md). The computation below independently excludes the listed straight partitions without using that theorem. The original 5063 board remains undecided.
 
 **Theorem.** E has no partition into two or three convex polygons individually tileable by the specified tile. More generally, it has no proper partition into convex tileable sectors by straight arms from one interior point to the boundary. Each cell may use arbitrary rotations, reflections and T-junctions.
 

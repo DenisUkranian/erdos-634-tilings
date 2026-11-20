@@ -1,6 +1,6 @@
-# One convex quadrilateral sufficient for 5063
+# A certified packing of the 5063 board with two unfillable convex holes
 
-For the unit board with sides 1079, 1849 and 2135 and the tile with sides 13, 35 and 43, a tiling of the following single convex quadrilateral would give a complete 5063-tiling. Its area is 224 unit tiles. Whether the quadrilateral or the full board tiles is open in this record.
+For the unit board with sides 1079, 1849 and 2135 and the tile with sides 13, 35 and 43, a tiling of the following single convex quadrilateral would give a complete 5063-tiling. Its area is 224 unit tiles. The [exact exclusion](exclusion/PROOF.md) rules out every tiling of this quadrilateral. For each of the two specified hole boundaries, every tiling of the original board must contain a tile crossing that boundary. The original 5063 board remains undecided.
 
 Use physical coordinates (x+yρ)/43 with ρ=exp(iπ/3). One copy of the quadrilateral has vertices (35217,0), (46397,0), (42081,8540), (35217,13545), in counterclockwise order. Its side lengths in that order are 260, 172, 143 and 315. The other copy is its exact translate by (−11180,13545) in these coordinates. A filling of either quadrilateral may thus be used verbatim in the other.
 
