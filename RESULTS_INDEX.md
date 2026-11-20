@@ -1,6 +1,10 @@
-# Results and source index through 10 October 2026
+# Results and source index through 21 November 2026
 
-The [project overview](README.md) links to later work. The dated entries below preserve the original claims, qualifications and source links.
+The [project overview](README.md) summarizes current work. The dated entries below preserve the original claims, qualifications and source links.
+
+## 21 November 2026: complete minimal-odd exclusion at 5063
+
+[Full proof and exact certificate package](research/2026-11-21/semiprimes/README.md). Every complete tiling of the specified 5063 board has `n_odd>=215`: all `n_odd=129` charge profiles, including charged remote branches, are excluded by 65 exact certificates and a complete finite enumeration. The independent checker verifies 1,442,220 integer column inequalities and all 780 transformed cuts. **3431 and 5063 remain open as original tile counts.**
 
 ## 20 November 2026: global endpoint continuation
 

@@ -1,0 +1,352 @@
+{
+  "format": 1,
+  "baseline_commit": "e2f3cba5e1e046e78fae853ca17ff54c2e8f8a72",
+  "tile": [
+    35,
+    13,
+    43
+  ],
+  "excluded_odd_population": 129,
+  "new_minimum_odd_population": 215,
+  "full_5063_excluded": false,
+  "full_3431_excluded": false,
+  "certificates": [
+    {
+      "path": "research/2026-11-20/semiprimes/continuation/global-closure/median/REMOTE_ZERO_MIN_43_IPM.json",
+      "sha256": "6234ed7caa598a9f6929edaf32fad52b946f07ff7c5c7b62b156c8fa148a6a80",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/profile_up1_plus1_native_minus3.json",
+      "sha256": "56a58c328d56824d0cf09e38852f756a6151a29e649142cad907c0e902c2cc56",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_000.json",
+      "sha256": "3a110c9b37872827be5405793dde8b4af164087e98b0d9dc3c593e539db3dc31",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_001.json",
+      "sha256": "caaa6f66a01c25f1181ae7953f424529d90a55df1d1df42cdf99f6f6b9de7bf9",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_002.json",
+      "sha256": "667f31deef8888459147a7c67b452c14f4f9ba965e91a36ea5b96071bb98774a",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_003.json",
+      "sha256": "54897e19fe5ed279c557239903bd4d6fb9b3ab547b2d842cfb4728e9c6e5eb6e",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_004.json",
+      "sha256": "ea9618b18f95aecbd98bd1f044ab6eac38e06ccce040ec2b44d0695a10d798a0",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_005.json",
+      "sha256": "113bf639cd4bfde2d68d32a46a2978e17387c23b3225d923ef7b6d57d5e76d0a",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_006.json",
+      "sha256": "687df50b6337f5860848115f10d0a96bc640f16f4644da3a80719123dee30b9a",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_007.json",
+      "sha256": "9f035c3768c46c3dd7b7ce0b8eafbedfb3f861389cf7552031fef86258d52cd4",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_008.json",
+      "sha256": "9d3863cb08ee19f2deb985722191e9727548dd8070c34b060cc0583d07dbdc61",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_009.json",
+      "sha256": "fcd7fb0b33904ca550623c2a060449fcdd18a8479ca233e94e260b343bb7ebb6",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_010.json",
+      "sha256": "f134ebb98d46de34987ce87dc84d76a97c50d0f508b72731e7f7e645b4784bee",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_011.json",
+      "sha256": "2ad15eb5443597ca7d30a0ecbe0692c720cc8ef7c630d14902d3bb904a614970",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_012.json",
+      "sha256": "47b6de8172028ac18b453ed034b41f0af8df1313671af5049d6450f4ad316ef1",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_013.json",
+      "sha256": "98f78d33f54d3a2f94bda370f3877b28db6be5723a76048006ab13fefc2366d2",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_014.json",
+      "sha256": "fc4a220e296b6e98b92df937b66bd16f4fa03070ba3df2bcdf085809bf75120d",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_015.json",
+      "sha256": "1bcc7216a75fbaf147cf866b18eef325b60c4713bc2b837f07cad55297809743",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_016.json",
+      "sha256": "e487c04ae6b3ebdac99d3dd43f0bfeae6ad37fa022c38a70fba576c2a6742de8",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_017.json",
+      "sha256": "5cc5c6674661fc12e2fed54432199deeed73c2daada045886757adc5394d143e",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_018.json",
+      "sha256": "81718b3a67ff396ffa7c862014e98c98e573ef21ed93beee8311ed00f6e3d6f8",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_019.json",
+      "sha256": "08157a8f9ca8c42b7808839e1d095a19ca27abc6517afd51cbb353212f836375",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_020.json",
+      "sha256": "71111f18228382fb27902ef7b572fea9f03d5618ff7b7a7ff8c50178e67988de",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_021.json",
+      "sha256": "d4816a52866a288d84e94a61b6261c3fd722193694cd13c65ff590a32e522b92",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_022.json",
+      "sha256": "8ea69b8e1365b92ce2b420bf2835c3b92f883aa33f51d93b71dbd7dc827e9b47",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_023.json",
+      "sha256": "c585bec8ec48780e152dbf31d16c1a9fd482ac1f1dce152cbc1fd385c03fc4b7",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_024.json",
+      "sha256": "7c5e9620a8a84d681e27dd307994abc335733045f30e11d9c5fab9d126eeab3e",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_025.json",
+      "sha256": "40b8602db8ed7cb67dbf0ef1ca25216a7e766736b3016f0322abf5b187427d53",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_026.json",
+      "sha256": "fc7336f000fb6e87d165de721768a24d46d4acf0163d5f65781746ab6f4b7b5a",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_027.json",
+      "sha256": "8cb01e9191c902e495ecb6b514181976852d783ce11fdbc8a21118b2f7f5825b",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_028.json",
+      "sha256": "46bf25f1d75de88a9cf6c0b4ba2e5e309958cc4f77c0d91372959b8c5bf80992",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_029.json",
+      "sha256": "4cda97699c61d1c3245c57dec736b31e15ee6ee60519231da412a232b9fe8ee8",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/best_profile_5063.json",
+      "sha256": "3b678273fe03b0b00b0980baa41b37e493622c6c7d2abd9b95bba60c7d3738d1",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_000.json",
+      "sha256": "34737a7961430dec6186469d18c11498fbd327f826125b624c637b4d25e4282e",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_001.json",
+      "sha256": "f65c4191be87dad45f4654ec028e232ecdf0dbc6f80199e56c90d82a94e7cd04",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_002.json",
+      "sha256": "61d0c8db7e09a1e45528d8c1faa0936f6cccfcb837b8b88f0a4557b5d9f52cdd",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_003.json",
+      "sha256": "1654730b7a60f36c80442768d2240af97cadfaf22792d77ddbb63e3960247f32",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_004.json",
+      "sha256": "8d574e05f1fb2bcf09cb3fdb21d1b3c8de6478605ab863e91cff204fbe9b17ac",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_005.json",
+      "sha256": "a5ed766463ef50f72decf72b6ff4caece9c05195894141521e78952e2ecba331",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_006.json",
+      "sha256": "1093df4d918f4b3d8ce3174906225a365112283c02eedd94665a003daa743b1c",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_007.json",
+      "sha256": "dec8ad1666ffefa0286a43ad6b7a418b6354888afa19fc0ace115e82679b1cac",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_008.json",
+      "sha256": "020356c081a32dc235abed68263c62b260a5d0930ccb6e26833db32cdf75d754",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_009.json",
+      "sha256": "7b910f691a0927ae774340410f183d8a06c75e0f623a37c4061a443bb98bc1a8",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_010.json",
+      "sha256": "6e02bf37ab9ee880fce54e9ed9a6ecbb973d1e0a622b98608682741c56e2d480",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_011.json",
+      "sha256": "4f81d631e12d9d849cd0e9b44ed052ab9b313ff245129bc9c6c6832e287a4fd1",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_012.json",
+      "sha256": "fd6cb519deeab125247e77c0e677cd6a343b2ff547b7c5a12840ef4a35ad5bd7",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_013.json",
+      "sha256": "1dfbf79daa2cdb074f57583e7d99660990455b017bfe85241c8b61cb27b5e8e9",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_014.json",
+      "sha256": "dc3fe0b6f5a8e12ec1fe4125de209a90a9f80dcb7248bc2f15ff374da1891a35",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_015.json",
+      "sha256": "58e6a237b0a6efa5fbcb296d9e8e8ea78ce9f09d291fdfc3c62303e9e2e9867b",
+      "D": 1000003
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_016.json",
+      "sha256": "7cd205914ba4e276a39e5d0f5c781e983dfd53d2fc372cc31e54e5db0f5befc1",
+      "D": 1000003
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_017.json",
+      "sha256": "4a6a157b48e09de5a1bf9e762e950264869cf860197c40297a50cc7ccd694430",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_018.json",
+      "sha256": "dee7e279e32800b68be7750e34ebc0e67e728932f1a175c5708ac7f71d704cb9",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_019.json",
+      "sha256": "a2719a65b526037fe86fa1286f25274fff2ac45b0b2faac73a521634cfbbd30f",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_020.json",
+      "sha256": "1511b7d579df0acac33de63f61adcbc000052e5016bd2234ad9da73595c8d1ea",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_021.json",
+      "sha256": "b2fee66e918ef8bfa511fc1104f9840e758d0d919448888a7c031d017e59a56b",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_022.json",
+      "sha256": "30f5f7dd7fe3424a005593bbed92617fabee725fbc7378b418265cca468f36d0",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_023.json",
+      "sha256": "f8d223e1e1b7ad702d294cc5c5fb83107b3a0264acbd86b20be54065619975aa",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_024.json",
+      "sha256": "646ad57a9affceaad523de843bb9232295107da7dcd864319d6ad84cee841fb6",
+      "D": 1000003
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_025.json",
+      "sha256": "724142a44827996fa8e87455ef89b634755a7ac202eb992a4763d9effc4f0141",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_026.json",
+      "sha256": "121feea607d3778b4208db9d1473d1023f6c4abb2b975d28f19cb6ec791e05eb",
+      "D": 1000002
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_027.json",
+      "sha256": "712475b8a5216afeb62b65cfd75850e588433366d135169e696f88367d2be3b2",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_028.json",
+      "sha256": "27d8bcda1e46b281cc16acf8d73efd84c71b16a5e4f24e0d9ee68d0896c87a36",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_029.json",
+      "sha256": "f068ece30b6efc4585aa6f055e8915852fd2e25570ec7f0029995b33f44560ba",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_030.json",
+      "sha256": "8b5aee9d40bacff43f6cf3834dd0604ecc640ca656e64dff559a379e9466bf00",
+      "D": 1000001
+    },
+    {
+      "path": "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_031.json",
+      "sha256": "134deefaf00b828313e6c4c59555d8fa3d806fd55a8af9dc906e853107434c5b",
+      "D": 1000001
+    }
+  ],
+  "cut_file": "research/2026-11-21/semiprimes/gate-model/final_cuts_5063.dat",
+  "cut_file_sha256": "344a6da476a7551fddf9ad0bd2c97ef85f5ceed170eee5bb43704e24dc73cfbd",
+  "enumerator_source": "research/2026-11-21/semiprimes/gate-model/enumerate_profiles.cpp",
+  "enumerator_source_sha256": "2d3ff3b9ec7e8ebae6558fa5dac8cab1998c62ac2df0f7743b42525c2d047fc2",
+  "base_certificates": 65,
+  "single_columns_per_certificate": 22188,
+  "total_column_inequalities": 1442220,
+  "transformed_cuts": 780,
+  "complete_profile_count": 34672599,
+  "after_sign_reserves": 17800359,
+  "surviving_profiles": 0,
+  "verification_scope": "Exact finite certificate exclusion of n_odd=129, conditional on the proved full-tiling phase reduction; neither original count is decided."
+}

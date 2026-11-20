@@ -1,0 +1,88 @@
+# Complete exclusion of the minimal odd mode at 5063
+
+21 November 2026. **3431 and 5063 remain OPEN as original tile counts.**
+This continuation closes the entire `n_odd=129` case for the 5063 board,
+including all charged remote even branches. Every hypothetical complete
+5063 tiling consequently has at least **215 odd-height tiles**.
+
+The proof uses 65 exact endpoint certificates and a complete finite
+enumeration of neighboring integer charges. Of 34,672,599 profiles,
+17,800,359 pass the sign reserves, and **none** passes all certificates.
+The independent checker reconstructs all 1,442,220 single-tile
+inequalities and all 780 transformed cuts with integers.
+
+* [Full proof and geometric dependencies](MINIMAL_ODD_EXCLUSION_5063.md).
+* [Certificate index and exact scope](gate-model/CERTIFICATES_5063.json).
+* [Final independent replay](audit/FINAL_DUAL_REPLAY_5063.json).
+* [Independent mathematical and enumeration audit](audit/PROFILE_CUT_AUDIT.md).
+
+## Additional checked results and limits
+
+At the next odd population `5c`, height one must occur. The possible
+odd-height sets are exactly the necessary alternatives `{1}`, `{-1,1}`,
+and `{1,3}`; all short heights lie in `[-2,2]` or `[0,4]`.
+This theorem applies to both targets, does not force a unique native
+height-one phase, and does not exclude the five-block mode itself.
+[Five-block structure, proof and exact arithmetic controls](charged-branches/FIVE_BLOCK_SCOPE.md).
+
+For 3431 an exact strictly positive rational witness satisfies the
+entire periodic endpoint relaxation at `n_odd=111`, with integer
+neighboring charges and the required gate capacities. It proves that
+more linear cuts from this same relaxation cannot exclude every 3431
+profile. It is not a geometric tiling.
+[Exact witness, finite verifier and method boundary](global-invariant/N3431_PROFILE_LIMIT.md).
+
+The single accessible parent gate of a remote even class gives exact
+population bounds of 185 at 3431 and 301/602 at 5063. Both signs and
+both even heights are covered. The 5063 instances are now intermediate
+restrictions in an excluded mode; the 3431 restriction remains relevant.
+[Proof, exact duals, and positive controls](charged-branches/ISOLATED_GATE_TERMINAL_COST.md).
+
+Exact fractional periodic witnesses attain the local ratios `91/22`
+and `83/13`. Stronger conclusions require additional coupled or physical
+constraints. A separate product-of-trees calculation records a precise
+limit of calibrations supported only on the board filling; it does not
+exclude larger or state-dependent geometric constructions.
+[Product-tree limits](global-invariant/PRODUCT_TREE_LIMIT.md).
+
+An exact balanced short-strip packing inside the 3431 board uses only
+7 negative and 7 positive parent tiles. It disproves the proposed local
+33-negative-parent lower bound under the stated terminality, phase and
+containment conditions, while leaving the full completion problem open.
+[Exact geometric countercontrol and its scope](charged-branches/BALANCED_SHORT_STRIP.md).
+
+The additive marginal model accelerates candidate certificate discovery
+without entering the final proof as a numerical solver assertion.
+[Its dual-validity argument and API](global-invariant/ADDITIVE_GATE_DUALS.md).
+
+## Reproduce the new finite proof
+
+From the repository root:
+
+```sh
+python3 research/2026-11-21/semiprimes/replay.py
+```
+
+The replay uses Python's standard library and a C++17 compiler. It
+checks the certificate hashes and integer inequalities, compiles the
+enumerator, checks independent small controls, and repeats the entire
+charge enumeration. It takes a few minutes on an ordinary CPU; no
+optimizer is needed. `--saved-enumeration` checks the already recorded
+complete enumeration instead of rerunning it and explicitly records
+that distinction.
+
+The two additional structural and method-limit controls use only the
+Python standard library and are included in the root replay coordinator:
+
+```sh
+python3 research/2026-11-21/semiprimes/charged-branches/verify_five_block_scope.py
+python3 research/2026-11-21/semiprimes/global-invariant/verify_3431_rational_projection.py
+```
+
+## What remains open
+
+At 5063, possible complete tilings with `n_odd>=215` remain unexcluded.
+At 3431, neither the entire minimal `n_odd=111` mode nor all larger odd
+populations are excluded. No positive tiling or unrestricted global
+contradiction for either original count is supplied here. The result
+does not close all semiprimes.

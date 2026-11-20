@@ -1,0 +1,36 @@
+[
+  {
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "status": "PASS",
+    "exact_periodic_population": "3569/13",
+    "exact_population_per_charge": "83/13",
+    "reduced_support_columns": 75,
+    "lifted_tile_occurrences": 6321,
+    "full_endpoint_rows": 5547,
+    "all_full_endpoint_rows_zero": true,
+    "charge": 43,
+    "matches_independently_checked_dual": true,
+    "scope": "An exact fractional periodic endpoint projection, not a finite-support configuration, packing, complete tiling, or semiprime decision."
+  },
+  {
+    "tile": [
+      33,
+      7,
+      37
+    ],
+    "status": "PASS",
+    "exact_periodic_population": "3367/22",
+    "exact_population_per_charge": "91/22",
+    "reduced_support_columns": 73,
+    "lifted_tile_occurrences": 5291,
+    "full_endpoint_rows": 4107,
+    "all_full_endpoint_rows_zero": true,
+    "charge": 37,
+    "matches_independently_checked_dual": true,
+    "scope": "An exact fractional periodic endpoint projection, not a finite-support configuration, packing, complete tiling, or semiprime decision."
+  }
+]

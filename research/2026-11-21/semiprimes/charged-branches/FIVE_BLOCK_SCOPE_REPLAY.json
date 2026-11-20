@@ -1,0 +1,215 @@
+{
+  "status": "PASS",
+  "scope": "Exact arithmetic controls of the conditional five-odd-block scope note.\n\nThe finite height control is not the proof of the unrestricted bound;\noccupied-parent and boundary-supplier arguments are proved in the note.\n",
+  "five_block_sign_totals": [
+    3,
+    2
+  ],
+  "two_odd_node_sign_allocations": [
+    [
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  ],
+  "median_rows": [
+    {
+      "t": -1,
+      "odd_blocks": [
+        2,
+        3
+      ],
+      "lower_sign_blocks": [
+        0,
+        2
+      ],
+      "upper_sign_blocks": [
+        3,
+        0
+      ]
+    },
+    {
+      "t": 0,
+      "odd_blocks": [
+        3,
+        2
+      ],
+      "lower_sign_blocks": [
+        1,
+        2
+      ],
+      "upper_sign_blocks": [
+        2,
+        0
+      ]
+    },
+    {
+      "t": 1,
+      "odd_blocks": [
+        2,
+        3
+      ],
+      "lower_sign_blocks": [
+        1,
+        1
+      ],
+      "upper_sign_blocks": [
+        2,
+        1
+      ]
+    },
+    {
+      "t": 2,
+      "odd_blocks": [
+        3,
+        2
+      ],
+      "lower_sign_blocks": [
+        2,
+        1
+      ],
+      "upper_sign_blocks": [
+        1,
+        1
+      ]
+    },
+    {
+      "t": 2,
+      "odd_blocks": [
+        5,
+        0
+      ],
+      "lower_sign_blocks": [
+        3,
+        2
+      ],
+      "upper_sign_blocks": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 3,
+      "odd_blocks": [
+        2,
+        3
+      ],
+      "lower_sign_blocks": [
+        2,
+        0
+      ],
+      "upper_sign_blocks": [
+        1,
+        2
+      ]
+    },
+    {
+      "t": 4,
+      "odd_blocks": [
+        3,
+        2
+      ],
+      "lower_sign_blocks": [
+        3,
+        0
+      ],
+      "upper_sign_blocks": [
+        0,
+        2
+      ]
+    }
+  ],
+  "finite_height_control": {
+    "odd_test_range": [
+      -9,
+      11
+    ],
+    "initial_odd_height_sets": [
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "after_forcing_height_one": [
+      [
+        -1,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "unrestricted_proof": "See FIVE_BLOCK_SCOPE.md, Sections 2 and 4."
+  },
+  "height_one_forcing_gate_bounds": [
+    {
+      "c": 37,
+      "d": 26,
+      "monochromatic_2c_parent_gate_capacity": "43/3",
+      "positive_terminal_parent_current_minimum": 26,
+      "strict_contradiction": true
+    },
+    {
+      "c": 43,
+      "d": 22,
+      "monochromatic_2c_parent_gate_capacity": "16",
+      "positive_terminal_parent_current_minimum": 22,
+      "strict_contradiction": true
+    }
+  ],
+  "existing_5063_axis_inventory": {
+    "K": 17,
+    "odd_population": 731,
+    "core_signs": [
+      2155,
+      2177
+    ],
+    "middle_signs": [
+      344,
+      387
+    ],
+    "total": 5063,
+    "geometric_tiling": false
+  },
+  "target_status": "OPEN"
+}

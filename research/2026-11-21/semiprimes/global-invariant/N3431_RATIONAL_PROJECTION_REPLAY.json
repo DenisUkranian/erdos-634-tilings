@@ -1,0 +1,44 @@
+{
+  "status": "PASSED",
+  "target_existence_status": "OPEN",
+  "certificate_sha256": "1990dc1bc01af53e9e03b6d3e88621c5ff58b5da5af48944846a6e33087d04a1",
+  "root_enclosures_checked": 37,
+  "fourier_blocks_checked": 1369,
+  "block_row_counts": {
+    "3": 1189,
+    "2": 108,
+    "4": 72
+  },
+  "point": {
+    "variables": 16428,
+    "equations": 4182,
+    "point_denominator": 1000000000000,
+    "minimum_approximate_numerator": 346672370,
+    "residual_squared_numerator": 988020,
+    "norm_bound_K": 3,
+    "positivity_inequality": [
+      2964060,
+      120181732121416900
+    ],
+    "positive_gate_capacity": 44,
+    "minimum_gate_slack_numerator": 21961519366946,
+    "gate_capacity_inequality": [
+      36520183260,
+      482308332904744236597366916
+    ],
+    "exact_corrected_population": 111,
+    "exact_corrected_positive_population": 74,
+    "exact_corrected_negative_population": 37,
+    "exact_gate_currents": {
+      "native_up": 22,
+      "native_down": 15,
+      "all_remote": 0
+    },
+    "exact_node_charge_units": {
+      "native_up": -2,
+      "native_down": 2,
+      "all_remote": 0
+    }
+  },
+  "conclusion": "A strictly positive rational feasible point exists in the full periodic endpoint relaxation with integer gate charges and the positive gate caps. The exact point is x0+M^dagger(b-Mx0); it is not a physical tiling."
+}

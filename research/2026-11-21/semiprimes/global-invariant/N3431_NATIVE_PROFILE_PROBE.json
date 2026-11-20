@@ -1,0 +1,16 @@
+{
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "profile": {
+    "native_up": -2,
+    "native_down": 2,
+    "remote": "all zero"
+  },
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is Infeasible)",
+  "seconds": 45.03472686999885,
+  "scope": "Necessary full endpoint residue relaxation, continuous tile counts and exact integer neighboring charges; not a physical tiling."
+}

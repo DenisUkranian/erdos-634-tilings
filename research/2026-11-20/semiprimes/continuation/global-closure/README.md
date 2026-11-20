@@ -1,5 +1,7 @@
 # Global geometric restrictions for the two unit F2 targets
 
+**Subsequent update, 21 November 2026:** the entire 5063 `n_odd=129` mode, including charged remote branches, has now been excluded. Every complete tiling of that board needs `n_odd>=215`. [New proof, exact certificates and complete replay](../../../../2026-11-21/semiprimes/README.md). The account below records the earlier stage; both original counts remain open.
+
 21 November 2026. This continuation concentrates on restrictions for complete
 tilings of **3431** and **5063**. Both original existence questions remain
 **OPEN**. The new results classify an exhaustive alternative, exclude its

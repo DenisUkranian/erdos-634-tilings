@@ -1,0 +1,392 @@
+{
+  "certificates": [
+    {
+      "source": "REMOTE_ZERO_MIN_43_IPM.json",
+      "sha256": "6234ed7caa598a9f6929edaf32fad52b946f07ff7c5c7b62b156c8fa148a6a80",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4162910,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS"
+    },
+    {
+      "source": "profile_up1_plus1_native_minus3.json",
+      "sha256": "56a58c328d56824d0cf09e38852f756a6151a29e649142cad907c0e902c2cc56",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4433900,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 138721999,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_000.json",
+      "sha256": "3a110c9b37872827be5405793dde8b4af164087e98b0d9dc3c593e539db3dc31",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4644195,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 174325456,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_001.json",
+      "sha256": "caaa6f66a01c25f1181ae7953f424529d90a55df1d1df42cdf99f6f6b9de7bf9",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4631104,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 135126570,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_002.json",
+      "sha256": "667f31deef8888459147a7c67b452c14f4f9ba965e91a36ea5b96071bb98774a",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4642869,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 175757741,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_003.json",
+      "sha256": "54897e19fe5ed279c557239903bd4d6fb9b3ab547b2d842cfb4728e9c6e5eb6e",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4496176,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 152849272,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_004.json",
+      "sha256": "ea9618b18f95aecbd98bd1f044ab6eac38e06ccce040ec2b44d0695a10d798a0",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4232538,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 139151581,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_005.json",
+      "sha256": "113bf639cd4bfde2d68d32a46a2978e17387c23b3225d923ef7b6d57d5e76d0a",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4527701,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 185522848,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_006.json",
+      "sha256": "687df50b6337f5860848115f10d0a96bc640f16f4644da3a80719123dee30b9a",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4190956,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 134280803,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_007.json",
+      "sha256": "9f035c3768c46c3dd7b7ce0b8eafbedfb3f861389cf7552031fef86258d52cd4",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -5000001,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 135495805,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_008.json",
+      "sha256": "9d3863cb08ee19f2deb985722191e9727548dd8070c34b060cc0583d07dbdc61",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -3958171,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 135939246,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_009.json",
+      "sha256": "fcd7fb0b33904ca550623c2a060449fcdd18a8479ca233e94e260b343bb7ebb6",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4988120,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 173606967,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_010.json",
+      "sha256": "f134ebb98d46de34987ce87dc84d76a97c50d0f508b72731e7f7e645b4784bee",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -3939586,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 174011386,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_011.json",
+      "sha256": "2ad15eb5443597ca7d30a0ecbe0692c720cc8ef7c630d14902d3bb904a614970",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -3525164,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 159830313,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_012.json",
+      "sha256": "47b6de8172028ac18b453ed034b41f0af8df1313671af5049d6450f4ad316ef1",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4321301,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 182311784,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_013.json",
+      "sha256": "98f78d33f54d3a2f94bda370f3877b28db6be5723a76048006ab13fefc2366d2",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4417540,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 174190109,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_014.json",
+      "sha256": "fc4a220e296b6e98b92df937b66bd16f4fa03070ba3df2bcdf085809bf75120d",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -5000000,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 176710776,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_015.json",
+      "sha256": "1bcc7216a75fbaf147cf866b18eef325b60c4713bc2b837f07cad55297809743",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -5687761,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 206918563,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_016.json",
+      "sha256": "e487c04ae6b3ebdac99d3dd43f0bfeae6ad37fa022c38a70fba576c2a6742de8",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4342143,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 181552598,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_017.json",
+      "sha256": "5cc5c6674661fc12e2fed54432199deeed73c2daada045886757adc5394d143e",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4532049,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 180914482,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_018.json",
+      "sha256": "81718b3a67ff396ffa7c862014e98c98e573ef21ed93beee8311ed00f6e3d6f8",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4838477,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 177069325,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_019.json",
+      "sha256": "08157a8f9ca8c42b7808839e1d095a19ca27abc6517afd51cbb353212f836375",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4604726,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 183675356,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_020.json",
+      "sha256": "71111f18228382fb27902ef7b572fea9f03d5618ff7b7a7ff8c50178e67988de",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4363151,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 192031973,
+      "excludes_3c_for_recorded_profile": true
+    },
+    {
+      "source": "profile_021.json",
+      "sha256": "d4816a52866a288d84e94a61b6261c3fd722193694cd13c65ff590a32e522b92",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4046425,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 174235466,
+      "excludes_3c_for_recorded_profile": true
+    }
+  ],
+  "geometric_symmetries": {
+    "independent_translation_pairs": 1849,
+    "rotation_reflection_residue_checks": 7396,
+    "status": "PASS"
+  },
+  "scope": "Exact necessary residue-dual inequalities and finite enumeration controls only; not a geometric tiling certificate."
+}

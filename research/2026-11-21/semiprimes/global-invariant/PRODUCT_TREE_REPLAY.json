@@ -1,0 +1,233 @@
+{
+  "status": "PASSED",
+  "physical_target_decisions": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "controls": [
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "tile_chain_boundary_checks": 72,
+      "zero_period_chain_checks": 36,
+      "tile_l1_norm_histogram": {
+        "28": 36,
+        "26": 36
+      },
+      "board_l1_norm": 26,
+      "positive_half_turn_pair": {
+        "first_tile_l1": 28,
+        "second_tile_l1": 26,
+        "union_l1": 36,
+        "opposite_square_count": 9,
+        "first_opposite_square": [
+          [
+            [
+              [],
+              1
+            ],
+            []
+          ],
+          [
+            [
+              [],
+              0
+            ],
+            [
+              [
+                0,
+                1
+              ]
+            ]
+          ]
+        ],
+        "coefficients": [
+          -1,
+          1
+        ],
+        "exact_chain_addition": true,
+        "physical_positive_area_checks": true,
+        "contained_in_target": true
+      },
+      "boundary_lengths": [
+        39,
+        49,
+        55
+      ],
+      "boundary_lengths_mod_ab": [
+        9,
+        4,
+        10
+      ],
+      "period_reduced_boundary_same_filling": true
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "tile_chain_boundary_checks": 72,
+      "zero_period_chain_checks": 36,
+      "tile_l1_norm_histogram": {
+        "156": 36,
+        "154": 36
+      },
+      "board_l1_norm": 266,
+      "positive_half_turn_pair": {
+        "first_tile_l1": 156,
+        "second_tile_l1": 154,
+        "union_l1": 164,
+        "opposite_square_count": 73,
+        "first_opposite_square": [
+          [
+            [
+              [],
+              1
+            ],
+            []
+          ],
+          [
+            [
+              [],
+              0
+            ],
+            [
+              [
+                0,
+                2
+              ]
+            ]
+          ]
+        ],
+        "coefficients": [
+          -1,
+          1
+        ],
+        "exact_chain_addition": true,
+        "physical_positive_area_checks": true,
+        "contained_in_target": true
+      },
+      "boundary_lengths": [
+        511,
+        1369,
+        1551
+      ],
+      "boundary_lengths_mod_ab": [
+        49,
+        214,
+        165
+      ],
+      "period_reduced_boundary_same_filling": true
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "tile_chain_boundary_checks": 72,
+      "zero_period_chain_checks": 36,
+      "tile_l1_norm_histogram": {
+        "184": 36,
+        "182": 36
+      },
+      "board_l1_norm": 476,
+      "positive_half_turn_pair": {
+        "first_tile_l1": 184,
+        "second_tile_l1": 182,
+        "union_l1": 196,
+        "opposite_square_count": 85,
+        "first_opposite_square": [
+          [
+            [
+              [],
+              1
+            ],
+            []
+          ],
+          [
+            [
+              [],
+              0
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ]
+          ]
+        ],
+        "coefficients": [
+          -1,
+          1
+        ],
+        "exact_chain_addition": true,
+        "physical_positive_area_checks": true,
+        "contained_in_target": true
+      },
+      "boundary_lengths": [
+        1079,
+        1849,
+        2135
+      ],
+      "boundary_lengths_mod_ab": [
+        169,
+        29,
+        315
+      ],
+      "period_reduced_boundary_same_filling": true
+    }
+  ],
+  "projected_certificates": [
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "target_N": 143,
+      "terms": 3,
+      "exact_projected_cost": "3",
+      "board_square_support": 26,
+      "uncontrolled_nonzero_square_count": 52,
+      "all_weights_positive": true,
+      "projected_equality_exact": true,
+      "scope": "Upper bound on any universally valid linear tile-count calibration supported only on these board-filling squares. Not a full-chain filling or a physical tiling."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "target_N": 3431,
+      "terms": 109,
+      "exact_projected_cost": "19408/3235",
+      "board_square_support": 266,
+      "uncontrolled_nonzero_square_count": 8534,
+      "all_weights_positive": true,
+      "projected_equality_exact": true,
+      "scope": "Upper bound on any universally valid linear tile-count calibration supported only on these board-filling squares. Not a full-chain filling or a physical tiling."
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "target_N": 5063,
+      "terms": 214,
+      "exact_projected_cost": "28377/2795",
+      "board_square_support": 476,
+      "uncontrolled_nonzero_square_count": 20173,
+      "all_weights_positive": true,
+      "projected_equality_exact": true,
+      "scope": "Upper bound on any universally valid linear tile-count calibration supported only on these board-filling squares. Not a full-chain filling or a physical tiling."
+    }
+  ]
+}

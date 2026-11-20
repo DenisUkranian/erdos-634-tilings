@@ -1,0 +1,233 @@
+{
+  "seconds": 4.364042449997214,
+  "rows": [
+    {
+      "profile": "profile_000.json",
+      "full": 174.3254657404702,
+      "additive": 136.16497120056118,
+      "seconds": 0.1186780549978721,
+      "exact_lower_bound": 136.16456650630047
+    },
+    {
+      "profile": "profile_001.json",
+      "full": 135.12657894440193,
+      "additive": 135.12657894440372,
+      "seconds": 0.07599851399572799,
+      "exact_lower_bound": 135.12643487356513
+    },
+    {
+      "profile": "profile_002.json",
+      "full": 175.7577280001594,
+      "additive": 136.59603263883844,
+      "seconds": 0.07920510599797126,
+      "exact_lower_bound": 136.59562221313337
+    },
+    {
+      "profile": "profile_003.json",
+      "full": 152.84926953283295,
+      "additive": 152.84926953283173,
+      "seconds": 0.078401770995697,
+      "exact_lower_bound": 152.8489663020674
+    },
+    {
+      "profile": "profile_004.json",
+      "full": 139.15158215372998,
+      "additive": 139.1515821537322,
+      "seconds": 0.10902648499904899,
+      "exact_lower_bound": 139.15144184855816
+    },
+    {
+      "profile": "profile_005.json",
+      "full": 185.5228407377758,
+      "additive": 152.1387026076948,
+      "seconds": 0.14954788299655775,
+      "exact_lower_bound": 152.13841572316855
+    },
+    {
+      "profile": "profile_006.json",
+      "full": 134.28081300033602,
+      "additive": 134.28081300033622,
+      "seconds": 0.2097774110006867,
+      "exact_lower_bound": 134.2806687193313
+    },
+    {
+      "profile": "profile_007.json",
+      "full": 135.49580711259685,
+      "additive": 135.49580711259622,
+      "seconds": 0.07588087800104404,
+      "exact_lower_bound": 135.49553400893197
+    },
+    {
+      "profile": "profile_008.json",
+      "full": 135.93924552202137,
+      "additive": 135.9392455220233,
+      "seconds": 0.07225081000069622,
+      "exact_lower_bound": 135.93911006088993
+    },
+    {
+      "profile": "profile_009.json",
+      "full": 173.60696340020456,
+      "additive": 173.60696340019334,
+      "seconds": 0.061960405997524504,
+      "exact_lower_bound": 173.6067933932066
+    },
+    {
+      "profile": "profile_010.json",
+      "full": 174.01138292893268,
+      "additive": 174.01138292893216,
+      "seconds": 0.1414124740040279,
+      "exact_lower_bound": 174.01103797792405
+    },
+    {
+      "profile": "profile_011.json",
+      "full": 159.8303112284892,
+      "additive": 159.8138710528301,
+      "seconds": 0.08863380600087112,
+      "exact_lower_bound": 159.81370818629182
+    },
+    {
+      "profile": "profile_012.json",
+      "full": 182.31178365297723,
+      "additive": 182.31178365297856,
+      "seconds": 0.10534641800040845,
+      "exact_lower_bound": 182.3116016883983
+    },
+    {
+      "profile": "profile_013.json",
+      "full": 174.19011698976513,
+      "additive": 174.1901169897655,
+      "seconds": 0.07745571099803783,
+      "exact_lower_bound": 174.18993481006518
+    },
+    {
+      "profile": "profile_014.json",
+      "full": 176.71079028680003,
+      "additive": 176.7107902868002,
+      "seconds": 0.18381141400459455,
+      "exact_lower_bound": 176.7105992894007
+    },
+    {
+      "profile": "profile_015.json",
+      "full": 206.91855399856613,
+      "additive": 185.94294510931883,
+      "seconds": 0.08405679700081237,
+      "exact_lower_bound": 185.94277905722095
+    },
+    {
+      "profile": "profile_016.json",
+      "full": 181.55260508052626,
+      "additive": 181.55260508052686,
+      "seconds": 0.0922468389981077,
+      "exact_lower_bound": 181.5522348955302
+    },
+    {
+      "profile": "profile_017.json",
+      "full": 180.9144770851307,
+      "additive": 180.91447708512945,
+      "seconds": 0.09669437300181016,
+      "exact_lower_bound": 180.91412017175966
+    },
+    {
+      "profile": "profile_018.json",
+      "full": 177.0693226641405,
+      "additive": 177.06932266414094,
+      "seconds": 0.08425842999713495,
+      "exact_lower_bound": 177.06897086205828
+    },
+    {
+      "profile": "profile_019.json",
+      "full": 183.67534293201254,
+      "additive": 183.6753429320131,
+      "seconds": 0.09035863499593688,
+      "exact_lower_bound": 183.6749886500227
+    },
+    {
+      "profile": "profile_020.json",
+      "full": 192.03196524361493,
+      "additive": 192.0319652436153,
+      "seconds": 0.07932479600276565,
+      "exact_lower_bound": 192.03158893682212
+    },
+    {
+      "profile": "profile_021.json",
+      "full": 174.23546995481243,
+      "additive": 174.23546995481237,
+      "seconds": 0.07641167400288396,
+      "exact_lower_bound": 174.23529176470822
+    },
+    {
+      "profile": "profile_022.json",
+      "full": 178.49301777783924,
+      "additive": 178.4930177778393,
+      "seconds": 0.06901288100198144,
+      "exact_lower_bound": 178.4928555071445
+    },
+    {
+      "profile": "profile_023.json",
+      "full": 168.80215214411285,
+      "additive": 168.8021521441118,
+      "seconds": 0.07029188999877078,
+      "exact_lower_bound": 168.8018333963332
+    },
+    {
+      "profile": "profile_024.json",
+      "full": 158.89568315377178,
+      "additive": 158.89296753604123,
+      "seconds": 0.07199703900550958,
+      "exact_lower_bound": 158.89263921472158
+    },
+    {
+      "profile": "profile_025.json",
+      "full": 178.0687235188797,
+      "additive": 178.0687235188793,
+      "seconds": 0.09901811100280611,
+      "exact_lower_bound": 178.06835986328028
+    },
+    {
+      "profile": "profile_026.json",
+      "full": 172.53589103761576,
+      "additive": 172.5320529881307,
+      "seconds": 0.09898989800421987,
+      "exact_lower_bound": 172.53189046810954
+    },
+    {
+      "profile": "profile_027.json",
+      "full": 166.73532933316667,
+      "additive": 166.73532933316736,
+      "seconds": 0.06993690600211266,
+      "exact_lower_bound": 166.73517226482772
+    },
+    {
+      "profile": "profile_028.json",
+      "full": 168.95384819736393,
+      "additive": 168.95384819739127,
+      "seconds": 0.09082361299806507,
+      "exact_lower_bound": 168.95368204631797
+    },
+    {
+      "profile": "profile_029.json",
+      "full": 179.61506605468182,
+      "additive": 179.61506605468213,
+      "seconds": 0.09948823600279866,
+      "exact_lower_bound": 179.6148763851236
+    },
+    {
+      "profile": "zero_remote_2",
+      "additive": 180.8595292331056,
+      "seconds": 0.07106848600233207,
+      "exact_lower_bound": 180.85916228167542
+    },
+    {
+      "profile": "zero_remote_3",
+      "additive": 103.79516497876507,
+      "seconds": 0.15549027099768864,
+      "exact_lower_bound": 103.79505620494379
+    },
+    {
+      "profile": "zero_remote_4",
+      "additive": 193.4547677261611,
+      "seconds": 0.1811719820034341,
+      "exact_lower_bound": 193.45458054541945
+    }
+  ]
+}

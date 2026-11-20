@@ -1,6 +1,47 @@
 # Reproducibility and verification boundary
 
-**v0.3.0 + 10 October 2026 supplement**
+**v0.3.0 + 21 November 2026 continuation**
+
+## 21 November 2026: complete 5063 minimal-odd exclusion
+
+Run the exact certificate checker and the complete charge enumeration:
+
+```sh
+python3 research/2026-11-21/semiprimes/replay.py
+```
+
+This uses Python's standard library and a C++17 compiler, without an optimizer.
+It checks the 65 certificate hashes, all 1,442,220 integer tile inequalities,
+780 transformed cuts, translation and reflection rules, integer-range bounds,
+and independent small Cartesian enumeration controls. It then repeats the
+full scan of 34,672,599 profiles; 17,800,359 pass sign reserves and none passes
+all cuts. The final full scan is independent of the intermediate adaptive
+pool. The root replay coordinator includes this command.
+
+`--saved-enumeration` checks the recorded scan instead of repeating it and
+explicitly marks that distinction in its report. The committed coordinator
+[replay record](research/2026-11-21/semiprimes/REPLAY.json) uses that option;
+the [final enumeration record](research/2026-11-21/semiprimes/gate-model/FINAL_PROFILE_ENUMERATION_5063.jsonl)
+comes from a fresh exhaustive run independently checked in the
+[final audit](research/2026-11-21/semiprimes/audit/FINAL_DUAL_REPLAY_5063.json).
+
+The resulting theorem is `n_odd>=215` for every complete tiling of the
+specified 5063 board. It does not exclude larger odd populations, decide
+3431, or close either original tile count. See the
+[proof and geometric dependencies](research/2026-11-21/semiprimes/MINIMAL_ODD_EXCLUSION_5063.md).
+
+The additional five-block arithmetic control and the exact 3431 rational
+relaxation witness are also included in the root coordinator:
+
+```sh
+python3 research/2026-11-21/semiprimes/charged-branches/verify_five_block_scope.py
+python3 research/2026-11-21/semiprimes/global-invariant/verify_3431_rational_projection.py
+```
+
+The first accompanies the written proof that height one is unavoidable at
+five odd blocks. The second checks 37 root enclosures and all 1,369 Fourier
+blocks, then proves exact rational feasibility and positivity of the full
+3431 endpoint relaxation at 111 tiles. Neither is a complete target decision.
 
 ## 21 November 2026: global geometric restrictions
 

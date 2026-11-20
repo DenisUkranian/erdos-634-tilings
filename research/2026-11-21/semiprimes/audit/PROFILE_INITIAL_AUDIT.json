@@ -1,0 +1,79 @@
+{
+  "certificates": [
+    {
+      "source": "REMOTE_ZERO_MIN_43_IPM.json",
+      "sha256": "6234ed7caa598a9f6929edaf32fad52b946f07ff7c5c7b62b156c8fa148a6a80",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4162910,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS"
+    },
+    {
+      "source": "profile_up1_plus1_native_minus3.json",
+      "sha256": "56a58c328d56824d0cf09e38852f756a6151a29e649142cad907c0e902c2cc56",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4433900,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "profile_lower_numerator": 138721999,
+      "excludes_3c_for_recorded_profile": true
+    }
+  ],
+  "geometric_symmetries": {
+    "independent_translation_pairs": 1849,
+    "rotation_reflection_residue_checks": 7396,
+    "status": "PASS"
+  },
+  "scope": "Exact necessary residue-dual inequalities and finite enumeration controls only; not a geometric tiling certificate.",
+  "serialized_cuts": {
+    "file": "cuts_5063.dat",
+    "cuts": 24,
+    "exact_transformed_arrays_match": true,
+    "int64_arithmetic_bound": "PASS",
+    "status": "PASS"
+  },
+  "independent_small_enumerations": [
+    {
+      "c": 3,
+      "d": 2,
+      "capacity": 4,
+      "cuts": 0,
+      "visited": 305,
+      "reserve_passed": 201,
+      "survivors": 201,
+      "status": "PASS"
+    },
+    {
+      "c": 5,
+      "d": 3,
+      "capacity": 6,
+      "cuts": 0,
+      "visited": 3762,
+      "reserve_passed": 2530,
+      "survivors": 2530,
+      "status": "PASS"
+    },
+    {
+      "c": 5,
+      "d": 3,
+      "capacity": 6,
+      "cuts": 2,
+      "visited": 3762,
+      "reserve_passed": 2530,
+      "survivors": 143,
+      "status": "PASS"
+    }
+  ]
+}

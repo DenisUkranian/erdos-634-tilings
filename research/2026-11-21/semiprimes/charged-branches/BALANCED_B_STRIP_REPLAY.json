@@ -1,0 +1,60 @@
+[
+  {
+    "tile": [
+      33,
+      7,
+      37
+    ],
+    "N": 3431,
+    "status": "PASS",
+    "interior_tiles": 74,
+    "interior_charge": 0,
+    "interior_signs": {
+      "+": 37,
+      "-": 37
+    },
+    "interior_whole_long_pairs": 36,
+    "interior_unmatched_long_sides": 2,
+    "actual_parent_tiles": 14,
+    "parent_signs": {
+      "+": 7,
+      "-": 7
+    },
+    "parent_short_height": 1,
+    "interior_short_height": 0,
+    "interior_class": "z+R (nonnative)",
+    "parent_class": "zR (native)",
+    "strict_board_containment": true,
+    "all_pairwise_interiors_disjoint": true,
+    "scope": "Exact local balanced strip with 2b parent teeth, not a full F2 tiling.\n\nThis is an obstruction to inferring a 2a-parent lower bound from local\nmixed-cycle geometry alone. No completion or universal full-tiling\ncounterexample is claimed.\n"
+  },
+  {
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "N": 5063,
+    "status": "PASS",
+    "interior_tiles": 86,
+    "interior_charge": 0,
+    "interior_signs": {
+      "+": 43,
+      "-": 43
+    },
+    "interior_whole_long_pairs": 42,
+    "interior_unmatched_long_sides": 2,
+    "actual_parent_tiles": 26,
+    "parent_signs": {
+      "+": 13,
+      "-": 13
+    },
+    "parent_short_height": 1,
+    "interior_short_height": 0,
+    "interior_class": "z+R (nonnative)",
+    "parent_class": "zR (native)",
+    "strict_board_containment": true,
+    "all_pairwise_interiors_disjoint": true,
+    "scope": "Exact local balanced strip with 2b parent teeth, not a full F2 tiling.\n\nThis is an obstruction to inferring a 2a-parent lower bound from local\nmixed-cycle geometry alone. No completion or universal full-tiling\ncounterexample is claimed.\n"
+  }
+]

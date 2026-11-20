@@ -1,5 +1,17 @@
 # Changelog
 
+## 21 November 2026: exclude the entire 5063 minimal odd mode
+
+- Exclude every `n_odd=129` profile on the specified 5063 board, including charged remote even branches; derive the necessary bound `n_odd>=215` for any complete tiling.
+- Supply 65 exact endpoint certificates and independently reconstruct all 1,442,220 integer tile-column inequalities and 780 transformed cuts.
+- Exhaust the full 34,672,599-profile universe, with 17,800,359 profiles passing sign reserves and no profiles passing all exact cuts. The final proof does not depend on the adaptive intermediate pool.
+- Add a standard-library/C++17 replay to the root coordinator, with certificate hashes, integer-range checks, independently derived symmetries and small Cartesian controls.
+- Strengthen the conditional single-gate branch bounds to 185 at 3431 and 301/602 at 5063. Preserve exact fractional witnesses showing the limits of that local relaxation, and exact geometric controls against a proposed stronger local parent-cost rule.
+- Prove that the five-odd-block mode at either target must use height one and only one of the odd-height sets `{1}`, `{-1,1}`, `{1,3}`; keep its possible multiple phases explicit.
+- Certify a strictly positive rational 111-population witness in the full 3431 periodic endpoint relaxation, using 1,369 rigorously bounded Fourier blocks. This identifies a precise limit of the profile-cut method and is not a tiling.
+- Keep 3431 and 5063 OPEN as original tile counts. Larger odd populations and the full classification of semiprimes are not decided.
+- [Complete proof, certificates, internal audits and scope](research/2026-11-21/semiprimes/README.md).
+
 ## 20 November 2026: vertex fans and phase-population bounds
 
 - Exclude vacant exterior-free phase ancestors on the 3431 and 5063 boards by deriving a supported pure-mesh cycle and applying the restored ordered-boundary obstruction.

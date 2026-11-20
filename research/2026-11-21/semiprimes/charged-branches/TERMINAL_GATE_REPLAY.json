@@ -1,0 +1,108 @@
+[
+  {
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "status": "PASS",
+    "D": 13,
+    "charge_multiplier": 83,
+    "per_charge_block_bound": "83/13",
+    "single_columns": 258,
+    "directed_pair_checks": 22188,
+    "distinct_pairs": 11094,
+    "single_score_range": [
+      -73,
+      13
+    ],
+    "pair_score_range": [
+      -146,
+      26
+    ],
+    "rounded_bounds": {
+      "1": {
+        "charge_magnitude": 43,
+        "minimum_blocks": 7,
+        "minimum_tiles": 301
+      },
+      "2": {
+        "charge_magnitude": 86,
+        "minimum_blocks": 14,
+        "minimum_tiles": 602
+      },
+      "3": {
+        "charge_magnitude": 129,
+        "minimum_blocks": 21,
+        "minimum_tiles": 903
+      },
+      "4": {
+        "charge_magnitude": 172,
+        "minimum_blocks": 26,
+        "minimum_tiles": 1118
+      }
+    },
+    "positive_control": {
+      "population": 1849,
+      "charge": 43,
+      "unpaired_long_sides": 43,
+      "all_unpaired_sides_at_selected_gate": true,
+      "endpoint_weight_sum": 0,
+      "scope": "Scale-c triangle is a positive tiled one-gate domain. It is not a complete target F2 tiling or a proof of completion."
+    },
+    "scope": "All residue single and half-turn pair inequalities checked with integers. Geometric gate-isolation proof is separate; this is not a full-tiling existence or impossibility certificate."
+  },
+  {
+    "tile": [
+      33,
+      7,
+      37
+    ],
+    "status": "PASS",
+    "D": 506,
+    "charge_multiplier": 2093,
+    "per_charge_block_bound": "91/22",
+    "single_columns": 222,
+    "directed_pair_checks": 16428,
+    "distinct_pairs": 8214,
+    "single_score_range": [
+      -641,
+      506
+    ],
+    "pair_score_range": [
+      -3132,
+      1012
+    ],
+    "rounded_bounds": {
+      "1": {
+        "charge_magnitude": 37,
+        "minimum_blocks": 5,
+        "minimum_tiles": 185
+      },
+      "2": {
+        "charge_magnitude": 74,
+        "minimum_blocks": 10,
+        "minimum_tiles": 370
+      },
+      "3": {
+        "charge_magnitude": 111,
+        "minimum_blocks": 13,
+        "minimum_tiles": 481
+      },
+      "4": {
+        "charge_magnitude": 148,
+        "minimum_blocks": 18,
+        "minimum_tiles": 666
+      }
+    },
+    "positive_control": {
+      "population": 1369,
+      "charge": 37,
+      "unpaired_long_sides": 37,
+      "all_unpaired_sides_at_selected_gate": true,
+      "endpoint_weight_sum": 0,
+      "scope": "Scale-c triangle is a positive tiled one-gate domain. It is not a complete target F2 tiling or a proof of completion."
+    },
+    "scope": "All residue single and half-turn pair inequalities checked with integers. Geometric gate-isolation proof is separate; this is not a full-tiling existence or impossibility certificate."
+  }
+]

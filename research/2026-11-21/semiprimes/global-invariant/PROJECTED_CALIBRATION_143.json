@@ -1,0 +1,63 @@
+{
+  "tile": [
+    5,
+    3,
+    7
+  ],
+  "scope": "Projection to finite board-filling square support only; all abstract positive tile translates included, no physical geometry. Float feasibility is diagnostic, not a tiling.",
+  "rows": 26,
+  "columns": 516,
+  "attempts": 1080,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective": 3.0,
+  "seconds": 0.029746055603027344,
+  "support": [
+    {
+      "placement": [
+        0,
+        0,
+        -1,
+        [
+          [
+            2,
+            2
+          ]
+        ],
+        []
+      ],
+      "weight": 1.0
+    },
+    {
+      "placement": [
+        0,
+        1,
+        1,
+        [],
+        [
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "weight": 1.0
+    },
+    {
+      "placement": [
+        1,
+        4,
+        1,
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        []
+      ],
+      "weight": 1.0
+    }
+  ],
+  "maximum_residual": 0.0
+}

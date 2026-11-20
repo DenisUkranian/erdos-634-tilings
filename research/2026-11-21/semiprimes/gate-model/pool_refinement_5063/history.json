@@ -1,0 +1,2027 @@
+[
+  {
+    "iteration": 0,
+    "filter": {
+      "summary": true,
+      "pool_input": 12066,
+      "pool_survivors": 6061,
+      "rejected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        147,
+        111,
+        1,
+        0,
+        147,
+        111,
+        1,
+        0,
+        147,
+        111,
+        1,
+        0,
+        58,
+        51,
+        0,
+        0,
+        58,
+        51,
+        0,
+        0,
+        58,
+        51,
+        0,
+        0,
+        84,
+        66,
+        0,
+        0,
+        84,
+        66,
+        0,
+        0,
+        84,
+        66,
+        0,
+        0,
+        196,
+        158,
+        0,
+        0,
+        187,
+        157,
+        0,
+        0,
+        178,
+        156,
+        0,
+        0,
+        257,
+        206,
+        0,
+        0,
+        257,
+        206,
+        0,
+        0,
+        257,
+        206,
+        0,
+        0,
+        416,
+        366,
+        4,
+        0,
+        369,
+        294,
+        0,
+        0,
+        325,
+        247,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 2.081438594002975,
+    "pool_input_sha256": "eb89cb581c9b7c9347e71eaf46f739216c98ffa9b1630c0075d2d4cc277ac57e",
+    "pool_output_sha256": "d9fb260515f0d4ca695fe2b1d5c83ce1ecfb47acf1cf876efce8193e09bdbe72",
+    "new_certificates": [
+      "research/2026-11-20/semiprimes/continuation/global-closure/median/REMOTE_ZERO_MIN_43_IPM.json",
+      "research/2026-11-21/semiprimes/gate-model/profile_up1_plus1_native_minus3.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_000.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_001.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_002.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_003.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_004.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_005.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_006.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_007.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_008.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_009.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_010.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_011.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_012.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_013.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_014.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_015.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_016.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_017.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_018.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_019.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_020.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_021.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_022.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_023.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_024.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_025.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_026.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_027.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_028.json",
+      "research/2026-11-21/semiprimes/gate-model/refinement_5063/profile_029.json",
+      "research/2026-11-21/semiprimes/gate-model/best_profile_5063.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        12,
+        27
+      ],
+      "remote_negative_index": 2,
+      "current_lower_numerator": 115119295,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.11406224699749146,
+      "floating_population": 160.59652705135312,
+      "maximum_equality_residual": 1.0094702851404236e-13,
+      "D": 1000001,
+      "lower_numerator": 160596520,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 1,
+    "filter": {
+      "summary": true,
+      "pool_input": 6061,
+      "pool_survivors": 5089,
+      "rejected": [
+        157,
+        167,
+        0,
+        0,
+        157,
+        167,
+        0,
+        0,
+        157,
+        167,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.03638513099576812,
+    "pool_input_sha256": "d9fb260515f0d4ca695fe2b1d5c83ce1ecfb47acf1cf876efce8193e09bdbe72",
+    "pool_output_sha256": "1535dfa1550d95961c1cd0697059e27509d173294b47083ec81a8abe576a35af",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_000.json"
+    ],
+    "profile": {
+      "native_up": -4,
+      "native_down": 2,
+      "remote_positive_indices": [
+        0,
+        2,
+        4
+      ],
+      "remote_negative_index": 22,
+      "current_lower_numerator": 115830313,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.0784121739998227,
+      "floating_population": 165.48144499483132,
+      "maximum_equality_residual": 4.3423598050651435e-14,
+      "D": 1000001,
+      "lower_numerator": 165481449,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 2,
+    "filter": {
+      "summary": true,
+      "pool_input": 5089,
+      "pool_survivors": 4561,
+      "rejected": [
+        90,
+        86,
+        0,
+        0,
+        90,
+        86,
+        0,
+        0,
+        90,
+        86,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.04226664000452729,
+    "pool_input_sha256": "1535dfa1550d95961c1cd0697059e27509d173294b47083ec81a8abe576a35af",
+    "pool_output_sha256": "91283b6aaaff0ec5c4037ab23348eabf5eded1593c91223a72c86fa351890a33",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_001.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        12,
+        40
+      ],
+      "remote_negative_index": 15,
+      "current_lower_numerator": 115926507,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.08021487899532076,
+      "floating_population": 164.04919106728468,
+      "maximum_equality_residual": 7.072120666862247e-14,
+      "D": 1000001,
+      "lower_numerator": 164049195,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 3,
+    "filter": {
+      "summary": true,
+      "pool_input": 4561,
+      "pool_survivors": 4258,
+      "rejected": [
+        54,
+        46,
+        0,
+        1,
+        54,
+        46,
+        0,
+        1,
+        54,
+        46,
+        0,
+        1
+      ]
+    },
+    "filter_seconds": 0.030703067997819744,
+    "pool_input_sha256": "91283b6aaaff0ec5c4037ab23348eabf5eded1593c91223a72c86fa351890a33",
+    "pool_output_sha256": "48f02fa7eb335c40cbe60f9dd60a7a1bc42a6905403f2aed4e0f2edadb3144c1",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_002.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        9,
+        13
+      ],
+      "remote_negative_index": 31,
+      "current_lower_numerator": 118895686,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.09001765499851899,
+      "floating_population": 161.77960978623406,
+      "maximum_equality_residual": 2.842170943040401e-14,
+      "D": 1000001,
+      "lower_numerator": 161779598,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 4,
+    "filter": {
+      "summary": true,
+      "pool_input": 4258,
+      "pool_survivors": 3829,
+      "rejected": [
+        77,
+        75,
+        0,
+        0,
+        72,
+        71,
+        0,
+        0,
+        67,
+        67,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.028504697998869233,
+    "pool_input_sha256": "48f02fa7eb335c40cbe60f9dd60a7a1bc42a6905403f2aed4e0f2edadb3144c1",
+    "pool_output_sha256": "ffa6db1a479bacb33a1774e21ab6c2244f5d57cecb423f81704cab1e50b16726",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_003.json"
+    ],
+    "profile": {
+      "native_up": -4,
+      "native_down": 2,
+      "remote_positive_indices": [
+        43,
+        45,
+        78
+      ],
+      "remote_negative_index": 42,
+      "current_lower_numerator": 119098788,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.1896327360009309,
+      "floating_population": 198.45187200137073,
+      "maximum_equality_residual": 8.465450562766819e-14,
+      "D": 1000001,
+      "lower_numerator": 198451870,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 5,
+    "filter": {
+      "summary": true,
+      "pool_input": 3829,
+      "pool_survivors": 2285,
+      "rejected": [
+        311,
+        337,
+        44,
+        45,
+        230,
+        251,
+        0,
+        0,
+        151,
+        175,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.020517658005701378,
+    "pool_input_sha256": "ffa6db1a479bacb33a1774e21ab6c2244f5d57cecb423f81704cab1e50b16726",
+    "pool_output_sha256": "9595a15c5d40d46215ef329bc05014a2e0c1044f339d59aabde7c6f59b0f0d30",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_004.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        3,
+        31
+      ],
+      "remote_negative_index": 6,
+      "current_lower_numerator": 120328471,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.06208249599876581,
+      "floating_population": 164.6976959178635,
+      "maximum_equality_residual": 5.6288307348495437e-14,
+      "D": 1000001,
+      "lower_numerator": 164697701,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 6,
+    "filter": {
+      "summary": true,
+      "pool_input": 2285,
+      "pool_survivors": 2027,
+      "rejected": [
+        41,
+        45,
+        0,
+        0,
+        41,
+        45,
+        0,
+        0,
+        41,
+        45,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.016876653004146647,
+    "pool_input_sha256": "9595a15c5d40d46215ef329bc05014a2e0c1044f339d59aabde7c6f59b0f0d30",
+    "pool_output_sha256": "050b92c0b9434d5845ab670e81445e1cf30c3907ce6b658d4b063d984b7597d2",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_005.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        8,
+        34
+      ],
+      "remote_negative_index": 12,
+      "current_lower_numerator": 120998522,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.07017419699695893,
+      "floating_population": 201.0362573077525,
+      "maximum_equality_residual": 2.815525590449397e-13,
+      "D": 1000001,
+      "lower_numerator": 201036265,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 7,
+    "filter": {
+      "summary": true,
+      "pool_input": 2027,
+      "pool_survivors": 1661,
+      "rejected": [
+        69,
+        52,
+        3,
+        0,
+        69,
+        52,
+        0,
+        0,
+        69,
+        52,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.014790752000408247,
+    "pool_input_sha256": "050b92c0b9434d5845ab670e81445e1cf30c3907ce6b658d4b063d984b7597d2",
+    "pool_output_sha256": "d23ba78698f81806404f5e1fb1d8d5d2bf4648233f7236637c6dcec7a6cceea1",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_006.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        4,
+        6
+      ],
+      "remote_negative_index": 25,
+      "current_lower_numerator": 121275105,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.08286737099842867,
+      "floating_population": 197.85440186821106,
+      "maximum_equality_residual": 2.1921353621223716e-13,
+      "D": 1000001,
+      "lower_numerator": 197854408,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 8,
+    "filter": {
+      "summary": true,
+      "pool_input": 1661,
+      "pool_survivors": 1238,
+      "rejected": [
+        78,
+        63,
+        0,
+        0,
+        78,
+        63,
+        0,
+        0,
+        78,
+        63,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.012583427997014951,
+    "pool_input_sha256": "d23ba78698f81806404f5e1fb1d8d5d2bf4648233f7236637c6dcec7a6cceea1",
+    "pool_output_sha256": "61ebd9623c1f7c2338125b7b3e56d72f1ed579ca5ecec3f6d5bffb0f6fda7988",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_007.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 1,
+      "remote_positive_indices": [
+        60,
+        66,
+        75
+      ],
+      "remote_negative_index": 78,
+      "current_lower_numerator": 121282699,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.059565413001109846,
+      "floating_population": 166.199362099702,
+      "maximum_equality_residual": 1.652011860642233e-13,
+      "D": 1000001,
+      "lower_numerator": 166199355,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 9,
+    "filter": {
+      "summary": true,
+      "pool_input": 1238,
+      "pool_survivors": 1232,
+      "rejected": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.01112055299745407,
+    "pool_input_sha256": "61ebd9623c1f7c2338125b7b3e56d72f1ed579ca5ecec3f6d5bffb0f6fda7988",
+    "pool_output_sha256": "93fabdc2da212b4b77df6a4593eb7835819badae955d3c0e4f38ca3492a084e2",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_008.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        3,
+        37
+      ],
+      "remote_negative_index": 21,
+      "current_lower_numerator": 121865849,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.05385383999964688,
+      "floating_population": 166.34237946613774,
+      "maximum_equality_residual": 9.220402219511925e-14,
+      "D": 1000002,
+      "lower_numerator": 166342380,
+      "lower_denominator": 1000002
+    }
+  },
+  {
+    "iteration": 10,
+    "filter": {
+      "summary": true,
+      "pool_input": 1232,
+      "pool_survivors": 986,
+      "rejected": [
+        56,
+        26,
+        0,
+        0,
+        56,
+        26,
+        0,
+        0,
+        56,
+        26,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.014444733002164867,
+    "pool_input_sha256": "93fabdc2da212b4b77df6a4593eb7835819badae955d3c0e4f38ca3492a084e2",
+    "pool_output_sha256": "9c2205dbedaa60a4ef4643ae2c41f7d676716bc1250f127fe795a69f7ee2d0a7",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_009.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        3,
+        18
+      ],
+      "remote_negative_index": 21,
+      "current_lower_numerator": 121918351,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.23004402699734783,
+      "floating_population": 150.39999999999995,
+      "maximum_equality_residual": 7.005507285384738e-14,
+      "D": 1000001,
+      "lower_numerator": 150399990,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 11,
+    "filter": {
+      "summary": true,
+      "pool_input": 986,
+      "pool_survivors": 885,
+      "rejected": [
+        52,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.009533661002933513,
+    "pool_input_sha256": "9c2205dbedaa60a4ef4643ae2c41f7d676716bc1250f127fe795a69f7ee2d0a7",
+    "pool_output_sha256": "1c77fccf555a65ab51ede037e33c576bd2d2fec905da99affd1228592a20036a",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_010.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        8,
+        27
+      ],
+      "remote_negative_index": 2,
+      "current_lower_numerator": 122797323,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.06627959100296721,
+      "floating_population": 167.47568372938602,
+      "maximum_equality_residual": 7.83262343873048e-14,
+      "D": 1000001,
+      "lower_numerator": 167475687,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 12,
+    "filter": {
+      "summary": true,
+      "pool_input": 885,
+      "pool_survivors": 546,
+      "rejected": [
+        61,
+        52,
+        0,
+        0,
+        61,
+        52,
+        0,
+        0,
+        61,
+        52,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.008088180999038741,
+    "pool_input_sha256": "1c77fccf555a65ab51ede037e33c576bd2d2fec905da99affd1228592a20036a",
+    "pool_output_sha256": "4ee61258548762c8eab3bee653c4f95b6baf17b4f0a7b7b46fd4e9d2d214ae1b",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_011.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        8,
+        40
+      ],
+      "remote_negative_index": 15,
+      "current_lower_numerator": 123263228,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.06254340300074546,
+      "floating_population": 178.44817091689194,
+      "maximum_equality_residual": 2.48245868306185e-13,
+      "D": 1000001,
+      "lower_numerator": 178448188,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 13,
+    "filter": {
+      "summary": true,
+      "pool_input": 546,
+      "pool_survivors": 453,
+      "rejected": [
+        21,
+        9,
+        1,
+        0,
+        21,
+        9,
+        1,
+        0,
+        21,
+        9,
+        1,
+        0
+      ]
+    },
+    "filter_seconds": 0.006538394001836423,
+    "pool_input_sha256": "4ee61258548762c8eab3bee653c4f95b6baf17b4f0a7b7b46fd4e9d2d214ae1b",
+    "pool_output_sha256": "5af9aae1eb8d1b61b5e1af72a788a158bad7e6ab749ba4f749c2bf4e509fd73b",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_012.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 1,
+      "remote_positive_indices": [
+        3,
+        62,
+        81
+      ],
+      "remote_negative_index": 21,
+      "current_lower_numerator": 124296794,
+      "current_lower_denominator": 1000001
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.10774970999773359,
+      "floating_population": 143.08160535937884,
+      "maximum_equality_residual": 1.021405182655144e-13,
+      "D": 1000002,
+      "lower_numerator": 143081625,
+      "lower_denominator": 1000002
+    }
+  },
+  {
+    "iteration": 14,
+    "filter": {
+      "summary": true,
+      "pool_input": 453,
+      "pool_survivors": 447,
+      "rejected": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.006049420997442212,
+    "pool_input_sha256": "5af9aae1eb8d1b61b5e1af72a788a158bad7e6ab749ba4f749c2bf4e509fd73b",
+    "pool_output_sha256": "edf8eedad8d3f0c0fe0e81175d2cd34b8bbf03dd24645f0536b372c63eae95b7",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_013.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 1,
+      "remote_positive_indices": [
+        3,
+        66,
+        81
+      ],
+      "remote_negative_index": 21,
+      "current_lower_numerator": 124296794,
+      "current_lower_denominator": 1000001
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.13348845000291476,
+      "floating_population": 144.72709277486695,
+      "maximum_equality_residual": 2.148281552649678e-13,
+      "D": 1000002,
+      "lower_numerator": 144727058,
+      "lower_denominator": 1000002
+    }
+  },
+  {
+    "iteration": 15,
+    "filter": {
+      "summary": true,
+      "pool_input": 447,
+      "pool_survivors": 441,
+      "rejected": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.006074568002077285,
+    "pool_input_sha256": "edf8eedad8d3f0c0fe0e81175d2cd34b8bbf03dd24645f0536b372c63eae95b7",
+    "pool_output_sha256": "6074e981c17c7c1d4f3b296bbbc0523b1c419f92eab6e96593e5de527b384d9a",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_014.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 1,
+      "remote_positive_indices": [
+        6,
+        66,
+        81
+      ],
+      "remote_negative_index": 24,
+      "current_lower_numerator": 124296794,
+      "current_lower_denominator": 1000001
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.12779469400265953,
+      "floating_population": 151.8539863309997,
+      "maximum_equality_residual": 6.862566070964249e-14,
+      "D": 1000003,
+      "lower_numerator": 151854000,
+      "lower_denominator": 1000003
+    }
+  },
+  {
+    "iteration": 16,
+    "filter": {
+      "summary": true,
+      "pool_input": 441,
+      "pool_survivors": 438,
+      "rejected": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.007045986996672582,
+    "pool_input_sha256": "6074e981c17c7c1d4f3b296bbbc0523b1c419f92eab6e96593e5de527b384d9a",
+    "pool_output_sha256": "3f47219a6d07db3e66d974abf294a570b6c2c4b2aac573cf6140e59c82ff1559",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_015.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 1,
+      "remote_positive_indices": [
+        13,
+        66,
+        68
+      ],
+      "remote_negative_index": 16,
+      "current_lower_numerator": 124635310,
+      "current_lower_denominator": 1000001
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.11298669700045139,
+      "floating_population": 161.30824268567108,
+      "maximum_equality_residual": 1.0652589921278377e-13,
+      "D": 1000003,
+      "lower_numerator": 161308244,
+      "lower_denominator": 1000003
+    }
+  },
+  {
+    "iteration": 17,
+    "filter": {
+      "summary": true,
+      "pool_input": 438,
+      "pool_survivors": 372,
+      "rejected": [
+        21,
+        3,
+        0,
+        0,
+        19,
+        13,
+        0,
+        0,
+        7,
+        3,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.00583731199731119,
+    "pool_input_sha256": "3f47219a6d07db3e66d974abf294a570b6c2c4b2aac573cf6140e59c82ff1559",
+    "pool_output_sha256": "4cf1803ab5ecb72bed499d4ec7585321fe272166b22de14358f7f6d98b0031f9",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_016.json"
+    ],
+    "profile": {
+      "native_up": -4,
+      "native_down": 2,
+      "remote_positive_indices": [
+        0,
+        17,
+        28
+      ],
+      "remote_negative_index": 3,
+      "current_lower_numerator": 124953851,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.06671116499637719,
+      "floating_population": 168.472172129003,
+      "maximum_equality_residual": 7.138734048339757e-14,
+      "D": 1000002,
+      "lower_numerator": 168472160,
+      "lower_denominator": 1000002
+    }
+  },
+  {
+    "iteration": 18,
+    "filter": {
+      "summary": true,
+      "pool_input": 372,
+      "pool_survivors": 354,
+      "rejected": [
+        6,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.0055640819991822354,
+    "pool_input_sha256": "4cf1803ab5ecb72bed499d4ec7585321fe272166b22de14358f7f6d98b0031f9",
+    "pool_output_sha256": "bf897d7ac00fe98b640e75d31426d6ae5027d39496e947b8049c46cd3f5f335f",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_017.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 1,
+      "remote_positive_indices": [
+        6,
+        62,
+        66
+      ],
+      "remote_negative_index": 24,
+      "current_lower_numerator": 125547494,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.12031067100178916,
+      "floating_population": 152.1301634067535,
+      "maximum_equality_residual": 7.105427357601002e-14,
+      "D": 1000002,
+      "lower_numerator": 152130179,
+      "lower_denominator": 1000002
+    }
+  },
+  {
+    "iteration": 19,
+    "filter": {
+      "summary": true,
+      "pool_input": 354,
+      "pool_survivors": 351,
+      "rejected": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.005413286002294626,
+    "pool_input_sha256": "bf897d7ac00fe98b640e75d31426d6ae5027d39496e947b8049c46cd3f5f335f",
+    "pool_output_sha256": "74f54c9a2718423b48244fecc34bfff8a8ce59b9e9991803051358d4db74fef2",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_018.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        9,
+        19
+      ],
+      "remote_negative_index": 37,
+      "current_lower_numerator": 125966308,
+      "current_lower_denominator": 1000001
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.07800024100288283,
+      "floating_population": 177.85198959131262,
+      "maximum_equality_residual": 4.085620730620576e-14,
+      "D": 1000001,
+      "lower_numerator": 177851994,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 20,
+    "filter": {
+      "summary": true,
+      "pool_input": 351,
+      "pool_survivors": 339,
+      "rejected": [
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.005548258006456308,
+    "pool_input_sha256": "74f54c9a2718423b48244fecc34bfff8a8ce59b9e9991803051358d4db74fef2",
+    "pool_output_sha256": "14dff566a9e15923cc081f368efdea5676b5b08c01ce4f82bd0694eedf056f73",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_019.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        9,
+        25
+      ],
+      "remote_negative_index": 28,
+      "current_lower_numerator": 126062330,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.047559588005242404,
+      "floating_population": 177.22724065310578,
+      "maximum_equality_residual": 1.887379141862766e-13,
+      "D": 1000002,
+      "lower_numerator": 177227241,
+      "lower_denominator": 1000002
+    }
+  },
+  {
+    "iteration": 21,
+    "filter": {
+      "summary": true,
+      "pool_input": 339,
+      "pool_survivors": 333,
+      "rejected": [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.0053305610053939745,
+    "pool_input_sha256": "14dff566a9e15923cc081f368efdea5676b5b08c01ce4f82bd0694eedf056f73",
+    "pool_output_sha256": "c51f2b1c041731f2b3e2df264a85d832693ef8b9ec029877f241a39691b3d2ee",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_020.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        0,
+        41
+      ],
+      "remote_negative_index": 20,
+      "current_lower_numerator": 126171175,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.07680039000115357,
+      "floating_population": 174.2279898481769,
+      "maximum_equality_residual": 5.684341886080802e-14,
+      "D": 1000002,
+      "lower_numerator": 174227983,
+      "lower_denominator": 1000002
+    }
+  },
+  {
+    "iteration": 22,
+    "filter": {
+      "summary": true,
+      "pool_input": 333,
+      "pool_survivors": 297,
+      "rejected": [
+        12,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.005066464000265114,
+    "pool_input_sha256": "c51f2b1c041731f2b3e2df264a85d832693ef8b9ec029877f241a39691b3d2ee",
+    "pool_output_sha256": "4fbce6ff4e918dff7240155e262c43de70879f4d186b10ffe310a42ba8926ea7",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_021.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 1,
+      "remote_positive_indices": [
+        18,
+        66,
+        81
+      ],
+      "remote_negative_index": 21,
+      "current_lower_numerator": 126217267,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.08824788399942918,
+      "floating_population": 143.288515501088,
+      "maximum_equality_residual": 4.5630166312093934e-14,
+      "D": 1000002,
+      "lower_numerator": 143288525,
+      "lower_denominator": 1000002
+    }
+  },
+  {
+    "iteration": 23,
+    "filter": {
+      "summary": true,
+      "pool_input": 297,
+      "pool_survivors": 291,
+      "rejected": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.004888406998361461,
+    "pool_input_sha256": "4fbce6ff4e918dff7240155e262c43de70879f4d186b10ffe310a42ba8926ea7",
+    "pool_output_sha256": "5f2470413257dca471c542f8f631d650f2f0b1538e305a6ff1b1139b90569d40",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_022.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        1,
+        16
+      ],
+      "remote_negative_index": 19,
+      "current_lower_numerator": 126339258,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.0616690069946344,
+      "floating_population": 165.08547249153307,
+      "maximum_equality_residual": 3.852473895449293e-14,
+      "D": 1000001,
+      "lower_numerator": 165085474,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 24,
+    "filter": {
+      "summary": true,
+      "pool_input": 291,
+      "pool_survivors": 282,
+      "rejected": [
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.005122909999045078,
+    "pool_input_sha256": "5f2470413257dca471c542f8f631d650f2f0b1538e305a6ff1b1139b90569d40",
+    "pool_output_sha256": "028f76a32ebb3f2b5bce26f1ac697230ff805053b11b42e4f4fb912de24bfcb3",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_023.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 1,
+      "remote_positive_indices": [
+        9,
+        67,
+        81
+      ],
+      "remote_negative_index": 12,
+      "current_lower_numerator": 126350009,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.10659221799869556,
+      "floating_population": 163.62038940924614,
+      "maximum_equality_residual": 1.4421797089880783e-13,
+      "D": 1000003,
+      "lower_numerator": 163620403,
+      "lower_denominator": 1000003
+    }
+  },
+  {
+    "iteration": 25,
+    "filter": {
+      "summary": true,
+      "pool_input": 282,
+      "pool_survivors": 252,
+      "rejected": [
+        11,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.005354356995667331,
+    "pool_input_sha256": "028f76a32ebb3f2b5bce26f1ac697230ff805053b11b42e4f4fb912de24bfcb3",
+    "pool_output_sha256": "1f89b7a21a6158c220d67d5bb4a41c61f92be1842f145c91381b85ce71180a0b",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_024.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        4,
+        37
+      ],
+      "remote_negative_index": 12,
+      "current_lower_numerator": 126444831,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.061841927003115416,
+      "floating_population": 176.56285910994953,
+      "maximum_equality_residual": 2.495781359357352e-13,
+      "D": 1000001,
+      "lower_numerator": 176562862,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 26,
+    "filter": {
+      "summary": true,
+      "pool_input": 252,
+      "pool_survivors": 246,
+      "rejected": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.0051228390002506785,
+    "pool_input_sha256": "1f89b7a21a6158c220d67d5bb4a41c61f92be1842f145c91381b85ce71180a0b",
+    "pool_output_sha256": "d78604ed7898b8360e0592d8724bb53b4f23f2043f6e1316ac4ed21234805b63",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_025.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 1,
+      "remote_positive_indices": [
+        6,
+        62,
+        81
+      ],
+      "remote_negative_index": 24,
+      "current_lower_numerator": 126689492,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.09585493200575002,
+      "floating_population": 152.7486029563142,
+      "maximum_equality_residual": 5.3734794391857577e-14,
+      "D": 1000002,
+      "lower_numerator": 152748603,
+      "lower_denominator": 1000002
+    }
+  },
+  {
+    "iteration": 27,
+    "filter": {
+      "summary": true,
+      "pool_input": 246,
+      "pool_survivors": 243,
+      "rejected": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.0047488379932474345,
+    "pool_input_sha256": "d78604ed7898b8360e0592d8724bb53b4f23f2043f6e1316ac4ed21234805b63",
+    "pool_output_sha256": "87b2196ba2fc9ac33ccdbc2a169be2180fe5bb860525240b3e929a78717746e9",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_026.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        3,
+        27
+      ],
+      "remote_negative_index": 6,
+      "current_lower_numerator": 127242620,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.08450685799471103,
+      "floating_population": 166.80663588300735,
+      "maximum_equality_residual": 7.771561172376096e-14,
+      "D": 1000001,
+      "lower_numerator": 166806639,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 28,
+    "filter": {
+      "summary": true,
+      "pool_input": 243,
+      "pool_survivors": 231,
+      "rejected": [
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.005226485001912806,
+    "pool_input_sha256": "87b2196ba2fc9ac33ccdbc2a169be2180fe5bb860525240b3e929a78717746e9",
+    "pool_output_sha256": "c603a72330c241b1c639cd952f9d3ca72758f63b57a60827f08cf144b41fb6de",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_027.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        6,
+        8
+      ],
+      "remote_negative_index": 2,
+      "current_lower_numerator": 127663356,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.07099017899599858,
+      "floating_population": 178.587586545269,
+      "maximum_equality_residual": 2.389199948993337e-13,
+      "D": 1000001,
+      "lower_numerator": 178587601,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 29,
+    "filter": {
+      "summary": true,
+      "pool_input": 231,
+      "pool_survivors": 228,
+      "rejected": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.005033986999478657,
+    "pool_input_sha256": "c603a72330c241b1c639cd952f9d3ca72758f63b57a60827f08cf144b41fb6de",
+    "pool_output_sha256": "164f4a2fc829253b4ef46a3d0c58aa481045184d9625958a9ddb661309a22442",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_028.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        4,
+        34
+      ],
+      "remote_negative_index": 16,
+      "current_lower_numerator": 127686912,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.08910195499629481,
+      "floating_population": 206.5499107094251,
+      "maximum_equality_residual": 7.549516567451064e-14,
+      "D": 1000001,
+      "lower_numerator": 206549907,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 30,
+    "filter": {
+      "summary": true,
+      "pool_input": 228,
+      "pool_survivors": 111,
+      "rejected": [
+        111,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.004231731996696908,
+    "pool_input_sha256": "164f4a2fc829253b4ef46a3d0c58aa481045184d9625958a9ddb661309a22442",
+    "pool_output_sha256": "6d8e5dcb85772c0a96fc1718e0c9a00c742534ca6888bc6c29e22e57d71f1a8c",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_029.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        51,
+        80
+      ],
+      "remote_negative_index": 54,
+      "current_lower_numerator": 128093661,
+      "current_lower_denominator": 1000002
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.12387317899992922,
+      "floating_population": 143.42929433558214,
+      "maximum_equality_residual": 2.0539125955565396e-13,
+      "D": 1000001,
+      "lower_numerator": 143429299,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 31,
+    "filter": {
+      "summary": true,
+      "pool_input": 111,
+      "pool_survivors": 9,
+      "rejected": [
+        34,
+        0,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.003575857997930143,
+    "pool_input_sha256": "6d8e5dcb85772c0a96fc1718e0c9a00c742534ca6888bc6c29e22e57d71f1a8c",
+    "pool_output_sha256": "0a09b0791151c560e9121efccf0ee6350023ca6a7765c3b81e4456abd57d24ac",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_030.json"
+    ],
+    "profile": {
+      "native_up": -3,
+      "native_down": 2,
+      "remote_positive_indices": [
+        1,
+        30
+      ],
+      "remote_negative_index": 23,
+      "current_lower_numerator": 128232477,
+      "current_lower_denominator": 1000001
+    },
+    "lp": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.09015215099498164,
+      "floating_population": 177.36706305710098,
+      "maximum_equality_residual": 4.846123502488808e-14,
+      "D": 1000001,
+      "lower_numerator": 177367063,
+      "lower_denominator": 1000001
+    }
+  },
+  {
+    "iteration": 32,
+    "filter": {
+      "summary": true,
+      "pool_input": 9,
+      "pool_survivors": 0,
+      "rejected": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "filter_seconds": 0.003374664993316401,
+    "pool_input_sha256": "0a09b0791151c560e9121efccf0ee6350023ca6a7765c3b81e4456abd57d24ac",
+    "pool_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "new_certificates": [
+      "research/2026-11-21/semiprimes/gate-model/pool_refinement_5063/certificate_031.json"
+    ],
+    "outcome": "EXHAUSTED"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "tile": [
+    35,
+    13,
+    43
+  ],
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "seconds": 20.07452737999847,
+  "scope": "Diagnostic integer one-residue endpoint projection with signed block population, not geometry."
+}
