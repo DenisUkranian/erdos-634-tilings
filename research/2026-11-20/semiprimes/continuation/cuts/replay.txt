@@ -1,0 +1,16 @@
+3431: 19 polygons, 76 chords, minimum area 231
+  231 231 231 231
+  231 280 280 259
+  280 231 280 259
+  462 462 924 462
+  560 462 1120 518
+  1320 231 1320 1221
+  15 shapes embed in the 280-tile F1 triangle; remaining areas [924, 2111, 2311, 3431]
+5063: 31 polygons, 224 chords, minimum area 455
+  455 455 455 455
+  455 624 624 559
+  624 455 624 559
+  910 910 1820 910
+  1248 910 2496 1118
+  1680 455 1680 1505
+  27 shapes embed in the 624-tile F1 triangle; remaining areas [1820, 2567, 3383, 5063]

@@ -1,0 +1,3 @@
+PASS band -2 0 verified_packed_rows 23563740 endpoint_deductions 476796533 root 0 0 axis 40 -33 sign 1
+PASS band -1 1 verified_packed_rows 23952238 endpoint_deductions 474961183 root 8547 0 axis 1 0 sign -1
+PASS band 0 2 verified_packed_rows 22428099 endpoint_deductions 470456497 root 1617 7623 axis 7 33 sign -1

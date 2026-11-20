@@ -2,6 +2,10 @@
 
 Research record, 20 November 2026. Denis Paliy project, with ChatGPT assistance. This continues the [prime-product reduction](../README.md). The geometric framework and individual certificates used as inputs are identified in each proof. The new results have internal mathematical and computational checks. Independent refereeing and formal verification of the new claims are outstanding.
 
+## Straight cuts on the 3431 and 5063 boards
+
+Any maximal sequence of straight cuts through the tile edges of a hypothetical 3431 tiling leaves at least one convex piece of 924, 2111, 2311 or 3431 tiles among the terminal pieces. The fixed (231,259,280) triangle cannot be filled by 280 copies of (33,7,37), as verified in all three possible orientation bands. For 5063 a terminal piece has at least 455 tiles. A tiling with all terminal pieces below 1820 would imply a tiling of the (455,559,624) triangle by 624 copies of (35,13,43). Both original scale-one decisions remain open. [Cut theorem and small certificates](cuts/README.md) · [Fixed-tile exclusion at 280](cuts/f1_280/PROOF.md).
+
 ## Direct decisions for prime products
 
 For 3<p<q≤7p/4 the original tiling question has the classical, Paliy or F2 arithmetic answer except at six listed products. For q≤19p/10 there are 56 such staircase exceptions, and for q≤199p/100 there are 18,789. The last of these intervals gives a complete rule for every pair with smaller prime exceeding 7,952,292,373. These are unrestricted results in ratio intervals, with no ceiling on the product. [All four intervals, the criterion and the exact exception generator](counting/MIXED_RATIO.md).
