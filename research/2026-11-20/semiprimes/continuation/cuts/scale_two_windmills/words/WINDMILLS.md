@@ -1,0 +1,7 @@
+# Ordered boundaries of the four-cell candidates
+
+The earlier whole-board windmill census at 5063 left 67 multisets of four polygon shapes. On 22 of these rows a cell has nontrivial boundary in a free product, which excludes the entire row. There are 45 survivors. All 18 previous rows on the 3431 board survive this check.
+
+Let \(X_0,X_1,X_2\) generate three free cyclic factors of order \(a\), with \(X_{i+3}=X_i^{-1}\) and index period six. The directed unit step of height \(h\) and phase \(j\) maps to \(X_{j+h}^{s^h}\) where \(s=b/c\pmod a\). Here \(s^2=1\). The two hands satisfy \(a z^h\rho^j+b z^h\rho^{j\pm1}=c z^{h\pm1}\rho^j\). The \(a\)-side vanishes in the group and the other two sides give the same group element. On every maximal straight chain, vertices of both banks occur at integral distances from its end. Subdividing at unit offsets gives a disk diagram, so an actual tiling has trivial boundary word. The independent order-\(b\) test sends a heading to \(Y_j^{t^h}\) with \(t=a/c\pmod b\) and kills the \(b\)-side. These two necessary tests are the project's earlier ordered-boundary maps. All 22 new windmill exclusions already follow from the order-35 map.
+
+Run `python3 check_windmills.py CATALOG_FOLDER` with the earlier windmill folder containing `board_3431.json` and `board_5063.json`. Rows and cells are numbered from zero. The recorded output gives one failed cell and the full reduced word for each excluded row. The 45 remaining rows are undetermined.

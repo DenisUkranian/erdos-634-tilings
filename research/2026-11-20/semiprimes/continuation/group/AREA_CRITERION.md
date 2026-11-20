@@ -33,7 +33,7 @@ The existing two-notch constructions give actual abstract disc diagrams, includi
 
 | Board | Positive faces | Negative faces | Range for A(W), in steps of two |
 |---:|---:|---:|---:|
-| 3431 | 3559 | 128 | 3431 to 3687 |
+| 3431 | 3506 | 75 | 3431 to 3581 |
 | 5063 | 5071 | 8 | 5063 to 5079 |
 
-Run `python3 verify_area_bound.py` from this repository to check the integer arcs, full signed boundary identity and face counts. The [scaffold generator](../packing/packing_replay.py) supplies the coordinates. The [independent disk checker](diagram-bounds/README.md) verifies the seventeen macro cells, their interfaces, both notch gluing arcs and the grid counts from the raw constructor output. In particular the 5063 problem amounts to distinguishing a minimum of zero negative faces from a minimum between one and eight. The displayed construction certifies the upper bound of eight, not its optimality.
+The newer 3431 construction extends by five parallel grid parallelograms outside the board and glues their reversed disc along a three-side arc. The two notches contribute 1 and 64 negative faces. Removing the padding contributes ten more. The [disc checker and construction](diagram-bounds/README.md) verify both rows. Run `python3 diagram-bounds/verify.py` from this directory. The older `verify_area_bound.py` still reproduces the unpadded 128-negative-face bound at 3431 and the same eight-negative-face bound at 5063. Neither construction determines optimality.

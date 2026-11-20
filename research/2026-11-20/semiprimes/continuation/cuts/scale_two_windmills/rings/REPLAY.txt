@@ -1,0 +1,8 @@
+max path 8 histogram 3:206 4:240
+ears 43932 path nodes 194980 returns 52037 anchor bound 1044 cycles 446
+Cap or board area 924 distinct shape multisets by central side count {3: 35, 4: 40}
+All 75 layouts contain a locally excluded cell.
+max path 8 histogram 3:818 4:2640
+ears 126600 path nodes 1282673 returns 377537 anchor bound 2016 cycles 3458
+Cap or board area 1820 distinct shape multisets by central side count {3: 137, 4: 440}
+All 577 layouts contain a locally excluded cell.

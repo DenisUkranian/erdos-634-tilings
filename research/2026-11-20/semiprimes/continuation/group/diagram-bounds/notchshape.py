@@ -6,7 +6,7 @@ def scale(n,p): return (n*p[0],n*p[1])
 def neg(p): return scale(-1,p)
 
 
-def make(a,b,c,h,L0,steps,extend=0,cap=0):
+def make(a,b,c,h,L0,steps,extend=0,cap=0,allow_left_padding=False):
     """steps = (horizontal advance, vertical advance, new scaffold depth)."""
     assert a>b>0 and gcd(a,b)==1 and a*a+a*b+b*b==c*c
     H=(h*b*(2*a+b)*c,0)
@@ -40,7 +40,7 @@ def make(a,b,c,h,L0,steps,extend=0,cap=0):
         final=idx==len(steps)
         r,s,new_depth=(0,depth*a,depth) if final else steps[idx]
         assert 0<previous_r and 0<s<=depth*a
-        assert p[0]>=0 and p[1]>=0 and uu>=vv+s
+        assert (p[0]>=0 or allow_left_padding) and p[1]>=0 and uu>=vv+s
         oversize = not final and r > new_depth*b
         strip = cap if oversize else 0
         extender = extend if oversize else 0

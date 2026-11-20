@@ -31,7 +31,16 @@ There are exactly 506 geometric candidates of area at most 300. Requiring integr
 
 ## Independent search
 
-The original position-independent checker, with the same four short-height intervals but no valuation or phase pruning, was also launched. Its four searches were still running when this replay was packaged. They are independent corroboration in progress. The four completed outcomes in the table use the two-prime phase bounds. A separate compilation of the phase search with a fourfold similar triangle gives a positive control, and the two-row 245-tile case also has a complete position-independent exclusion.
+The original position-independent checker completed all four short-height intervals. It uses no positioned valuation or phase pruning. The source is the original Git blob `9f969403db869b6c952091ae3ed57173f3b4d1b7`. Both solvers start from the bare pentagon. The original checker returns YES on the 16-tile similar-triangle control. Its four complete negative searches independently reproduce the exclusion and use only the whole-height interval bound and the base exposed-corner checker.
+
+| Short-height interval | Nodes without phase pruning | Verdict |
+|---|---:|---|
+| [-3,1] | 1160712 | NO |
+| [-2,2] | 1200477 | NO |
+| [-1,3] | 1200490 | NO |
+| [0,4] | 1158091 | NO |
+
+Run `replay_base.sh` for these four intervals, `replay.sh` for the phase-pruned counts and `replay_nesting.sh` for the 506 reference hulls and 128 candidates. All scripts compile locally and use only Python 3, a C++20 compiler and standard libraries.
 
 ## Sources and hypotheses
 

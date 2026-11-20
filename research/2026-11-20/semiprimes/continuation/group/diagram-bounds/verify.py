@@ -1,6 +1,7 @@
 """Check the two signed triangular disc constructions using integer coordinates."""
+from collections import defaultdict, Counter
 from itertools import combinations
-from math import isqrt
+from math import gcd, isqrt
 from notchshape import make
 
 
@@ -43,10 +44,20 @@ def strictly_between(p, w, q):
 def checked(a, b, c):
     n = (a + 2 * b) * (2 * a + b)
     step = ((c - b) // 2, (c - a) // 2, 1)
-    scaffold = make(a, b, c, 1, 1, [step, step])
+    if n == 3431:
+        scaffold = make(a, b, c, 1, 2, [(8, 2, 1), (15, 2, 1)], allow_left_padding=True)
+        padding = [(-7 * c, 0), (0, 0), (0, 165 * c), (-7 * c, 165 * c)]
+        # Split each of the five 7-by-33 cells across its long diagonal.
+        triangle_sides = [7, 33, isqrt(7**2 + 7 * 33 + 33**2)]
+        assert sorted(triangle_sides) == sorted((a, b, c)) and 5 * 33 == 165
+        padding_faces = 10
+    else:
+        scaffold = make(a, b, c, 1, 1, [step, step])
+        padding = []
+        padding_faces = 0
     board = ccw(scaffold['target'])
     pieces = []
-    positive = negative = 0
+    positive, negative = 0, padding_faces
 
     def triangle(poly, factor):
         assert len(poly) == 3 and factor > 0
@@ -56,7 +67,6 @@ def checked(a, b, c):
     for block in scaffold['blocks']:
         pts = block['points']
         poly = ccw(pts)
-        assert all(left(p, q, v) >= 0 for p, q in edges(board) for v in poly)
         assert area(poly) > 0
         assert all(left(p, q, v) >= 0 for p, q in edges(poly) for v in poly)
         pieces.append(poly)
@@ -90,12 +100,26 @@ def checked(a, b, c):
             positive += 2*m*k
 
     assert all(separates(p, q) or separates(q, p) for p, q in combinations(pieces, 2))
-    assert sum(area(p) for p in pieces) == area(board)
+    assert sum(area(p) for p in pieces) == area(board) + area(padding)
+    # Equality of oriented boundary chains, allowing all partial contacts.
+    # With CCW interiors and disjoint blocks this proves exact coverage.
+    supports = defaultdict(Counter)
+    for sign, poly in [(1, p) for p in pieces] + [(-1, board), (-1, padding)]:
+        for p, q in edges(poly):
+            dx, dy = sub(q, p)
+            divisor = gcd(dx, dy)
+            u = dx // divisor, dy // divisor
+            if u < (0, 0):
+                u = -u[0], -u[1]
+            row = supports[(u, cross(u, p))]
+            row[p] += sign
+            row[q] -= sign
+    assert all(not any(row.values()) for row in supports.values())
     # When the macro edges meet, every vertex on the common run is at an
     # integer physical distance from the endpoints of the edge containing it.
     for poly in pieces:
         for p, q in edges(poly):
-            for other in pieces:
+            for other in pieces + [board, padding]:
                 for w in other:
                     if strictly_between(p, w, q):
                         for delta in (sub(w,p),sub(q,w)):
@@ -103,7 +127,7 @@ def checked(a, b, c):
                             length = isqrt(square)
                             assert length * length == square and length % c == 0
     assert positive - negative == n
-    assert negative == {3431: 128, 5063: 8}[n]
+    assert negative == {3431: 75, 5063: 8}[n]
     print(n, 'board:', len(pieces), 'convex blocks.', positive, 'positive faces,',
           negative, 'negative faces,', positive + negative, 'faces in all.')
 

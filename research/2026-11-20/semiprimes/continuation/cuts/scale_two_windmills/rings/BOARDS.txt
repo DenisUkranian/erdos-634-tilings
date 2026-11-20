@@ -1,0 +1,6 @@
+max path 8 histogram 3:111 4:950 5:642 6:232 7:3
+ears 259873 path nodes 265017 returns 127384 anchor bound 3089 cycles 1938
+Cap or board area 3431 distinct shape multisets by central side count {3: 111, 4: 950, 5: 642, 6: 232, 7: 3}
+max path 8 histogram 3:200 4:1605 5:962 6:509 7:77
+ears 476106 path nodes 745555 returns 377396 anchor bound 4349 cycles 3353
+Cap or board area 5063 distinct shape multisets by central side count {3: 200, 4: 1603, 5: 962, 6: 509, 7: 77}
