@@ -1,0 +1,6 @@
+prime endpoints: 78496
+mixed residual endpoints: 511
+distant candidate pairs: 11838
+distant candidate endpoints: 10997
+endpoints on both lists: 70
+fully decided rows using the older overlist alone: 67058

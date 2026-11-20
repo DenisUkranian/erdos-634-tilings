@@ -13,7 +13,7 @@ def square(n):
     return n >= 0 and isqrt(n) ** 2 == n
 
 
-def classify(p, q):
+def classify(p, q, *, use_bank_exclusions=True):
     if not prime(p) or not prime(q):
         raise ValueError("Both factors must be prime.")
     p, q = sorted((p, q))
@@ -35,7 +35,9 @@ def classify(p, q):
         candidates = (p*p + 6*p + 1, 3*p*p + 6*p - 1, p*p + 6*p - 3)
         if 4*q not in candidates:
             return "NO", "prime-pair reduction"
-        return "NO", "unit BQ or I120 manuscript exclusion"
+        if use_bank_exclusions:
+            return "NO", "unit BQ or I120 manuscript exclusion"
+        return "UNDECIDED BY SELECTED INPUTS", "distant BQ or I120 candidate"
     if q >= 2 * p or (p + q) % 3:
         return "NO", "mixed-residue range or congruence"
     a, b = (2*q - p)//3, (2*p - q)//3
@@ -55,5 +57,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("p", type=int)
     parser.add_argument("q", type=int)
+    parser.add_argument("--older-overlist", action="store_true",
+                        help="omit the two later moving-bank manuscript exclusions")
     args = parser.parse_args()
-    print(*classify(args.p, args.q), sep="  ")
+    print(*classify(args.p, args.q, use_bank_exclusions=not args.older_overlist), sep="  ")
