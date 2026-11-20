@@ -1,0 +1,15 @@
+{
+  "tile": [
+    35,
+    13,
+    43
+  ],
+  "rows": 11366,
+  "columns": 23220,
+  "nonzeros": 271416,
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is Infeasible)",
+  "seconds": 120.067,
+  "N": 5063,
+  "scope": "Native short heights1,2 and native meshes zR,z^2R only; no unrestricted conclusion."
+}

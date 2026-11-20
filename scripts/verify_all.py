@@ -25,6 +25,8 @@ def main():
         shutil.copytree(ROOT,work,ignore=shutil.ignore_patterns('.git','__pycache__','audit-output','.publication','*.pyc'))
         reports['vertex_phase']=run(['research/2026-11-20/semiprimes/continuation/vertex-phase/replay.py'],work)
         print('VERTEX_PHASE_STANDARD_LIBRARY_CONTROLS=PASS',flush=True)
+        reports['common_obstruction']=run(['research/2026-11-20/semiprimes/continuation/common-obstruction/replay.py'],work)
+        print('COMMON_OBSTRUCTION_EXACT_CONTROLS=PASS',flush=True)
         reports['november19']=run(['research/2026-11-19/verify.py'],work)
         print('NOVEMBER19_CENSUS_AND_CERTIFICATES=PASS',flush=True)
         reports['legacy']=run(['scripts/reproduce.py'],work)

@@ -1,0 +1,44 @@
+{
+  "target_status": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "general_theorems": [
+    "Joint Euclidean-cell signed current congruence",
+    "Ordinary-node balanced-pair reserve",
+    "Ordinary nodes with2c/3c have charge-graph degree at most1"
+  ],
+  "native_bounds": {
+    "3431": {
+      "exact": [
+        518127703,
+        1000001
+      ],
+      "odd_c_bound": 555
+    },
+    "5063": {
+      "exact": [
+        693711126,
+        1000001
+      ],
+      "odd_c_bound": 731
+    }
+  },
+  "native_scope": "Only short heights1,2, with vertices in zR,z^2R respectively. Additional hypotheses; not all tilings.",
+  "coupled_exploratory": {
+    "3431": {
+      "reported_status": "optimal",
+      "minimum_total_approx": 729.7995812678386,
+      "exact_dual_retained": false,
+      "interpretation": "Too weak to obstruct the native model."
+    },
+    "5063": {
+      "reported_status": "time_limit",
+      "seconds": 120.067,
+      "interpretation": "No certified solver conclusion; primal_status Infeasible at timeout is not an infeasibility certificate."
+    }
+  },
+  "no_target_runs_active": true,
+  "new_target_tiling": false,
+  "unrestricted_unsat": false
+}

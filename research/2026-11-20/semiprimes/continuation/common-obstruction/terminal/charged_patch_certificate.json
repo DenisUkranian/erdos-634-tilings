@@ -1,0 +1,1746 @@
+[
+  {
+    "tile": [
+      33,
+      7,
+      37
+    ],
+    "terminal_polygon_node_population": 1369,
+    "terminal_polygon_node_G": -37,
+    "parent_teeth": 40,
+    "partial_packing_tiles": 1409,
+    "target_N": 3431,
+    "macro_pieces": 41,
+    "F2_containment": "exactly verified",
+    "macro_pieces_native": [
+      {
+        "kind": "standard_triangle_grid",
+        "scale": 37,
+        "short_height": 1,
+        "vertices": [
+          [
+            0,
+            1369
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            231,
+            49
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            0,
+            1369
+          ],
+          [
+            7,
+            1329
+          ],
+          [
+            7,
+            1362
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            7,
+            1329
+          ],
+          [
+            14,
+            1289
+          ],
+          [
+            14,
+            1322
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            14,
+            1289
+          ],
+          [
+            21,
+            1249
+          ],
+          [
+            21,
+            1282
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            21,
+            1249
+          ],
+          [
+            28,
+            1209
+          ],
+          [
+            28,
+            1242
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            28,
+            1209
+          ],
+          [
+            35,
+            1169
+          ],
+          [
+            35,
+            1202
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            35,
+            1169
+          ],
+          [
+            42,
+            1129
+          ],
+          [
+            42,
+            1162
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            42,
+            1129
+          ],
+          [
+            49,
+            1089
+          ],
+          [
+            49,
+            1122
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            49,
+            1089
+          ],
+          [
+            56,
+            1049
+          ],
+          [
+            56,
+            1082
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            56,
+            1049
+          ],
+          [
+            63,
+            1009
+          ],
+          [
+            63,
+            1042
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            63,
+            1009
+          ],
+          [
+            70,
+            969
+          ],
+          [
+            70,
+            1002
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            70,
+            969
+          ],
+          [
+            77,
+            929
+          ],
+          [
+            77,
+            962
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            77,
+            929
+          ],
+          [
+            84,
+            889
+          ],
+          [
+            84,
+            922
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            84,
+            889
+          ],
+          [
+            91,
+            849
+          ],
+          [
+            91,
+            882
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            91,
+            849
+          ],
+          [
+            98,
+            809
+          ],
+          [
+            98,
+            842
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            98,
+            809
+          ],
+          [
+            105,
+            769
+          ],
+          [
+            105,
+            802
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            105,
+            769
+          ],
+          [
+            112,
+            729
+          ],
+          [
+            112,
+            762
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            112,
+            729
+          ],
+          [
+            119,
+            689
+          ],
+          [
+            119,
+            722
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            119,
+            689
+          ],
+          [
+            126,
+            649
+          ],
+          [
+            126,
+            682
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            126,
+            649
+          ],
+          [
+            133,
+            609
+          ],
+          [
+            133,
+            642
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            133,
+            609
+          ],
+          [
+            140,
+            569
+          ],
+          [
+            140,
+            602
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            140,
+            569
+          ],
+          [
+            147,
+            529
+          ],
+          [
+            147,
+            562
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            147,
+            529
+          ],
+          [
+            154,
+            489
+          ],
+          [
+            154,
+            522
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            154,
+            489
+          ],
+          [
+            161,
+            449
+          ],
+          [
+            161,
+            482
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            161,
+            449
+          ],
+          [
+            168,
+            409
+          ],
+          [
+            168,
+            442
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            168,
+            409
+          ],
+          [
+            175,
+            369
+          ],
+          [
+            175,
+            402
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            175,
+            369
+          ],
+          [
+            182,
+            329
+          ],
+          [
+            182,
+            362
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            182,
+            329
+          ],
+          [
+            189,
+            289
+          ],
+          [
+            189,
+            322
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            189,
+            289
+          ],
+          [
+            196,
+            249
+          ],
+          [
+            196,
+            282
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            196,
+            249
+          ],
+          [
+            203,
+            209
+          ],
+          [
+            203,
+            242
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            203,
+            209
+          ],
+          [
+            210,
+            169
+          ],
+          [
+            210,
+            202
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            210,
+            169
+          ],
+          [
+            217,
+            129
+          ],
+          [
+            217,
+            162
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            217,
+            129
+          ],
+          [
+            224,
+            89
+          ],
+          [
+            224,
+            122
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            224,
+            89
+          ],
+          [
+            231,
+            49
+          ],
+          [
+            231,
+            82
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            231,
+            49
+          ],
+          [
+            198,
+            42
+          ],
+          [
+            231,
+            42
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            198,
+            42
+          ],
+          [
+            165,
+            35
+          ],
+          [
+            198,
+            35
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            165,
+            35
+          ],
+          [
+            132,
+            28
+          ],
+          [
+            165,
+            28
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            132,
+            28
+          ],
+          [
+            99,
+            21
+          ],
+          [
+            132,
+            21
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            99,
+            21
+          ],
+          [
+            66,
+            14
+          ],
+          [
+            99,
+            14
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            66,
+            14
+          ],
+          [
+            33,
+            7
+          ],
+          [
+            66,
+            7
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            33,
+            7
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            33,
+            0
+          ]
+        ]
+      }
+    ],
+    "scope": "The polygon is tiled. The F2 packing is partial; completion and continued terminality are not claimed."
+  },
+  {
+    "tile": [
+      35,
+      13,
+      43
+    ],
+    "terminal_polygon_node_population": 1849,
+    "terminal_polygon_node_G": -43,
+    "parent_teeth": 48,
+    "partial_packing_tiles": 1897,
+    "target_N": 5063,
+    "macro_pieces": 49,
+    "F2_containment": "exactly verified",
+    "macro_pieces_native": [
+      {
+        "kind": "standard_triangle_grid",
+        "scale": 43,
+        "short_height": 1,
+        "vertices": [
+          [
+            0,
+            1849
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            455,
+            169
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            0,
+            1849
+          ],
+          [
+            13,
+            1801
+          ],
+          [
+            13,
+            1836
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            13,
+            1801
+          ],
+          [
+            26,
+            1753
+          ],
+          [
+            26,
+            1788
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            26,
+            1753
+          ],
+          [
+            39,
+            1705
+          ],
+          [
+            39,
+            1740
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            39,
+            1705
+          ],
+          [
+            52,
+            1657
+          ],
+          [
+            52,
+            1692
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            52,
+            1657
+          ],
+          [
+            65,
+            1609
+          ],
+          [
+            65,
+            1644
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            65,
+            1609
+          ],
+          [
+            78,
+            1561
+          ],
+          [
+            78,
+            1596
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            78,
+            1561
+          ],
+          [
+            91,
+            1513
+          ],
+          [
+            91,
+            1548
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            91,
+            1513
+          ],
+          [
+            104,
+            1465
+          ],
+          [
+            104,
+            1500
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            104,
+            1465
+          ],
+          [
+            117,
+            1417
+          ],
+          [
+            117,
+            1452
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            117,
+            1417
+          ],
+          [
+            130,
+            1369
+          ],
+          [
+            130,
+            1404
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            130,
+            1369
+          ],
+          [
+            143,
+            1321
+          ],
+          [
+            143,
+            1356
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            143,
+            1321
+          ],
+          [
+            156,
+            1273
+          ],
+          [
+            156,
+            1308
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            156,
+            1273
+          ],
+          [
+            169,
+            1225
+          ],
+          [
+            169,
+            1260
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            169,
+            1225
+          ],
+          [
+            182,
+            1177
+          ],
+          [
+            182,
+            1212
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            182,
+            1177
+          ],
+          [
+            195,
+            1129
+          ],
+          [
+            195,
+            1164
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            195,
+            1129
+          ],
+          [
+            208,
+            1081
+          ],
+          [
+            208,
+            1116
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            208,
+            1081
+          ],
+          [
+            221,
+            1033
+          ],
+          [
+            221,
+            1068
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            221,
+            1033
+          ],
+          [
+            234,
+            985
+          ],
+          [
+            234,
+            1020
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            234,
+            985
+          ],
+          [
+            247,
+            937
+          ],
+          [
+            247,
+            972
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            247,
+            937
+          ],
+          [
+            260,
+            889
+          ],
+          [
+            260,
+            924
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            260,
+            889
+          ],
+          [
+            273,
+            841
+          ],
+          [
+            273,
+            876
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            273,
+            841
+          ],
+          [
+            286,
+            793
+          ],
+          [
+            286,
+            828
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            286,
+            793
+          ],
+          [
+            299,
+            745
+          ],
+          [
+            299,
+            780
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            299,
+            745
+          ],
+          [
+            312,
+            697
+          ],
+          [
+            312,
+            732
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            312,
+            697
+          ],
+          [
+            325,
+            649
+          ],
+          [
+            325,
+            684
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            325,
+            649
+          ],
+          [
+            338,
+            601
+          ],
+          [
+            338,
+            636
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            338,
+            601
+          ],
+          [
+            351,
+            553
+          ],
+          [
+            351,
+            588
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            351,
+            553
+          ],
+          [
+            364,
+            505
+          ],
+          [
+            364,
+            540
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            364,
+            505
+          ],
+          [
+            377,
+            457
+          ],
+          [
+            377,
+            492
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            377,
+            457
+          ],
+          [
+            390,
+            409
+          ],
+          [
+            390,
+            444
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            390,
+            409
+          ],
+          [
+            403,
+            361
+          ],
+          [
+            403,
+            396
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            403,
+            361
+          ],
+          [
+            416,
+            313
+          ],
+          [
+            416,
+            348
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            416,
+            313
+          ],
+          [
+            429,
+            265
+          ],
+          [
+            429,
+            300
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            429,
+            265
+          ],
+          [
+            442,
+            217
+          ],
+          [
+            442,
+            252
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            442,
+            217
+          ],
+          [
+            455,
+            169
+          ],
+          [
+            455,
+            204
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            455,
+            169
+          ],
+          [
+            420,
+            156
+          ],
+          [
+            455,
+            156
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            420,
+            156
+          ],
+          [
+            385,
+            143
+          ],
+          [
+            420,
+            143
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            385,
+            143
+          ],
+          [
+            350,
+            130
+          ],
+          [
+            385,
+            130
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            350,
+            130
+          ],
+          [
+            315,
+            117
+          ],
+          [
+            350,
+            117
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            315,
+            117
+          ],
+          [
+            280,
+            104
+          ],
+          [
+            315,
+            104
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            280,
+            104
+          ],
+          [
+            245,
+            91
+          ],
+          [
+            280,
+            91
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            245,
+            91
+          ],
+          [
+            210,
+            78
+          ],
+          [
+            245,
+            78
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            210,
+            78
+          ],
+          [
+            175,
+            65
+          ],
+          [
+            210,
+            65
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            175,
+            65
+          ],
+          [
+            140,
+            52
+          ],
+          [
+            175,
+            52
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            140,
+            52
+          ],
+          [
+            105,
+            39
+          ],
+          [
+            140,
+            39
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            105,
+            39
+          ],
+          [
+            70,
+            26
+          ],
+          [
+            105,
+            26
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            70,
+            26
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            70,
+            13
+          ]
+        ]
+      },
+      {
+        "kind": "unit_triangle",
+        "scale": 1,
+        "short_height": 0,
+        "vertices": [
+          [
+            35,
+            13
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            35,
+            0
+          ]
+        ]
+      }
+    ],
+    "scope": "The polygon is tiled. The F2 packing is partial; completion and continued terminality are not claimed."
+  }
+]

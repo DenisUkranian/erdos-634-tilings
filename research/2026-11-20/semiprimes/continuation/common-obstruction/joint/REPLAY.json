@@ -1,0 +1,111 @@
+{
+  "format": "joint-phase-controls-v1",
+  "status": "PASS",
+  "checks": {
+    "joint_cells_143": {
+      "status": "PASS",
+      "N": 143,
+      "cells_checked": 2,
+      "ordinary_rows_checked": 2,
+      "rows": [
+        {
+          "tree": 0,
+          "node": [
+            1,
+            4,
+            0
+          ],
+          "positive_blocks": 7,
+          "negative_blocks": 8,
+          "charges": [
+            -1
+          ]
+        },
+        {
+          "tree": 1,
+          "node": [
+            -1,
+            0,
+            0
+          ],
+          "positive_blocks": 7,
+          "negative_blocks": 8,
+          "charges": [
+            -1
+          ]
+        }
+      ]
+    },
+    "native_projection_143": {
+      "N": 143,
+      "native_h1": 105,
+      "native_h2": 38,
+      "base_teeth": 7,
+      "single_up": 14,
+      "interior_pairs": 42,
+      "exact_torus_residual": 0
+    },
+    "native_dual_3431": {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "single_checks": 222,
+      "pair_checks": 8214,
+      "lower_numerator": 518127703,
+      "lower_denominator": 1000001,
+      "odd_c_multiple_bound": 555,
+      "required_denominator": 1000001
+    },
+    "native_dual_5063": {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "single_checks": 258,
+      "pair_checks": 11094,
+      "lower_numerator": 693711126,
+      "lower_denominator": 1000001,
+      "odd_c_multiple_bound": 731,
+      "required_denominator": 1000001
+    },
+    "coupled_projection_143": {
+      "status": "PASS",
+      "N": 143,
+      "partitions": [
+        {
+          "height": 1,
+          "tiles": 105,
+          "fixed": 7
+        },
+        {
+          "height": 2,
+          "tiles": 38,
+          "fixed": 0
+        }
+      ],
+      "rows": 350,
+      "columns": 756,
+      "exact_integer_residual": 0,
+      "selected_projection_columns": 75
+    }
+  },
+  "source_sha256": {
+    "certify_native_duals.py": "73da1946e2599de000f75340ce41bc5547311d237c36ba8a32a7e51ed53d1a2b",
+    "check_coupled_143.py": "1253df2935ac4a6b1586350a55ff084c11e63eac2e85f6d7d4e56ac997c5ef63",
+    "coupled_native_torus.py": "68961b64929e3675e3dfa464bc291701933099ee8c98ccd2c75df5091b311d8e",
+    "native_torus.py": "3b1e6883e7fc3472478179d7ac653e1dbffb918f5f81580dd0c883d01385a4eb",
+    "replay.py": "6dd6631201d0744c8a92db8ea29faf2cc92021419481b126c0ff6f9926e60146",
+    "torus3431/exact_dual.json": "2d9a40f121c49a58ecebfe2e14c84526902db9c1accb04d2f03ea599ba8e0cf3",
+    "torus5063/exact_dual.json": "2be1f9d7ff2f7989358995290f0a065d429cfdf396a2b4796f2b3272e0f3b978",
+    "verify_joint_cells.py": "ac4053b7025a445d4f2554f9765067a19529bc747074d9f775818c2e4df15e92",
+    "verify_native_torus.py": "eda6fa91887cd0603b80ede9bac56f26637d34a50aa7dbcda8b58d5387675b18"
+  },
+  "target_status": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "scope": "Exact controls and necessary bounds. Native15c/17c require the stated two-height and native-mesh hypotheses; no nonexistence certificate."
+}

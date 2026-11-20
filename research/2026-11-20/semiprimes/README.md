@@ -7,6 +7,12 @@ $c^2=a^2+ab+b^2$ with $a>b$ odd and primitive, the outer sides are
 $ap,bq,c^2$ and the area requires exactly $pq$ tiles. The cases
 $3431=47\cdot73$ and $5063=61\cdot83$ remain undecided at this scale.
 
+The [common obstruction continuation](continuation/common-obstruction/README.md)
+adds unrestricted joint-phase and terminal-node restrictions, exact bounds
+under additional native-mesh hypotheses, and local geometric controls
+showing why stronger conclusions still require a global argument. Neither
+original count is decided by these results.
+
 [New results for prime products and their triples](continuation/README.md) include the exact criterion for simultaneous tileability of pq and 3pq, partial pentagon constructions, and obstructions to completing them. The seven unit prime products listed below remain undecided.
 
 **Restrictions on the whole board.** Group tiles by the direction

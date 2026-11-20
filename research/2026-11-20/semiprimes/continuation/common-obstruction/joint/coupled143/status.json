@@ -1,0 +1,21 @@
+{
+  "tile": [
+    5,
+    3,
+    7
+  ],
+  "rows": 350,
+  "columns": 756,
+  "nonzeros": 7896,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "seconds": 0.027,
+  "N": 143,
+  "scope": "Native short heights1,2 and native meshes zR,z^2R only; no unrestricted conclusion.",
+  "minimum_total": 60.2377068391694,
+  "height_populations": [
+    49.88782637228705,
+    10.349880466882302
+  ],
+  "positive_columns": 161
+}

@@ -1,0 +1,14 @@
+{
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "blocks": 3,
+  "rows": 4109,
+  "columns": 12321,
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "seconds": 20.03,
+  "scope": "Integer residue projection only; no geometric tiling is asserted."
+}

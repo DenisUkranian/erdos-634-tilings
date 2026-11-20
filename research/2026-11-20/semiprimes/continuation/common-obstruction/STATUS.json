@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-20",
+  "objective": "A common unrestricted nonexistence proof for both original F2 boards",
+  "targets": {
+    "3431": {"tile": [33, 7, 37], "status": "OPEN"},
+    "5063": {"tile": [35, 13, 43], "status": "OPEN"}
+  },
+  "unrestricted_nonexistence_certificate": false,
+  "complete_target_tiling_certificate": false,
+  "new_unconditional_necessary_results": [
+    "Population divisibility in each Euclidean translate of a terminal exterior-free node",
+    "Every occupied exterior-free exact node has an unmatched whole long side",
+    "A nonmatching outward contact activates an occupied exterior-free child phase node",
+    "Signed population congruences for joint cells of both prime partitions",
+    "Balanced-population reserves and small-node degree bounds in the joint charge graph"
+  ],
+  "conditional_native_two_height_bounds": {"3431": 555, "5063": 731},
+  "conditional_bounds_apply_to_unrestricted_tilings": false,
+  "partial_controls_are_complete_target_tilings": false,
+  "external_peer_review": false,
+  "proof_assistant_formalization": false
+}

@@ -1,0 +1,91 @@
+{
+  "format": "common-obstruction-exact-controls-v1",
+  "status": "PASS",
+  "coupled_control": true,
+  "checks": [
+    {
+      "name": "mixed_height_cycle_geometry",
+      "command": [
+        "boundary/verify_mixed_cycle_controls.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.192,
+      "stdout": "{\"N\": 143, \"bank_tiles\": 10, \"cycle_heights\": {\"-1\": 2, \"0\": 10}, \"directed_cycle_edges\": 12, \"interior_long_pairs\": 6, \"interior_node\": \"one exterior-free level-0 coset of valuation -1\", \"interior_sign_counts\": [7, 7], \"interior_tiles\": 14, \"interior_unpaired\": 2, \"lowering_cell_remainder\": \"4/5\", \"overlap_tests\": 276, \"placements\": 24, \"scope\": \"Partial packing only; no full-board completion certified.\"}\n{\"N\": 3431, \"bank_tiles\": 66, \"cycle_heights\": {\"-1\": 2, \"0\": 66}, \"directed_cycle_edges\": 68, \"interior_long_pairs\": 36, \"interior_node\": \"one exterior-free level-0 coset of valuation -1\", \"interior_sign_counts\": [37, 37], \"interior_tiles\": 74, \"interior_unpaired\": 2, \"lowering_cell_remainder\": \"8/33\", \"overlap_tests\": 9730, \"placements\": 140, \"scope\": \"Partial packing only; no full-board completion certified.\"}\n{\"N\": 5063, \"bank_tiles\": 70, \"cycle_heights\": {\"-1\": 2, \"0\": 70}, \"directed_cycle_edges\": 72, \"interior_long_pairs\": 42, \"interior_node\": \"one exterior-free level-0 coset of valuation -1\", \"interior_sign_counts\": [43, 43], \"interior_tiles\": 86, \"interior_unpaired\": 2, \"lowering_cell_remainder\": \"16/35\", \"overlap_tests\": 12090, \"placements\": 156, \"scope\": \"Partial packing only; no full-board completion certified.\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "known_143_phase_gates",
+      "command": [
+        "boundary/check_known143_gates.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.042,
+      "stdout": "{\"long_pairs\": 60, \"scope\": \"Known complete 143 positive control.\", \"trees\": [{\"counts\": {\"closed_gate_paired_tiles\": 30, \"exterior_gate_tiles\": 9}, \"tree\": 1}, {\"counts\": {\"closed_gate_paired_tiles\": 90, \"exterior_gate_tiles\": 14}, \"tree\": -1}], \"unmatched\": 23}\n",
+      "stderr": ""
+    },
+    {
+      "name": "charged_terminal_polygon",
+      "command": [
+        "terminal/verify_charged_patch.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.047,
+      "stdout": "[\n  {\n    \"tile\": [\n      33,\n      7,\n      37\n    ],\n    \"terminal_polygon_node_population\": 1369,\n    \"terminal_polygon_node_G\": -37,\n    \"parent_teeth\": 40,\n    \"partial_packing_tiles\": 1409,\n    \"target_N\": 3431,\n    \"macro_pieces\": 41,\n    \"F2_containment\": \"exactly verified\",\n    \"scope\": \"The polygon is tiled. The F2 packing is partial; completion and continued terminality are not claimed.\"\n  },\n  {\n    \"tile\": [\n      35,\n      13,\n      43\n    ],\n    \"terminal_polygon_node_population\": 1849,\n    \"terminal_polygon_node_G\": -43,\n    \"parent_teeth\": 48,\n    \"partial_packing_tiles\": 1897,\n    \"target_N\": 5063,\n    \"macro_pieces\": 49,\n    \"F2_containment\": \"exactly verified\",\n    \"scope\": \"The polygon is tiled. The F2 packing is partial; completion and continued terminality are not claimed.\"\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "name": "integer_residue_witness_and_timeout_scope",
+      "command": [
+        "terminal/verify_terminal_torus_witness.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.02,
+      "stdout": "[\n  {\n    \"tile\": [\n      5,\n      3,\n      7\n    ],\n    \"population\": 21,\n    \"G\": 7,\n    \"result\": \"exact integer residue witness; no geometric realization asserted\"\n  },\n  {\n    \"tile\": [\n      33,\n      7,\n      37\n    ],\n    \"result\": \"inconclusive timeout; no witness or infeasibility proof\"\n  },\n  {\n    \"tile\": [\n      35,\n      13,\n      43\n    ],\n    \"result\": \"inconclusive timeout; no witness or infeasibility proof\"\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "name": "joint_charges_and_exact_native_duals",
+      "command": [
+        "joint/replay.py",
+        "--coupled-control"
+      ],
+      "exit_code": 0,
+      "seconds": 0.672,
+      "stdout": "{\n  \"format\": \"joint-phase-controls-v1\",\n  \"status\": \"PASS\",\n  \"checks\": {\n    \"joint_cells_143\": {\n      \"status\": \"PASS\",\n      \"N\": 143,\n      \"cells_checked\": 2,\n      \"ordinary_rows_checked\": 2,\n      \"rows\": [\n        {\n          \"tree\": 0,\n          \"node\": [\n            1,\n            4,\n            0\n          ],\n          \"positive_blocks\": 7,\n          \"negative_blocks\": 8,\n          \"charges\": [\n            -1\n          ]\n        },\n        {\n          \"tree\": 1,\n          \"node\": [\n            -1,\n            0,\n            0\n          ],\n          \"positive_blocks\": 7,\n          \"negative_blocks\": 8,\n          \"charges\": [\n            -1\n          ]\n        }\n      ]\n    },\n    \"native_projection_143\": {\n      \"N\": 143,\n      \"native_h1\": 105,\n      \"native_h2\": 38,\n      \"base_teeth\": 7,\n      \"single_up\": 14,\n      \"interior_pairs\": 42,\n      \"exact_torus_residual\": 0\n    },\n    \"native_dual_3431\": {\n      \"tile\": [\n        33,\n        7,\n        37\n      ],\n      \"single_checks\": 222,\n      \"pair_checks\": 8214,\n      \"lower_numerator\": 518127703,\n      \"lower_denominator\": 1000001,\n      \"odd_c_multiple_bound\": 555,\n      \"required_denominator\": 1000001\n    },\n    \"native_dual_5063\": {\n      \"tile\": [\n        35,\n        13,\n        43\n      ],\n      \"single_checks\": 258,\n      \"pair_checks\": 11094,\n      \"lower_numerator\": 693711126,\n      \"lower_denominator\": 1000001,\n      \"odd_c_multiple_bound\": 731,\n      \"required_denominator\": 1000001\n    },\n    \"coupled_projection_143\": {\n      \"status\": \"PASS\",\n      \"N\": 143,\n      \"partitions\": [\n        {\n          \"height\": 1,\n          \"tiles\": 105,\n          \"fixed\": 7\n        },\n        {\n          \"height\": 2,\n          \"tiles\": 38,\n          \"fixed\": 0\n        }\n      ],\n      \"rows\": 350,\n      \"columns\": 756,\n      \"exact_integer_residual\": 0,\n      \"selected_projection_columns\": 75\n    }\n  },\n  \"source_sha256\": {\n    \"certify_native_duals.py\": \"73da1946e2599de000f75340ce41bc5547311d237c36ba8a32a7e51ed53d1a2b\",\n    \"check_coupled_143.py\": \"1253df2935ac4a6b1586350a55ff084c11e63eac2e85f6d7d4e56ac997c5ef63\",\n    \"coupled_native_torus.py\": \"68961b64929e3675e3dfa464bc291701933099ee8c98ccd2c75df5091b311d8e\",\n    \"native_torus.py\": \"3b1e6883e7fc3472478179d7ac653e1dbffb918f5f81580dd0c883d01385a4eb\",\n    \"replay.py\": \"6dd6631201d0744c8a92db8ea29faf2cc92021419481b126c0ff6f9926e60146\",\n    \"torus3431/exact_dual.json\": \"2d9a40f121c49a58ecebfe2e14c84526902db9c1accb04d2f03ea599ba8e0cf3\",\n    \"torus5063/exact_dual.json\": \"2be1f9d7ff2f7989358995290f0a065d429cfdf396a2b4796f2b3272e0f3b978\",\n    \"verify_joint_cells.py\": \"ac4053b7025a445d4f2554f9765067a19529bc747074d9f775818c2e4df15e92\",\n    \"verify_native_torus.py\": \"eda6fa91887cd0603b80ede9bac56f26637d34a50aa7dbcda8b58d5387675b18\"\n  },\n  \"target_status\": {\n    \"3431\": \"OPEN\",\n    \"5063\": \"OPEN\"\n  },\n  \"scope\": \"Exact controls and necessary bounds. Native15c/17c require the stated two-height and native-mesh hypotheses; no nonexistence certificate.\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "source_sha256": {
+    "boundary/check_known143_gates.py": "37632c664c6e28bb6e914fef814400c524899e8263ea03a2b188e7e3e107ad81",
+    "boundary/make_mixed_cycle_controls.py": "5c50e7c4f35735a2a2a63c17a41e253cd974ac3765c1ec029f151f1aa647c71c",
+    "boundary/mixed_cycle_143.json": "a44baa84c6daac829f5d3ecee3cde35e03e9ff10d84aa3178e811fbca6cc6902",
+    "boundary/mixed_cycle_3431.json": "093533702bda487a5bf173e6743f6177296a8a5b5d1f06b2a40a03687e13af87",
+    "boundary/mixed_cycle_5063.json": "d84026da29a57bd7866edadef3b2391a2e97ca8ee1cee6a571557cb37e864354",
+    "boundary/verify_mixed_cycle_controls.py": "cff8c552226b1b0ffc5016aa5ef41c0f3962baf575bb6868513f9ac76a9e5b13",
+    "joint/certify_native_duals.py": "73da1946e2599de000f75340ce41bc5547311d237c36ba8a32a7e51ed53d1a2b",
+    "joint/check_coupled_143.py": "1253df2935ac4a6b1586350a55ff084c11e63eac2e85f6d7d4e56ac997c5ef63",
+    "joint/coupled_native_torus.py": "68961b64929e3675e3dfa464bc291701933099ee8c98ccd2c75df5091b311d8e",
+    "joint/native_torus.py": "3b1e6883e7fc3472478179d7ac653e1dbffb918f5f81580dd0c883d01385a4eb",
+    "joint/replay.py": "6dd6631201d0744c8a92db8ea29faf2cc92021419481b126c0ff6f9926e60146",
+    "joint/torus3431/exact_dual.json": "2d9a40f121c49a58ecebfe2e14c84526902db9c1accb04d2f03ea599ba8e0cf3",
+    "joint/torus5063/exact_dual.json": "2be1f9d7ff2f7989358995290f0a065d429cfdf396a2b4796f2b3272e0f3b978",
+    "joint/verify_joint_cells.py": "ac4053b7025a445d4f2554f9765067a19529bc747074d9f775818c2e4df15e92",
+    "joint/verify_native_torus.py": "eda6fa91887cd0603b80ede9bac56f26637d34a50aa7dbcda8b58d5387675b18",
+    "replay.py": "14381e257fd939095cba17916a433e52da47aeaed865252bdeb2d9a94203fcc2",
+    "terminal/charged_patch_certificate.json": "698e84dbbcd788861b0132221095383ecb436287a59dfb908c2be14a26f044b8",
+    "terminal/terminal_torus.py": "0cb7eb34aaa9fc772268ddfa4dd3928da2a788cd26a1ae98d389d56c78b7673c",
+    "terminal/torus_37_3.json": "7b6d159de8be57e40cd5f623839b4fc94ba692fe162e4f6593ab4f093d544aa0",
+    "terminal/torus_43_3.json": "54d7c1491cc3e412e657ecddf47078ac24c4d01a91156ee3eea39af3b5f39a78",
+    "terminal/torus_7_3.json": "f6331172a515eb09cb19741765753a0fb5d6f076c1f3328e04ea52c78f87d0fd",
+    "terminal/verify_charged_patch.py": "83e9cda57c9b0550cb4dda8c73556d2d8e52592e9c2a65924fa952663c0027f4",
+    "terminal/verify_terminal_torus_witness.py": "3f2c99020c8d237d1277f4c35f191924698d636e26444f4457f090568e3c869e"
+  },
+  "target_status": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "unrestricted_nonexistence_certificate": false,
+  "complete_target_tiling_certificate": false,
+  "full_Erdos634_solved": false,
+  "scope": "Exact finite arithmetic and local geometric controls. The 555/731 population bounds require the native two-height hypotheses. Partial packings and timeouts do not decide a target."
+}

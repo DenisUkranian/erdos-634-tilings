@@ -1,0 +1,19 @@
+{
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "gate": true,
+  "sign": true,
+  "rows": 4108,
+  "columns": 8436,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "seconds": 57.708,
+  "scope": "Native h1 mesh zR and h2 core mesh z^2R; finite endpoint-residue projection, not unrestricted tilings.",
+  "minimum_h1": 518.1276328520235,
+  "N": 3431,
+  "positive_columns": 2319,
+  "integrality_error": 0.49728329880282085
+}
