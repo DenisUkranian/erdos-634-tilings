@@ -7,6 +7,8 @@ $c^2=a^2+ab+b^2$ with $a>b$ odd and primitive, the outer sides are
 $ap,bq,c^2$ and the area requires exactly $pq$ tiles. The cases
 $3431=47\cdot73$ and $5063=61\cdot83$ remain undecided at this scale.
 
+[New results for prime products and their triples](continuation/README.md) include the exact criterion for simultaneous tileability of pq and 3pq, partial pentagon constructions, and obstructions to completing them. The seven unit prime products listed below remain undecided.
+
 **Restrictions on the whole board.** Group tiles by the direction
 of their two shorter edges modulo $60^\circ$. The base has height 0
 and the two other sides have height 2. There is at most one gap among

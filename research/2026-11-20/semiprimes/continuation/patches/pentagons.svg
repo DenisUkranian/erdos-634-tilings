@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 710" role="img">
+<title>Two partial triangle tilings with congruent pentagonal holes</title>
+<style>text{font-family:Arial,sans-serif;fill:#263e49}.header{font-size:19px;font-weight:bold}.detail{font-size:14px}</style><rect width="750" height="710" fill="#ffffff"/>
+<text x="25" y="24" class="header">N = 3,431</text>
+<text x="25" y="49" class="detail">3,095 placed tiles. Two congruent holes, each with area 168 tiles.</text>
+<polygon points="81.05,169.79 138.67,70.00 146.32,90.41" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="81.05,169.79 97.51,169.79 160.81,92.81 144.35,92.81" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="144.35,92.81 160.81,92.81 146.32,90.41" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="138.67,70.00 140.85,75.83 169.82,80.64" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="140.85,75.83 146.32,90.41 175.29,95.22 169.82,80.64" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="25.00,266.87 81.05,169.79 154.46,169.79 98.40,266.87" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="97.51,169.79 154.46,169.79 184.04,118.54 175.29,95.22 160.81,92.81" fill="#eb8a34" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="126.43,218.33 184.04,118.54 191.70,138.95" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="126.43,218.33 142.89,218.33 206.18,141.36 189.72,141.36" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="189.72,141.36 206.18,141.36 191.70,138.95" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="169.82,80.64 172.01,86.47 200.97,91.28" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="172.01,86.47 191.70,138.95 220.67,143.76 200.97,91.28" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="98.40,266.87 126.43,218.33 199.84,218.33 171.81,266.87" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="142.89,218.33 199.84,218.33 229.42,167.09 220.67,143.76 206.18,141.36" fill="#eb8a34" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="171.81,266.87 229.42,167.09 237.08,187.50" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="171.81,266.87 715.00,266.87 237.08,187.50" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="200.97,91.28 237.08,187.50 715.00,266.87" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="25.00,266.87 138.67,70.00 715.00,266.87" fill="none" stroke="#253f48" stroke-width="1.5"/>
+<text x="25" y="328" class="header">N = 5,063</text>
+<text x="25" y="353" class="detail">4,703 placed tiles. Two congruent holes, each with area 180 tiles.</text>
+<polygon points="109.03,530.46 199.36,374.00 213.33,426.80" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="109.03,530.46 150.72,530.46 246.08,435.69 204.39,435.69" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="204.39,435.69 246.08,435.69 213.33,426.80" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="199.36,374.00 203.66,390.25 247.32,402.09" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="203.66,390.25 213.33,426.80 257.00,438.65 247.32,402.09" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="25.00,676.00 109.03,530.46 210.83,530.46 126.80,676.00" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="150.72,530.46 210.83,530.46 259.15,446.77 257.00,438.65 246.08,435.69" fill="#eb8a34" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="168.82,603.23 259.15,446.77 273.12,499.57" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="168.82,603.23 210.51,603.23 305.87,508.46 264.18,508.46" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="264.18,508.46 305.87,508.46 273.12,499.57" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="247.32,402.09 251.62,418.34 295.29,430.19" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="251.62,418.34 273.12,499.57 316.79,511.42 295.29,430.19" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="126.80,676.00 168.82,603.23 270.62,603.23 228.61,676.00" fill="#b3d2dc" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="210.51,603.23 270.62,603.23 318.94,519.54 316.79,511.42 305.87,508.46" fill="#eb8a34" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="228.61,676.00 318.94,519.54 332.91,572.34" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="228.61,676.00 715.00,676.00 332.91,572.34" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="295.29,430.19 332.91,572.34 715.00,676.00" fill="#c6e1e4" stroke="#40565f" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="25.00,676.00 199.36,374.00 715.00,676.00" fill="none" stroke="#253f48" stroke-width="1.5"/>
+</svg>

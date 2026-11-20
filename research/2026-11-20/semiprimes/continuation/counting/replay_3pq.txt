@@ -1,0 +1,3 @@
+All 139667 squarefree products 3pq ≤ 3,000,000 with 3<p<q passed.
+Primitive count-row support after adjacent BQ and defect-one I120 removal: {'BQ': 8, 'E+': 1, 'E-': 1, 'F1': 1, 'F4': 2, 'I120': 10, 'QP': 8}
+The replay verifies arithmetic compatibility. Geometric exclusions and constructions are inputs.

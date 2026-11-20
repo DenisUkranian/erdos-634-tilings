@@ -1,0 +1,215 @@
+{
+  "shard_counts": [
+    16,
+    4,
+    8
+  ],
+  "records": [
+    {
+      "partition": [
+        0,
+        0
+      ],
+      "nodes": 297654
+    },
+    {
+      "partition": [
+        0,
+        1
+      ],
+      "nodes": 255559
+    },
+    {
+      "partition": [
+        0,
+        2
+      ],
+      "nodes": 16736
+    },
+    {
+      "partition": [
+        0,
+        3
+      ],
+      "nodes": 24873
+    },
+    {
+      "partition": [
+        1
+      ],
+      "nodes": 327445
+    },
+    {
+      "partition": [
+        2,
+        0
+      ],
+      "nodes": 528547
+    },
+    {
+      "partition": [
+        2,
+        1
+      ],
+      "nodes": 2337
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "nodes": 221774
+    },
+    {
+      "partition": [
+        2,
+        3
+      ],
+      "nodes": 331290
+    },
+    {
+      "partition": [
+        3,
+        0
+      ],
+      "nodes": 270868
+    },
+    {
+      "partition": [
+        3,
+        1
+      ],
+      "nodes": 141384
+    },
+    {
+      "partition": [
+        3,
+        2
+      ],
+      "nodes": 174779
+    },
+    {
+      "partition": [
+        3,
+        3
+      ],
+      "nodes": 664319
+    },
+    {
+      "partition": [
+        4
+      ],
+      "nodes": 27722
+    },
+    {
+      "partition": [
+        5
+      ],
+      "nodes": 39035
+    },
+    {
+      "partition": [
+        6
+      ],
+      "nodes": 359640
+    },
+    {
+      "partition": [
+        7
+      ],
+      "nodes": 11245
+    },
+    {
+      "partition": [
+        8
+      ],
+      "nodes": 7050
+    },
+    {
+      "partition": [
+        9,
+        0
+      ],
+      "nodes": 191269
+    },
+    {
+      "partition": [
+        9,
+        1
+      ],
+      "nodes": 260762
+    },
+    {
+      "partition": [
+        9,
+        2
+      ],
+      "nodes": 72838
+    },
+    {
+      "partition": [
+        9,
+        3
+      ],
+      "nodes": 2208
+    },
+    {
+      "partition": [
+        10
+      ],
+      "nodes": 7421
+    },
+    {
+      "partition": [
+        11
+      ],
+      "nodes": 423264
+    },
+    {
+      "partition": [
+        12
+      ],
+      "nodes": 54290
+    },
+    {
+      "partition": [
+        13
+      ],
+      "nodes": 60327
+    },
+    {
+      "partition": [
+        14,
+        0
+      ],
+      "nodes": 64964
+    },
+    {
+      "partition": [
+        14,
+        1
+      ],
+      "nodes": 40336
+    },
+    {
+      "partition": [
+        14,
+        2
+      ],
+      "nodes": 197081
+    },
+    {
+      "partition": [
+        14,
+        3
+      ],
+      "nodes": 232394
+    },
+    {
+      "partition": [
+        15
+      ],
+      "nodes": 22249
+    }
+  ]
+}

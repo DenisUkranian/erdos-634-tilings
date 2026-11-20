@@ -1,0 +1,16 @@
+168 22 inventories evaluated 1 success True
+first witness: [(0, 4), (0, 0), (1, 3), (0, 0), (1, 3), (1, 3), (1, 3), (1, 3), (1, 3), (0, 0), (1, 3), (0, 0), (1, 3), (0, 0), (1, 3), (0, 0), (1, 3), (0, 0), (1, 3), (0, 0), (1, 3), (1, 3)]
+180 14 inventories evaluated 1 success False
+180 15 inventories evaluated 0 success False
+180 16 inventories evaluated 1 success True
+first witness: [(1, 3), (0, 0), (1, 3), (1, 3), (0, 4), (1, 3), (0, 0), (1, 3), (1, 2), (1, 3), (1, 3), (1, 3), (1, 3), (1, 5), (1, 3), (1, 3)]
+206 15 inventories evaluated 1 success False
+206 16 inventories evaluated 0 success False
+206 17 inventories evaluated 6 success False
+206 18 inventories evaluated 0 success False
+206 19 inventories evaluated 6 success True
+first witness: [(1, 4), (1, 0), (1, 4), (1, 0), (1, 4), (1, 4), (0, 1), (1, 4), (1, 4), (0, 1), (1, 4), (1, 3), (0, 1), (0, 2), (1, 4), (1, 4), (1, 2), (1, 4), (1, 3)]
+250 27 inventories evaluated 1 success False
+250 28 inventories evaluated 0 success False
+250 29 inventories evaluated 3 success True
+first witness: [(0, 5), (0, 5), (0, 5), (0, 0), (1, 4), (1, 4), (1, 2), (1, 2), (1, 0), (1, 2), (1, 2), (1, 4), (1, 2), (1, 4), (1, 2), (1, 4), (1, 4), (0, 1), (1, 4), (1, 0), (1, 4), (0, 5), (1, 2), (1, 2), (1, 4), (1, 2), (1, 4), (1, 4), (1, 3)]
