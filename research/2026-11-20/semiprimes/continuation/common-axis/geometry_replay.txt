@@ -25,6 +25,8 @@
 (33, 7, 37) all sides 0 4 False 5
 (33, 7, 37) all sides 1 4 False 5
 (33, 7, 37) all sides 2 4 False 5
+(33, 7, 37) local corner 0 radius 50 False 33
+(33, 7, 37) local corner 1 radius 50 False 9
 (35, 13, 43) 0 1 1 False 16
 (35, 13, 43) 1 0 0 False 1
 (35, 13, 43) 1 0 1 False 3
@@ -52,3 +54,5 @@
 (35, 13, 43) all sides 0 4 False 5
 (35, 13, 43) all sides 1 4 False 5
 (35, 13, 43) all sides 2 4 False 5
+(35, 13, 43) local corner 0 radius 50 False 11
+(35, 13, 43) local corner 1 radius 50 False 8

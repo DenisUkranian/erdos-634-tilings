@@ -1,0 +1,8 @@
+Unit tile 33 7 37 board area 924 layouts up to cell shapes 35 after stopped-run check 0
+Unit tile 35 13 43 board area 1820 layouts up to cell shapes 137 after stopped-run check 3
+(((13, 0, 0), (35, 0, 1), (43, -1, 4)), ((43, 0, 0), (420, 1, 0), (468, 1, 2), (455, 1, 4)), ((86, 0, 0), (429, -1, 1), (525, -1, 3), (455, -1, 5)), ((385, 0, 0), (442, 0, 1), (385, 0, 3), (442, 0, 4)))
+(((26, 0, 0), (70, 0, 1), (86, -1, 4)), ((43, 0, 0), (420, 1, 0), (468, 1, 2), (455, 1, 4)), ((129, 0, 0), (416, -1, 1), (560, -1, 3), (455, -1, 5)), ((350, 0, 0), (442, 0, 1), (350, 0, 3), (442, 0, 4)))
+(((39, 0, 0), (105, 0, 1), (129, -1, 4)), ((43, 0, 0), (420, 1, 0), (468, 1, 2), (455, 1, 4)), ((315, 0, 0), (442, 0, 1), (315, 0, 3), (442, 0, 4)), ((172, 0, 0), (403, -1, 1), (595, -1, 3), (455, -1, 5)))
+Unit tile 33 7 37 board area 16 layouts up to cell shapes 1 after stopped-run check 1
+Unit tile 33 7 37 board area 3431 layouts up to cell shapes 111 after stopped-run check 18
+Unit tile 35 13 43 board area 5063 layouts up to cell shapes 200 after stopped-run check 67

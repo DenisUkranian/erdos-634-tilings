@@ -64,7 +64,7 @@ def update(rim, tri):
     return rim
 
 
-def decide(a,b,c,es,j,h):
+def decide(a,b,c,es,j,h,corner=None,radius=50):
     board_heights=(0,2,0)
     outer_levels=board_heights if es is None else (board_heights[es],)
     low,high=min(h,*outer_levels)-1,max(h,*outer_levels)+1
@@ -99,8 +99,9 @@ def decide(a,b,c,es,j,h):
     maxlen=max(length(sub(v,u)) for u,v in walls)
     @cache
     def coins(ray):
+        lengths=D[ray] if corner is None else (a,b,c)
         ok=[True]+[False]*maxlen
-        for t in range(1,maxlen+1):ok[t]=any(t>=s and ok[t-s] for s in D[ray])
+        for t in range(1,maxlen+1):ok[t]=any(t>=s and ok[t-s] for s in lengths)
         return ok
     def coin(ray,d):
         n=length(d)
@@ -109,6 +110,9 @@ def decide(a,b,c,es,j,h):
         return any(all(det(sub(v,u),sub(x,u))<=0 for x in Q) for u,v in segments(P))
     def inside(x,p,q):
         return min(p,q)<x<max(p,q) and not det(sub(x,p),sub(q,p))
+    def near(p):
+        x,y=sub(p,boundary[corner])
+        return x*x+x*y+y*y<=radius*radius*den*den
     count=0
     def rec(rim,placed):
         nonlocal count
@@ -134,6 +138,7 @@ def decide(a,b,c,es,j,h):
             return all(separated(t,v) or separated(v,t) for v in placed)
         best=None
         for p in sorted(pivots):
+            if corner is not None and not near(p):continue
             begin=direction(out[p][0]);end=direction(neg(inc[p][0]));options=[]
             def fans(now,fan):
                 if best is not None and len(options)>=len(best):return
@@ -146,6 +151,7 @@ def decide(a,b,c,es,j,h):
             fans(begin,())
             if not options:return False
             if best is None or len(options)<len(best):best=options
+        if best is None:return True
         for fan in best:
             r=rim
             for tri in fan:r=update(r,tri)
@@ -170,4 +176,9 @@ if __name__=='__main__':
             if (j,h)==(1,1):continue
             result,nodes=decide(a,b,c,None,j,h)
             print((a,b,c),"all sides",j,h,result,nodes,flush=True)
+            assert not result
+
+        for corner in (0,1):
+            result,nodes=decide(a,b,c,0,1,1,corner=corner)
+            print((a,b,c),"local corner",corner,"radius",50,result,nodes,flush=True)
             assert not result

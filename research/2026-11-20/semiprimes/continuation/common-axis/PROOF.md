@@ -1,6 +1,6 @@
 # An interior tile must miss each proposed edge direction
 
-On either of the two unit boards, let an interior tile mean a tile with no positive-length edge on the outside boundary. For every unoriented line direction there is an interior tile without any edge parallel to that direction. At least 16 tiles miss any fixed direction for the 3431 board, and at least 30 do so for 5063. Neither board is decided by this theorem.
+On either of the two unit boards, let an interior tile mean a tile with no positive-length edge on the outside boundary. For every unoriented line direction there is an interior tile without any edge parallel to that direction. At least 19 tiles miss any fixed direction for the 3431 board, and at least 33 do so for 5063. Neither board is decided by this theorem.
 
 Use axial coordinates in the basis \(1,\rho=e^{i\pi/3}\). The outer vertices in counterclockwise order are \(O=0\), \(B=bq\), \(C=ap\rho\), where \(p=a+2b\), \(q=2a+b\), \(c^2=a^2+ab+b^2\), and \(N=pq\). The two parameter triples in \((a,b,c)\) order are \((33,7,37)\) and \((35,13,43)\). Number the sides \(OB,BC,CO\) by \(0,1,2\). Write \(z=(a+b\rho)/c=e^{i\beta}\), with \(\beta\) opposite the side of length \(b\). Directions are represented by \((j,h)\) for the axis \(\rho^j z^h\), where \(j\) is taken modulo three. Their labels are unique since \(2\cos\beta=q/c\) is rational but not integral. The outer side axes are \((0,0),(1,2),(1,0)\). The three axes of any tile belong to this direction group by propagation through positive-length contacts. Such contacts connect all tiles, by choosing a generic polygonal path between their interiors avoiding vertices.
 
@@ -42,7 +42,23 @@ On sides 1 and 2 the surviving \(a\)- and \(c\)-edge assignments have an edge al
 
 All exceptional tiles must therefore have a full edge on side 0. This is exactly the already excluded single-side geometric case with direction \((1,1)\). This proves the interior-tile assertion.
 
-On 3431, the fewest whole edges on the shortest side is 15 since \(511=11\cdot33+4\cdot37\) and 14 edges cannot achieve 511. On 5063 the fewest is 29, since \(1079=21\cdot35+8\cdot43\) and neither 26, 27 nor 28 edges can achieve 1079 (an even count has even length, and \(27\cdot43-1079=82\) is not of the form \(8x+30y\)). Both other sides on each board require more edges by length. Adding the interior tile proves the bounds of 16 and 30.
+## Two separated pairs of exceptional tiles
+
+The two longer outside sides have just one compatible direction in common, namely \((1,1)\). For every other direction, one of the two sides consists entirely of exceptional tiles. The shorter of these longer sides has length \(c^2\), so it takes at least \(c\) tiles.
+
+For the remaining direction \((1,1)\), all tiles on side 0 are exceptional. At *each* endpoint of side 0 an exceptional tile off side 0 must have a vertex at distance at most 50 from the endpoint. To prove this, run the same exact corner search, now choosing only ordinary convex pivots inside the closed radius-50 disk at the given endpoint. If there is no such pivot, return “possible.” For every anchored tile, a vertex is already in this disk, so failing the assertion requires it to have a side on the common axis or a full edge on side 0. These placements have short heights from −1 to 2. Tiles elsewhere may have arbitrary directions: all semigroup tests now allow all three lengths on every ray. Exhaustion takes 33 and 9 nodes at the two endpoints for 3431, and 11 and 8 nodes for 5063.
+
+Every exceptional tile off side 0 has a positive-length contact with another exceptional tile off side 0. To see this, use the same \((j,h)\) coordinates as above. Let \(U\) be the axes compatible with \((1,1)\), and \(V\) the axes compatible with side 0's axis \((0,0)\). Their lists are
+\[
+U=\{(1,0),(2,0),(0,1),(1,1),(2,1),(0,2),(1,2)\},
+\quad
+V=\{(0,-1),(1,-1),(0,0),(1,0),(2,0),(0,1),(2,1)\}.
+\]
+No exceptional tile has all three axes in \(U\cup(V\setminus\{(0,0)\})\). Indeed, the possible tile triples are \((j,h),(j+s,h),(j,h+s)\) with \(s=\pm1\) and phase modulo three. Only \(-1\le h\le2\) could have all three axes in this displayed set, and listing the three phases and both signs verifies the claim. Take an edge on an axis outside this union. The two longer outside sides belong to \(U\), and the chosen tile has no edge on side 0, so the chosen edge has an interior contact. Its neighbor misses the common direction. If its axis is \((0,0)\), the supporting line is parallel to and different from side 0, so its neighbor cannot also have an edge on side 0. For any other axis outside the union, a tile on side 0 cannot have such an edge because the axis lies outside \(V\).
+
+Both members of each resulting pair lie in the disk of radius \(50+2c\) at the corresponding endpoint. These two disks are disjoint since \(bq>2(50+2c)\) on both boards. This gives four exceptional tiles off side 0.
+
+On 3431, side 0 needs at least 15 whole edges since \(511=11\cdot33+4\cdot37\) and 14 edges cannot achieve 511. On 5063 it needs at least 29, since \(1079=21\cdot35+8\cdot43\) and neither 26, 27 nor 28 edges can achieve 1079 (an even count has even length, and \(27\cdot43-1079=82\) is not of the form \(8x+30y\)). Adding the four exceptional tiles off side 0 proves the bounds of 19 and 33.
 
 ## Replay
 
