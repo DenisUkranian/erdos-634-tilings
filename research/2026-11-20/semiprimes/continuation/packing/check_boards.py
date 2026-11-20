@@ -1,5 +1,7 @@
 """Check the 3431 exchanges and locate the holes of the reference 5063 packing."""
 import json
+from fractions import Fraction
+from math import lcm
 from pathlib import Path
 
 from check_inventory import contained, overlap_pairs, replay
@@ -12,7 +14,7 @@ def tile_key(points):
     return tuple(sorted(map(tuple, points)))
 
 
-def exchange(board, tiles, proof, sides):
+def exchange(board, tiles, proof, sides, denominator=None):
     """Apply a coordinate exchange and verify the resulting packing from scratch."""
     tiles = {tile_key(t): t for t in tiles}
     assert len(tiles) == proof['base_count']
@@ -25,9 +27,10 @@ def exchange(board, tiles, proof, sides):
     result = list(tiles.values())
     assert len(result) == proof['new_count']
     a, b, c = sides
-    lengths = sorted((c*s)**2 for s in sides)
+    denominator = denominator or c
+    lengths = sorted((denominator*s)**2 for s in sides)
     for tri in result:
-        assert area(tri) == a*b*c*c
+        assert area(tri) == a*b*denominator**2
         assert sorted(norm(sub(q, p)) for p, q in edges(tri)) == lengths
         assert contained(tri, board)
     assert next(overlap_pairs(result, range(len(result))), None) is None
@@ -76,6 +79,20 @@ def check_pentagons(board, tiles):
     verify_boundary(traced)
 
 
+def final_exchange(board, tiles, sides):
+    proof = json.loads((HERE / 'round_3425.json').read_text())
+    fractions = [Fraction(x) for kind in ('add', 'remove')
+                 for triangle in proof[kind] for point in triangle for x in point]
+    denominator = lcm(sides[2], *(x.denominator for x in fractions))
+    assert denominator == 37**5
+    for kind in ('add', 'remove'):
+        proof[kind] = [[[int(Fraction(x)*denominator) for x in p]
+                         for p in triangle] for triangle in proof[kind]]
+    def rescale(polygon):
+        return [tuple(x*(denominator//sides[2]) for x in point) for point in polygon]
+    return exchange(rescale(board), [rescale(t) for t in tiles], proof, sides, denominator)
+
+
 if __name__ == '__main__':
     if not __debug__:
         raise SystemExit('Run with assertions enabled.')
@@ -93,6 +110,8 @@ if __name__ == '__main__':
                 print(f'3431: verified {len(candidate)} complete tiles using {path.name}.')
                 if len(candidate) == 3423:
                     check_pentagons(board, candidate)
+                    latest = final_exchange(board, candidate, sides)
+                    print(f'3431: verified {len(latest)} tiles, all coordinates in units of 1/37^5.')
         else:
             check_holes(board, tiles)
             print('5063: the complement consists of two translates of the two-unit hexagon.')
