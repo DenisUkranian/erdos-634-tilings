@@ -1,0 +1,5 @@
+# A translated repair on the 3431 board
+
+The [complete source package](Erdos634_3431_repair_certificate.zip) reconstructs a five-sided domain of area 1063 tiles from the exact 3427-tile reference packing. It verifies the geometry of all 1047 eligible matched tile pairs and the 226 compatibility conditions. A tiling of this pentagon satisfying those conditions gives an exact tiling of the original triangle. The two copies of the repair can overlap, which is why the retained-placement conditions are needed. The verifier includes the conversion to the 3431-tile coordinate certificate and an independent exact check of the resulting board, ready to run on a proposed filling. The existence of such a filling is open.
+
+The same package gives an unrestricted bound of 74 omitted and 78 new placements for every possible full tiling relative to the 3427 reference positions. The rational price verifier checks all 84,770 potentially contributing placements. Read the English README inside the archive for the complete proof and reproduction commands. Archive SHA-256 is `2523fc2e9910439fc7028186f2e6c7d793f69876584bf9fa8569683bf5419c21`.

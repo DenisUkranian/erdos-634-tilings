@@ -2,7 +2,7 @@
 
 The [coordinate certificate](placements345.json.gz) verifies 4373 ordinary unit tiles outside two translated copies of this quadrilateral. Run `python3 verify_packing.py` and `python3 check_345.py` for the covering, lengths, angles and inventories.
 
-This deduction uses the project's manuscript version of the stopped-run theorem for 120-degree tiles, including its version with the acute labels interchanged. It concerns the specified quadrilateral. It leaves the original 5063 triangle undecided.
+The [independent finite replay](LOCAL_OBSTRUCTION.md) also proves this result directly from the tile geometry. The analytic deduction below uses the project's manuscript version of the stopped-run theorem for 120-degree tiles, including its version with the acute labels interchanged. It concerns the specified quadrilateral. It leaves the original 5063 triangle undecided.
 
 Let the tile sides opposite angles α, β and γ be 35, 13 and 43, with γ = 120° and α + β = 60°. Write ρ = exp(iπ/3) and z = (35 + 13ρ)/43 = exp(iβ). Use axial coordinates x + yρ. The four vertices in cyclic order, multiplied by 43, are (35217,0), (46397,0), (30212,32025), (35217,13545). The doubled axial area is 345 · 35 · 13. Its boundary vector lengths and headings, with heading z^h ρ^j, are
 

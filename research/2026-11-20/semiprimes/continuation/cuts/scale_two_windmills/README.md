@@ -9,7 +9,7 @@ The unit boards for 3431 and 5063 have sufficient equilateral caps of side 462 o
 
 Every remaining side-910 partition requires the same 480-tile quadrilateral. In physical axial coordinates in its own rotated frame its vertices are `(0,0), (48,-13), (468,-13), (0,455)`. The other non-elementary cell has area 591, 656 or 719. The remaining two cells in each case are a griddable similar triangle and a parallelogram spanned by integer multiples of the 35- and 13-edges at a tile-compatible angle. In the first case their areas are 1 and 748. On the original unit boards the same search produces 111 multisets for 3431 and 200 for 5063. The stopped-run filter leaves 18 and 67, respectively. The surviving [3431 cell lists](board_3431.json) and [5063 cell lists](board_5063.json) record areas and the ordered (length, height, phase) triples up to rigid motion. These counts allow the full-sized boards to be studied without prescribing either equilateral cap.
 
-The stopped-run argument used for the exclusions is the project's [120-degree version with both acute labels](../../counting/inputs/F2_V1_PURITY.md). The finite list before that exclusion is independent of it. Tilings with different internal geometry are still possible.
+The stopped-run argument used for the exclusions is the project's [120-degree version with both acute labels](../../counting/inputs/F2_V1_PURITY.md). The finite list before that exclusion is independent of it. An [independent exhaustive local proof](../../packing/quadrilateral345/LOCAL_OBSTRUCTION.md) now eliminates the shared 480-cell. Consequently neither cap admits this windmill scheme. The unrestricted cap and full-board problems remain.
 
 ## Why the enumeration includes the specified layouts
 
