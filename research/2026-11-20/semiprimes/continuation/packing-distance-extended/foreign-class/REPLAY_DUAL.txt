@@ -1,0 +1,4 @@
+Height case -1: 1754 nonzero weights, 30478 incident nonreference placements, bound 7394335/1000000.
+Height case  0: 1347 nonzero weights, 22227 incident nonreference placements, bound 5629743/1000000.
+Height case  1: 1994 nonzero weights, 35161 incident nonreference placements, bound 9258285/1000000.
+Height case  2: 535 nonzero weights, 9587 incident nonreference placements, bound 4204433/1000000.

@@ -1,0 +1,7 @@
+# A family of sufficient convex pentagons for 3431
+
+These coordinates use the axial basis (1, exp(iπ/3)), with denominator 37. For 0 ≤ t ≤ 37 put x=14245−259t. The counterclockwise polygon has successive vertices (14245,6105), (x,6105), (x,0), (18907,0), (17885,3102), with the duplicate omitted at t=0. Its area equals 116+10t individual tile areas. A filling of any one such polygon by unit (33,7,37) tiles gives a complete 3431 tiling. At t=37 this is a convex pentagon of area 486. The case t=0 is a quadrilateral.
+
+The fixed shell represented in hex538.json.gz comes from the area-538 hexagon construction of the search team. The checker verifies its 2355 fixed copies directly. Inside each of the two original residual polygons we add a parallelogram filled with 52 triangles and a second parallelogram filled with 10(37−t) triangles. The two remaining polygons are translates by (−4662,6105)/37. Thus 3431−2(116+10t) fixed tiles suffice. Every placement and polygon in this assertion is checked by its exact oriented interval boundary, with all side norms and cardinalities verified.
+
+Run `python shell.py 37` to replay the area-486 reduction. Run `python shell.py 37 --shell-output shell486.json` to export all 2459 fixed triangles and one pentagon with its required translation. Given a proposed local filling with fields `denominator` and `triangles`, run `python shell.py 37 candidate.json --output board3431.json`. The checker validates the filled board before emitting it.

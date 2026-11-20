@@ -41,6 +41,63 @@ def strictly_between(p, w, q):
     return left(p, w, q) == 0 and min(p, q) < w < max(p, q)
 
 
+def add(p, q):
+    return p[0] + q[0], p[1] + q[1]
+
+
+def mul(k, p):
+    return k * p[0], k * p[1]
+
+
+def product(p, q):
+    x, y = p
+    u, v = q
+    return x*u - y*v, x*v + y*u + y*v
+
+
+def triangular_grid(points, n):
+    p, q, r = points
+    u, v = sub(q, p), sub(r, p)
+    assert all(z % n == 0 for z in (*u, *v))
+    u = u[0]//n, u[1]//n
+    v = v[0]//n, v[1]//n
+    for i in range(n):
+        for j in range(n-i):
+            root = add(p, add(mul(i,u), mul(j,v)))
+            e, f = add(root,u), add(root,v)
+            yield [root,e,f]
+            if i+j+1<n:
+                yield [e,add(e,v),f]
+
+
+def templates(a, b, c):
+    units = [(1,0),(0,1),(-1,1),(-1,0),(0,-1),(1,-1)]
+    table = {}
+    for h, g in [(0,(c,0)), (1,(a,b))]:
+        for j in range(6):
+            for sign in [-1,1]:
+                pair = (mul(-a,product(g,units[j])),
+                        mul(b,product(g,units[(j + sign) % 6])))
+                table[tuple(sorted(pair))] = h
+    return table
+
+
+def class_at(tri, table, a, b, c):
+    for i, p in enumerate(tri):
+        sides = tuple(sorted(sub(tri[(i+k) % 3],p) for k in (1,2)))
+        if sides not in table:
+            continue
+        h = table[sides]
+        if h == 0:
+            origin, den = p, c
+        else:
+            base = (c*b*(2*a+b),0)
+            origin, den = product(sub(p,base),(a+b,-b)), c*c
+        if all(z % den == 0 for z in origin):
+            return h
+    raise ValueError('Tile outside the two specified orientation translates')
+
+
 def checked(a, b, c):
     n = (a + 2 * b) * (2 * a + b)
     step = ((c - b) // 2, (c - a) // 2, 1)
@@ -58,6 +115,8 @@ def checked(a, b, c):
     board = ccw(scaffold['target'])
     pieces = []
     positive, negative = 0, padding_faces
+    actual = []
+    orientation = templates(a,b,c)
 
     def triangle(poly, factor):
         assert len(poly) == 3 and factor > 0
@@ -80,9 +139,14 @@ def checked(a, b, c):
             assert abs(area([x,y,z])) - abs(area([z,w,d])) == area(poly)
             positive += t*t
             negative += k*k
+            if n == 5063:
+                actual.extend((1,T) for T in triangular_grid([x,y,z],t))
+                actual.extend((-1,T) for T in triangular_grid([z,w,d],k))
         elif block['kind'] == 'triangle':
             triangle(pts, block['scale'])
             positive += block['scale']**2
+            if n == 5063:
+                actual.extend((1,T) for T in triangular_grid(pts,block['scale']))
         else:
             assert block['kind'] == 'parallelogram'
             p, q, r, s = pts
@@ -98,6 +162,16 @@ def checked(a, b, c):
                 assert block['diagonal'] == 'sum'
                 triangle([(0, 0), u, (u[0] + v[0], u[1] + v[1])], 1)
             positive += 2*m*k
+            if n == 5063:
+                for i in range(m):
+                    for j in range(k):
+                        o = add(p,add(mul(i,u),mul(j,v)))
+                        e, f = add(o,u), add(o,v)
+                        far = add(e,v)
+                        if block['diagonal'] == 'difference':
+                            actual.extend([(1,[o,e,f]),(1,[e,far,f])])
+                        else:
+                            actual.extend([(1,[o,e,far]),(1,[o,far,f])])
 
     assert all(separates(p, q) or separates(q, p) for p, q in combinations(pieces, 2))
     assert sum(area(p) for p in pieces) == area(board) + area(padding)
@@ -126,6 +200,13 @@ def checked(a, b, c):
                             square = norm(delta)
                             length = isqrt(square)
                             assert length * length == square and length % c == 0
+    if n == 5063:
+        location_counts = Counter()
+        for sign, tile in actual:
+            assert all(left(p,q,v) >= 0 for p,q in edges(board) for v in tile)
+            location_counts[sign,class_at(tile,orientation,a,b,c)] += 1
+        assert location_counts == {(1,0):1322,(1,1):3749,(-1,1):8}
+        print('5063: all 5079 disc faces lie in the board and in its two distinguished translates.')
     assert positive - negative == n
     assert negative == {3431: 75, 5063: 8}[n]
     print(n, 'board:', len(pieces), 'convex blocks.', positive, 'positive faces,',

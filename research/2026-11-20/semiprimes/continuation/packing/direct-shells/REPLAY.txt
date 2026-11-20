@@ -1,0 +1,6 @@
+hex538: 2355 fixed triangles and two translated copies of a simple 6-gon, each area 538; 1 reflex vertices.
+Cyclic physical side lengths: 385 148 91 74 259 165
+region337: 2757 fixed triangles and two translated copies of a simple 9-gon, each area 337; 3 reflex vertices.
+Cyclic physical side lengths: 126 74 217 35 74 91 74 259 165
+oct538: 2355 fixed triangles and two translated copies of a simple 8-gon, each area 538; 2 reflex vertices.
+Cyclic physical side lengths: 126 74 217 35 74 126 217 239
