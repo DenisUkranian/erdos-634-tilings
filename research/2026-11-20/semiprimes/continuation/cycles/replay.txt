@@ -1,0 +1,27 @@
+143 turn -60 generated 63 diameter 31 fit 0
+143 turn -120 generated 304 diameter 176 fit 3
+K=15 runs 1 1 2 2 2 4 1 1 2 rotation 156 -220
+3431 turn -60 generated 4955 diameter 3936 fit 0
+3431 turn -120 generated 60180 diameter 52359 fit 0
+3431 capacity scan K=193 runs 3 1 14 6 3 25 3 2 11 rotation 12775 -38775
+5063 turn -60 generated 11783 diameter 8507 fit 0
+5063 turn -120 generated 199323 diameter 157586 fit 0
+5063 capacity scan K=432 runs 5 4 16 11 6 29 6 2 13 rotation 31291 -61915
+143: K=15, one reflex vertex, translation=(1724/539, 78/49)
+3431: K=193, one reflex vertex, translation=(47541265/2123319, 5693/1369)
+5063: K=432, one reflex vertex, translation=(85295404/3947615, 14899/1849)
+Small primitive odd cases and available rhombi: [(5, 3, 7, 16), (33, 7, 37, 260)]
+3431: 231 whole rhombi, 4 reflex corners, endpoint variations [12, 12]
+5063: 455 whole rhombi, 2 reflex corners, endpoint variations [6, 6]
+5063: all mesh rotations and translations, strict area lower bound 258284339720515/567840809718 > 454
+CRT and residue-graph distances agree on 244 primitive odd triples
+3431: distances (4, 2), at least 9 unpaired along c
+5063: distances (3, 4), at least 9 unpaired along c
+64367: distances (8, 4), at least 17 unpaired along c
+3431: analytic lower bound 97, integer inventory relaxation 97
+5063: analytic lower bound 129, integer inventory relaxation 129
+19367: analytic lower bound 217, integer inventory relaxation 217
+60023: analytic lower bound 393, integer inventory relaxation 393
+64367: analytic lower bound 385, integer inventory relaxation 385
+271151: analytic lower bound 801, integer inventory relaxation 801
+641591: analytic lower bound 1177, integer inventory relaxation 1177

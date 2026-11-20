@@ -12,6 +12,12 @@ For every pair of primes p,q, **both pq and 3pq tile if and only if p=q or the p
 
 There is also a decision for 3pq alone outside at most one larger prime partner per smaller prime p>3. With 3<p<q<2p the exact positive test is 3p<2q and both 3p−q and 3(2p−q) are squares. With q>2p there is the positive count 345. All other possibilities require q=(p²+18p+9)/4 if p is 1 modulo 4, or q=(p²+18p−27)/4 if p is 3 modulo 4. The number 777 lies on the second numerical curve with a different candidate shape. This latter classification uses two additional moving-bank manuscript arguments. At 3pq≤3,000,000 there are 139,667 inputs with 3<p<q, nine certified positives, 139,639 negatives and 19 candidates. [3pq classification](counting/ALL_THREE_P_Q.md) · [equal residues](counting/THREE_PRIME_EXCLUSION.md) · [F2 triples](counting/F2_TRIPLES.md).
 
+## A restriction on every tiling of a residual unit board
+
+With primitive odd F2 sides $a\ge2b$ and $c^2=a^2+ab+b^2$, at least $4c-2(a-b)+1$ tiles have no half-turn mate along their entire long edge. Every remaining mixed semiprime parameter beyond the unit staircase satisfies the ratio hypothesis. The bounds are 97 for 3431, 129 for 5063 and 1,177 for 641591. The proof applies to the original triangle with freely oriented tiles and T-junctions. The seven board questions below remain open. [Theorem and proof](cycles/LONG_EDGE_PAIRS.md) · [integer replay](cycles/check_long_pairs.py).
+
+On every odd F2 board a balanced lattice outline of area $2c^2$ tile-areas fits geometrically. At the required area the fewest reflex vertices for 5063 is exactly two. The range for 3431 is two to four. A row obstruction explains which parallelogram fillings fail even after allowing different directions. [Outlines and sharp capacities](cycles/CYCLES.md) · [universal construction](cycles/BOUNDARY_WITNESSES.md) · [row obstruction](cycles/PAIRING.md).
+
 ## What changed on the seven original unit boards
 
 Each odd residual F2 triangle now has two explicit partial dissections. One leaves a single convex pentagon and covers at least 3225/3431 of the target by complete tiles. A second leaves two translates of a pentagon of less than one quarter of the area of the older quadrilateral Q. The percentages refer to the covered area. The seven existence questions below remain open.
