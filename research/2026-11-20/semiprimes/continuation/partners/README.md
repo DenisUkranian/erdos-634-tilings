@@ -59,3 +59,5 @@ The [all-prime row estimate](ALL_PRIME_ROWS.md) controls actual positive counts 
 The classifier also reproduces the project census on all 88 products of two primes through 279, including repeated primes (31 YES, 57 NO). [Census and sources](../../../../2026-11-19/next/global/CENSUS_279.md).
 
 Omitting both moving-bank manuscript exclusions still gives at least **67,058 complete prime rows** in this endpoint range. All distant cases on the older overlist were retained. The classifier supports `--older-overlist` for this comparison. [Conservative count and replay](OLDER_OVERLIST.md).
+
+[Reversed auxiliary steps](REVERSED_STEPS.md) give no extra unit staircase solutions, and the least total area of the overwide pieces is computable for every residual parameter. It is 128 on 3431 and 8 on 5063. The [separate-notch obstruction](OVERSHOOT.md) uses the stated local geometric input for the entire denominator-one family. A different subdivision of the original triangle remains possible.
