@@ -1,0 +1,13 @@
+boundary 0 length 39 columns 302
+boundary 1 length 49 columns 519
+boundary 2 length 55 columns 770
+corner 1 new roots 4 new columns 0 aux 2
+corner 2 new roots 4 new columns 0 aux 4
+corner 3 new roots 4 new columns 0 aux 5
+corner 4 new roots 4 new columns 0 aux 6
+corner 5 new roots 4 new columns 0 aux 7
+corner 6 new roots 4 new columns 0 aux 8
+rebuild 1 active guards 0 permanent assertions 49509
+PASS: exact node counts, combined 143 SMT witness, rebuild, and rejection of one c-block.
+[{"actual_nodes": 2, "empty_required_nodes": 0, "generated_nodes": 241, "required_nodes": 0, "sign": 1, "sum_blocks": 20}, {"actual_nodes": 2, "empty_required_nodes": 0, "generated_nodes": 265, "required_nodes": 0, "sign": -1, "sum_blocks": 20}]
+{"corner_roots": 447, "corner_symbols": 12609, "placements": 13530, "population_symbols": 3508}

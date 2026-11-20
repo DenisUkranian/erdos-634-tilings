@@ -1,0 +1,39 @@
+{
+  "format": "global-integer-endpoint-v1",
+  "sides": [
+    33,
+    7,
+    37
+  ],
+  "N": 3431,
+  "boundary_arithmetic": true,
+  "iteration": 10,
+  "status": "round-limit",
+  "assertions": 426452,
+  "random_seed": 1776,
+  "columns": 89925,
+  "rows": 11423,
+  "partial_rows": 248505,
+  "coverage_points": 0,
+  "active_guard_count": 161986,
+  "max_rss_mb": 1971.4,
+  "signed_population_node_counts": [
+    2695,
+    2770
+  ],
+  "signed_core_residues": [
+    19,
+    8
+  ],
+  "signed_block_caps": [
+    45,
+    47
+  ],
+  "signed_bit_widths": [
+    6,
+    6
+  ],
+  "signed_even_delta": 1,
+  "population_allows_one_empty_ancestor": false,
+  "scope": "Necessary signed phase-node projection with exact parity completion; not a tiling certificate."
+}

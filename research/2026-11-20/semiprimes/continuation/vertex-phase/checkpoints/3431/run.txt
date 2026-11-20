@@ -1,0 +1,51 @@
+seed imbalance points 8 core policy few_missing
+boundary 0 length 511 columns 5667
+boundary 1 length 1369 columns 12941
+boundary 2 length 1551 columns 21298
+corner 1 new roots 4 new columns 0 aux 2
+corner 2 new roots 4 new columns 0 aux 4
+corner 3 new roots 2 new columns 0 aux 5
+corner 4 new roots 2 new columns 0 aux 6
+corner 5 new roots 4 new columns 0 aux 7
+corner 6 new roots 4 new columns 0 aux 8
+whole board 3431 seed 3485 columns 84648 complete rows 10608 partial rows 234310 coverage points 0 setup seconds 14.42
+round 0 columns 84648 complete rows 10608 partial rows 234310 status unsat guards 152832 seconds 3.732 max RSS MB 1971.4
+temporary core guards 2938 physical rows 3849
+core completion zero missing 5 growing selected 80 smallest missing 0
+corner 7 new roots 2 new columns 9 aux 2639
+round 1 columns 85057 complete rows 10693 partial rows 235340 status unsat guards 153516 seconds 3.688 max RSS MB 1971.4
+temporary core guards 3191 physical rows 4233
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 8 new roots 8 new columns 4 aux 2656
+round 2 columns 85532 complete rows 10777 partial rows 236548 status unsat guards 154329 seconds 3.623 max RSS MB 1971.4
+temporary core guards 3284 physical rows 4361
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 9 new roots 10 new columns 22 aux 2667
+round 3 columns 86031 complete rows 10858 partial rows 237889 status unsat guards 155188 seconds 3.94 max RSS MB 1971.4
+temporary core guards 3447 physical rows 4657
+core completion zero missing 3 growing selected 80 smallest missing 0
+corner 10 new roots 10 new columns 26 aux 2678
+round 4 columns 86582 complete rows 10941 partial rows 239273 status unsat guards 156149 seconds 3.798 max RSS MB 1971.4
+temporary core guards 3563 physical rows 4844
+core completion zero missing 0 growing selected 80 smallest missing 2
+corner 11 new roots 9 new columns 12 aux 2690
+round 5 columns 87110 complete rows 11021 partial rows 240750 status unsat guards 157040 seconds 3.89 max RSS MB 1971.4
+temporary core guards 3489 physical rows 4759
+core completion zero missing 0 growing selected 80 smallest missing 2
+corner 12 new roots 6 new columns 4 aux 2709
+round 6 columns 87653 complete rows 11101 partial rows 242231 status unsat guards 157992 seconds 3.956 max RSS MB 1971.4
+temporary core guards 3593 physical rows 4889
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 13 new roots 8 new columns 8 aux 2729
+round 7 columns 88229 complete rows 11182 partial rows 243771 status unsat guards 159005 seconds 4.275 max RSS MB 1971.4
+temporary core guards 3611 physical rows 4914
+core completion zero missing 0 growing selected 80 smallest missing 2
+corner 14 new roots 10 new columns 6 aux 2739
+round 8 columns 88806 complete rows 11262 partial rows 245405 status unsat guards 160014 seconds 4.374 max RSS MB 1971.4
+temporary core guards 3631 physical rows 4904
+core completion zero missing 0 growing selected 80 smallest missing 2
+corner 15 new roots 8 new columns 0 aux 2754
+round 9 columns 89355 complete rows 11342 partial rows 246896 status unsat guards 160978 seconds 3.394 max RSS MB 1971.4
+temporary core guards 3717 physical rows 5051
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 16 new roots 8 new columns 0 aux 2766

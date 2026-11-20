@@ -35,6 +35,9 @@ def main():
                 errors.append({'path':rel,'wrong_project_identity':True})
             if p.suffix=='.md':
                 clean=re.sub(r'```.*?```','',text,flags=re.S)
+                # Display mathematics can contain adjacent [factor](factor),
+                # which is not a Markdown hyperlink in a math block.
+                clean=re.sub(r'(?<!\\)\$\$.*?(?<!\\)\$\$','',clean,flags=re.S)
                 targets=re.findall(r'!?\[[^\]\n]*\]\(([^\s)]+)(?:\s+"[^"\n]*")?\)',clean)
                 targets += re.findall(r'^\[[^\]\n]+\]:\s*(\S+)',clean,flags=re.M)
                 for target in targets:

@@ -1,0 +1,183 @@
+{
+  "format": "vertex-phase-finite-controls-v1",
+  "status": "PASS",
+  "solver_controls": true,
+  "checks": [
+    {
+      "name": "supported_cycle_geometry",
+      "command": [
+        "pure_cycles/check_remote_cycles.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.043,
+      "stdout": "3431: max common squared chord 1331780030161/3293267769 < 1089; thickness <= 5110/1739 < 7\n5063: max common squared chord 9230010672961/8428158025 < 1225; thickness <= 19422/2623 < 13\n",
+      "stderr": ""
+    },
+    {
+      "name": "strict_phase_bounds",
+      "command": [
+        "verify_no_phase_gaps.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.028,
+      "stdout": "{\n  \"scope\": \"Necessary population bounds; neither whole board is decided.\",\n  \"cases\": [\n    {\n      \"N\": 3431,\n      \"tile\": [\n        33,\n        7,\n        37\n      ],\n      \"core_residue\": 27,\n      \"required_node_limit_no_gaps_only\": 46,\n      \"required_node_limit_with_signed_parity\": 45,\n      \"attachment_remote_outside_bound\": 175,\n      \"attachment_remote_required_node_limit\": 43\n    },\n    {\n      \"N\": 5063,\n      \"tile\": [\n        35,\n        13,\n        43\n      ],\n      \"core_residue\": 32,\n      \"required_node_limit_no_gaps_only\": 58,\n      \"required_node_limit_with_signed_parity\": 58,\n      \"attachment_remote_outside_bound\": 204,\n      \"attachment_remote_required_node_limit\": 56\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "signed_characters_and_residues",
+      "command": [
+        "verify_signed_arithmetic.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.059,
+      "stdout": "{\n  \"scope\": \"Necessary population constraints; 3431 and 5063 remain undecided.\",\n  \"cases\": [\n    {\n      \"N\": 3431,\n      \"tile\": [\n        33,\n        7,\n        37\n      ],\n      \"checked_oriented_placements\": 84,\n      \"core_residues\": [\n        19,\n        8\n      ],\n      \"full_sign_populations\": [\n        1684,\n        1747\n      ],\n      \"remaining_block_budgets\": [\n        45,\n        47\n      ],\n      \"even_block_defect\": 1,\n      \"ordinary_node_limit_with_parity\": 45\n    },\n    {\n      \"N\": 5063,\n      \"tile\": [\n        35,\n        13,\n        43\n      ],\n      \"checked_oriented_placements\": 84,\n      \"core_residues\": [\n        5,\n        27\n      ],\n      \"full_sign_populations\": [\n        2499,\n        2564\n      ],\n      \"remaining_block_budgets\": [\n        58,\n        59\n      ],\n      \"even_block_defect\": 0,\n      \"ordinary_node_limit_with_parity\": 58\n    },\n    {\n      \"N\": 143,\n      \"tile\": [\n        5,\n        3,\n        7\n      ],\n      \"checked_oriented_placements\": 84,\n      \"core_residues\": [\n        4,\n        6\n      ],\n      \"full_sign_populations\": [\n        67,\n        76\n      ],\n      \"remaining_block_budgets\": [\n        9,\n        10\n      ],\n      \"even_block_defect\": 0,\n      \"ordinary_node_limit_with_parity\": 9\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "terminal_node_arithmetic",
+      "command": [
+        "verify_terminal_node_balance.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.012,
+      "stdout": "Verified terminal-node arithmetic for 3431 and 5063.\n",
+      "stderr": ""
+    },
+    {
+      "name": "independent_phase_arithmetic",
+      "command": [
+        "check_phase_independent.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.942,
+      "stdout": "PASS (5, 3, 7) sign 1 prime (3, -1) canonical nodes, representation invariance, and exterior-free ancestors\nPASS (5, 3, 7) sign -1 prime (2, 1) canonical nodes, representation invariance, and exterior-free ancestors\nPASS (33, 7, 37) sign 1 prime (7, -3) canonical nodes, representation invariance, and exterior-free ancestors\nPASS (33, 7, 37) sign -1 prime (4, 3) canonical nodes, representation invariance, and exterior-free ancestors\nPASS (35, 13, 43) sign 1 prime (6, 1) canonical nodes, representation invariance, and exterior-free ancestors\nPASS (35, 13, 43) sign -1 prime (7, -1) canonical nodes, representation invariance, and exterior-free ancestors\nPASS independent valuation comparisons: 79800\n",
+      "stderr": ""
+    },
+    {
+      "name": "constructive_143_compact",
+      "command": [
+        "constructive-control/verify_macro.py",
+        "constructive-control/control143_compact.txt",
+        "5",
+        "3",
+        "7"
+      ],
+      "exit_code": 0,
+      "seconds": 0.032,
+      "stdout": "PASS control143_compact.txt: 143 exact unit tiles in 14 grid blocks; boundary chains cancel.\n",
+      "stderr": ""
+    },
+    {
+      "name": "constructive_143_perimeter",
+      "command": [
+        "constructive-control/verify_macro.py",
+        "constructive-control/control143_perimeter.txt",
+        "5",
+        "3",
+        "7"
+      ],
+      "exit_code": 0,
+      "seconds": 0.025,
+      "stdout": "PASS control143_perimeter.txt: 143 exact unit tiles in 14 grid blocks; boundary chains cancel.\n",
+      "stderr": ""
+    },
+    {
+      "name": "unrestricted_corner_143",
+      "command": [
+        "verify_corners.py",
+        "/workspace/scratch/db55ddebee97/repo/research/2026-11-20/semiprimes/continuation/global-endpoints/integer"
+      ],
+      "exit_code": 0,
+      "seconds": 7.071,
+      "stdout": "All 429 known local stars are preserved.\nAll 38 actual through-edge incidences have exact sliding witnesses.\n54 interior rays each have exactly six incident angle placements.\nrebuild 1 active guards 0 permanent assertions 16405\nSMT control, equivalent-context rebuild, and missing-neighbor rejection pass.\n{\"assertions\": 16405, \"auxiliary_symbols\": 12607, \"columns\": 13065, \"control_tiles\": 143, \"roots\": 429}\n",
+      "stderr": ""
+    },
+    {
+      "name": "unsigned_population_143",
+      "command": [
+        "verify_populations.py",
+        "/workspace/scratch/db55ddebee97/repo/research/2026-11-20/semiprimes/continuation/global-endpoints/integer",
+        "/workspace/scratch/db55ddebee97/repo/research/2026-11-20/semiprimes/continuation/vertex-phase"
+      ],
+      "exit_code": 0,
+      "seconds": 4.993,
+      "stdout": "boundary 0 length 39 columns 302\nboundary 1 length 49 columns 519\nboundary 2 length 55 columns 770\ncorner 1 new roots 4 new columns 0 aux 2\ncorner 2 new roots 4 new columns 0 aux 4\ncorner 3 new roots 4 new columns 0 aux 5\ncorner 4 new roots 4 new columns 0 aux 6\ncorner 5 new roots 4 new columns 0 aux 7\ncorner 6 new roots 4 new columns 0 aux 8\nrebuild 1 active guards 0 permanent assertions 49509\nPASS: exact node counts, combined 143 SMT witness, rebuild, and rejection of one c-block.\n[{\"actual_nodes\": 2, \"empty_required_nodes\": 0, \"generated_nodes\": 241, \"required_nodes\": 0, \"sign\": 1, \"sum_blocks\": 20}, {\"actual_nodes\": 2, \"empty_required_nodes\": 0, \"generated_nodes\": 265, \"required_nodes\": 0, \"sign\": -1, \"sum_blocks\": 20}]\n{\"corner_roots\": 447, \"corner_symbols\": 12609, \"placements\": 13530, \"population_symbols\": 3508}\n",
+      "stderr": ""
+    },
+    {
+      "name": "population_scope_and_rebuild",
+      "command": [
+        "check_population_scope.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.075,
+      "stdout": "rebuild 1 active guards 0 permanent assertions 308\nrebuild 1 active guards 0 permanent assertions 12\nPASS: pool caps grow after pop; core and ordinary capacities; rebuild preserves current caps; strict empty gate; odd-input guard.\n",
+      "stderr": ""
+    },
+    {
+      "name": "signed_joint_population_143",
+      "command": [
+        "verify_signed_solver.py",
+        "/workspace/scratch/db55ddebee97/repo/research/2026-11-20/semiprimes/continuation/global-endpoints/integer",
+        "/workspace/scratch/db55ddebee97/repo/research/2026-11-20/semiprimes/continuation/vertex-phase",
+        "--joint-heights"
+      ],
+      "exit_code": 0,
+      "seconds": 5.801,
+      "stdout": "boundary 0 length 39 columns 302\nboundary 1 length 49 columns 519\nboundary 2 length 55 columns 770\ncorner 1 new roots 4 new columns 0 aux 2\ncorner 2 new roots 4 new columns 0 aux 4\ncorner 3 new roots 4 new columns 0 aux 5\ncorner 4 new roots 4 new columns 0 aux 6\ncorner 5 new roots 4 new columns 0 aux 7\ncorner 6 new roots 4 new columns 0 aux 8\nrebuild 1 active guards 0 permanent assertions 73687\nPASS: signed counts, combined SMT witness, rebuild, one-block rejection, and parity completion.\n[{\"empty_required_nodes\": 0, \"generated_nodes\": 241, \"negative_blocks\": 10, \"positive_blocks\": 9, \"sign\": 1}, {\"empty_required_nodes\": 0, \"generated_nodes\": 265, \"negative_blocks\": 10, \"positive_blocks\": 9, \"sign\": -1}]\n{\"corner_roots\": 447, \"joint_heights\": [-6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7], \"parity_completion_cases\": 20736, \"placements\": 13530, \"signed_population_symbols\": 5138}\n",
+      "stderr": ""
+    },
+    {
+      "name": "signed_scope_and_rebuild",
+      "command": [
+        "check_signed_scope.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.21,
+      "stdout": "rebuild 1 active guards 0 permanent assertions 688\nrebuild 1 active guards 0 permanent assertions 5\nrebuild 1 active guards 0 permanent assertions 5\nPASS: mixed-sign occupancy, sign-specific own capacities and core residues;\npool-cap growth, queued-pop scope, rebuild and both strict target gates;\nomitted-node parity slack and both cross bounds in both trees and targets.\n",
+      "stderr": ""
+    },
+    {
+      "name": "joint_height_scope_and_rebuild",
+      "command": [
+        "check_joint_height_scope.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.316,
+      "stdout": "rebuild 1 active guards 0 permanent assertions 688\nrebuild 1 active guards 0 permanent assertions 5\nrebuild 1 active guards 0 permanent assertions 5\nrebuild 1 active guards 0 permanent assertions 330\nrebuild 1 active guards 0 permanent assertions 435\nPASS: shared physical heights, one payment for both trees, both signs;\nstrictly stronger split-height contradiction, new-height query scope, rebuild;\nand all prior signed scope controls through the shared-height subclass.\n",
+      "stderr": ""
+    }
+  ],
+  "source_sha256": {
+    "../global-endpoints/integer/global_core_sat.py": "8bcf5fb30fc84e30400c7c3f28f4adf41b808d398b5382351657cb95adf53e46",
+    "../global-endpoints/tiling_143.json": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+    "check_joint_height_scope.py": "3c8109ff1f27c46b6e1f7b6804e73b860c510e2d018fb7a8538334ec35c2f60c",
+    "check_phase_independent.py": "eb4db9a3cd28f693ab5afb93ddbfd562dcafb6ba70f09900aaddfa751abb7de6",
+    "check_population_scope.py": "1203693b5c176384b7589b6a14fcb25286931da2b944f599dd45725513966167",
+    "check_signed_scope.py": "2832ce591c6c14e9b72dcac42558681f093d1f35819614a0e894f59fe2e6fca3",
+    "constructive-control/inspect_lift.py": "821b7ab827937965678751d0d149b8def5e4961ffb14c3f966a0da25a2dd9cfe",
+    "constructive-control/lift_macro.py": "c2267483c5b4fb1bbfb4a565f13dc26a4c035b752b822c3e951ab43c2ec2c718",
+    "constructive-control/verify_macro.py": "7f136f3ea0164b27f7a091c9dc5e861ded432f1e73901cf69b0551793cb468d6",
+    "corner_oracle.py": "2c15c96567b81c57176a4a9c0c3a7eaacbcfd6c06cba4023ccd1825b818f63e2",
+    "corner_search.py": "7bbb090e69476bfec7f16acc04ba4e51680e7afafdfcd7245a067c5660757fdb",
+    "joint_height_search.py": "f40207e155c13e5a9ae6b4d89489c03f3fb768dedad791bb1aa941d3ca5c69e6",
+    "phase_budget.py": "e37952e42c38cb87d8ea93f2a17780b60e54f86d837c6e2b287b945d57327e33",
+    "phase_search.py": "2276bc8bb419e779d91fb3e6016c8f8cd1d025f34d143d81e60afad2210acb05",
+    "population_search.py": "e1dc22fa98279a8e61556733dbe81938ef9563dff2cc0ff0c184edb54646a719",
+    "pure_cycles/check_remote_cycles.py": "272f3b59d6f767c13ab885c00209a58f09275eeb97cdd2423189a05947b2dca5",
+    "replay.py": "df7ef18d338329d952f27a2b91e5ea907603273156f8b3f012896a6ed82913cf",
+    "signed_population_search.py": "f80fdd1e83e078ee19c8eb3bb27c0ea15a7eabfade2b8b8f5f96079afad9c410",
+    "verify_corners.py": "70fb481a82682877de13ddf38aff14295f89dd3644554e8463060993faf672a7",
+    "verify_no_phase_gaps.py": "30eecffb6141f7f4562bb68f4eb59870f06473a21c1ce59cf9c6591a9be5db1f",
+    "verify_populations.py": "2a9d085e48fc053bfda1fbefdb48e55d8c57ef691a024bf0fda141ede2217cb5",
+    "verify_signed_arithmetic.py": "07b2a6eda122be887075dddb574ced8650eaedbf8a88cda8967c25e70baf7535",
+    "verify_signed_solver.py": "a0086f57557fe246015881a21df17e6271c668db0b2d668452c08a1c80a3a6c1",
+    "verify_terminal_node_balance.py": "a4e160366bbc97f463aba2d90e46d285c423b9ed6b648ca0f48d05c5ee1f8916"
+  },
+  "target_status": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "full_Erdos634_solved": false,
+  "scope": "Finite exact arithmetic, positive and rejection controls only; not a target tiling, unrestricted UNSAT proof, or formal verification of the notes."
+}

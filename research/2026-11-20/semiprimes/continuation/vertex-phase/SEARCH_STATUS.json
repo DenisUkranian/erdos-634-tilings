@@ -1,0 +1,351 @@
+{
+  "format": "vertex-phase-final-search-status-v1",
+  "date": "2026-11-20",
+  "mathematical_status": {
+    "3431": "OPEN",
+    "5063": "OPEN",
+    "all_semiprimes": "NOT_CLASSIFIED"
+  },
+  "new_target_tiling": false,
+  "unconditional_unsat_certificate": false,
+  "controls": {
+    "exact_known_tiling": 143,
+    "local_corners_preserved": 429,
+    "through_edge_incidences_witnessed": 38,
+    "interior_ray_shapes_tested": 54,
+    "shapes_per_ray": 6,
+    "combined_control_generated_placements": 13530,
+    "combined_control_corner_roots": 447,
+    "joint_control_population_symbols": 5138,
+    "parity_completion_cases": 20736,
+    "fixed_known_tiling_smt": "SAT",
+    "equivalent_context_rebuild": "SAT",
+    "invalid_one_block_population": "UNSAT",
+    "missing_corner_neighbors": "UNSAT"
+  },
+  "latest_checkpoints": {
+    "3431": {
+      "saved_model": {
+        "format": "global-integer-endpoint-v1",
+        "sides": [
+          33,
+          7,
+          37
+        ],
+        "N": 3431,
+        "boundary_arithmetic": true,
+        "iteration": 10,
+        "status": "round-limit",
+        "assertions": 426452,
+        "random_seed": 1776,
+        "columns": 89925,
+        "rows": 11423,
+        "partial_rows": 248505,
+        "coverage_points": 0,
+        "active_guard_count": 161986,
+        "max_rss_mb": 1971.4,
+        "signed_population_node_counts": [
+          2695,
+          2770
+        ],
+        "signed_core_residues": [
+          19,
+          8
+        ],
+        "signed_block_caps": [
+          45,
+          47
+        ],
+        "signed_bit_widths": [
+          6,
+          6
+        ],
+        "signed_even_delta": 1,
+        "population_allows_one_empty_ancestor": false,
+        "scope": "Necessary signed phase-node projection with exact parity completion; not a tiling certificate."
+      },
+      "last_completed_query": {
+        "iteration": 9,
+        "columns": 89355,
+        "complete_rows": 11342,
+        "temporary_rows": 246896,
+        "status_under_temporary_assumptions": "unsat",
+        "active_guards": 160978,
+        "seconds": 3.394,
+        "peak_rss_mb": 1971.4,
+        "temporary_core_guards": 3717,
+        "temporary_core_physical_rows": 5051
+      },
+      "checkpoint_rows": "checkpoints/3431/complete_rows.json.gz",
+      "checkpoint_corners": "checkpoints/3431/corners.json",
+      "rows_sha256": "b2ff47baaf784549e70d8f0ee54b67d89c509ddcfe90e0675e9902c2b845e9b0",
+      "corners_sha256": "a6379121f67ac2e4644887666ca4c850d5b112bd85cb4c6252884fe7bd4ed57a",
+      "model_features": "Strict signed node populations and parity completion; no shared-height coupling in this run."
+    },
+    "5063": {
+      "saved_model": {
+        "format": "global-integer-endpoint-v1",
+        "sides": [
+          35,
+          13,
+          43
+        ],
+        "N": 5063,
+        "boundary_arithmetic": true,
+        "iteration": 138,
+        "status": "corner-user-stop-file",
+        "assertions": 286233,
+        "random_seed": 1776,
+        "columns": 97822,
+        "rows": 12672,
+        "partial_rows": 262647,
+        "coverage_points": 0,
+        "active_guard_count": 175527,
+        "max_rss_mb": 1811.1,
+        "population_node_counts": [
+          2907,
+          2785
+        ],
+        "population_bit_width": 7,
+        "population_residue": 32,
+        "population_block_cap": 117,
+        "population_allows_one_empty_ancestor": false,
+        "scope": "Necessary phase-node population projection; not a tiling certificate."
+      },
+      "last_completed_query": {
+        "iteration": 137,
+        "columns": 97822,
+        "complete_rows": 12672,
+        "temporary_rows": 262647,
+        "status_under_temporary_assumptions": "unsat",
+        "active_guards": 175527,
+        "seconds": 3.196,
+        "peak_rss_mb": 1797.6,
+        "temporary_core_guards": 1082,
+        "temporary_core_physical_rows": 1419
+      },
+      "checkpoint_rows": "checkpoints/5063/complete_rows.json.gz",
+      "checkpoint_corners": "checkpoints/5063/corners.json",
+      "rows_sha256": "aa43a514eae0ec032fcbc0d73c8e2acc337104fd3615d7607d806da2946d982f",
+      "corners_sha256": "b5c09549596172f5c9fcf489077ac37a8dd9bb03e9e484c4762b69ca0cf2d807",
+      "model_features": "Strict unsigned node populations; this portable geometry checkpoint can be resumed with signed and shared-height constraints."
+    }
+  },
+  "unguarded_probes": {
+    "3431": {
+      "proof_production_enabled": true,
+      "features": "Strict signed node populations, exact parity completion, shared physical-height capacities, corner circuits, and angular nonoverlap.",
+      "queries": [
+        {
+          "round": 0,
+          "columns": 21298,
+          "complete_rows": 6,
+          "status": "unknown",
+          "seconds": 45.004,
+          "temporary_assumptions": false,
+          "tile_and_population_caps_active": true,
+          "reason": "(:reason-unknown \"canceled\")"
+        }
+      ],
+      "subsequent_guarded_query": {
+        "iteration": 0,
+        "columns": 21298,
+        "complete_rows": 6,
+        "temporary_rows": 62649,
+        "status_under_temporary_assumptions": "unsat",
+        "active_guards": 44078,
+        "seconds": 0.167,
+        "peak_rss_mb": 728.3,
+        "temporary_core_guards": 161,
+        "temporary_core_physical_rows": 314
+      },
+      "saved_status": {
+        "format": "global-integer-endpoint-v1",
+        "sides": [
+          33,
+          7,
+          37
+        ],
+        "N": 3431,
+        "boundary_arithmetic": true,
+        "iteration": 1,
+        "status": "round-limit",
+        "assertions": 63493,
+        "random_seed": 1776,
+        "columns": 21298,
+        "rows": 6,
+        "partial_rows": 62649,
+        "coverage_points": 0,
+        "active_guard_count": 44078,
+        "max_rss_mb": 740.6,
+        "signed_population_node_counts": [
+          77,
+          77
+        ],
+        "signed_core_residues": [
+          19,
+          8
+        ],
+        "signed_block_caps": [
+          45,
+          47
+        ],
+        "signed_bit_widths": [
+          6,
+          6
+        ],
+        "signed_even_delta": 1,
+        "population_allows_one_empty_ancestor": false,
+        "scope": "Necessary signed phase-node projection coupled by common physical-height capacities; not a tiling certificate.",
+        "joint_physical_heights": [
+          -1,
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "5063": {
+      "proof_production_enabled": true,
+      "features": "Strict signed node populations, exact parity completion, shared physical-height capacities, corner circuits, and angular nonoverlap.",
+      "queries": [
+        {
+          "round": 0,
+          "columns": 30440,
+          "complete_rows": 6,
+          "status": "unknown",
+          "seconds": 45.004,
+          "temporary_assumptions": false,
+          "tile_and_population_caps_active": true,
+          "reason": "(:reason-unknown \"canceled\")"
+        }
+      ],
+      "subsequent_guarded_query": {
+        "iteration": 0,
+        "columns": 30440,
+        "complete_rows": 6,
+        "temporary_rows": 89085,
+        "status_under_temporary_assumptions": "unsat",
+        "active_guards": 62892,
+        "seconds": 0.248,
+        "peak_rss_mb": 1325.3,
+        "temporary_core_guards": 195,
+        "temporary_core_physical_rows": 376
+      },
+      "saved_status": {
+        "format": "global-integer-endpoint-v1",
+        "sides": [
+          35,
+          13,
+          43
+        ],
+        "N": 5063,
+        "boundary_arithmetic": true,
+        "iteration": 1,
+        "status": "round-limit",
+        "assertions": 87329,
+        "random_seed": 1776,
+        "columns": 30440,
+        "rows": 6,
+        "partial_rows": 89085,
+        "coverage_points": 0,
+        "active_guard_count": 62892,
+        "max_rss_mb": 1325.3,
+        "signed_population_node_counts": [
+          89,
+          89
+        ],
+        "signed_core_residues": [
+          5,
+          27
+        ],
+        "signed_block_caps": [
+          58,
+          59
+        ],
+        "signed_bit_widths": [
+          6,
+          6
+        ],
+        "signed_even_delta": 0,
+        "population_allows_one_empty_ancestor": false,
+        "scope": "Necessary signed phase-node projection coupled by common physical-height capacities; not a tiling certificate.",
+        "joint_physical_heights": [
+          -1,
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  },
+  "interpretation": "Every target guarded UNSAT retained nonempty temporary assumptions. The two completed unguarded probes both returned UNKNOWN at their 45-second limit. No target is decided. Checkpoint row counts describe saved necessary models, not completed classification. All target runs have ended.",
+  "additional_memory_probe_3431": {
+    "saved_status": {
+      "format": "global-integer-endpoint-v1",
+      "sides": [
+        33,
+        7,
+        37
+      ],
+      "N": 3431,
+      "boundary_arithmetic": true,
+      "iteration": 0,
+      "status": "corner-memory-resource-limit",
+      "assertions": 225258,
+      "random_seed": 1776,
+      "columns": 51763,
+      "rows": 5563,
+      "partial_rows": 143135,
+      "coverage_points": 0,
+      "active_guard_count": 96094,
+      "max_rss_mb": 2401.5,
+      "signed_population_node_counts": [
+        1480,
+        1457
+      ],
+      "signed_core_residues": [
+        19,
+        8
+      ],
+      "signed_block_caps": [
+        45,
+        47
+      ],
+      "signed_bit_widths": [
+        6,
+        6
+      ],
+      "signed_even_delta": 1,
+      "population_allows_one_empty_ancestor": false,
+      "scope": "Necessary signed phase-node projection coupled by common physical-height capacities; not a tiling certificate.",
+      "joint_physical_heights": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "solver_query_reached": false,
+    "interpretation": "The proof-enabled 5563-row model exceeded the configured RSS threshold after assembly and before its unguarded query."
+  },
+  "final_code_strengthening_after_recorded_target_runs": {
+    "required_ordinary_node_cap": {
+      "3431": 45,
+      "5063": 58
+    },
+    "reason": "The actual odd-height signed block difference forces an ordinary node with at least three blocks.",
+    "replayed_in_target_searches": false
+  }
+}

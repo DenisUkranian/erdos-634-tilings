@@ -1,0 +1,14 @@
+seed imbalance points 8 core policy random
+boundary 0 length 511 columns 5667
+boundary 1 length 1369 columns 12941
+boundary 2 length 1551 columns 21298
+corner 1 new roots 4 new columns 0 aux 2
+corner 2 new roots 4 new columns 0 aux 4
+corner 3 new roots 2 new columns 0 aux 5
+corner 4 new roots 2 new columns 0 aux 6
+corner 5 new roots 4 new columns 0 aux 7
+corner 6 new roots 4 new columns 0 aux 8
+whole board 3431 seed 3485 columns 21298 complete rows 6 partial rows 62649 coverage points 0 setup seconds 2.12
+UNGUARDED PROBE {"columns": 21298, "complete_rows": 6, "reason": "(:reason-unknown \"canceled\")", "round": 0, "seconds": 45.004, "status": "unknown", "temporary_assumptions": false, "tile_and_population_caps_active": true}
+round 0 columns 21298 complete rows 6 partial rows 62649 status unsat guards 44078 seconds 0.167 max RSS MB 728.3
+temporary core guards 161 physical rows 314

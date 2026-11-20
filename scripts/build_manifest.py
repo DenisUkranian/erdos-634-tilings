@@ -1,14 +1,26 @@
 #!/usr/bin/env python3
-"""Freeze hashes before a release. Rebuilding hashes is not a mathematical check."""
+"""Freeze hashes before a release; --package limits per-package updates.
+
+The global manifest is always rebuilt. Rebuilding hashes is not a
+mathematical check.
+"""
+import argparse
 import hashlib
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED = {"verification/manifest.json", "verification/replay.json"}
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--package', action='append', help='Top-level research directory name; repeat as needed. Default: all packages.')
+args = parser.parse_args()
+selected = set(args.package or [])
+for name in selected:
+    if Path(name).name != name or not (ROOT/'research'/name).is_dir():
+        parser.error(f'Unknown top-level research package: {name}')
 # A deliberate publication freeze, never called automatically to hide a mismatch.
 for package in sorted((ROOT / "research").glob("*")):
-    if not package.is_dir():
+    if not package.is_dir() or (selected and package.name not in selected):
         continue
     lines = []
     for entry in sorted(package.rglob("*")):

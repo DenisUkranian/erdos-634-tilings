@@ -1,0 +1,12 @@
+seed imbalance points 8 core policy random
+boundary 0 length 511 columns 5667
+boundary 1 length 1369 columns 12941
+boundary 2 length 1551 columns 21298
+corner 1 new roots 4 new columns 0 aux 2
+corner 2 new roots 4 new columns 0 aux 4
+corner 3 new roots 2 new columns 0 aux 5
+corner 4 new roots 2 new columns 0 aux 6
+corner 5 new roots 4 new columns 0 aux 7
+corner 6 new roots 4 new columns 0 aux 8
+whole board 3431 seed 3485 columns 51763 complete rows 5563 partial rows 143135 coverage points 0 setup seconds 8.2
+INCONCLUSIVE: saved checkpoint; corner-memory-resource-limit: peak RSS 2401.5 MB

@@ -1,0 +1,6 @@
+All 429 known local stars are preserved.
+All 38 actual through-edge incidences have exact sliding witnesses.
+54 interior rays each have exactly six incident angle placements.
+rebuild 1 active guards 0 permanent assertions 16405
+SMT control, equivalent-context rebuild, and missing-neighbor rejection pass.
+{"assertions": 16405, "auxiliary_symbols": 12607, "columns": 13065, "control_tiles": 143, "roots": 429}

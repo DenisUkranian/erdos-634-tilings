@@ -1,0 +1,13 @@
+boundary 0 length 39 columns 302
+boundary 1 length 49 columns 519
+boundary 2 length 55 columns 770
+corner 1 new roots 4 new columns 0 aux 2
+corner 2 new roots 4 new columns 0 aux 4
+corner 3 new roots 4 new columns 0 aux 5
+corner 4 new roots 4 new columns 0 aux 6
+corner 5 new roots 4 new columns 0 aux 7
+corner 6 new roots 4 new columns 0 aux 8
+rebuild 1 active guards 0 permanent assertions 73687
+PASS: signed counts, combined SMT witness, rebuild, one-block rejection, and parity completion.
+[{"empty_required_nodes": 0, "generated_nodes": 241, "negative_blocks": 10, "positive_blocks": 9, "sign": 1}, {"empty_required_nodes": 0, "generated_nodes": 265, "negative_blocks": 10, "positive_blocks": 9, "sign": -1}]
+{"corner_roots": 447, "parity_completion_cases": 20736, "placements": 13530, "signed_population_symbols": 5026}

@@ -1,0 +1,54 @@
+{
+  "format": "global-integer-endpoint-v1",
+  "sides": [
+    33,
+    7,
+    37
+  ],
+  "N": 3431,
+  "boundary_arithmetic": true,
+  "iteration": 0,
+  "status": "corner-memory-resource-limit",
+  "assertions": 225258,
+  "random_seed": 1776,
+  "columns": 51763,
+  "rows": 5563,
+  "partial_rows": 143135,
+  "coverage_points": 0,
+  "active_guard_count": 96094,
+  "max_rss_mb": 2401.5,
+  "signed_population_node_counts": [
+    1480,
+    1457
+  ],
+  "signed_core_residues": [
+    19,
+    8
+  ],
+  "signed_block_caps": [
+    45,
+    47
+  ],
+  "signed_bit_widths": [
+    6,
+    6
+  ],
+  "signed_even_delta": 1,
+  "population_allows_one_empty_ancestor": false,
+  "scope": "Necessary signed phase-node projection coupled by common physical-height capacities; not a tiling certificate.",
+  "joint_physical_heights": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

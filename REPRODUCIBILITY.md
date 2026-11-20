@@ -2,6 +2,29 @@
 
 **v0.3.0 + 10 October 2026 supplement**
 
+## 20 November 2026: vertex and phase controls
+
+The new finite standard-library controls are included in the root replay:
+
+```sh
+python3 research/2026-11-20/semiprimes/continuation/vertex-phase/replay.py
+```
+
+They check the supported-cycle geometry, strict and signed population
+arithmetic, terminal-node line counts, 79,800 independent phase comparisons,
+and two positive decompositions of the known 143 board. The optional solver
+controls require `libz3.so.4`:
+
+```sh
+python3 research/2026-11-20/semiprimes/continuation/vertex-phase/replay.py --solver
+```
+
+The [fresh replay record](research/2026-11-20/semiprimes/continuation/vertex-phase/REPLAY.json)
+includes the final source hashes and exact output. It covers the known tiling,
+rejection checks, growing-catalogue query scopes and solver rebuilds. It does
+not decide 3431 or 5063, rerun their large searches, or formally verify the
+written geometric proofs. [Proofs and restart instructions](research/2026-11-20/semiprimes/continuation/vertex-phase/README.md).
+
 ## 20 November 2026: semiprime endpoint controls
 
 Run the finite exact controls with Python 3 and assertions enabled:

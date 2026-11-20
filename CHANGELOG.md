@@ -1,5 +1,18 @@
 # Changelog
 
+## 20 November 2026: vertex fans and phase-population bounds
+
+- Exclude vacant exterior-free phase ancestors on the 3431 and 5063 boards by deriving a supported pure-mesh cycle and applying the restored ordered-boundary obstruction.
+- Separate the two direction-sign populations at every phase node. Their core residues, global totals and height parity give occupied-node bounds 45 and 58.
+- Prove a lower-height attachment outside a remote subtree. Together with a distinct boundary node this gives outside populations 175 and 204 and remote required-node bounds 43 and 56.
+- Prove that an exterior-free terminal node with exactly `2c` tiles is balanced between the signs; keep full-tiling terminality distinct from absence in a generated catalogue.
+- Add complete local vertex-fan circuits, exact real-translation checks for through-edge tiles, per-node population budgets, shared physical-height capacities and explicit unguarded probes.
+- Preserve independent arithmetic, positive, rejection and scope/rebuild controls, plus two new decompositions of the known 143 board. Record the restricted obstruction to transferring that particular block topology.
+- Save portable target checkpoints and precise inconclusive outcomes. Both unguarded probes timed out; no target tiling or unconditional nonexistence certificate was obtained. The final cardinality refinement has control replays but no additional target run.
+- Add the standard-library finite controls to the root replay coordinator; provide the larger optional `libz3.so.4` controls separately.
+- Allow a manifest refresh to select one research package, and prevent display-math products from being mistaken for Markdown links during the repository integrity check.
+- [Complete package, internal audits and limitations](research/2026-11-20/semiprimes/continuation/vertex-phase/README.md).
+
 ## 20 November 2026: unrestricted endpoint methods for residual semiprimes
 
 - Add a finite global endpoint pricing theorem, an exact rational dual checker, and optional point-coverage penalties with a finite tile-budget bound.

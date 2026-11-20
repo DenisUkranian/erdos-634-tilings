@@ -1,0 +1,29 @@
+{
+  "format": "global-integer-endpoint-v1",
+  "sides": [
+    35,
+    13,
+    43
+  ],
+  "N": 5063,
+  "boundary_arithmetic": true,
+  "iteration": 138,
+  "status": "corner-user-stop-file",
+  "assertions": 286233,
+  "random_seed": 1776,
+  "columns": 97822,
+  "rows": 12672,
+  "partial_rows": 262647,
+  "coverage_points": 0,
+  "active_guard_count": 175527,
+  "max_rss_mb": 1811.1,
+  "population_node_counts": [
+    2907,
+    2785
+  ],
+  "population_bit_width": 7,
+  "population_residue": 32,
+  "population_block_cap": 117,
+  "population_allows_one_empty_ancestor": false,
+  "scope": "Necessary phase-node population projection; not a tiling certificate."
+}

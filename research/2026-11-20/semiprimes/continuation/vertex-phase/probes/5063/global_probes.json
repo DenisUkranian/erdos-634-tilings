@@ -1,0 +1,12 @@
+[
+  {
+    "round": 0,
+    "columns": 30440,
+    "complete_rows": 6,
+    "status": "unknown",
+    "seconds": 45.004,
+    "temporary_assumptions": false,
+    "tile_and_population_caps_active": true,
+    "reason": "(:reason-unknown \"canceled\")"
+  }
+]

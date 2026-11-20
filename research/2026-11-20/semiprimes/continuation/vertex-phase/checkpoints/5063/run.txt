@@ -1,0 +1,562 @@
+seed imbalance points 6 core policy few_missing
+boundary 0 length 1079 columns 9881
+boundary 1 length 1849 columns 19308
+boundary 2 length 2135 columns 30440
+corner 1 new roots 4 new columns 0 aux 2
+corner 2 new roots 4 new columns 0 aux 4
+corner 3 new roots 2 new columns 0 aux 5
+corner 4 new roots 2 new columns 0 aux 6
+corner 5 new roots 4 new columns 0 aux 7
+corner 6 new roots 4 new columns 0 aux 8
+whole board 5063 seed 5071 columns 30440 complete rows 6 partial rows 89085 coverage points 0 setup seconds 3.33
+round 0 columns 30440 complete rows 6 partial rows 89085 status unsat guards 62892 seconds 0.552 max RSS MB 543.2
+temporary core guards 135 physical rows 135
+core completion zero missing 0 growing selected 80 smallest missing 6
+corner 7 new roots 8 new columns 26 aux 36
+round 1 columns 31023 complete rows 86 partial rows 90666 status unsat guards 64013 seconds 0.59 max RSS MB 543.8
+temporary core guards 1632 physical rows 1997
+core completion zero missing 2 growing selected 80 smallest missing 0
+corner 8 new roots 5 new columns 6 aux 41
+round 2 columns 31405 complete rows 168 partial rows 91767 status unsat guards 64660 seconds 0.661 max RSS MB 543.8
+temporary core guards 250 physical rows 301
+core completion zero missing 0 growing selected 80 smallest missing 6
+corner 9 new roots 10 new columns 26 aux 53
+round 3 columns 31976 complete rows 248 partial rows 93352 status unsat guards 65713 seconds 0.783 max RSS MB 543.8
+temporary core guards 5051 physical rows 5203
+core completion zero missing 6 growing selected 80 smallest missing 0
+corner 10 new roots 8 new columns 26 aux 81
+round 4 columns 32385 complete rows 334 partial rows 94461 status unsat guards 66438 seconds 0.739 max RSS MB 558.1
+temporary core guards 158 physical rows 203
+core completion zero missing 0 growing selected 80 smallest missing 5
+corner 11 new roots 10 new columns 26 aux 93
+round 5 columns 32958 complete rows 414 partial rows 95971 status unsat guards 67473 seconds 0.766 max RSS MB 559.8
+temporary core guards 185 physical rows 246
+core completion zero missing 3 growing selected 80 smallest missing 0
+corner 12 new roots 10 new columns 26 aux 105
+round 6 columns 33530 complete rows 497 partial rows 97451 status unsat guards 68415 seconds 0.713 max RSS MB 845.8
+temporary core guards 179 physical rows 184
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 13 new roots 10 new columns 26 aux 133
+round 7 columns 34186 complete rows 578 partial rows 99089 status unsat guards 69687 seconds 0.787 max RSS MB 845.8
+temporary core guards 156 physical rows 163
+core completion zero missing 2 growing selected 80 smallest missing 0
+corner 14 new roots 10 new columns 15 aux 146
+round 8 columns 34749 complete rows 660 partial rows 100561 status unsat guards 70728 seconds 0.813 max RSS MB 845.8
+temporary core guards 150 physical rows 156
+core completion zero missing 0 growing selected 80 smallest missing 6
+corner 15 new roots 10 new columns 26 aux 174
+round 9 columns 35330 complete rows 740 partial rows 101792 status unsat guards 71785 seconds 0.776 max RSS MB 845.8
+temporary core guards 372 physical rows 421
+core completion zero missing 30 growing selected 80 smallest missing 0
+corner 16 new roots 10 new columns 12 aux 187
+round 10 columns 35814 complete rows 850 partial rows 102884 status unsat guards 72436 seconds 0.765 max RSS MB 845.8
+temporary core guards 736 physical rows 864
+core completion zero missing 33 growing selected 80 smallest missing 0
+corner 17 new roots 10 new columns 16 aux 200
+round 11 columns 36278 complete rows 963 partial rows 104146 status unsat guards 73159 seconds 1.059 max RSS MB 845.8
+temporary core guards 878 physical rows 1033
+core completion zero missing 51 growing selected 80 smallest missing 0
+corner 18 new roots 8 new columns 6 aux 217
+round 12 columns 36748 complete rows 1094 partial rows 105352 status unsat guards 73896 seconds 0.965 max RSS MB 845.8
+temporary core guards 577 physical rows 621
+core completion zero missing 27 growing selected 80 smallest missing 0
+corner 19 new roots 10 new columns 6 aux 237
+round 13 columns 37222 complete rows 1201 partial rows 106585 status unsat guards 74628 seconds 0.928 max RSS MB 845.8
+temporary core guards 573 physical rows 634
+core completion zero missing 30 growing selected 80 smallest missing 0
+corner 20 new roots 10 new columns 22 aux 249
+round 14 columns 37615 complete rows 1311 partial rows 107519 status unsat guards 75184 seconds 0.919 max RSS MB 845.8
+temporary core guards 200 physical rows 266
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 21 new roots 10 new columns 26 aux 261
+round 15 columns 38173 complete rows 1395 partial rows 108950 status unsat guards 76084 seconds 0.846 max RSS MB 845.8
+temporary core guards 188 physical rows 202
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 22 new roots 10 new columns 26 aux 289
+round 16 columns 38681 complete rows 1476 partial rows 110193 status unsat guards 76835 seconds 0.838 max RSS MB 845.8
+temporary core guards 1489 physical rows 1797
+core completion zero missing 62 growing selected 80 smallest missing 0
+corner 23 new roots 10 new columns 2 aux 307
+round 17 columns 39107 complete rows 1618 partial rows 111199 status unsat guards 77487 seconds 1.032 max RSS MB 845.8
+temporary core guards 1621 physical rows 1916
+core completion zero missing 17 growing selected 80 smallest missing 0
+corner 24 new roots 10 new columns 12 aux 320
+round 18 columns 39553 complete rows 1715 partial rows 112317 status unsat guards 78210 seconds 1.126 max RSS MB 845.8
+temporary core guards 1673 physical rows 1956
+core completion zero missing 16 growing selected 80 smallest missing 0
+corner 25 new roots 10 new columns 12 aux 333
+round 19 columns 40006 complete rows 1811 partial rows 113445 status unsat guards 79003 seconds 1.254 max RSS MB 845.8
+temporary core guards 1559 physical rows 1778
+core completion zero missing 6 growing selected 80 smallest missing 0
+corner 26 new roots 10 new columns 12 aux 346
+round 20 columns 40476 complete rows 1897 partial rows 114659 status unsat guards 79773 seconds 1.486 max RSS MB 845.8
+temporary core guards 1841 physical rows 2182
+core completion zero missing 11 growing selected 80 smallest missing 0
+corner 27 new roots 10 new columns 22 aux 374
+round 21 columns 40954 complete rows 1988 partial rows 115847 status unsat guards 80572 seconds 1.18 max RSS MB 845.8
+temporary core guards 195 physical rows 261
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 28 new roots 10 new columns 12 aux 387
+round 22 columns 41502 complete rows 2069 partial rows 117259 status unsat guards 81464 seconds 1.158 max RSS MB 845.8
+temporary core guards 206 physical rows 273
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 29 new roots 10 new columns 12 aux 400
+round 23 columns 42041 complete rows 2150 partial rows 118648 status unsat guards 82341 seconds 1.305 max RSS MB 845.8
+temporary core guards 764 physical rows 1037
+core completion zero missing 0 growing selected 80 smallest missing 2
+corner 30 new roots 10 new columns 10 aux 413
+round 24 columns 42517 complete rows 2230 partial rows 119906 status unsat guards 83165 seconds 1.152 max RSS MB 845.8
+temporary core guards 1888 physical rows 2224
+core completion zero missing 10 growing selected 80 smallest missing 0
+corner 31 new roots 10 new columns 12 aux 426
+round 25 columns 42971 complete rows 2320 partial rows 121028 status unsat guards 83959 seconds 1.054 max RSS MB 845.8
+temporary core guards 1582 physical rows 1931
+core completion zero missing 21 growing selected 80 smallest missing 0
+corner 32 new roots 10 new columns 18 aux 454
+round 26 columns 43435 complete rows 2421 partial rows 122165 status unsat guards 84715 seconds 1.006 max RSS MB 845.8
+temporary core guards 1252 physical rows 1570
+core completion zero missing 11 growing selected 80 smallest missing 0
+corner 33 new roots 10 new columns 6 aux 480
+round 27 columns 43895 complete rows 2512 partial rows 123259 status unsat guards 85439 seconds 1.08 max RSS MB 845.8
+temporary core guards 1421 physical rows 1789
+core completion zero missing 7 growing selected 80 smallest missing 0
+corner 34 new roots 10 new columns 22 aux 508
+round 28 columns 44371 complete rows 2599 partial rows 124399 status unsat guards 86240 seconds 1.067 max RSS MB 845.8
+temporary core guards 893 physical rows 1081
+core completion zero missing 8 growing selected 80 smallest missing 0
+corner 35 new roots 10 new columns 22 aux 536
+round 29 columns 44853 complete rows 2687 partial rows 125602 status unsat guards 86995 seconds 1.304 max RSS MB 845.8
+temporary core guards 1159 physical rows 1399
+core completion zero missing 6 growing selected 80 smallest missing 0
+corner 36 new roots 10 new columns 0 aux 547
+round 30 columns 45284 complete rows 2773 partial rows 126758 status unsat guards 87719 seconds 1.192 max RSS MB 845.8
+temporary core guards 1435 physical rows 1805
+core completion zero missing 25 growing selected 80 smallest missing 0
+corner 37 new roots 10 new columns 4 aux 560
+round 31 columns 45732 complete rows 2878 partial rows 127838 status unsat guards 88397 seconds 1.376 max RSS MB 866.7
+temporary core guards 1190 physical rows 1610
+core completion zero missing 76 growing selected 80 smallest missing 0
+corner 38 new roots 10 new columns 14 aux 588
+round 32 columns 46140 complete rows 3034 partial rows 128778 status unsat guards 89024 seconds 1.213 max RSS MB 866.7
+temporary core guards 242 physical rows 325
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 39 new roots 10 new columns 10 aux 616
+round 33 columns 46671 complete rows 3115 partial rows 130136 status unsat guards 89887 seconds 1.45 max RSS MB 866.7
+temporary core guards 1011 physical rows 1345
+core completion zero missing 16 growing selected 80 smallest missing 0
+corner 40 new roots 8 new columns 12 aux 626
+round 34 columns 47097 complete rows 3211 partial rows 131284 status unsat guards 90615 seconds 1.415 max RSS MB 866.7
+temporary core guards 1118 physical rows 1476
+core completion zero missing 11 growing selected 80 smallest missing 0
+corner 41 new roots 10 new columns 18 aux 654
+round 35 columns 47579 complete rows 3302 partial rows 132676 status unsat guards 91484 seconds 1.162 max RSS MB 873.7
+temporary core guards 1072 physical rows 1428
+core completion zero missing 8 growing selected 80 smallest missing 0
+corner 42 new roots 10 new columns 16 aux 667
+round 36 columns 48055 complete rows 3390 partial rows 134042 status unsat guards 92290 seconds 1.301 max RSS MB 896.3
+temporary core guards 1105 physical rows 1465
+core completion zero missing 11 growing selected 80 smallest missing 0
+corner 43 new roots 10 new columns 22 aux 679
+round 37 columns 48535 complete rows 3481 partial rows 135329 status unsat guards 93085 seconds 1.264 max RSS MB 896.3
+temporary core guards 1337 physical rows 1781
+core completion zero missing 34 growing selected 80 smallest missing 0
+corner 44 new roots 10 new columns 22 aux 707
+round 38 columns 48999 complete rows 3595 partial rows 136484 status unsat guards 93824 seconds 1.547 max RSS MB 896.3
+temporary core guards 2573 physical rows 3064
+core completion zero missing 44 growing selected 80 smallest missing 0
+corner 45 new roots 10 new columns 2 aux 720
+round 39 columns 49421 complete rows 3719 partial rows 137396 status unsat guards 94435 seconds 1.379 max RSS MB 909.1
+temporary core guards 2735 physical rows 3159
+core completion zero missing 26 growing selected 80 smallest missing 0
+corner 46 new roots 10 new columns 12 aux 733
+round 40 columns 49854 complete rows 3825 partial rows 138404 status unsat guards 95093 seconds 1.326 max RSS MB 912.8
+temporary core guards 678 physical rows 878
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 47 new roots 10 new columns 26 aux 761
+round 41 columns 50354 complete rows 3906 partial rows 139640 status unsat guards 95932 seconds 1.288 max RSS MB 932.4
+temporary core guards 622 physical rows 803
+core completion zero missing 24 growing selected 80 smallest missing 0
+corner 48 new roots 10 new columns 18 aux 789
+round 42 columns 50842 complete rows 4010 partial rows 140789 status unsat guards 96688 seconds 1.506 max RSS MB 932.4
+temporary core guards 2963 physical rows 3548
+core completion zero missing 31 growing selected 80 smallest missing 0
+corner 49 new roots 10 new columns 16 aux 817
+round 43 columns 51270 complete rows 4121 partial rows 141772 status unsat guards 97355 seconds 1.513 max RSS MB 932.4
+temporary core guards 2775 physical rows 3305
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 50 new roots 10 new columns 22 aux 829
+round 44 columns 51730 complete rows 4205 partial rows 142921 status unsat guards 98076 seconds 1.537 max RSS MB 932.4
+temporary core guards 2562 physical rows 3075
+core completion zero missing 3 growing selected 80 smallest missing 0
+corner 51 new roots 10 new columns 10 aux 842
+round 45 columns 52202 complete rows 4288 partial rows 144082 status unsat guards 98880 seconds 1.524 max RSS MB 934.5
+temporary core guards 898 physical rows 1122
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 52 new roots 10 new columns 2 aux 855
+round 46 columns 52672 complete rows 4372 partial rows 145235 status unsat guards 99670 seconds 1.685 max RSS MB 955.4
+temporary core guards 3593 physical rows 4193
+core completion zero missing 14 growing selected 80 smallest missing 0
+corner 53 new roots 10 new columns 12 aux 868
+round 47 columns 53088 complete rows 4466 partial rows 146253 status unsat guards 100325 seconds 1.723 max RSS MB 955.4
+temporary core guards 3588 physical rows 4205
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 54 new roots 10 new columns 16 aux 896
+round 48 columns 53546 complete rows 4547 partial rows 147426 status unsat guards 101096 seconds 2.077 max RSS MB 964.5
+temporary core guards 3437 physical rows 4025
+core completion zero missing 2 growing selected 80 smallest missing 0
+corner 55 new roots 10 new columns 4 aux 909
+round 49 columns 54000 complete rows 4629 partial rows 148569 status unsat guards 101855 seconds 1.692 max RSS MB 975.9
+temporary core guards 3286 physical rows 3869
+core completion zero missing 3 growing selected 80 smallest missing 0
+corner 56 new roots 10 new columns 10 aux 935
+round 50 columns 54456 complete rows 4712 partial rows 149680 status unsat guards 102612 seconds 1.581 max RSS MB 978.8
+temporary core guards 2960 physical rows 3521
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 57 new roots 10 new columns 22 aux 963
+round 51 columns 54926 complete rows 4793 partial rows 150803 status unsat guards 103365 seconds 1.613 max RSS MB 1009.9
+temporary core guards 243 physical rows 262
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 58 new roots 8 new columns 22 aux 991
+round 52 columns 55428 complete rows 4874 partial rows 152052 status unsat guards 104138 seconds 1.497 max RSS MB 1009.9
+temporary core guards 1002 physical rows 1114
+core completion zero missing 13 growing selected 80 smallest missing 0
+corner 59 new roots 10 new columns 10 aux 1012
+round 53 columns 55903 complete rows 4967 partial rows 153136 status unsat guards 104930 seconds 1.548 max RSS MB 1009.9
+temporary core guards 1230 physical rows 1628
+core completion zero missing 20 growing selected 80 smallest missing 0
+corner 60 new roots 10 new columns 22 aux 1024
+round 54 columns 56443 complete rows 5067 partial rows 154458 status unsat guards 105798 seconds 1.931 max RSS MB 1010.4
+temporary core guards 1688 physical rows 2197
+core completion zero missing 101 growing selected 80 smallest missing 0
+corner 61 new roots 8 new columns 26 aux 1036
+round 55 columns 56849 complete rows 5248 partial rows 155329 status unsat guards 106420 seconds 1.943 max RSS MB 1531.6
+temporary core guards 1902 physical rows 2493
+core completion zero missing 18 growing selected 80 smallest missing 0
+corner 62 new roots 8 new columns 8 aux 1046
+round 56 columns 57295 complete rows 5346 partial rows 156504 status unsat guards 107184 seconds 2.171 max RSS MB 1531.6
+temporary core guards 1378 physical rows 1801
+core completion zero missing 6 growing selected 80 smallest missing 0
+corner 63 new roots 8 new columns 12 aux 1056
+round 57 columns 57759 complete rows 5432 partial rows 157691 status unsat guards 107998 seconds 1.969 max RSS MB 1531.6
+temporary core guards 986 physical rows 1302
+core completion zero missing 9 growing selected 80 smallest missing 0
+corner 64 new roots 10 new columns 12 aux 1069
+round 58 columns 58223 complete rows 5521 partial rows 158885 status unsat guards 108821 seconds 1.975 max RSS MB 1531.6
+temporary core guards 1066 physical rows 1339
+core completion zero missing 7 growing selected 80 smallest missing 0
+corner 65 new roots 10 new columns 22 aux 1097
+round 59 columns 58715 complete rows 5608 partial rows 160125 status unsat guards 109607 seconds 1.838 max RSS MB 1531.6
+temporary core guards 2342 physical rows 2953
+core completion zero missing 41 growing selected 80 smallest missing 0
+corner 66 new roots 10 new columns 2 aux 1108
+round 60 columns 59165 complete rows 5729 partial rows 161234 status unsat guards 110366 seconds 1.719 max RSS MB 1531.6
+temporary core guards 2421 physical rows 2888
+core completion zero missing 7 growing selected 80 smallest missing 0
+corner 67 new roots 10 new columns 10 aux 1121
+round 61 columns 59631 complete rows 5816 partial rows 162404 status unsat guards 111129 seconds 2.049 max RSS MB 1531.6
+temporary core guards 3031 physical rows 3525
+core completion zero missing 43 growing selected 80 smallest missing 0
+corner 68 new roots 10 new columns 12 aux 1142
+round 62 columns 60061 complete rows 5939 partial rows 163425 status unsat guards 111810 seconds 1.89 max RSS MB 1531.6
+temporary core guards 3118 physical rows 3571
+core completion zero missing 13 growing selected 80 smallest missing 0
+corner 69 new roots 10 new columns 0 aux 1155
+round 63 columns 60489 complete rows 6032 partial rows 164347 status unsat guards 112490 seconds 2.336 max RSS MB 1531.6
+temporary core guards 2525 physical rows 3024
+core completion zero missing 2 growing selected 80 smallest missing 0
+corner 70 new roots 10 new columns 4 aux 1168
+round 64 columns 60951 complete rows 6114 partial rows 165406 status unsat guards 113238 seconds 2.24 max RSS MB 1531.6
+temporary core guards 1507 physical rows 1892
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 71 new roots 10 new columns 12 aux 1181
+round 65 columns 61436 complete rows 6198 partial rows 166687 status unsat guards 114028 seconds 2.184 max RSS MB 1531.6
+temporary core guards 863 physical rows 1182
+core completion zero missing 15 growing selected 80 smallest missing 0
+corner 72 new roots 8 new columns 26 aux 1193
+round 66 columns 61928 complete rows 6293 partial rows 167891 status unsat guards 114815 seconds 2.16 max RSS MB 1531.6
+temporary core guards 2491 physical rows 3182
+core completion zero missing 39 growing selected 80 smallest missing 0
+corner 73 new roots 10 new columns 22 aux 1221
+round 67 columns 62394 complete rows 6412 partial rows 169179 status unsat guards 115584 seconds 1.999 max RSS MB 1531.6
+temporary core guards 2181 physical rows 2859
+core completion zero missing 9 growing selected 80 smallest missing 0
+corner 74 new roots 10 new columns 6 aux 1225
+round 68 columns 62870 complete rows 6501 partial rows 170449 status unsat guards 116443 seconds 1.836 max RSS MB 1531.6
+temporary core guards 2011 physical rows 2612
+core completion zero missing 9 growing selected 80 smallest missing 0
+corner 75 new roots 10 new columns 18 aux 1237
+round 69 columns 63362 complete rows 6590 partial rows 171651 status unsat guards 117308 seconds 1.874 max RSS MB 1531.6
+temporary core guards 2391 physical rows 3040
+core completion zero missing 12 growing selected 80 smallest missing 0
+corner 76 new roots 10 new columns 12 aux 1250
+round 70 columns 63818 complete rows 6682 partial rows 172773 status unsat guards 118061 seconds 1.74 max RSS MB 1531.6
+temporary core guards 2586 physical rows 3276
+core completion zero missing 12 growing selected 80 smallest missing 0
+corner 77 new roots 10 new columns 8 aux 1263
+round 71 columns 64274 complete rows 6774 partial rows 173985 status unsat guards 118843 seconds 1.913 max RSS MB 1531.6
+temporary core guards 2725 physical rows 3447
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 78 new roots 10 new columns 10 aux 1276
+round 72 columns 64748 complete rows 6855 partial rows 175178 status unsat guards 119663 seconds 1.85 max RSS MB 1531.6
+temporary core guards 2391 physical rows 3050
+core completion zero missing 13 growing selected 80 smallest missing 0
+corner 79 new roots 10 new columns 22 aux 1288
+round 73 columns 65234 complete rows 6948 partial rows 176419 status unsat guards 120469 seconds 1.929 max RSS MB 1531.6
+temporary core guards 2291 physical rows 2893
+core completion zero missing 21 growing selected 80 smallest missing 0
+corner 80 new roots 10 new columns 22 aux 1300
+round 74 columns 65720 complete rows 7049 partial rows 177684 status unsat guards 121282 seconds 1.915 max RSS MB 1531.6
+temporary core guards 1840 physical rows 2287
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 81 new roots 10 new columns 22 aux 1312
+round 75 columns 66204 complete rows 7133 partial rows 178887 status unsat guards 122114 seconds 2.051 max RSS MB 1531.6
+temporary core guards 1876 physical rows 2301
+core completion zero missing 3 growing selected 80 smallest missing 0
+corner 82 new roots 10 new columns 12 aux 1324
+round 76 columns 66684 complete rows 7216 partial rows 180153 status unsat guards 122948 seconds 1.917 max RSS MB 1531.6
+temporary core guards 2986 physical rows 3719
+core completion zero missing 12 growing selected 80 smallest missing 0
+corner 83 new roots 10 new columns 22 aux 1352
+round 77 columns 67154 complete rows 7308 partial rows 181303 status unsat guards 123722 seconds 1.934 max RSS MB 1531.6
+temporary core guards 2575 physical rows 3081
+core completion zero missing 5 growing selected 80 smallest missing 0
+corner 84 new roots 10 new columns 4 aux 1380
+round 78 columns 67592 complete rows 7393 partial rows 182391 status unsat guards 124438 seconds 2.033 max RSS MB 1531.6
+temporary core guards 2483 physical rows 2960
+core completion zero missing 7 growing selected 80 smallest missing 0
+corner 85 new roots 10 new columns 4 aux 1393
+round 79 columns 68082 complete rows 7480 partial rows 183492 status unsat guards 125210 seconds 1.982 max RSS MB 1531.6
+temporary core guards 2250 physical rows 2569
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 86 new roots 10 new columns 2 aux 1406
+round 80 columns 68485 complete rows 7564 partial rows 184431 status unsat guards 125837 seconds 1.875 max RSS MB 1531.6
+temporary core guards 1005 physical rows 1214
+core completion zero missing 5 growing selected 80 smallest missing 0
+corner 87 new roots 10 new columns 6 aux 1432
+round 81 columns 68939 complete rows 7649 partial rows 185447 status unsat guards 126561 seconds 2.073 max RSS MB 1531.6
+temporary core guards 1042 physical rows 1252
+core completion zero missing 5 growing selected 80 smallest missing 0
+corner 88 new roots 10 new columns 22 aux 1460
+round 82 columns 69429 complete rows 7734 partial rows 186606 status unsat guards 127363 seconds 2.2 max RSS MB 1531.6
+temporary core guards 3290 physical rows 4125
+core completion zero missing 10 growing selected 80 smallest missing 0
+corner 89 new roots 10 new columns 22 aux 1472
+round 83 columns 69903 complete rows 7824 partial rows 187802 status unsat guards 128160 seconds 1.876 max RSS MB 1531.6
+temporary core guards 1945 physical rows 2388
+core completion zero missing 6 growing selected 80 smallest missing 0
+corner 90 new roots 10 new columns 22 aux 1484
+round 84 columns 70390 complete rows 7910 partial rows 189029 status unsat guards 128964 seconds 2.206 max RSS MB 1531.6
+temporary core guards 1693 physical rows 2041
+core completion zero missing 12 growing selected 80 smallest missing 0
+corner 91 new roots 10 new columns 10 aux 1497
+round 85 columns 70798 complete rows 8002 partial rows 189960 status unsat guards 129568 seconds 2.239 max RSS MB 1531.6
+temporary core guards 2138 physical rows 2749
+core completion zero missing 18 growing selected 80 smallest missing 0
+corner 92 new roots 10 new columns 18 aux 1509
+round 86 columns 71282 complete rows 8100 partial rows 191106 status unsat guards 130372 seconds 2.112 max RSS MB 1531.6
+temporary core guards 2231 physical rows 2821
+core completion zero missing 5 growing selected 80 smallest missing 0
+corner 93 new roots 10 new columns 18 aux 1521
+round 87 columns 71740 complete rows 8185 partial rows 192209 status unsat guards 131108 seconds 2.192 max RSS MB 1531.6
+temporary core guards 813 physical rows 960
+core completion zero missing 34 growing selected 80 smallest missing 0
+corner 94 new roots 10 new columns 4 aux 1534
+round 88 columns 72194 complete rows 8299 partial rows 193232 status unsat guards 131786 seconds 2.137 max RSS MB 1531.6
+temporary core guards 1416 physical rows 1689
+core completion zero missing 13 growing selected 80 smallest missing 0
+corner 95 new roots 10 new columns 8 aux 1560
+round 89 columns 72628 complete rows 8392 partial rows 194232 status unsat guards 132518 seconds 2.592 max RSS MB 1531.6
+temporary core guards 775 physical rows 984
+core completion zero missing 8 growing selected 80 smallest missing 0
+corner 96 new roots 10 new columns 26 aux 1588
+round 90 columns 73156 complete rows 8480 partial rows 195560 status unsat guards 133393 seconds 2.845 max RSS MB 1531.6
+temporary core guards 401 physical rows 438
+core completion zero missing 0 growing selected 80 smallest missing 4
+corner 97 new roots 8 new columns 4 aux 1598
+round 91 columns 73635 complete rows 8560 partial rows 196726 status unsat guards 134102 seconds 2.572 max RSS MB 1531.6
+temporary core guards 2054 physical rows 2603
+core completion zero missing 16 growing selected 80 smallest missing 0
+corner 98 new roots 10 new columns 14 aux 1610
+round 92 columns 74105 complete rows 8656 partial rows 197875 status unsat guards 134871 seconds 2.41 max RSS MB 1531.6
+temporary core guards 1982 physical rows 2523
+core completion zero missing 18 growing selected 80 smallest missing 0
+corner 99 new roots 10 new columns 22 aux 1622
+round 93 columns 74598 complete rows 8754 partial rows 199064 status unsat guards 135657 seconds 2.308 max RSS MB 1531.6
+temporary core guards 5926 physical rows 8294
+core completion zero missing 12 growing selected 80 smallest missing 0
+corner 100 new roots 7 new columns 26 aux 1633
+round 94 columns 74934 complete rows 8846 partial rows 200053 status unsat guards 136205 seconds 2.506 max RSS MB 1531.6
+temporary core guards 2401 physical rows 2839
+core completion zero missing 27 growing selected 80 smallest missing 0
+corner 101 new roots 10 new columns 10 aux 1661
+round 95 columns 75358 complete rows 8953 partial rows 201061 status unsat guards 136869 seconds 2.258 max RSS MB 1531.6
+temporary core guards 2519 physical rows 2990
+core completion zero missing 11 growing selected 80 smallest missing 0
+corner 102 new roots 10 new columns 8 aux 1689
+round 96 columns 75816 complete rows 9044 partial rows 202162 status unsat guards 137588 seconds 2.173 max RSS MB 1559.5
+temporary core guards 2532 physical rows 2956
+core completion zero missing 7 growing selected 80 smallest missing 0
+corner 103 new roots 10 new columns 14 aux 1701
+round 97 columns 76279 complete rows 9131 partial rows 203328 status unsat guards 138324 seconds 2.207 max RSS MB 1559.5
+temporary core guards 2753 physical rows 3277
+core completion zero missing 18 growing selected 80 smallest missing 0
+corner 104 new roots 10 new columns 22 aux 1729
+round 98 columns 76745 complete rows 9229 partial rows 204405 status unsat guards 139073 seconds 2.379 max RSS MB 1559.5
+temporary core guards 2627 physical rows 3098
+core completion zero missing 6 growing selected 80 smallest missing 0
+corner 105 new roots 10 new columns 2 aux 1742
+round 99 columns 77171 complete rows 9315 partial rows 205434 status unsat guards 139782 seconds 2.477 max RSS MB 1559.5
+temporary core guards 2318 physical rows 2890
+core completion zero missing 28 growing selected 80 smallest missing 0
+corner 106 new roots 10 new columns 22 aux 1769
+round 100 columns 77645 complete rows 9423 partial rows 206632 status unsat guards 140576 seconds 2.423 max RSS MB 1559.5
+temporary core guards 3331 physical rows 4120
+core completion zero missing 15 growing selected 80 smallest missing 0
+corner 107 new roots 10 new columns 18 aux 1781
+round 101 columns 78128 complete rows 9518 partial rows 207812 status unsat guards 141336 seconds 2.223 max RSS MB 1584.3
+temporary core guards 3313 physical rows 4091
+core completion zero missing 6 growing selected 80 smallest missing 0
+corner 108 new roots 10 new columns 12 aux 1794
+round 102 columns 78586 complete rows 9604 partial rows 208908 status unsat guards 142075 seconds 2.475 max RSS MB 1584.3
+temporary core guards 3154 physical rows 3854
+core completion zero missing 2 growing selected 80 smallest missing 0
+corner 109 new roots 10 new columns 26 aux 1806
+round 103 columns 79114 complete rows 9686 partial rows 210120 status unsat guards 142935 seconds 2.163 max RSS MB 1584.3
+temporary core guards 2927 physical rows 3504
+core completion zero missing 5 growing selected 80 smallest missing 0
+corner 110 new roots 10 new columns 16 aux 1818
+round 104 columns 79662 complete rows 9771 partial rows 211499 status unsat guards 143844 seconds 2.195 max RSS MB 1584.3
+temporary core guards 3050 physical rows 3662
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 111 new roots 10 new columns 18 aux 1830
+round 105 columns 80204 complete rows 9855 partial rows 213014 status unsat guards 144787 seconds 2.25 max RSS MB 1584.3
+temporary core guards 1320 physical rows 1605
+core completion zero missing 54 growing selected 80 smallest missing 0
+corner 112 new roots 10 new columns 12 aux 1843
+round 106 columns 80682 complete rows 9989 partial rows 214118 status unsat guards 145493 seconds 2.25 max RSS MB 1620.0
+temporary core guards 3026 physical rows 3570
+core completion zero missing 18 growing selected 80 smallest missing 0
+corner 113 new roots 10 new columns 4 aux 1856
+round 107 columns 81124 complete rows 10087 partial rows 215168 status unsat guards 146204 seconds 2.674 max RSS MB 1620.0
+temporary core guards 3071 physical rows 3634
+core completion zero missing 11 growing selected 80 smallest missing 0
+corner 114 new roots 10 new columns 4 aux 1869
+round 108 columns 81566 complete rows 10178 partial rows 216273 status unsat guards 146932 seconds 2.391 max RSS MB 1620.0
+temporary core guards 2775 physical rows 3364
+core completion zero missing 22 growing selected 80 smallest missing 0
+corner 115 new roots 10 new columns 4 aux 1890
+round 109 columns 82030 complete rows 10280 partial rows 217393 status unsat guards 147673 seconds 2.55 max RSS MB 1620.0
+temporary core guards 3656 physical rows 4422
+core completion zero missing 11 growing selected 80 smallest missing 0
+corner 116 new roots 10 new columns 12 aux 1902
+round 110 columns 82508 complete rows 10371 partial rows 218610 status unsat guards 148482 seconds 2.446 max RSS MB 1620.0
+temporary core guards 3609 physical rows 4349
+core completion zero missing 3 growing selected 80 smallest missing 0
+corner 117 new roots 10 new columns 12 aux 1915
+round 111 columns 83046 complete rows 10454 partial rows 220104 status unsat guards 149427 seconds 2.526 max RSS MB 1630.6
+temporary core guards 2226 physical rows 2598
+core completion zero missing 0 growing selected 80 smallest missing 2
+corner 118 new roots 10 new columns 26 aux 1927
+round 112 columns 83688 complete rows 10534 partial rows 222193 status unsat guards 150603 seconds 2.524 max RSS MB 1630.6
+temporary core guards 2098 physical rows 2377
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 119 new roots 10 new columns 26 aux 1937
+round 113 columns 84339 complete rows 10615 partial rows 224197 status unsat guards 151819 seconds 2.566 max RSS MB 1630.6
+temporary core guards 2267 physical rows 2672
+core completion zero missing 0 growing selected 80 smallest missing 4
+corner 120 new roots 10 new columns 26 aux 1949
+round 114 columns 84976 complete rows 10695 partial rows 226162 status unsat guards 153014 seconds 2.558 max RSS MB 1630.6
+temporary core guards 2351 physical rows 2843
+core completion zero missing 2 growing selected 80 smallest missing 0
+corner 121 new roots 10 new columns 26 aux 1961
+round 115 columns 85603 complete rows 10777 partial rows 227984 status unsat guards 154179 seconds 2.552 max RSS MB 1630.6
+temporary core guards 2404 physical rows 3044
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 122 new roots 10 new columns 26 aux 1973
+round 116 columns 86271 complete rows 10861 partial rows 230087 status unsat guards 155380 seconds 2.56 max RSS MB 1656.3
+temporary core guards 2863 physical rows 3632
+core completion zero missing 6 growing selected 80 smallest missing 0
+corner 123 new roots 10 new columns 6 aux 1994
+round 117 columns 86861 complete rows 10947 partial rows 231916 status unsat guards 156451 seconds 2.722 max RSS MB 1656.3
+temporary core guards 2732 physical rows 3426
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 124 new roots 10 new columns 22 aux 2006
+round 118 columns 87500 complete rows 11028 partial rows 233864 status unsat guards 157613 seconds 2.671 max RSS MB 1656.3
+temporary core guards 2893 physical rows 3657
+core completion zero missing 2 growing selected 80 smallest missing 0
+corner 125 new roots 10 new columns 22 aux 2033
+round 119 columns 88113 complete rows 11110 partial rows 235745 status unsat guards 158722 seconds 2.912 max RSS MB 1656.3
+temporary core guards 2616 physical rows 3261
+core completion zero missing 2 growing selected 80 smallest missing 0
+corner 126 new roots 7 new columns 22 aux 2044
+round 120 columns 88787 complete rows 11192 partial rows 237851 status unsat guards 159948 seconds 2.814 max RSS MB 1656.3
+temporary core guards 2666 physical rows 3367
+core completion zero missing 0 growing selected 80 smallest missing 2
+corner 127 new roots 10 new columns 22 aux 2071
+round 121 columns 89454 complete rows 11272 partial rows 240004 status unsat guards 161159 seconds 3.146 max RSS MB 1695.3
+temporary core guards 1969 physical rows 2307
+core completion zero missing 17 growing selected 80 smallest missing 0
+corner 128 new roots 10 new columns 10 aux 2084
+round 122 columns 89916 complete rows 11369 partial rows 241145 status unsat guards 161938 seconds 2.666 max RSS MB 1695.3
+temporary core guards 1954 physical rows 2250
+core completion zero missing 0 growing selected 80 smallest missing 2
+corner 129 new roots 10 new columns 12 aux 2097
+round 123 columns 90368 complete rows 11449 partial rows 242256 status unsat guards 162670 seconds 3.061 max RSS MB 1695.3
+temporary core guards 2616 physical rows 3143
+core completion zero missing 7 growing selected 80 smallest missing 0
+corner 130 new roots 10 new columns 4 aux 2110
+round 124 columns 90801 complete rows 11536 partial rows 243241 status unsat guards 163380 seconds 2.833 max RSS MB 1695.3
+temporary core guards 4160 physical rows 5268
+core completion zero missing 12 growing selected 80 smallest missing 0
+corner 131 new roots 10 new columns 10 aux 2119
+round 125 columns 91261 complete rows 11628 partial rows 244475 status unsat guards 164193 seconds 2.781 max RSS MB 1695.3
+temporary core guards 3963 physical rows 4935
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 132 new roots 10 new columns 22 aux 2147
+round 126 columns 91856 complete rows 11712 partial rows 246239 status unsat guards 165265 seconds 2.806 max RSS MB 1721.8
+temporary core guards 2706 physical rows 3232
+core completion zero missing 5 growing selected 80 smallest missing 0
+corner 133 new roots 10 new columns 10 aux 2160
+round 127 columns 92304 complete rows 11797 partial rows 247318 status unsat guards 166011 seconds 2.721 max RSS MB 1721.8
+temporary core guards 923 physical rows 1034
+core completion zero missing 0 growing selected 80 smallest missing 4
+corner 134 new roots 8 new columns 6 aux 2170
+round 128 columns 92784 complete rows 11877 partial rows 248552 status unsat guards 166773 seconds 2.838 max RSS MB 1721.8
+temporary core guards 1302 physical rows 1518
+core completion zero missing 32 growing selected 80 smallest missing 0
+corner 135 new roots 10 new columns 22 aux 2182
+round 129 columns 93248 complete rows 11989 partial rows 249609 status unsat guards 167454 seconds 2.86 max RSS MB 1721.8
+temporary core guards 3869 physical rows 4724
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 136 new roots 10 new columns 26 aux 2194
+round 130 columns 93819 complete rows 12073 partial rows 251266 status unsat guards 168457 seconds 2.873 max RSS MB 1721.8
+temporary core guards 3884 physical rows 4779
+core completion zero missing 6 growing selected 80 smallest missing 0
+corner 137 new roots 10 new columns 22 aux 2222
+round 131 columns 94425 complete rows 12159 partial rows 253024 status unsat guards 169535 seconds 3.106 max RSS MB 1763.6
+temporary core guards 4010 physical rows 4900
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 138 new roots 10 new columns 22 aux 2234
+round 132 columns 94990 complete rows 12243 partial rows 254630 status unsat guards 170552 seconds 3.103 max RSS MB 1763.6
+temporary core guards 4110 physical rows 5081
+core completion zero missing 4 growing selected 80 smallest missing 0
+corner 139 new roots 10 new columns 26 aux 2245
+round 133 columns 95606 complete rows 12327 partial rows 256364 status unsat guards 171682 seconds 3.072 max RSS MB 1763.6
+temporary core guards 2474 physical rows 3204
+core completion zero missing 12 growing selected 80 smallest missing 0
+corner 140 new roots 10 new columns 12 aux 2254
+round 134 columns 96004 complete rows 12419 partial rows 257274 status unsat guards 172307 seconds 3.296 max RSS MB 1763.6
+temporary core guards 2495 physical rows 3042
+core completion zero missing 10 growing selected 80 smallest missing 0
+corner 141 new roots 10 new columns 12 aux 2263
+round 135 columns 96571 complete rows 12509 partial rows 258923 status unsat guards 173307 seconds 3.513 max RSS MB 1763.6
+temporary core guards 725 physical rows 891
+core completion zero missing 2 growing selected 80 smallest missing 0
+corner 142 new roots 10 new columns 10 aux 2275
+round 136 columns 97209 complete rows 12591 partial rows 260843 status unsat guards 174426 seconds 3.38 max RSS MB 1797.6
+temporary core guards 781 physical rows 989
+core completion zero missing 1 growing selected 80 smallest missing 0
+corner 143 new roots 10 new columns 16 aux 2288
+round 137 columns 97822 complete rows 12672 partial rows 262647 status unsat guards 175527 seconds 3.196 max RSS MB 1797.6
+temporary core guards 1082 physical rows 1419
+INCONCLUSIVE: saved checkpoint; corner-user-stop-file: peak RSS 1797.6 MB
