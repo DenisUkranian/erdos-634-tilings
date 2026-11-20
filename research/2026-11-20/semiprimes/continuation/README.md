@@ -6,6 +6,8 @@ Research record, 20 November 2026. Denis Paliy project, with ChatGPT assistance.
 
 Each prime greater than three has at most one possible mixed-residue partner. An exact reconstruction and two independent enumerations find 312 pairs outside the unit staircase with at least one prime at most one million. The original tiling question has a complete answer for every prime partner of 1031. The mixed decisions at 3431 and 5063 remain open. [Partner theorem, classifier and census](partners/README.md) · [Full 1031 row](partners/PALIY_PATHS.md).
 
+For every prime $P$ congruent to 19 modulo 2184, the only prime $Q$ for which $PQ$ tiles is $Q=P$. [Proof from the older geometric overlist](partners/ISOLATED_ROWS.md). On every primitive F2 board the straight seam issuing from the 60-degree corner cannot meet either other corner seam at unit scale. Walks with arbitrarily many turns are subject to a related restriction on their edge directions. [Corner seams](first-cuts/CORNER_RAYS.md) · [Paths between corners](first-cuts/CORNER_PATHS.md).
+
 ## The common boundary in an explicitly tiled trapezoid
 
 For every unit F2 board, attaching one tiled parallelogram along its full side gives a convex trapezoid with an ordinary tiling by the same tile. At 3431 the padding and trapezoid contain 5840 and 9271 tiles. At 5063 their counts are 7968 and 13031. Realizing the indicated edge across the padded tiling is equivalent to the original unit question. [Construction, diagram and exact checker](signed/PADDING.md). The associated [signed scale spectrum](signed/GCD_SPECTRUM.md) is closed under greatest common divisors.
