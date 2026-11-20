@@ -1,0 +1,5 @@
+seed 3431 positive mass 3506 negative mass 75 rows 6246 columns 3656
+RESUMED 201 rows 54820 cols 91119
+/workspace/scratch/ff240fc7c59a/semiprime_classification/global_endpoint_pointcuts.py:232: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  res=linprog(phase_cost,A_eq=phase_matrix,b_eq=heads,A_ub=phase_inequalities,b_ub=inequality_rhs,bounds=real_bounds+[(0,None)]*(2*nr),method='highs-ds',options={'threads':1,'time_limit':int(os.getenv('LP_LIMIT','60'))})
+LP STOP Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)

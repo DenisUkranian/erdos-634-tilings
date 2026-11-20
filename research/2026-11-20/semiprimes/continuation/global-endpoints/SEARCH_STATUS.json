@@ -1,0 +1,83 @@
+{
+  "format": "semiprime-global-endpoints-status-v1",
+  "date": "2026-11-20",
+  "mathematical_status": {
+    "3431": "OPEN",
+    "5063": "OPEN",
+    "all_semiprimes": "NOT_CLASSIFIED"
+  },
+  "global_obstruction_certificate": false,
+  "new_target_tiling": false,
+  "positive_control_143": "PASS: independent exact metric, area, containment and endpoint currents",
+  "integer_5063": {
+    "format": "global-integer-endpoint-v1",
+    "sides": [
+      35,
+      13,
+      43
+    ],
+    "N": 5063,
+    "boundary_arithmetic": true,
+    "iteration": 67,
+    "status": "column-resource-limit",
+    "assertions": 34991,
+    "random_seed": 1776,
+    "columns": 150597,
+    "rows": 6126,
+    "partial_rows": 421829,
+    "coverage_points": 96,
+    "active_guard_count": 250451,
+    "max_rss_mb": 1994.4,
+    "exit_code": 0,
+    "core_policy": "defect",
+    "expand": 60,
+    "rebuild_every": 10,
+    "requested_column_limit": 150000
+  },
+  "integer_3431": {
+    "largest_saved_complete_rows": 5006,
+    "focused_saved_complete_rows": 1506,
+    "focused_point_cuts": 45,
+    "stop": "Processes interrupted by SIGKILL (exit 137); all observed cores still temporary."
+  },
+  "lp_5063": {
+    "target": 5063,
+    "checkpoint_iteration": 253,
+    "endpoint_rows": 60066,
+    "real_columns": 94313,
+    "point_cuts": 144,
+    "last_optimal_iteration": 253,
+    "last_phase_I": 0.04435204435204454,
+    "last_negative_mass": 0.0,
+    "last_artificial_mass": 0.04435204435204454,
+    "last_priced_candidates": 567243,
+    "last_omitted_improving_columns": 299017,
+    "last_primal_check_iteration": 252,
+    "last_primal_retained_seed_mass": 3038.8333333332976,
+    "last_primal_mass": 5062.999999999998,
+    "last_primal_uninstalled_endpoint_violations": 7879,
+    "rows_added_after_last_primal_check": 1000,
+    "stop_iteration": 254,
+    "stop_reason": "Primary LP reached its 120-second time limit; no mathematical verdict.",
+    "certificate": false,
+    "positive_tiling": false,
+    "checkpoint_sha256": "a1f85e338d012b929086b34f7489e5b92c78b6d8d18659b2562c152a2a101804"
+  },
+  "lp_3431": {
+    "checkpoint_iteration": 200,
+    "endpoint_rows": 54820,
+    "real_columns": 91119,
+    "point_cuts": 0,
+    "stop": "Primary LP time limit, 120 seconds; no verdict",
+    "checkpoint_raw_sha256": "ad740b2d57f84f405899808b3fcacf9eddf9973be451c9a5d1919fa76a5865e3"
+  },
+  "two_height_3431": {
+    "initial_placements": 311334312,
+    "fixed_point_placements": 128146772,
+    "result": "OPEN; necessary relaxation only"
+  },
+  "two_height_5063": {
+    "result": "INTERRUPTED; no fixed point or decision"
+  },
+  "interpretation": "Search state is not a tiling or nonexistence certificate. A raw UNSAT response with temporary guards is inconclusive."
+}

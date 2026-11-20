@@ -1,0 +1,3 @@
+101 v=1 orientation inventories passed; no placements or tilings asserted.
+(33, 7, 37) (3431, {0: 2062, 1: 1369})
+(35, 13, 43) (5063, {0: 3214, 1: 1849})

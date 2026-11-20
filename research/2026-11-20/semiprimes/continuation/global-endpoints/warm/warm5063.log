@@ -1,0 +1,96 @@
+seed 5063 positive mass 5071 negative mass 8 rows 8537 columns 5087
+RESUMED 250 rows 57066 cols 91313
+warm primary False iterations 46591 seconds 71.45666980743408
+250 rows 57066 cols 91313 cuts 72 phaseI 0.0 negative_mass 0.0 artificial_mass 0.0 support 0 priced 0 bad 0 maxprice 0 budgetdual 0.0 seconds 72.372
+exact-area steering Optimal
+primal steering retained seed mass 4057.1000000000395 positive mass 5063.000000000011 seconds 88.074
+point separation {'centroids': 1200, 'pair_tests': 2000, 'violations': 243} new 24
+installed point cut 72 nonzeros 44 denominator digits 3
+installed point cut 73 nonzeros 93 denominator digits 6
+installed point cut 74 nonzeros 89 denominator digits 7
+installed point cut 75 nonzeros 85 denominator digits 6
+installed point cut 76 nonzeros 87 denominator digits 3
+installed point cut 77 nonzeros 31 denominator digits 4
+installed point cut 78 nonzeros 28 denominator digits 8
+installed point cut 79 nonzeros 39 denominator digits 6
+installed point cut 80 nonzeros 76 denominator digits 7
+installed point cut 81 nonzeros 75 denominator digits 4
+installed point cut 82 nonzeros 92 denominator digits 6
+installed point cut 83 nonzeros 94 denominator digits 5
+installed point cut 84 nonzeros 111 denominator digits 7
+installed point cut 85 nonzeros 112 denominator digits 9
+installed point cut 86 nonzeros 103 denominator digits 9
+installed point cut 87 nonzeros 102 denominator digits 8
+installed point cut 88 nonzeros 13 denominator digits 6
+installed point cut 89 nonzeros 11 denominator digits 5
+installed point cut 90 nonzeros 9 denominator digits 4
+installed point cut 91 nonzeros 11 denominator digits 5
+installed point cut 92 nonzeros 11 denominator digits 7
+installed point cut 93 nonzeros 15 denominator digits 6
+installed point cut 94 nonzeros 15 denominator digits 5
+installed point cut 95 nonzeros 20 denominator digits 1
+row generation violations 3879 active positives 6374
+warm primary True iterations 5757 seconds 20.562000513076782
+251 rows 58066 cols 91313 cuts 96 phaseI 0.0 negative_mass 0.0 artificial_mass 0.0 support 0 priced 0 bad 0 maxprice 0 budgetdual 0.0 seconds 20.961
+exact-area steering Optimal
+primal steering retained seed mass 3999.0 positive mass 5063.000000000002 seconds 36.819
+point separation {'centroids': 1200, 'pair_tests': 2000, 'violations': 1017} new 24
+installed point cut 96 nonzeros 229 denominator digits 9
+installed point cut 97 nonzeros 238 denominator digits 6
+installed point cut 98 nonzeros 221 denominator digits 6
+installed point cut 99 nonzeros 222 denominator digits 11
+installed point cut 100 nonzeros 222 denominator digits 9
+installed point cut 101 nonzeros 255 denominator digits 7
+installed point cut 102 nonzeros 226 denominator digits 8
+installed point cut 103 nonzeros 229 denominator digits 8
+installed point cut 104 nonzeros 87 denominator digits 5
+installed point cut 105 nonzeros 88 denominator digits 4
+installed point cut 106 nonzeros 89 denominator digits 7
+installed point cut 107 nonzeros 88 denominator digits 6
+installed point cut 108 nonzeros 94 denominator digits 6
+installed point cut 109 nonzeros 93 denominator digits 5
+installed point cut 110 nonzeros 87 denominator digits 7
+installed point cut 111 nonzeros 73 denominator digits 4
+installed point cut 112 nonzeros 86 denominator digits 6
+installed point cut 113 nonzeros 238 denominator digits 8
+installed point cut 114 nonzeros 227 denominator digits 9
+installed point cut 115 nonzeros 193 denominator digits 13
+installed point cut 116 nonzeros 193 denominator digits 15
+installed point cut 117 nonzeros 197 denominator digits 10
+installed point cut 118 nonzeros 225 denominator digits 9
+installed point cut 119 nonzeros 251 denominator digits 8
+row generation violations 3533 active positives 5065
+warm primary True iterations 193 seconds 3.2078769207000732
+252 rows 59066 cols 91313 cuts 120 phaseI 0.0 negative_mass 0.0 artificial_mass 0.0 support 0 priced 0 bad 0 maxprice 0 budgetdual 0.0 seconds 3.589
+exact-area steering Optimal
+primal steering retained seed mass 3038.8333333332976 positive mass 5062.999999999998 seconds 46.978
+point separation {'centroids': 1200, 'pair_tests': 2000, 'violations': 360} new 24
+installed point cut 120 nonzeros 11 denominator digits 3
+installed point cut 121 nonzeros 15 denominator digits 4
+installed point cut 122 nonzeros 11 denominator digits 4
+installed point cut 123 nonzeros 9 denominator digits 7
+installed point cut 124 nonzeros 11 denominator digits 6
+installed point cut 125 nonzeros 9 denominator digits 5
+installed point cut 126 nonzeros 19 denominator digits 1
+installed point cut 127 nonzeros 49 denominator digits 3
+installed point cut 128 nonzeros 7 denominator digits 3
+installed point cut 129 nonzeros 15 denominator digits 3
+installed point cut 130 nonzeros 16 denominator digits 3
+installed point cut 131 nonzeros 8 denominator digits 5
+installed point cut 132 nonzeros 14 denominator digits 6
+installed point cut 133 nonzeros 14 denominator digits 5
+installed point cut 134 nonzeros 14 denominator digits 6
+installed point cut 135 nonzeros 108 denominator digits 7
+installed point cut 136 nonzeros 104 denominator digits 8
+installed point cut 137 nonzeros 107 denominator digits 4
+installed point cut 138 nonzeros 105 denominator digits 4
+installed point cut 139 nonzeros 96 denominator digits 8
+installed point cut 140 nonzeros 88 denominator digits 3
+installed point cut 141 nonzeros 48 denominator digits 8
+installed point cut 142 nonzeros 63 denominator digits 3
+installed point cut 143 nonzeros 58 denominator digits 9
+row generation violations 7879 active positives 6130
+warm primary True iterations 16367 seconds 58.27507996559143
+253 rows 60066 cols 91313 cuts 144 phaseI 0.04435204435204454 negative_mass 0.0 artificial_mass 0.04435204435204454 support 35179 priced 567243 bad 299017 maxprice 4.0 budgetdual -0.0 seconds 114.321
+warm primary True iterations 44966 seconds 120.06661772727966
+LP STOP Time limit reached

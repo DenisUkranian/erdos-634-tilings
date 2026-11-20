@@ -1,0 +1,10 @@
+seed 3431 positive mass 3506 negative mass 75 rows 6246 columns 3656
+RESUMED 200 rows 54638 cols 91119
+/workspace/scratch/ff240fc7c59a/construct_5063/global_endpoint_stabilized.py:184: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  res=linprog(phase_cost,A_eq=phase_matrix,b_eq=heads,A_ub=phase_budget,b_ub=[N],bounds=real_bounds+[(0,None)]*(2*nr),method='highs-ds',options={'threads':1,'time_limit':int(os.getenv('LP_LIMIT','60'))})
+200 rows 54638 cols 91119 phaseI 0.0 negative_mass 0.0 artificial_mass 0.0 support 0 priced 0 bad 0 maxprice 0 budgetdual 0.0 seconds 15.595
+/workspace/scratch/ff240fc7c59a/construct_5063/global_endpoint_stabilized.py:204: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  steer=linprog(steer_cost,A_eq=mat,b_eq=heads,A_ub=budget.reshape(1,nc),b_ub=[N],bounds=[(0,0 if negative or not admissible(T) else 1) for T,negative in cols],method='highs-ds',options={'threads':1,'time_limit':int(os.getenv('LP_LIMIT','60'))})
+primal steering retained seed mass 2450.0 positive mass 2554.0 seconds 33.855
+row generation violations 182 active positives 2554
+LP STOP Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)

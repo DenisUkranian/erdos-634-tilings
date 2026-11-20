@@ -1,0 +1,6 @@
+boundary 0 length 39 columns 302
+boundary 1 length 49 columns 519
+boundary 2 length 55 columns 770
+whole board 143 seed 143 columns 770 complete rows 6 partial rows 2309 setup seconds 0.05
+round 0 columns 770 complete rows 6 partial rows 2309 status sat seconds 0.049
+POSITIVE ENDPOINT SOLUTION; independent metric audit required

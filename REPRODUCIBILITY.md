@@ -2,6 +2,21 @@
 
 **v0.3.0 + 10 October 2026 supplement**
 
+## 20 November 2026: semiprime endpoint controls
+
+Run the finite exact controls with Python 3 and assertions enabled:
+
+```sh
+python3 research/2026-11-20/semiprimes/continuation/global-endpoints/replay.py
+```
+
+This checks the independent global dual verifier, the known positive 143
+certificate, three corrupted positive inputs, and the census of all 210,035
+semiprimes through one million. It does not decide 3431 or 5063, rerun the large
+inconclusive searches, or validate the geometric manuscripts used by the
+arithmetic reduction. Solver-specific instructions, audits and exact scope are
+in the [package README](research/2026-11-20/semiprimes/continuation/global-endpoints/README.md).
+
 ## 9–10 October 2026 supplements and source-integrity check
 
 See the [full dated source index](research/updates-2026-10-10/README.md) for preserved packages, mathematical scope and traceability. To verify the exact original archive and its 220 directly published text mirrors without third-party Python libraries, run:

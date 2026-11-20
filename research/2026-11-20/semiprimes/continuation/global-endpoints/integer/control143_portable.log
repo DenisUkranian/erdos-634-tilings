@@ -1,0 +1,7 @@
+seed imbalance points 0 core policy random
+boundary 0 length 39 columns 302
+boundary 1 length 49 columns 519
+boundary 2 length 55 columns 770
+whole board 143 seed 143 columns 770 complete rows 6 partial rows 2309 coverage points 0 setup seconds 0.05
+round 0 columns 770 complete rows 6 partial rows 2309 status sat guards 1610 seconds 0.004 max RSS MB 40.8
+POSITIVE ENDPOINT SOLUTION; independent metric audit required

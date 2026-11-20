@@ -2,6 +2,10 @@
 
 The [project overview](README.md) links to later work. The dated entries below preserve the original claims, qualifications and source links.
 
+## 20 November 2026: global endpoint continuation
+
+[Finite global pricing, an unrestricted integer model, exact checkers and semiprime audit](research/2026-11-20/semiprimes/continuation/global-endpoints/README.md). The controls pass, but 3431 and 5063 remain open. A temporary-core conflict, a restricted-pool optimum and a nonempty two-height catalogue are not decisions of the original problem. The arithmetic census separates its geometric manuscript dependencies.
+
 ## Supplement, 9–10 October 2026
 
 **[Full supplementary index, original sources, proof status and checks](research/updates-2026-10-10/README.md).** The research synchronization preserves **242 source files from 10 dated archives** (220 also directly accessible as ordinary files). It covers a sufficient fixed-tile W/β construction for every multiplier M≥v, global square class 14 / N=56, more F3/14430 necessary obstructions, finite W92/β92 search data, square-class density and two independent audits. **F3/14430, 92, the reverse-apex prime induction and the full Erdős 634 problem are not settled.** See the dated index for qualifications and an exact SHA-256 source-integrity checker.

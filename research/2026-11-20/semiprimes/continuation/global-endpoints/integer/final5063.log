@@ -1,0 +1,147 @@
+seed imbalance points 6 core policy defect
+boundary 0 length 1079 columns 9881
+boundary 1 length 1849 columns 19308
+boundary 2 length 2135 columns 30440
+whole board 5063 seed 5071 columns 71439 complete rows 2106 partial rows 205275 coverage points 96 setup seconds 7.36
+round 0 columns 71439 complete rows 2106 partial rows 205275 status unsat guards 126897 seconds 0.741 max RSS MB 950.9
+temporary core guards 343 physical rows 531
+round 1 columns 72649 complete rows 2166 partial rows 208565 status unsat guards 128813 seconds 0.781 max RSS MB 988.2
+temporary core guards 561 physical rows 926
+round 2 columns 73866 complete rows 2226 partial rows 211877 status unsat guards 130730 seconds 0.821 max RSS MB 988.2
+temporary core guards 775 physical rows 1283
+round 3 columns 75153 complete rows 2286 partial rows 215552 status unsat guards 132746 seconds 0.804 max RSS MB 988.2
+temporary core guards 823 physical rows 1335
+round 4 columns 76331 complete rows 2346 partial rows 218775 status unsat guards 134568 seconds 0.801 max RSS MB 988.2
+temporary core guards 1062 physical rows 1780
+round 5 columns 77585 complete rows 2406 partial rows 222175 status unsat guards 136509 seconds 0.795 max RSS MB 988.2
+temporary core guards 1063 physical rows 1790
+round 6 columns 78811 complete rows 2466 partial rows 225588 status unsat guards 138432 seconds 0.831 max RSS MB 1030.8
+temporary core guards 1246 physical rows 2176
+round 7 columns 80019 complete rows 2526 partial rows 228923 status unsat guards 140281 seconds 0.906 max RSS MB 1030.8
+temporary core guards 1474 physical rows 2625
+round 8 columns 81271 complete rows 2586 partial rows 232386 status unsat guards 142253 seconds 0.986 max RSS MB 1030.8
+temporary core guards 1815 physical rows 3253
+round 9 columns 82432 complete rows 2646 partial rows 235654 status unsat guards 144119 seconds 0.894 max RSS MB 1518.7
+temporary core guards 1844 physical rows 3248
+rebuild 10 active guards 146037 permanent assertions 17681
+round 10 columns 83653 complete rows 2706 partial rows 239014 status unsat guards 146037 seconds 1.168 max RSS MB 1518.7
+temporary core guards 1988 physical rows 3073
+round 11 columns 84774 complete rows 2766 partial rows 242111 status unsat guards 147796 seconds 0.98 max RSS MB 1518.7
+temporary core guards 2159 physical rows 3750
+round 12 columns 86064 complete rows 2826 partial rows 245708 status unsat guards 149814 seconds 1.118 max RSS MB 1518.7
+temporary core guards 2469 physical rows 4266
+round 13 columns 87295 complete rows 2886 partial rows 249099 status unsat guards 151752 seconds 1.17 max RSS MB 1518.7
+temporary core guards 2665 physical rows 4679
+round 14 columns 88515 complete rows 2946 partial rows 252386 status unsat guards 153628 seconds 1.093 max RSS MB 1518.7
+temporary core guards 1639 physical rows 1878
+round 15 columns 89725 complete rows 3006 partial rows 255729 status unsat guards 155555 seconds 1.16 max RSS MB 1518.7
+temporary core guards 1789 physical rows 2132
+round 16 columns 90975 complete rows 3066 partial rows 259128 status unsat guards 157510 seconds 1.159 max RSS MB 1518.7
+temporary core guards 1847 physical rows 2845
+round 17 columns 92049 complete rows 3126 partial rows 262127 status unsat guards 159243 seconds 0.988 max RSS MB 1518.7
+temporary core guards 1947 physical rows 3010
+round 18 columns 93100 complete rows 3186 partial rows 264997 status unsat guards 160954 seconds 1.054 max RSS MB 1518.7
+temporary core guards 1985 physical rows 3055
+round 19 columns 94207 complete rows 3246 partial rows 267845 status unsat guards 162690 seconds 1.229 max RSS MB 1518.7
+temporary core guards 1923 physical rows 2975
+rebuild 20 active guards 164408 permanent assertions 20725
+round 20 columns 95276 complete rows 3306 partial rows 270652 status unsat guards 164408 seconds 1.083 max RSS MB 1632.4
+temporary core guards 2236 physical rows 3486
+round 21 columns 96468 complete rows 3366 partial rows 273861 status unsat guards 166272 seconds 1.24 max RSS MB 1632.4
+temporary core guards 2453 physical rows 3860
+round 22 columns 97539 complete rows 3426 partial rows 276788 status unsat guards 167963 seconds 1.188 max RSS MB 1632.4
+temporary core guards 2902 physical rows 4648
+round 23 columns 98669 complete rows 3486 partial rows 279827 status unsat guards 169690 seconds 1.147 max RSS MB 1632.4
+temporary core guards 2859 physical rows 4991
+round 24 columns 99921 complete rows 3546 partial rows 283309 status unsat guards 171694 seconds 1.184 max RSS MB 1632.4
+temporary core guards 3090 physical rows 5367
+round 25 columns 101183 complete rows 3606 partial rows 286742 status unsat guards 173649 seconds 1.194 max RSS MB 1632.4
+temporary core guards 3266 physical rows 5269
+round 26 columns 102258 complete rows 3666 partial rows 289753 status unsat guards 175366 seconds 1.35 max RSS MB 1632.4
+temporary core guards 3473 physical rows 5553
+round 27 columns 103403 complete rows 3726 partial rows 292854 status unsat guards 177083 seconds 1.203 max RSS MB 1632.4
+temporary core guards 3694 physical rows 5953
+round 28 columns 104498 complete rows 3786 partial rows 295851 status unsat guards 178840 seconds 1.176 max RSS MB 1632.4
+temporary core guards 3813 physical rows 6204
+round 29 columns 105666 complete rows 3846 partial rows 299004 status unsat guards 180614 seconds 1.521 max RSS MB 1632.4
+temporary core guards 3981 physical rows 6549
+rebuild 30 active guards 182282 permanent assertions 23740
+round 30 columns 106763 complete rows 3906 partial rows 301972 status unsat guards 182282 seconds 1.379 max RSS MB 1728.6
+temporary core guards 3822 physical rows 6768
+round 31 columns 107985 complete rows 3966 partial rows 305292 status unsat guards 184156 seconds 1.498 max RSS MB 1728.6
+temporary core guards 4196 physical rows 6898
+round 32 columns 109083 complete rows 4026 partial rows 308204 status unsat guards 185864 seconds 1.386 max RSS MB 1728.6
+temporary core guards 4412 physical rows 7289
+round 33 columns 110247 complete rows 4086 partial rows 311525 status unsat guards 187721 seconds 1.312 max RSS MB 1728.6
+temporary core guards 4540 physical rows 7571
+round 34 columns 111393 complete rows 4146 partial rows 314650 status unsat guards 189486 seconds 1.271 max RSS MB 1728.6
+temporary core guards 4611 physical rows 7697
+round 35 columns 112611 complete rows 4206 partial rows 318052 status unsat guards 191414 seconds 1.67 max RSS MB 1728.6
+temporary core guards 4714 physical rows 7834
+round 36 columns 113804 complete rows 4266 partial rows 321273 status unsat guards 193270 seconds 1.401 max RSS MB 1728.6
+temporary core guards 4925 physical rows 8192
+round 37 columns 114934 complete rows 4326 partial rows 324217 status unsat guards 195014 seconds 1.495 max RSS MB 1728.6
+temporary core guards 5124 physical rows 8485
+round 38 columns 116113 complete rows 4386 partial rows 327443 status unsat guards 196840 seconds 1.455 max RSS MB 1728.6
+temporary core guards 5440 physical rows 8972
+round 39 columns 117320 complete rows 4446 partial rows 330490 status unsat guards 198626 seconds 1.636 max RSS MB 1728.6
+temporary core guards 2000 physical rows 2499
+rebuild 40 active guards 200634 permanent assertions 26786
+round 40 columns 118594 complete rows 4506 partial rows 334044 status unsat guards 200634 seconds 1.521 max RSS MB 1811.9
+temporary core guards 2239 physical rows 2929
+round 41 columns 119841 complete rows 4566 partial rows 337450 status unsat guards 202536 seconds 1.339 max RSS MB 1811.9
+temporary core guards 2588 physical rows 3548
+round 42 columns 121100 complete rows 4626 partial rows 340937 status unsat guards 204515 seconds 1.738 max RSS MB 1811.9
+temporary core guards 2849 physical rows 3950
+round 43 columns 122366 complete rows 4686 partial rows 344497 status unsat guards 206449 seconds 1.726 max RSS MB 1811.9
+temporary core guards 2921 physical rows 4015
+round 44 columns 123609 complete rows 4746 partial rows 348011 status unsat guards 208371 seconds 1.755 max RSS MB 1811.9
+temporary core guards 2922 physical rows 3976
+round 45 columns 124866 complete rows 4806 partial rows 351535 status unsat guards 210356 seconds 1.8 max RSS MB 1811.9
+temporary core guards 3399 physical rows 4841
+round 46 columns 126151 complete rows 4866 partial rows 355164 status unsat guards 212360 seconds 1.695 max RSS MB 1811.9
+temporary core guards 1891 physical rows 3069
+round 47 columns 127392 complete rows 4926 partial rows 358564 status unsat guards 214257 seconds 1.703 max RSS MB 1811.9
+temporary core guards 5749 physical rows 9547
+round 48 columns 128535 complete rows 4986 partial rows 361621 status unsat guards 216009 seconds 1.772 max RSS MB 1811.9
+temporary core guards 5789 physical rows 9557
+round 49 columns 129684 complete rows 5046 partial rows 364571 status unsat guards 217745 seconds 1.868 max RSS MB 1811.9
+temporary core guards 5830 physical rows 9560
+rebuild 50 active guards 219585 permanent assertions 29863
+round 50 columns 130885 complete rows 5106 partial rows 367802 status unsat guards 219585 seconds 1.532 max RSS MB 1926.4
+temporary core guards 6028 physical rows 9932
+round 51 columns 132085 complete rows 5166 partial rows 371095 status unsat guards 221452 seconds 1.561 max RSS MB 1926.4
+temporary core guards 6339 physical rows 10478
+round 52 columns 133225 complete rows 5226 partial rows 374205 status unsat guards 223204 seconds 1.58 max RSS MB 1926.4
+temporary core guards 6700 physical rows 11103
+round 53 columns 134368 complete rows 5286 partial rows 377367 status unsat guards 225014 seconds 1.618 max RSS MB 1926.4
+temporary core guards 6818 physical rows 11343
+round 54 columns 135562 complete rows 5346 partial rows 380545 status unsat guards 226865 seconds 1.621 max RSS MB 1926.4
+temporary core guards 6963 physical rows 11528
+round 55 columns 136769 complete rows 5406 partial rows 383860 status unsat guards 228739 seconds 1.88 max RSS MB 1926.4
+temporary core guards 7328 physical rows 12173
+round 56 columns 137921 complete rows 5466 partial rows 386830 status unsat guards 230482 seconds 1.803 max RSS MB 1926.4
+temporary core guards 7417 physical rows 12426
+round 57 columns 139025 complete rows 5526 partial rows 389982 status unsat guards 232218 seconds 1.78 max RSS MB 1926.4
+temporary core guards 7678 physical rows 12911
+round 58 columns 140205 complete rows 5586 partial rows 393184 status unsat guards 234028 seconds 1.917 max RSS MB 1926.4
+temporary core guards 7884 physical rows 13293
+round 59 columns 141263 complete rows 5646 partial rows 396062 status unsat guards 235701 seconds 1.848 max RSS MB 1926.4
+temporary core guards 7878 physical rows 13304
+rebuild 60 active guards 237441 permanent assertions 32884
+round 60 columns 142396 complete rows 5706 partial rows 399087 status unsat guards 237441 seconds 1.624 max RSS MB 1994.4
+temporary core guards 3414 physical rows 4909
+round 61 columns 143683 complete rows 5766 partial rows 402701 status unsat guards 239445 seconds 1.732 max RSS MB 1994.4
+temporary core guards 4345 physical rows 7656
+round 62 columns 144655 complete rows 5826 partial rows 405396 status unsat guards 241033 seconds 1.638 max RSS MB 1994.4
+temporary core guards 4456 physical rows 7829
+round 63 columns 145877 complete rows 5886 partial rows 408752 status unsat guards 243025 seconds 1.842 max RSS MB 1994.4
+temporary core guards 4506 physical rows 7870
+round 64 columns 146884 complete rows 5946 partial rows 411648 status unsat guards 244638 seconds 1.766 max RSS MB 1994.4
+temporary core guards 4510 physical rows 7888
+round 65 columns 148104 complete rows 6006 partial rows 415025 status unsat guards 246535 seconds 1.863 max RSS MB 1994.4
+temporary core guards 4598 physical rows 8032
+round 66 columns 149331 complete rows 6066 partial rows 418447 status unsat guards 248504 seconds 1.979 max RSS MB 1994.4
+temporary core guards 3650 physical rows 5332
+round 67 columns 150597 complete rows 6126 partial rows 421829 status unsat guards 250451 seconds 2.053 max RSS MB 1994.4
+INCONCLUSIVE: requested column resource limit reached

@@ -1,0 +1,9 @@
+rebuild 1 active guards 1 permanent assertions 1
+{
+  "metric_catalogues": 305,
+  "same_wedge_positive_overlaps": 1620,
+  "positive_control_tiles": 143,
+  "positive_control_intersection_checks": 361,
+  "pseudo_boolean_truth_cases": 382,
+  "shared_guard_rebuild_control": true
+}

@@ -1,0 +1,41 @@
+Exact catalog, subdivision, negative control, and positive control checks passed.
+{
+  "positive_control": {
+    "verified_positive_tiling": true,
+    "N": 143,
+    "sides": [
+      5,
+      3,
+      7
+    ],
+    "board_sides": [
+      39,
+      49,
+      55
+    ],
+    "distinct_placements": 143,
+    "metric": "x^2+xy+y^2",
+    "doubled_axial_area": "2145",
+    "short_height_counts": {
+      "0": 38,
+      "1": 105
+    },
+    "largest_coordinate_denominator": 7,
+    "endpoint_residual_count": 0,
+    "verification": "Exact metric, containment, area, and oriented endpoint-current cancellation"
+  },
+  "rejected_corruptions": 3,
+  "independently_enumerated_semiprimes": 210035,
+  "residual_F2": [
+    3431,
+    5063,
+    19367,
+    60023,
+    64367,
+    271151,
+    641591
+  ],
+  "target3431": "OPEN",
+  "target5063": "OPEN",
+  "scope": "Finite exact checks; no target tiling or global obstruction supplied"
+}

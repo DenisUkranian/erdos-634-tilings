@@ -1,0 +1,23 @@
+{
+  "target": 5063,
+  "checkpoint_iteration": 253,
+  "endpoint_rows": 60066,
+  "real_columns": 94313,
+  "point_cuts": 144,
+  "last_optimal_iteration": 253,
+  "last_phase_I": 0.04435204435204454,
+  "last_negative_mass": 0.0,
+  "last_artificial_mass": 0.04435204435204454,
+  "last_priced_candidates": 567243,
+  "last_omitted_improving_columns": 299017,
+  "last_primal_check_iteration": 252,
+  "last_primal_retained_seed_mass": 3038.8333333332976,
+  "last_primal_mass": 5062.999999999998,
+  "last_primal_uninstalled_endpoint_violations": 7879,
+  "rows_added_after_last_primal_check": 1000,
+  "stop_iteration": 254,
+  "stop_reason": "Primary LP reached its 120-second time limit; no mathematical verdict.",
+  "certificate": false,
+  "positive_tiling": false,
+  "checkpoint_sha256": "a1f85e338d012b929086b34f7489e5b92c78b6d8d18659b2562c152a2a101804"
+}

@@ -1,5 +1,15 @@
 # Changelog
 
+## 20 November 2026: unrestricted endpoint methods for residual semiprimes
+
+- Add a finite global endpoint pricing theorem, an exact rational dual checker, and optional point-coverage penalties with a finite tile-budget bound.
+- Add a whole-board Boolean search that exhaustively completes endpoint rows, enumerates the entire external boundary, and treats temporary UNSAT cores as expansion requests only.
+- Preserve portable LP sources and exact signed seeds for 3431 and 5063. Explicitly distinguish artificial endpoint costs, restricted negative-tile optima and genuine global certificates.
+- Independently verify the known 143-tiling by physical metric, containment, area and full oriented endpoint-current cancellation; reject corrupted positive certificates.
+- Audit all 210,035 semiprimes through one million. Record seven residual mixed F2 boards and keep eighteen distant manuscript-dependent entries separate.
+- Preserve the inconclusive two-height catalogue sources and logs, including the OPEN 3431 fixed point. Neither 3431 nor 5063 is decided by this continuation.
+- [Complete package and limitations](research/2026-11-20/semiprimes/continuation/global-endpoints/README.md).
+
 ## 10 October 2026: publish and audit the 9–10 October research
 
 - Consolidate 10 original source archives into one byte-for-byte hash-verified ZIP containing 242 files, and publish 220 smaller text, JSON, Python and C++ sources directly in the Git tree.

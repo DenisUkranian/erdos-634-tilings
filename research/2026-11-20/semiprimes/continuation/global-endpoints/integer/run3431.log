@@ -1,0 +1,108 @@
+boundary 0 length 511 columns 5667
+boundary 1 length 1369 columns 12941
+boundary 2 length 1551 columns 21298
+whole board 3431 seed 3485 columns 21298 complete rows 6 partial rows 62649 setup seconds 1.58
+round 0 columns 21298 complete rows 6 partial rows 62649 status unsat seconds 1.99
+temporary core 115
+round 1 columns 22115 complete rows 106 partial rows 64891 status unsat seconds 0.635
+temporary core 798
+round 2 columns 23149 complete rows 206 partial rows 67987 status unsat seconds 0.33
+temporary core 148
+round 3 columns 24340 complete rows 306 partial rows 71532 status unsat seconds 0.315
+temporary core 4384
+round 4 columns 25368 complete rows 406 partial rows 74710 status unsat seconds 0.306
+temporary core 126
+round 5 columns 26466 complete rows 506 partial rows 77844 status unsat seconds 0.595
+temporary core 171
+round 6 columns 27663 complete rows 606 partial rows 81116 status unsat seconds 0.356
+temporary core 232
+round 7 columns 29011 complete rows 706 partial rows 84769 status unsat seconds 0.426
+temporary core 182
+round 8 columns 30164 complete rows 806 partial rows 87973 status unsat seconds 0.6
+temporary core 358
+round 9 columns 31629 complete rows 906 partial rows 92060 status unsat seconds 0.442
+temporary core 449
+round 10 columns 32800 complete rows 1006 partial rows 95294 status unsat seconds 0.453
+temporary core 600
+round 11 columns 34296 complete rows 1106 partial rows 99527 status unsat seconds 0.692
+temporary core 216
+round 12 columns 35572 complete rows 1206 partial rows 103153 status unsat seconds 0.49
+temporary core 584
+round 13 columns 37323 complete rows 1306 partial rows 108183 status unsat seconds 0.548
+temporary core 785
+round 14 columns 38606 complete rows 1406 partial rows 111885 status unsat seconds 0.59
+temporary core 950
+round 15 columns 39903 complete rows 1506 partial rows 115512 status unsat seconds 0.624
+temporary core 1183
+round 16 columns 41243 complete rows 1606 partial rows 119254 status unsat seconds 0.844
+temporary core 760
+round 17 columns 42632 complete rows 1706 partial rows 123214 status unsat seconds 0.688
+temporary core 705
+round 18 columns 44188 complete rows 1806 partial rows 127581 status unsat seconds 0.919
+temporary core 1097
+round 19 columns 46047 complete rows 1906 partial rows 132914 status unsat seconds 0.8
+temporary core 868
+round 20 columns 47602 complete rows 2006 partial rows 137161 status unsat seconds 0.98
+temporary core 1100
+round 21 columns 49237 complete rows 2106 partial rows 141789 status unsat seconds 0.847
+temporary core 1552
+round 22 columns 50846 complete rows 2206 partial rows 146364 status unsat seconds 0.722
+temporary core 1594
+round 23 columns 52517 complete rows 2306 partial rows 151026 status unsat seconds 0.91
+temporary core 1576
+round 24 columns 54252 complete rows 2406 partial rows 155964 status unsat seconds 0.844
+temporary core 1445
+round 25 columns 55722 complete rows 2506 partial rows 160126 status unsat seconds 0.963
+temporary core 2496
+round 26 columns 57449 complete rows 2606 partial rows 165023 status unsat seconds 0.928
+temporary core 2759
+round 27 columns 59197 complete rows 2706 partial rows 170046 status unsat seconds 1.001
+temporary core 2966
+round 28 columns 61013 complete rows 2806 partial rows 175071 status unsat seconds 0.885
+temporary core 3118
+round 29 columns 62750 complete rows 2906 partial rows 179956 status unsat seconds 1.054
+temporary core 3311
+round 30 columns 64461 complete rows 3006 partial rows 184843 status unsat seconds 1.052
+temporary core 991
+round 31 columns 65953 complete rows 3106 partial rows 189062 status unsat seconds 1.016
+temporary core 1415
+round 32 columns 67201 complete rows 3206 partial rows 192443 status unsat seconds 1.022
+temporary core 593
+round 33 columns 68426 complete rows 3306 partial rows 195895 status unsat seconds 1.035
+temporary core 766
+round 34 columns 70272 complete rows 3406 partial rows 201211 status unsat seconds 1.391
+temporary core 2892
+round 35 columns 72054 complete rows 3506 partial rows 206282 status unsat seconds 1.148
+temporary core 3512
+round 36 columns 73819 complete rows 3606 partial rows 211277 status unsat seconds 1.166
+temporary core 3573
+round 37 columns 75723 complete rows 3706 partial rows 216645 status unsat seconds 1.22
+temporary core 2106
+round 38 columns 77465 complete rows 3806 partial rows 221506 status unsat seconds 1.254
+temporary core 2132
+round 39 columns 78987 complete rows 3906 partial rows 225897 status unsat seconds 1.311
+temporary core 2191
+round 40 columns 80637 complete rows 4006 partial rows 230588 status unsat seconds 1.462
+temporary core 2487
+round 41 columns 82313 complete rows 4106 partial rows 235357 status unsat seconds 1.518
+temporary core 4304
+round 42 columns 84163 complete rows 4206 partial rows 240696 status unsat seconds 1.58
+temporary core 4449
+round 43 columns 86036 complete rows 4306 partial rows 245977 status unsat seconds 1.426
+temporary core 4406
+round 44 columns 87810 complete rows 4406 partial rows 250845 status unsat seconds 1.398
+temporary core 4791
+round 45 columns 89653 complete rows 4506 partial rows 256030 status unsat seconds 1.394
+temporary core 4897
+round 46 columns 91463 complete rows 4606 partial rows 261059 status unsat seconds 1.638
+temporary core 5325
+round 47 columns 93242 complete rows 4706 partial rows 265967 status unsat seconds 1.442
+temporary core 5392
+round 48 columns 94963 complete rows 4806 partial rows 270669 status unsat seconds 1.576
+temporary core 4783
+round 49 columns 96911 complete rows 4906 partial rows 276175 status unsat seconds 1.395
+temporary core 488
+round 50 columns 98187 complete rows 5006 partial rows 279626 status unsat seconds 1.375
+temporary core 1193
+round 51 columns 99547 complete rows 5106 partial rows 283364 status unsat seconds 1.513
+temporary core 159

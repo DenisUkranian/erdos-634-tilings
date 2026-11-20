@@ -1,0 +1,74 @@
+{
+  "format": "global-integer-search-summary-v1",
+  "date": "2026-11-20",
+  "mathematical_status": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "positive_solution_found_for_remaining_cases": false,
+  "global_unconditional_unsat_certificate_found": false,
+  "final_5063_run": {
+    "format": "global-integer-endpoint-v1",
+    "sides": [
+      35,
+      13,
+      43
+    ],
+    "N": 5063,
+    "boundary_arithmetic": true,
+    "iteration": 67,
+    "status": "column-resource-limit",
+    "assertions": 34991,
+    "random_seed": 1776,
+    "columns": 150597,
+    "rows": 6126,
+    "partial_rows": 421829,
+    "coverage_points": 96,
+    "active_guard_count": 250451,
+    "max_rss_mb": 1994.4,
+    "exit_code": 0,
+    "core_policy": "defect",
+    "expand": 60,
+    "rebuild_every": 10,
+    "requested_column_limit": 150000
+  },
+  "interpretation": "Temporary guarded-model UNSAT is not a global impossibility result; the final 5063 search ended at its computational column limit.",
+  "control_143": {
+    "tile_count": 143,
+    "portable_json_restart": true,
+    "independent_metric_area_containment_current_verification": "PASS"
+  },
+  "audit": {
+    "incident_catalogues": 305,
+    "overlap_wedge_pairs": 1620,
+    "pb_truth_cases": 382,
+    "shared_guard_and_pending_rebuild_control": "PASS"
+  },
+  "files": [
+    {
+      "path": "global_core_sat.py",
+      "bytes": 26683,
+      "sha256": "8bcf5fb30fc84e30400c7c3f28f4adf41b808d398b5382351657cb95adf53e46"
+    },
+    {
+      "path": "export_checkpoint.py",
+      "bytes": 1519,
+      "sha256": "a65fa0aeed57f923e687d2d67830eaa3c89c62b842e79280f5e2dcb9898f60f4"
+    },
+    {
+      "path": "complete_rows_5063.json.gz",
+      "bytes": 26143,
+      "sha256": "c8ce1684ab472c1724cf8153ed64968a073c764d72c44da96104044dd9e178da"
+    },
+    {
+      "path": "coverage_points_5063.json.gz",
+      "bytes": 1046,
+      "sha256": "2a6acb3e57e9774244163a84a30ccc077cf789433c1086b1eae3d0f11d0461e0"
+    },
+    {
+      "path": "control143_portable/solution.json",
+      "bytes": 2800,
+      "sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9"
+    }
+  ]
+}
