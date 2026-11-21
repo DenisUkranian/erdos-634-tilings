@@ -2,6 +2,36 @@
 
 **v0.3.0 + 21 November 2026 continuation**
 
+## 21 November 2026: native core costs, whole-gate integrality, and surviving projections
+
+The new package is included in `scripts/verify_all.py`:
+
+```sh
+python3 research/2026-11-21/semiprimes/full-closure-attempt/replay.py
+```
+
+Eight standard-library checks replay four exact native core certificates,
+two full-endpoint 3431 certificates, the exact 5063 empty-remote dual and
+both its rational and signed integer witnesses, rigid small-shape controls,
+an independent core-source audit, the 13-profile 3431 budget table,
+and the existing supported-cycle theorem's exact board geometry.
+The two 3431 duals each check all 16,428 columns. The 5063 witness checks
+all 5,547 endpoint rows, all gate/sign rows, and all 10,836 remote mate
+equalities. Positive controls reconstruct the genuine complete 143 tiling.
+
+The [package proof and scope](research/2026-11-21/semiprimes/full-closure-attempt/README.md)
+separate three-height/native-cell hypotheses from unrestricted results.
+The new written visibility proof uses primitive whole long edges and the
+supported-cycle theorem to show that occupied remote even cells have
+parent odd contacts. The resulting 34-cell bound requires this geometric
+step in addition to the endpoint certificate. Independent internal audits
+check the boundary reduction; finite numerical checks are not a formal
+verification of that universal argument. Optional
+SciPy discovery and selected-mask experiments are not proof dependencies.
+The rational witness is fractional; the signed integer witness has
+negative coefficients. **Neither target nor its full remaining minimal
+odd mode is excluded by this continuation.**
+
 ## 21 November 2026: mandatory neighbors, global pair reserves, and the signed integer image
 
 The new package is part of `scripts/verify_all.py` and runs independently as:

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "scope": "Exact countercontrols to unrestricted monochromatic cylinder and one-hand signed-lattice conjectures. None is a target tiling or bank-compatible configuration.",
+  "actual_controls": [
+    {
+      "population": 21,
+      "charge": 21,
+      "charge_units": 3,
+      "all_actual_cylinder_rows_zero": true,
+      "pair_checks": 210,
+      "n_less_than_c_squared": true,
+      "charge_in_semigroup_3_c": true
+    },
+    {
+      "population": 35,
+      "charge": 35,
+      "charge_units": 5,
+      "all_actual_cylinder_rows_zero": true,
+      "pair_checks": 595,
+      "n_less_than_c_squared": true,
+      "charge_in_semigroup_3_c": false
+    },
+    {
+      "population": 56,
+      "charge": 56,
+      "charge_units": 8,
+      "all_actual_cylinder_rows_zero": true,
+      "pair_checks": 1540,
+      "n_less_than_c_squared": false,
+      "charge_in_semigroup_3_c": false
+    }
+  ],
+  "formal_one_hand": {
+    "signed_population": 7,
+    "negative_coefficients": 41,
+    "all_periodic_rows_zero": true,
+    "population_not_divisible_by_c_squared": true
+  }
+}

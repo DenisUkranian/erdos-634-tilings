@@ -1,5 +1,16 @@
 # Changelog
 
+## 21 November 2026: native core costs and whole-gate restrictions
+
+- Retain the native height-two exterior endpoint source and certify rounded core populations 212, 397, and 582 for the three minimal 3431 charges, plus 677 for the specified native 5063 charge. Justify the native height-zero homogeneous bound and independently audit the source, whole-pair reduction, and sign residues.
+- Exclude the full minimal-odd 3431 native current profile `(-4,41)` with zero remote currents by an exact full-endpoint dual. For profile `(22,15)`, prove an excess cost greater than two, hence at most 34 nonempty remote parent gates with integer unsigned populations.
+- Prove that every occupied remote even cell is visible to a parent odd long edge under the one-native-odd-cell height-0/1/2 hypotheses. Primitive long vectors and the existing supported-cycle theorem exclude invisible cells; scalar or periodic cancellations do not substitute for physical absence.
+- Combine the new reserves and visibility theorem in the complete 13-profile minimal-odd arithmetic table. Cap actually occupied balanced remote cells at 32 for charge parameters `(-3,2,1,0)` and at 34 for the all-balanced-remote profile `(22,15)`.
+- Under actual emptiness of every remote even node in the native 5063 215 mode, force the sole native profile `(20,23)`. Supply exact positive rational and signed integer witnesses of the stronger single/pair projection, keeping their different limitations explicit.
+- Add a contained nonoverlapping balanced 14-tile branch with two whole parents for the small control shape, refuting the unrestricted `2b` parent-cost claim. Add monochromatic cylinder controls against other unsupported universal shortcuts.
+- Integrate eight standard-library proof replays and independent audits, including the supported-cycle exact geometry dependency. Keep both target counts, the full 3431 111 mode, the full 5063 215 mode, and larger odd populations OPEN.
+- [Complete continuation and remaining gap](research/2026-11-21/semiprimes/full-closure-attempt/README.md).
+
 ## 21 November 2026: mandatory whole neighbors, paired reserves, and the integer-image boundary
 
 - Prove unique finite reconstruction of the net even long-edge bank from the complete odd packing, retaining actual longitudinal positions. Derive two exact neighboring triangle choices and a necessary geometric 2-SAT completion test.

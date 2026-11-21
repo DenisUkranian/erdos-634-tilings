@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "Exact necessary native periodic single/pair model; not integer placements or a full tiling.",
+  "dual": {
+    "D": 13,
+    "native_weights": [
+      83,
+      -3
+    ],
+    "single_columns_checked": 516,
+    "remote_pairs_checked": 10836,
+    "maximum_single_score": 13,
+    "maximum_pair_score": 26,
+    "all_integer_empty_remote_profiles_at_215": [
+      [
+        -3,
+        20,
+        23
+      ]
+    ]
+  },
+  "rational_witness": {
+    "population": 215,
+    "positive": 129,
+    "negative": 86,
+    "native_currents": [
+      20,
+      23
+    ],
+    "all_5547_endpoint_rows_zero": true,
+    "all_84_remote_gate_currents_zero": true,
+    "all_10836_remote_mate_equalities": true,
+    "strictly_positive_rational_columns": 22188,
+    "integer_tile_multiplicities": false,
+    "physical_tiling": false
+  },
+  "signed_integer_witness": {
+    "all_rows_checked": true,
+    "formal_population": 215,
+    "formal_sign_totals": [
+      129,
+      86
+    ],
+    "negative_group_coefficients": 949,
+    "nonnegative_integer_solution": false
+  },
+  "positive_control_143": {
+    "source_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+    "N": 143,
+    "odd_population": 105,
+    "native_gate_profile": [
+      14,
+      -7
+    ],
+    "remote_actual_whole_pairs": 42,
+    "all_remote_tiles_have_actual_mates": true
+  }
+}

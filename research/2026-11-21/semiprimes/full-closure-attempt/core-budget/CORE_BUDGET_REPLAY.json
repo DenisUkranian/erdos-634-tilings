@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "scope": "Necessary even-node bounds under one native odd mesh at height one and no other short heights than 0,1,2; no full target exclusion.",
+  "certificates": [
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "native_charge_units": -2,
+      "charge": -48,
+      "single_columns": 222,
+      "pair_columns": 8214,
+      "maximum_single": 100000001,
+      "maximum_pair": 200000002,
+      "exact_bound": "21064508116/100000001",
+      "rounded_population": 212,
+      "core_sign_residues": [
+        8,
+        19
+      ],
+      "certificate_sha256": "82099b2b63ab938ee27a941ea3ccd5463c1eb28e439059a6e24c3f4c34822be6"
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "native_charge_units": -3,
+      "charge": -85,
+      "single_columns": 222,
+      "pair_columns": 8214,
+      "maximum_single": 100000001,
+      "maximum_pair": 200000002,
+      "exact_bound": "35970666295/100000001",
+      "rounded_population": 397,
+      "core_sign_residues": [
+        8,
+        19
+      ],
+      "certificate_sha256": "e62a53d573e203bb3c79acb826df3127643739ceaa4b66494d1f8da1b34e41d6"
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "native_charge_units": -4,
+      "charge": -122,
+      "single_columns": 222,
+      "pair_columns": 8214,
+      "maximum_single": 100000001,
+      "maximum_pair": 200000002,
+      "exact_bound": "51093809348/100000001",
+      "rounded_population": 582,
+      "core_sign_residues": [
+        8,
+        19
+      ],
+      "certificate_sha256": "9693b94ddd0b1d49437b0d43b125195499d3c70f1a9f5bb7b4e553abdc9deebb"
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "native_charge_units": -3,
+      "charge": -107,
+      "single_columns": 258,
+      "pair_columns": 11094,
+      "maximum_single": 100000000,
+      "maximum_pair": 200000002,
+      "exact_bound": "67699999951/100000001",
+      "rounded_population": 677,
+      "core_sign_residues": [
+        27,
+        5
+      ],
+      "certificate_sha256": "181f648478fedd386a3720601c3b591319543e233758e6be12db5f37874dde3f"
+    }
+  ],
+  "positive_control_143": {
+    "N": 143,
+    "core_population": 38,
+    "core_charge": 2,
+    "native_single_tiles": 2,
+    "forced_whole_pairs": 18,
+    "exact_inhomogeneous_endpoint_identity": true
+  },
+  "targets": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  }
+}

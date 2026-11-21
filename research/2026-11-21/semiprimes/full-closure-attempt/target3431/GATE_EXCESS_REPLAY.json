@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "profile_minus4_41": {
+    "all_tile_columns_checked": 16428,
+    "maximum_score": 100000002,
+    "D": 100000002,
+    "lower_numerator": 15776947829,
+    "lower_denominator": 100000002,
+    "excludes_population_111": true
+  },
+  "profile22_15": {
+    "all_tile_columns_checked": 16428,
+    "slack_columns_checked": 72,
+    "native_negative_columns_costed": 222,
+    "minimum_column_slack": 0,
+    "excess_lower_numerator": 2173857481,
+    "excess_lower_denominator": 1000000000,
+    "integer_excess_minimum": 3,
+    "nonempty_remote_parent_gates_maximum": 34
+  },
+  "small_gate_identity_checks": 4096,
+  "positive_143_control": {
+    "full_143_tiling_verified": true,
+    "odd_tiles": 105,
+    "signs": [
+      56,
+      49
+    ],
+    "all_periodic_endpoint_rows_zero": true,
+    "integer_gate_identity_checked": true,
+    "target_specific_bound_applied": false
+  },
+  "scope": "This finite checker counts nonempty odd-parent long-edge gates. The occupied remote-cell upper bound additionally uses the written visibility theorem in INVISIBLE_EVEN_NODES.md. Both original targets remain open."
+}

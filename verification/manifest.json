@@ -19,8 +19,8 @@
       "sha256": "a0a08e509dc02408ed6c850d832a19105f4c55d801f52a4076d8c2ceb90a52a4"
     },
     "CHANGELOG.md": {
-      "bytes": 43282,
-      "sha256": "8eaad5f028f34944d2c75ff9132771e1004052b89db1f0ad70c3326a98f5c39d"
+      "bytes": 45342,
+      "sha256": "c1983eff516e3169e69e751ea24e0ed7c7669a1e623d6a8466422a77ed455d5b"
     },
     "CITATION.cff": {
       "bytes": 1425,
@@ -39,20 +39,20 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 10548,
-      "sha256": "b11779a6e51288acc7707eeb5678b9d1e322f7a550aecdd490cd4eaadf29d840"
+      "bytes": 11594,
+      "sha256": "10fd06e2d8e005935b9d86b725d9a2ea432d53e0f2d9809b3a6ba0464a72359b"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 42052,
-      "sha256": "e0d68bbda28536d434dff8a0ef2aea6695a6c9923b80a14905dc200d2d6ef33b"
+      "bytes": 43693,
+      "sha256": "6971dde3b2e56f8f2eb8cbb3fb959303e10f6536744e68644002d6287c960bb6"
     },
     "RESULTS_INDEX.md": {
-      "bytes": 36796,
-      "sha256": "ba265b63d09b1c2848c0ddbf0511361d552fc1ecc4449a7903c969210286793d"
+      "bytes": 38986,
+      "sha256": "68a1505f5ea1d8dc117549cb367bc24497c7774650cfdb444cd2f2f86414197b"
     },
     "STATUS.md": {
-      "bytes": 64079,
-      "sha256": "ccf63960fa7f0c26ff9886d05b427f8a22fc7f3223dc576832d2d1baece5fb19"
+      "bytes": 66669,
+      "sha256": "7bbed8b7b9f82b96c852ce57efee1d81a5da3999ed823c8db35e8a46ba61907f"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -3015,8 +3015,8 @@
       "sha256": "ecadec4c6cd001c4187600cdc69602153d0dc4826bc4f4a704419c4a6c80f1b5"
     },
     "research/2026-11-21/SHA256SUMS.txt": {
-      "bytes": 59410,
-      "sha256": "287d31914c2a25b25d0643236c21e75c22fb90d0149bc26323e68a6fd689076e"
+      "bytes": 64615,
+      "sha256": "32f1293136de8b4a0b1ab4439bc389a33abd78957ca6e0516fa6532eb9f32505"
     },
     "research/2026-11-21/semiprimes/MINIMAL_ODD_EXCLUSION_5063.md": {
       "bytes": 10738,
@@ -3813,6 +3813,162 @@
     "research/2026-11-21/semiprimes/continued-rigidity/replay.py": {
       "bytes": 2181,
       "sha256": "e9738b735e9d683d532e404f42ac300020a6c8e5792979d99d1b267def5a2d95"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/README.md": {
+      "bytes": 8932,
+      "sha256": "77c1c79bfc2d86439ff4ebf86bb1321b1bacd2780f3257c1679bbce0a9afa31c"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/REPLAY.json": {
+      "bytes": 22103,
+      "sha256": "236ca1462370ccd9ad78b95637235505da42aa98d3312c4c4b3dbdb6226409e8"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/core-budget/CORE_3431_G_MINUS2.json": {
+      "bytes": 51827,
+      "sha256": "82099b2b63ab938ee27a941ea3ccd5463c1eb28e439059a6e24c3f4c34822be6"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/core-budget/CORE_3431_G_MINUS3.json": {
+      "bytes": 51723,
+      "sha256": "e62a53d573e203bb3c79acb826df3127643739ceaa4b66494d1f8da1b34e41d6"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/core-budget/CORE_3431_G_MINUS4.json": {
+      "bytes": 51696,
+      "sha256": "9693b94ddd0b1d49437b0d43b125195499d3c70f1a9f5bb7b4e553abdc9deebb"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/core-budget/CORE_5063_G_MINUS3.json": {
+      "bytes": 69648,
+      "sha256": "181f648478fedd386a3720601c3b591319543e233758e6be12db5f37874dde3f"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/core-budget/CORE_BUDGET_REPLAY.json": {
+      "bytes": 2406,
+      "sha256": "77ea15be7f1ae26e23338d9d7502a5bbc514c6af3fdc492a9b860a52f5d3ef93"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/core-budget/README.md": {
+      "bytes": 6534,
+      "sha256": "b49fb4dbe87c06045f510d0732ec8d7f1d44791ce0d60ed066c05b1a4cd28ed0"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/core-budget/probe_core_budget.py": {
+      "bytes": 3142,
+      "sha256": "1931f22b266b9b7221076575e47b1b3b6a73250d0a99c1a71ef593699e3ec2ef"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/core-budget/verify_core_budget.py": {
+      "bytes": 5034,
+      "sha256": "dcdde087e965440326a77ce60316bad72686c5b36e97e6c30a57156ceacfe15a"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/global/BALANCED_TERMINAL_R8.json": {
+      "bytes": 1841,
+      "sha256": "58ad3b7846b70e91d0174eb88d6e542a8e7b760ae8ab8448cfd7f1ae2ce2ee8e"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/global/BALANCED_TWO_PARENT_CONTROL.json": {
+      "bytes": 4686,
+      "sha256": "ae37961917dbc67051cb99fac5ce62a4025335c753d578d91977c1ac2f5c68aa"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/global/BALANCED_TWO_PARENT_CONTROL.md": {
+      "bytes": 5011,
+      "sha256": "9311c78f0dfb2fadf1a7eac1ec7c7a3d7db7e36a59dff5be10c0a84ca388a2e0"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/global/EMPTY_GATE_BUDGET_LIMIT_3431.md": {
+      "bytes": 14861,
+      "sha256": "bcb19e5d9f96fe71af9cf503e0c98a26fb1a4094ed40d337d7244117923a64e6"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/global/EMPTY_GATE_BUDGET_REPLAY.json": {
+      "bytes": 44864,
+      "sha256": "7f8dbc4955c4bcbffb54df88197bbe3c587f438f81ca952c7373a8f95417dd9b"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/global/INVISIBLE_EVEN_NODES_AUDIT.md": {
+      "bytes": 8822,
+      "sha256": "639e07c2121b76e0df4b0619b0d70a261d4bd01228d5a42e96a07cb81bca0ebd"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/global/probe_balanced_terminal.py": {
+      "bytes": 5996,
+      "sha256": "f76a60c2873c9debc8de4e1cf2121d4c49e622b8dfaa22e45652e67acc99da72"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/global/verify_balanced_two_parent.py": {
+      "bytes": 7086,
+      "sha256": "afc2ed0d05eae4541d067924b9e7d13c6e9a88e66b462c604fa149a9fcbee880"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/global/verify_empty_gate_budget.py": {
+      "bytes": 9711,
+      "sha256": "09626134002507f7e5d3cfa66c21f555620e64f4671b2106a43ed5bb2a6ef206"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/replay.py": {
+      "bytes": 2506,
+      "sha256": "de3546a888f440145b2103ef7416997f6298bc468ce4d815877d90e1cdf412f1"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target3431/GATE_EXCESS_CERTIFICATE.json.gz": {
+      "bytes": 36803,
+      "sha256": "df2d5997b8c8954a3a4c36ae2024cb0ce9ec49ce9a6bb2bd0008dc84de4926e1"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target3431/GATE_EXCESS_REPLAY.json": {
+      "bytes": 1158,
+      "sha256": "b3cf94ca6d4b2790325f1b8bc0503a909b95eb2cebb928299afd8f1e50b61f6c"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target3431/INVISIBLE_EVEN_NODES.md": {
+      "bytes": 9229,
+      "sha256": "c89fcbac39249c009f33fd8de2cf95ea8d9110330e425a90e555fe8585efff10"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target3431/README.md": {
+      "bytes": 9175,
+      "sha256": "42c0d1f24ac0e5c8d65c0cd9ce49895a6e1b85a9dfb3d7ef1b7442dd19672244"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target3431/probe_full_gate_pairs.py": {
+      "bytes": 3311,
+      "sha256": "52786c55cc77cdcba3e628dd1ce49d833853ed4ada86a46816e3a9087af3ae0a"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target3431/probe_gate_excess.py": {
+      "bytes": 2308,
+      "sha256": "97e12305e981df3232be74f2fb08ed1dd4aa011dcd16c5985b0b886282bf20c4"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target3431/verify_gate_excess.py": {
+      "bytes": 5834,
+      "sha256": "2194fe1f56144014f467e4d57855240b77b16a7808fa7a5b56848a6a39c300f2"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/CORE_BUDGET_INDEPENDENT_AUDIT.md": {
+      "bytes": 6651,
+      "sha256": "977770bbfee5b03afee6f65870956ae06999367d9f272d5d4099701bc748a8c6"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/CORE_BUDGET_INDEPENDENT_REPLAY.json": {
+      "bytes": 2517,
+      "sha256": "f3d32819407079587836da5acad47dcfc1f542f811aba67452a191d19a54dfe3"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/EMPTY_REMOTE_EXACT_DUAL_5063.json": {
+      "bytes": 57280,
+      "sha256": "beac46d5bb634b2f68148d8c0d22e84ed421104ae828145a9011564c42242836"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/EMPTY_REMOTE_PROFILE_REPLAY.json": {
+      "bytes": 1379,
+      "sha256": "7bdfd3e3791a29fecea90c1d5722703588c9abc63d3dc1037525b94ebdec52b6"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/EMPTY_REMOTE_RATIONAL_215_5063.json": {
+      "bytes": 404657,
+      "sha256": "99d625d3360b484c0726a1eb440a94f70c66ed821d09a40338803d6379cb24b8"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/EMPTY_REMOTE_SIGNED_INTEGER_215_5063.json": {
+      "bytes": 64156,
+      "sha256": "0ac610d809a9cf84a31fc5393575936f7a0ba9d311aa7b9cfc7a96d114f80c11"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/MONOCHROMATIC_CONTROL_REPLAY.json": {
+      "bytes": 1087,
+      "sha256": "20b7564cd4611f51bcabfce18e7f7ff44319ec85fd53eb4337605ed135dfbf64"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/MONOCHROMATIC_COUNTERCONTROLS.json": {
+      "bytes": 15078,
+      "sha256": "c8deca22fc91e0eea519ba25a21f2a5547f7c83a614b4ca116e98c353f5bb10b"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/README.md": {
+      "bytes": 9073,
+      "sha256": "291ac2c52400e3ede3a1d74d6d03ddb6dedfcfb1fd7ed56d657893b5137f5bf3"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/verify_core_budget_audit.py": {
+      "bytes": 5790,
+      "sha256": "c72aea5ee594b445c3cf43323a0fc5019a4d0f90d3d80b2e400ca4465de231c2"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/verify_empty_remote_profile.py": {
+      "bytes": 7328,
+      "sha256": "76b705a8446166df7d988c58224f02c592dca66914180d0da8ed41bc129a7bcf"
+    },
+    "research/2026-11-21/semiprimes/full-closure-attempt/target5063/verify_monochromatic_controls.py": {
+      "bytes": 2961,
+      "sha256": "e0e4253f7847e51f306fb2b1a07915dbd27c4aeaac7623833f2dcb11245914d4"
     },
     "research/2026-11-21/semiprimes/gate-model/CERTIFICATES_5063.json": {
       "bytes": 14861,
@@ -10407,8 +10563,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 18407,
-      "sha256": "98b3e22780a2e54ead3584a999d4970f93d5e27f8803121911a12c7712c4181a"
+      "bytes": 18633,
+      "sha256": "69b18dede268d8b3a8b61c056b7c54cc1b188116c0e2dc389f472702ce1a01c6"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,
