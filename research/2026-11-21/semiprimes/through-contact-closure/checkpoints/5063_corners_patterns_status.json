@@ -1,0 +1,80 @@
+{
+  "format": "owned-through-search-status-v1",
+  "sides": [
+    35,
+    13,
+    43
+  ],
+  "N": 5063,
+  "iteration": 0,
+  "status": "solver-inconclusive",
+  "root": null,
+  "scope": "unrestricted-whole-board",
+  "full_target_excluded": false,
+  "temporary_row_equations": false,
+  "columns": 27787,
+  "complete_rows": 6,
+  "owned_corner_roots": 20,
+  "owner_candidates": 0,
+  "overlap_conflicts": 0,
+  "permanent_assertions": 101315,
+  "seconds": 135.991,
+  "max_rss_mb": 583.1,
+  "history": [
+    {
+      "iteration": 0,
+      "status": "unknown",
+      "columns": 27787,
+      "complete_rows": 6,
+      "solve_seconds": 120.002,
+      "reason": "(:reason-unknown \"canceled\")"
+    }
+  ],
+  "whole_edge_obligations": 48,
+  "whole_edge_complete_tiles": 16,
+  "whole_edge_neighbor_candidates": 2274,
+  "supported_long_cycle_cuts": 0,
+  "geometric_restart": null,
+  "whole_edge_refinement": [],
+  "vertex_fans_per_round": 2,
+  "edge_tiles_per_round": 12,
+  "signed_population_node_counts": [
+    217,
+    174
+  ],
+  "signed_core_residues": [
+    5,
+    27
+  ],
+  "signed_block_caps": [
+    58,
+    59
+  ],
+  "signed_bit_widths": [
+    6,
+    6
+  ],
+  "signed_even_delta": 0,
+  "joint_physical_heights": [
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3
+  ],
+  "signed_strict_no_empty_ancestor": true,
+  "signed_query_caps_exported": true,
+  "signed_query_caps_permanent": false,
+  "signed_independent_semantic_audit_required": true,
+  "general_area_cycle_cuts": 24,
+  "isometry_seed_patterns": 6,
+  "isometry_propagation": [
+    {
+      "columns": 27787,
+      "seed_patterns": 6,
+      "new_isometric_cuts": 18,
+      "total_area_cuts": 24
+    }
+  ]
+}

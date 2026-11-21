@@ -1,0 +1,1558 @@
+{
+  "status": "PASS",
+  "fractional_hole_controls": [
+    {
+      "N": 3431,
+      "height": -5,
+      "tiles": [
+        [
+          [
+            243761800,
+            710288947,
+            4
+          ],
+          -4,
+          3,
+          -1
+        ],
+        [
+          [
+            323797647,
+            672340267,
+            4
+          ],
+          -4,
+          5,
+          -1
+        ],
+        [
+          [
+            281710480,
+            752376114,
+            4
+          ],
+          -4,
+          1,
+          -1
+        ]
+      ],
+      "witness": {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "vertices": [
+          [
+            127,
+            387,
+            0
+          ],
+          [
+            314529640,
+            666596914,
+            4
+          ],
+          [
+            296721840,
+            743108107,
+            4
+          ],
+          [
+            127,
+            387,
+            0
+          ]
+        ],
+        "edges": [
+          {
+            "start": [
+              127,
+              387,
+              0
+            ],
+            "end": [
+              314529640,
+              666596914,
+              4
+            ],
+            "representative": 0,
+            "side": 2,
+            "selected_owners": [
+              0
+            ],
+            "length": "37",
+            "direction": [
+              -5,
+              0
+            ]
+          },
+          {
+            "start": [
+              314529640,
+              666596914,
+              4
+            ],
+            "end": [
+              296721840,
+              743108107,
+              4
+            ],
+            "representative": 1,
+            "side": 2,
+            "selected_owners": [
+              1
+            ],
+            "length": "37",
+            "direction": [
+              -5,
+              2
+            ]
+          },
+          {
+            "start": [
+              296721840,
+              743108107,
+              4
+            ],
+            "end": [
+              127,
+              387,
+              0
+            ],
+            "representative": 2,
+            "side": 2,
+            "selected_owners": [
+              2
+            ],
+            "length": "37",
+            "direction": [
+              -5,
+              4
+            ]
+          }
+        ],
+        "twice_axial_area": "1369",
+        "tile_area_ratio": "1369/231",
+        "budget": {
+          "W0": "111",
+          "W1": "-111",
+          "even_charge": "-1369/231",
+          "odd_charge": "-962/231",
+          "violations": [
+            "nonintegral_area",
+            "nonintegral_even_charge",
+            "nonintegral_odd_charge"
+          ]
+        },
+        "greedy_selected_count": 3
+      },
+      "legal_nonoverlapping_partial_packing": true,
+      "two_supports_not_rejected": true,
+      "overlapping_distractor_not_used": true
+    },
+    {
+      "N": 3431,
+      "height": -1,
+      "tiles": [
+        [
+          [
+            134,
+            380,
+            0
+          ],
+          0,
+          3,
+          -1
+        ],
+        [
+          [
+            167,
+            387,
+            0
+          ],
+          0,
+          5,
+          -1
+        ],
+        [
+          [
+            127,
+            420,
+            0
+          ],
+          0,
+          1,
+          -1
+        ]
+      ],
+      "witness": {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "vertices": [
+          [
+            127,
+            387,
+            0
+          ],
+          [
+            167,
+            380,
+            0
+          ],
+          [
+            134,
+            420,
+            0
+          ],
+          [
+            127,
+            387,
+            0
+          ]
+        ],
+        "edges": [
+          {
+            "start": [
+              127,
+              387,
+              0
+            ],
+            "end": [
+              167,
+              380,
+              0
+            ],
+            "representative": 0,
+            "side": 2,
+            "selected_owners": [
+              0
+            ],
+            "length": "37",
+            "direction": [
+              -1,
+              0
+            ]
+          },
+          {
+            "start": [
+              167,
+              380,
+              0
+            ],
+            "end": [
+              134,
+              420,
+              0
+            ],
+            "representative": 1,
+            "side": 2,
+            "selected_owners": [
+              1
+            ],
+            "length": "37",
+            "direction": [
+              -1,
+              2
+            ]
+          },
+          {
+            "start": [
+              134,
+              420,
+              0
+            ],
+            "end": [
+              127,
+              387,
+              0
+            ],
+            "representative": 2,
+            "side": 2,
+            "selected_owners": [
+              2
+            ],
+            "length": "37",
+            "direction": [
+              -1,
+              4
+            ]
+          }
+        ],
+        "twice_axial_area": "1369",
+        "tile_area_ratio": "1369/231",
+        "budget": {
+          "W0": "111",
+          "W1": "-111",
+          "even_charge": "-1369/231",
+          "odd_charge": "-962/231",
+          "violations": [
+            "nonintegral_area",
+            "nonintegral_even_charge",
+            "nonintegral_odd_charge"
+          ]
+        },
+        "greedy_selected_count": 3
+      },
+      "legal_nonoverlapping_partial_packing": true,
+      "two_supports_not_rejected": true,
+      "overlapping_distractor_not_used": true
+    },
+    {
+      "N": 3431,
+      "height": 0,
+      "tiles": [
+        [
+          [
+            4979,
+            14088,
+            1
+          ],
+          1,
+          3,
+          -1
+        ],
+        [
+          [
+            4979,
+            15639,
+            1
+          ],
+          -1,
+          2,
+          1
+        ],
+        [
+          [
+            4468,
+            14599,
+            1
+          ],
+          -1,
+          4,
+          1
+        ]
+      ],
+      "witness": {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "vertices": [
+          [
+            127,
+            387,
+            0
+          ],
+          [
+            164,
+            387,
+            0
+          ],
+          [
+            127,
+            424,
+            0
+          ],
+          [
+            127,
+            387,
+            0
+          ]
+        ],
+        "edges": [
+          {
+            "start": [
+              127,
+              387,
+              0
+            ],
+            "end": [
+              164,
+              387,
+              0
+            ],
+            "representative": 0,
+            "side": 2,
+            "selected_owners": [
+              0
+            ],
+            "length": "37",
+            "direction": [
+              0,
+              0
+            ]
+          },
+          {
+            "start": [
+              164,
+              387,
+              0
+            ],
+            "end": [
+              127,
+              424,
+              0
+            ],
+            "representative": 1,
+            "side": 2,
+            "selected_owners": [
+              1
+            ],
+            "length": "37",
+            "direction": [
+              0,
+              2
+            ]
+          },
+          {
+            "start": [
+              127,
+              424,
+              0
+            ],
+            "end": [
+              127,
+              387,
+              0
+            ],
+            "representative": 2,
+            "side": 2,
+            "selected_owners": [
+              2
+            ],
+            "length": "37",
+            "direction": [
+              0,
+              4
+            ]
+          }
+        ],
+        "twice_axial_area": "1369",
+        "tile_area_ratio": "1369/231",
+        "budget": {
+          "W0": "111",
+          "W1": "111",
+          "even_charge": "-962/231",
+          "odd_charge": "-1369/231",
+          "violations": [
+            "nonintegral_area",
+            "nonintegral_even_charge",
+            "nonintegral_odd_charge"
+          ]
+        },
+        "greedy_selected_count": 3
+      },
+      "legal_nonoverlapping_partial_packing": true,
+      "two_supports_not_rejected": true,
+      "overlapping_distractor_not_used": true
+    },
+    {
+      "N": 3431,
+      "height": 1,
+      "tiles": [
+        [
+          [
+            160,
+            387,
+            0
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          [
+            127,
+            427,
+            0
+          ],
+          0,
+          2,
+          1
+        ],
+        [
+          [
+            120,
+            394,
+            0
+          ],
+          0,
+          4,
+          1
+        ]
+      ],
+      "witness": {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "vertices": [
+          [
+            120,
+            427,
+            0
+          ],
+          [
+            127,
+            387,
+            0
+          ],
+          [
+            160,
+            394,
+            0
+          ],
+          [
+            120,
+            427,
+            0
+          ]
+        ],
+        "edges": [
+          {
+            "start": [
+              120,
+              427,
+              0
+            ],
+            "end": [
+              127,
+              387,
+              0
+            ],
+            "representative": 2,
+            "side": 2,
+            "selected_owners": [
+              2
+            ],
+            "length": "37",
+            "direction": [
+              1,
+              4
+            ]
+          },
+          {
+            "start": [
+              127,
+              387,
+              0
+            ],
+            "end": [
+              160,
+              394,
+              0
+            ],
+            "representative": 0,
+            "side": 2,
+            "selected_owners": [
+              0
+            ],
+            "length": "37",
+            "direction": [
+              1,
+              0
+            ]
+          },
+          {
+            "start": [
+              160,
+              394,
+              0
+            ],
+            "end": [
+              120,
+              427,
+              0
+            ],
+            "representative": 1,
+            "side": 2,
+            "selected_owners": [
+              1
+            ],
+            "length": "37",
+            "direction": [
+              1,
+              2
+            ]
+          }
+        ],
+        "twice_axial_area": "1369",
+        "tile_area_ratio": "1369/231",
+        "budget": {
+          "W0": "111",
+          "W1": "-111",
+          "even_charge": "-1369/231",
+          "odd_charge": "-962/231",
+          "violations": [
+            "nonintegral_area",
+            "nonintegral_even_charge",
+            "nonintegral_odd_charge"
+          ]
+        },
+        "greedy_selected_count": 3
+      },
+      "legal_nonoverlapping_partial_packing": true,
+      "two_supports_not_rejected": true,
+      "overlapping_distractor_not_used": true
+    },
+    {
+      "N": 3431,
+      "height": 7,
+      "tiles": [
+        [
+          [
+            331679464360,
+            1074538200843,
+            6
+          ],
+          6,
+          0,
+          1
+        ],
+        [
+          [
+            226935641143,
+            1098917079043,
+            6
+          ],
+          6,
+          2,
+          1
+        ],
+        [
+          [
+            307300586160,
+            994173255826,
+            6
+          ],
+          6,
+          4,
+          1
+        ]
+      ],
+      "witness": {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "vertices": [
+          [
+            225698505600,
+            1081607546803,
+            6
+          ],
+          [
+            127,
+            387,
+            0
+          ],
+          [
+            314369932120,
+            1093084868626,
+            6
+          ],
+          [
+            225698505600,
+            1081607546803,
+            6
+          ]
+        ],
+        "edges": [
+          {
+            "start": [
+              225698505600,
+              1081607546803,
+              6
+            ],
+            "end": [
+              127,
+              387,
+              0
+            ],
+            "representative": 2,
+            "side": 2,
+            "selected_owners": [
+              2
+            ],
+            "length": "37",
+            "direction": [
+              7,
+              4
+            ]
+          },
+          {
+            "start": [
+              127,
+              387,
+              0
+            ],
+            "end": [
+              314369932120,
+              1093084868626,
+              6
+            ],
+            "representative": 0,
+            "side": 2,
+            "selected_owners": [
+              0
+            ],
+            "length": "37",
+            "direction": [
+              7,
+              0
+            ]
+          },
+          {
+            "start": [
+              314369932120,
+              1093084868626,
+              6
+            ],
+            "end": [
+              225698505600,
+              1081607546803,
+              6
+            ],
+            "representative": 1,
+            "side": 2,
+            "selected_owners": [
+              1
+            ],
+            "length": "37",
+            "direction": [
+              7,
+              2
+            ]
+          }
+        ],
+        "twice_axial_area": "1369",
+        "tile_area_ratio": "1369/231",
+        "budget": {
+          "W0": "111",
+          "W1": "-111",
+          "even_charge": "-1369/231",
+          "odd_charge": "-962/231",
+          "violations": [
+            "nonintegral_area",
+            "nonintegral_even_charge",
+            "nonintegral_odd_charge"
+          ]
+        },
+        "greedy_selected_count": 3
+      },
+      "legal_nonoverlapping_partial_packing": true,
+      "two_supports_not_rejected": true,
+      "overlapping_distractor_not_used": true
+    },
+    {
+      "N": 5063,
+      "height": -5,
+      "tiles": [
+        [
+          [
+            919019104,
+            1778099141,
+            4
+          ],
+          -4,
+          3,
+          -1
+        ],
+        [
+          [
+            1082568701,
+            1656952661,
+            4
+          ],
+          -4,
+          5,
+          -1
+        ],
+        [
+          [
+            1040165584,
+            1820502258,
+            4
+          ],
+          -4,
+          1,
+          -1
+        ]
+      ],
+      "witness": {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "vertices": [
+          [
+            269,
+            533,
+            0
+          ],
+          [
+            1037808544,
+            1657591026,
+            4
+          ],
+          [
+            1084287376,
+            1775742101,
+            4
+          ],
+          [
+            269,
+            533,
+            0
+          ]
+        ],
+        "edges": [
+          {
+            "start": [
+              269,
+              533,
+              0
+            ],
+            "end": [
+              1037808544,
+              1657591026,
+              4
+            ],
+            "representative": 0,
+            "side": 2,
+            "selected_owners": [
+              0
+            ],
+            "length": "43",
+            "direction": [
+              -5,
+              0
+            ]
+          },
+          {
+            "start": [
+              1037808544,
+              1657591026,
+              4
+            ],
+            "end": [
+              1084287376,
+              1775742101,
+              4
+            ],
+            "representative": 1,
+            "side": 2,
+            "selected_owners": [
+              1
+            ],
+            "length": "43",
+            "direction": [
+              -5,
+              2
+            ]
+          },
+          {
+            "start": [
+              1084287376,
+              1775742101,
+              4
+            ],
+            "end": [
+              269,
+              533,
+              0
+            ],
+            "representative": 2,
+            "side": 2,
+            "selected_owners": [
+              2
+            ],
+            "length": "43",
+            "direction": [
+              -5,
+              4
+            ]
+          }
+        ],
+        "twice_axial_area": "1849",
+        "tile_area_ratio": "1849/455",
+        "budget": {
+          "W0": "129",
+          "W1": "-129",
+          "even_charge": "-1849/455",
+          "odd_charge": "-946/455",
+          "violations": [
+            "nonintegral_area",
+            "nonintegral_even_charge",
+            "nonintegral_odd_charge"
+          ]
+        },
+        "greedy_selected_count": 3
+      },
+      "legal_nonoverlapping_partial_packing": true,
+      "two_supports_not_rejected": true,
+      "overlapping_distractor_not_used": true
+    },
+    {
+      "N": 5063,
+      "height": -1,
+      "tiles": [
+        [
+          [
+            282,
+            520,
+            0
+          ],
+          0,
+          3,
+          -1
+        ],
+        [
+          [
+            317,
+            533,
+            0
+          ],
+          0,
+          5,
+          -1
+        ],
+        [
+          [
+            269,
+            568,
+            0
+          ],
+          0,
+          1,
+          -1
+        ]
+      ],
+      "witness": {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "vertices": [
+          [
+            269,
+            533,
+            0
+          ],
+          [
+            317,
+            520,
+            0
+          ],
+          [
+            282,
+            568,
+            0
+          ],
+          [
+            269,
+            533,
+            0
+          ]
+        ],
+        "edges": [
+          {
+            "start": [
+              269,
+              533,
+              0
+            ],
+            "end": [
+              317,
+              520,
+              0
+            ],
+            "representative": 0,
+            "side": 2,
+            "selected_owners": [
+              0
+            ],
+            "length": "43",
+            "direction": [
+              -1,
+              0
+            ]
+          },
+          {
+            "start": [
+              317,
+              520,
+              0
+            ],
+            "end": [
+              282,
+              568,
+              0
+            ],
+            "representative": 1,
+            "side": 2,
+            "selected_owners": [
+              1
+            ],
+            "length": "43",
+            "direction": [
+              -1,
+              2
+            ]
+          },
+          {
+            "start": [
+              282,
+              568,
+              0
+            ],
+            "end": [
+              269,
+              533,
+              0
+            ],
+            "representative": 2,
+            "side": 2,
+            "selected_owners": [
+              2
+            ],
+            "length": "43",
+            "direction": [
+              -1,
+              4
+            ]
+          }
+        ],
+        "twice_axial_area": "1849",
+        "tile_area_ratio": "1849/455",
+        "budget": {
+          "W0": "129",
+          "W1": "-129",
+          "even_charge": "-1849/455",
+          "odd_charge": "-946/455",
+          "violations": [
+            "nonintegral_area",
+            "nonintegral_even_charge",
+            "nonintegral_odd_charge"
+          ]
+        },
+        "greedy_selected_count": 3
+      },
+      "legal_nonoverlapping_partial_packing": true,
+      "two_supports_not_rejected": true,
+      "overlapping_distractor_not_used": true
+    },
+    {
+      "N": 5063,
+      "height": 0,
+      "tiles": [
+        [
+          [
+            12191,
+            22464,
+            1
+          ],
+          1,
+          3,
+          -1
+        ],
+        [
+          [
+            12191,
+            24599,
+            1
+          ],
+          -1,
+          2,
+          1
+        ],
+        [
+          [
+            11112,
+            23543,
+            1
+          ],
+          -1,
+          4,
+          1
+        ]
+      ],
+      "witness": {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "vertices": [
+          [
+            269,
+            533,
+            0
+          ],
+          [
+            312,
+            533,
+            0
+          ],
+          [
+            269,
+            576,
+            0
+          ],
+          [
+            269,
+            533,
+            0
+          ]
+        ],
+        "edges": [
+          {
+            "start": [
+              269,
+              533,
+              0
+            ],
+            "end": [
+              312,
+              533,
+              0
+            ],
+            "representative": 0,
+            "side": 2,
+            "selected_owners": [
+              0
+            ],
+            "length": "43",
+            "direction": [
+              0,
+              0
+            ]
+          },
+          {
+            "start": [
+              312,
+              533,
+              0
+            ],
+            "end": [
+              269,
+              576,
+              0
+            ],
+            "representative": 1,
+            "side": 2,
+            "selected_owners": [
+              1
+            ],
+            "length": "43",
+            "direction": [
+              0,
+              2
+            ]
+          },
+          {
+            "start": [
+              269,
+              576,
+              0
+            ],
+            "end": [
+              269,
+              533,
+              0
+            ],
+            "representative": 2,
+            "side": 2,
+            "selected_owners": [
+              2
+            ],
+            "length": "43",
+            "direction": [
+              0,
+              4
+            ]
+          }
+        ],
+        "twice_axial_area": "1849",
+        "tile_area_ratio": "1849/455",
+        "budget": {
+          "W0": "129",
+          "W1": "129",
+          "even_charge": "-946/455",
+          "odd_charge": "-1849/455",
+          "violations": [
+            "nonintegral_area",
+            "nonintegral_even_charge",
+            "nonintegral_odd_charge"
+          ]
+        },
+        "greedy_selected_count": 3
+      },
+      "legal_nonoverlapping_partial_packing": true,
+      "two_supports_not_rejected": true,
+      "overlapping_distractor_not_used": true
+    },
+    {
+      "N": 5063,
+      "height": 1,
+      "tiles": [
+        [
+          [
+            304,
+            533,
+            0
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          [
+            269,
+            581,
+            0
+          ],
+          0,
+          2,
+          1
+        ],
+        [
+          [
+            256,
+            546,
+            0
+          ],
+          0,
+          4,
+          1
+        ]
+      ],
+      "witness": {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "vertices": [
+          [
+            256,
+            581,
+            0
+          ],
+          [
+            269,
+            533,
+            0
+          ],
+          [
+            304,
+            546,
+            0
+          ],
+          [
+            256,
+            581,
+            0
+          ]
+        ],
+        "edges": [
+          {
+            "start": [
+              256,
+              581,
+              0
+            ],
+            "end": [
+              269,
+              533,
+              0
+            ],
+            "representative": 2,
+            "side": 2,
+            "selected_owners": [
+              2
+            ],
+            "length": "43",
+            "direction": [
+              1,
+              4
+            ]
+          },
+          {
+            "start": [
+              269,
+              533,
+              0
+            ],
+            "end": [
+              304,
+              546,
+              0
+            ],
+            "representative": 0,
+            "side": 2,
+            "selected_owners": [
+              0
+            ],
+            "length": "43",
+            "direction": [
+              1,
+              0
+            ]
+          },
+          {
+            "start": [
+              304,
+              546,
+              0
+            ],
+            "end": [
+              256,
+              581,
+              0
+            ],
+            "representative": 1,
+            "side": 2,
+            "selected_owners": [
+              1
+            ],
+            "length": "43",
+            "direction": [
+              1,
+              2
+            ]
+          }
+        ],
+        "twice_axial_area": "1849",
+        "tile_area_ratio": "1849/455",
+        "budget": {
+          "W0": "129",
+          "W1": "-129",
+          "even_charge": "-1849/455",
+          "odd_charge": "-946/455",
+          "violations": [
+            "nonintegral_area",
+            "nonintegral_even_charge",
+            "nonintegral_odd_charge"
+          ]
+        },
+        "greedy_selected_count": 3
+      },
+      "legal_nonoverlapping_partial_packing": true,
+      "two_supports_not_rejected": true,
+      "overlapping_distractor_not_used": true
+    },
+    {
+      "N": 5063,
+      "height": 7,
+      "tiles": [
+        [
+          [
+            1568603483296,
+            3624716880317,
+            6
+          ],
+          6,
+          0,
+          1
+        ],
+        [
+          [
+            1350142145621,
+            3538777519949,
+            6
+          ],
+          6,
+          2,
+          1
+        ],
+        [
+          [
+            1654542843664,
+            3320316182274,
+            6
+          ],
+          6,
+          4,
+          1
+        ]
+      ],
+      "witness": {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "vertices": [
+          [
+            1399112468464,
+            3443903380589,
+            6
+          ],
+          [
+            269,
+            533,
+            0
+          ],
+          [
+            1473729343936,
+            3670620696834,
+            6
+          ],
+          [
+            1399112468464,
+            3443903380589,
+            6
+          ]
+        ],
+        "edges": [
+          {
+            "start": [
+              1399112468464,
+              3443903380589,
+              6
+            ],
+            "end": [
+              269,
+              533,
+              0
+            ],
+            "representative": 2,
+            "side": 2,
+            "selected_owners": [
+              2
+            ],
+            "length": "43",
+            "direction": [
+              7,
+              4
+            ]
+          },
+          {
+            "start": [
+              269,
+              533,
+              0
+            ],
+            "end": [
+              1473729343936,
+              3670620696834,
+              6
+            ],
+            "representative": 0,
+            "side": 2,
+            "selected_owners": [
+              0
+            ],
+            "length": "43",
+            "direction": [
+              7,
+              0
+            ]
+          },
+          {
+            "start": [
+              1473729343936,
+              3670620696834,
+              6
+            ],
+            "end": [
+              1399112468464,
+              3443903380589,
+              6
+            ],
+            "representative": 1,
+            "side": 2,
+            "selected_owners": [
+              1
+            ],
+            "length": "43",
+            "direction": [
+              7,
+              2
+            ]
+          }
+        ],
+        "twice_axial_area": "1849",
+        "tile_area_ratio": "1849/455",
+        "budget": {
+          "W0": "129",
+          "W1": "-129",
+          "even_charge": "-1849/455",
+          "odd_charge": "-946/455",
+          "violations": [
+            "nonintegral_area",
+            "nonintegral_even_charge",
+            "nonintegral_odd_charge"
+          ]
+        },
+        "greedy_selected_count": 3
+      },
+      "legal_nonoverlapping_partial_packing": true,
+      "two_supports_not_rejected": true,
+      "overlapping_distractor_not_used": true
+    }
+  ],
+  "mixed_height_integer_hole_controls": [
+    {
+      "N": 143,
+      "supporting_tiles": 12,
+      "simple_faces": 13,
+      "exposed_hole_area": "12",
+      "hole_budget": {
+        "W0": "0",
+        "W1": "0",
+        "even_charge": "0",
+        "odd_charge": "0",
+        "violations": []
+      },
+      "rejected": false
+    },
+    {
+      "N": 3431,
+      "supporting_tiles": 68,
+      "simple_faces": 69,
+      "exposed_hole_area": "72",
+      "hole_budget": {
+        "W0": "0",
+        "W1": "0",
+        "even_charge": "0",
+        "odd_charge": "0",
+        "violations": []
+      },
+      "rejected": false
+    },
+    {
+      "N": 5063,
+      "supporting_tiles": 72,
+      "simple_faces": 73,
+      "exposed_hole_area": "84",
+      "hole_budget": {
+        "W0": "0",
+        "W1": "0",
+        "even_charge": "0",
+        "odd_charge": "0",
+        "violations": []
+      },
+      "rejected": false
+    }
+  ],
+  "control143": {
+    "tiles": 143,
+    "simple_faces": 143,
+    "all_face_areas": 1,
+    "strict_side_subdivisions_checked": 38,
+    "exact_metric_containment_nonoverlap": true,
+    "rejected": false
+  },
+  "scope": "Exact local forbidden supports and compatible controls. No target or corner root is excluded."
+}

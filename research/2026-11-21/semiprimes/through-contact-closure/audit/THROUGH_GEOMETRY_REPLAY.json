@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "source": "research/2026-11-21/semiprimes/continued-rigidity/physical/CONTROL_143.json",
+      "sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+      "through_incidences": 38,
+      "distinct_through_tiles": 29,
+      "maximum_contacts_on_one_owner": 3,
+      "independently_reconstructed_catalogues": 38,
+      "largest_contained_catalogue": 24,
+      "odd_charge": -7,
+      "even_charge": -2,
+      "charge_reserves": [
+        {
+          "sigma": -1,
+          "tau": -1,
+          "full_population": 67,
+          "capacity": 67
+        },
+        {
+          "sigma": -1,
+          "tau": 1,
+          "full_population": 69,
+          "capacity": 69
+        },
+        {
+          "sigma": 1,
+          "tau": -1,
+          "full_population": 74,
+          "capacity": 74
+        },
+        {
+          "sigma": 1,
+          "tau": 1,
+          "full_population": 76,
+          "capacity": 76
+        }
+      ]
+    },
+    {
+      "source": "research/2026-11-20/semiprimes/continuation/global-endpoints/tiling_143.json",
+      "sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+      "through_incidences": 38,
+      "distinct_through_tiles": 29,
+      "maximum_contacts_on_one_owner": 3,
+      "independently_reconstructed_catalogues": 38,
+      "largest_contained_catalogue": 24,
+      "odd_charge": -7,
+      "even_charge": -2,
+      "charge_reserves": [
+        {
+          "sigma": -1,
+          "tau": -1,
+          "full_population": 67,
+          "capacity": 67
+        },
+        {
+          "sigma": -1,
+          "tau": 1,
+          "full_population": 69,
+          "capacity": 69
+        },
+        {
+          "sigma": 1,
+          "tau": -1,
+          "full_population": 74,
+          "capacity": 74
+        },
+        {
+          "sigma": 1,
+          "tau": 1,
+          "full_population": 76,
+          "capacity": 76
+        }
+      ]
+    }
+  ],
+  "target_raw_limits": [
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "raw_owner_limit": 148,
+      "metric_shapes_checked": 324
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "raw_owner_limit": 176,
+      "metric_shapes_checked": 324
+    }
+  ],
+  "scope": "Independent metric construction of six through shapes, complete integer-offset owner lists on actual143 contacts, and global charge capacities. No target exclusion."
+}

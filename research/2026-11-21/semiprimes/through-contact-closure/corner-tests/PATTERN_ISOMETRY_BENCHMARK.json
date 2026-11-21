@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "source_snapshot_sha256": "8fe46b15633a7dc07a354dfb910b57f6f94717e19ceb6b8c1a1776b5dc6d71e1",
+  "candidate_count": 74399,
+  "patterns": [
+    {
+      "pattern_id": "source-cut-0",
+      "supporting_tiles": 4,
+      "tile_area_ratio": "16/35",
+      "occurrences": 1494,
+      "seconds": 0.114891,
+      "direct": 798,
+      "reflected": 696,
+      "all_returned_labelled_isometries_checked": true,
+      "all_expanded_polygon_witnesses_checked": true
+    },
+    {
+      "pattern_id": "source-cut-1",
+      "supporting_tiles": 5,
+      "tile_area_ratio": "86/13",
+      "occurrences": 90,
+      "seconds": 0.110265,
+      "direct": 36,
+      "reflected": 54,
+      "all_returned_labelled_isometries_checked": true,
+      "all_expanded_polygon_witnesses_checked": true
+    },
+    {
+      "pattern_id": "source-cut-2",
+      "supporting_tiles": 3,
+      "tile_area_ratio": "484/455",
+      "occurrences": 365,
+      "seconds": 0.104204,
+      "direct": 182,
+      "reflected": 183,
+      "all_returned_labelled_isometries_checked": true,
+      "all_expanded_polygon_witnesses_checked": true
+    },
+    {
+      "pattern_id": "source-cut-3",
+      "supporting_tiles": 3,
+      "tile_area_ratio": "484/455",
+      "occurrences": 365,
+      "seconds": 0.107434,
+      "direct": 183,
+      "reflected": 182,
+      "all_returned_labelled_isometries_checked": true,
+      "all_expanded_polygon_witnesses_checked": true
+    },
+    {
+      "pattern_id": "source-cut-4",
+      "supporting_tiles": 3,
+      "tile_area_ratio": "1056/455",
+      "occurrences": 829,
+      "seconds": 0.102868,
+      "direct": 465,
+      "reflected": 364,
+      "all_returned_labelled_isometries_checked": true,
+      "all_expanded_polygon_witnesses_checked": true
+    },
+    {
+      "pattern_id": "source-cut-5",
+      "supporting_tiles": 3,
+      "tile_area_ratio": "484/455",
+      "occurrences": 1168,
+      "seconds": 0.109745,
+      "direct": 576,
+      "reflected": 592,
+      "all_returned_labelled_isometries_checked": true,
+      "all_expanded_polygon_witnesses_checked": true
+    }
+  ],
+  "total_scan_seconds": 0.649407,
+  "new_placements_inserted": 0,
+  "full_target_excluded": false,
+  "timing_scope": "Native occurrence enumeration only; independent checking is outside this timing."
+}

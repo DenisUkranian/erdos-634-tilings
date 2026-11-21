@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "control_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+  "geometry": {
+    "tiles": 143,
+    "boundary_sides": 25,
+    "interior_sides": 404,
+    "exact_unit_contacts": 2002,
+    "recovered_actual_banks": 404,
+    "maximum_actual_neighbors_per_side": 3,
+    "deleted_neighbor_rejections": 442,
+    "physical_metric_area_current_and_nonoverlap": true
+  },
+  "full_target_excluded": false,
+  "local_encoding": {
+    "positive": "sat",
+    "deleted_neighbor": "unsat",
+    "antecedent_absent_neighbors_allowed": "sat",
+    "variables": 19,
+    "unit_intervals": 3
+  },
+  "integrated_encoding": {
+    "positive": "sat",
+    "after_equivalent_rebuild": "sat",
+    "all_actual_edges_enforced": true,
+    "all_actual_endpoint_rows_completed": true,
+    "root_id": "O1-X2-Y2",
+    "columns": 12127,
+    "complete_rows": 335,
+    "whole_edge_obligations": 429,
+    "whole_edge_catalogues": 404,
+    "bank_cliques": 1984,
+    "spatial_cliques": 1026,
+    "permanent_assertions": 6536,
+    "temporary_rows": false
+  },
+  "restart_encoding": {
+    "positive": "sat",
+    "whole_edge_obligations": 429,
+    "complete_rows": 335,
+    "columns": 12127,
+    "prior_root_literals_not_imported": true,
+    "current_root_explicit": true
+  }
+}

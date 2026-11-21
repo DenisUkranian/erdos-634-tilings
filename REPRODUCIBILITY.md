@@ -2,6 +2,34 @@
 
 **v0.3.0 + 21 November 2026 continuation**
 
+## 21 November 2026: unrestricted whole contacts and supported polygons
+
+The new package is included in `scripts/verify_all.py`:
+
+```sh
+python3 research/2026-11-21/semiprimes/through-contact-closure/replay.py
+```
+
+Its default checks use only ordinary Python. They reconstruct the complete
+corner roots, whole through and opposite-bank catalogues, exact spatial
+exclusion controls, simple supported polygons, signed population arithmetic,
+and frozen Boolean/PB proof traces. Independent metric checks reject
+corrupted models and polygon witnesses. The genuine 143 tiling is retained,
+including its strict T contacts and shared owners. Optional `--with-solver`
+adds integrated native `libz3` controls with rebuilding and restart; native
+solver availability is not a default CI dependency.
+
+The [global theorem](research/2026-11-21/semiprimes/through-contact-closure/GLOBAL_CONTACT_THEOREM.md)
+requires the complete exterior catalogues and completeness of every queried
+local obligation. It does not require all placements or any bounded height
+interval to have been generated. The [independent audit](research/2026-11-21/semiprimes/through-contact-closure/audit/README.md)
+regenerates each recorded constraint from actual metric geometry and
+population sources before a finite formula could be accepted for refutation.
+Successful semantic audits certify necessity, not inconsistency. No target
+UNSAT trace has been obtained. Compact checkpoints contain geometric
+regeneration sources and original snapshot hashes, not certified SAT formulas.
+**Both original targets and their remaining minimal odd modes are open.**
+
 ## 21 November 2026: native core costs, whole-gate integrality, and surviving projections
 
 The new package is included in `scripts/verify_all.py`:

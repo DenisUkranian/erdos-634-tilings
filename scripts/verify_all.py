@@ -60,6 +60,8 @@ def main():
         print('SEMIPRIME_MANDATORY_BANKS_PAIRED_RESERVES_AND_INTEGER_IMAGE=PASS',flush=True)
         reports['semiprime_native_boundary_gate_integrality']=run(['research/2026-11-21/semiprimes/full-closure-attempt/replay.py'],work)
         print('SEMIPRIME_NATIVE_CORE_WHOLE_GATE_AND_RELAXATION_LIMITS=PASS',flush=True)
+        reports['semiprime_whole_contact_geometry']=run(['research/2026-11-21/semiprimes/through-contact-closure/replay.py'],work)
+        print('SEMIPRIME_WHOLE_CONTACT_POLYGON_BUDGET_AND_PROOF_CONTROLS=PASS',flush=True)
         reports['november19']=run(['research/2026-11-19/verify.py'],work)
         print('NOVEMBER19_CENSUS_AND_CERTIFICATES=PASS',flush=True)
         nw=work/'research/n105'

@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "source_patterns": [
+    {
+      "N": 5063,
+      "id": "source-cut-0",
+      "source_support_size": 4,
+      "test_catalogue_size": 36,
+      "occurrences": 9,
+      "independent_complete_enumeration": true,
+      "direct": true,
+      "reflected": true,
+      "rotations_and_heights": [
+        -5,
+        0,
+        1,
+        7
+      ],
+      "anchor_choice_invariant": true,
+      "exact_labelled_vertices_and_side_support": true,
+      "missing_member_not_inserted": true,
+      "bad_reflection_rejected": true
+    },
+    {
+      "N": 5063,
+      "id": "source-cut-1",
+      "source_support_size": 5,
+      "test_catalogue_size": 45,
+      "occurrences": 9,
+      "independent_complete_enumeration": true,
+      "direct": true,
+      "reflected": true,
+      "rotations_and_heights": [
+        -5,
+        0,
+        1,
+        7
+      ],
+      "anchor_choice_invariant": true,
+      "exact_labelled_vertices_and_side_support": true,
+      "missing_member_not_inserted": true,
+      "bad_reflection_rejected": true
+    },
+    {
+      "N": 5063,
+      "id": "source-cut-2",
+      "source_support_size": 3,
+      "test_catalogue_size": 27,
+      "occurrences": 9,
+      "independent_complete_enumeration": true,
+      "direct": true,
+      "reflected": true,
+      "rotations_and_heights": [
+        -5,
+        0,
+        1,
+        7
+      ],
+      "anchor_choice_invariant": true,
+      "exact_labelled_vertices_and_side_support": true,
+      "missing_member_not_inserted": true,
+      "bad_reflection_rejected": true
+    },
+    {
+      "N": 5063,
+      "id": "source-cut-3",
+      "source_support_size": 3,
+      "test_catalogue_size": 27,
+      "occurrences": 9,
+      "independent_complete_enumeration": true,
+      "direct": true,
+      "reflected": true,
+      "rotations_and_heights": [
+        -5,
+        0,
+        1,
+        7
+      ],
+      "anchor_choice_invariant": true,
+      "exact_labelled_vertices_and_side_support": true,
+      "missing_member_not_inserted": true,
+      "bad_reflection_rejected": true
+    },
+    {
+      "N": 5063,
+      "id": "source-cut-4",
+      "source_support_size": 3,
+      "test_catalogue_size": 27,
+      "occurrences": 9,
+      "independent_complete_enumeration": true,
+      "direct": true,
+      "reflected": true,
+      "rotations_and_heights": [
+        -5,
+        0,
+        1,
+        7
+      ],
+      "anchor_choice_invariant": true,
+      "exact_labelled_vertices_and_side_support": true,
+      "missing_member_not_inserted": true,
+      "bad_reflection_rejected": true
+    },
+    {
+      "N": 5063,
+      "id": "source-cut-5",
+      "source_support_size": 3,
+      "test_catalogue_size": 27,
+      "occurrences": 9,
+      "independent_complete_enumeration": true,
+      "direct": true,
+      "reflected": true,
+      "rotations_and_heights": [
+        -5,
+        0,
+        1,
+        7
+      ],
+      "anchor_choice_invariant": true,
+      "exact_labelled_vertices_and_side_support": true,
+      "missing_member_not_inserted": true,
+      "bad_reflection_rejected": true
+    },
+    {
+      "N": 3431,
+      "id": "mixed-four-34-over-7",
+      "source_support_size": 4,
+      "test_catalogue_size": 36,
+      "occurrences": 9,
+      "independent_complete_enumeration": true,
+      "direct": true,
+      "reflected": true,
+      "rotations_and_heights": [
+        -5,
+        0,
+        1,
+        7
+      ],
+      "anchor_choice_invariant": true,
+      "exact_labelled_vertices_and_side_support": true,
+      "missing_member_not_inserted": true,
+      "bad_reflection_rejected": true
+    }
+  ],
+  "seeds": [
+    {
+      "N": 3431,
+      "candidate_tiles": 7,
+      "noncongruent_patterns": 2,
+      "sha256": "d877ba486f1361f5e616bd86aaf78855cee53cd6ee12908b2b87b3519169deb0"
+    },
+    {
+      "N": 5063,
+      "candidate_tiles": 21,
+      "noncongruent_patterns": 6,
+      "sha256": "d8bf742f7639be8060dfa482698a2adb13dd3fc7e9851f5e553fb92c4b65e795"
+    }
+  ],
+  "control143": {
+    "actual_triangle_images": 143,
+    "all_labelled_isometries_valid": true,
+    "valid_source_cannot_be_promoted_to_no_good": true,
+    "rejected": false
+  },
+  "full_target_excluded": false,
+  "scope": "Exact local obstruction reuse. No target or complete corner-root exclusion."
+}

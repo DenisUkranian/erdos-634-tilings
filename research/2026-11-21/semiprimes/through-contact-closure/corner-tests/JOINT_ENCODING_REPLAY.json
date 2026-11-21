@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "N": 3431,
+      "sides": [
+        33,
+        7,
+        37
+      ],
+      "columns": 2721,
+      "whole_edge_obligations": 9,
+      "bank_cliques": 231,
+      "permanent_assertions": 463,
+      "same_cycle_support_before_cut": "sat",
+      "same_cycle_support_after_cut": "unsat",
+      "two_side_path_after_cut": "sat",
+      "same_cycle_support_after_rebuild": "unsat",
+      "two_side_path_after_rebuild": "sat",
+      "queued_pop_precedes_new_permanent_assertions": true,
+      "permanent_assertions_checked_before_rebuild": 463,
+      "permanent_assertions_checked_after_rebuild": 463,
+      "exact_coordinate_and_orientation_aliases_deduplicated": true,
+      "all_banks_share_the_global_tile_registry": true
+    },
+    {
+      "N": 5063,
+      "sides": [
+        35,
+        13,
+        43
+      ],
+      "columns": 3225,
+      "whole_edge_obligations": 9,
+      "bank_cliques": 273,
+      "permanent_assertions": 547,
+      "same_cycle_support_before_cut": "sat",
+      "same_cycle_support_after_cut": "unsat",
+      "two_side_path_after_cut": "sat",
+      "same_cycle_support_after_rebuild": "unsat",
+      "two_side_path_after_rebuild": "sat",
+      "queued_pop_precedes_new_permanent_assertions": true,
+      "permanent_assertions_checked_before_rebuild": 547,
+      "permanent_assertions_checked_after_rebuild": 547,
+      "exact_coordinate_and_orientation_aliases_deduplicated": true,
+      "all_banks_share_the_global_tile_registry": true
+    }
+  ],
+  "optional_phase_controls": [
+    {
+      "N": 3431,
+      "sides": [
+        33,
+        7,
+        37
+      ],
+      "columns": 2721,
+      "whole_edge_obligations": 9,
+      "bank_cliques": 231,
+      "permanent_assertions": 2242,
+      "same_cycle_support_before_cut": "sat",
+      "same_cycle_support_after_cut": "unsat",
+      "two_side_path_after_cut": "sat",
+      "same_cycle_support_after_rebuild": "unsat",
+      "two_side_path_after_rebuild": "sat",
+      "queued_pop_precedes_new_permanent_assertions": true,
+      "permanent_assertions_checked_before_rebuild": 2242,
+      "permanent_assertions_checked_after_rebuild": 2242,
+      "exact_coordinate_and_orientation_aliases_deduplicated": true,
+      "all_banks_share_the_global_tile_registry": true,
+      "ordinary_phase_limit_per_tree": 45,
+      "generated_phase_nodes": [
+        75,
+        75
+      ],
+      "phase_trees_are_separately_bounded": true
+    },
+    {
+      "N": 5063,
+      "sides": [
+        35,
+        13,
+        43
+      ],
+      "columns": 3225,
+      "whole_edge_obligations": 9,
+      "bank_cliques": 273,
+      "permanent_assertions": 2638,
+      "same_cycle_support_before_cut": "sat",
+      "same_cycle_support_after_cut": "unsat",
+      "two_side_path_after_cut": "sat",
+      "same_cycle_support_after_rebuild": "unsat",
+      "two_side_path_after_rebuild": "sat",
+      "queued_pop_precedes_new_permanent_assertions": true,
+      "permanent_assertions_checked_before_rebuild": 2638,
+      "permanent_assertions_checked_after_rebuild": 2638,
+      "exact_coordinate_and_orientation_aliases_deduplicated": true,
+      "all_banks_share_the_global_tile_registry": true,
+      "ordinary_phase_limit_per_tree": 58,
+      "generated_phase_nodes": [
+        87,
+        87
+      ],
+      "phase_trees_are_separately_bounded": true
+    }
+  ],
+  "sha256": {
+    "whole-edges/whole_edge_search.py": "7c304591f7053cf9f5c89e33938d2ddac4d5916dee97e07b2a67111277494a86",
+    "whole-edges/whole_edge_oracle.py": "ae983561f071f2b995589b5a9364ba4e47367cf4bcb2146162a4507bfc2467c4",
+    "owned/owned_search.py": "4fead62d641abe93931e9064632f7b903ab19e047677cd6d2ec1c529bbe0da7a",
+    "spatial/spatial_search.py": "78fd76de7454f4242206d84500ca574a4191e3d4c7c6028953eaaa37edcedfbb",
+    "corner-tests/long_cycles.py": "7f7d6a0eb045b2a9ac1ae4a97f798c27c7154b2150b494e7bee1059332861905",
+    "spatial/phase_whole_edge_search.py": "8eda5083ca5fa1d8a29df5f76f93ade7a1902d1cbaf79dc709702a938f3c9212"
+  },
+  "full_target_excluded": false,
+  "root_exclusions": 0,
+  "scope": "Small integration and assertion-lifetime controls; the universal cycle cut uses the separately cited written theorem."
+}

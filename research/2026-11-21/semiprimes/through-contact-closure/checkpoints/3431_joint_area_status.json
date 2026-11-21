@@ -1,0 +1,79 @@
+{
+  "format": "owned-through-search-status-v1",
+  "sides": [
+    33,
+    7,
+    37
+  ],
+  "N": 3431,
+  "iteration": 0,
+  "status": "solver-inconclusive",
+  "root": null,
+  "scope": "unrestricted-whole-board",
+  "full_target_excluded": false,
+  "temporary_row_equations": false,
+  "columns": 47530,
+  "complete_rows": 1109,
+  "owned_corner_roots": 36,
+  "owner_candidates": 1717,
+  "overlap_conflicts": 1195,
+  "permanent_assertions": 227649,
+  "seconds": 144.814,
+  "max_rss_mb": 1080.1,
+  "history": [
+    {
+      "iteration": 0,
+      "status": "unknown",
+      "columns": 47530,
+      "complete_rows": 1109,
+      "solve_seconds": 120.02,
+      "reason": "(:reason-unknown \"canceled\")"
+    }
+  ],
+  "whole_edge_obligations": 240,
+  "whole_edge_complete_tiles": 80,
+  "whole_edge_neighbor_candidates": 22584,
+  "supported_long_cycle_cuts": 1,
+  "geometric_restart": {
+    "source": "/workspace/scratch/5aa6dc40be45/through-search-runs/3431-population-area/necessary_model.json",
+    "sha256": "c93569e8255f56d28104d77603c73a134bfc49bd0fe5af637663c56663c2a64e",
+    "prior_root": null,
+    "prior_root_assumptions_imported": false,
+    "arbitrary_assertions_imported": false
+  },
+  "whole_edge_refinement": [],
+  "vertex_fans_per_round": 2,
+  "edge_tiles_per_round": 12,
+  "signed_population_node_counts": [
+    928,
+    1055
+  ],
+  "signed_core_residues": [
+    19,
+    8
+  ],
+  "signed_block_caps": [
+    45,
+    47
+  ],
+  "signed_bit_widths": [
+    6,
+    6
+  ],
+  "signed_even_delta": 1,
+  "joint_physical_heights": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "signed_strict_no_empty_ancestor": true,
+  "signed_query_caps_exported": true,
+  "signed_query_caps_permanent": false,
+  "signed_independent_semantic_audit_required": true
+}

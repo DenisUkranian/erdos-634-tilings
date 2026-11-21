@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "control_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+  "geometry": {
+    "physical_tiles": 143,
+    "local_owned_fans": 429,
+    "through_incidences": 38,
+    "distinct_through_tiles": 29,
+    "integer_offsets": true,
+    "deleted_owner_local_rejections": 114,
+    "arbitrary_height_overlap_checks": 18,
+    "charge_reserve_subset_checks": 264
+  },
+  "full_target_excluded": false,
+  "local_encoding": {
+    "local_positive": "sat",
+    "old_local_deleted_owner": "sat",
+    "new_local_deleted_owner": "unsat",
+    "local_variables": 15
+  },
+  "integrated_encoding": {
+    "integrated_positive": "sat",
+    "after_equivalent_rebuild": "sat",
+    "canonical_actual_owners": 29,
+    "full_selected_physical_rows": true,
+    "columns": 36434,
+    "complete_rows": 335,
+    "owned_fan_roots": 447,
+    "permanent_assertions": 19109,
+    "root_id": "O1-X2-Y2",
+    "temporary_rows": false
+  }
+}

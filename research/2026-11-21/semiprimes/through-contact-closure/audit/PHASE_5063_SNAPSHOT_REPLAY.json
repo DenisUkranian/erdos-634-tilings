@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "counts": {
+    "tiles": 127128,
+    "boundary_unit_intervals": 5063,
+    "complete_endpoint_rows": 2742,
+    "fan_states": 1301,
+    "fan_auxiliaries": 549,
+    "owned_corner_roots": 44,
+    "complete_owner_catalogues": 88,
+    "angular_cliques": 660,
+    "overlap_pairs": 2232,
+    "interior_point_cliques": 5373,
+    "whole_edge_unit_obligations": 15341,
+    "whole_edge_catalogues": 485,
+    "whole_edge_obligations": 540,
+    "whole_edge_bank_cliques": 14914,
+    "supported_long_cycle_cuts": 7,
+    "ordinary_phase_nodes_sign_1": 1797,
+    "ordinary_phase_nodes_sign_-1": 2019,
+    "ordinary_phase_tile_implications": 94309,
+    "ordinary_phase_cap_per_tree": 58,
+    "global_charge_reserves": 4,
+    "root_assumptions": 0,
+    "verified_permanent_assertions": 144725
+  },
+  "root": null,
+  "scope": "Independent exact regeneration of all supported finite geometric/Boolean clauses; no target refutation.",
+  "model_sha256": "e915be274642f428110b5f0f1cbee269929758ec4a8bb8e6181b6d4350184c7a",
+  "seconds": 66.593
+}

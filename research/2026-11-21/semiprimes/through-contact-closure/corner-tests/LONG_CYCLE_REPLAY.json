@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "targets": [
+    {
+      "N": 3431,
+      "synthetic_contained_nonoverlapping_cycles": [
+        {
+          "edge_count": 3,
+          "height": -5,
+          "twice_axial_area": "1369"
+        },
+        {
+          "edge_count": 3,
+          "height": -1,
+          "twice_axial_area": "1369"
+        },
+        {
+          "edge_count": 3,
+          "height": 0,
+          "twice_axial_area": "1369"
+        },
+        {
+          "edge_count": 3,
+          "height": 1,
+          "twice_axial_area": "1369"
+        },
+        {
+          "edge_count": 3,
+          "height": 7,
+          "twice_axial_area": "1369"
+        }
+      ],
+      "two_bank_duplicates_do_not_create_two_edge_cycles": true,
+      "alternative_edge_owner_checked": true,
+      "two_disjoint_components_yield_two_cycles": true,
+      "one_cycle_per_component_checked": true,
+      "initial_corner_roots_checked": 128,
+      "initial_root_exclusions": 0
+    },
+    {
+      "N": 5063,
+      "synthetic_contained_nonoverlapping_cycles": [
+        {
+          "edge_count": 3,
+          "height": -5,
+          "twice_axial_area": "1849"
+        },
+        {
+          "edge_count": 3,
+          "height": -1,
+          "twice_axial_area": "1849"
+        },
+        {
+          "edge_count": 3,
+          "height": 0,
+          "twice_axial_area": "1849"
+        },
+        {
+          "edge_count": 3,
+          "height": 1,
+          "twice_axial_area": "1849"
+        },
+        {
+          "edge_count": 3,
+          "height": 7,
+          "twice_axial_area": "1849"
+        }
+      ],
+      "two_bank_duplicates_do_not_create_two_edge_cycles": true,
+      "alternative_edge_owner_checked": true,
+      "two_disjoint_components_yield_two_cycles": true,
+      "one_cycle_per_component_checked": true,
+      "initial_corner_roots_checked": 128,
+      "initial_root_exclusions": 0
+    }
+  ],
+  "control143": {
+    "all143_long_sides_scanned": true,
+    "raw_cycles": 0,
+    "target_specific_no_good_disabled": true
+  },
+  "scope": "The helper exports exact selected-index necessary no-goods under the existing all-height supported-cycle theorem. No target completion or root exclusion is asserted by these controls."
+}

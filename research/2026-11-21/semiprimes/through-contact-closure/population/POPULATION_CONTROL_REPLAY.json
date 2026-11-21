@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "control_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+  "arithmetic": {
+    "physical143_verified": true,
+    "trees": [
+      {
+        "sign": 1,
+        "node_populations": [
+          {
+            "key": [
+              0,
+              0,
+              0
+            ],
+            "population": 38,
+            "blocks": 5
+          },
+          {
+            "key": [
+              1,
+              4,
+              0
+            ],
+            "population": 105,
+            "blocks": 15
+          }
+        ],
+        "required_ancestors": 0,
+        "empty_required_ancestors": 0,
+        "allocated_blocks": 20,
+        "available_blocks": 20
+      },
+      {
+        "sign": -1,
+        "node_populations": [
+          {
+            "key": [
+              -1,
+              0,
+              0
+            ],
+            "population": 105,
+            "blocks": 15
+          },
+          {
+            "key": [
+              0,
+              0,
+              0
+            ],
+            "population": 38,
+            "blocks": 5
+          }
+        ],
+        "required_ancestors": 0,
+        "empty_required_ancestors": 0,
+        "allocated_blocks": 20,
+        "available_blocks": 20
+      }
+    ],
+    "subset_allocations": 376,
+    "weighted_capacity_identities": 2772,
+    "trees_are_bounded_separately": true
+  },
+  "full_target_excluded": false,
+  "solver": {
+    "positive": "sat",
+    "after_equivalent_rebuild": "sat",
+    "underallocated_ordinary_node": "unsat",
+    "early_pool_caps_popped_before_growth": true,
+    "root_scope_preserved": true,
+    "root_id": "O1-X2-Y2",
+    "columns": 12127,
+    "complete_rows": 335,
+    "whole_edge_obligations": 429,
+    "population_node_counts": [
+      58,
+      100
+    ],
+    "population_variables": 1088,
+    "population_query_clauses": 196,
+    "permanent_assertions": 33111,
+    "weighted_query_scopes_before_rebuild": 3,
+    "weighted_query_scopes_after_rebuild": 1,
+    "duplicate_legacy_flush_injection": false,
+    "after_geometric_restart": "sat",
+    "restart_regenerates_population_from_placements": true,
+    "prior_root_literals_not_imported": true,
+    "restarted_columns": 12127
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "counts": {
+    "tiles": 770,
+    "boundary_unit_intervals": 143,
+    "complete_endpoint_rows": 6,
+    "fan_states": 18,
+    "fan_auxiliaries": 8,
+    "owned_corner_roots": 24,
+    "complete_owner_catalogues": 0,
+    "angular_cliques": 7,
+    "overlap_pairs": 0,
+    "interior_point_cliques": 0,
+    "global_charge_reserves": 4,
+    "root_assumptions": 6,
+    "verified_permanent_assertions": 175
+  },
+  "root": {
+    "id": "O1-X2-Y2",
+    "source": "research/2026-11-21/semiprimes/through-contact-closure/corners/ROOTS_143.json",
+    "sha256": "b7b7136b9b83f872664500e3c45f9164f9703ef9d0bfd8db1b9b108a28e28205"
+  },
+  "scope": "Independent exact regeneration of all supported finite geometric/Boolean clauses; no target refutation.",
+  "model_sha256": "934b7992345dd0e361c34918a58df533bfe557499091fa11d55fb0d385f9235f",
+  "seconds": 0.492
+}

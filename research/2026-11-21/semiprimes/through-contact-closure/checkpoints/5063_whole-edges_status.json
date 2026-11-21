@@ -1,0 +1,370 @@
+{
+  "format": "owned-through-search-status-v1",
+  "sides": [
+    35,
+    13,
+    43
+  ],
+  "N": 5063,
+  "iteration": 11,
+  "status": "column-resource-limit",
+  "root": null,
+  "scope": "unrestricted-whole-board",
+  "full_target_excluded": false,
+  "temporary_row_equations": false,
+  "columns": 183928,
+  "complete_rows": 3095,
+  "owned_corner_roots": 44,
+  "owner_candidates": 7579,
+  "overlap_conflicts": 6585,
+  "permanent_assertions": 70161,
+  "seconds": 223.432,
+  "max_rss_mb": 1738.7,
+  "history": [
+    {
+      "iteration": 0,
+      "status": "sat",
+      "columns": 25518,
+      "complete_rows": 6,
+      "solve_seconds": 1.181,
+      "selected": 157,
+      "selected_owners": 0,
+      "residual_rows": 618,
+      "overlap_pairs": 32,
+      "pending_selected_owner_rows": 0,
+      "whole_edges": {
+        "iteration": 0,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 1,
+        "completed_edge_tiles": 25,
+        "edge_obligations": 75,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 1,
+      "status": "sat",
+      "columns": 36018,
+      "complete_rows": 156,
+      "solve_seconds": 7.899,
+      "selected": 251,
+      "selected_owners": 1,
+      "residual_rows": 995,
+      "overlap_pairs": 135,
+      "pending_selected_owner_rows": 29,
+      "whole_edges": {
+        "iteration": 1,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 12,
+        "completed_edge_tiles": 50,
+        "edge_obligations": 150,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 2,
+      "status": "sat",
+      "columns": 47552,
+      "complete_rows": 334,
+      "solve_seconds": 5.85,
+      "selected": 256,
+      "selected_owners": 1,
+      "residual_rows": 998,
+      "overlap_pairs": 145,
+      "pending_selected_owner_rows": 55,
+      "whole_edges": {
+        "iteration": 2,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 24,
+        "completed_edge_tiles": 75,
+        "edge_obligations": 225,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 3,
+      "status": "sat",
+      "columns": 60672,
+      "complete_rows": 536,
+      "solve_seconds": 4.144,
+      "selected": 355,
+      "selected_owners": 3,
+      "residual_rows": 1248,
+      "overlap_pairs": 258,
+      "pending_selected_owner_rows": 125,
+      "whole_edges": {
+        "iteration": 3,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 47,
+        "completed_edge_tiles": 100,
+        "edge_obligations": 300,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 4,
+      "status": "sat",
+      "columns": 77159,
+      "complete_rows": 805,
+      "solve_seconds": 2.367,
+      "selected": 450,
+      "selected_owners": 3,
+      "residual_rows": 1480,
+      "overlap_pairs": 653,
+      "pending_selected_owner_rows": 207,
+      "whole_edges": {
+        "iteration": 4,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 79,
+        "completed_edge_tiles": 125,
+        "edge_obligations": 375,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 5,
+      "status": "sat",
+      "columns": 91773,
+      "complete_rows": 1098,
+      "solve_seconds": 6.418,
+      "selected": 406,
+      "selected_owners": 5,
+      "residual_rows": 1600,
+      "overlap_pairs": 985,
+      "pending_selected_owner_rows": 139,
+      "whole_edges": {
+        "iteration": 5,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 60,
+        "completed_edge_tiles": 150,
+        "edge_obligations": 450,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 6,
+      "status": "sat",
+      "columns": 105287,
+      "complete_rows": 1383,
+      "solve_seconds": 22.671,
+      "selected": 336,
+      "selected_owners": 6,
+      "residual_rows": 1311,
+      "overlap_pairs": 455,
+      "pending_selected_owner_rows": 92,
+      "whole_edges": {
+        "iteration": 6,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 43,
+        "completed_edge_tiles": 175,
+        "edge_obligations": 525,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 7,
+      "status": "sat",
+      "columns": 118868,
+      "complete_rows": 1621,
+      "solve_seconds": 9.127,
+      "selected": 426,
+      "selected_owners": 5,
+      "residual_rows": 1546,
+      "overlap_pairs": 526,
+      "pending_selected_owner_rows": 183,
+      "whole_edges": {
+        "iteration": 7,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 67,
+        "completed_edge_tiles": 200,
+        "edge_obligations": 600,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 8,
+      "status": "sat",
+      "columns": 134483,
+      "complete_rows": 1917,
+      "solve_seconds": 5.692,
+      "selected": 389,
+      "selected_owners": 6,
+      "residual_rows": 1436,
+      "overlap_pairs": 795,
+      "pending_selected_owner_rows": 251,
+      "whole_edges": {
+        "iteration": 8,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 83,
+        "completed_edge_tiles": 225,
+        "edge_obligations": 675,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 9,
+      "status": "sat",
+      "columns": 147112,
+      "complete_rows": 2214,
+      "solve_seconds": 32.389,
+      "selected": 463,
+      "selected_owners": 7,
+      "residual_rows": 1812,
+      "overlap_pairs": 1032,
+      "pending_selected_owner_rows": 337,
+      "whole_edges": {
+        "iteration": 9,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 102,
+        "completed_edge_tiles": 250,
+        "edge_obligations": 750,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 10,
+      "status": "sat",
+      "columns": 159817,
+      "complete_rows": 2513,
+      "solve_seconds": 22.615,
+      "selected": 387,
+      "selected_owners": 8,
+      "residual_rows": 1467,
+      "overlap_pairs": 1000,
+      "pending_selected_owner_rows": 268,
+      "whole_edges": {
+        "iteration": 10,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 77,
+        "completed_edge_tiles": 275,
+        "edge_obligations": 825,
+        "vertex_fans": 2
+      }
+    },
+    {
+      "iteration": 11,
+      "status": "sat",
+      "columns": 171282,
+      "complete_rows": 2808,
+      "solve_seconds": 9.984,
+      "selected": 338,
+      "selected_owners": 6,
+      "residual_rows": 1286,
+      "overlap_pairs": 569,
+      "pending_selected_owner_rows": 138,
+      "whole_edges": {
+        "iteration": 11,
+        "new_edge_tiles": 25,
+        "selected_edge_neighbors": 56,
+        "completed_edge_tiles": 300,
+        "edge_obligations": 900,
+        "vertex_fans": 2
+      }
+    }
+  ],
+  "whole_edge_obligations": 900,
+  "whole_edge_complete_tiles": 300,
+  "whole_edge_neighbor_candidates": 136468,
+  "whole_edge_refinement": [
+    {
+      "iteration": 0,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 1,
+      "completed_edge_tiles": 25,
+      "edge_obligations": 75,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 1,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 12,
+      "completed_edge_tiles": 50,
+      "edge_obligations": 150,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 2,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 24,
+      "completed_edge_tiles": 75,
+      "edge_obligations": 225,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 3,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 47,
+      "completed_edge_tiles": 100,
+      "edge_obligations": 300,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 4,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 79,
+      "completed_edge_tiles": 125,
+      "edge_obligations": 375,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 5,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 60,
+      "completed_edge_tiles": 150,
+      "edge_obligations": 450,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 6,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 43,
+      "completed_edge_tiles": 175,
+      "edge_obligations": 525,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 7,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 67,
+      "completed_edge_tiles": 200,
+      "edge_obligations": 600,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 8,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 83,
+      "completed_edge_tiles": 225,
+      "edge_obligations": 675,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 9,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 102,
+      "completed_edge_tiles": 250,
+      "edge_obligations": 750,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 10,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 77,
+      "completed_edge_tiles": 275,
+      "edge_obligations": 825,
+      "vertex_fans": 2
+    },
+    {
+      "iteration": 11,
+      "new_edge_tiles": 25,
+      "selected_edge_neighbors": 56,
+      "completed_edge_tiles": 300,
+      "edge_obligations": 900,
+      "vertex_fans": 2
+    }
+  ],
+  "vertex_fans_per_round": 2,
+  "edge_tiles_per_round": 25,
+  "checkpoint": "5063_whole-edges_model.json.gz",
+  "model_sha256": "cb1ca1079c09a526f452c95f8e021f70c2d6f3af614115226a464ef6474f1b92"
+}

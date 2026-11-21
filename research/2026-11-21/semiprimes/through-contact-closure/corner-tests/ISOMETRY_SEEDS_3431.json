@@ -1,0 +1,370 @@
+{
+  "format": "isometry-seed-patterns-v1",
+  "sides": [
+    33,
+    7,
+    37
+  ],
+  "N": 3431,
+  "tiles": [
+    [
+      [
+        160,
+        387,
+        0
+      ],
+      0,
+      0,
+      1
+    ],
+    [
+      [
+        127,
+        427,
+        0
+      ],
+      0,
+      2,
+      1
+    ],
+    [
+      [
+        120,
+        394,
+        0
+      ],
+      0,
+      4,
+      1
+    ],
+    [
+      [
+        21,
+        0,
+        0
+      ],
+      0,
+      4,
+      -1
+    ],
+    [
+      [
+        826,
+        231,
+        1
+      ],
+      -1,
+      3,
+      1
+    ],
+    [
+      [
+        58,
+        0,
+        0
+      ],
+      0,
+      5,
+      1
+    ],
+    [
+      [
+        33,
+        33,
+        0
+      ],
+      0,
+      0,
+      1
+    ]
+  ],
+  "general_area_cycle_cuts": [
+    {
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "vertices": [
+        [
+          120,
+          427,
+          0
+        ],
+        [
+          127,
+          387,
+          0
+        ],
+        [
+          160,
+          394,
+          0
+        ],
+        [
+          120,
+          427,
+          0
+        ]
+      ],
+      "edges": [
+        {
+          "start": [
+            120,
+            427,
+            0
+          ],
+          "end": [
+            127,
+            387,
+            0
+          ],
+          "representative": 2,
+          "side": 2,
+          "selected_owners": [
+            2
+          ],
+          "length": "37",
+          "direction": [
+            1,
+            4
+          ]
+        },
+        {
+          "start": [
+            127,
+            387,
+            0
+          ],
+          "end": [
+            160,
+            394,
+            0
+          ],
+          "representative": 0,
+          "side": 2,
+          "selected_owners": [
+            0
+          ],
+          "length": "37",
+          "direction": [
+            1,
+            0
+          ]
+        },
+        {
+          "start": [
+            160,
+            394,
+            0
+          ],
+          "end": [
+            120,
+            427,
+            0
+          ],
+          "representative": 1,
+          "side": 2,
+          "selected_owners": [
+            1
+          ],
+          "length": "37",
+          "direction": [
+            1,
+            2
+          ]
+        }
+      ],
+      "twice_axial_area": "1369",
+      "tile_area_ratio": "1369/231",
+      "budget": {
+        "W0": "111",
+        "W1": "-111",
+        "even_charge": "-1369/231",
+        "odd_charge": "-962/231",
+        "violations": [
+          "nonintegral_area",
+          "nonintegral_even_charge",
+          "nonintegral_odd_charge"
+        ]
+      },
+      "greedy_selected_count": 3
+    },
+    {
+      "indices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "vertices": [
+        [
+          21,
+          0,
+          0
+        ],
+        [
+          826,
+          231,
+          1
+        ],
+        [
+          58,
+          0,
+          0
+        ],
+        [
+          25,
+          33,
+          0
+        ],
+        [
+          21,
+          33,
+          0
+        ],
+        [
+          21,
+          0,
+          0
+        ]
+      ],
+      "edges": [
+        {
+          "start": [
+            21,
+            0,
+            0
+          ],
+          "end": [
+            826,
+            231,
+            1
+          ],
+          "representative": 4,
+          "side": 1,
+          "selected_owners": [
+            4
+          ],
+          "length": "7",
+          "direction": [
+            -1,
+            1
+          ]
+        },
+        {
+          "start": [
+            826,
+            231,
+            1
+          ],
+          "end": [
+            58,
+            0,
+            0
+          ],
+          "representative": 4,
+          "side": 0,
+          "selected_owners": [
+            4
+          ],
+          "length": "33",
+          "direction": [
+            -1,
+            0
+          ]
+        },
+        {
+          "start": [
+            58,
+            0,
+            0
+          ],
+          "end": [
+            25,
+            33,
+            0
+          ],
+          "representative": 5,
+          "side": 0,
+          "selected_owners": [
+            5
+          ],
+          "length": "33",
+          "direction": [
+            0,
+            2
+          ]
+        },
+        {
+          "start": [
+            25,
+            33,
+            0
+          ],
+          "end": [
+            21,
+            33,
+            0
+          ],
+          "representative": 6,
+          "side": 0,
+          "selected_owners": [
+            6
+          ],
+          "length": "4",
+          "direction": [
+            0,
+            3
+          ]
+        },
+        {
+          "start": [
+            21,
+            33,
+            0
+          ],
+          "end": [
+            21,
+            0,
+            0
+          ],
+          "representative": 3,
+          "side": 1,
+          "selected_owners": [
+            3
+          ],
+          "length": "33",
+          "direction": [
+            0,
+            4
+          ]
+        }
+      ],
+      "twice_axial_area": "1122",
+      "tile_area_ratio": "34/7",
+      "budget": {
+        "W0": "88",
+        "W1": "36",
+        "even_charge": "-26/7",
+        "odd_charge": "-30/7",
+        "violations": [
+          "nonintegral_area",
+          "nonintegral_even_charge",
+          "nonintegral_odd_charge"
+        ]
+      },
+      "greedy_selected_count": 4
+    }
+  ],
+  "general_area_cycle_rule": "integral-tile-area-and-two-signed-characters-v1",
+  "pattern_labels": [
+    "pure-long-triangle",
+    "mixed-four-34-over-7"
+  ],
+  "full_target_excluded": false,
+  "source_pattern_files": [
+    "AREA_CYCLE_REPLAY.json",
+    "ISOMETRY_SOURCE_PATTERNS_3431.json"
+  ]
+}

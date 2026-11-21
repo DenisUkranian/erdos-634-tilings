@@ -2,6 +2,12 @@
 
 The [project overview](README.md) summarizes current work. The dated entries below preserve the original claims, qualifications and source links.
 
+## 21 November 2026: whole contacts, polygon charge capacity, and finite proof audits
+
+[Global contact and completion theorem](research/2026-11-21/semiprimes/through-contact-closure/GLOBAL_CONTACT_THEOREM.md): complete local catalogues of actual whole tiles couple geometry and remaining signed populations without a finite height or placement-box restriction. A localized polygon inequality counts compulsory interior owners once and reserves capacity for missing charges. The [whole-side model](research/2026-11-21/semiprimes/through-contact-closure/whole-edges/README.md) includes T-junctions and has an exact full-selection completion criterion. [Supported polygon cuts](research/2026-11-21/semiprimes/through-contact-closure/corner-tests/AREA_CYCLE_CUTS.md) reject fractional holes while preserving valid integer mixed-height cycles; an actual five-tile 5063 support encloses `86/13` tile areas. Isometric occurrences carry their own exact coordinate witnesses.
+
+[Signed node and shared-height capacities](research/2026-11-21/semiprimes/through-contact-closure/population/JOINT_README.md) preserve the genuine 143 tiling under solving, rebuilding, and geometric restart. [Independent semantic and refutation audits](research/2026-11-21/semiprimes/through-contact-closure/audit/README.md) verify full necessary target formulas and provide a separate solver-free trace checker. These checks do not constitute an UNSAT trace for either target. [Replays, inconclusive searches, and compact geometric checkpoints](research/2026-11-21/semiprimes/through-contact-closure/README.md). **Both original counts and their remaining odd-population modes stay open.**
+
 ## 21 November 2026: native boundary reserves and whole-gate integrality
 
 [Inhomogeneous native core bounds](research/2026-11-21/semiprimes/full-closure-attempt/core-budget/README.md): retain the actual exterior endpoint source and certify core populations 212/397/582 for the three minimal 3431 charges and 677 for the stated native 5063 subcase. The [independent polygon audit](research/2026-11-21/semiprimes/full-closure-attempt/target5063/CORE_BUDGET_INDEPENDENT_AUDIT.md) checks the source, every single/pair score, both sign residues, and the genuine 143 control. Remote even nodes are permitted under the one-native-odd-cell hypothesis.

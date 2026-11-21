@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "boards": [
+    {
+      "N": 3431,
+      "raw_patterns": 128,
+      "surviving_patterns": 128,
+      "distinct_physical_roots": 128,
+      "independent_corner_variants": 16,
+      "unequal_seam_variants_retained": 10,
+      "root_triangle_pair_checks": 1920,
+      "boundary_semigroup_check": "Independent shortest-residue algorithm",
+      "height_or_odd_population_cutoff": false,
+      "seam_constraints": {
+        "forbidden_seam_pair_thresholds_checked": 4,
+        "additional_root_exclusions": 0,
+        "all_meeting_distances_exceed_largest_corner_side": true
+      }
+    },
+    {
+      "N": 5063,
+      "raw_patterns": 128,
+      "surviving_patterns": 128,
+      "distinct_physical_roots": 128,
+      "independent_corner_variants": 16,
+      "unequal_seam_variants_retained": 10,
+      "root_triangle_pair_checks": 1920,
+      "boundary_semigroup_check": "Independent shortest-residue algorithm",
+      "height_or_odd_population_cutoff": false,
+      "seam_constraints": {
+        "forbidden_seam_pair_thresholds_checked": 4,
+        "additional_root_exclusions": 0,
+        "all_meeting_distances_exceed_largest_corner_side": true
+      }
+    },
+    {
+      "N": 143,
+      "raw_patterns": 128,
+      "surviving_patterns": 128,
+      "distinct_physical_roots": 128,
+      "independent_corner_variants": 16,
+      "unequal_seam_variants_retained": 10,
+      "root_triangle_pair_checks": 1920,
+      "boundary_semigroup_check": "Independent shortest-residue algorithm",
+      "height_or_odd_population_cutoff": false,
+      "seam_constraints": {
+        "forbidden_seam_pair_thresholds_checked": 4,
+        "additional_root_exclusions": 0,
+        "all_meeting_distances_exceed_largest_corner_side": true
+      },
+      "positive_143_control": {
+        "whole_tiling_checked": true,
+        "pairwise_interior_disjointness_checks": 10153,
+        "area_and_containment_checked": true,
+        "corner_tile_counts": [
+          2,
+          2,
+          2
+        ],
+        "surviving_root": "O1-X2-Y2"
+      }
+    }
+  ],
+  "scope": "Complete necessary corner-root enumeration only. No full target exclusion or completion is asserted."
+}

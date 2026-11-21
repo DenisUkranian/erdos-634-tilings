@@ -1,0 +1,726 @@
+{
+  "format": "owned-through-search-status-v1",
+  "sides": [
+    33,
+    7,
+    37
+  ],
+  "N": 3431,
+  "iteration": 22,
+  "status": "column-resource-limit",
+  "root": null,
+  "scope": "unrestricted-whole-board",
+  "full_target_excluded": false,
+  "temporary_row_equations": false,
+  "columns": 183973,
+  "complete_rows": 5896,
+  "owned_corner_roots": 66,
+  "owner_candidates": 7468,
+  "overlap_conflicts": 9714,
+  "permanent_assertions": 247472,
+  "seconds": 350.57,
+  "max_rss_mb": 2237.3,
+  "history": [
+    {
+      "iteration": 0,
+      "status": "sat",
+      "columns": 17936,
+      "complete_rows": 6,
+      "solve_seconds": 2.073,
+      "selected": 317,
+      "selected_owners": 0,
+      "residual_rows": 1256,
+      "overlap_pairs": 152,
+      "pending_selected_owner_rows": 0,
+      "whole_edges": {
+        "iteration": 0,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 1,
+        "completed_edge_tiles": 15,
+        "edge_obligations": 45,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 1,
+      "status": "sat",
+      "columns": 24294,
+      "complete_rows": 156,
+      "solve_seconds": 0.808,
+      "selected": 331,
+      "selected_owners": 0,
+      "residual_rows": 1230,
+      "overlap_pairs": 181,
+      "pending_selected_owner_rows": 92,
+      "whole_edges": {
+        "iteration": 1,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 29,
+        "completed_edge_tiles": 30,
+        "edge_obligations": 90,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 2,
+      "status": "sat",
+      "columns": 33867,
+      "complete_rows": 396,
+      "solve_seconds": 0.709,
+      "selected": 415,
+      "selected_owners": 1,
+      "residual_rows": 1304,
+      "overlap_pairs": 448,
+      "pending_selected_owner_rows": 215,
+      "whole_edges": {
+        "iteration": 2,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 65,
+        "completed_edge_tiles": 45,
+        "edge_obligations": 135,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 2
+      }
+    },
+    {
+      "iteration": 3,
+      "status": "sat",
+      "columns": 41262,
+      "complete_rows": 685,
+      "solve_seconds": 1.955,
+      "selected": 333,
+      "selected_owners": 1,
+      "residual_rows": 1272,
+      "overlap_pairs": 194,
+      "pending_selected_owner_rows": 50,
+      "whole_edges": {
+        "iteration": 3,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 21,
+        "completed_edge_tiles": 60,
+        "edge_obligations": 180,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 4,
+      "status": "sat",
+      "columns": 49956,
+      "complete_rows": 884,
+      "solve_seconds": 3.55,
+      "selected": 318,
+      "selected_owners": 2,
+      "residual_rows": 1228,
+      "overlap_pairs": 207,
+      "pending_selected_owner_rows": 55,
+      "whole_edges": {
+        "iteration": 4,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 20,
+        "completed_edge_tiles": 75,
+        "edge_obligations": 225,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 5,
+      "status": "sat",
+      "columns": 58987,
+      "complete_rows": 1088,
+      "solve_seconds": 1.968,
+      "selected": 335,
+      "selected_owners": 1,
+      "residual_rows": 1202,
+      "overlap_pairs": 140,
+      "pending_selected_owner_rows": 87,
+      "whole_edges": {
+        "iteration": 5,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 34,
+        "completed_edge_tiles": 90,
+        "edge_obligations": 270,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 6,
+      "status": "sat",
+      "columns": 68251,
+      "complete_rows": 1325,
+      "solve_seconds": 3.606,
+      "selected": 386,
+      "selected_owners": 2,
+      "residual_rows": 1378,
+      "overlap_pairs": 234,
+      "pending_selected_owner_rows": 88,
+      "whole_edges": {
+        "iteration": 6,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 36,
+        "completed_edge_tiles": 105,
+        "edge_obligations": 315,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 7,
+      "status": "sat",
+      "columns": 75131,
+      "complete_rows": 1558,
+      "solve_seconds": 2.322,
+      "selected": 465,
+      "selected_owners": 2,
+      "residual_rows": 1476,
+      "overlap_pairs": 365,
+      "pending_selected_owner_rows": 127,
+      "whole_edges": {
+        "iteration": 7,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 50,
+        "completed_edge_tiles": 120,
+        "edge_obligations": 360,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 2
+      }
+    },
+    {
+      "iteration": 8,
+      "status": "sat",
+      "columns": 82397,
+      "complete_rows": 1833,
+      "solve_seconds": 3.717,
+      "selected": 422,
+      "selected_owners": 3,
+      "residual_rows": 1288,
+      "overlap_pairs": 212,
+      "pending_selected_owner_rows": 83,
+      "whole_edges": {
+        "iteration": 8,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 28,
+        "completed_edge_tiles": 135,
+        "edge_obligations": 405,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 9,
+      "status": "sat",
+      "columns": 89963,
+      "complete_rows": 2063,
+      "solve_seconds": 3.067,
+      "selected": 444,
+      "selected_owners": 4,
+      "residual_rows": 1419,
+      "overlap_pairs": 479,
+      "pending_selected_owner_rows": 104,
+      "whole_edges": {
+        "iteration": 9,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 48,
+        "completed_edge_tiles": 150,
+        "edge_obligations": 450,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 1
+      }
+    },
+    {
+      "iteration": 10,
+      "status": "sat",
+      "columns": 96736,
+      "complete_rows": 2310,
+      "solve_seconds": 4.599,
+      "selected": 334,
+      "selected_owners": 8,
+      "residual_rows": 1214,
+      "overlap_pairs": 506,
+      "pending_selected_owner_rows": 138,
+      "whole_edges": {
+        "iteration": 10,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 49,
+        "completed_edge_tiles": 165,
+        "edge_obligations": 495,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 11,
+      "status": "sat",
+      "columns": 103492,
+      "complete_rows": 2593,
+      "solve_seconds": 2.638,
+      "selected": 366,
+      "selected_owners": 8,
+      "residual_rows": 1194,
+      "overlap_pairs": 453,
+      "pending_selected_owner_rows": 121,
+      "whole_edges": {
+        "iteration": 11,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 47,
+        "completed_edge_tiles": 180,
+        "edge_obligations": 540,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 12,
+      "status": "sat",
+      "columns": 111158,
+      "complete_rows": 2863,
+      "solve_seconds": 3.849,
+      "selected": 424,
+      "selected_owners": 8,
+      "residual_rows": 1324,
+      "overlap_pairs": 711,
+      "pending_selected_owner_rows": 143,
+      "whole_edges": {
+        "iteration": 12,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 52,
+        "completed_edge_tiles": 195,
+        "edge_obligations": 585,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 2
+      }
+    },
+    {
+      "iteration": 13,
+      "status": "sat",
+      "columns": 118440,
+      "complete_rows": 3154,
+      "solve_seconds": 3.799,
+      "selected": 433,
+      "selected_owners": 10,
+      "residual_rows": 1274,
+      "overlap_pairs": 555,
+      "pending_selected_owner_rows": 196,
+      "whole_edges": {
+        "iteration": 13,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 64,
+        "completed_edge_tiles": 210,
+        "edge_obligations": 630,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 1
+      }
+    },
+    {
+      "iteration": 14,
+      "status": "sat",
+      "columns": 123828,
+      "complete_rows": 3447,
+      "solve_seconds": 10.546,
+      "selected": 403,
+      "selected_owners": 6,
+      "residual_rows": 1444,
+      "overlap_pairs": 438,
+      "pending_selected_owner_rows": 122,
+      "whole_edges": {
+        "iteration": 14,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 40,
+        "completed_edge_tiles": 225,
+        "edge_obligations": 675,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 15,
+      "status": "sat",
+      "columns": 130349,
+      "complete_rows": 3714,
+      "solve_seconds": 7.138,
+      "selected": 438,
+      "selected_owners": 5,
+      "residual_rows": 1550,
+      "overlap_pairs": 533,
+      "pending_selected_owner_rows": 160,
+      "whole_edges": {
+        "iteration": 15,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 54,
+        "completed_edge_tiles": 240,
+        "edge_obligations": 720,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 16,
+      "status": "sat",
+      "columns": 136761,
+      "complete_rows": 4008,
+      "solve_seconds": 9.637,
+      "selected": 428,
+      "selected_owners": 3,
+      "residual_rows": 1390,
+      "overlap_pairs": 363,
+      "pending_selected_owner_rows": 92,
+      "whole_edges": {
+        "iteration": 16,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 44,
+        "completed_edge_tiles": 255,
+        "edge_obligations": 765,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 1
+      }
+    },
+    {
+      "iteration": 17,
+      "status": "sat",
+      "columns": 144665,
+      "complete_rows": 4250,
+      "solve_seconds": 13.369,
+      "selected": 470,
+      "selected_owners": 2,
+      "residual_rows": 1687,
+      "overlap_pairs": 679,
+      "pending_selected_owner_rows": 125,
+      "whole_edges": {
+        "iteration": 17,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 43,
+        "completed_edge_tiles": 270,
+        "edge_obligations": 810,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 18,
+      "status": "sat",
+      "columns": 152386,
+      "complete_rows": 4519,
+      "solve_seconds": 7.175,
+      "selected": 425,
+      "selected_owners": 9,
+      "residual_rows": 1373,
+      "overlap_pairs": 453,
+      "pending_selected_owner_rows": 116,
+      "whole_edges": {
+        "iteration": 18,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 45,
+        "completed_edge_tiles": 285,
+        "edge_obligations": 855,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 19,
+      "status": "sat",
+      "columns": 158731,
+      "complete_rows": 4781,
+      "solve_seconds": 14.426,
+      "selected": 462,
+      "selected_owners": 9,
+      "residual_rows": 1618,
+      "overlap_pairs": 690,
+      "pending_selected_owner_rows": 194,
+      "whole_edges": {
+        "iteration": 19,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 71,
+        "completed_edge_tiles": 300,
+        "edge_obligations": 900,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 2
+      }
+    },
+    {
+      "iteration": 20,
+      "status": "sat",
+      "columns": 163993,
+      "complete_rows": 5076,
+      "solve_seconds": 4.46,
+      "selected": 301,
+      "selected_owners": 9,
+      "residual_rows": 762,
+      "overlap_pairs": 172,
+      "pending_selected_owner_rows": 83,
+      "whole_edges": {
+        "iteration": 20,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 44,
+        "completed_edge_tiles": 315,
+        "edge_obligations": 945,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 21,
+      "status": "sat",
+      "columns": 170288,
+      "complete_rows": 5306,
+      "solve_seconds": 19.27,
+      "selected": 407,
+      "selected_owners": 11,
+      "residual_rows": 1416,
+      "overlap_pairs": 855,
+      "pending_selected_owner_rows": 207,
+      "whole_edges": {
+        "iteration": 21,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 55,
+        "completed_edge_tiles": 330,
+        "edge_obligations": 990,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 22,
+      "status": "sat",
+      "columns": 177185,
+      "complete_rows": 5600,
+      "solve_seconds": 12.301,
+      "selected": 412,
+      "selected_owners": 13,
+      "residual_rows": 1315,
+      "overlap_pairs": 694,
+      "pending_selected_owner_rows": 153,
+      "whole_edges": {
+        "iteration": 22,
+        "new_edge_tiles": 15,
+        "selected_edge_neighbors": 55,
+        "completed_edge_tiles": 345,
+        "edge_obligations": 1035,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    }
+  ],
+  "whole_edge_obligations": 1035,
+  "whole_edge_complete_tiles": 345,
+  "whole_edge_neighbor_candidates": 123827,
+  "supported_long_cycle_cuts": 11,
+  "geometric_restart": null,
+  "whole_edge_refinement": [
+    {
+      "iteration": 0,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 1,
+      "completed_edge_tiles": 15,
+      "edge_obligations": 45,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 1,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 29,
+      "completed_edge_tiles": 30,
+      "edge_obligations": 90,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 2,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 65,
+      "completed_edge_tiles": 45,
+      "edge_obligations": 135,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 2
+    },
+    {
+      "iteration": 3,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 21,
+      "completed_edge_tiles": 60,
+      "edge_obligations": 180,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 4,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 20,
+      "completed_edge_tiles": 75,
+      "edge_obligations": 225,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 5,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 34,
+      "completed_edge_tiles": 90,
+      "edge_obligations": 270,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 6,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 36,
+      "completed_edge_tiles": 105,
+      "edge_obligations": 315,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 7,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 50,
+      "completed_edge_tiles": 120,
+      "edge_obligations": 360,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 2
+    },
+    {
+      "iteration": 8,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 28,
+      "completed_edge_tiles": 135,
+      "edge_obligations": 405,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 9,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 48,
+      "completed_edge_tiles": 150,
+      "edge_obligations": 450,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 1
+    },
+    {
+      "iteration": 10,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 49,
+      "completed_edge_tiles": 165,
+      "edge_obligations": 495,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 11,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 47,
+      "completed_edge_tiles": 180,
+      "edge_obligations": 540,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 12,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 52,
+      "completed_edge_tiles": 195,
+      "edge_obligations": 585,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 2
+    },
+    {
+      "iteration": 13,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 64,
+      "completed_edge_tiles": 210,
+      "edge_obligations": 630,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 1
+    },
+    {
+      "iteration": 14,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 40,
+      "completed_edge_tiles": 225,
+      "edge_obligations": 675,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 15,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 54,
+      "completed_edge_tiles": 240,
+      "edge_obligations": 720,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 16,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 44,
+      "completed_edge_tiles": 255,
+      "edge_obligations": 765,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 1
+    },
+    {
+      "iteration": 17,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 43,
+      "completed_edge_tiles": 270,
+      "edge_obligations": 810,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 18,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 45,
+      "completed_edge_tiles": 285,
+      "edge_obligations": 855,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 19,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 71,
+      "completed_edge_tiles": 300,
+      "edge_obligations": 900,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 2
+    },
+    {
+      "iteration": 20,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 44,
+      "completed_edge_tiles": 315,
+      "edge_obligations": 945,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 21,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 55,
+      "completed_edge_tiles": 330,
+      "edge_obligations": 990,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 22,
+      "new_edge_tiles": 15,
+      "selected_edge_neighbors": 55,
+      "completed_edge_tiles": 345,
+      "edge_obligations": 1035,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    }
+  ],
+  "vertex_fans_per_round": 2,
+  "edge_tiles_per_round": 15,
+  "checkpoint": "3431_phase-whole_model.json.gz",
+  "model_sha256": "098c8f719c8598b4084562f7ef8f7e196538ddc08d44bd4043f445ed6cd1cb1a"
+}

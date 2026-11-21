@@ -1,0 +1,195 @@
+{
+  "format": "owned-through-search-status-v1",
+  "sides": [
+    33,
+    7,
+    37
+  ],
+  "N": 3431,
+  "iteration": 3,
+  "status": "solver-inconclusive",
+  "root": null,
+  "scope": "unrestricted-whole-board",
+  "full_target_excluded": false,
+  "temporary_row_equations": false,
+  "columns": 33911,
+  "complete_rows": 502,
+  "owned_corner_roots": 26,
+  "owner_candidates": 432,
+  "overlap_conflicts": 499,
+  "permanent_assertions": 152141,
+  "seconds": 340.084,
+  "max_rss_mb": 829.3,
+  "history": [
+    {
+      "iteration": 0,
+      "status": "sat",
+      "columns": 19909,
+      "complete_rows": 6,
+      "solve_seconds": 50.198,
+      "selected": 301,
+      "selected_owners": 0,
+      "residual_rows": 1184,
+      "overlap_pairs": 140,
+      "pending_selected_owner_rows": 105,
+      "new_area_charge_cycle_cuts": 0,
+      "whole_edges": {
+        "iteration": 0,
+        "new_edge_tiles": 12,
+        "selected_edge_neighbors": 24,
+        "completed_edge_tiles": 28,
+        "edge_obligations": 84,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 1,
+      "status": "sat",
+      "columns": 25327,
+      "complete_rows": 203,
+      "solve_seconds": 42.462,
+      "selected": 288,
+      "selected_owners": 2,
+      "residual_rows": 1097,
+      "overlap_pairs": 108,
+      "pending_selected_owner_rows": 64,
+      "new_area_charge_cycle_cuts": 0,
+      "whole_edges": {
+        "iteration": 1,
+        "new_edge_tiles": 12,
+        "selected_edge_neighbors": 24,
+        "completed_edge_tiles": 40,
+        "edge_obligations": 120,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 2,
+      "status": "sat",
+      "columns": 29597,
+      "complete_rows": 366,
+      "solve_seconds": 103.362,
+      "selected": 317,
+      "selected_owners": 1,
+      "residual_rows": 1193,
+      "overlap_pairs": 251,
+      "pending_selected_owner_rows": 40,
+      "new_area_charge_cycle_cuts": 1,
+      "whole_edges": {
+        "iteration": 2,
+        "new_edge_tiles": 12,
+        "selected_edge_neighbors": 26,
+        "completed_edge_tiles": 52,
+        "edge_obligations": 156,
+        "vertex_fans": 2,
+        "new_supported_cycle_cuts": 0
+      }
+    },
+    {
+      "iteration": 3,
+      "status": "unknown",
+      "columns": 33911,
+      "complete_rows": 502,
+      "solve_seconds": 120.019,
+      "reason": "(:reason-unknown \"canceled\")"
+    }
+  ],
+  "whole_edge_obligations": 156,
+  "whole_edge_complete_tiles": 52,
+  "whole_edge_neighbor_candidates": 13216,
+  "supported_long_cycle_cuts": 0,
+  "geometric_restart": null,
+  "whole_edge_refinement": [
+    {
+      "iteration": 0,
+      "new_edge_tiles": 12,
+      "selected_edge_neighbors": 24,
+      "completed_edge_tiles": 28,
+      "edge_obligations": 84,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 1,
+      "new_edge_tiles": 12,
+      "selected_edge_neighbors": 24,
+      "completed_edge_tiles": 40,
+      "edge_obligations": 120,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    },
+    {
+      "iteration": 2,
+      "new_edge_tiles": 12,
+      "selected_edge_neighbors": 26,
+      "completed_edge_tiles": 52,
+      "edge_obligations": 156,
+      "vertex_fans": 2,
+      "new_supported_cycle_cuts": 0
+    }
+  ],
+  "vertex_fans_per_round": 2,
+  "edge_tiles_per_round": 12,
+  "signed_population_node_counts": [
+    627,
+    698
+  ],
+  "signed_core_residues": [
+    19,
+    8
+  ],
+  "signed_block_caps": [
+    45,
+    47
+  ],
+  "signed_bit_widths": [
+    6,
+    6
+  ],
+  "signed_even_delta": 1,
+  "joint_physical_heights": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "signed_strict_no_empty_ancestor": true,
+  "signed_query_caps_exported": true,
+  "signed_query_caps_permanent": false,
+  "signed_independent_semantic_audit_required": true,
+  "general_area_cycle_cuts": 54,
+  "isometry_seed_patterns": 2,
+  "isometry_propagation": [
+    {
+      "columns": 19909,
+      "seed_patterns": 1,
+      "new_isometric_cuts": 0,
+      "total_area_cuts": 1
+    },
+    {
+      "columns": 25327,
+      "seed_patterns": 1,
+      "new_isometric_cuts": 0,
+      "total_area_cuts": 1
+    },
+    {
+      "columns": 29597,
+      "seed_patterns": 1,
+      "new_isometric_cuts": 2,
+      "total_area_cuts": 3
+    },
+    {
+      "columns": 33911,
+      "seed_patterns": 2,
+      "new_isometric_cuts": 50,
+      "total_area_cuts": 54
+    }
+  ]
+}

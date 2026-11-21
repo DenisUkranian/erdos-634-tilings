@@ -1,0 +1,170 @@
+{
+  "status": "PASS",
+  "control_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+  "arithmetic": {
+    "physical143_verified": true,
+    "core_residues": [
+      4,
+      6
+    ],
+    "signed_totals": [
+      67,
+      76
+    ],
+    "block_caps": [
+      9,
+      10
+    ],
+    "trees": [
+      {
+        "sign": 1,
+        "node_sign_populations": [
+          {
+            "key": [
+              0,
+              0,
+              0
+            ],
+            "epsilon": 1,
+            "population": 18,
+            "blocks": 2
+          },
+          {
+            "key": [
+              0,
+              0,
+              0
+            ],
+            "epsilon": -1,
+            "population": 20,
+            "blocks": 2
+          },
+          {
+            "key": [
+              1,
+              4,
+              0
+            ],
+            "epsilon": 1,
+            "population": 49,
+            "blocks": 7
+          },
+          {
+            "key": [
+              1,
+              4,
+              0
+            ],
+            "epsilon": -1,
+            "population": 56,
+            "blocks": 8
+          }
+        ]
+      },
+      {
+        "sign": -1,
+        "node_sign_populations": [
+          {
+            "key": [
+              -1,
+              0,
+              0
+            ],
+            "epsilon": 1,
+            "population": 49,
+            "blocks": 7
+          },
+          {
+            "key": [
+              -1,
+              0,
+              0
+            ],
+            "epsilon": -1,
+            "population": 56,
+            "blocks": 8
+          },
+          {
+            "key": [
+              0,
+              0,
+              0
+            ],
+            "epsilon": 1,
+            "population": 18,
+            "blocks": 2
+          },
+          {
+            "key": [
+              0,
+              0,
+              0
+            ],
+            "epsilon": -1,
+            "population": 20,
+            "blocks": 2
+          }
+        ]
+      }
+    ],
+    "physical_height_blocks": [
+      {
+        "height": 0,
+        "epsilon": 1,
+        "blocks": 2
+      },
+      {
+        "height": 0,
+        "epsilon": -1,
+        "blocks": 2
+      },
+      {
+        "height": 1,
+        "epsilon": 1,
+        "blocks": 7
+      },
+      {
+        "height": 1,
+        "epsilon": -1,
+        "blocks": 8
+      }
+    ],
+    "exact_parity_completion_cases": 13333,
+    "physical_height_cost_counted_once": true
+  },
+  "full_target_excluded": false,
+  "solver": {
+    "positive": "sat",
+    "after_equivalent_rebuild": "sat",
+    "underallocated_positive_node": "unsat",
+    "underallocated_common_height": "unsat",
+    "early_pool_caps_popped_before_growth": true,
+    "root_scope_preserved": true,
+    "root_id": "O1-X2-Y2",
+    "columns": 12127,
+    "complete_rows": 335,
+    "whole_edge_obligations": 429,
+    "signed_node_counts": [
+      58,
+      100
+    ],
+    "signed_and_joint_variables": 1610,
+    "joint_physical_heights": [
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "signed_and_joint_query_clauses": 640,
+    "permanent_assertions": 51916,
+    "weighted_query_scopes_before_rebuild": 4,
+    "weighted_query_scopes_after_rebuild": 1,
+    "duplicate_legacy_flush_injection": false,
+    "after_geometric_restart": "sat",
+    "restart_regenerates_signed_nodes_and_joint_heights": true,
+    "prior_root_literals_not_imported": true,
+    "restarted_columns": 12127
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "source_sha256": "9a93f7030516083ab81720c73acad51d6dcd97411cfba778a6fd4c08695ef2ca",
+  "independently_checked_forbidden_supports": [
+    {
+      "N": 3431,
+      "height": -5,
+      "area": "1369/231"
+    },
+    {
+      "N": 3431,
+      "height": -1,
+      "area": "1369/231"
+    },
+    {
+      "N": 3431,
+      "height": 0,
+      "area": "1369/231"
+    },
+    {
+      "N": 3431,
+      "height": 1,
+      "area": "1369/231"
+    },
+    {
+      "N": 3431,
+      "height": 7,
+      "area": "1369/231"
+    },
+    {
+      "N": 5063,
+      "height": -5,
+      "area": "1849/455"
+    },
+    {
+      "N": 5063,
+      "height": -1,
+      "area": "1849/455"
+    },
+    {
+      "N": 5063,
+      "height": 0,
+      "area": "1849/455"
+    },
+    {
+      "N": 5063,
+      "height": 1,
+      "area": "1849/455"
+    },
+    {
+      "N": 5063,
+      "height": 7,
+      "area": "1849/455"
+    }
+  ],
+  "rejected_corrupt_witnesses": 30,
+  "compatible_mixed_height_cycles": [
+    {
+      "N": 143,
+      "area": "14",
+      "charges": [
+        "0",
+        "0"
+      ],
+      "not_forbidden": true
+    },
+    {
+      "N": 3431,
+      "area": "74",
+      "charges": [
+        "0",
+        "0"
+      ],
+      "not_forbidden": true
+    },
+    {
+      "N": 5063,
+      "area": "86",
+      "charges": [
+        "0",
+        "0"
+      ],
+      "not_forbidden": true
+    }
+  ],
+  "scope": "Only local supported-polygon cuts and corrupt-witness controls; no target or corner root exclusion."
+}
