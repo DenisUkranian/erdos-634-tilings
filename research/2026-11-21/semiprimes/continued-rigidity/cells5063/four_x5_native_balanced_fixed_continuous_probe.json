@@ -1,0 +1,50 @@
+{
+  "tile": [
+    35,
+    13,
+    43
+  ],
+  "kind": "four",
+  "x": 5,
+  "native_row": 0,
+  "native_col": 0,
+  "fixed_native_profile": true,
+  "continuous_cell_currents": true,
+  "cells": [
+    [
+      0,
+      0,
+      5,
+      5
+    ],
+    [
+      0,
+      1,
+      38,
+      38
+    ],
+    [
+      1,
+      0,
+      38,
+      38
+    ],
+    [
+      1,
+      1,
+      48,
+      5
+    ]
+  ],
+  "seconds": 0.3359053260001019,
+  "trace": [
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "seconds": 0.33589779200065095,
+      "rows": 3648
+    }
+  ],
+  "finite_pool_integer_witness": null,
+  "scope": "Exploratory necessary shared-node integer gate projection only. No physical tiling or target infeasibility is established."
+}

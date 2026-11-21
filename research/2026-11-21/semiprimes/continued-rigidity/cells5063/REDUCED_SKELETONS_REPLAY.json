@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "remaining_four_cell_parameters": [
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    37,
+    40
+  ],
+  "parameter_count": 31,
+  "rejected_parameters": [
+    {
+      "x": 1,
+      "reasons": [
+        "charged_cell_minority_below_5",
+        "first_balanced_cell_population_excluded"
+      ]
+    },
+    {
+      "x": 2,
+      "reasons": [
+        "charged_cell_minority_below_5",
+        "first_balanced_cell_population_excluded"
+      ]
+    },
+    {
+      "x": 3,
+      "reasons": [
+        "charged_cell_minority_below_5"
+      ]
+    },
+    {
+      "x": 4,
+      "reasons": [
+        "charged_cell_minority_below_5",
+        "first_balanced_cell_population_excluded"
+      ]
+    },
+    {
+      "x": 5,
+      "reasons": [
+        "first_balanced_cell_population_excluded"
+      ]
+    },
+    {
+      "x": 7,
+      "reasons": [
+        "first_balanced_cell_population_excluded"
+      ]
+    },
+    {
+      "x": 36,
+      "reasons": [
+        "offdiagonal_balanced_cell_population_excluded"
+      ]
+    },
+    {
+      "x": 38,
+      "reasons": [
+        "offdiagonal_balanced_cell_population_excluded"
+      ]
+    },
+    {
+      "x": 39,
+      "reasons": [
+        "offdiagonal_balanced_cell_population_excluded"
+      ]
+    },
+    {
+      "x": 41,
+      "reasons": [
+        "offdiagonal_balanced_cell_population_excluded"
+      ]
+    },
+    {
+      "x": 42,
+      "reasons": [
+        "offdiagonal_balanced_cell_population_excluded"
+      ]
+    }
+  ],
+  "charged_cell_population_range": [
+    55,
+    123
+  ],
+  "containing_skeleton_counts": {
+    "one_cell": 1,
+    "two_cells": 168,
+    "four_cells": 218736,
+    "total": 218905
+  },
+  "previous_total": 296521,
+  "removed_skeletons": 77616,
+  "premise_replays": [
+    {
+      "path": "global/CELL_MINORITY_REPLAY.json",
+      "sha256": "982dff501ca0c5f690429eb41825006ba3fd00439e8df7d2024b6fee4435b5b1"
+    },
+    {
+      "path": "integer3431/SMALL_BALANCED_CELLS_REPLAY.json",
+      "sha256": "4ba38a67bb7a7e2c5be812216b9fb8cd2fad0f500c792b959cdd7dbf604abd82"
+    }
+  ],
+  "scope": "Necessary containing-list reduction for the 215 odd-tile mode only. No retained skeleton is claimed realizable; neither215 nor5063 is excluded."
+}

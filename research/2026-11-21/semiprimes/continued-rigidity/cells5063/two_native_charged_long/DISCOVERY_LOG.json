@@ -1,0 +1,179 @@
+[
+  {
+    "round": 0,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.7449987929994677,
+        "rows": 2083,
+        "violated_shifted_cuts": 12,
+        "objective": 43.0,
+        "activated_shift_families": 12
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 6.724941233998834,
+        "rows": 3127,
+        "violated_shifted_cuts": 4,
+        "objective": 43.000000000007056,
+        "activated_shift_families": 4
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 12.103348558999642,
+        "rows": 3475,
+        "violated_shifted_cuts": 4,
+        "objective": 42.99999999999989,
+        "activated_shift_families": 4
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 26.83060051299981,
+        "rows": 3823,
+        "violated_shifted_cuts": 3,
+        "objective": 42.99999999980378,
+        "activated_shift_families": 3
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 35.46942907399898,
+        "rows": 4084,
+        "violated_shifted_cuts": 2,
+        "objective": 42.99999999999967,
+        "activated_shift_families": 2
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 37.005168694999156,
+        "rows": 4258,
+        "violated_shifted_cuts": 22,
+        "objective": 43.0,
+        "activated_shift_families": 22
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 39.21743077999963,
+        "rows": 6172,
+        "violated_shifted_cuts": 3,
+        "objective": 43.0,
+        "activated_shift_families": 3
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 44.569851696000114,
+        "rows": 6433,
+        "violated_shifted_cuts": 5,
+        "objective": 43.0,
+        "activated_shift_families": 5
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 56.940624281000055,
+        "rows": 6868,
+        "violated_shifted_cuts": 3,
+        "objective": 43.00000000000067,
+        "activated_shift_families": 3
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 65.58826627099916,
+        "rows": 7129,
+        "violated_shifted_cuts": 3,
+        "objective": 42.99999999999997,
+        "activated_shift_families": 3
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 76.12290578200009,
+        "rows": 7390,
+        "violated_shifted_cuts": 5,
+        "objective": 42.99999999999987,
+        "activated_shift_families": 5
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 82.5949382660001,
+        "rows": 7825,
+        "violated_shifted_cuts": 3,
+        "objective": 43.0,
+        "activated_shift_families": 3
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 88.83846495099897,
+        "rows": 8086,
+        "violated_shifted_cuts": 3,
+        "objective": 42.99999999999997,
+        "activated_shift_families": 3
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 96.395139672999,
+        "rows": 8347,
+        "violated_shifted_cuts": 4,
+        "objective": 42.999999999050885,
+        "activated_shift_families": 4
+      },
+      {
+        "status": 1,
+        "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+        "seconds": 127.49508647400035,
+        "rows": 8695,
+        "violated_shifted_cuts": 0,
+        "objective": 46.99999999999753
+      }
+    ],
+    "new_duals": [],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 4.914125724999394,
+        "oracle": "full_endpoint_columns",
+        "scope": "Necessary full periodic endpoint relaxation. Only independently verified integral dual inequalities are exact; floating primal feasibility is not a tiling.",
+        "maximum_equality_residual": 3.169469894870325e-14,
+        "floating_minimum_population": 11.59843588427469,
+        "D": 1000002,
+        "lower_numerator": 11598436,
+        "lower_denominator": 1000002
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 6.24135767900043,
+        "oracle": "full_endpoint_columns",
+        "scope": "Necessary full periodic endpoint relaxation. Only independently verified integral dual inequalities are exact; floating primal feasibility is not a tiling.",
+        "maximum_equality_residual": 1.7763568394002505e-13,
+        "floating_minimum_population": 128.3062379139127,
+        "D": 1000002,
+        "lower_numerator": 128306238,
+        "lower_denominator": 1000002
+      }
+    ],
+    "stop": "No new certified cut from marginal/full-endpoint probes; inspect individual optimizer statuses. No tiling witness asserted."
+  }
+]

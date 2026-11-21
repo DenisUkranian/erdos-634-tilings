@@ -1,0 +1,8044 @@
+{
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "total": 14,
+  "raw_inventories": 1086,
+  "orbits": 161,
+  "checked": [
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          2,
+          1,
+          7
+        ],
+        [
+          5,
+          1,
+          7
+        ]
+      ],
+      "states": 1999,
+      "seconds": 0.013813903000482242,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          4,
+          1,
+          7
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 229,
+      "seconds": 0.002535024999815505,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 3453,
+      "seconds": 0.02355379599976004,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          6
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          6
+        ]
+      ],
+      "states": 6652,
+      "seconds": 0.04955580800015014,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          5
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          5
+        ]
+      ],
+      "states": 70663,
+      "seconds": 0.46455151899954217,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          4
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          4
+        ]
+      ],
+      "states": 223406,
+      "seconds": 1.4165476179996404,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          4
+        ]
+      ],
+      "states": 320,
+      "seconds": 0.002748095000242756,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          6
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          6
+        ]
+      ],
+      "states": 612,
+      "seconds": 0.004536100000223087,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          5,
+          -1,
+          1
+        ]
+      ],
+      "states": 12729,
+      "seconds": 0.092159427000297,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          5,
+          -1,
+          2
+        ]
+      ],
+      "states": 56730,
+      "seconds": 0.3593370059998051,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          3
+        ]
+      ],
+      "states": 93809,
+      "seconds": 0.5696819430004325,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          4
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          4
+        ]
+      ],
+      "states": 66579,
+      "seconds": 0.4129517390001638,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          5
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          5
+        ]
+      ],
+      "states": 17479,
+      "seconds": 0.11526078599945322,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          6
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          6
+        ]
+      ],
+      "states": 992,
+      "seconds": 0.006933853000191448,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          5
+        ]
+      ],
+      "states": 2025,
+      "seconds": 0.013547938999181497,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          4
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          4
+        ],
+        [
+          5,
+          -1,
+          2
+        ]
+      ],
+      "states": 8809,
+      "seconds": 0.06334443499963527,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          2
+        ]
+      ],
+      "states": 80145,
+      "seconds": 0.5697435680003764,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          3
+        ]
+      ],
+      "states": 84146,
+      "seconds": 0.5271790249998958,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          4
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          4
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 8449,
+      "seconds": 0.060436282999944524,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          5
+        ]
+      ],
+      "states": 2692,
+      "seconds": 0.01719262799997523,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          5,
+          -1,
+          3
+        ]
+      ],
+      "states": 7442,
+      "seconds": 0.052680132999739726,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 26976,
+      "seconds": 0.19503490600072837,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 6962,
+      "seconds": 0.04841590100022586,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 4236,
+      "seconds": 0.028134981999755837,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          3,
+          -1,
+          3
+        ],
+        [
+          4,
+          -1,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 3809,
+      "seconds": 0.029492752999431104,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 3323,
+      "seconds": 0.021985510000376962,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          -1,
+          4
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          -1,
+          4
+        ]
+      ],
+      "states": 4955,
+      "seconds": 0.033733256999767036,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 4490,
+      "seconds": 0.030991777000053844,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 1796,
+      "seconds": 0.01206907300002058,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          5
+        ]
+      ],
+      "states": 2125,
+      "seconds": 0.015135609999560984,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          6
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          6
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 612,
+      "seconds": 0.004462898999918252,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          6
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          6
+        ]
+      ],
+      "states": 953,
+      "seconds": 0.006221748999450938,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          5
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          5
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 7626,
+      "seconds": 0.05671890200028429,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          4
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          4
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 64444,
+      "seconds": 0.4021300379999957,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 92213,
+      "seconds": 0.5661851849999948,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 56285,
+      "seconds": 0.34594926800036774,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 8356,
+      "seconds": 0.05876083600014681,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          5
+        ]
+      ],
+      "states": 2303,
+      "seconds": 0.01646315499965567,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          5,
+          -1,
+          1
+        ]
+      ],
+      "states": 30267,
+      "seconds": 0.20909707300052105,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          2
+        ]
+      ],
+      "states": 88575,
+      "seconds": 0.563665280999885,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          3
+        ]
+      ],
+      "states": 90489,
+      "seconds": 0.5235909579996587,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          4
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          4
+        ]
+      ],
+      "states": 32307,
+      "seconds": 0.1957025089996023,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 5275,
+      "seconds": 0.03290775500045129,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ]
+      ],
+      "states": 34105,
+      "seconds": 0.21657039799993072,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ]
+      ],
+      "states": 69731,
+      "seconds": 0.42916054899978917,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ]
+      ],
+      "states": 37469,
+      "seconds": 0.231674349000059,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 7958,
+      "seconds": 0.049921630000426376,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ]
+      ],
+      "states": 39590,
+      "seconds": 0.24769922100040276,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 9167,
+      "seconds": 0.06247402899953158,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          5
+        ]
+      ],
+      "states": 2692,
+      "seconds": 0.01668545600023208,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          4
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          4
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 8476,
+      "seconds": 0.0830426679995071,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 52521,
+      "seconds": 0.3593939769998542,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 56513,
+      "seconds": 0.37428151199947024,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 4887,
+      "seconds": 0.0313569740001185,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          1
+        ]
+      ],
+      "states": 39371,
+      "seconds": 0.2728210000004765,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ]
+      ],
+      "states": 71584,
+      "seconds": 0.44617746000039915,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 27675,
+      "seconds": 0.17647737100014638,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 4526,
+      "seconds": 0.02683163100027741,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          5,
+          -1,
+          4
+        ]
+      ],
+      "states": 4295,
+      "seconds": 0.027404352000303334,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 7354,
+      "seconds": 0.047592631000043184,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          5
+        ]
+      ],
+      "states": 1174,
+      "seconds": 0.008237254000050598,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          5
+        ]
+      ],
+      "states": 16905,
+      "seconds": 0.10046955600046203,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          4
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          4
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 32556,
+      "seconds": 0.22071014199991623,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 23430,
+      "seconds": 0.16621147499972722,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          4
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 114975,
+      "seconds": 0.6931860670001697,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 90941,
+      "seconds": 0.5818258499994045,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 82663,
+      "seconds": 0.51465369700054,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 201179,
+      "seconds": 1.2562167109999791,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          5
+        ]
+      ],
+      "states": 2607,
+      "seconds": 0.019974787999672117,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 1806,
+      "seconds": 0.015550841999356635,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 30832,
+      "seconds": 0.1928370220002762,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 196678,
+      "seconds": 1.4006622229999266,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 87446,
+      "seconds": 0.6794549369997185,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 188462,
+      "seconds": 1.184441727000376,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 386841,
+      "seconds": 2.47947904800003,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 54241,
+      "seconds": 0.3830886729992926,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 204709,
+      "seconds": 1.3464623800000481,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 169466,
+      "seconds": 1.2729518810001537,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 65792,
+      "seconds": 0.5027668180000546,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 30824,
+      "seconds": 0.20783483000013803,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 18016,
+      "seconds": 0.13503484800003207,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 4360,
+      "seconds": 0.028696015000605257,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 2286,
+      "seconds": 0.018679415000406152,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 36803,
+      "seconds": 0.2384084730001632,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 292152,
+      "seconds": 2.028313462999904,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 59279,
+      "seconds": 0.46772597000017413,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 105302,
+      "seconds": 0.7252422659994409,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 243739,
+      "seconds": 1.7158339560000968,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 45781,
+      "seconds": 0.34089319500071724,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 38843,
+      "seconds": 0.2562933629997133,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 5607,
+      "seconds": 0.03665876000013668,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 1627,
+      "seconds": 0.012875413000074332,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 31231,
+      "seconds": 0.20993313799954194,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 217703,
+      "seconds": 1.484946945000047,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 5467,
+      "seconds": 0.03807728700030566,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          5
+        ]
+      ],
+      "states": 5112,
+      "seconds": 0.035279465999337845,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          2,
+          -1,
+          5
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          5
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 4027,
+      "seconds": 0.02817333199982386,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          4
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          4
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 64877,
+      "seconds": 0.43675263800014363,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 208695,
+      "seconds": 1.6825054040000396,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 8209,
+      "seconds": 0.06550743699972372,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 35069,
+      "seconds": 0.2522089859994594,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 31665,
+      "seconds": 0.2292361419995359,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 179789,
+      "seconds": 1.3927105430002484,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 135273,
+      "seconds": 0.9910094520000712,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 52001,
+      "seconds": 0.3806396780000796,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 387125,
+      "seconds": 2.8739513000000443,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 133926,
+      "seconds": 1.0184276759991917,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 22355,
+      "seconds": 0.18210555099994963,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 27160,
+      "seconds": 0.2233030339994002,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 16268,
+      "seconds": 0.1288208219993976,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 89082,
+      "seconds": 0.7014553899998646,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 274054,
+      "seconds": 2.5304276599999866,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 222542,
+      "seconds": 1.7566508549998616,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 255394,
+      "seconds": 1.9332743929999197,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 67252,
+      "seconds": 0.5339962239995657,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 100924,
+      "seconds": 0.8326297129997329,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          4
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          4
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 80491,
+      "seconds": 0.6467402730004324,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          2,
+          -1,
+          4
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          4
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 5511,
+      "seconds": 0.05399505500008672,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 63264,
+      "seconds": 0.4863056730000608,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 136394,
+      "seconds": 1.055813121999563,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 76395,
+      "seconds": 0.5777188109996132,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 8943,
+      "seconds": 0.06417668300036894,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 20613,
+      "seconds": 0.17359151100026793,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 41649,
+      "seconds": 0.3195755540000391,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 76794,
+      "seconds": 1.056767322000269,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 142177,
+      "seconds": 1.0443751720004002,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 223229,
+      "seconds": 1.4952807489999032,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 5366,
+      "seconds": 0.04157274299996061,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 41983,
+      "seconds": 0.30740753899954143,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 49999,
+      "seconds": 0.35276999899997463,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 10661,
+      "seconds": 0.0728564719993301,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          3
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          1
+        ]
+      ],
+      "states": 117722,
+      "seconds": 0.938016209000125,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 4152,
+      "seconds": 0.028286466999816184,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 19359,
+      "seconds": 0.13513745199998084,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          4
+        ]
+      ],
+      "states": 8872,
+      "seconds": 0.06254857699968852,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 27848,
+      "seconds": 0.23316196500036313,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 68794,
+      "seconds": 0.5810745140006475,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          -1,
+          2
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 75737,
+      "seconds": 0.6548977369993736,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 927466,
+      "seconds": 8.292834912999751,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 216941,
+      "seconds": 1.6692562719999842,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 105238,
+      "seconds": 0.9139716239997142,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 96217,
+      "seconds": 0.8443032269997275,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 129635,
+      "seconds": 1.0297346520001156,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 122993,
+      "seconds": 1.1251966039999388,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 36205,
+      "seconds": 0.3026341249997131,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 50798,
+      "seconds": 0.4692168000001402,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 162822,
+      "seconds": 1.5049730660002751,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 348335,
+      "seconds": 3.3298603379998895,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 53248,
+      "seconds": 0.3792593019998094,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 43207,
+      "seconds": 0.38010083199969813,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 161623,
+      "seconds": 1.2694747460000144,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 252944,
+      "seconds": 1.7899992109996674,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 220284,
+      "seconds": 1.6693119820001812,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 360519,
+      "seconds": 3.296653017000608,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 78663,
+      "seconds": 0.6815824320001411,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 292227,
+      "seconds": 2.688374999000189,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          -1,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 352775,
+      "seconds": 3.0428333889994974,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 163538,
+      "seconds": 1.370423798000047,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          5,
+          -1,
+          3
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 50110,
+      "seconds": 0.4106545399999959,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          2
+        ],
+        [
+          5,
+          1,
+          2
+        ]
+      ],
+      "states": 169149,
+      "seconds": 1.3612503389995254,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "inventory": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          -1,
+          2
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          -1,
+          1
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "states": 68435,
+      "seconds": 0.5508173849993909,
+      "found": false,
+      "support": null,
+      "scope": "Exact periodic integer kernel discovery in one specified inventory; no nonoverlap or tiling assertion."
+    }
+  ],
+  "scope": "Moment-compatible orientation inventories modulo dihedral symmetry. Fixed-inventory search may stop on a closed proper component; completeness for an excluded nonmultiple-of-six size depends on the separately established absence of smaller nonmultiple-of-six balanced kernels.",
+  "completed": true,
+  "seconds": 100.86314286800007
+}

@@ -1,0 +1,24 @@
+{
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "odd_blocks": 3,
+  "odd_population": 111,
+  "native_up": -2,
+  "fixed_gate_profile": true,
+  "binary_residue_columns": false,
+  "columns": 16428,
+  "integer_tile_columns": 16428,
+  "rows": 4331,
+  "sign_gate_caps": [
+    44,
+    66
+  ],
+  "target_gate_capacity_certificate": true,
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "seconds": 180.16236975399988,
+  "scope": "All-residue integer-multiplicity projection. No spatial embedding, no nonoverlap, no complete tiling. Solver infeasibility is not an exact proof."
+}

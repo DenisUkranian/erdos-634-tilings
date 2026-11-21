@@ -1,0 +1,30 @@
+{
+  "format": "global-integer-endpoint-v1",
+  "sides": [
+    35,
+    13,
+    43
+  ],
+  "N": 5063,
+  "boundary_arithmetic": true,
+  "iteration": 61,
+  "status": "column-resource-limit",
+  "assertions": 63574,
+  "random_seed": 1776,
+  "columns": 200180,
+  "rows": 18326,
+  "partial_rows": 528556,
+  "coverage_points": 96,
+  "active_guard_count": 328707,
+  "max_rss_mb": 3033.2,
+  "mode": "5063-215",
+  "odd_population": 215,
+  "scope": "Conditional on the stated exact odd population; no full target decision.",
+  "sign_population_caps": {
+    "(1, 1)": 86,
+    "(1, -1)": 129,
+    "(0, 1)": 2413,
+    "(0, -1)": 2435
+  },
+  "full_target_excluded": false
+}

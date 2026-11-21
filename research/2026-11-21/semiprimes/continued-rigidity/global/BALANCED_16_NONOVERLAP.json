@@ -1,0 +1,5673 @@
+{
+  "tile": [
+    35,
+    13,
+    43
+  ],
+  "population": 16,
+  "positive": 8,
+  "negative": 8,
+  "original_periodic_support": [
+    [
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      3,
+      -1
+    ],
+    [
+      26,
+      0,
+      2,
+      1
+    ],
+    [
+      35,
+      0,
+      2,
+      1
+    ],
+    [
+      18,
+      8,
+      5,
+      1
+    ],
+    [
+      31,
+      8,
+      5,
+      1
+    ],
+    [
+      5,
+      8,
+      5,
+      1
+    ],
+    [
+      27,
+      8,
+      5,
+      1
+    ],
+    [
+      14,
+      8,
+      5,
+      1
+    ],
+    [
+      1,
+      8,
+      5,
+      1
+    ],
+    [
+      22,
+      0,
+      2,
+      1
+    ],
+    [
+      39,
+      0,
+      2,
+      1
+    ],
+    [
+      9,
+      0,
+      2,
+      1
+    ],
+    [
+      5,
+      8,
+      5,
+      -1
+    ],
+    [
+      5,
+      8,
+      3,
+      1
+    ]
+  ],
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      7,
+      14,
+      15
+    ]
+  ],
+  "group_translations": [
+    [
+      0,
+      0
+    ],
+    [
+      172,
+      0
+    ],
+    [
+      344,
+      0
+    ],
+    [
+      516,
+      0
+    ],
+    [
+      688,
+      0
+    ],
+    [
+      860,
+      0
+    ],
+    [
+      1032,
+      0
+    ]
+  ],
+  "support": [
+    [
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      3,
+      -1
+    ],
+    [
+      198,
+      0,
+      2,
+      1
+    ],
+    [
+      379,
+      0,
+      2,
+      1
+    ],
+    [
+      190,
+      8,
+      5,
+      1
+    ],
+    [
+      547,
+      8,
+      5,
+      1
+    ],
+    [
+      1037,
+      8,
+      5,
+      1
+    ],
+    [
+      371,
+      8,
+      5,
+      1
+    ],
+    [
+      702,
+      8,
+      5,
+      1
+    ],
+    [
+      861,
+      8,
+      5,
+      1
+    ],
+    [
+      710,
+      0,
+      2,
+      1
+    ],
+    [
+      555,
+      0,
+      2,
+      1
+    ],
+    [
+      869,
+      0,
+      2,
+      1
+    ],
+    [
+      1037,
+      8,
+      5,
+      -1
+    ],
+    [
+      1037,
+      8,
+      3,
+      1
+    ]
+  ],
+  "vertices": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        -35
+      ],
+      [
+        13,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        -35
+      ],
+      [
+        -13,
+        13
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        35,
+        0
+      ],
+      [
+        -13,
+        13
+      ]
+    ],
+    [
+      [
+        198,
+        0
+      ],
+      [
+        233,
+        -35
+      ],
+      [
+        185,
+        0
+      ]
+    ],
+    [
+      [
+        379,
+        0
+      ],
+      [
+        414,
+        -35
+      ],
+      [
+        366,
+        0
+      ]
+    ],
+    [
+      [
+        190,
+        8
+      ],
+      [
+        155,
+        43
+      ],
+      [
+        203,
+        8
+      ]
+    ],
+    [
+      [
+        547,
+        8
+      ],
+      [
+        512,
+        43
+      ],
+      [
+        560,
+        8
+      ]
+    ],
+    [
+      [
+        1037,
+        8
+      ],
+      [
+        1002,
+        43
+      ],
+      [
+        1050,
+        8
+      ]
+    ],
+    [
+      [
+        371,
+        8
+      ],
+      [
+        336,
+        43
+      ],
+      [
+        384,
+        8
+      ]
+    ],
+    [
+      [
+        702,
+        8
+      ],
+      [
+        667,
+        43
+      ],
+      [
+        715,
+        8
+      ]
+    ],
+    [
+      [
+        861,
+        8
+      ],
+      [
+        826,
+        43
+      ],
+      [
+        874,
+        8
+      ]
+    ],
+    [
+      [
+        710,
+        0
+      ],
+      [
+        745,
+        -35
+      ],
+      [
+        697,
+        0
+      ]
+    ],
+    [
+      [
+        555,
+        0
+      ],
+      [
+        590,
+        -35
+      ],
+      [
+        542,
+        0
+      ]
+    ],
+    [
+      [
+        869,
+        0
+      ],
+      [
+        904,
+        -35
+      ],
+      [
+        856,
+        0
+      ]
+    ],
+    [
+      [
+        1037,
+        8
+      ],
+      [
+        1002,
+        43
+      ],
+      [
+        1037,
+        -5
+      ]
+    ],
+    [
+      [
+        1037,
+        8
+      ],
+      [
+        1072,
+        8
+      ],
+      [
+        1037,
+        -5
+      ]
+    ]
+  ],
+  "actual_transverse_cylinder_rows_checked": 32,
+  "nonzero_cylinder_rows": 0,
+  "triangle_pairs_checked": 120,
+  "overlapping_pairs": 0,
+  "separation_witnesses": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        -455,
+        0
+      ]
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "triangle": 0,
+      "edge": 2,
+      "direction": [
+        -13,
+        0
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        -169,
+        0
+      ]
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        6475,
+        8155
+      ]
+    },
+    {
+      "pair": [
+        0,
+        4
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        12810,
+        14490
+      ]
+    },
+    {
+      "pair": [
+        0,
+        5
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        5425,
+        7105
+      ]
+    },
+    {
+      "pair": [
+        0,
+        6
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        17920,
+        19600
+      ]
+    },
+    {
+      "pair": [
+        0,
+        7
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        35070,
+        36750
+      ]
+    },
+    {
+      "pair": [
+        0,
+        8
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        11760,
+        13440
+      ]
+    },
+    {
+      "pair": [
+        0,
+        9
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        23345,
+        25025
+      ]
+    },
+    {
+      "pair": [
+        0,
+        10
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        28910,
+        30590
+      ]
+    },
+    {
+      "pair": [
+        0,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        24395,
+        26075
+      ]
+    },
+    {
+      "pair": [
+        0,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        18970,
+        20650
+      ]
+    },
+    {
+      "pair": [
+        0,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        29960,
+        31640
+      ]
+    },
+    {
+      "pair": [
+        0,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        35070,
+        36295
+      ]
+    },
+    {
+      "pair": [
+        0,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        36295,
+        37520
+      ]
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "triangle": 0,
+      "edge": 2,
+      "direction": [
+        13,
+        -13
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        0,
+        455
+      ]
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        6475,
+        8155
+      ]
+    },
+    {
+      "pair": [
+        1,
+        4
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        12810,
+        14490
+      ]
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        5425,
+        7105
+      ]
+    },
+    {
+      "pair": [
+        1,
+        6
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        17920,
+        19600
+      ]
+    },
+    {
+      "pair": [
+        1,
+        7
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        35070,
+        36750
+      ]
+    },
+    {
+      "pair": [
+        1,
+        8
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        11760,
+        13440
+      ]
+    },
+    {
+      "pair": [
+        1,
+        9
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        23345,
+        25025
+      ]
+    },
+    {
+      "pair": [
+        1,
+        10
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        28910,
+        30590
+      ]
+    },
+    {
+      "pair": [
+        1,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        24395,
+        26075
+      ]
+    },
+    {
+      "pair": [
+        1,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        18970,
+        20650
+      ]
+    },
+    {
+      "pair": [
+        1,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        29960,
+        31640
+      ]
+    },
+    {
+      "pair": [
+        1,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        35070,
+        36295
+      ]
+    },
+    {
+      "pair": [
+        1,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        0,
+        -35
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        36295,
+        37520
+      ]
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        0
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        -1225,
+        0
+      ]
+    },
+    {
+      "pair": [
+        2,
+        4
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        0
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        -1225,
+        0
+      ]
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "triangle": 0,
+      "edge": 1,
+      "direction": [
+        -48,
+        13
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        -4079,
+        -2854
+      ]
+    },
+    {
+      "pair": [
+        2,
+        6
+      ],
+      "triangle": 0,
+      "edge": 1,
+      "direction": [
+        -48,
+        13
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        -8720,
+        -7495
+      ]
+    },
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "triangle": 0,
+      "edge": 1,
+      "direction": [
+        -48,
+        13
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        -15090,
+        -13865
+      ]
+    },
+    {
+      "pair": [
+        2,
+        8
+      ],
+      "triangle": 0,
+      "edge": 1,
+      "direction": [
+        -48,
+        13
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        -6432,
+        -5207
+      ]
+    },
+    {
+      "pair": [
+        2,
+        9
+      ],
+      "triangle": 0,
+      "edge": 1,
+      "direction": [
+        -48,
+        13
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        -10735,
+        -9510
+      ]
+    },
+    {
+      "pair": [
+        2,
+        10
+      ],
+      "triangle": 0,
+      "edge": 1,
+      "direction": [
+        -48,
+        13
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        -12802,
+        -11577
+      ]
+    },
+    {
+      "pair": [
+        2,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        0
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        -1225,
+        0
+      ]
+    },
+    {
+      "pair": [
+        2,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        0
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        -1225,
+        0
+      ]
+    },
+    {
+      "pair": [
+        2,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        0
+      ],
+      "first_range": [
+        0,
+        455
+      ],
+      "second_range": [
+        -1225,
+        0
+      ]
+    },
+    {
+      "pair": [
+        2,
+        14
+      ],
+      "triangle": 0,
+      "edge": 1,
+      "direction": [
+        -48,
+        13
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        -15090,
+        -13241
+      ]
+    },
+    {
+      "pair": [
+        2,
+        15
+      ],
+      "triangle": 0,
+      "edge": 1,
+      "direction": [
+        -48,
+        13
+      ],
+      "first_range": [
+        -455,
+        0
+      ],
+      "second_range": [
+        -14320,
+        -13241
+      ]
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        12810,
+        13265
+      ]
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        6930,
+        7385
+      ]
+    },
+    {
+      "pair": [
+        3,
+        6
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        19425,
+        19880
+      ]
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        36575,
+        37030
+      ]
+    },
+    {
+      "pair": [
+        3,
+        8
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        13265,
+        13720
+      ]
+    },
+    {
+      "pair": [
+        3,
+        9
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        24850,
+        25305
+      ]
+    },
+    {
+      "pair": [
+        3,
+        10
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        30415,
+        30870
+      ]
+    },
+    {
+      "pair": [
+        3,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        24395,
+        24850
+      ]
+    },
+    {
+      "pair": [
+        3,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        18970,
+        19425
+      ]
+    },
+    {
+      "pair": [
+        3,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        29960,
+        30415
+      ]
+    },
+    {
+      "pair": [
+        3,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        36120,
+        36575
+      ]
+    },
+    {
+      "pair": [
+        3,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        6475,
+        6930
+      ],
+      "second_range": [
+        36120,
+        37800
+      ]
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        6930,
+        7385
+      ]
+    },
+    {
+      "pair": [
+        4,
+        6
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        19425,
+        19880
+      ]
+    },
+    {
+      "pair": [
+        4,
+        7
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        36575,
+        37030
+      ]
+    },
+    {
+      "pair": [
+        4,
+        8
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        13265,
+        13720
+      ]
+    },
+    {
+      "pair": [
+        4,
+        9
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        24850,
+        25305
+      ]
+    },
+    {
+      "pair": [
+        4,
+        10
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        30415,
+        30870
+      ]
+    },
+    {
+      "pair": [
+        4,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        24395,
+        24850
+      ]
+    },
+    {
+      "pair": [
+        4,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        18970,
+        19425
+      ]
+    },
+    {
+      "pair": [
+        4,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        29960,
+        30415
+      ]
+    },
+    {
+      "pair": [
+        4,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        36120,
+        36575
+      ]
+    },
+    {
+      "pair": [
+        4,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        12810,
+        13265
+      ],
+      "second_range": [
+        36120,
+        37800
+      ]
+    },
+    {
+      "pair": [
+        5,
+        6
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -7385,
+        -6930
+      ],
+      "second_range": [
+        -19880,
+        -19425
+      ]
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -7385,
+        -6930
+      ],
+      "second_range": [
+        -37030,
+        -36575
+      ]
+    },
+    {
+      "pair": [
+        5,
+        8
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -7385,
+        -6930
+      ],
+      "second_range": [
+        -13720,
+        -13265
+      ]
+    },
+    {
+      "pair": [
+        5,
+        9
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -7385,
+        -6930
+      ],
+      "second_range": [
+        -25305,
+        -24850
+      ]
+    },
+    {
+      "pair": [
+        5,
+        10
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -7385,
+        -6930
+      ],
+      "second_range": [
+        -30870,
+        -30415
+      ]
+    },
+    {
+      "pair": [
+        5,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -7385,
+        -6930
+      ],
+      "second_range": [
+        -24850,
+        -24395
+      ]
+    },
+    {
+      "pair": [
+        5,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -7385,
+        -6930
+      ],
+      "second_range": [
+        -19425,
+        -18970
+      ]
+    },
+    {
+      "pair": [
+        5,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -7385,
+        -6930
+      ],
+      "second_range": [
+        -30415,
+        -29960
+      ]
+    },
+    {
+      "pair": [
+        5,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -7385,
+        -6930
+      ],
+      "second_range": [
+        -36575,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        5,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -7385,
+        -6930
+      ],
+      "second_range": [
+        -37800,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -19880,
+        -19425
+      ],
+      "second_range": [
+        -37030,
+        -36575
+      ]
+    },
+    {
+      "pair": [
+        6,
+        8
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -19880,
+        -19425
+      ],
+      "second_range": [
+        -13720,
+        -13265
+      ]
+    },
+    {
+      "pair": [
+        6,
+        9
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -19880,
+        -19425
+      ],
+      "second_range": [
+        -25305,
+        -24850
+      ]
+    },
+    {
+      "pair": [
+        6,
+        10
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -19880,
+        -19425
+      ],
+      "second_range": [
+        -30870,
+        -30415
+      ]
+    },
+    {
+      "pair": [
+        6,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -19880,
+        -19425
+      ],
+      "second_range": [
+        -24850,
+        -24395
+      ]
+    },
+    {
+      "pair": [
+        6,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -19880,
+        -19425
+      ],
+      "second_range": [
+        -19425,
+        -18970
+      ]
+    },
+    {
+      "pair": [
+        6,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -19880,
+        -19425
+      ],
+      "second_range": [
+        -30415,
+        -29960
+      ]
+    },
+    {
+      "pair": [
+        6,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -19880,
+        -19425
+      ],
+      "second_range": [
+        -36575,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        6,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -19880,
+        -19425
+      ],
+      "second_range": [
+        -37800,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        7,
+        8
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -37030,
+        -36575
+      ],
+      "second_range": [
+        -13720,
+        -13265
+      ]
+    },
+    {
+      "pair": [
+        7,
+        9
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -37030,
+        -36575
+      ],
+      "second_range": [
+        -25305,
+        -24850
+      ]
+    },
+    {
+      "pair": [
+        7,
+        10
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -37030,
+        -36575
+      ],
+      "second_range": [
+        -30870,
+        -30415
+      ]
+    },
+    {
+      "pair": [
+        7,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -37030,
+        -36575
+      ],
+      "second_range": [
+        -24850,
+        -24395
+      ]
+    },
+    {
+      "pair": [
+        7,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -37030,
+        -36575
+      ],
+      "second_range": [
+        -19425,
+        -18970
+      ]
+    },
+    {
+      "pair": [
+        7,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -37030,
+        -36575
+      ],
+      "second_range": [
+        -30415,
+        -29960
+      ]
+    },
+    {
+      "pair": [
+        7,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -37030,
+        -36575
+      ],
+      "second_range": [
+        -36575,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        7,
+        15
+      ],
+      "triangle": 0,
+      "edge": 2,
+      "direction": [
+        -13,
+        0
+      ],
+      "first_range": [
+        -559,
+        -104
+      ],
+      "second_range": [
+        -104,
+        65
+      ]
+    },
+    {
+      "pair": [
+        8,
+        9
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -13720,
+        -13265
+      ],
+      "second_range": [
+        -25305,
+        -24850
+      ]
+    },
+    {
+      "pair": [
+        8,
+        10
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -13720,
+        -13265
+      ],
+      "second_range": [
+        -30870,
+        -30415
+      ]
+    },
+    {
+      "pair": [
+        8,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -13720,
+        -13265
+      ],
+      "second_range": [
+        -24850,
+        -24395
+      ]
+    },
+    {
+      "pair": [
+        8,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -13720,
+        -13265
+      ],
+      "second_range": [
+        -19425,
+        -18970
+      ]
+    },
+    {
+      "pair": [
+        8,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -13720,
+        -13265
+      ],
+      "second_range": [
+        -30415,
+        -29960
+      ]
+    },
+    {
+      "pair": [
+        8,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -13720,
+        -13265
+      ],
+      "second_range": [
+        -36575,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        8,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -13720,
+        -13265
+      ],
+      "second_range": [
+        -37800,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        9,
+        10
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -25305,
+        -24850
+      ],
+      "second_range": [
+        -30870,
+        -30415
+      ]
+    },
+    {
+      "pair": [
+        9,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -25305,
+        -24850
+      ],
+      "second_range": [
+        -24850,
+        -24395
+      ]
+    },
+    {
+      "pair": [
+        9,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -25305,
+        -24850
+      ],
+      "second_range": [
+        -19425,
+        -18970
+      ]
+    },
+    {
+      "pair": [
+        9,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -25305,
+        -24850
+      ],
+      "second_range": [
+        -30415,
+        -29960
+      ]
+    },
+    {
+      "pair": [
+        9,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -25305,
+        -24850
+      ],
+      "second_range": [
+        -36575,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        9,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -25305,
+        -24850
+      ],
+      "second_range": [
+        -37800,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        10,
+        11
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -30870,
+        -30415
+      ],
+      "second_range": [
+        -24850,
+        -24395
+      ]
+    },
+    {
+      "pair": [
+        10,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -30870,
+        -30415
+      ],
+      "second_range": [
+        -19425,
+        -18970
+      ]
+    },
+    {
+      "pair": [
+        10,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -30870,
+        -30415
+      ],
+      "second_range": [
+        -30415,
+        -29960
+      ]
+    },
+    {
+      "pair": [
+        10,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -30870,
+        -30415
+      ],
+      "second_range": [
+        -36575,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        10,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        -35,
+        35
+      ],
+      "first_range": [
+        -30870,
+        -30415
+      ],
+      "second_range": [
+        -37800,
+        -36120
+      ]
+    },
+    {
+      "pair": [
+        11,
+        12
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        24395,
+        24850
+      ],
+      "second_range": [
+        18970,
+        19425
+      ]
+    },
+    {
+      "pair": [
+        11,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        24395,
+        24850
+      ],
+      "second_range": [
+        29960,
+        30415
+      ]
+    },
+    {
+      "pair": [
+        11,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        24395,
+        24850
+      ],
+      "second_range": [
+        36120,
+        36575
+      ]
+    },
+    {
+      "pair": [
+        11,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        24395,
+        24850
+      ],
+      "second_range": [
+        36120,
+        37800
+      ]
+    },
+    {
+      "pair": [
+        12,
+        13
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        18970,
+        19425
+      ],
+      "second_range": [
+        29960,
+        30415
+      ]
+    },
+    {
+      "pair": [
+        12,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        18970,
+        19425
+      ],
+      "second_range": [
+        36120,
+        36575
+      ]
+    },
+    {
+      "pair": [
+        12,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        18970,
+        19425
+      ],
+      "second_range": [
+        36120,
+        37800
+      ]
+    },
+    {
+      "pair": [
+        13,
+        14
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        29960,
+        30415
+      ],
+      "second_range": [
+        36120,
+        36575
+      ]
+    },
+    {
+      "pair": [
+        13,
+        15
+      ],
+      "triangle": 0,
+      "edge": 0,
+      "direction": [
+        35,
+        -35
+      ],
+      "first_range": [
+        29960,
+        30415
+      ],
+      "second_range": [
+        36120,
+        37800
+      ]
+    },
+    {
+      "pair": [
+        14,
+        15
+      ],
+      "triangle": 0,
+      "edge": 2,
+      "direction": [
+        0,
+        13
+      ],
+      "first_range": [
+        -13481,
+        -13026
+      ],
+      "second_range": [
+        -13936,
+        -13481
+      ]
+    }
+  ],
+  "signed_a_axis_inventory": [
+    0,
+    0,
+    0
+  ],
+  "signed_b_axis_inventory": [
+    0,
+    0,
+    0
+  ],
+  "strict_board_containment_control": {
+    "N": 5063,
+    "standard_board_vertices": [
+      [
+        0,
+        0
+      ],
+      [
+        1079,
+        0
+      ],
+      [
+        0,
+        2135
+      ]
+    ],
+    "height": 1,
+    "group_spacing": 129,
+    "common_normalized_translation": [
+      40,
+      40
+    ],
+    "normalized_support": [
+      [
+        40,
+        40,
+        1,
+        -1
+      ],
+      [
+        40,
+        40,
+        1,
+        1
+      ],
+      [
+        40,
+        40,
+        3,
+        -1
+      ],
+      [
+        195,
+        40,
+        2,
+        1
+      ],
+      [
+        333,
+        40,
+        2,
+        1
+      ],
+      [
+        187,
+        48,
+        5,
+        1
+      ],
+      [
+        458,
+        48,
+        5,
+        1
+      ],
+      [
+        819,
+        48,
+        5,
+        1
+      ],
+      [
+        325,
+        48,
+        5,
+        1
+      ],
+      [
+        570,
+        48,
+        5,
+        1
+      ],
+      [
+        686,
+        48,
+        5,
+        1
+      ],
+      [
+        578,
+        40,
+        2,
+        1
+      ],
+      [
+        466,
+        40,
+        2,
+        1
+      ],
+      [
+        694,
+        40,
+        2,
+        1
+      ],
+      [
+        819,
+        48,
+        5,
+        -1
+      ],
+      [
+        819,
+        48,
+        3,
+        1
+      ]
+    ],
+    "physical_vertex_numerators": [
+      [
+        [
+          880,
+          2440
+        ],
+        [
+          1335,
+          760
+        ],
+        [
+          1335,
+          2609
+        ]
+      ],
+      [
+        [
+          880,
+          2440
+        ],
+        [
+          1335,
+          760
+        ],
+        [
+          256,
+          2895
+        ]
+      ],
+      [
+        [
+          880,
+          2440
+        ],
+        [
+          2105,
+          2895
+        ],
+        [
+          256,
+          2895
+        ]
+      ],
+      [
+        [
+          6305,
+          4455
+        ],
+        [
+          7985,
+          3230
+        ],
+        [
+          5850,
+          4286
+        ]
+      ],
+      [
+        [
+          11135,
+          6249
+        ],
+        [
+          12815,
+          5024
+        ],
+        [
+          10680,
+          6080
+        ]
+      ],
+      [
+        [
+          5921,
+          4735
+        ],
+        [
+          4241,
+          5960
+        ],
+        [
+          6376,
+          4904
+        ]
+      ],
+      [
+        [
+          15406,
+          8258
+        ],
+        [
+          13726,
+          9483
+        ],
+        [
+          15861,
+          8427
+        ]
+      ],
+      [
+        [
+          28041,
+          12951
+        ],
+        [
+          26361,
+          14176
+        ],
+        [
+          28496,
+          13120
+        ]
+      ],
+      [
+        [
+          10751,
+          6529
+        ],
+        [
+          9071,
+          7754
+        ],
+        [
+          11206,
+          6698
+        ]
+      ],
+      [
+        [
+          19326,
+          9714
+        ],
+        [
+          17646,
+          10939
+        ],
+        [
+          19781,
+          9883
+        ]
+      ],
+      [
+        [
+          23386,
+          11222
+        ],
+        [
+          21706,
+          12447
+        ],
+        [
+          23841,
+          11391
+        ]
+      ],
+      [
+        [
+          19710,
+          9434
+        ],
+        [
+          21390,
+          8209
+        ],
+        [
+          19255,
+          9265
+        ]
+      ],
+      [
+        [
+          15790,
+          7978
+        ],
+        [
+          17470,
+          6753
+        ],
+        [
+          15335,
+          7809
+        ]
+      ],
+      [
+        [
+          23770,
+          10942
+        ],
+        [
+          25450,
+          9717
+        ],
+        [
+          23315,
+          10773
+        ]
+      ],
+      [
+        [
+          28041,
+          12951
+        ],
+        [
+          26361,
+          14176
+        ],
+        [
+          28210,
+          12327
+        ]
+      ],
+      [
+        [
+          28041,
+          12951
+        ],
+        [
+          29266,
+          13406
+        ],
+        [
+          28210,
+          12327
+        ]
+      ]
+    ],
+    "common_physical_denominator": 43,
+    "minimum_strict_containment_margins": [
+      256,
+      760,
+      22109611
+    ],
+    "margin_definitions": [
+      "43*x",
+      "43*y",
+      "43*A_board*B_board-43*B_board*x-43*A_board*y"
+    ],
+    "nonzero_cylinder_rows": 0,
+    "overlapping_pairs": 0,
+    "separation_witnesses": [
+      {
+        "pair": [
+          0,
+          1
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          945,
+          1400
+        ]
+      },
+      {
+        "pair": [
+          0,
+          2
+        ],
+        "triangle": 0,
+        "edge": 2,
+        "direction": [
+          -13,
+          0
+        ],
+        "first_range": [
+          -520,
+          -65
+        ],
+        "second_range": [
+          -689,
+          -520
+        ]
+      },
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          6370,
+          8050
+        ]
+      },
+      {
+        "pair": [
+          0,
+          4
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          11200,
+          12880
+        ]
+      },
+      {
+        "pair": [
+          0,
+          5
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          5320,
+          7000
+        ]
+      },
+      {
+        "pair": [
+          0,
+          6
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          14805,
+          16485
+        ]
+      },
+      {
+        "pair": [
+          0,
+          7
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          27440,
+          29120
+        ]
+      },
+      {
+        "pair": [
+          0,
+          8
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          10150,
+          11830
+        ]
+      },
+      {
+        "pair": [
+          0,
+          9
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          18725,
+          20405
+        ]
+      },
+      {
+        "pair": [
+          0,
+          10
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          22785,
+          24465
+        ]
+      },
+      {
+        "pair": [
+          0,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          19775,
+          21455
+        ]
+      },
+      {
+        "pair": [
+          0,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          15855,
+          17535
+        ]
+      },
+      {
+        "pair": [
+          0,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          23835,
+          25515
+        ]
+      },
+      {
+        "pair": [
+          0,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          27440,
+          28665
+        ]
+      },
+      {
+        "pair": [
+          0,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          28665,
+          29890
+        ]
+      },
+      {
+        "pair": [
+          1,
+          2
+        ],
+        "triangle": 0,
+        "edge": 2,
+        "direction": [
+          13,
+          -13
+        ],
+        "first_range": [
+          585,
+          1040
+        ],
+        "second_range": [
+          1040,
+          1495
+        ]
+      },
+      {
+        "pair": [
+          1,
+          3
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          6370,
+          8050
+        ]
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          11200,
+          12880
+        ]
+      },
+      {
+        "pair": [
+          1,
+          5
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          5320,
+          7000
+        ]
+      },
+      {
+        "pair": [
+          1,
+          6
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          14805,
+          16485
+        ]
+      },
+      {
+        "pair": [
+          1,
+          7
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          27440,
+          29120
+        ]
+      },
+      {
+        "pair": [
+          1,
+          8
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          10150,
+          11830
+        ]
+      },
+      {
+        "pair": [
+          1,
+          9
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          18725,
+          20405
+        ]
+      },
+      {
+        "pair": [
+          1,
+          10
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          22785,
+          24465
+        ]
+      },
+      {
+        "pair": [
+          1,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          19775,
+          21455
+        ]
+      },
+      {
+        "pair": [
+          1,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          15855,
+          17535
+        ]
+      },
+      {
+        "pair": [
+          1,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          23835,
+          25515
+        ]
+      },
+      {
+        "pair": [
+          1,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          27440,
+          28665
+        ]
+      },
+      {
+        "pair": [
+          1,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          0,
+          -35
+        ],
+        "first_range": [
+          945,
+          1400
+        ],
+        "second_range": [
+          28665,
+          29890
+        ]
+      },
+      {
+        "pair": [
+          2,
+          3
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          0
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          175,
+          1400
+        ]
+      },
+      {
+        "pair": [
+          2,
+          4
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          0
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          175,
+          1400
+        ]
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "triangle": 0,
+        "edge": 1,
+        "direction": [
+          -48,
+          13
+        ],
+        "first_range": [
+          -2895,
+          -2440
+        ],
+        "second_range": [
+          -5960,
+          -4735
+        ]
+      },
+      {
+        "pair": [
+          2,
+          6
+        ],
+        "triangle": 0,
+        "edge": 1,
+        "direction": [
+          -48,
+          13
+        ],
+        "first_range": [
+          -2895,
+          -2440
+        ],
+        "second_range": [
+          -9483,
+          -8258
+        ]
+      },
+      {
+        "pair": [
+          2,
+          7
+        ],
+        "triangle": 0,
+        "edge": 1,
+        "direction": [
+          -48,
+          13
+        ],
+        "first_range": [
+          -2895,
+          -2440
+        ],
+        "second_range": [
+          -14176,
+          -12951
+        ]
+      },
+      {
+        "pair": [
+          2,
+          8
+        ],
+        "triangle": 0,
+        "edge": 1,
+        "direction": [
+          -48,
+          13
+        ],
+        "first_range": [
+          -2895,
+          -2440
+        ],
+        "second_range": [
+          -7754,
+          -6529
+        ]
+      },
+      {
+        "pair": [
+          2,
+          9
+        ],
+        "triangle": 0,
+        "edge": 1,
+        "direction": [
+          -48,
+          13
+        ],
+        "first_range": [
+          -2895,
+          -2440
+        ],
+        "second_range": [
+          -10939,
+          -9714
+        ]
+      },
+      {
+        "pair": [
+          2,
+          10
+        ],
+        "triangle": 0,
+        "edge": 1,
+        "direction": [
+          -48,
+          13
+        ],
+        "first_range": [
+          -2895,
+          -2440
+        ],
+        "second_range": [
+          -12447,
+          -11222
+        ]
+      },
+      {
+        "pair": [
+          2,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          0
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          175,
+          1400
+        ]
+      },
+      {
+        "pair": [
+          2,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          0
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          175,
+          1400
+        ]
+      },
+      {
+        "pair": [
+          2,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          0
+        ],
+        "first_range": [
+          1400,
+          1855
+        ],
+        "second_range": [
+          175,
+          1400
+        ]
+      },
+      {
+        "pair": [
+          2,
+          14
+        ],
+        "triangle": 0,
+        "edge": 1,
+        "direction": [
+          -48,
+          13
+        ],
+        "first_range": [
+          -2895,
+          -2440
+        ],
+        "second_range": [
+          -14176,
+          -12327
+        ]
+      },
+      {
+        "pair": [
+          2,
+          15
+        ],
+        "triangle": 0,
+        "edge": 1,
+        "direction": [
+          -48,
+          13
+        ],
+        "first_range": [
+          -2895,
+          -2440
+        ],
+        "second_range": [
+          -13406,
+          -12327
+        ]
+      },
+      {
+        "pair": [
+          3,
+          4
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          12600,
+          13055
+        ]
+      },
+      {
+        "pair": [
+          3,
+          5
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          8225,
+          8680
+        ]
+      },
+      {
+        "pair": [
+          3,
+          6
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          17710,
+          18165
+        ]
+      },
+      {
+        "pair": [
+          3,
+          7
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          30345,
+          30800
+        ]
+      },
+      {
+        "pair": [
+          3,
+          8
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          13055,
+          13510
+        ]
+      },
+      {
+        "pair": [
+          3,
+          9
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          21630,
+          22085
+        ]
+      },
+      {
+        "pair": [
+          3,
+          10
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          25690,
+          26145
+        ]
+      },
+      {
+        "pair": [
+          3,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          21175,
+          21630
+        ]
+      },
+      {
+        "pair": [
+          3,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          17255,
+          17710
+        ]
+      },
+      {
+        "pair": [
+          3,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          25235,
+          25690
+        ]
+      },
+      {
+        "pair": [
+          3,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          29890,
+          30345
+        ]
+      },
+      {
+        "pair": [
+          3,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          7770,
+          8225
+        ],
+        "second_range": [
+          29890,
+          31570
+        ]
+      },
+      {
+        "pair": [
+          4,
+          5
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          8225,
+          8680
+        ]
+      },
+      {
+        "pair": [
+          4,
+          6
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          17710,
+          18165
+        ]
+      },
+      {
+        "pair": [
+          4,
+          7
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          30345,
+          30800
+        ]
+      },
+      {
+        "pair": [
+          4,
+          8
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          13055,
+          13510
+        ]
+      },
+      {
+        "pair": [
+          4,
+          9
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          21630,
+          22085
+        ]
+      },
+      {
+        "pair": [
+          4,
+          10
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          25690,
+          26145
+        ]
+      },
+      {
+        "pair": [
+          4,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          21175,
+          21630
+        ]
+      },
+      {
+        "pair": [
+          4,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          17255,
+          17710
+        ]
+      },
+      {
+        "pair": [
+          4,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          25235,
+          25690
+        ]
+      },
+      {
+        "pair": [
+          4,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          29890,
+          30345
+        ]
+      },
+      {
+        "pair": [
+          4,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          12600,
+          13055
+        ],
+        "second_range": [
+          29890,
+          31570
+        ]
+      },
+      {
+        "pair": [
+          5,
+          6
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -8680,
+          -8225
+        ],
+        "second_range": [
+          -18165,
+          -17710
+        ]
+      },
+      {
+        "pair": [
+          5,
+          7
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -8680,
+          -8225
+        ],
+        "second_range": [
+          -30800,
+          -30345
+        ]
+      },
+      {
+        "pair": [
+          5,
+          8
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -8680,
+          -8225
+        ],
+        "second_range": [
+          -13510,
+          -13055
+        ]
+      },
+      {
+        "pair": [
+          5,
+          9
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -8680,
+          -8225
+        ],
+        "second_range": [
+          -22085,
+          -21630
+        ]
+      },
+      {
+        "pair": [
+          5,
+          10
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -8680,
+          -8225
+        ],
+        "second_range": [
+          -26145,
+          -25690
+        ]
+      },
+      {
+        "pair": [
+          5,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -8680,
+          -8225
+        ],
+        "second_range": [
+          -21630,
+          -21175
+        ]
+      },
+      {
+        "pair": [
+          5,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -8680,
+          -8225
+        ],
+        "second_range": [
+          -17710,
+          -17255
+        ]
+      },
+      {
+        "pair": [
+          5,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -8680,
+          -8225
+        ],
+        "second_range": [
+          -25690,
+          -25235
+        ]
+      },
+      {
+        "pair": [
+          5,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -8680,
+          -8225
+        ],
+        "second_range": [
+          -30345,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          5,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -8680,
+          -8225
+        ],
+        "second_range": [
+          -31570,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          6,
+          7
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -18165,
+          -17710
+        ],
+        "second_range": [
+          -30800,
+          -30345
+        ]
+      },
+      {
+        "pair": [
+          6,
+          8
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -18165,
+          -17710
+        ],
+        "second_range": [
+          -13510,
+          -13055
+        ]
+      },
+      {
+        "pair": [
+          6,
+          9
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -18165,
+          -17710
+        ],
+        "second_range": [
+          -22085,
+          -21630
+        ]
+      },
+      {
+        "pair": [
+          6,
+          10
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -18165,
+          -17710
+        ],
+        "second_range": [
+          -26145,
+          -25690
+        ]
+      },
+      {
+        "pair": [
+          6,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -18165,
+          -17710
+        ],
+        "second_range": [
+          -21630,
+          -21175
+        ]
+      },
+      {
+        "pair": [
+          6,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -18165,
+          -17710
+        ],
+        "second_range": [
+          -17710,
+          -17255
+        ]
+      },
+      {
+        "pair": [
+          6,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -18165,
+          -17710
+        ],
+        "second_range": [
+          -25690,
+          -25235
+        ]
+      },
+      {
+        "pair": [
+          6,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -18165,
+          -17710
+        ],
+        "second_range": [
+          -30345,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          6,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -18165,
+          -17710
+        ],
+        "second_range": [
+          -31570,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          7,
+          8
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -30800,
+          -30345
+        ],
+        "second_range": [
+          -13510,
+          -13055
+        ]
+      },
+      {
+        "pair": [
+          7,
+          9
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -30800,
+          -30345
+        ],
+        "second_range": [
+          -22085,
+          -21630
+        ]
+      },
+      {
+        "pair": [
+          7,
+          10
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -30800,
+          -30345
+        ],
+        "second_range": [
+          -26145,
+          -25690
+        ]
+      },
+      {
+        "pair": [
+          7,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -30800,
+          -30345
+        ],
+        "second_range": [
+          -21630,
+          -21175
+        ]
+      },
+      {
+        "pair": [
+          7,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -30800,
+          -30345
+        ],
+        "second_range": [
+          -17710,
+          -17255
+        ]
+      },
+      {
+        "pair": [
+          7,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -30800,
+          -30345
+        ],
+        "second_range": [
+          -25690,
+          -25235
+        ]
+      },
+      {
+        "pair": [
+          7,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -30800,
+          -30345
+        ],
+        "second_range": [
+          -30345,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          7,
+          15
+        ],
+        "triangle": 0,
+        "edge": 2,
+        "direction": [
+          -13,
+          0
+        ],
+        "first_range": [
+          -1079,
+          -624
+        ],
+        "second_range": [
+          -624,
+          -455
+        ]
+      },
+      {
+        "pair": [
+          8,
+          9
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -13510,
+          -13055
+        ],
+        "second_range": [
+          -22085,
+          -21630
+        ]
+      },
+      {
+        "pair": [
+          8,
+          10
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -13510,
+          -13055
+        ],
+        "second_range": [
+          -26145,
+          -25690
+        ]
+      },
+      {
+        "pair": [
+          8,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -13510,
+          -13055
+        ],
+        "second_range": [
+          -21630,
+          -21175
+        ]
+      },
+      {
+        "pair": [
+          8,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -13510,
+          -13055
+        ],
+        "second_range": [
+          -17710,
+          -17255
+        ]
+      },
+      {
+        "pair": [
+          8,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -13510,
+          -13055
+        ],
+        "second_range": [
+          -25690,
+          -25235
+        ]
+      },
+      {
+        "pair": [
+          8,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -13510,
+          -13055
+        ],
+        "second_range": [
+          -30345,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          8,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -13510,
+          -13055
+        ],
+        "second_range": [
+          -31570,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          9,
+          10
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -22085,
+          -21630
+        ],
+        "second_range": [
+          -26145,
+          -25690
+        ]
+      },
+      {
+        "pair": [
+          9,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -22085,
+          -21630
+        ],
+        "second_range": [
+          -21630,
+          -21175
+        ]
+      },
+      {
+        "pair": [
+          9,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -22085,
+          -21630
+        ],
+        "second_range": [
+          -17710,
+          -17255
+        ]
+      },
+      {
+        "pair": [
+          9,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -22085,
+          -21630
+        ],
+        "second_range": [
+          -25690,
+          -25235
+        ]
+      },
+      {
+        "pair": [
+          9,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -22085,
+          -21630
+        ],
+        "second_range": [
+          -30345,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          9,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -22085,
+          -21630
+        ],
+        "second_range": [
+          -31570,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          10,
+          11
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -26145,
+          -25690
+        ],
+        "second_range": [
+          -21630,
+          -21175
+        ]
+      },
+      {
+        "pair": [
+          10,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -26145,
+          -25690
+        ],
+        "second_range": [
+          -17710,
+          -17255
+        ]
+      },
+      {
+        "pair": [
+          10,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -26145,
+          -25690
+        ],
+        "second_range": [
+          -25690,
+          -25235
+        ]
+      },
+      {
+        "pair": [
+          10,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -26145,
+          -25690
+        ],
+        "second_range": [
+          -30345,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          10,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          -35,
+          35
+        ],
+        "first_range": [
+          -26145,
+          -25690
+        ],
+        "second_range": [
+          -31570,
+          -29890
+        ]
+      },
+      {
+        "pair": [
+          11,
+          12
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          21175,
+          21630
+        ],
+        "second_range": [
+          17255,
+          17710
+        ]
+      },
+      {
+        "pair": [
+          11,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          21175,
+          21630
+        ],
+        "second_range": [
+          25235,
+          25690
+        ]
+      },
+      {
+        "pair": [
+          11,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          21175,
+          21630
+        ],
+        "second_range": [
+          29890,
+          30345
+        ]
+      },
+      {
+        "pair": [
+          11,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          21175,
+          21630
+        ],
+        "second_range": [
+          29890,
+          31570
+        ]
+      },
+      {
+        "pair": [
+          12,
+          13
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          17255,
+          17710
+        ],
+        "second_range": [
+          25235,
+          25690
+        ]
+      },
+      {
+        "pair": [
+          12,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          17255,
+          17710
+        ],
+        "second_range": [
+          29890,
+          30345
+        ]
+      },
+      {
+        "pair": [
+          12,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          17255,
+          17710
+        ],
+        "second_range": [
+          29890,
+          31570
+        ]
+      },
+      {
+        "pair": [
+          13,
+          14
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          25235,
+          25690
+        ],
+        "second_range": [
+          29890,
+          30345
+        ]
+      },
+      {
+        "pair": [
+          13,
+          15
+        ],
+        "triangle": 0,
+        "edge": 0,
+        "direction": [
+          35,
+          -35
+        ],
+        "first_range": [
+          25235,
+          25690
+        ],
+        "second_range": [
+          29890,
+          31570
+        ]
+      },
+      {
+        "pair": [
+          14,
+          15
+        ],
+        "triangle": 0,
+        "edge": 2,
+        "direction": [
+          0,
+          13
+        ],
+        "first_range": [
+          -10647,
+          -10192
+        ],
+        "second_range": [
+          -11102,
+          -10647
+        ]
+      }
+    ]
+  },
+  "scope": "A finite nonoverlapping packing with exact actual-transverse cylinder equations. A compact height-one version lies strictly inside the target board. It is not a full tiling: whole long-edge currents, joint gates, and filling are not imposed. It disproves the proposed statement that every balanced nonoverlapping cylinder kernel of size below 2c has population divisible by six."
+}

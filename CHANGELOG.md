@@ -1,5 +1,14 @@
 # Changelog
 
+## 21 November 2026: global physical completion reserves and integer cell gaps
+
+- Prove an unrestricted physical completion budget combining complete actual contact rows, retained odd sign counts, their allocation to joint cells, and the missing even charge. Include a stronger node-rounded reserve optimization without double counting the two prime trees.
+- Prove unit-charge minority bounds 2 and 5 for the 3431 and 5063 shapes using rigid supporting-line incidences and exact flow cuts. Unit-charge cells consequently need at least 41 and 53 tiles.
+- Independently exclude balanced integer endpoint-kernel populations 2, 4, 8, 10, and 14, with a complete orientation reduction and the required component induction. Reduce the 5063 four-cell parameter to 31 values and its containing scheme count to 218,905.
+- Add ten exact endpoint duals and strictly positive rational full-endpoint witnesses for both two-cell native roles. The witnesses retain exact cell sign masses, integer cell currents, complete-node congruences, and gate capacities; they are not integer tilings.
+- Preserve contained nonoverlapping six- and sixteen-tile cylinder controls, an unbounded charged `3c` control failing node gates, and an exact board-chord obstruction for that particular uniform fan family.
+- Add scoped physical search sources, portable complete-row snapshots, an independently checked full 143 control, and explicit inconclusive target statuses. Integrate twelve exact checks into the main replay. Keep 3431, 5063, the remaining minimal modes, and larger odd populations OPEN.
+
 ## 21 November 2026: rigid placements, exact packing limits, and the 5063 five-block reduction
 
 - Exclude both two-odd-height alternatives at total odd population 215 for 5063. Derive a one-offset charge universe and exhaust all 9,112,001 profiles using 65 exact certificates and 780 checked transformations.

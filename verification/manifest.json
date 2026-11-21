@@ -19,8 +19,8 @@
       "sha256": "a0a08e509dc02408ed6c850d832a19105f4c55d801f52a4076d8c2ceb90a52a4"
     },
     "CHANGELOG.md": {
-      "bytes": 39846,
-      "sha256": "4aed94d4da0ee82a6e5de760ffa82e71433a2610998acd1ba14909a23a66b5a8"
+      "bytes": 41418,
+      "sha256": "8c9373c4189866ecede52cd9d2500ddc39bf166c407e230826ef4010bf7be648"
     },
     "CITATION.cff": {
       "bytes": 1425,
@@ -39,20 +39,20 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 8819,
-      "sha256": "33fa84c16514ddc15e059c6ceb8f40caa838d695f29180b64e67b4bb572de5dd"
+      "bytes": 9680,
+      "sha256": "7c82cf32e8d18f44d8b3f3ea1f2ed64dcc29cbc2f73b84d34599839aa6ea9c0c"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 38992,
-      "sha256": "4f6a69a1ae0ba1141eca6d5b4d8424c41d7764b24fc934c9ccdb0f36d3c8b5c2"
+      "bytes": 40812,
+      "sha256": "1e3a91953cc1f8e8385116683501ca08a74fa3f2a5715cfa2e4a60f5419ae336"
     },
     "RESULTS_INDEX.md": {
-      "bytes": 33750,
-      "sha256": "d25c1d4eefff636f5665e9ef976c91369997244ecdd289daa00b0e736c8f1a54"
+      "bytes": 35290,
+      "sha256": "645ae35df7905d1faca048b2c71b0c4af6a4cb7f28ea6ef72f858c0b8912045a"
     },
     "STATUS.md": {
-      "bytes": 60075,
-      "sha256": "f0a97fa355032f7664c98990c2fa6fd0cf4e6b35964a26636371ac243852862c"
+      "bytes": 62101,
+      "sha256": "138a26bcb40ebd5c49bae4461dd412c89a302cf6a91f734eac730ab60187b036"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -3015,16 +3015,16 @@
       "sha256": "ecadec4c6cd001c4187600cdc69602153d0dc4826bc4f4a704419c4a6c80f1b5"
     },
     "research/2026-11-21/SHA256SUMS.txt": {
-      "bytes": 31858,
-      "sha256": "733fcafeacaa7c119108f048be1d298ef071ac4140c82fe5f4eb2eeeeacaede9"
+      "bytes": 54247,
+      "sha256": "35bb6a4a7806d6d2c35ba7cee4aa8c2eeca4ee13a8645ac00bbcebc0113814f7"
     },
     "research/2026-11-21/semiprimes/MINIMAL_ODD_EXCLUSION_5063.md": {
       "bytes": 10738,
       "sha256": "c53db99618a8228b10029ffcecc957d6c000b3388ff64a26ebbe7d5d8aa0cae7"
     },
     "research/2026-11-21/semiprimes/README.md": {
-      "bytes": 7212,
-      "sha256": "a15135c3d2bb1cbc76ac8af623b33a8eec558ce2c775c6594c61c1962532d57c"
+      "bytes": 7832,
+      "sha256": "c973f6f8039bc6f7a11f13adbb75abdcbe1df79b1fa724b33d8d47b10031bad4"
     },
     "research/2026-11-21/semiprimes/REPLAY.json": {
       "bytes": 9419,
@@ -3165,6 +3165,654 @@
     "research/2026-11-21/semiprimes/charged-branches/verify_terminal_gate.py": {
       "bytes": 5565,
       "sha256": "8efc8ea152abd1bea5f1d5a521a48499e3c99ebb12f8a9f22c02a1f1ac21fb42"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/INTERNAL_AUDIT.md": {
+      "bytes": 5495,
+      "sha256": "a2f94bc470243baaabcd1cc72838ce29dfd9d67ab5ed8403bce960bbef6025d4"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/README.md": {
+      "bytes": 8006,
+      "sha256": "17d595c548a1ff3dd70600adfe4d47ab39abbf88572231c743601edbc1fb4c03"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/REPLAY.json": {
+      "bytes": 32314,
+      "sha256": "67c280077b0782ff1e10930d19a72773c9adf5ecfb61e9674408cc6780962d7c"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/ADAPTIVE_JOINT_CUT_DISCOVERY.json": {
+      "bytes": 15470,
+      "sha256": "27a0ed512317b8d7ac79d1ffef89b0f819f347a2daca132b6327ac31082d6fb4"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/FINITE_CUT_POOL_LIMIT.md": {
+      "bytes": 3842,
+      "sha256": "777800508b7a9f3646e87b3f74ccceb33331377e2e40f0c9ad57ff85be03f682"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/FINITE_CUT_POOL_REPLAY.json": {
+      "bytes": 474,
+      "sha256": "e08de5b0e9e443c0b724d189daa819d152bab927775780c836eb7b64165a9cdf"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/PHASE_COORDINATES_REPLAY.json": {
+      "bytes": 739,
+      "sha256": "287ef3057166c71766644d01ca15446247e88cbdb592752459e3d1dc3cec17a1"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/PHYSICAL_PHASE_COORDINATES.md": {
+      "bytes": 4833,
+      "sha256": "be43b02f12f0ed8546e364391ddfd664ec87e55bd9b7f30ed939f8e5a92455e4"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/README.md": {
+      "bytes": 3841,
+      "sha256": "22957d11152e05fde8edcb1186ba41d47bc6fa711d65750e4c4f063f5ee28e17"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/REDUCED_CELL_CLASSIFICATION_5063.md": {
+      "bytes": 3734,
+      "sha256": "e8c179c749766d528c0bf0fe54b83c7470f59c7153ce0219de3670da194bfe78"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/REDUCED_SKELETONS_REPLAY.json": {
+      "bytes": 2389,
+      "sha256": "e1c1f0caccda26626e10561f61f0ebdda2bf4c08492649d1140e5384e7528205"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/SCOPED_SEARCH_AUDIT.md": {
+      "bytes": 4885,
+      "sha256": "9a8ea1225ccfdfbdf85d3b9e082336162371a53ecbfdfda3fa6ee8bdc85120b6"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/SHARED_NODE_DUALS.md": {
+      "bytes": 5186,
+      "sha256": "77a54d8374a1950b0ff74204f747e4f0966e2d37851c50f8693e7f146282c968"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/SHARED_PROFILE_DUALS_REPLAY.json": {
+      "bytes": 6303,
+      "sha256": "5e2bb675f560b439abe7b629d91163c2fcf784ed4628dc594e84b599409082e2"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/SHARED_PROFILE_DUAL_REPLAY.json": {
+      "bytes": 409,
+      "sha256": "8a835385432a5d66d339676d22d6caaea3b5062c450bddbaca9731b622b553f7"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/TWO_CELL_FINITE_CUT_WITNESS.json": {
+      "bytes": 2980,
+      "sha256": "21d94bdf8ba6d61f5ee20b6ba18e04e47a491f1403baa3977890df4a6d831e0e"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/TWO_CELL_FULL_ENDPOINT_DISCOVERY.json": {
+      "bytes": 767,
+      "sha256": "1bebf94fbcd584346f0c0fc14c097f94b91937d865af7c182dd4be211a0dfc82"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/TWO_CELL_FULL_ENDPOINT_IPM_DISCOVERY.json": {
+      "bytes": 540379,
+      "sha256": "30a682f238153f2d3eafb1eef716fb84f7c9253e091852b6cd9f6b71d2fcb44a"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/TWO_CELL_RATIONAL_CERTIFICATE.json.gz": {
+      "bytes": 162628,
+      "sha256": "c38822bf5104e080192cc6e7248e8b5c2a34567f22504f260aeb3c5abbae3708"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/TWO_CELL_RATIONAL_LIMIT.md": {
+      "bytes": 6385,
+      "sha256": "bd738996abebfa5fd756cb76de8dd14fd267189cee4902d5cdbf5f89faaede4d"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/TWO_CELL_RATIONAL_REPLAY.json": {
+      "bytes": 16788,
+      "sha256": "46bac134f5689e7ea9a40b0bf5385c16641613492f9cc7f99a8371b98b18f8f5"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/adaptive_master_00.json": {
+      "bytes": 4167,
+      "sha256": "838dd0e394245922fe2f6ee2d8fafd3ee54036fcc8ffd8bb4caefa84bdc19286"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/adaptive_master_01.json": {
+      "bytes": 3911,
+      "sha256": "b7994709c789258a6326c90d72d0467952a4b0069179709bf9e4295e36028e27"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/adaptive_master_02.json": {
+      "bytes": 3910,
+      "sha256": "371a15eb0768f7377a56f4cfb79b08f7acc86a6634ca98dc762c87e376d3af54"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/adaptive_master_03.json": {
+      "bytes": 3917,
+      "sha256": "edc7399d4aa66b358b642c502bd53c3b2a092f0e65ed366c3ee8f8fdcedf0c87"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/adaptive_master_04.json": {
+      "bytes": 3915,
+      "sha256": "4a515daafc5c6cf5958086d841a78d74e6948cc99923ea4370c34d4b6b5154a8"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/adaptive_master_05.json": {
+      "bytes": 3913,
+      "sha256": "0750fdcb445453c7a2c32cd50dab0578c14131f7527f8ecac87110ee11972394"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/adaptive_master_06.json": {
+      "bytes": 3914,
+      "sha256": "750ebdb51e486d154e1906f4c7e465926ff25d4d60143cd9add49b3db0996ea0"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/adaptive_master_07.json": {
+      "bytes": 3915,
+      "sha256": "ba449a2db143e38022f56ba5a71ee2b02fce7e7cbb7eb2e47b8bc9e24c067e40"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/build_two_cell_rational_witness.py": {
+      "bytes": 2823,
+      "sha256": "8e9e81193f4673f21e9f18ebd11e16602c8c458b5c4100d46872b00a211440e7"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/discover_cell_cut.py": {
+      "bytes": 6416,
+      "sha256": "4f2f52e943aeb1739328041dac9f59f25e27fef78f593e77c1ebe19844f55bba"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/four_x5_native_balanced_fixed_continuous_probe.json": {
+      "bytes": 821,
+      "sha256": "d458404e8bf7d86590cfd8c8f33e7f76304fb147052be151c23bebb01d26d3e5"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/four_x5_native_balanced_fixed_probe.json": {
+      "bytes": 784,
+      "sha256": "597169d40264c6861027af00d9fae792e4c46fcb7ef426de20b29abd9b407aeb"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/four_x5_native_balanced_free_probe.json": {
+      "bytes": 1370,
+      "sha256": "ed054a08c5ebf1b0a3de8c905fc678050097609b8bda1d7afdc6b49b16a81b2b"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/probe_joint_gate_cuts.py": {
+      "bytes": 10034,
+      "sha256": "93734a7d7beb36e941c79aa8e4659198d6a29b1a32dc1dca5942ebb685fef631"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/refine_joint_cut_pool.py": {
+      "bytes": 3759,
+      "sha256": "c13c036dea879d41a72bc504d9954ba22411944a8535dd9d01591b3a8b07bcf6"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/shared_profile_cut_001.json": {
+      "bytes": 98591,
+      "sha256": "53dbefdf34ccec503e000325945c71befd343a71c31e34c402270632e740e2f6"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/shared_profile_cut_002.json": {
+      "bytes": 96480,
+      "sha256": "8d75f7830cf10ee80984beaf96a1d34d086d3314dbecf9b2f28b7020632f78d6"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/shared_profile_cut_003.json": {
+      "bytes": 97603,
+      "sha256": "79993391a91e48c8c84664c6e2e9c25561fb4eb54eaf1ef94fa31b0dcad4ce77"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/shared_profile_cut_004.json": {
+      "bytes": 98409,
+      "sha256": "4d2f0161ab71354d95704c9a586daf6444faeae6f90edabf1ed5c8007bc23b1e"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/shared_profile_cut_005.json": {
+      "bytes": 97939,
+      "sha256": "732127b3a0716a5429a1ccd4273161310abce8d270ac8f7adf276bbc4827bbf5"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/shared_profile_cut_006.json": {
+      "bytes": 96263,
+      "sha256": "b0b30e71627c9d2a54ed2407bf9a6aabadbe363fcaec67c3539325b49c5d4b28"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/shared_profile_cut_007.json": {
+      "bytes": 95232,
+      "sha256": "15251197ceade4270e9c5128d52e704b70b6e722e6cea070b62de1077d7d9f6a"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/shared_profile_cut_008.json": {
+      "bytes": 98459,
+      "sha256": "de1e6497caed6e7e970843274dafe9e62cc2aee611805d7806eb0aaf0a4d91f0"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/shared_profile_cut_009.json": {
+      "bytes": 96090,
+      "sha256": "da80a3604e424a17ef9e00b975d1a284cfa46356a9abfceefca90dff48653b71"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/shared_profile_cut_eab3540cb9acea26.json": {
+      "bytes": 95366,
+      "sha256": "aa8b7a6ffaa5d3efc97145a1731d3258933d02558d3a45b018dca94804658974"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_fixed_full/DISCOVERY_LOG.json": {
+      "bytes": 3854,
+      "sha256": "052033c253d78e149aba67dc24f67c1e07f92eda87b864968045f4632ae9164b"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_fixed_full/full_cell_000_0.json": {
+      "bytes": 532760,
+      "sha256": "e8ceab3a90ca95769954eadf27acf485ae5a3ab1593a490aff7bb471576d5d63"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_fixed_full/full_cell_001_0.json": {
+      "bytes": 566138,
+      "sha256": "4815c2ba424aeac340244a6fa603fec23df665aa000bcf92e34dafceaf30ee33"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_fixed_full/full_cell_001_1.json": {
+      "bytes": 555207,
+      "sha256": "e5f7b87c05102f92054591da5ea9fe1ad8d8192e77916705925727a566a9c61d"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_fixed_full/master_000.json": {
+      "bytes": 3962,
+      "sha256": "b311f69e759461f9cf4eecc7f5f0f87878592fe6497143197b4fdc74bc0b1d06"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_fixed_full/master_001.json": {
+      "bytes": 3962,
+      "sha256": "8c7236bc094c3b54c6fd1e74ff869cbabb03e4bc7225175b0a55821ce2a326e0"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_fixed_probe.json": {
+      "bytes": 4148,
+      "sha256": "5efcd2ebdb524af54b7c1ef04d9c13a626602705d52a80b97e71e5816a866bd0"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_free/DISCOVERY_LOG.json": {
+      "bytes": 8427,
+      "sha256": "2bd00588c4efa1177fa4ee094ee9b1c602b3dc11729cfedcc477c41299bb7424"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_free/master_000.json": {
+      "bytes": 8267,
+      "sha256": "d102455cc098acb9e4880bca497674b7755b74b8496d568a826696cdee351a63"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_free_max/DISCOVERY_LOG.json": {
+      "bytes": 4800,
+      "sha256": "defa9965c776988dae2f858e8616deddeec632c816d34ab542dad5fba2bb4dac"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_balanced_free_max/master_000.json": {
+      "bytes": 4892,
+      "sha256": "8e9780640b2cbcc3d320c52a10c6dc524089169731ab757c0c114582e9bfdb6b"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_charged_free/DISCOVERY_LOG.json": {
+      "bytes": 8594,
+      "sha256": "322646606b0b6be358f4fff0ac217a0edb6bf6bd3c7be161f2f5dd9b0266df33"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_charged_free/master_000.json": {
+      "bytes": 8417,
+      "sha256": "7c44bc6aa440892ba1d393fe756da86a8f2f68e760aa0c9c433a133b61c96816"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_charged_long/DISCOVERY_LOG.json": {
+      "bytes": 5942,
+      "sha256": "11aced0ba57b058cd19a2d66e2a0ade4d22e9926d25255298b1e1ef6202d441b"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_charged_long/full_cell_000_0.json": {
+      "bytes": 470616,
+      "sha256": "bc85783a0bdcbb7cccfa3798ebe87d281ae9bc39aa1972774be8b9b91c39f6be"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_charged_long/full_cell_000_1.json": {
+      "bytes": 540054,
+      "sha256": "0e550af34c88066db56c6b1a9c326d51853d412dd405da8ac4f0be64720118bd"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_charged_long/master_000.json": {
+      "bytes": 7813,
+      "sha256": "c1dae47e569d5452c81fbfde79c822ea67ee5e255f1352613443379a9ae26c1f"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_charged_maxima/DISCOVERY_LOG.json": {
+      "bytes": 2690,
+      "sha256": "86af64e66324272de6cc3933905d7559cce4d7033ff171c573c569743311a8eb"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/two_native_charged_maxima/master_000.json": {
+      "bytes": 2915,
+      "sha256": "173fedcd630cba5f8168b6526d75f5cb437143802b0e953558a9dee958d2e5b7"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/verify_finite_cut_witness.py": {
+      "bytes": 3813,
+      "sha256": "fd2138bd25edeed290045ca1bc1b83391489a4d2a07ed1be4935c7dcd6c7cca2"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/verify_phase_coordinates.py": {
+      "bytes": 3509,
+      "sha256": "09c14757aaa2890db2c48ed933b9e83e1060fd133ce5b14eb0fd65bd281bfaab"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/verify_reduced_skeletons.py": {
+      "bytes": 2953,
+      "sha256": "b8231437720f72e860ad24309d7c0466ee75a4b580763ca8e0958d40ea88c19f"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/verify_shared_profile_duals.py": {
+      "bytes": 2115,
+      "sha256": "af419b0fa000cdab5112cae16261a286fa0b1ecdebef65dc643c28053d080a30"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/cells5063/verify_two_cell_rational_witness.py": {
+      "bytes": 7757,
+      "sha256": "7136c597b4b1dd248a47abc027b1f3b83049bc4484c0e8bca4f013471471110d"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/BALANCED_16_NONOVERLAP.json": {
+      "bytes": 79911,
+      "sha256": "34e8c4420096a746acbbd5553424cfe4c35aed33b6fd78d8290bc337f886fae2"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/BALANCED_CYLINDER_COUNTERCONTROL.md": {
+      "bytes": 5258,
+      "sha256": "69de1f1997928c9c846dd76dc5ccf6a7d5b21fe217bcaebc236ff6a016ca59ee"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/CELL_MINORITY_FRONTIER_5063.json": {
+      "bytes": 68104,
+      "sha256": "1c6ec0bf881d0e36099d0c32bc49d9efa02a761f2c1d65b400c03b7f86c3c9ac"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/CELL_MINORITY_REPLAY.json": {
+      "bytes": 4788,
+      "sha256": "982dff501ca0c5f690429eb41825006ba3fd00439e8df7d2024b6fee4435b5b1"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/GLOBAL_COMPLETION_BUDGET_REPLAY.json": {
+      "bytes": 22437,
+      "sha256": "e9b3ebc69281a2030dfdbd685a09674889786103ca1711ccaf6527ab1e192649"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/GLOBAL_PHYSICAL_CELL_RESERVE.md": {
+      "bytes": 12195,
+      "sha256": "79c52e5c215019188d7797102495df616f24a6cc9a163cf019a37aaccc916c13"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/README.md": {
+      "bytes": 4507,
+      "sha256": "63c28ccdb928336c263aed5b911bf8c9a6d5ae917d928bf1c578e1d90811ebdb"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/SIGNED_LINE_FRONTIER_5063.json": {
+      "bytes": 8245,
+      "sha256": "e79d001e1d4c45c91f4f2e6cf3139c0a548b4f1533721b51f56273d100a6c3d1"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/UNIFORM_FAN_BOARD_OBSTRUCTION.md": {
+      "bytes": 6054,
+      "sha256": "32d591b816fd5ee2126c2dc26e66628c7fc8461ca692b04105d26e800e06ce9c"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/UNIFORM_FAN_OBSTRUCTION_REPLAY.json": {
+      "bytes": 2180,
+      "sha256": "cb9b05da3041537428ef388f65b6b647dea7168a2c158daf38f782368d830e3f"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/UNIT_CHARGE_CELL_MINORITY.md": {
+      "bytes": 19299,
+      "sha256": "70619da11ed5ef6ecdef9230543ff9df8c8b6244134ad4892f524edb2edd6329"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/verify_balanced_16_lift.py": {
+      "bytes": 6986,
+      "sha256": "12effe20c831e8cf8a9c1c720c424f6818d63f801d6dc639580253108ed2b0f2"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/verify_cell_minority.py": {
+      "bytes": 9824,
+      "sha256": "779600b206c04612e3b51efa5c735041912e3a666be3e04151857f517891168c"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/verify_global_completion_budget.py": {
+      "bytes": 5913,
+      "sha256": "e09ecda4a5722e75e15dcc5bfea9e1a0619cbf641f19e0cd4ee247d38520f18d"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/global/verify_uniform_fan_obstruction.py": {
+      "bytes": 3491,
+      "sha256": "f61f1222306796b3dcb2beed66318bee94d3e7d56d86c1947458cdbb7c4bb810"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/BALANCED_37_14_INVENTORIES.json": {
+      "bytes": 121628,
+      "sha256": "11d0af45669ac137bc6b698c6108e21e30de4655992c63e82e21010536a6f394"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/BALANCED_43_14_INVENTORIES.json": {
+      "bytes": 121795,
+      "sha256": "968c1e102822b41f96941f35158e860b288e4d5f68307798a0ca1e10a3505afe"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/CPP_BALANCED_37_14.jsonl": {
+      "bytes": 6810,
+      "sha256": "9214a1f48056f33f937d5b8147e063d49d0f67d84e376510771ca1cd96ee9953"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/CPP_BALANCED_37_16.jsonl": {
+      "bytes": 12561,
+      "sha256": "34f80cbf171738424fe0becd1613ddbaf68a61e85e8b2d285436593802827199"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/CPP_BALANCED_43_14.jsonl": {
+      "bytes": 6804,
+      "sha256": "48dc778cb935f3a4d2c99dfbbd23c8f526497f18e05e99026e9aba9c540897a0"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/CPP_BALANCED_43_16.jsonl": {
+      "bytes": 446,
+      "sha256": "231dac048bc72af796c6dbb84815604e3dabdf1fa7d42c5da7d07e651e3d93f1"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/FIXED_INVENTORY_43_14.json": {
+      "bytes": 428,
+      "sha256": "570a691609fccd734183a3018ea462bcc9b5a49a90d421090acaad014df291b7"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/INITIAL_INTEGER_TORUS_PROBE.json": {
+      "bytes": 646,
+      "sha256": "e3e1d86e15a5ae2513a3a26c80b07789e7428f61bc195325951545134864686d"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/JOINT_MARGINAL_3431_CONTINUOUS_FIXED.json": {
+      "bytes": 15735,
+      "sha256": "f7a76e9e2b5e248841c84a0bbee98a05c27698984617a54aaed9b1a33ae432f9"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/JOINT_MARGINAL_3431_FIXED.json": {
+      "bytes": 572,
+      "sha256": "04c5daccee78d1a136a39d399731a997d389ab6c9acf3fec6d0de88e9c845e07"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/JOINT_MARGINAL_3431_FIXED_MOMENTS.json": {
+      "bytes": 658,
+      "sha256": "fa1a18fdc7d80617e72785a344de5ac7c6428d8d921ba9f6e645048a08e0b163"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/JOINT_MARGINAL_3431_FREE.json": {
+      "bytes": 574,
+      "sha256": "2f0e3a181f2d0ae35b5ea87f8608474d7813c0245b335dcf0e25515de0e3508a"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/JOINT_MARGINAL_3431_FREE_MOMENTS.json": {
+      "bytes": 659,
+      "sha256": "1e6c997ea39ec002251bfad92a503994b77d1ddd0633341105864d82c8e0e0ed"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/MARGINAL_MINIMUM_POPULATION_PROBE.json": {
+      "bytes": 276,
+      "sha256": "8c7d3466b7cb6a69f32db6c4c2c6baf6e046584da445f48730e9bddc0bc0e18b"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/MARGINAL_MODULAR_IMAGE_PROBE.json": {
+      "bytes": 1219,
+      "sha256": "d4d5a1a615b0d9324e1c893501a5dd13625a55320183b49342e21ee84973ebf4"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/NONZERO_AXIS_PROBES_43.json": {
+      "bytes": 1019,
+      "sha256": "ef8ef91f452dd13669876772fc58559345ef2dbb2ab6261e1640f5c232494083"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/ONE_COORDINATE_PROBE.json": {
+      "bytes": 553,
+      "sha256": "1fd6efa62c31390301f29ae23a964db226625173db6830fef82b01a79c3f54c1"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/PACKED_CYLINDER_7_21.json": {
+      "bytes": 638,
+      "sha256": "de719b9966a8c26a7c47668f79d044eab78252c587d4e00f2d06d963e228fbe6"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/README.md": {
+      "bytes": 5720,
+      "sha256": "c24ba84ed8786ac21aee6f3e3766f2df9ccdc7d9cd12abf7a9f810dc788b5d0c"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_37_10.json": {
+      "bytes": 527,
+      "sha256": "9e447f3b2e99da2f2873d986d93b53606d769bfecb3c9c42f1084a9e93ac2e6c"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_37_2.json": {
+      "bytes": 523,
+      "sha256": "41d840e3385968bdf120f598d263259764f83d73cac86d3ee56cb1d0ca511210"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_37_4.json": {
+      "bytes": 525,
+      "sha256": "57e278b06e262d9e8145b3f5288807ab4ebc5ff1e5a892c95ca9b2440d5fccb4"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_37_6.json": {
+      "bytes": 2032,
+      "sha256": "04cd63ddfaadf7d62652f45c613859dbaf8f60fa9029507abe65b7c1a7759455"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_37_8.json": {
+      "bytes": 523,
+      "sha256": "8b802d4c7864986a335ea3f642ab8e2b243975550224ead98ed99468ac3862f3"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_43_10.json": {
+      "bytes": 526,
+      "sha256": "ed9b63f686624930f60269f9ea5f7944833a81ad9503dff567a13d820a8d413d"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_43_2.json": {
+      "bytes": 524,
+      "sha256": "1258f62c534c5a363dcbc48d5e209cfdf869b871db4b139a16cd13b1f7e67111"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_43_4.json": {
+      "bytes": 527,
+      "sha256": "d446d98491f1147519a1a7df848984e5b5852f649188d141dc9c239da7416c1b"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_43_6.json": {
+      "bytes": 2033,
+      "sha256": "aa21e8810f44825dc80bea32e4a8243bb6261c86e4738f964dce6dd1772edbe6"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_43_8.json": {
+      "bytes": 525,
+      "sha256": "a7af14384e1ac1b68d4c28a5c8da29bcb1d9621e3b6c8b769ab5bc52f4139c3e"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_CELLS.md": {
+      "bytes": 12420,
+      "sha256": "e21843619121546056f3f0178daef275771d17f2b4a1f69c707648f758d3a90a"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_CELLS_REPLAY.json": {
+      "bytes": 7051,
+      "sha256": "4ba38a67bb7a7e2c5be812216b9fb8cd2fad0f500c792b959cdd7dbf604abd82"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_CYLINDER_INTEGER_PROBE.json": {
+      "bytes": 1729,
+      "sha256": "bb0bca4c75cb74881d62a93dad6645f7aca0417fe319e041cd4e397ed770c6aa"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/TRANSLATION_ORBITS_37_3.json": {
+      "bytes": 9756,
+      "sha256": "345648488b8bb6786e6366efd4ae623e04bc412b1efa5980f00b97000735757d"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/TRANSLATION_ORBITS_43_3.json": {
+      "bytes": 11215,
+      "sha256": "6321373f5c21351b971c90c6d412db135dd02006de708994290fc815e03fc0eb"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/TRANSLATION_ORBITS_7_3.json": {
+      "bytes": 2471,
+      "sha256": "30912c86054462deee8be9f6326c09bc24b682bf8184650f38ece2d7c3aac0f7"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/UNIFORM_CHARGED_CYLINDER_CONTROL.md": {
+      "bytes": 4586,
+      "sha256": "6118f9557173aef1692928d290b5180f3b45893623d39fa79beed96963b03f0f"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/UNIFORM_CHARGED_CYLINDER_REPLAY.json": {
+      "bytes": 2123,
+      "sha256": "9846f4058c63b8e1a8191df68d374cbafec68d3349b37cd81db5402ba12ab32b"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/probe_1d.py": {
+      "bytes": 2515,
+      "sha256": "2759a9fd9069d33e1f972d743101c4fac7bc7284340cc457abdecb90e5e4e5b4"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/probe_balanced_inventories.py": {
+      "bytes": 2825,
+      "sha256": "f4bade38f6ebf6a2b03b9c3ca3968124cedb4b5b22f7b402341a53af9b3c3d57"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/probe_cylinder_integer.py": {
+      "bytes": 2840,
+      "sha256": "4770070cf97c681f772943ed178324b903e60847adffff7c6805ad27d58bb54c"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/probe_fixed_inventory.py": {
+      "bytes": 2112,
+      "sha256": "26a8fbe77f1a5d373a89dcbaf3420662916f3518333193b13941d25e676e5b33"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/probe_moment_joint_marginal.py": {
+      "bytes": 3711,
+      "sha256": "443ee6f33907bcb835c3a2aaf72c014c7e173c207db43b2f9eb6b7211bd0299b"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/probe_packed_cylinder.py": {
+      "bytes": 5362,
+      "sha256": "3ef52b1e917ac863515db122ad7e521cdf5e0f43161e4cbe2c0cec94d50b704d"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/probe_translation_orbits.py": {
+      "bytes": 5369,
+      "sha256": "defda2e634864e3318aecc2342c0f7ca07afa73ed0f2ea677e9773d5a72f4bf5"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/small_balanced_kernel.py": {
+      "bytes": 3224,
+      "sha256": "80fd6ca27754b8b49fe8c0cc7633e4c7fff38bb52a8977d4b6b2082586f03e63"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/verify_balanced_kernels.cpp": {
+      "bytes": 4814,
+      "sha256": "c61370b5ff9acf4fb2b8d45c86beb84b574a571d244161762efbfeeb28590a09"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/verify_small_balanced_cells.py": {
+      "bytes": 10325,
+      "sha256": "4164b9ff3e688d166c0773b8a543464a9986463a3f9d2c418296f1ae58965745"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/integer3431/verify_uniform_charged_cylinder.py": {
+      "bytes": 3310,
+      "sha256": "317e3d3bd3cc849b02f4f721289570542ae3b08100199d75efbd3227b0c15dab"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/joint-marginals/ONE_NATIVE_INTEGER_PROBE.json": {
+      "bytes": 576,
+      "sha256": "c438635e65cffd55bbac8f4cdd0dd1a386b1b74a3c531b271ca981de7d7db08c"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/joint-marginals/README.md": {
+      "bytes": 1717,
+      "sha256": "6bed3de8be85095489ef85af49674dd54830d74023c27512fa7e64ba04714ddf"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/joint-marginals/TWO_NATIVE_BALANCED_PROBE.json": {
+      "bytes": 626,
+      "sha256": "1c42dd6722c24940ac2a9db8c0e900da01667745b9758f3523a870ce4f3b23d3"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/joint-marginals/TWO_NATIVE_CHARGED_PROBE.json": {
+      "bytes": 626,
+      "sha256": "dd83dd878064e4315ceeb667a0ec41033203af1e4b18b0c34be54d3c8f48f326"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/joint-marginals/probe_joint_marginal_integer.py": {
+      "bytes": 7548,
+      "sha256": "d7fbfd1993c5b347cef6caeb65785a6210ca5c721201b688d478ae80909bd81a"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/CONTROL_143.json": {
+      "bytes": 2800,
+      "sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/CONTROL_143_SEARCH_STATUS.json": {
+      "bytes": 614,
+      "sha256": "6a65cbd1e19c399d599f17822b3217211d45fab81df091818104d7f9ebfd1cf0"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/PHYSICAL_CONTROLS_REPLAY.json": {
+      "bytes": 2288,
+      "sha256": "5f8e7cd715ed0986042be2a9e0f5de3fa1d5232557de4b92a666504c7b9add11"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/README.md": {
+      "bytes": 5642,
+      "sha256": "506aa761eaa19bdc15be68e7c8a8dc5f87c3383913d66f625e81133db338ab02"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/control143-permanent/complete_rows.json.gz": {
+      "bytes": 8097,
+      "sha256": "89aeb1df274023195594e1bd3de10a78c1771557c335757292bcbd2a24e136a5"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/control143-permanent/status.json": {
+      "bytes": 3561,
+      "sha256": "b7eba6de0f27a2a89fc98f626867e64b8d152d0e7143d0fb07dfef01373f7021"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run3431-permanent/complete_rows.json.gz": {
+      "bytes": 48817,
+      "sha256": "711a38523ecd99b3e9745fb1a5aa4b32b13d02668bda531d2f42fb6bd4c57bce"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run3431-permanent/status.json": {
+      "bytes": 5892,
+      "sha256": "12bbe865e074435fabdfab86ca801fc3c7a481764f477b6fbbba8beb49c61412"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run3431-scoped/complete_rows.json.gz": {
+      "bytes": 72854,
+      "sha256": "7b66e051d2f7fef76c029ed2b56d2e751297d631c6ba522f9d0f193c8fd4876f"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run3431-scoped/coverage_points.json.gz": {
+      "bytes": 352,
+      "sha256": "00d8a98afc0bb584791e1f2a7f9d431692a2a77d0e674a08c33c5e937ee8ada4"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run3431-scoped/status.json": {
+      "bytes": 643,
+      "sha256": "f97c70f214ef250de3e5f8e0d4b738a26e67606f5fcb77d9a7589554de798f48"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run5063-cells/complete_rows.json.gz": {
+      "bytes": 94118,
+      "sha256": "6533deeaa80feae4251b271b8a1f15d4475061c29684d6e73fdb530985eda582"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run5063-cells/coverage_points.json.gz": {
+      "bytes": 1046,
+      "sha256": "2a6acb3e57e9774244163a84a30ccc077cf789433c1086b1eae3d0f11d0461e0"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run5063-cells/final_permanent_check.json": {
+      "bytes": 212,
+      "sha256": "f286e813e65d1ce383c57c324127940b57dca0f822dd9d4c68206f821ababe56"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run5063-cells/status.json": {
+      "bytes": 686,
+      "sha256": "2d38d3534eb44e8f98bfafcea38d9cc58bbdec7852a279420cc6a68fc6108a87"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run5063-permanent/complete_rows.json.gz": {
+      "bytes": 26004,
+      "sha256": "6774425c28f4393f7b0d54ceb106dcdbe9582e02d837350941ff5cc64f10815c"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run5063-permanent/status.json": {
+      "bytes": 479,
+      "sha256": "3a22b7766a1ed62ab29d7f85dfac9ff7c319c91a2a8d89ea72a9f98e11550caa"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run5063-scoped/complete_rows.json.gz": {
+      "bytes": 80765,
+      "sha256": "09d75dc337b9bfd4181c14e6562c17ead29eaab152d8e0e51233467783b485fb"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run5063-scoped/coverage_points.json.gz": {
+      "bytes": 1046,
+      "sha256": "2a6acb3e57e9774244163a84a30ccc077cf789433c1086b1eae3d0f11d0461e0"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/checkpoints/run5063-scoped/status.json": {
+      "bytes": 655,
+      "sha256": "7e9cc1e938ab450cb2ce3b45430cf67660794a09b0c53c83a36b1b24d130b11e"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/permanent_physical_search.py": {
+      "bytes": 6351,
+      "sha256": "99f6d6ff01e680a6ac672004612403b501b16f669c1c4276134036183545ca98"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/scoped_physical_search.py": {
+      "bytes": 9275,
+      "sha256": "352e17587ad14a58c1db0b5688aea54394f82a76814f4d75224091b23c50c69c"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/physical/verify_physical_controls.py": {
+      "bytes": 3526,
+      "sha256": "e69d4feedcde490a5c17166311feb0bb1978ea3832679ffa9a61138871471d4c"
+    },
+    "research/2026-11-21/semiprimes/continued-rigidity/replay.py": {
+      "bytes": 2181,
+      "sha256": "e9738b735e9d683d532e404f42ac300020a6c8e5792979d99d1b267def5a2d95"
     },
     "research/2026-11-21/semiprimes/gate-model/CERTIFICATES_5063.json": {
       "bytes": 14861,
@@ -3639,8 +4287,8 @@
       "sha256": "eb89cb581c9b7c9347e71eaf46f739216c98ffa9b1630c0075d2d4cc277ac57e"
     },
     "research/2026-11-21/semiprimes/global-closure-next/README.md": {
-      "bytes": 10800,
-      "sha256": "5dff4e48f472e44745a56b71fd4641c6b7e89fadad84252ca35b8cf4e6d9b94b"
+      "bytes": 11289,
+      "sha256": "090ac78a0ce67c10ec5f3b67d5c11405c32376a21cc76a6b5a0fe0b45ec8a2c8"
     },
     "research/2026-11-21/semiprimes/global-closure-next/common/CONTACT_INERTIA_AUDIT.md": {
       "bytes": 6937,
@@ -9599,8 +10247,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 17982,
-      "sha256": "32e693d7634dbc0cfe5c4250f43bb60756f482312b43b00eee4ff24c7ae2b7fc"
+      "bytes": 18191,
+      "sha256": "01686a05ffdec4ce3041aeb9f4bf3120b56461e13d620f326f5b84471601e5d0"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

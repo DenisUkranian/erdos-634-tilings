@@ -1,0 +1,53 @@
+[
+  {
+    "population": 14,
+    "nonzero_axis_inventories": 4,
+    "completed": true,
+    "result": {
+      "all_inventories_absent": true,
+      "states": 694,
+      "seconds": 0.000541139
+    },
+    "witness": null
+  },
+  {
+    "population": 16,
+    "nonzero_axis_inventories": 22,
+    "completed": true,
+    "result": {
+      "all_inventories_absent": true,
+      "states": 47823,
+      "seconds": 0.028806
+    },
+    "witness": null
+  },
+  {
+    "population": 18,
+    "nonzero_axis_inventories": 85,
+    "completed": true,
+    "result": {
+      "all_inventories_absent": true,
+      "states": 2771463,
+      "seconds": 3.26464
+    },
+    "witness": null
+  },
+  {
+    "population": 20,
+    "nonzero_axis_inventories": 252,
+    "completed": false,
+    "timeout_seconds": 45
+  },
+  {
+    "population": 22,
+    "nonzero_axis_inventories": 627,
+    "completed": false,
+    "timeout_seconds": 45
+  },
+  {
+    "population": 24,
+    "nonzero_axis_inventories": 1377,
+    "completed": false,
+    "timeout_seconds": 45
+  }
+]

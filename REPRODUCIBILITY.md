@@ -2,6 +2,39 @@
 
 **v0.3.0 + 21 November 2026 continuation**
 
+## 21 November 2026: physical completion reserves and integer cell gaps
+
+The new exact package is included in `scripts/verify_all.py`:
+
+```sh
+python3 research/2026-11-21/semiprimes/continued-rigidity/replay.py
+```
+
+Its twelve checks use Python's standard library and a C++17 compiler.
+They replay the rigid support-line minority exclusions, finite arithmetic
+controls for the unrestricted physical completion theorem, all balanced
+kernel exclusions at sizes 2, 4, 8, 10, and 14 for both targets, exact
+nonoverlapping cylinder controls, a family-specific board-chord obstruction,
+phase coordinates, the reduced 218,905-scheme containing list, ten new
+integer dual certificates, rational two-cell witnesses for both native
+roles, and the independent full 143-tile geometric control.
+
+The small-kernel replay uses a separately written C++ search and an explicit
+component induction. The dual checker verifies 221,880 new polygon-column
+inequalities. The rational two-cell checker freshly verifies all 1,849
+Fourier blocks from its hashed dependency and all four new cell points;
+integer norm estimates prove exact feasibility, positivity, and both sign
+gate capacities. Numerical optimizer output is not used as a proof.
+
+The [global theorem](research/2026-11-21/semiprimes/continued-rigidity/global/GLOBAL_PHYSICAL_CELL_RESERVE.md)
+is a written universal argument with an independent internal audit.
+Its arithmetic controls are not an exhaustive physical search or a
+proof-assistant formalization. The new package does not rerun its large
+optional target searches: their saved row snapshots and reports record
+resource stops, with no verified target contradiction. The older complete
+5063 minimal-mode and two-height exclusions retain their separate full
+replays in the coordinator. **Both original counts remain open.**
+
 ## 21 November 2026: rigid placements and the remaining five-block geometry
 
 The latest exact controls are included in `scripts/verify_all.py`:

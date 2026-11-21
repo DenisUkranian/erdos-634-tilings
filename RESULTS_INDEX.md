@@ -2,6 +2,12 @@
 
 The [project overview](README.md) summarizes current work. The dated entries below preserve the original claims, qualifications and source links.
 
+## 21 November 2026: global physical reserves and smaller integer cells
+
+[Global physical cell-reserve theorem](research/2026-11-21/semiprimes/continued-rigidity/global/GLOBAL_PHYSICAL_CELL_RESERVE.md): complete physical-row selections must leave enough positive tiles in a genuinely charged odd cell, as well as enough tiles to repair both full charges. The explicit bound strengthens the earlier residual-charge minimum; a node-rounded integer optimization retains additional reserves. The [support-line theorem](research/2026-11-21/semiprimes/continued-rigidity/global/UNIT_CHARGE_CELL_MINORITY.md) gives cell minima 41 and 53 for unit charges 37 and 43, without a fixed global odd population.
+
+[Independent integer kernel exclusions](research/2026-11-21/semiprimes/continued-rigidity/integer3431/SMALL_BALANCED_CELLS.md) forbid balanced sizes 2, 4, 8, 10, and 14 for both shapes. Together these results leave [31 four-cell parameters and 218,905 containing 5063 schemes](research/2026-11-21/semiprimes/continued-rigidity/cells5063/REDUCED_CELL_CLASSIFICATION_5063.md). [Both two-cell native roles](research/2026-11-21/semiprimes/continued-rigidity/cells5063/TWO_CELL_RATIONAL_LIMIT.md) have exact rational full-endpoint witnesses with integral shared-node currents, proving a limit of all linear cuts from that model. Whole nonoverlapping cylinder controls separately delimit claims based only on rigidity. [Package and exact replay](research/2026-11-21/semiprimes/continued-rigidity/README.md). **Neither original count is decided.**
+
 ## 21 November 2026: rigid-body constraints and the one-height 5063 remainder
 
 [Two-height exclusion](research/2026-11-21/semiprimes/global-closure-next/five-block-two-heights/TWO_HEIGHT_EXCLUSION_5063.md): all 9,112,001 newly derived single-offset profiles are excluded exactly. At 5063, total odd population 215 therefore forces only short heights 0, 1, and 2. [Two-block balance and the remaining cells](research/2026-11-21/semiprimes/global-closure-next/global-strengthening/ONE_HEIGHT_CELL_CLASSIFICATION_5063.md) reduce the middle layer to one, two, or four classes; the four-cell case has parameter `x=1,...,42`.

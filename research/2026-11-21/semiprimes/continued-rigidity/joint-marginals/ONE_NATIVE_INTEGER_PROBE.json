@@ -1,0 +1,28 @@
+{
+  "tile": [
+    35,
+    13,
+    43
+  ],
+  "target": 5063,
+  "kind": "one",
+  "x": 21,
+  "native_row": 0,
+  "native_col": 0,
+  "integer_marginals": true,
+  "fixed_native_profile": true,
+  "cells": [
+    [
+      0,
+      0,
+      129,
+      86
+    ]
+  ],
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "seconds": 60.009118943999056,
+  "rows": 444,
+  "columns": 1204,
+  "scope": "Necessary marginal projection only. No full endpoint kernel, physical tiling, or target exclusion is asserted."
+}

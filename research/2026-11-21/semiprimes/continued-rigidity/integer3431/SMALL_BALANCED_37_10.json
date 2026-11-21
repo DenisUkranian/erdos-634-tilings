@@ -1,0 +1,18 @@
+{
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "total": 10,
+  "normalized_first_tile": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "visited_states": 1086661,
+  "solutions": [],
+  "seconds": 3.3005374269996537,
+  "scope": "Exact first-return all-residue positive integer endpoint kernels of the stated size and charge zero, modulo a symmetry sending one tile to (0,0,0,+1). Multiplicities allowed. Stops at closed proper prefixes; a full-population exclusion requires the separately stated component-size induction. No gate constraints."
+}

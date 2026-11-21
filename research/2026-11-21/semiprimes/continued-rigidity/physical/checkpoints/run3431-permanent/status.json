@@ -1,0 +1,264 @@
+{
+  "mode": "3431-111",
+  "N": 3431,
+  "odd_population": 111,
+  "joint_cell_reserve": false,
+  "temporary_rows_used": false,
+  "status": "round-limit",
+  "full_target_excluded": false,
+  "columns": 80999,
+  "complete_rows": 11506,
+  "seconds": 139.280554,
+  "history": [
+    {
+      "iteration": 0,
+      "status": "sat",
+      "columns": 23429,
+      "complete_rows": 1506,
+      "solve_seconds": 0.372207,
+      "selected": 137,
+      "residual_rows": 538,
+      "overlap_pairs": 33
+    },
+    {
+      "iteration": 1,
+      "status": "sat",
+      "columns": 25049,
+      "complete_rows": 1906,
+      "solve_seconds": 1.688138,
+      "selected": 357,
+      "residual_rows": 1351,
+      "overlap_pairs": 353
+    },
+    {
+      "iteration": 2,
+      "status": "sat",
+      "columns": 27155,
+      "complete_rows": 2306,
+      "solve_seconds": 6.313769,
+      "selected": 417,
+      "residual_rows": 1479,
+      "overlap_pairs": 466
+    },
+    {
+      "iteration": 3,
+      "status": "sat",
+      "columns": 29277,
+      "complete_rows": 2706,
+      "solve_seconds": 1.23844,
+      "selected": 448,
+      "residual_rows": 1528,
+      "overlap_pairs": 464
+    },
+    {
+      "iteration": 4,
+      "status": "sat",
+      "columns": 31497,
+      "complete_rows": 3106,
+      "solve_seconds": 5.499461,
+      "selected": 552,
+      "residual_rows": 2092,
+      "overlap_pairs": 794
+    },
+    {
+      "iteration": 5,
+      "status": "sat",
+      "columns": 34026,
+      "complete_rows": 3506,
+      "solve_seconds": 1.836564,
+      "selected": 554,
+      "residual_rows": 1920,
+      "overlap_pairs": 756
+    },
+    {
+      "iteration": 6,
+      "status": "sat",
+      "columns": 36141,
+      "complete_rows": 3906,
+      "solve_seconds": 6.942012,
+      "selected": 748,
+      "residual_rows": 2766,
+      "overlap_pairs": 1546
+    },
+    {
+      "iteration": 7,
+      "status": "sat",
+      "columns": 38502,
+      "complete_rows": 4306,
+      "solve_seconds": 10.092562,
+      "selected": 896,
+      "residual_rows": 3220,
+      "overlap_pairs": 2281
+    },
+    {
+      "iteration": 8,
+      "status": "sat",
+      "columns": 40980,
+      "complete_rows": 4706,
+      "solve_seconds": 6.715761,
+      "selected": 627,
+      "residual_rows": 2191,
+      "overlap_pairs": 953
+    },
+    {
+      "iteration": 9,
+      "status": "sat",
+      "columns": 43488,
+      "complete_rows": 5106,
+      "solve_seconds": 6.688657,
+      "selected": 886,
+      "residual_rows": 3040,
+      "overlap_pairs": 1945
+    },
+    {
+      "iteration": 10,
+      "status": "sat",
+      "columns": 45871,
+      "complete_rows": 5506,
+      "solve_seconds": 2.386803,
+      "selected": 809,
+      "residual_rows": 2607,
+      "overlap_pairs": 1264
+    },
+    {
+      "iteration": 11,
+      "status": "sat",
+      "columns": 48415,
+      "complete_rows": 5906,
+      "solve_seconds": 8.163032,
+      "selected": 972,
+      "residual_rows": 3364,
+      "overlap_pairs": 1958
+    },
+    {
+      "iteration": 12,
+      "status": "sat",
+      "columns": 50736,
+      "complete_rows": 6306,
+      "solve_seconds": 3.686013,
+      "selected": 634,
+      "residual_rows": 2118,
+      "overlap_pairs": 1028
+    },
+    {
+      "iteration": 13,
+      "status": "sat",
+      "columns": 53064,
+      "complete_rows": 6706,
+      "solve_seconds": 6.796038,
+      "selected": 673,
+      "residual_rows": 2215,
+      "overlap_pairs": 1353
+    },
+    {
+      "iteration": 14,
+      "status": "sat",
+      "columns": 55332,
+      "complete_rows": 7106,
+      "solve_seconds": 2.495341,
+      "selected": 806,
+      "residual_rows": 2342,
+      "overlap_pairs": 1715
+    },
+    {
+      "iteration": 15,
+      "status": "sat",
+      "columns": 57437,
+      "complete_rows": 7506,
+      "solve_seconds": 8.098725,
+      "selected": 923,
+      "residual_rows": 3025,
+      "overlap_pairs": 2339
+    },
+    {
+      "iteration": 16,
+      "status": "sat",
+      "columns": 59655,
+      "complete_rows": 7906,
+      "solve_seconds": 7.036672,
+      "selected": 1000,
+      "residual_rows": 3199,
+      "overlap_pairs": 2547
+    },
+    {
+      "iteration": 17,
+      "status": "sat",
+      "columns": 62081,
+      "complete_rows": 8306,
+      "solve_seconds": 2.36566,
+      "selected": 1021,
+      "residual_rows": 3065,
+      "overlap_pairs": 2095
+    },
+    {
+      "iteration": 18,
+      "status": "sat",
+      "columns": 64345,
+      "complete_rows": 8706,
+      "solve_seconds": 9.009344,
+      "selected": 1210,
+      "residual_rows": 3898,
+      "overlap_pairs": 3955
+    },
+    {
+      "iteration": 19,
+      "status": "sat",
+      "columns": 66724,
+      "complete_rows": 9106,
+      "solve_seconds": 5.362076,
+      "selected": 1060,
+      "residual_rows": 3300,
+      "overlap_pairs": 2180
+    },
+    {
+      "iteration": 20,
+      "status": "sat",
+      "columns": 68930,
+      "complete_rows": 9506,
+      "solve_seconds": 4.82517,
+      "selected": 1210,
+      "residual_rows": 3818,
+      "overlap_pairs": 2923
+    },
+    {
+      "iteration": 21,
+      "status": "sat",
+      "columns": 71479,
+      "complete_rows": 9906,
+      "solve_seconds": 3.364365,
+      "selected": 1215,
+      "residual_rows": 3607,
+      "overlap_pairs": 2500
+    },
+    {
+      "iteration": 22,
+      "status": "sat",
+      "columns": 73871,
+      "complete_rows": 10306,
+      "solve_seconds": 3.817394,
+      "selected": 1298,
+      "residual_rows": 4075,
+      "overlap_pairs": 2877
+    },
+    {
+      "iteration": 23,
+      "status": "sat",
+      "columns": 76196,
+      "complete_rows": 10706,
+      "solve_seconds": 4.685518,
+      "selected": 1422,
+      "residual_rows": 4476,
+      "overlap_pairs": 3687
+    },
+    {
+      "iteration": 24,
+      "status": "sat",
+      "columns": 78577,
+      "complete_rows": 11106,
+      "solve_seconds": 2.926371,
+      "selected": 1395,
+      "residual_rows": 4079,
+      "overlap_pairs": 3088
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "tile": [
+    35,
+    13,
+    43
+  ],
+  "kind": "four",
+  "x": 5,
+  "native_row": 0,
+  "native_col": 0,
+  "fixed_native_profile": false,
+  "cells": [
+    [
+      0,
+      0,
+      5,
+      5
+    ],
+    [
+      0,
+      1,
+      38,
+      38
+    ],
+    [
+      1,
+      0,
+      38,
+      38
+    ],
+    [
+      1,
+      1,
+      48,
+      5
+    ]
+  ],
+  "seconds": 91.62296234800033,
+  "trace": [
+    {
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "seconds": 30.209881669000424,
+      "rows": 3648,
+      "violated_shifted_cuts": 135,
+      "objective": 80.99999999973556,
+      "added_cuts": 135
+    },
+    {
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "seconds": 61.943166377000125,
+      "rows": 3783,
+      "violated_shifted_cuts": 52,
+      "objective": 82.9999999999999,
+      "added_cuts": 52
+    },
+    {
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "seconds": 90.08378287300002,
+      "rows": 3835,
+      "violated_shifted_cuts": 82,
+      "objective": 85.00000000000004,
+      "added_cuts": 82
+    }
+  ],
+  "finite_pool_integer_witness": null,
+  "scope": "Exploratory necessary shared-node integer gate projection only. No physical tiling or target infeasibility is established."
+}

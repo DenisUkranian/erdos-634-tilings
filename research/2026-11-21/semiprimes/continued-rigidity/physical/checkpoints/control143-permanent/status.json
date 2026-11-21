@@ -1,0 +1,162 @@
+{
+  "mode": "143-control",
+  "N": 143,
+  "odd_population": 105,
+  "joint_cell_reserve": false,
+  "temporary_rows_used": false,
+  "status": "solver-inconclusive",
+  "full_target_excluded": false,
+  "columns": 22816,
+  "complete_rows": 2528,
+  "seconds": 22.453542,
+  "history": [
+    {
+      "iteration": 0,
+      "status": "sat",
+      "columns": 663,
+      "complete_rows": 6,
+      "solve_seconds": 0.004476,
+      "selected": 23,
+      "residual_rows": 88,
+      "overlap_pairs": 2
+    },
+    {
+      "iteration": 1,
+      "status": "sat",
+      "columns": 1146,
+      "complete_rows": 94,
+      "solve_seconds": 0.00705,
+      "selected": 31,
+      "residual_rows": 104,
+      "overlap_pairs": 9
+    },
+    {
+      "iteration": 2,
+      "status": "sat",
+      "columns": 1802,
+      "complete_rows": 198,
+      "solve_seconds": 0.014046,
+      "selected": 51,
+      "residual_rows": 130,
+      "overlap_pairs": 26
+    },
+    {
+      "iteration": 3,
+      "status": "sat",
+      "columns": 2834,
+      "complete_rows": 328,
+      "solve_seconds": 0.017128,
+      "selected": 82,
+      "residual_rows": 210,
+      "overlap_pairs": 129
+    },
+    {
+      "iteration": 4,
+      "status": "sat",
+      "columns": 4378,
+      "complete_rows": 528,
+      "solve_seconds": 0.035954,
+      "selected": 108,
+      "residual_rows": 280,
+      "overlap_pairs": 191
+    },
+    {
+      "iteration": 5,
+      "status": "sat",
+      "columns": 6535,
+      "complete_rows": 728,
+      "solve_seconds": 0.089152,
+      "selected": 68,
+      "residual_rows": 208,
+      "overlap_pairs": 56
+    },
+    {
+      "iteration": 6,
+      "status": "sat",
+      "columns": 8233,
+      "complete_rows": 928,
+      "solve_seconds": 0.079744,
+      "selected": 83,
+      "residual_rows": 212,
+      "overlap_pairs": 108
+    },
+    {
+      "iteration": 7,
+      "status": "sat",
+      "columns": 9940,
+      "complete_rows": 1128,
+      "solve_seconds": 0.266236,
+      "selected": 82,
+      "residual_rows": 260,
+      "overlap_pairs": 139
+    },
+    {
+      "iteration": 8,
+      "status": "sat",
+      "columns": 11566,
+      "complete_rows": 1328,
+      "solve_seconds": 0.213293,
+      "selected": 119,
+      "residual_rows": 338,
+      "overlap_pairs": 342
+    },
+    {
+      "iteration": 9,
+      "status": "sat",
+      "columns": 13460,
+      "complete_rows": 1528,
+      "solve_seconds": 0.252496,
+      "selected": 108,
+      "residual_rows": 313,
+      "overlap_pairs": 157
+    },
+    {
+      "iteration": 10,
+      "status": "sat",
+      "columns": 15386,
+      "complete_rows": 1728,
+      "solve_seconds": 0.440834,
+      "selected": 136,
+      "residual_rows": 402,
+      "overlap_pairs": 424
+    },
+    {
+      "iteration": 11,
+      "status": "sat",
+      "columns": 17150,
+      "complete_rows": 1928,
+      "solve_seconds": 1.921937,
+      "selected": 127,
+      "residual_rows": 374,
+      "overlap_pairs": 294
+    },
+    {
+      "iteration": 12,
+      "status": "sat",
+      "columns": 19165,
+      "complete_rows": 2128,
+      "solve_seconds": 3.024392,
+      "selected": 141,
+      "residual_rows": 372,
+      "overlap_pairs": 695
+    },
+    {
+      "iteration": 13,
+      "status": "sat",
+      "columns": 20864,
+      "complete_rows": 2328,
+      "solve_seconds": 3.926836,
+      "selected": 142,
+      "residual_rows": 426,
+      "overlap_pairs": 430
+    },
+    {
+      "iteration": 14,
+      "status": "unknown",
+      "columns": 22816,
+      "complete_rows": 2528,
+      "solve_seconds": 10.000941,
+      "reason": "(:reason-unknown \"canceled\")"
+    }
+  ]
+}

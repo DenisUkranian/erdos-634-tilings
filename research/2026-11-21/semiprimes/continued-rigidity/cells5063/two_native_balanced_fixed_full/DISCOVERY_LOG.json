@@ -1,0 +1,117 @@
+[
+  {
+    "round": 0,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 1.0111765380006545,
+        "rows": 2083,
+        "violated_shifted_cuts": 0,
+        "objective": 64.99999999999612
+      }
+    ],
+    "new_duals": [
+      {
+        "source": "shared_profile_cut_eab3540cb9acea26.json",
+        "sha256": "aa8b7a6ffaa5d3efc97145a1731d3258933d02558d3a45b018dca94804658974",
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "columns": 22188,
+        "minimum_score": -3700709,
+        "maximum_score": 1000001,
+        "D": 1000001,
+        "status": "PASS",
+        "recorded_profile_excluded_population": 129
+      }
+    ],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 8.973808920998636,
+        "oracle": "full_endpoint_columns",
+        "scope": "Necessary full periodic endpoint relaxation. Only independently verified integral dual inequalities are exact; floating primal feasibility is not a tiling.",
+        "maximum_equality_residual": 6.139533326177116e-14,
+        "floating_minimum_population": 58.613482433490326,
+        "D": 1000002,
+        "lower_numerator": 58613481,
+        "lower_denominator": 1000002
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.07653881899932458,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 130.40831920252558,
+        "D": 1000001,
+        "lower_numerator": 130408318,
+        "lower_denominator": 1000001
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.8302192899991496,
+        "rows": 2107,
+        "violated_shifted_cuts": 0,
+        "objective": 64.99999999914745
+      }
+    ],
+    "new_duals": [],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 9.43359918400165,
+        "oracle": "full_endpoint_columns",
+        "scope": "Necessary full periodic endpoint relaxation. Only independently verified integral dual inequalities are exact; floating primal feasibility is not a tiling.",
+        "maximum_equality_residual": 2.0358714714063808e-14,
+        "floating_minimum_population": 60.47028958108306,
+        "D": 1000002,
+        "lower_numerator": 60470293,
+        "lower_denominator": 1000002
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 8.405178906999936,
+        "oracle": "full_endpoint_columns",
+        "scope": "Necessary full periodic endpoint relaxation. Only independently verified integral dual inequalities are exact; floating primal feasibility is not a tiling.",
+        "maximum_equality_residual": 1.9126237919830924e-11,
+        "floating_minimum_population": 128.5962657402962,
+        "D": 1000002,
+        "lower_numerator": 128596269,
+        "lower_denominator": 1000002
+      }
+    ],
+    "stop": "No new certified cut from marginal/full-endpoint probes; inspect individual optimizer statuses. No tiling witness asserted."
+  }
+]

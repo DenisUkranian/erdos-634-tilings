@@ -1,0 +1,17 @@
+{
+  "source": "shared_profile_cut_001.json",
+  "sha256": "53dbefdf34ccec503e000325945c71befd343a71c31e34c402270632e740e2f6",
+  "tile": [
+    35,
+    13,
+    43
+  ],
+  "columns": 22188,
+  "minimum_score": -3378009,
+  "maximum_score": 1000001,
+  "D": 1000001,
+  "status": "PASS",
+  "recorded_profile_lower_numerator": 143166999,
+  "recorded_profile_upper_population": 129,
+  "recorded_profile_excluded": true
+}

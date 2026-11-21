@@ -1,0 +1,119 @@
+{
+  "verified": true,
+  "controls": [
+    {
+      "N": 3431,
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "board_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          511,
+          0
+        ],
+        [
+          0,
+          1551
+        ]
+      ],
+      "fan_carrier_section_length": [
+        1551,
+        40
+      ],
+      "minimum_integer_anchor_gap": 39,
+      "required_carrier_span_for_c_fans": [
+        57711,
+        40
+      ],
+      "three_height_one_maximum_chords": [
+        [
+          792561,
+          1480
+        ],
+        [
+          57387,
+          40
+        ],
+        [
+          18907,
+          40
+        ]
+      ],
+      "excess_over_longest_chord": [
+        81,
+        10
+      ],
+      "adjacent_overlap_pairs_at_gap_c_plus_one": [
+        [
+          2,
+          0
+        ]
+      ],
+      "adjacent_overlap_pairs_at_minimum_integer_gap": [],
+      "scope": "This c-fan, same-carrier, integer-anchor family at height one, including rotations by multiples of 60 degrees. No classification of general 3c kernels."
+    },
+    {
+      "N": 5063,
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "board_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1079,
+          0
+        ],
+        [
+          0,
+          2135
+        ]
+      ],
+      "fan_carrier_section_length": [
+        2135,
+        48
+      ],
+      "minimum_integer_anchor_gap": 45,
+      "required_carrier_span_for_c_fans": [
+        92855,
+        48
+      ],
+      "three_height_one_maximum_chords": [
+        [
+          2303665,
+          2064
+        ],
+        [
+          91805,
+          48
+        ],
+        [
+          46397,
+          48
+        ]
+      ],
+      "excess_over_longest_chord": [
+        175,
+        8
+      ],
+      "adjacent_overlap_pairs_at_gap_c_plus_one": [
+        [
+          2,
+          0
+        ]
+      ],
+      "adjacent_overlap_pairs_at_minimum_integer_gap": [],
+      "scope": "This c-fan, same-carrier, integer-anchor family at height one, including rotations by multiples of 60 degrees. No classification of general 3c kernels."
+    }
+  ]
+}

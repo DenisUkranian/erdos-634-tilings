@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "certificates": 10,
+  "polygon_columns_per_certificate": 22188,
+  "records": [
+    {
+      "source": "shared_profile_cut_001.json",
+      "sha256": "53dbefdf34ccec503e000325945c71befd343a71c31e34c402270632e740e2f6",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -3378009,
+      "maximum_score": 1000001,
+      "D": 1000001,
+      "status": "PASS",
+      "recorded_cell_charge": 43,
+      "recorded_profile_lower_numerator": 143166999,
+      "recorded_profile_lower_denominator": 1000001,
+      "greatest_population_excluded_for_recorded_profile": 143,
+      "least_population_with_recorded_charge_parity": 145
+    },
+    {
+      "source": "shared_profile_cut_002.json",
+      "sha256": "8d75f7830cf10ee80984beaf96a1d34d086d3314dbecf9b2f28b7020632f78d6",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4332493,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "recorded_cell_charge": 43,
+      "recorded_profile_lower_numerator": 139023581,
+      "recorded_profile_lower_denominator": 1000002,
+      "greatest_population_excluded_for_recorded_profile": 139,
+      "least_population_with_recorded_charge_parity": 141
+    },
+    {
+      "source": "shared_profile_cut_003.json",
+      "sha256": "79993391a91e48c8c84664c6e2e9c25561fb4eb54eaf1ef94fa31b0dcad4ce77",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4380360,
+      "maximum_score": 1000001,
+      "D": 1000001,
+      "status": "PASS",
+      "recorded_cell_charge": 43,
+      "recorded_profile_lower_numerator": 140825744,
+      "recorded_profile_lower_denominator": 1000001,
+      "greatest_population_excluded_for_recorded_profile": 140,
+      "least_population_with_recorded_charge_parity": 141
+    },
+    {
+      "source": "shared_profile_cut_004.json",
+      "sha256": "4d2f0161ab71354d95704c9a586daf6444faeae6f90edabf1ed5c8007bc23b1e",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -3906355,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "recorded_cell_charge": 43,
+      "recorded_profile_lower_numerator": 131636862,
+      "recorded_profile_lower_denominator": 1000002,
+      "greatest_population_excluded_for_recorded_profile": 131,
+      "least_population_with_recorded_charge_parity": 133
+    },
+    {
+      "source": "shared_profile_cut_005.json",
+      "sha256": "732127b3a0716a5429a1ccd4273161310abce8d270ac8f7adf276bbc4827bbf5",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4465730,
+      "maximum_score": 1000001,
+      "D": 1000001,
+      "status": "PASS",
+      "recorded_cell_charge": 43,
+      "recorded_profile_lower_numerator": 130407617,
+      "recorded_profile_lower_denominator": 1000001,
+      "greatest_population_excluded_for_recorded_profile": 130,
+      "least_population_with_recorded_charge_parity": 131
+    },
+    {
+      "source": "shared_profile_cut_006.json",
+      "sha256": "b0b30e71627c9d2a54ed2407bf9a6aabadbe363fcaec67c3539325b49c5d4b28",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -4118039,
+      "maximum_score": 1000001,
+      "D": 1000001,
+      "status": "PASS",
+      "recorded_cell_charge": 43,
+      "recorded_profile_lower_numerator": 130558403,
+      "recorded_profile_lower_denominator": 1000001,
+      "greatest_population_excluded_for_recorded_profile": 130,
+      "least_population_with_recorded_charge_parity": 131
+    },
+    {
+      "source": "shared_profile_cut_007.json",
+      "sha256": "15251197ceade4270e9c5128d52e704b70b6e722e6cea070b62de1077d7d9f6a",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -3603419,
+      "maximum_score": 1000001,
+      "D": 1000001,
+      "status": "PASS",
+      "recorded_cell_charge": 43,
+      "recorded_profile_lower_numerator": 130456747,
+      "recorded_profile_lower_denominator": 1000001,
+      "greatest_population_excluded_for_recorded_profile": 130,
+      "least_population_with_recorded_charge_parity": 131
+    },
+    {
+      "source": "shared_profile_cut_008.json",
+      "sha256": "de1e6497caed6e7e970843274dafe9e62cc2aee611805d7806eb0aaf0a4d91f0",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -3946188,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "recorded_cell_charge": 43,
+      "recorded_profile_lower_numerator": 130690159,
+      "recorded_profile_lower_denominator": 1000002,
+      "greatest_population_excluded_for_recorded_profile": 130,
+      "least_population_with_recorded_charge_parity": 131
+    },
+    {
+      "source": "shared_profile_cut_009.json",
+      "sha256": "da80a3604e424a17ef9e00b975d1a284cfa46356a9abfceefca90dff48653b71",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -3951242,
+      "maximum_score": 1000002,
+      "D": 1000002,
+      "status": "PASS",
+      "recorded_cell_charge": 43,
+      "recorded_profile_lower_numerator": 130604165,
+      "recorded_profile_lower_denominator": 1000002,
+      "greatest_population_excluded_for_recorded_profile": 130,
+      "least_population_with_recorded_charge_parity": 131
+    },
+    {
+      "source": "shared_profile_cut_eab3540cb9acea26.json",
+      "sha256": "aa8b7a6ffaa5d3efc97145a1731d3258933d02558d3a45b018dca94804658974",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "columns": 22188,
+      "minimum_score": -3700709,
+      "maximum_score": 1000001,
+      "D": 1000001,
+      "status": "PASS",
+      "recorded_cell_charge": 43,
+      "recorded_profile_lower_numerator": 130408318,
+      "recorded_profile_lower_denominator": 1000001,
+      "greatest_population_excluded_for_recorded_profile": 130,
+      "least_population_with_recorded_charge_parity": 131
+    }
+  ],
+  "scope": "Exact universal endpoint inequalities and their individual recorded-profile bounds. No exhaustion of the shared-node current universe and no whole-target exclusion are asserted."
+}

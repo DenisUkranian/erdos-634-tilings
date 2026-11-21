@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "population": 21,
+      "positive": 14,
+      "negative": 7,
+      "charge": 7,
+      "vertical_step": 15,
+      "all_actual_cylinder_rows_zero": true,
+      "pairs_separated_exactly": 210,
+      "unreduced_physical_endpoint_nonzero_rows": 14,
+      "up_current_every_residue": 2,
+      "down_current_every_residue": -1,
+      "remote_gate_divisibility_failed": true,
+      "remote_failures": 6,
+      "scope": "A nonoverlapping partial packing in the unbounded plane; no target-board containment, complete tiling, or neighboring-gate compatibility."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "population": 111,
+      "positive": 74,
+      "negative": 37,
+      "charge": 37,
+      "vertical_step": 75,
+      "all_actual_cylinder_rows_zero": true,
+      "pairs_separated_exactly": 6105,
+      "unreduced_physical_endpoint_nonzero_rows": 74,
+      "up_current_every_residue": 2,
+      "down_current_every_residue": -1,
+      "remote_gate_divisibility_failed": true,
+      "remote_failures": 72,
+      "scope": "A nonoverlapping partial packing in the unbounded plane; no target-board containment, complete tiling, or neighboring-gate compatibility."
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "population": 129,
+      "positive": 86,
+      "negative": 43,
+      "charge": 43,
+      "vertical_step": 87,
+      "all_actual_cylinder_rows_zero": true,
+      "pairs_separated_exactly": 8256,
+      "unreduced_physical_endpoint_nonzero_rows": 86,
+      "up_current_every_residue": 2,
+      "down_current_every_residue": -1,
+      "remote_gate_divisibility_failed": true,
+      "remote_failures": 84,
+      "scope": "A nonoverlapping partial packing in the unbounded plane; no target-board containment, complete tiling, or neighboring-gate compatibility."
+    }
+  ],
+  "conclusion": "Integrality, exact cylinder rows and pairwise interior nonoverlap alone permit charge c at population 3c. Actual gate congruences and board geometry remain necessary."
+}

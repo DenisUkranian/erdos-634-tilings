@@ -5,6 +5,15 @@ This continuation closes the entire `n_odd=129` case for the 5063 board,
 including all charged remote even branches. Every hypothetical complete
 5063 tiling consequently has at least **215 odd-height tiles**.
 
+The latest [physical completion theorem and integer cell restrictions](continued-rigidity/README.md)
+combine actual contact rows with the spatial allocation of retained odd
+signs and the remaining tile budget. Unit-charge cell minima are 41 and
+53 for the two targets, and balanced cell populations 2, 4, 8, 10, and 14
+are excluded independently. The remaining 5063 four-cell parameter now
+has 31 values, giving 218,905 containing phase/sign schemes. Exact rational
+witnesses show that both two-cell native roles survive the full continuous
+periodic endpoint model; physical integrality and contacts remain unresolved.
+
 The latest [two-height exclusion](global-closure-next/five-block-two-heights/TWO_HEIGHT_EXCLUSION_5063.md)
 shows that equality forces all 215 odd tiles to height one, with every
 short height in `{0,1,2}`. Exact node balance and joint-cell analysis

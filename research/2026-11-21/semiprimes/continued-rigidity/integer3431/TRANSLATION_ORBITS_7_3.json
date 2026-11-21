@@ -1,0 +1,186 @@
+{
+  "tile": [
+    5,
+    3,
+    7
+  ],
+  "orbit_count": 3,
+  "population": 21,
+  "charge": 7,
+  "seconds": 0.0004992020003555808,
+  "quotients": [
+    {
+      "quotient": [
+        1,
+        0
+      ],
+      "states": 3,
+      "found": true,
+      "orbit_support": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ]
+      ],
+      "full_torus_support": [
+        [
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          3,
+          0,
+          -1
+        ],
+        [
+          0,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          5,
+          0,
+          -1
+        ],
+        [
+          0,
+          6,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          3,
+          0,
+          1
+        ],
+        [
+          0,
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          5,
+          0,
+          1
+        ],
+        [
+          0,
+          6,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          1,
+          4,
+          1
+        ],
+        [
+          0,
+          2,
+          4,
+          1
+        ],
+        [
+          0,
+          3,
+          4,
+          1
+        ],
+        [
+          0,
+          4,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          4,
+          1
+        ],
+        [
+          0,
+          6,
+          4,
+          1
+        ]
+      ],
+      "up_currents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "down_currents": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "integer_endpoint_rows_checked": true
+    }
+  ],
+  "scope": "Full integer torus witness if found; negative results only concern the displayed first-return translation-orbit family. No packing or gate compatibility is imposed."
+}

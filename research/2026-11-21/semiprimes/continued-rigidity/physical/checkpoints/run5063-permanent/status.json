@@ -1,0 +1,22 @@
+{
+  "mode": "5063-215",
+  "N": 5063,
+  "odd_population": 215,
+  "joint_cell_reserve": true,
+  "temporary_rows_used": false,
+  "status": "solver-inconclusive",
+  "full_target_excluded": false,
+  "columns": 91619,
+  "complete_rows": 6126,
+  "seconds": 32.165755,
+  "history": [
+    {
+      "iteration": 0,
+      "status": "unknown",
+      "columns": 91619,
+      "complete_rows": 6126,
+      "solve_seconds": 25.007347,
+      "reason": "(:reason-unknown \"canceled\")"
+    }
+  ]
+}

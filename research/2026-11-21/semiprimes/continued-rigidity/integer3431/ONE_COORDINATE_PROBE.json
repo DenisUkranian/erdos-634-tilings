@@ -1,0 +1,17 @@
+{
+  "scope": "Separate one-coordinate integer necessary projections, not a simultaneous two-coordinate point or physical tiling.",
+  "cases": [
+    {
+      "hand": 1,
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "seconds": 30.00793406199955
+    },
+    {
+      "hand": -1,
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "seconds": 30.015136931999223
+    }
+  ]
+}

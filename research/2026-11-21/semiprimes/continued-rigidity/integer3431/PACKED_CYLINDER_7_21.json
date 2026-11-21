@@ -1,0 +1,23 @@
+{
+  "tile": [
+    5,
+    3,
+    7
+  ],
+  "anchor_radius": 8,
+  "odd_blocks": 3,
+  "gate_congruences": false,
+  "columns": 2604,
+  "cylinder_rows": 357,
+  "initial_point_cliques": 1500,
+  "scope": "Finite hexagon anchor pool. An exact accepted point is a real nonoverlapping partial packing with cylinder equations, not a full tiling. Infeasibility has only finite-pool scope.",
+  "rounds": [
+    {
+      "round": 0,
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "point_cliques_and_pair_cuts": 1500
+    }
+  ],
+  "seconds": 90.12664757899984
+}

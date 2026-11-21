@@ -1,0 +1,226 @@
+{
+  "scope": "Exact support-line relaxation for charge43 cells with minority <=5.\n\nThe written proof establishes that every actual ordinary Euclidean cell\nwith populations(43+m,m), m<=5, induces one of these finite networks.\nThis checker uses only integer maximum flow. It supplies no placements.\n",
+  "local_rigid_role_controls": {
+    "positive_ordered_role_pairs": 6,
+    "negative_ordered_role_pairs": 6,
+    "opposite_role_opposite_sign_sectors_overlap": true
+  },
+  "results": [
+    {
+      "minority": 0,
+      "net_type_cases": 0,
+      "axis_assignments": 0,
+      "degree_rejected": 0,
+      "flow_rejected": 0,
+      "surviving_patterns": 0,
+      "first_survivor": []
+    },
+    {
+      "minority": 1,
+      "net_type_cases": 1,
+      "axis_assignments": 108,
+      "degree_rejected": 108,
+      "flow_rejected": 0,
+      "surviving_patterns": 0,
+      "first_survivor": []
+    },
+    {
+      "minority": 2,
+      "net_type_cases": 2,
+      "axis_assignments": 558,
+      "degree_rejected": 558,
+      "flow_rejected": 0,
+      "surviving_patterns": 0,
+      "first_survivor": []
+    },
+    {
+      "minority": 3,
+      "net_type_cases": 3,
+      "axis_assignments": 1676,
+      "degree_rejected": 1672,
+      "flow_rejected": 4,
+      "surviving_patterns": 0,
+      "first_survivor": []
+    },
+    {
+      "minority": 4,
+      "net_type_cases": 6,
+      "axis_assignments": 7100,
+      "degree_rejected": 7031,
+      "flow_rejected": 69,
+      "surviving_patterns": 0,
+      "first_survivor": []
+    },
+    {
+      "minority": 5,
+      "net_type_cases": 18,
+      "axis_assignments": 25247,
+      "degree_rejected": 24636,
+      "flow_rejected": 586,
+      "surviving_patterns": 25,
+      "first_survivor": [
+        {
+          "types": [
+            8,
+            0,
+            0,
+            0
+          ],
+          "zero_lines": 5,
+          "groups": [
+            [
+              0,
+              2,
+              6
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "flow": 48,
+          "witness": {
+            "edges_with_flow": [
+              [
+                5,
+                0,
+                2,
+                2
+              ],
+              [
+                0,
+                4,
+                12,
+                2
+              ],
+              [
+                5,
+                1,
+                6,
+                6
+              ],
+              [
+                1,
+                3,
+                12,
+                6
+              ],
+              [
+                5,
+                2,
+                35,
+                35
+              ],
+              [
+                2,
+                3,
+                10,
+                6
+              ],
+              [
+                2,
+                4,
+                30,
+                29
+              ],
+              [
+                3,
+                7,
+                12,
+                12
+              ],
+              [
+                4,
+                7,
+                36,
+                36
+              ],
+              [
+                6,
+                4,
+                36,
+                5
+              ],
+              [
+                5,
+                6,
+                5,
+                5
+              ]
+            ],
+            "source": 5,
+            "sink": 7,
+            "cut_capacity": 48,
+            "source_groups": [
+              [
+                1,
+                2,
+                1
+              ],
+              [
+                2,
+                6,
+                1
+              ],
+              [
+                0,
+                5,
+                7
+              ]
+            ],
+            "target_groups": [
+              [
+                1,
+                2,
+                6
+              ],
+              [
+                2,
+                6,
+                6
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "3431": {
+    "minority": 1,
+    "axis_assignments": 85,
+    "flow_rejected": 85,
+    "proved_minority_lower_bound": 2
+  },
+  "signed_next_case_control": {
+    "positive": 48,
+    "negative": 5,
+    "lines": 18,
+    "all_line_congruences": true,
+    "all_ordered_pair_capacities": true,
+    "all_opposite_role_sector_conflicts_avoided": true,
+    "physical_realization_asserted": false
+  },
+  "proved_minority_lower_bound": 5,
+  "actual_tiling_or_cell_constructed": false
+}

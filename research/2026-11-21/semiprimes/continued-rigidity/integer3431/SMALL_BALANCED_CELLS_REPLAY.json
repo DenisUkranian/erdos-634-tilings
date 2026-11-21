@@ -1,0 +1,316 @@
+{
+  "status": "PASS",
+  "excluded_balanced_populations": [
+    2,
+    4,
+    8,
+    10,
+    14
+  ],
+  "targets": [
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "column_charge_and_moment_checks": 16428,
+      "small_exclusions": [
+        {
+          "population": 2,
+          "raw_moment_inventories": 6,
+          "dihedral_orbits": 1,
+          "independent_search_states": 2,
+          "all_absent": true,
+          "component_induction_checked": true
+        },
+        {
+          "population": 4,
+          "raw_moment_inventories": 21,
+          "dihedral_orbits": 5,
+          "independent_search_states": 30,
+          "all_absent": true,
+          "component_induction_checked": true
+        },
+        {
+          "population": 8,
+          "raw_moment_inventories": 138,
+          "dihedral_orbits": 25,
+          "independent_search_states": 2908,
+          "all_absent": true,
+          "component_induction_checked": true
+        },
+        {
+          "population": 10,
+          "raw_moment_inventories": 294,
+          "dihedral_orbits": 47,
+          "independent_search_states": 26223,
+          "all_absent": true,
+          "component_induction_checked": true
+        },
+        {
+          "population": 14,
+          "raw_moment_inventories": 1086,
+          "dihedral_orbits": 161,
+          "independent_search_states": 4491576,
+          "all_absent": true,
+          "component_induction_checked": true
+        }
+      ],
+      "independent_search_positive_six_control": true,
+      "rigid_balanced_six": {
+        "placements": [
+          [
+            726,
+            74,
+            0,
+            1
+          ],
+          [
+            800,
+            74,
+            0,
+            -1
+          ],
+          [
+            874,
+            0,
+            4,
+            1
+          ],
+          [
+            874,
+            -74,
+            4,
+            -1
+          ],
+          [
+            800,
+            -74,
+            2,
+            1
+          ],
+          [
+            726,
+            0,
+            2,
+            -1
+          ]
+        ],
+        "positive": 3,
+        "negative": 3,
+        "cylinder_residual_rows": 0,
+        "physical_short_residual_rows": 24,
+        "minimum_anchor_distance_squared": 5476,
+        "strict_board_halfplane_minimum": 1551,
+        "nonoverlap_reason": "Every tile is in the radius-a disk about its obtuse vertex; all anchor distances are at least 2c>2a.",
+        "scope": "A contained rigid six-tile partial packing, not a realizable cell of a complete target tiling. Gate/node completion is not asserted."
+      },
+      "periodic_balanced_sixteen": null
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "column_charge_and_moment_checks": 22188,
+      "small_exclusions": [
+        {
+          "population": 2,
+          "raw_moment_inventories": 6,
+          "dihedral_orbits": 1,
+          "independent_search_states": 2,
+          "all_absent": true,
+          "component_induction_checked": true
+        },
+        {
+          "population": 4,
+          "raw_moment_inventories": 21,
+          "dihedral_orbits": 5,
+          "independent_search_states": 30,
+          "all_absent": true,
+          "component_induction_checked": true
+        },
+        {
+          "population": 8,
+          "raw_moment_inventories": 138,
+          "dihedral_orbits": 25,
+          "independent_search_states": 2908,
+          "all_absent": true,
+          "component_induction_checked": true
+        },
+        {
+          "population": 10,
+          "raw_moment_inventories": 294,
+          "dihedral_orbits": 47,
+          "independent_search_states": 26213,
+          "all_absent": true,
+          "component_induction_checked": true
+        },
+        {
+          "population": 14,
+          "raw_moment_inventories": 1086,
+          "dihedral_orbits": 161,
+          "independent_search_states": 4496003,
+          "all_absent": true,
+          "component_induction_checked": true
+        }
+      ],
+      "independent_search_positive_six_control": true,
+      "rigid_balanced_six": {
+        "placements": [
+          [
+            914,
+            86,
+            0,
+            1
+          ],
+          [
+            1000,
+            86,
+            0,
+            -1
+          ],
+          [
+            1086,
+            0,
+            4,
+            1
+          ],
+          [
+            1086,
+            -86,
+            4,
+            -1
+          ],
+          [
+            1000,
+            -86,
+            2,
+            1
+          ],
+          [
+            914,
+            0,
+            2,
+            -1
+          ]
+        ],
+        "positive": 3,
+        "negative": 3,
+        "cylinder_residual_rows": 0,
+        "physical_short_residual_rows": 24,
+        "minimum_anchor_distance_squared": 7396,
+        "strict_board_halfplane_minimum": 7647,
+        "nonoverlap_reason": "Every tile is in the radius-a disk about its obtuse vertex; all anchor distances are at least 2c>2a.",
+        "scope": "A contained rigid six-tile partial packing, not a realizable cell of a complete target tiling. Gate/node completion is not asserted."
+      },
+      "periodic_balanced_sixteen": {
+        "placements": [
+          [
+            0,
+            0,
+            1,
+            -1
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            3,
+            -1
+          ],
+          [
+            26,
+            0,
+            2,
+            1
+          ],
+          [
+            35,
+            0,
+            2,
+            1
+          ],
+          [
+            18,
+            8,
+            5,
+            1
+          ],
+          [
+            31,
+            8,
+            5,
+            1
+          ],
+          [
+            5,
+            8,
+            5,
+            1
+          ],
+          [
+            27,
+            8,
+            5,
+            1
+          ],
+          [
+            14,
+            8,
+            5,
+            1
+          ],
+          [
+            1,
+            8,
+            5,
+            1
+          ],
+          [
+            22,
+            0,
+            2,
+            1
+          ],
+          [
+            39,
+            0,
+            2,
+            1
+          ],
+          [
+            9,
+            0,
+            2,
+            1
+          ],
+          [
+            5,
+            8,
+            5,
+            -1
+          ],
+          [
+            5,
+            8,
+            3,
+            1
+          ]
+        ],
+        "positive": 8,
+        "negative": 8,
+        "torus_residual_rows": 0,
+        "scope": "Integer periodic countercontrol to a 6/2c population-semigroup conjecture; no cylinder lift or nonoverlap is asserted."
+      }
+    }
+  ],
+  "scope": "Exact finite necessary exclusions for one isolated short-height Euclidean class with zero exterior endpoint current. Neither complete tile count is excluded."
+}

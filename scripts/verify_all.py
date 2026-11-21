@@ -54,6 +54,8 @@ def main():
         reports['semiprime_5063_one_height_cells']=run(['research/2026-11-21/semiprimes/global-closure-next/global-strengthening/verify_one_height_cells.py'],work)
         reports['semiprime_5063_native_215_packing_limit']=run(['research/2026-11-21/semiprimes/global-closure-next/exact-lines-3431/native-215-5063/verify_5063_cylinder_packing.py'],work)
         print('SEMIPRIME_5063_TWO_HEIGHT_EXCLUSION_AND_REMAINING_CELLS=PASS',flush=True)
+        reports['semiprime_physical_cell_reserves']=run(['research/2026-11-21/semiprimes/continued-rigidity/replay.py'],work)
+        print('SEMIPRIME_PHYSICAL_CELL_RESERVES_AND_INTEGER_GAPS=PASS',flush=True)
         reports['november19']=run(['research/2026-11-19/verify.py'],work)
         print('NOVEMBER19_CENSUS_AND_CERTIFICATES=PASS',flush=True)
         nw=work/'research/n105'

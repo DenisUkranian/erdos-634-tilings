@@ -1,0 +1,6 @@
+{"index":0,"states":1117,"found":false}
+{"index":1,"states":414,"found":false}
+{"index":2,"states":70,"found":false}
+{"index":3,"states":1879,"found":false}
+{"index":4,"states":8743,"found":true,"support":[[0,0,1,-1],[0,0,1,1],[0,0,3,-1],[26,0,2,1],[35,0,2,1],[18,8,5,1],[31,8,5,1],[5,8,5,1],[27,8,5,1],[14,8,5,1],[1,8,5,1],[22,0,2,1],[39,0,2,1],[9,0,2,1],[5,8,5,-1],[5,8,3,1]]}
+{"all_inventories_absent":false,"states":12223,"seconds":0.006843}

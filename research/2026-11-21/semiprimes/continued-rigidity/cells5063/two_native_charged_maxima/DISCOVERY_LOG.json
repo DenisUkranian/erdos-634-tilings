@@ -1,0 +1,87 @@
+[
+  {
+    "round": 0,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.6396082489991386,
+        "rows": 2083,
+        "violated_shifted_cuts": 12,
+        "objective": 43.0,
+        "activated_shift_families": 12
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 5.135845208000319,
+        "rows": 3127,
+        "violated_shifted_cuts": 4,
+        "objective": 43.000000000007056,
+        "activated_shift_families": 4
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 10.051531331999286,
+        "rows": 3475,
+        "violated_shifted_cuts": 4,
+        "objective": 42.99999999999989,
+        "activated_shift_families": 4
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 22.681818642000508,
+        "rows": 3823,
+        "violated_shifted_cuts": 3,
+        "objective": 42.99999999980378,
+        "activated_shift_families": 3
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 35.56555307899907,
+        "rows": 4084,
+        "violated_shifted_cuts": 2,
+        "objective": 42.99999999999967,
+        "activated_shift_families": 2
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 37.639253863000704,
+        "rows": 4258,
+        "violated_shifted_cuts": 22,
+        "objective": 43.0,
+        "activated_shift_families": 22
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 40.7406954399994,
+        "rows": 6172,
+        "violated_shifted_cuts": 3,
+        "objective": 43.0,
+        "activated_shift_families": 3
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 46.329739618999156,
+        "rows": 6433,
+        "violated_shifted_cuts": 5,
+        "objective": 43.0,
+        "activated_shift_families": 5
+      },
+      {
+        "status": 1,
+        "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+        "seconds": 50.05380165899987,
+        "rows": 6868
+      }
+    ],
+    "new_duals": [],
+    "stop": "No master witness; numerical status only."
+  }
+]

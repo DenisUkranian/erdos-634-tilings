@@ -1,0 +1,64 @@
+{
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "profile": [
+    22,
+    15
+  ],
+  "positive": 74,
+  "negative": 37,
+  "fields": [
+    {
+      "modulus": 2,
+      "rank": 303,
+      "inconsistent": false,
+      "seconds": 0.026970627999617136
+    },
+    {
+      "modulus": 3,
+      "rank": 303,
+      "inconsistent": false,
+      "seconds": 0.02937520600062271
+    },
+    {
+      "modulus": 5,
+      "rank": 303,
+      "inconsistent": false,
+      "seconds": 0.03313135100142972
+    },
+    {
+      "modulus": 7,
+      "rank": 303,
+      "inconsistent": false,
+      "seconds": 0.030653394000182743
+    },
+    {
+      "modulus": 13,
+      "rank": 303,
+      "inconsistent": false,
+      "seconds": 0.031206534999000723
+    },
+    {
+      "modulus": 19,
+      "rank": 303,
+      "inconsistent": false,
+      "seconds": 0.03329910100001143
+    },
+    {
+      "modulus": 37,
+      "rank": 299,
+      "inconsistent": false,
+      "seconds": 0.03702238599908014
+    },
+    {
+      "modulus": 43,
+      "rank": 303,
+      "inconsistent": false,
+      "seconds": 0.03035438000006252
+    }
+  ],
+  "scope": "Modular consistency of the necessary additive marginal integer image only; no positive integer witness or tiling asserted."
+}

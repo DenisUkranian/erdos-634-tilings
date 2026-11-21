@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "base_certificates": 65,
+  "symmetry_transforms": 780,
+  "cell_and_transform_inequalities": 1560,
+  "independent_shifts_per_hand": 43,
+  "minimum_integer_slack": 4955756,
+  "cell_charges": [
+    0,
+    43
+  ],
+  "native_whole_node_currents": [
+    42,
+    1
+  ],
+  "scope": "Exact integer-current witness for this finite dual-cut pool and shared-node constraints only. No full endpoint-column realization or tiling.",
+  "full_5063_excluded": false
+}

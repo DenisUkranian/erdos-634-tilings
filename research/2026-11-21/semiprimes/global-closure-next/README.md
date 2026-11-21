@@ -9,6 +9,13 @@ the area behind the contacts, and the finite number of available tiles.
 It does not require a unique odd phase, terminal remote branches, or
 the minimal three-height localization.
 
+The later [physical cell-reserve theorem](../continued-rigidity/global/GLOBAL_PHYSICAL_CELL_RESERVE.md)
+strengthens the complete-row completion cost using retained cell locations
+and rigid minority reserves. Its [continuation package](../continued-rigidity/README.md)
+also reduces the four-cell parameter to 31 values and gives exact rational
+witnesses for both remaining two-cell native roles. The earlier results
+below remain valid with those additional restrictions and method limits.
+
 ## Latest continuation: rigid placements and the remaining five-block mode
 
 The newly checked [two-height exclusion](five-block-two-heights/TWO_HEIGHT_EXCLUSION_5063.md)

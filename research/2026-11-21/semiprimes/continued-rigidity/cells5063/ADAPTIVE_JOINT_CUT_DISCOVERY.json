@@ -1,0 +1,507 @@
+[
+  {
+    "round": 0,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.3074905539997417,
+        "rows": 1891,
+        "violated_shifted_cuts": 3,
+        "objective": 60.999999999998685,
+        "added_cuts": 3
+      },
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 1.6365842400000474,
+        "rows": 1894,
+        "violated_shifted_cuts": 0,
+        "objective": 63.0
+      }
+    ],
+    "new_duals": [
+      {
+        "source": "shared_profile_cut_002.json",
+        "sha256": "8d75f7830cf10ee80984beaf96a1d34d086d3314dbecf9b2f28b7020632f78d6",
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "columns": 22188,
+        "minimum_score": -4332493,
+        "maximum_score": 1000002,
+        "D": 1000002,
+        "status": "PASS",
+        "recorded_profile_excluded_population": 129
+      }
+    ],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.05807171700053004,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 55.7107033641922,
+        "D": 1000002,
+        "lower_numerator": 55710705,
+        "lower_denominator": 1000002
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.05578375099958066,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 139.0235875606669,
+        "D": 1000002,
+        "lower_numerator": 139023581,
+        "lower_denominator": 1000002
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.11943100200005574,
+        "rows": 1915,
+        "violated_shifted_cuts": 0,
+        "objective": 62.99999999999991
+      }
+    ],
+    "new_duals": [
+      {
+        "source": "shared_profile_cut_003.json",
+        "sha256": "79993391a91e48c8c84664c6e2e9c25561fb4eb54eaf1ef94fa31b0dcad4ce77",
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "columns": 22188,
+        "minimum_score": -4380360,
+        "maximum_score": 1000001,
+        "D": 1000001,
+        "status": "PASS",
+        "recorded_profile_excluded_population": 129
+      }
+    ],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.05982517699976597,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 55.960448483587015,
+        "D": 1000001,
+        "lower_numerator": 55960449,
+        "lower_denominator": 1000001
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.05531406699992658,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 140.82573619401418,
+        "D": 1000001,
+        "lower_numerator": 140825744,
+        "lower_denominator": 1000001
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 4.663560193000194,
+        "rows": 1939,
+        "violated_shifted_cuts": 0,
+        "objective": 64.99999999999993
+      }
+    ],
+    "new_duals": [
+      {
+        "source": "shared_profile_cut_004.json",
+        "sha256": "4d2f0161ab71354d95704c9a586daf6444faeae6f90edabf1ed5c8007bc23b1e",
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "columns": 22188,
+        "minimum_score": -3906355,
+        "maximum_score": 1000002,
+        "D": 1000002,
+        "status": "PASS",
+        "recorded_profile_excluded_population": 129
+      }
+    ],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.06786367499989865,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 62.391507031048036,
+        "D": 1000002,
+        "lower_numerator": 62391508,
+        "lower_denominator": 1000002
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.05935487300030218,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 131.63686161409373,
+        "D": 1000002,
+        "lower_numerator": 131636862,
+        "lower_denominator": 1000002
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 2.7660338289997526,
+        "rows": 1963,
+        "violated_shifted_cuts": 0,
+        "objective": 64.99999999998802
+      }
+    ],
+    "new_duals": [
+      {
+        "source": "shared_profile_cut_005.json",
+        "sha256": "732127b3a0716a5429a1ccd4273161310abce8d270ac8f7adf276bbc4827bbf5",
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "columns": 22188,
+        "minimum_score": -4465730,
+        "maximum_score": 1000001,
+        "D": 1000001,
+        "status": "PASS",
+        "recorded_profile_excluded_population": 129
+      }
+    ],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.059914620999734325,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 57.90197697862125,
+        "D": 1000001,
+        "lower_numerator": 57901980,
+        "lower_denominator": 1000001
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.05587773799925344,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 130.40761329920917,
+        "D": 1000001,
+        "lower_numerator": 130407617,
+        "lower_denominator": 1000001
+      }
+    ]
+  },
+  {
+    "round": 4,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.5756736869998349,
+        "rows": 1987,
+        "violated_shifted_cuts": 0,
+        "objective": 64.9999999999927
+      }
+    ],
+    "new_duals": [
+      {
+        "source": "shared_profile_cut_006.json",
+        "sha256": "b0b30e71627c9d2a54ed2407bf9a6aabadbe363fcaec67c3539325b49c5d4b28",
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "columns": 22188,
+        "minimum_score": -4118039,
+        "maximum_score": 1000001,
+        "D": 1000001,
+        "status": "PASS",
+        "recorded_profile_excluded_population": 129
+      }
+    ],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.054321954999977606,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 58.240199012477945,
+        "D": 1000001,
+        "lower_numerator": 58240198,
+        "lower_denominator": 1000001
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.07278108500031522,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 130.55840939528798,
+        "D": 1000001,
+        "lower_numerator": 130558403,
+        "lower_denominator": 1000001
+      }
+    ]
+  },
+  {
+    "round": 5,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.6737130929996056,
+        "rows": 2011,
+        "violated_shifted_cuts": 0,
+        "objective": 64.99999999999405
+      }
+    ],
+    "new_duals": [
+      {
+        "source": "shared_profile_cut_007.json",
+        "sha256": "15251197ceade4270e9c5128d52e704b70b6e722e6cea070b62de1077d7d9f6a",
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "columns": 22188,
+        "minimum_score": -3603419,
+        "maximum_score": 1000001,
+        "D": 1000001,
+        "status": "PASS",
+        "recorded_profile_excluded_population": 129
+      }
+    ],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.05674106500009657,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 60.60469310655133,
+        "D": 1000002,
+        "lower_numerator": 60604694,
+        "lower_denominator": 1000002
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.05398421299923939,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 130.45673686812333,
+        "D": 1000001,
+        "lower_numerator": 130456747,
+        "lower_denominator": 1000001
+      }
+    ]
+  },
+  {
+    "round": 6,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.486660311000378,
+        "rows": 2035,
+        "violated_shifted_cuts": 0,
+        "objective": 64.99999999997475
+      }
+    ],
+    "new_duals": [
+      {
+        "source": "shared_profile_cut_008.json",
+        "sha256": "de1e6497caed6e7e970843274dafe9e62cc2aee611805d7806eb0aaf0a4d91f0",
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "columns": 22188,
+        "minimum_score": -3946188,
+        "maximum_score": 1000002,
+        "D": 1000002,
+        "status": "PASS",
+        "recorded_profile_excluded_population": 129
+      }
+    ],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.0585593030000382,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 60.55265898859889,
+        "D": 1000002,
+        "lower_numerator": 60552656,
+        "lower_denominator": 1000002
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.05292914999972709,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 130.69016762992933,
+        "D": 1000002,
+        "lower_numerator": 130690159,
+        "lower_denominator": 1000002
+      }
+    ]
+  },
+  {
+    "round": 7,
+    "master_trace": [
+      {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.4602454020005098,
+        "rows": 2059,
+        "violated_shifted_cuts": 0,
+        "objective": 64.99999827008554
+      }
+    ],
+    "new_duals": [
+      {
+        "source": "shared_profile_cut_009.json",
+        "sha256": "da80a3604e424a17ef9e00b975d1a284cfa46356a9abfceefca90dff48653b71",
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "columns": 22188,
+        "minimum_score": -3951242,
+        "maximum_score": 1000002,
+        "D": 1000002,
+        "status": "PASS",
+        "recorded_profile_excluded_population": 129
+      }
+    ],
+    "cell_minima": [
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.054770464000284846,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 59.90863242686548,
+        "D": 1000001,
+        "lower_numerator": 59908636,
+        "lower_denominator": 1000001
+      },
+      {
+        "tile": [
+          35,
+          13,
+          43
+        ],
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "seconds": 0.052765577000172925,
+        "scope": "Integer endpoint inequality discovered from a necessary marginal relaxation; independent all-column verification required. No whole-target exclusion.",
+        "floating_minimum_population": 130.60417863621691,
+        "D": 1000002,
+        "lower_numerator": 130604165,
+        "lower_denominator": 1000002
+      }
+    ]
+  }
+]

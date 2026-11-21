@@ -1,0 +1,26 @@
+[
+  {
+    "cell": [
+      0,
+      0,
+      43,
+      43
+    ],
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is Infeasible)",
+    "seconds": 45.04647789599949,
+    "scope": "Numerical full periodic endpoint probe for one fixed cell current list only; no exact feasibility or infeasibility certificate."
+  },
+  {
+    "cell": [
+      0,
+      1,
+      86,
+      43
+    ],
+    "status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is Infeasible)",
+    "seconds": 45.03250834500068,
+    "scope": "Numerical full periodic endpoint probe for one fixed cell current list only; no exact feasibility or infeasibility certificate."
+  }
+]

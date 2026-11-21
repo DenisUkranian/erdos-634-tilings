@@ -1,0 +1,778 @@
+{
+  "scope": "Exact arithmetic controls, not target infeasibility.",
+  "targets": [
+    {
+      "N": 3431,
+      "c": 37,
+      "mu": 2,
+      "known_minimum_odd_population": 111,
+      "minimum_even_population": 64,
+      "coarse_comparison_cases": 696304,
+      "strictly_stronger_cases": 83732,
+      "spread_examples": [
+        {
+          "cells": 1,
+          "retained_positive": 37,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 111,
+          "new_rounded_odd_bound": 111
+        },
+        {
+          "cells": 2,
+          "retained_positive": 74,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 111,
+          "new_rounded_odd_bound": 185
+        },
+        {
+          "cells": 3,
+          "retained_positive": 111,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 185,
+          "new_rounded_odd_bound": 259
+        },
+        {
+          "cells": 4,
+          "retained_positive": 148,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 259,
+          "new_rounded_odd_bound": 333
+        },
+        {
+          "cells": 5,
+          "retained_positive": 185,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 333,
+          "new_rounded_odd_bound": 407
+        },
+        {
+          "cells": 6,
+          "retained_positive": 222,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 407,
+          "new_rounded_odd_bound": 481
+        },
+        {
+          "cells": 7,
+          "retained_positive": 259,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 481,
+          "new_rounded_odd_bound": 555
+        },
+        {
+          "cells": 8,
+          "retained_positive": 296,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 555,
+          "new_rounded_odd_bound": 629
+        },
+        {
+          "cells": 9,
+          "retained_positive": 333,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 629,
+          "new_rounded_odd_bound": 703
+        },
+        {
+          "cells": 10,
+          "retained_positive": 370,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 703,
+          "new_rounded_odd_bound": 777
+        },
+        {
+          "cells": 11,
+          "retained_positive": 407,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 777,
+          "new_rounded_odd_bound": 851
+        },
+        {
+          "cells": 12,
+          "retained_positive": 444,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 851,
+          "new_rounded_odd_bound": 925
+        },
+        {
+          "cells": 13,
+          "retained_positive": 481,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 925,
+          "new_rounded_odd_bound": 999
+        },
+        {
+          "cells": 14,
+          "retained_positive": 518,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 999,
+          "new_rounded_odd_bound": 1073
+        },
+        {
+          "cells": 15,
+          "retained_positive": 555,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1073,
+          "new_rounded_odd_bound": 1147
+        },
+        {
+          "cells": 16,
+          "retained_positive": 592,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1147,
+          "new_rounded_odd_bound": 1221
+        },
+        {
+          "cells": 17,
+          "retained_positive": 629,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1221,
+          "new_rounded_odd_bound": 1295
+        },
+        {
+          "cells": 18,
+          "retained_positive": 666,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1295,
+          "new_rounded_odd_bound": 1369
+        },
+        {
+          "cells": 19,
+          "retained_positive": 703,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1369,
+          "new_rounded_odd_bound": 1443
+        },
+        {
+          "cells": 20,
+          "retained_positive": 740,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1443,
+          "new_rounded_odd_bound": 1517
+        },
+        {
+          "cells": 21,
+          "retained_positive": 777,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1517,
+          "new_rounded_odd_bound": 1591
+        },
+        {
+          "cells": 22,
+          "retained_positive": 814,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1591,
+          "new_rounded_odd_bound": 1665
+        },
+        {
+          "cells": 23,
+          "retained_positive": 851,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1665,
+          "new_rounded_odd_bound": 1739
+        },
+        {
+          "cells": 24,
+          "retained_positive": 888,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1739,
+          "new_rounded_odd_bound": 1813
+        },
+        {
+          "cells": 25,
+          "retained_positive": 925,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1813,
+          "new_rounded_odd_bound": 1887
+        },
+        {
+          "cells": 26,
+          "retained_positive": 962,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1887,
+          "new_rounded_odd_bound": 1961
+        },
+        {
+          "cells": 27,
+          "retained_positive": 999,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 1961,
+          "new_rounded_odd_bound": 2035
+        },
+        {
+          "cells": 28,
+          "retained_positive": 1036,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2035,
+          "new_rounded_odd_bound": 2109
+        },
+        {
+          "cells": 29,
+          "retained_positive": 1073,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2109,
+          "new_rounded_odd_bound": 2183
+        },
+        {
+          "cells": 30,
+          "retained_positive": 1110,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2183,
+          "new_rounded_odd_bound": 2257
+        },
+        {
+          "cells": 31,
+          "retained_positive": 1147,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2257,
+          "new_rounded_odd_bound": 2331
+        },
+        {
+          "cells": 32,
+          "retained_positive": 1184,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2331,
+          "new_rounded_odd_bound": 2405
+        },
+        {
+          "cells": 33,
+          "retained_positive": 1221,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2405,
+          "new_rounded_odd_bound": 2479
+        },
+        {
+          "cells": 34,
+          "retained_positive": 1258,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2479,
+          "new_rounded_odd_bound": 2553
+        },
+        {
+          "cells": 35,
+          "retained_positive": 1295,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2553,
+          "new_rounded_odd_bound": 2627
+        },
+        {
+          "cells": 36,
+          "retained_positive": 1332,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2627,
+          "new_rounded_odd_bound": 2701
+        },
+        {
+          "cells": 37,
+          "retained_positive": 1369,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2701,
+          "new_rounded_odd_bound": 2775
+        },
+        {
+          "cells": 38,
+          "retained_positive": 1406,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2775,
+          "new_rounded_odd_bound": 2849
+        },
+        {
+          "cells": 39,
+          "retained_positive": 1443,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2849,
+          "new_rounded_odd_bound": 2923
+        },
+        {
+          "cells": 40,
+          "retained_positive": 1480,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2923,
+          "new_rounded_odd_bound": 2997
+        },
+        {
+          "cells": 41,
+          "retained_positive": 1517,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 2997,
+          "new_rounded_odd_bound": 3071
+        },
+        {
+          "cells": 42,
+          "retained_positive": 1554,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 3071,
+          "new_rounded_odd_bound": 3145
+        },
+        {
+          "cells": 43,
+          "retained_positive": 1591,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 3145,
+          "new_rounded_odd_bound": 3219
+        },
+        {
+          "cells": 44,
+          "retained_positive": 1628,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 3219,
+          "new_rounded_odd_bound": 3293
+        },
+        {
+          "cells": 45,
+          "retained_positive": 1665,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 3293,
+          "new_rounded_odd_bound": 3367
+        },
+        {
+          "cells": 46,
+          "retained_positive": 1702,
+          "largest_retained_cell": 37,
+          "old_rounded_odd_bound": 3367,
+          "new_rounded_odd_bound": 3441
+        }
+      ],
+      "sufficient_spread_cell_threshold": 46,
+      "total_budget_at_threshold": 3505,
+      "claimed_actual_row_family_with_this_property": false
+    },
+    {
+      "N": 5063,
+      "c": 43,
+      "mu": 5,
+      "known_minimum_odd_population": 215,
+      "minimum_even_population": 32,
+      "coarse_comparison_cases": 1090180,
+      "strictly_stronger_cases": 98566,
+      "spread_examples": [
+        {
+          "cells": 1,
+          "retained_positive": 43,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 215,
+          "new_rounded_odd_bound": 215
+        },
+        {
+          "cells": 2,
+          "retained_positive": 86,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 215,
+          "new_rounded_odd_bound": 215
+        },
+        {
+          "cells": 3,
+          "retained_positive": 129,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 215,
+          "new_rounded_odd_bound": 301
+        },
+        {
+          "cells": 4,
+          "retained_positive": 172,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 301,
+          "new_rounded_odd_bound": 387
+        },
+        {
+          "cells": 5,
+          "retained_positive": 215,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 387,
+          "new_rounded_odd_bound": 473
+        },
+        {
+          "cells": 6,
+          "retained_positive": 258,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 473,
+          "new_rounded_odd_bound": 559
+        },
+        {
+          "cells": 7,
+          "retained_positive": 301,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 559,
+          "new_rounded_odd_bound": 645
+        },
+        {
+          "cells": 8,
+          "retained_positive": 344,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 645,
+          "new_rounded_odd_bound": 731
+        },
+        {
+          "cells": 9,
+          "retained_positive": 387,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 731,
+          "new_rounded_odd_bound": 817
+        },
+        {
+          "cells": 10,
+          "retained_positive": 430,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 817,
+          "new_rounded_odd_bound": 903
+        },
+        {
+          "cells": 11,
+          "retained_positive": 473,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 903,
+          "new_rounded_odd_bound": 989
+        },
+        {
+          "cells": 12,
+          "retained_positive": 516,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 989,
+          "new_rounded_odd_bound": 1075
+        },
+        {
+          "cells": 13,
+          "retained_positive": 559,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1075,
+          "new_rounded_odd_bound": 1161
+        },
+        {
+          "cells": 14,
+          "retained_positive": 602,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1161,
+          "new_rounded_odd_bound": 1247
+        },
+        {
+          "cells": 15,
+          "retained_positive": 645,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1247,
+          "new_rounded_odd_bound": 1333
+        },
+        {
+          "cells": 16,
+          "retained_positive": 688,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1333,
+          "new_rounded_odd_bound": 1419
+        },
+        {
+          "cells": 17,
+          "retained_positive": 731,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1419,
+          "new_rounded_odd_bound": 1505
+        },
+        {
+          "cells": 18,
+          "retained_positive": 774,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1505,
+          "new_rounded_odd_bound": 1591
+        },
+        {
+          "cells": 19,
+          "retained_positive": 817,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1591,
+          "new_rounded_odd_bound": 1677
+        },
+        {
+          "cells": 20,
+          "retained_positive": 860,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1677,
+          "new_rounded_odd_bound": 1763
+        },
+        {
+          "cells": 21,
+          "retained_positive": 903,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1763,
+          "new_rounded_odd_bound": 1849
+        },
+        {
+          "cells": 22,
+          "retained_positive": 946,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1849,
+          "new_rounded_odd_bound": 1935
+        },
+        {
+          "cells": 23,
+          "retained_positive": 989,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 1935,
+          "new_rounded_odd_bound": 2021
+        },
+        {
+          "cells": 24,
+          "retained_positive": 1032,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2021,
+          "new_rounded_odd_bound": 2107
+        },
+        {
+          "cells": 25,
+          "retained_positive": 1075,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2107,
+          "new_rounded_odd_bound": 2193
+        },
+        {
+          "cells": 26,
+          "retained_positive": 1118,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2193,
+          "new_rounded_odd_bound": 2279
+        },
+        {
+          "cells": 27,
+          "retained_positive": 1161,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2279,
+          "new_rounded_odd_bound": 2365
+        },
+        {
+          "cells": 28,
+          "retained_positive": 1204,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2365,
+          "new_rounded_odd_bound": 2451
+        },
+        {
+          "cells": 29,
+          "retained_positive": 1247,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2451,
+          "new_rounded_odd_bound": 2537
+        },
+        {
+          "cells": 30,
+          "retained_positive": 1290,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2537,
+          "new_rounded_odd_bound": 2623
+        },
+        {
+          "cells": 31,
+          "retained_positive": 1333,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2623,
+          "new_rounded_odd_bound": 2709
+        },
+        {
+          "cells": 32,
+          "retained_positive": 1376,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2709,
+          "new_rounded_odd_bound": 2795
+        },
+        {
+          "cells": 33,
+          "retained_positive": 1419,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2795,
+          "new_rounded_odd_bound": 2881
+        },
+        {
+          "cells": 34,
+          "retained_positive": 1462,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2881,
+          "new_rounded_odd_bound": 2967
+        },
+        {
+          "cells": 35,
+          "retained_positive": 1505,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 2967,
+          "new_rounded_odd_bound": 3053
+        },
+        {
+          "cells": 36,
+          "retained_positive": 1548,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3053,
+          "new_rounded_odd_bound": 3139
+        },
+        {
+          "cells": 37,
+          "retained_positive": 1591,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3139,
+          "new_rounded_odd_bound": 3225
+        },
+        {
+          "cells": 38,
+          "retained_positive": 1634,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3225,
+          "new_rounded_odd_bound": 3311
+        },
+        {
+          "cells": 39,
+          "retained_positive": 1677,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3311,
+          "new_rounded_odd_bound": 3397
+        },
+        {
+          "cells": 40,
+          "retained_positive": 1720,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3397,
+          "new_rounded_odd_bound": 3483
+        },
+        {
+          "cells": 41,
+          "retained_positive": 1763,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3483,
+          "new_rounded_odd_bound": 3569
+        },
+        {
+          "cells": 42,
+          "retained_positive": 1806,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3569,
+          "new_rounded_odd_bound": 3655
+        },
+        {
+          "cells": 43,
+          "retained_positive": 1849,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3655,
+          "new_rounded_odd_bound": 3741
+        },
+        {
+          "cells": 44,
+          "retained_positive": 1892,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3741,
+          "new_rounded_odd_bound": 3827
+        },
+        {
+          "cells": 45,
+          "retained_positive": 1935,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3827,
+          "new_rounded_odd_bound": 3913
+        },
+        {
+          "cells": 46,
+          "retained_positive": 1978,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3913,
+          "new_rounded_odd_bound": 3999
+        },
+        {
+          "cells": 47,
+          "retained_positive": 2021,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 3999,
+          "new_rounded_odd_bound": 4085
+        },
+        {
+          "cells": 48,
+          "retained_positive": 2064,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4085,
+          "new_rounded_odd_bound": 4171
+        },
+        {
+          "cells": 49,
+          "retained_positive": 2107,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4171,
+          "new_rounded_odd_bound": 4257
+        },
+        {
+          "cells": 50,
+          "retained_positive": 2150,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4257,
+          "new_rounded_odd_bound": 4343
+        },
+        {
+          "cells": 51,
+          "retained_positive": 2193,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4343,
+          "new_rounded_odd_bound": 4429
+        },
+        {
+          "cells": 52,
+          "retained_positive": 2236,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4429,
+          "new_rounded_odd_bound": 4515
+        },
+        {
+          "cells": 53,
+          "retained_positive": 2279,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4515,
+          "new_rounded_odd_bound": 4601
+        },
+        {
+          "cells": 54,
+          "retained_positive": 2322,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4601,
+          "new_rounded_odd_bound": 4687
+        },
+        {
+          "cells": 55,
+          "retained_positive": 2365,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4687,
+          "new_rounded_odd_bound": 4773
+        },
+        {
+          "cells": 56,
+          "retained_positive": 2408,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4773,
+          "new_rounded_odd_bound": 4859
+        },
+        {
+          "cells": 57,
+          "retained_positive": 2451,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4859,
+          "new_rounded_odd_bound": 4945
+        },
+        {
+          "cells": 58,
+          "retained_positive": 2494,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 4945,
+          "new_rounded_odd_bound": 5031
+        },
+        {
+          "cells": 59,
+          "retained_positive": 2537,
+          "largest_retained_cell": 43,
+          "old_rounded_odd_bound": 5031,
+          "new_rounded_odd_bound": 5117
+        }
+      ],
+      "sufficient_spread_cell_threshold": 59,
+      "total_budget_at_threshold": 5149,
+      "claimed_actual_row_family_with_this_property": false
+    }
+  ],
+  "small_abstract_controls": {
+    "c": 3,
+    "mu": 1,
+    "individual_cell_types": 15,
+    "maximum_cells_per_node": 3,
+    "unseen_aggregate_unit_charge_checks": 1434,
+    "node_reserve_retention_checks": 376449,
+    "complete_odd_population_retention_checks": 82062,
+    "scope": "All cell populations in [0,6]^2 satisfying charge divisibility and unit-charge minority, in lists of one, two, or three cells. Retained signs independently use zero, one when available, or the full count. Node tests require both full sign populations divisible by c."
+  }
+}

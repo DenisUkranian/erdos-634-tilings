@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "positive_control": {
+    "verified_positive_tiling": true,
+    "N": 143,
+    "sides": [
+      5,
+      3,
+      7
+    ],
+    "board_sides": [
+      39,
+      49,
+      55
+    ],
+    "distinct_placements": 143,
+    "metric": "x^2+xy+y^2",
+    "doubled_axial_area": "2145",
+    "short_height_counts": {
+      "0": 38,
+      "1": 105
+    },
+    "largest_coordinate_denominator": 7,
+    "endpoint_residual_count": 0,
+    "verification": "Exact metric, containment, area, and oriented endpoint-current cancellation"
+  },
+  "positive_control_sign_populations": {
+    "(0, -1)": 20,
+    "(0, 1)": 18,
+    "(1, -1)": 56,
+    "(1, 1)": 49
+  },
+  "scope_records": [
+    {
+      "path": "checkpoints/control143-permanent",
+      "mode": "143-control",
+      "status": "solver-inconclusive",
+      "columns": 22816,
+      "complete_rows": 2528,
+      "target_excluded": false
+    },
+    {
+      "path": "checkpoints/run3431-permanent",
+      "mode": "3431-111",
+      "status": "round-limit",
+      "columns": 80999,
+      "complete_rows": 11506,
+      "target_excluded": false
+    },
+    {
+      "path": "checkpoints/run3431-scoped",
+      "mode": "3431-111",
+      "status": "round-limit",
+      "columns": 122276,
+      "complete_rows": 17506,
+      "target_excluded": false
+    },
+    {
+      "path": "checkpoints/run5063-cells",
+      "mode": "5063-215",
+      "status": "column-resource-limit",
+      "columns": 231707,
+      "complete_rows": 21726,
+      "target_excluded": false
+    },
+    {
+      "path": "checkpoints/run5063-permanent",
+      "mode": "5063-215",
+      "status": "solver-inconclusive",
+      "columns": 91619,
+      "complete_rows": 6126,
+      "target_excluded": false
+    },
+    {
+      "path": "checkpoints/run5063-scoped",
+      "mode": "5063-215",
+      "status": "column-resource-limit",
+      "columns": 200180,
+      "complete_rows": 18326,
+      "target_excluded": false
+    }
+  ],
+  "full_3431_excluded": false,
+  "full_5063_excluded": false,
+  "scope": "Independent exact metric, containment, area and full physical current verification of the complete 143 control; conditional-filter and overlap cross-checks; format and honest-scope audit of saved inconclusive target runs. No target search or infeasibility certificate is replayed."
+}
