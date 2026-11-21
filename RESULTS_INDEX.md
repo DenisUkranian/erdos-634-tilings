@@ -2,7 +2,16 @@
 
 The [project overview](README.md) summarizes current work. The dated entries below preserve the original claims, qualifications and source links.
 
+## 21 November 2026: one global charge and contact budget
+
+[Joint contact-graph theorem, proof, and exact controls](research/2026-11-21/semiprimes/global-closure-next/README.md). Both prime trees share a graph with one edge per unmatched physical tile. Signed charge flows and area demands must fit the same contacts and one exact centroid budget; every active height band is connected. The result holds beyond the minimal odd mode. Two full 143-tile controls verify the formulas. A separate exact lifting theorem proves that containment and first transverse moments still admit the fractional 3431 minimal profile. No target exclusion follows yet; **3431 and 5063 remain OPEN**.
+
 ## 21 November 2026: complete minimal-odd exclusion at 5063
+
+The [new conditional extension](research/2026-11-21/semiprimes/global-closure-next/large-population/GLOBAL_ODD_BRANCH_BUDGET.md)
+proves `n_odd>=387` if the full height-one layer is native with signs
+`(86,43)`. It excludes `n_odd=215,n_1=129` after an additional localization
+argument, while preserving the remaining five-block alternatives.
 
 [Full proof and exact certificate package](research/2026-11-21/semiprimes/README.md). Every complete tiling of the specified 5063 board has `n_odd>=215`: all `n_odd=129` charge profiles, including charged remote branches, are excluded by 65 exact certificates and a complete finite enumeration. The independent checker verifies 1,442,220 integer column inequalities and all 780 transformed cuts. **3431 and 5063 remain open as original tile counts.**
 

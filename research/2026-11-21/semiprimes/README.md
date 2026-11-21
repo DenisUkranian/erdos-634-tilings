@@ -1,9 +1,18 @@
-# Complete exclusion of the minimal odd mode at 5063
+# Semiprimes: the 5063 minimal mode and a global contact theorem
 
 21 November 2026. **3431 and 5063 remain OPEN as original tile counts.**
 This continuation closes the entire `n_odd=129` case for the 5063 board,
 including all charged remote even branches. Every hypothetical complete
 5063 tiling consequently has at least **215 odd-height tiles**.
+
+The next continuation gives a [global charge, contact, and tile-budget
+theorem](global-closure-next/README.md), valid at every odd population in
+the established phase framework. Its joint graph assigns one edge to each
+unmatched physical tile and couples both prime trees through charge flows,
+area demands, and one exact centroid budget. This supplies a common
+necessary theorem without deciding the two target counts. An exact
+3431 lifting theorem also identifies why containment and first transverse
+moments do not exclude its existing fractional minimal profile.
 
 The proof uses 65 exact endpoint certificates and a complete finite
 enumeration of neighboring integer charges. Of 34,672,599 profiles,
@@ -17,6 +26,15 @@ inequalities and all 780 transformed cuts with integers.
 * [Independent mathematical and enumeration audit](audit/PROFILE_CUT_AUDIT.md).
 
 ## Additional checked results and limits
+
+The new [unrestricted odd-branch budget](global-closure-next/large-population/GLOBAL_ODD_BRANCH_BUDGET.md)
+also shows that a native 129-tile height-one layer with signs `(86,43)`
+requires at least 387 odd tiles globally at 5063. In the total-215 mode,
+it excludes height-one population 129, after proving the required native
+phase and sign inventory. The remaining height-one populations are 215
+with no other odd height, or 86 with another 129 odd tiles at height -1
+or 3. The general lower bound remains 215; the new 387 bound has the
+stated native-layer hypothesis.
 
 At the next odd population `5c`, height one must occur. The possible
 odd-height sets are exactly the necessary alternatives `{1}`, `{-1,1}`,

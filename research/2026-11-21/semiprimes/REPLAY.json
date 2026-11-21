@@ -9,7 +9,7 @@
   "necessary_odd_population_lower_bound": 215,
   "full_5063_excluded": false,
   "full_3431_excluded": false,
-  "fresh_exhaustive_enumeration": false,
+  "fresh_exhaustive_enumeration": true,
   "base_certificates": 65,
   "column_inequalities": 1442220,
   "serialized_cuts": {
@@ -62,7 +62,7 @@
     "visited": 34672599,
     "reserve_passed": 17800359,
     "cut_passed": 0,
-    "seconds": 101.519,
+    "seconds": 102.432,
     "rejected": [
       13414974,
       0,
@@ -846,6 +846,6 @@
       0
     ]
   },
-  "seconds": 7.535883848002413,
+  "seconds": 110.16952412300452,
   "scope": "Exact finite exclusion of n_odd=129 using the cited complete-tiling geometric reduction; neither original count is decided."
 }

@@ -2,6 +2,43 @@
 
 **v0.3.0 + 21 November 2026 continuation**
 
+## 21 November 2026: a global joint contact graph
+
+The [global theorem and precise scope](research/2026-11-21/semiprimes/global-closure-next/README.md)
+combine the two prime trees into a graph with one edge per unmatched
+physical tile. Its signed charge flows, area demands, band connectivity,
+and centroid inertia use one common tile budget. The written theorem
+applies to all odd populations in the established phase framework; it
+does not yet decide either target.
+
+Run the exact finite controls:
+
+```sh
+python3 research/2026-11-21/semiprimes/global-closure-next/contact-budget/verify_contact_budget.py
+python3 research/2026-11-21/semiprimes/global-closure-next/geometry3431/verify_first_moment_lift.py
+python3 research/2026-11-21/semiprimes/global-closure-next/large-population/verify_odd_branch_budget.py
+```
+
+The first independently reconstructs two complete 143-tile controls,
+their paired long sides, both trees, all charge and area currents, the
+joint graph, exact rational minimum flow energies, and every graph-cut
+inequality on those controls. These controls test the formulas; the
+universal theorem is the accompanying written proof.
+
+The second verifies a rational lifting map on all 16,428 periodic columns
+at 3431, producing 65,712 strictly contained placements and preserving
+each first transverse endpoint moment. Together with the previously
+certified rational 111-mass witness, it proves a limitation of this
+fractional relaxation, without asserting nonoverlap or an integer tiling.
+The third checks the finite charge/gate arithmetic for the new 5063
+branch bounds, including the conditional `n_odd>=387` theorem for a
+native height-one layer with signs `(86,43)` and the exclusion of
+`n_odd=215,n_1=129`. Its prior certificate check covers saved hashes and
+accounting; the full certificate replay is the next section's command.
+All three new commands use only the Python standard library and are
+included in the root coordinator. Optional numerical probes are not
+proof steps.
+
 ## 21 November 2026: complete 5063 minimal-odd exclusion
 
 Run the exact certificate checker and the complete charge enumeration:
@@ -20,10 +57,11 @@ pool. The root replay coordinator includes this command.
 
 `--saved-enumeration` checks the recorded scan instead of repeating it and
 explicitly marks that distinction in its report. The committed coordinator
-[replay record](research/2026-11-21/semiprimes/REPLAY.json) uses that option;
-the [final enumeration record](research/2026-11-21/semiprimes/gate-model/FINAL_PROFILE_ENUMERATION_5063.jsonl)
-comes from a fresh exhaustive run independently checked in the
-[final audit](research/2026-11-21/semiprimes/audit/FINAL_DUAL_REPLAY_5063.json).
+[replay record](research/2026-11-21/semiprimes/REPLAY.json) records a fresh
+complete enumeration. The earlier
+[final enumeration record](research/2026-11-21/semiprimes/gate-model/FINAL_PROFILE_ENUMERATION_5063.jsonl)
+and [final audit](research/2026-11-21/semiprimes/audit/FINAL_DUAL_REPLAY_5063.json)
+are retained separately.
 
 The resulting theorem is `n_odd>=215` for every complete tiling of the
 specified 5063 board. It does not exclude larger odd populations, decide

@@ -1,5 +1,15 @@
 # Changelog
 
+## 21 November 2026: a global charge and contact theorem
+
+- Couple both prime trees in a joint multigraph with one edge per actual unmatched tile. Prove simultaneous unit charge flows, area-flow energy bounds, active-band connectivity, and a common physical population partition at each band.
+- Derive the exact centroid budget, the reserve consumed by canceled half-turn pairs, a centering correction, and the one-tree charge/area corollary. The theorem applies at all odd populations in the established phase framework.
+- Reconstruct two complete 143-tile controls and verify the formulas, rational minimum graph energies, charge-cut capacities, and all graph-cut inequalities without an optimizer.
+- Lift the exact fractional 3431 witness to strictly contained placements preserving every first transverse endpoint moment. Check 16,428 column identities and 65,712 placements exactly; record this as a limitation of that relaxation, not a tiling.
+- Prove at 5063 that a native height-one layer with signs `(86,43)` requires at least 387 odd tiles globally. Exclude `n_odd=215,n_1=129` after proving its native localization. Retain the other five-block possibilities and the essential sign hypothesis.
+- Add the new exact controls to the root coordinator. Keep both target counts OPEN: no universal violation of the new global inequality has been established.
+- [Theorem, proofs, verification, and precise remaining gap](research/2026-11-21/semiprimes/global-closure-next/README.md).
+
 ## 21 November 2026: exclude the entire 5063 minimal odd mode
 
 - Exclude every `n_odd=129` profile on the specified 5063 board, including charged remote even branches; derive the necessary bound `n_odd>=215` for any complete tiling.

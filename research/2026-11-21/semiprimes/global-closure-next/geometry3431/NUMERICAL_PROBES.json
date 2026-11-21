@@ -1,0 +1,58 @@
+{
+  "scope": "Numerical diagnostics, no nonexistence certificate and no geometric tiling.",
+  "runs": [
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "native_base_charge_units": 0,
+      "scope": "Necessary continuous contained height-one model at native phase; exact supporting-line first moments retained. Solver output alone is not a certificate or a tiling.",
+      "rows": 308,
+      "extreme_columns": 3478,
+      "raw_contained_placements": 8675,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.12286792200029595,
+      "population": 34.181286549707636,
+      "maximum_residual": 7.105427357601002e-15,
+      "proof_status": "Exploratory numerical report only; not used to prove the exact lifting theorem."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "native_base_charge_units": 2,
+      "scope": "Necessary continuous contained height-one model at native phase; exact supporting-line first moments retained. Solver output alone is not a certificate or a tiling.",
+      "rows": 8288,
+      "extreme_columns": 160177,
+      "raw_contained_placements": 4207420,
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is Infeasible)",
+      "seconds": 55.26827762599714,
+      "proof_status": "Exploratory numerical report only; not used to prove the exact lifting theorem."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "native_base_charge_units": 2,
+      "additive_endpoint_fields": true,
+      "scope": "Necessary continuous contained height-one model at native phase; exact supporting-line first moments retained. Solver output alone is not a certificate or a tiling.",
+      "rows": 518,
+      "extreme_columns": 160177,
+      "raw_contained_placements": 4207420,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 29.50993907800148,
+      "population": 89.36858006042445,
+      "maximum_residual": 3.575628682028764e-11,
+      "proof_status": "Exploratory numerical report only; not used to prove the exact lifting theorem."
+    }
+  ]
+}

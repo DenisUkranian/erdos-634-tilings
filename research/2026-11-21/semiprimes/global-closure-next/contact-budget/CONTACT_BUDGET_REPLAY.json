@@ -1,0 +1,1144 @@
+{
+  "status": "PASS",
+  "controls": {
+    "known": {
+      "source": {
+        "path": "research/2026-11-20/semiprimes/continuation/global-endpoints/tiling_143.json",
+        "sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9"
+      },
+      "complete_positive_tiling": "PASS",
+      "tiles": 143,
+      "centroid_inertia": "81796/3",
+      "matched_pairs": 60,
+      "trees": [
+        {
+          "tree": 1,
+          "cuts": [
+            {
+              "child": [
+                0,
+                0,
+                0
+              ],
+              "root_height": 0,
+              "subtree_tiles": 143,
+              "odd_charge": -7,
+              "G": -9,
+              "G_star": 5,
+              "exterior_side_count": 3,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                4,
+                0
+              ],
+              "root_height": 1,
+              "subtree_tiles": 105,
+              "odd_charge": -7,
+              "G": -7,
+              "G_star": 7,
+              "exterior_side_count": 1,
+              "P": -14,
+              "Q": -2,
+              "U": 14,
+              "V": 2,
+              "M": 16,
+              "area_residual": 160,
+              "charge_area_load": 176
+            },
+            {
+              "child": [
+                2,
+                4,
+                0
+              ],
+              "root_height": 2,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                2,
+                11,
+                0
+              ],
+              "root_height": 2,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                2,
+                18,
+                0
+              ],
+              "root_height": 2,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                2,
+                39,
+                0
+              ],
+              "root_height": 2,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 1,
+              "P": 0,
+              "Q": 7,
+              "U": 0,
+              "V": 7,
+              "M": 7,
+              "area_residual": -136,
+              "charge_area_load": 143
+            },
+            {
+              "child": [
+                2,
+                46,
+                0
+              ],
+              "root_height": 2,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            }
+          ],
+          "unmatched_tiles": 23,
+          "quadratic_cost": "29696/7",
+          "actual_bank_inertia_bound": "1135624/75",
+          "pair_reserve_bound": "5331592/75",
+          "board_inertia_bound": "16032016/225",
+          "total_charge_area_load": 319,
+          "exterior_free_load": 0,
+          "charge_transport": "PASS",
+          "exact_area_flux": "PASS",
+          "global_inertia_and_pair_reserve": "PASS",
+          "scalar_corollary": "PASS"
+        },
+        {
+          "tree": -1,
+          "cuts": [
+            {
+              "child": [
+                -1,
+                0,
+                0
+              ],
+              "root_height": 1,
+              "subtree_tiles": 143,
+              "odd_charge": -7,
+              "G": -9,
+              "G_star": 5,
+              "exterior_side_count": 2,
+              "P": 7,
+              "Q": 0,
+              "U": 7,
+              "V": 0,
+              "M": 7,
+              "area_residual": 136,
+              "charge_area_load": 143
+            },
+            {
+              "child": [
+                0,
+                0,
+                0
+              ],
+              "root_height": 0,
+              "subtree_tiles": 38,
+              "odd_charge": 0,
+              "G": -2,
+              "G_star": -2,
+              "exterior_side_count": 2,
+              "P": -2,
+              "Q": -14,
+              "U": 2,
+              "V": 14,
+              "M": 16,
+              "area_residual": -160,
+              "charge_area_load": 176
+            },
+            {
+              "child": [
+                0,
+                1,
+                1
+              ],
+              "root_height": 0,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                0,
+                2,
+                1
+              ],
+              "root_height": 0,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                0,
+                4,
+                1
+              ],
+              "root_height": 0,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                0,
+                5,
+                1
+              ],
+              "root_height": 0,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                0,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                1,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                2,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                3,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                4,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                5,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                6,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            }
+          ],
+          "unmatched_tiles": 23,
+          "quadratic_cost": "29696/7",
+          "actual_bank_inertia_bound": "1135624/75",
+          "pair_reserve_bound": "5331592/75",
+          "board_inertia_bound": "16032016/225",
+          "total_charge_area_load": 319,
+          "exterior_free_load": 0,
+          "charge_transport": "PASS",
+          "exact_area_flux": "PASS",
+          "global_inertia_and_pair_reserve": "PASS",
+          "scalar_corollary": "PASS"
+        }
+      ],
+      "joint_graph": {
+        "vertices": 4,
+        "physical_tile_edges": 23,
+        "connected_components": 2,
+        "component_demand_sums": [
+          0,
+          0
+        ],
+        "minimum_flow_energy": "29696/7",
+        "physical_flow_energy": "1131166/175",
+        "pair_reserve_bound": "5331592/75",
+        "divergence_from_real_tile_centroids": "PASS",
+        "orthogonal_flow_decomposition": "PASS",
+        "all_graph_cut_inequalities": "PASS",
+        "both_unit_charge_flows": "PASS",
+        "unit_charge_minimum_energies": [
+          16,
+          23
+        ],
+        "unit_charge_tile_budget": 23,
+        "joint_charge_gram_bound": "PASS",
+        "all_charge_cut_capacities_and_parities": "PASS",
+        "active_band_connectivity_and_population_partitions": [
+          {
+            "upper_height": 0,
+            "vertices": 8,
+            "active_vertices": 0,
+            "components": 0,
+            "physical_population_partition": "PASS"
+          },
+          {
+            "upper_height": 1,
+            "vertices": 6,
+            "active_vertices": 2,
+            "components": 1,
+            "physical_population_partition": "PASS"
+          },
+          {
+            "upper_height": 2,
+            "vertices": 6,
+            "active_vertices": 2,
+            "components": 1,
+            "physical_population_partition": "PASS"
+          }
+        ]
+      }
+    },
+    "macro": {
+      "source": {
+        "path": "research/2026-11-20/semiprimes/continuation/charge-transport/geometry/macro143_certificate.json",
+        "sha256": "ea3dc23562921dea3575cec2ca238c5fd3b0a6962205a8ae1c7b164c8a29756c"
+      },
+      "complete_positive_tiling": "PASS",
+      "tiles": 143,
+      "centroid_inertia": "81796/3",
+      "matched_pairs": 60,
+      "trees": [
+        {
+          "tree": 1,
+          "cuts": [
+            {
+              "child": [
+                0,
+                0,
+                0
+              ],
+              "root_height": 0,
+              "subtree_tiles": 143,
+              "odd_charge": -7,
+              "G": -9,
+              "G_star": 5,
+              "exterior_side_count": 3,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                0,
+                0
+              ],
+              "root_height": 1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                1,
+                0
+              ],
+              "root_height": 1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                3,
+                0
+              ],
+              "root_height": 1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                4,
+                0
+              ],
+              "root_height": 1,
+              "subtree_tiles": 91,
+              "odd_charge": -7,
+              "G": -7,
+              "G_star": 7,
+              "exterior_side_count": 1,
+              "P": -14,
+              "Q": -2,
+              "U": 14,
+              "V": 2,
+              "M": 16,
+              "area_residual": 118,
+              "charge_area_load": 134
+            },
+            {
+              "child": [
+                1,
+                5,
+                0
+              ],
+              "root_height": 1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                6,
+                0
+              ],
+              "root_height": 1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                2,
+                4,
+                0
+              ],
+              "root_height": 2,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                2,
+                11,
+                0
+              ],
+              "root_height": 2,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                2,
+                18,
+                0
+              ],
+              "root_height": 2,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                2,
+                39,
+                0
+              ],
+              "root_height": 2,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 1,
+              "P": 0,
+              "Q": 7,
+              "U": 0,
+              "V": 7,
+              "M": 7,
+              "area_residual": -136,
+              "charge_area_load": 143
+            },
+            {
+              "child": [
+                2,
+                46,
+                0
+              ],
+              "root_height": 2,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            }
+          ],
+          "unmatched_tiles": 23,
+          "quadratic_cost": "98351/28",
+          "actual_bank_inertia_bound": "1222648/75",
+          "pair_reserve_bound": "5331592/75",
+          "board_inertia_bound": "16032016/225",
+          "total_charge_area_load": 277,
+          "exterior_free_load": 0,
+          "charge_transport": "PASS",
+          "exact_area_flux": "PASS",
+          "global_inertia_and_pair_reserve": "PASS",
+          "scalar_corollary": "PASS"
+        },
+        {
+          "tree": -1,
+          "cuts": [
+            {
+              "child": [
+                -1,
+                0,
+                0
+              ],
+              "root_height": 1,
+              "subtree_tiles": 143,
+              "odd_charge": -7,
+              "G": -9,
+              "G_star": 5,
+              "exterior_side_count": 2,
+              "P": 7,
+              "Q": 0,
+              "U": 7,
+              "V": 0,
+              "M": 7,
+              "area_residual": 136,
+              "charge_area_load": 143
+            },
+            {
+              "child": [
+                0,
+                0,
+                0
+              ],
+              "root_height": 0,
+              "subtree_tiles": 52,
+              "odd_charge": 0,
+              "G": -2,
+              "G_star": -2,
+              "exterior_side_count": 2,
+              "P": -2,
+              "Q": -14,
+              "U": 2,
+              "V": 14,
+              "M": 16,
+              "area_residual": -118,
+              "charge_area_load": 134
+            },
+            {
+              "child": [
+                0,
+                1,
+                1
+              ],
+              "root_height": 0,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                0,
+                2,
+                1
+              ],
+              "root_height": 0,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                0,
+                4,
+                1
+              ],
+              "root_height": 0,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                0,
+                5,
+                1
+              ],
+              "root_height": 0,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                0,
+                6,
+                1
+              ],
+              "root_height": 0,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                0,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                1,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                2,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                3,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                4,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                5,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            },
+            {
+              "child": [
+                1,
+                6,
+                0
+              ],
+              "root_height": -1,
+              "subtree_tiles": 0,
+              "odd_charge": 0,
+              "G": 0,
+              "G_star": 0,
+              "exterior_side_count": 0,
+              "P": 0,
+              "Q": 0,
+              "U": 0,
+              "V": 0,
+              "M": 0,
+              "area_residual": 0,
+              "charge_area_load": 0
+            }
+          ],
+          "unmatched_tiles": 23,
+          "quadratic_cost": "98351/28",
+          "actual_bank_inertia_bound": "1222648/75",
+          "pair_reserve_bound": "5331592/75",
+          "board_inertia_bound": "16032016/225",
+          "total_charge_area_load": 277,
+          "exterior_free_load": 0,
+          "charge_transport": "PASS",
+          "exact_area_flux": "PASS",
+          "global_inertia_and_pair_reserve": "PASS",
+          "scalar_corollary": "PASS"
+        }
+      ],
+      "joint_graph": {
+        "vertices": 4,
+        "physical_tile_edges": 23,
+        "connected_components": 2,
+        "component_demand_sums": [
+          0,
+          0
+        ],
+        "minimum_flow_energy": "98351/28",
+        "physical_flow_energy": "1296198/175",
+        "pair_reserve_bound": "5331592/75",
+        "divergence_from_real_tile_centroids": "PASS",
+        "orthogonal_flow_decomposition": "PASS",
+        "all_graph_cut_inequalities": "PASS",
+        "both_unit_charge_flows": "PASS",
+        "unit_charge_minimum_energies": [
+          16,
+          23
+        ],
+        "unit_charge_tile_budget": 23,
+        "joint_charge_gram_bound": "PASS",
+        "all_charge_cut_capacities_and_parities": "PASS",
+        "active_band_connectivity_and_population_partitions": [
+          {
+            "upper_height": 0,
+            "vertices": 8,
+            "active_vertices": 0,
+            "components": 0,
+            "physical_population_partition": "PASS"
+          },
+          {
+            "upper_height": 1,
+            "vertices": 12,
+            "active_vertices": 2,
+            "components": 1,
+            "physical_population_partition": "PASS"
+          },
+          {
+            "upper_height": 2,
+            "vertices": 6,
+            "active_vertices": 2,
+            "components": 1,
+            "physical_population_partition": "PASS"
+          }
+        ]
+      }
+    }
+  },
+  "target_constants": [
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "N": 3431,
+      "odd_charge": -37,
+      "S_board_minus_S_tile": 4538376,
+      "pair_centroid_reserve_parameter": 907,
+      "K_base": "789515891432/5929",
+      "target_status": "OPEN"
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "N": 5063,
+      "odd_charge": -43,
+      "S_board_minus_S_tile": 9138024,
+      "pair_centroid_reserve_parameter": 939,
+      "K_base": "4073594899128/29575",
+      "target_status": "OPEN"
+    }
+  ],
+  "joint_graph_algebra_control": {
+    "scope": "Exact abstract graph algebra control, not a tiling.",
+    "separate_tree_energy_bounds": [
+      1,
+      1
+    ],
+    "joint_minimum_energy": 2
+  },
+  "full_3431_excluded": false,
+  "full_5063_excluded": false,
+  "scope": "Exact geometric controls for a theorem valid at every odd population. No target feasibility decision."
+}

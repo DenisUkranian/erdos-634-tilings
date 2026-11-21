@@ -1,0 +1,400 @@
+{
+  "status": "PASS",
+  "tile": [
+    35,
+    13,
+    43
+  ],
+  "native_middle_hypotheses": {
+    "population": 129,
+    "positive": 86,
+    "negative": 43,
+    "class": "zR"
+  },
+  "monochromatic_two_block_parent_gate_capacity": 16,
+  "positive_remote_node_global_odd_minimum": 301,
+  "negative_remote_node_global_odd_minimum": 387,
+  "arithmetic_allocation_checks": [
+    {
+      "sign": 1,
+      "first_arithmetic_block_count": 7,
+      "rows": [
+        {
+          "odd_blocks": 1,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 3,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 5,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 7,
+          "arithmetically_feasible_allocations": 2,
+          "first_allocation": {
+            "child_odd_sign_blocks": [
+              2,
+              0
+            ],
+            "complement_odd_sign_blocks": [
+              0,
+              3
+            ],
+            "odd_charge_blocks": 2,
+            "even_charge_blocks": 4,
+            "Q": 2
+          }
+        },
+        {
+          "odd_blocks": 9,
+          "arithmetically_feasible_allocations": 5,
+          "first_allocation": {
+            "child_odd_sign_blocks": [
+              2,
+              0
+            ],
+            "complement_odd_sign_blocks": [
+              1,
+              4
+            ],
+            "odd_charge_blocks": 2,
+            "even_charge_blocks": 4,
+            "Q": 2
+          }
+        },
+        {
+          "odd_blocks": 11,
+          "arithmetically_feasible_allocations": 9,
+          "first_allocation": {
+            "child_odd_sign_blocks": [
+              2,
+              0
+            ],
+            "complement_odd_sign_blocks": [
+              2,
+              5
+            ],
+            "odd_charge_blocks": 2,
+            "even_charge_blocks": 4,
+            "Q": 2
+          }
+        }
+      ]
+    },
+    {
+      "sign": -1,
+      "first_arithmetic_block_count": 9,
+      "rows": [
+        {
+          "odd_blocks": 1,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 3,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 5,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 7,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 9,
+          "arithmetically_feasible_allocations": 2,
+          "first_allocation": {
+            "child_odd_sign_blocks": [
+              0,
+              2
+            ],
+            "complement_odd_sign_blocks": [
+              5,
+              0
+            ],
+            "odd_charge_blocks": -2,
+            "even_charge_blocks": -4,
+            "Q": -2
+          }
+        },
+        {
+          "odd_blocks": 11,
+          "arithmetically_feasible_allocations": 6,
+          "first_allocation": {
+            "child_odd_sign_blocks": [
+              0,
+              2
+            ],
+            "complement_odd_sign_blocks": [
+              6,
+              1
+            ],
+            "odd_charge_blocks": -2,
+            "even_charge_blocks": -4,
+            "Q": -2
+          }
+        }
+      ]
+    }
+  ],
+  "3431_nontransfer_controls": [
+    {
+      "sign": 1,
+      "first_arithmetic_block_count": 5,
+      "rows": [
+        {
+          "odd_blocks": 1,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 3,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 5,
+          "arithmetically_feasible_allocations": 1,
+          "first_allocation": {
+            "child_odd_sign_blocks": [
+              1,
+              2
+            ],
+            "complement_odd_sign_blocks": [
+              0,
+              0
+            ],
+            "odd_charge_blocks": -1,
+            "even_charge_blocks": -1,
+            "Q": 11
+          }
+        }
+      ]
+    },
+    {
+      "sign": -1,
+      "first_arithmetic_block_count": 5,
+      "rows": [
+        {
+          "odd_blocks": 1,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 3,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 5,
+          "arithmetically_feasible_allocations": 1,
+          "first_allocation": {
+            "child_odd_sign_blocks": [
+              3,
+              0
+            ],
+            "complement_odd_sign_blocks": [
+              0,
+              0
+            ],
+            "odd_charge_blocks": 3,
+            "even_charge_blocks": 4,
+            "Q": -7
+          }
+        }
+      ]
+    }
+  ],
+  "143_no_universal_7_or_9_block_inference": [
+    {
+      "sign": 1,
+      "first_arithmetic_block_count": 5,
+      "rows": [
+        {
+          "odd_blocks": 1,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 3,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 5,
+          "arithmetically_feasible_allocations": 7,
+          "first_allocation": {
+            "child_odd_sign_blocks": [
+              0,
+              0
+            ],
+            "complement_odd_sign_blocks": [
+              1,
+              2
+            ],
+            "odd_charge_blocks": 0,
+            "even_charge_blocks": 1,
+            "Q": 2
+          }
+        }
+      ]
+    },
+    {
+      "sign": -1,
+      "first_arithmetic_block_count": 5,
+      "rows": [
+        {
+          "odd_blocks": 1,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 3,
+          "arithmetically_feasible_allocations": 0,
+          "first_allocation": null
+        },
+        {
+          "odd_blocks": 5,
+          "arithmetically_feasible_allocations": 7,
+          "first_allocation": {
+            "child_odd_sign_blocks": [
+              0,
+              0
+            ],
+            "complement_odd_sign_blocks": [
+              3,
+              0
+            ],
+            "odd_charge_blocks": 0,
+            "even_charge_blocks": -1,
+            "Q": -2
+          }
+        }
+      ]
+    }
+  ],
+  "four_block_equality": {
+    "nonzero_zero_sum_charge_lists_cost_at_most_four": [
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ]
+    ],
+    "minimum_extra_odd_blocks": 4,
+    "seven_total_blocks_force_negative_monochromatic_two_block_node": true
+  },
+  "native_cut_offsets": {
+    "exterior_base_character": 1849,
+    "exterior_height_two_character": -3214,
+    "upward_native_current_offset": 86,
+    "downward_native_current_offset": -43,
+    "integer_substitution_controls": 484,
+    "independent_gate_shift_pairs": 1849,
+    "proof": "The displayed polynomial identities, not a finite-height inference."
+  },
+  "unchanged_profile_universe": {
+    "visited": 34672599,
+    "reserve_passed": 17800359,
+    "native_up_integer_parameters": [
+      -5,
+      -4,
+      -3,
+      -2
+    ],
+    "remote_integer_parameters": [
+      -1,
+      0,
+      1,
+      2
+    ],
+    "remote_positive_unit_budget": 3,
+    "remote_negative_unit_budget": 1
+  },
+  "median_localization": {
+    "remaining_whole_layer_side_allocations": [
+      {
+        "middle_below": true,
+        "extra_below": false,
+        "t": 2
+      },
+      {
+        "middle_below": true,
+        "extra_below": true,
+        "t": 2
+      }
+    ],
+    "path_step_vectors_after_division_by_z": [
+      [
+        43,
+        0
+      ],
+      [
+        35,
+        13
+      ]
+    ],
+    "native_anchor_from_actual_height_two_step": true
+  },
+  "prior_exact_certificate_dependency": {
+    "certificate_files_hashed": 65,
+    "saved_column_checks": 1442220,
+    "saved_transformed_cuts": 780,
+    "saved_exhaustive_profiles": 34672599,
+    "saved_sign_reserve_profiles": 17800359,
+    "saved_survivors": 0,
+    "replayed_here": "Hashes and saved accounting only; full prior integer replay remains an explicit proof dependency.",
+    "index_sha256": "46568b35c9f1e0890ec691d0d34daf343d17bbf9d92802f234b6b9b4474a57ef",
+    "independent_audit_sha256": "58ed24e7d57896271c8adf860346e5fc83a9e97b8770871eea10944f34e184ba",
+    "enumeration_sha256": "67efc4ef6d27416ba8def25af6ec692233b16983473b57537527332837d8bff9"
+  },
+  "conditional_native_middle_global_odd_minimum": 387,
+  "five_block_n1_equal_129_excluded": true,
+  "five_block_remaining_height_populations": [
+    {
+      "odd_heights": [
+        1
+      ],
+      "populations": {
+        "1": 215
+      }
+    },
+    {
+      "odd_heights": [
+        -1,
+        1
+      ],
+      "populations": {
+        "-1": 129,
+        "1": 86
+      }
+    },
+    {
+      "odd_heights": [
+        1,
+        3
+      ],
+      "populations": {
+        "1": 86,
+        "3": 129
+      }
+    }
+  ],
+  "full_5063_excluded": false,
+  "full_3431_excluded": false,
+  "scope": "Exact finite controls of the written geometric theorem and identity of its prior certificate dependency. No finite height enumeration or numerical optimization is used as an unrestricted proof."
+}

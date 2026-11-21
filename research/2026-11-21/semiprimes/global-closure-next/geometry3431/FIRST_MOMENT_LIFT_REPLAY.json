@@ -1,0 +1,24 @@
+{
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "scope": "Exact universal fractional lifting, not a packing or a tiling; no nonoverlap or integral multiplicities are asserted.",
+  "common_mean_anchor_twice": [
+    1601,
+    1
+  ],
+  "lifting_weight_denominator": 5476,
+  "minimum_lifting_weight_numerator": 1,
+  "periodic_columns": 16428,
+  "contained_lifted_columns": 65712,
+  "minimum_strict_board_halfplane_determinant": 131089964,
+  "all_weights_strictly_positive": true,
+  "all_mean_anchors_exact": true,
+  "all_endpoint_current_columns_preserved": true,
+  "all_first_transverse_moment_columns_preserved": true,
+  "all_signed_gate_bins_preserved": true,
+  "checks": "PASS",
+  "rational_111_mass_witness_dependency": "../../global-invariant/N3431_PROFILE_LIMIT.md and ../../global-invariant/N3431_RATIONAL_PROJECTION_CERTIFICATE.json"
+}
