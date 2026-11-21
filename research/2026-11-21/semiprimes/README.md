@@ -5,6 +5,12 @@ This continuation closes the entire `n_odd=129` case for the 5063 board,
 including all charged remote even branches. Every hypothetical complete
 5063 tiling consequently has at least **215 odd-height tiles**.
 
+The latest [two-height exclusion](global-closure-next/five-block-two-heights/TWO_HEIGHT_EXCLUSION_5063.md)
+shows that equality forces all 215 odd tiles to height one, with every
+short height in `{0,1,2}`. Exact node balance and joint-cell analysis
+then leave [one, two, or four middle classes](global-closure-next/global-strengthening/ONE_HEIGHT_CELL_CLASSIFICATION_5063.md).
+This does not yet exclude equality or larger odd populations.
+
 The next continuation gives a [global charge, contact, and tile-budget
 theorem](global-closure-next/README.md), valid at every odd population in
 the established phase framework. Its joint graph assigns one edge to each
@@ -31,10 +37,11 @@ The new [unrestricted odd-branch budget](global-closure-next/large-population/GL
 also shows that a native 129-tile height-one layer with signs `(86,43)`
 requires at least 387 odd tiles globally at 5063. In the total-215 mode,
 it excludes height-one population 129, after proving the required native
-phase and sign inventory. The remaining height-one populations are 215
-with no other odd height, or 86 with another 129 odd tiles at height -1
-or 3. The general lower bound remains 215; the new 387 bound has the
-stated native-layer hypothesis.
+phase and sign inventory. The subsequent two-height theorem excludes
+the alternatives with 86 at height one and 129 at height -1 or 3 by a
+fresh exhaustive scan of 9,112,001 different profiles. Only the one-height
+215 alternative remains at equality. The general lower bound remains
+215; the 387 bound has the stated native-layer hypothesis.
 
 At the next odd population `5c`, height one must occur. The possible
 odd-height sets are exactly the necessary alternatives `{1}`, `{-1,1}`,
@@ -42,6 +49,7 @@ and `{1,3}`; all short heights lie in `[-2,2]` or `[0,4]`.
 This theorem applies to both targets, does not force a unique native
 height-one phase, and does not exclude the five-block mode itself.
 [Five-block structure, proof and exact arithmetic controls](charged-branches/FIVE_BLOCK_SCOPE.md).
+The later reduction above is stronger specifically at 5063.
 
 For 3431 an exact strictly positive rational witness satisfies the
 entire periodic endpoint relaxation at `n_odd=111`, with integer
@@ -49,6 +57,22 @@ neighboring charges and the required gate capacities. It proves that
 more linear cuts from this same relaxation cannot exclude every 3431
 profile. It is not a geometric tiling.
 [Exact witness, finite verifier and method boundary](global-invariant/N3431_PROFILE_LIMIT.md).
+
+The [new cylinder lift](global-closure-next/exact-lines-3431/CYLINDER_LIMIT.md)
+preserves exact transverse supporting lines and puts a feasible 111-profile
+point inside the convex hull of actual contained nonoverlapping integer
+packings of exactly 111 tiles. This proves a stronger limit of linear
+packing cuts: the contact and sign conditions need not hold in any one
+integer packing of that mixture. The
+[physical charge-budget theorem](global-closure-next/rigid-body/PHYSICAL_CHARGE_BUDGET.md)
+retains that missing integer coupling explicitly.
+
+An [exact native 215 profile at 5063](global-closure-next/five-block-two-heights/N5063_NATIVE_215_PROFILE_LIMIT.md)
+also survives the fractional periodic model. Its
+[410-translate cylinder and packing lift](global-closure-next/exact-lines-3431/native-215-5063/CYLINDER_PACKING_LIMIT_5063.md)
+lies in the convex hull of actual nonoverlapping packings of exactly
+215 tiles. The sign and contact requirements hold only after averaging;
+the single-height 215 mode is still unresolved.
 
 The single accessible parent gate of a remote even class gives exact
 population bounds of 185 at 3431 and 301/602 at 5063. Both signs and

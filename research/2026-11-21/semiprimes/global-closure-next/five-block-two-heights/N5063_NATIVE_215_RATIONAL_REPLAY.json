@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "tile": [
+    35,
+    13,
+    43
+  ],
+  "certificate_sha256": "9ef122e71386df768bf0d3930d3826a62addfdba49d1ae14617adb3ced21ebec",
+  "uncompressed_certificate_sha256": "48d76364b5b9285986920c95c18fc64f1a5975a8b0abf3a69b6ae9cc177be79f",
+  "exact_fourier_dependency_sha256": "c7684b7fe7f7dab79739ba16a872215f036e1363a3da021e2a8d88e0c395a79f",
+  "root_enclosures_checked": 43,
+  "fourier_blocks_checked": 1849,
+  "block_row_counts": {
+    "3": 1639,
+    "2": 126,
+    "4": 84
+  },
+  "point": {
+    "variables": 22188,
+    "equations": 5634,
+    "point_denominator": 1000000000000,
+    "minimum_approximate_numerator": 1538690768,
+    "residual_squared_numerator": 26076270,
+    "norm_bound_K": 3,
+    "positivity_inequality": [
+      78228810,
+      2367569279528429824
+    ],
+    "positive_gate_capacity": 94,
+    "negative_gate_capacity": 121,
+    "negative_gate_population_bound_from_total_sign_mass": 86,
+    "minimum_gate_slack_numerator": 51801508890894,
+    "gate_capacity_inequality": [
+      1301805627210,
+      2683396323373370129996119236
+    ],
+    "exact_corrected_population": 215,
+    "exact_corrected_positive_population": 129,
+    "exact_corrected_negative_population": 86,
+    "exact_gate_currents": {
+      "native_up": 42,
+      "native_down": 1,
+      "all_remote": 0
+    },
+    "exact_node_charge_units": {
+      "native_up": -2,
+      "native_down": 2,
+      "all_remote": 0
+    }
+  },
+  "full_5063_excluded": false,
+  "physical_tiling_constructed": false,
+  "integer_tile_multiplicities_asserted": false,
+  "scope": "A strictly positive rational feasible point exists in the full native215 periodic endpoint model, with integer gate charges and both sign-specific gate capacities. This proves a limit of this fractional relaxation only."
+}

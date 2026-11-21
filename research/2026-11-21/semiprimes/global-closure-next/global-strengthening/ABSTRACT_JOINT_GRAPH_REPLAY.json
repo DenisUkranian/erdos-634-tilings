@@ -1,0 +1,476 @@
+{
+  "scope": "Exact abstract inventories and global-moment feasibility only; no geometric tiling, common-contact realization, or nonoverlap certificate.",
+  "selected_existing_axis_inventories": [
+    {
+      "N": 3431,
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "odd_blocks": 15,
+      "odd_tiles": 555,
+      "paired_tiles": 3294,
+      "unmatched_tiles": 137,
+      "band_edge_multiplicities": [
+        100,
+        37
+      ],
+      "area_demands_at_increasing_vertices": [
+        -1814,
+        -3394
+      ],
+      "alpha_energy": "1501/25",
+      "beta_energy": 137,
+      "charge_cross_energy": 11,
+      "actual_unit_flow_correlation": 11,
+      "area_energy": "318418913/925",
+      "centered_area_energy": "485173732268/1389683",
+      "area_energy_budget": "789364406106/5929",
+      "centered_energy_fraction_of_budget": "1438297529308486/548483147985302199",
+      "covariance_completion_positive_semidefinite": true,
+      "all_charge_cut_bounds_and_parities": true,
+      "active_band_components": [
+        1,
+        1
+      ],
+      "reduced_centroid_covariance": [
+        [
+          "3661183397/74",
+          "-5589940125/74"
+        ],
+        [
+          "-5589940125/74",
+          "33930016435/74"
+        ]
+      ],
+      "minimum_norm_centroid_covariance": [
+        [
+          "174755937847226795780055104/133918356232459074973",
+          "-44034535146261769141926817/133918356232459074973"
+        ],
+        [
+          "-44034535146261769141926817/133918356232459074973",
+          "21144721889786183259785984/133918356232459074973"
+        ]
+      ],
+      "remaining_covariance": [
+        [
+          "12901830351111239321227074205/267836712464918149946",
+          "-20144244253433606478255497491/267836712464918149946"
+        ],
+        [
+          "-20144244253433606478255497491/267836712464918149946",
+          "122764522121504781533447649147/267836712464918149946"
+        ]
+      ],
+      "remaining_covariance_determinant": "229583414831839279062218547893095536571506452203/13979765007753646557540679944962",
+      "unmatched_centroid_groups": [
+        {
+          "h": 0,
+          "j": 3,
+          "s": 1,
+          "count": 26,
+          "band": 1,
+          "reduced_centroid_from_board_center": [
+            "42228601492/1902476027",
+            "-71667442308/1902476027"
+          ]
+        },
+        {
+          "h": 1,
+          "j": 0,
+          "s": -1,
+          "count": 37,
+          "band": 1,
+          "reduced_centroid_from_board_center": [
+            "-41296591336/1902476027",
+            "74501645141/1902476027"
+          ]
+        },
+        {
+          "h": 1,
+          "j": 4,
+          "s": -1,
+          "count": 37,
+          "band": 1,
+          "reduced_centroid_from_board_center": [
+            "69075984901/1902476027",
+            "-35870931096/1902476027"
+          ]
+        },
+        {
+          "h": 1,
+          "j": 4,
+          "s": 1,
+          "count": 37,
+          "band": 2,
+          "reduced_centroid_from_board_center": [
+            "338563379/1874161",
+            "-69123901/1874161"
+          ]
+        }
+      ],
+      "common_reduced_paired_centroid": [
+        "-13517197771/5707428081",
+        "5216981/10789089"
+      ]
+    },
+    {
+      "N": 5063,
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "odd_blocks": 17,
+      "odd_tiles": 731,
+      "paired_tiles": 4912,
+      "unmatched_tiles": 151,
+      "band_edge_multiplicities": [
+        108,
+        43
+      ],
+      "area_demands_at_increasing_vertices": [
+        -2934,
+        -5020
+      ],
+      "alpha_energy": "2185/27",
+      "beta_energy": 151,
+      "charge_cross_energy": 21,
+      "actual_unit_flow_correlation": 21,
+      "area_energy": "28627801/43",
+      "centered_area_energy": "15645750366800/23233373",
+      "area_energy_budget": "2193255502904/15925",
+      "centered_energy_fraction_of_budget": "31144821823911250/6369590397908901899",
+      "covariance_completion_positive_semidefinite": true,
+      "all_charge_cut_bounds_and_parities": true,
+      "active_band_components": [
+        1,
+        1
+      ],
+      "reduced_centroid_covariance": [
+        [
+          "126540304688/387",
+          "-250768376495/774"
+        ],
+        [
+          "-250768376495/774",
+          "992303634715/774"
+        ]
+      ],
+      "minimum_norm_centroid_covariance": [
+        [
+          "4349070082055164146697098355000/714182685520209336361323",
+          "-366476128197745524484418847500/714182685520209336361323"
+        ],
+        [
+          "-366476128197745524484418847500/714182685520209336361323",
+          "504840157813850861917236595000/714182685520209336361323"
+        ]
+      ],
+      "remaining_covariance": [
+        [
+          "229172621464770094780186854303352/714182685520209336361323",
+          "-462043359290741562676794313261855/1428365371040418672722646"
+        ],
+        [
+          "-462043359290741562676794313261855/1428365371040418672722646",
+          "1830220486847740580082415721761235/1428365371040418672722646"
+        ]
+      ],
+      "remaining_covariance_determinant": "10992509455572916512193941206498031248520914815650554815/35861246614985884614344480629715043876",
+      "unmatched_centroid_groups": [
+        {
+          "h": 0,
+          "j": 3,
+          "s": 1,
+          "count": 22,
+          "band": 1,
+          "reduced_centroid_from_board_center": [
+            "8432722688845/128875520031",
+            "-12137678886515/128875520031"
+          ]
+        },
+        {
+          "h": 1,
+          "j": 0,
+          "s": -1,
+          "count": 43,
+          "band": 1,
+          "reduced_centroid_from_board_center": [
+            "-6771553416355/128875520031",
+            "12569269784435/128875520031"
+          ]
+        },
+        {
+          "h": 1,
+          "j": 4,
+          "s": -1,
+          "count": 43,
+          "band": 1,
+          "reduced_centroid_from_board_center": [
+            "12087596752595/128875520031",
+            "-369992963795/7580912943"
+          ]
+        },
+        {
+          "h": 1,
+          "j": 4,
+          "s": 1,
+          "count": 43,
+          "band": 2,
+          "reduced_centroid_from_board_center": [
+            "3644281550/10256403",
+            "26267150/10256403"
+          ]
+        }
+      ],
+      "common_reduced_paired_centroid": [
+        "-161723342235/42958506677",
+        "-1165664955/42958506677"
+      ]
+    },
+    {
+      "N": 143,
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "odd_blocks": 15,
+      "odd_tiles": 105,
+      "paired_tiles": 120,
+      "unmatched_tiles": 23,
+      "band_edge_multiplicities": [
+        16,
+        7
+      ],
+      "area_demands_at_increasing_vertices": [
+        160,
+        -136
+      ],
+      "alpha_energy": 16,
+      "beta_energy": 23,
+      "charge_cross_energy": 5,
+      "actual_unit_flow_correlation": 5,
+      "area_energy": "29696/7",
+      "centered_area_energy": "21217088/4963",
+      "area_energy_budget": "5331592/75",
+      "centered_energy_fraction_of_budget": "198910200/3307586387",
+      "covariance_completion_positive_semidefinite": true,
+      "all_charge_cut_bounds_and_parities": true,
+      "active_band_components": [
+        1,
+        1
+      ],
+      "reduced_centroid_covariance": [
+        [
+          "82662/7",
+          "-59565/7"
+        ],
+        [
+          "-59565/7",
+          "167317/7"
+        ]
+      ],
+      "minimum_norm_centroid_covariance": [
+        [
+          "506015611889600/413979418783",
+          "-72453018984400/413979418783"
+        ],
+        [
+          "-72453018984400/413979418783",
+          "243650654398400/413979418783"
+        ]
+      ],
+      "remaining_covariance": [
+        [
+          "4382608204601878/413979418783",
+          "-3450216135274085/413979418783"
+        ],
+        [
+          "-3450216135274085/413979418783",
+          "9651462833103773/413979418783"
+        ]
+      ],
+      "remaining_covariance_determinant": "258349742187906724888596181/1456697117492800561",
+      "unmatched_centroid_groups": [
+        {
+          "h": 0,
+          "j": 3,
+          "s": 1,
+          "count": 2,
+          "band": 1,
+          "reduced_centroid_from_board_center": [
+            "-1397660/243187",
+            "1557700/243187"
+          ]
+        },
+        {
+          "h": 1,
+          "j": 0,
+          "s": -1,
+          "count": 7,
+          "band": 1,
+          "reduced_centroid_from_board_center": [
+            "787180/243187",
+            "-1719560/243187"
+          ]
+        },
+        {
+          "h": 1,
+          "j": 4,
+          "s": -1,
+          "count": 7,
+          "band": 1,
+          "reduced_centroid_from_board_center": [
+            "-1761800/243187",
+            "829420/243187"
+          ]
+        },
+        {
+          "h": 1,
+          "j": 4,
+          "s": 1,
+          "count": 7,
+          "band": 2,
+          "reduced_centroid_from_board_center": [
+            "24140/2401",
+            "7820/2401"
+          ]
+        }
+      ],
+      "common_reduced_paired_centroid": [
+        "-62480/243187",
+        "-20240/243187"
+      ]
+    }
+  ],
+  "finite_odd_population_ranges": [
+    {
+      "N": 3431,
+      "odd_block_values": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91
+      ],
+      "checked_inventories": 45,
+      "all_joint_graph_charge_and_area_bounds_pass": true,
+      "all_directional_covariance_completions_pass": true,
+      "largest_centered_budget_fraction": "3090211141735102/548483147985302199",
+      "scope": "Some inventories fail other already known constraints. This range tests only the specified joint-graph/moment projection."
+    },
+    {
+      "N": 5063,
+      "odd_block_values": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117
+      ],
+      "checked_inventories": 58,
+      "all_joint_graph_charge_and_area_bounds_pass": true,
+      "all_directional_covariance_completions_pass": true,
+      "largest_centered_budget_fraction": "69647072391373750/6369590397908901899",
+      "scope": "Some inventories fail other already known constraints. This range tests only the specified joint-graph/moment projection."
+    }
+  ],
+  "hard_body_realization_claimed": false
+}

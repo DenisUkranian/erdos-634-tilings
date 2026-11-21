@@ -1,0 +1,127 @@
+{
+  "checks": "PASS",
+  "certificate": "research/2026-11-21/semiprimes/global-closure-next/exact-lines-3431/PERIODIC_DUAL_FULL_CATALOGUE.json.gz",
+  "certificate_sha256": "6cceb0f8fa572cae1cc00195bba9b7defdf41010594d6e8cb1ebe10815aaa7f2",
+  "scope": "Exact lower bound only for the fixed native gate profile stated in the certificate. No full tiling or all-profile exclusion is claimed.",
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "raw_contained_placements": 4207420,
+  "endpoint_rows": 137307,
+  "all_column_pricing": "EXACT INTEGER",
+  "population_lower_bound": {
+    "numerator": 105304866294,
+    "denominator": 1000000002
+  },
+  "decimal_for_display_only": 105.30486608339027,
+  "excludes_population_3c": false,
+  "maximizing_placement": [
+    1424,
+    -243,
+    0,
+    -1
+  ],
+  "orientation_counts": [
+    {
+      "rotation": 0,
+      "hand": -1,
+      "placements": 375196,
+      "maximum_score": 1000000002
+    },
+    {
+      "rotation": 0,
+      "hand": 1,
+      "placements": 377645,
+      "maximum_score": 1000000001
+    },
+    {
+      "rotation": 1,
+      "hand": -1,
+      "placements": 345369,
+      "maximum_score": 1000000002
+    },
+    {
+      "rotation": 1,
+      "hand": 1,
+      "placements": 338060,
+      "maximum_score": 1000000001
+    },
+    {
+      "rotation": 2,
+      "hand": -1,
+      "placements": 333973,
+      "maximum_score": 1000000002
+    },
+    {
+      "rotation": 2,
+      "hand": 1,
+      "placements": 341013,
+      "maximum_score": 1000000001
+    },
+    {
+      "rotation": 3,
+      "hand": -1,
+      "placements": 366925,
+      "maximum_score": 1000000001
+    },
+    {
+      "rotation": 3,
+      "hand": 1,
+      "placements": 368251,
+      "maximum_score": 1000000002
+    },
+    {
+      "rotation": 4,
+      "hand": -1,
+      "placements": 347289,
+      "maximum_score": 1000000001
+    },
+    {
+      "rotation": 4,
+      "hand": 1,
+      "placements": 341013,
+      "maximum_score": 1000000002
+    },
+    {
+      "rotation": 5,
+      "hand": -1,
+      "placements": 333352,
+      "maximum_score": 1000000001
+    },
+    {
+      "rotation": 5,
+      "hand": 1,
+      "placements": 339334,
+      "maximum_score": 1000000001
+    }
+  ],
+  "positive_control_143": {
+    "physical_tiling": {
+      "certificate_N": 143,
+      "known_tiles_retained": 143,
+      "known_current_residuals": 0,
+      "known_doubled_area_verified": true,
+      "all_template_row_counts_match_independent_box_enumeration": true,
+      "complete_control_catalogue_placements": 26654,
+      "incident_oracle_retains_every_known_tile_at_all_six_rows": true
+    },
+    "source_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+    "height_one_tiles": 105,
+    "cylinder_endpoint_residuals": 0,
+    "signed_gate_currents": [
+      [
+        -1,
+        0,
+        -7
+      ],
+      [
+        1,
+        0,
+        14
+      ]
+    ]
+  },
+  "elapsed_seconds": 0.7788379970006645
+}

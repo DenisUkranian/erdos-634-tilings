@@ -1,0 +1,11 @@
+[
+  {
+    "iteration": 0,
+    "master_columns": 63948,
+    "status": "HighsModelStatus.kTimeLimit",
+    "master_objective": 77.69230769240076,
+    "primal_valid": false,
+    "dual_valid": false,
+    "elapsed_seconds": 15.706706796001527
+  }
+]

@@ -1,0 +1,679 @@
+{
+  "checks": "PASS",
+  "target_existence_status": "OPEN",
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "convolution_shift": [
+    800,
+    -36
+  ],
+  "convolution_triples": 50653,
+  "distinct_anchors": 3997,
+  "strictly_contained_placed_columns": 47964,
+  "torus_columns_checked": 16428,
+  "axis_residue_marginals_checked": 4107,
+  "lift_common_denominator": 37,
+  "residue_mass_numerator": 37,
+  "minimum_nonzero_lift_numerator": 1,
+  "maximum_lift_numerator": 37,
+  "minimum_board_halfplane_determinant": 143854520,
+  "operator_identity": "A_cylinder L = E A_torus, checked column by column over integers",
+  "source_certificate_sha256": "1990dc1bc01af53e9e03b6d3e88621c5ff58b5da5af48944846a6e33087d04a1",
+  "source_checker_sha256": "c7684b7fe7f7dab79739ba16a872215f036e1363a3da021e2a8d88e0c395a79f",
+  "source_certificate_replayed": true,
+  "source_fourier_block_histogram": {
+    "3": 1189,
+    "2": 108,
+    "4": 72
+  },
+  "source_point_checks": {
+    "variables": 16428,
+    "equations": 4182,
+    "point_denominator": 1000000000000,
+    "minimum_approximate_numerator": 346672370,
+    "residual_squared_numerator": 988020,
+    "norm_bound_K": 3,
+    "positivity_inequality": [
+      2964060,
+      120181732121416900
+    ],
+    "positive_gate_capacity": 44,
+    "minimum_gate_slack_numerator": 21961519366946,
+    "gate_capacity_inequality": [
+      36520183260,
+      482308332904744236597366916
+    ],
+    "exact_corrected_population": 111,
+    "exact_corrected_positive_population": 74,
+    "exact_corrected_negative_population": 37,
+    "exact_gate_currents": {
+      "native_up": 22,
+      "native_down": 15,
+      "all_remote": 0
+    },
+    "exact_node_charge_units": {
+      "native_up": -2,
+      "native_down": 2,
+      "all_remote": 0
+    }
+  },
+  "exact_lifted_population": 111,
+  "exact_lifted_positive_population": 74,
+  "exact_lifted_negative_population": 37,
+  "gate_currents": {
+    "native_up": 22,
+    "native_down": 15,
+    "all_remote": 0
+  },
+  "all_placed_variable_bounds": "0 < y < 1 on the support; zero elsewhere",
+  "coordinate_upper_bound_check": {
+    "maximum_approximate_numerator": 524232213366,
+    "point_denominator": 1000000000000,
+    "squared_slack": 226354986798615349049956,
+    "correction_squared_bound": 2964060
+  },
+  "explicit_packing_cut": {
+    "point_in_normalized_coordinates": [
+      "80801/101",
+      "1/103"
+    ],
+    "condition": "Sum of weights of tiles whose interiors contain this point is at most one in a packing.",
+    "approximate_coverage_numerator": 260060874905985,
+    "coverage_denominator": 37000000000000,
+    "decimal_for_display_only": 7.028672294756351,
+    "squared_excess_numerator": 49756153913823488682588820225,
+    "correction_error_squared_numerator": 2906918851320,
+    "strict_violation_for_exact_witness": true,
+    "scope": "This eliminates this explicit fractional lift, not every feasible cylinder point or every tiling."
+  },
+  "averaged_fractional_packing": {
+    "convex_hull_centre": [
+      800,
+      0
+    ],
+    "convex_hull_radius": 69,
+    "translation_search_box": [
+      -21,
+      18,
+      -7,
+      7
+    ],
+    "number_of_strictly_contained_translations": 133,
+    "translations_in_units_of_cR": [
+      [
+        -10,
+        0
+      ],
+      [
+        -9,
+        0
+      ],
+      [
+        -8,
+        0
+      ],
+      [
+        -7,
+        0
+      ],
+      [
+        -6,
+        0
+      ],
+      [
+        -6,
+        1
+      ],
+      [
+        -5,
+        -1
+      ],
+      [
+        -5,
+        0
+      ],
+      [
+        -5,
+        1
+      ],
+      [
+        -4,
+        -1
+      ],
+      [
+        -4,
+        0
+      ],
+      [
+        -4,
+        1
+      ],
+      [
+        -3,
+        -1
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        -2
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        -2
+      ],
+      [
+        4,
+        -1
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        -2
+      ],
+      [
+        5,
+        -1
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        -2
+      ],
+      [
+        6,
+        -1
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        -3
+      ],
+      [
+        7,
+        -2
+      ],
+      [
+        7,
+        -1
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        8,
+        -3
+      ],
+      [
+        8,
+        -2
+      ],
+      [
+        8,
+        -1
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        9,
+        -3
+      ],
+      [
+        9,
+        -2
+      ],
+      [
+        9,
+        -1
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        10,
+        -3
+      ],
+      [
+        10,
+        -2
+      ],
+      [
+        10,
+        -1
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        11,
+        -3
+      ],
+      [
+        11,
+        -2
+      ],
+      [
+        11,
+        -1
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        12,
+        -4
+      ],
+      [
+        12,
+        -3
+      ],
+      [
+        12,
+        -2
+      ],
+      [
+        12,
+        -1
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        1
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        12,
+        4
+      ],
+      [
+        13,
+        -4
+      ],
+      [
+        13,
+        -3
+      ],
+      [
+        13,
+        -2
+      ],
+      [
+        13,
+        -1
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        13,
+        5
+      ],
+      [
+        14,
+        -4
+      ],
+      [
+        14,
+        -3
+      ],
+      [
+        14,
+        -2
+      ],
+      [
+        14,
+        -1
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        14,
+        2
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        14,
+        5
+      ],
+      [
+        15,
+        -4
+      ],
+      [
+        15,
+        -3
+      ],
+      [
+        15,
+        -2
+      ],
+      [
+        15,
+        -1
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        15,
+        1
+      ]
+    ],
+    "minimum_translated_hull_determinant": 1418284,
+    "distinct_averaged_anchors": 226663,
+    "supported_placed_columns": 2719956,
+    "maximum_averaged_multiplicity": 37,
+    "lift_coefficient_denominator": 4921,
+    "coefficient_upper_bound": "1/133",
+    "global_pointwise_density_upper_bound": "111/133",
+    "all_fractional_point_packing_inequalities": "SATISFIED STRICTLY",
+    "all_fractional_conflict_clique_inequalities": "SATISFIED STRICTLY",
+    "convex_decomposition": {
+      "nonempty_component_recipe": "For each residue r, orientation j,s, and k=1,...,c, take every anchor q congruent to r with averaged multiplicity >=k.",
+      "nonempty_component_count_with_repetitions": 607836,
+      "component_weight": "x_star[r,j,s]/4921",
+      "empty_component_weight": "22/133",
+      "smallest_component_tile_count": 99,
+      "largest_component_tile_count": 168,
+      "each_component": "An integral nonoverlapping partial packing, strictly contained in the board.",
+      "scope": "The cylinder, gate, and population equations hold in the mixture; they are not asserted for each integral component."
+    },
+    "exact111_convex_decomposition": {
+      "conditional_period": 4921,
+      "conditional_interval_width": "111 times the averaged multiplicity of the anchor",
+      "maximum_interval_width": 4107,
+      "conditional_total_interval_length": 546231,
+      "minimum_anchors_per_residue": 133,
+      "residue_sampling_offsets_checked": 6736849,
+      "component_count_with_repetitions": 80842188,
+      "every_component_tile_count": 111,
+      "component_weight": "x_star[r,j,s]/546231",
+      "component_recipe": "Order anchors of a residue lexicographically; partition [0,111D) into integer intervals of lengths 111*mbar(q). For sampling offset t=0,...,D-1, select every interval containing an integer congruent to t modulo D.",
+      "each_component": "A contained integral nonoverlapping partial packing of exactly 111 height-one tiles, all of one orientation and one sign.",
+      "preserved_only_in_the_mixture": [
+        "positive population 74 and negative population 37",
+        "specified signed gate currents",
+        "cylinder endpoint equations"
+      ],
+      "conclusion": "The averaged cylinder point lies in the convex hull of contained integral nonoverlapping partial packings of exactly 111 tiles. No single component has the required complete charge/current profile."
+    }
+  },
+  "conclusion": "The full contained native-height-one cylinder relaxation has an exact rational population-111 point, including positive gate caps and y<=1. Averaging 133 contained cR translates gives another such point in the convex hull of integral nonoverlapping partial packings of exactly 111 tiles and satisfies every valid linear inequality for those packings. The required sign populations, gate currents and cylinder equations hold only in the mixture. No single integral packing with that complete profile, no physical endpoint closure, and no tiling are certified."
+}

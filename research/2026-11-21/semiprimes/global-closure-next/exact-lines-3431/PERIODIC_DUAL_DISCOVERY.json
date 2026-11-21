@@ -1,0 +1,13 @@
+{
+  "scope": "Numerical discovery of a dual; integer pricing covers the full contained cylinder catalogue. Independent replay required for the bound.",
+  "numerical_torus_status": 0,
+  "numerical_torus_objective": 105.30486630695218,
+  "numerical_torus_max_residual": 5.545564008002657e-14,
+  "raw_contained_columns_priced": 4207420,
+  "exact_integer_bound": {
+    "numerator": 105304866294,
+    "denominator": 1000000002
+  },
+  "decimal_bound_for_display": 105.30486608339027,
+  "elapsed_seconds": 3.7325081629969645
+}

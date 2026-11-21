@@ -1,0 +1,55 @@
+{
+  "verified": true,
+  "small_controls": {
+    "exact_positive_small_tilings": 2,
+    "fractional_full_current_weights": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1",
+      "1"
+    ],
+    "fractional_point_has_two_overlapping_placements": true,
+    "integer_periodic_example_contained_distinct_tiles": 4,
+    "integer_periodic_example_correct_area": true,
+    "integer_periodic_example_residual_rows": 0,
+    "integer_periodic_example_physical_residual_rows": 12,
+    "integer_periodic_example_overlap_multiplicity": 2,
+    "integer_periodic_example_hole_multiplicity": 0,
+    "scope": "Small Cartesian controls only; neither is a 3431 or 5063 placement."
+  },
+  "positive_143_integer_projection": {
+    "full_tiling_verified": true,
+    "N": 143,
+    "odd_population": 105,
+    "odd_blocks": 15,
+    "positive": 56,
+    "negative": 49,
+    "periodic_endpoint_residual_rows": 0,
+    "integer_residue_support": 92,
+    "largest_integer_residue_multiplicity": 3,
+    "gate_charge_units": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scope": "Projection of an independently verified complete 143 tiling; not a target tiling."
+  },
+  "theorem_scope": "Finite nonnegative integer actual polygons with full physical current closure tile exactly; incomplete or periodic rows do not suffice.",
+  "target_status": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  }
+}

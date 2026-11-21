@@ -1,0 +1,28 @@
+{
+  "scope": "General polygon-current controls on a nine-piece right-isosceles triangle; no target decision.",
+  "two_full_integer_tilings": {
+    "counts": [
+      9,
+      9
+    ],
+    "physical_currents": "PASS",
+    "containment_and_congruence": "PASS",
+    "pairwise_interior_disjointness": "PASS"
+  },
+  "fractional_average": {
+    "physical_current": "PASS",
+    "weighted_cover_at_overlap_point": 1,
+    "distinct_selected_interiors_at_overlap_point": 2,
+    "positive_integrality_required_for_hard_body_conclusion": true
+  },
+  "integer_periodic_countercontrol": {
+    "distinct_congruent_contained_tiles": 9,
+    "area_matches_board": true,
+    "periodic_residual_rows": 0,
+    "physical_residual_rows": 12,
+    "multiplicity_at_overlap_point": 2,
+    "multiplicity_at_hole_point": 0,
+    "is_tiling": false
+  },
+  "conclusion": "Full physical current plus nonnegative integrality gives a tiling; periodic current alone does not, even for Boolean actual placements with the right area."
+}

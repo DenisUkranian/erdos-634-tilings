@@ -9,6 +9,52 @@ the area behind the contacts, and the finite number of available tiles.
 It does not require a unique odd phase, terminal remote branches, or
 the minimal three-height localization.
 
+## Latest continuation: rigid placements and the remaining five-block mode
+
+The newly checked [two-height exclusion](five-block-two-heights/TWO_HEIGHT_EXCLUSION_5063.md)
+leaves only `n_1=215` when the full 5063 odd population equals 215.
+It excludes all **9,112,001** profiles in a newly derived single-offset
+universe using the 65 exact endpoint certificates. Every short height
+is consequently 0, 1, or 2. A separate actual-line incidence argument
+proves [balance of every 86-tile height-one node](global-strengthening/TWO_BLOCK_BALANCE_5063.md).
+The [remaining cell classification](global-strengthening/ONE_HEIGHT_CELL_CLASSIFICATION_5063.md)
+has one, two, or four occupied Euclidean classes; in the last case their
+sign populations depend on one integer `x=1,...,42`. This is not an
+exclusion of 215 or of the larger allowed populations.
+
+At 3431 the [full cylinder lift](exact-lines-3431/CYLINDER_LIMIT.md)
+retains actual transverse supporting lines, while reducing longitudinal
+coordinates modulo 37. The existing rational 111 profile survives.
+An average over 133 contained lattice translates lies in the **convex
+hull of real, contained, nonoverlapping integer packings of exactly
+111 tiles**. Its charge and cylinder equations hold in the mixture;
+they are not asserted in any individual packing. Thus additional linear
+inequalities valid for all such packings cannot separate this point.
+
+The same construction now applies to one surviving
+[native 215 profile at 5063](exact-lines-3431/native-215-5063/CYLINDER_PACKING_LIMIT_5063.md).
+A new exact rational certificate supplies signs `(129,86)` and native
+gate currents `(42,1)`. Averaging 410 contained translates gives a
+point in the convex hull of actual nonoverlapping packings of exactly
+215 tiles, with density at most `43/82`. The profile conditions again
+hold only in the mixture. This does not restrict the five-block layer
+to a single phase and does not produce an integer realization.
+
+The [physical-current audit](global-strengthening/FULL_CURRENT_AND_NONOVERLAP.md)
+shows that full actual boundary-current equality with nonnegative
+integer rigid placements already implies exact coverage and nonoverlap.
+This logical condition is present in the existing complete physical
+model. The [finite physical charge-budget theorem](rigid-body/PHYSICAL_CHARGE_BUDGET.md)
+couples actual contact equations, overlap incompatibilities and the
+missing odd/even charges in one integer minimization. It also proves
+finite depth-`N` completeness of the incident expansion. Neither the
+formulation nor its finite-depth bound supplies a target contradiction.
+
+Finally, [exact abstract graph witnesses](global-strengthening/ABSTRACT_GRAPH_LIMIT.md)
+show that the earlier larger-population inventories pass the joint
+charge, connectivity, centered-area and full covariance tests below.
+The available centroid budget remains too large in this projection.
+
 ## The main theorem
 
 Cancel actual whole-long-side half-turn pairs as boundary currents,
@@ -100,16 +146,17 @@ native class `zR`, with **86 positive and 43 negative** tiles, the
 full tiling needs at least **387 odd tiles**. The sign inventory is
 an explicit hypothesis, not a consequence of 129 tiles alone.
 
-At total odd population 215, this excludes height-one population 129.
-The remaining necessary height inventories are:
+At total odd population 215, this initially excluded height-one population
+129. The newer two-height proof now gives the following complete status
+of those former alternatives:
 
-| Odd heights | Height-one tiles | Other odd tiles |
-|---|---:|---:|
-| `{1}` | 215 | 0 |
-| `{-1,1}` | 86 | 129 at height -1 |
-| `{1,3}` | 86 | 129 at height 3 |
+| Odd heights | Height-one tiles | Other odd tiles | Current status |
+|---|---:|---:|---|
+| `{1}` | 215 | 0 | Open; one, two, or four occupied classes |
+| `{-1,1}` | 86 | 129 at height -1 | Excluded by the single-offset proof |
+| `{1,3}` | 86 | 129 at height 3 | Excluded by the single-offset proof |
 
-None of these remaining rows is excluded or asserted realizable here.
+No remaining configuration is asserted realizable.
 [Independent internal audit](large-population/LARGE_POPULATION_AUDIT.md)
 and [exact arithmetic replay](large-population/ODD_BRANCH_BUDGET_REPLAY.json)
 state the proof dependencies and limitations.

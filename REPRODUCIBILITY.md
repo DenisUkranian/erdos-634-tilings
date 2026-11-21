@@ -2,6 +2,63 @@
 
 **v0.3.0 + 21 November 2026 continuation**
 
+## 21 November 2026: rigid placements and the remaining five-block geometry
+
+The latest exact controls are included in `scripts/verify_all.py`:
+
+```sh
+python3 research/2026-11-21/semiprimes/global-closure-next/rigid-body/verify_rigid_body.py
+python3 research/2026-11-21/semiprimes/global-closure-next/global-strengthening/verify_current_controls.py
+python3 research/2026-11-21/semiprimes/global-closure-next/global-strengthening/verify_abstract_joint_graph.py
+python3 research/2026-11-21/semiprimes/global-closure-next/exact-lines-3431/verify_cylinder_lift.py
+python3 research/2026-11-21/semiprimes/global-closure-next/five-block-two-heights/replay_single_offset.py
+python3 research/2026-11-21/semiprimes/global-closure-next/global-strengthening/verify_two_block_balance.py
+python3 research/2026-11-21/semiprimes/global-closure-next/global-strengthening/verify_one_height_cells.py
+python3 research/2026-11-21/semiprimes/global-closure-next/exact-lines-3431/native-215-5063/verify_5063_cylinder_packing.py
+```
+
+These use Python's standard library; the single-offset replay also needs
+a C++17 compiler. It freshly rechecks all 65 certificates and 780
+transformations, then exhausts **9,112,001** profiles with no survivors.
+The proof and independent geometric audit therefore reduce 5063 at
+total odd population 215 to short heights `{0,1,2}`. The two smaller
+node/cell checkers cover the arithmetic in the remaining one-, two-,
+and four-class classification; the universal geometric steps remain
+written proofs with explicitly linked dependencies.
+
+The 3431 lift checker reconstructs the finite convolution on all 16,428
+columns, 47,964 contained placements, 133 contained translations, and
+6,736,849 exact residue/offset sampling cases. It also rechecks the
+original rational Fourier certificate. The resulting fractional point
+lies in the convex hull of actual nonoverlapping packings of exactly
+111 tiles. Required charge and contact equations hold in the average,
+not in every individual packing. This is a limitation theorem, not a
+positive or negative decision of 3431.
+
+The corresponding 5063 checker replays the new 43-root, 1,849-block
+rational native-215 certificate, all 22,188 lifting columns, 65,028
+contained initial placements, 410 contained translations, and 32,597,870
+exact sampling cases. It proves a point in the exact-215 packing convex
+hull with density at most `43/82`; profile constraints again hold only
+in the mixture. Neither a floating optimizer nor a numerical tolerance
+enters these proof steps.
+
+The physical-current controls distinguish Boolean actual placements
+from integer aggregated residue multiplicities. The independent 143
+control has residue multiplicity as large as three. The graph-limit
+checker gives exact abstract inventories passing all joint charge,
+centering, and covariance constraints without claiming physical contacts.
+The accompanying [physical charge-budget theorem](research/2026-11-21/semiprimes/global-closure-next/rigid-body/PHYSICAL_CHARGE_BUDGET.md)
+has a separate internal mathematical audit; no minimizing integer
+certificate exceeding either target budget has been obtained.
+
+The optional full 3431 cylinder-catalogue pricing check covers all
+4,207,420 placements with NumPy and exact integer coefficients. Its
+bound is below 111 and it is not a required input to the lifting proof.
+The optional integer torus search reached its resource limit without
+a primal point or a certified contradiction. Neither optional numerical
+search is interpreted as an impossibility proof.
+
 ## 21 November 2026: a global joint contact graph
 
 The [global theorem and precise scope](research/2026-11-21/semiprimes/global-closure-next/README.md)

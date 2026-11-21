@@ -1,5 +1,16 @@
 # Changelog
 
+## 21 November 2026: rigid placements, exact packing limits, and the 5063 five-block reduction
+
+- Exclude both two-odd-height alternatives at total odd population 215 for 5063. Derive a one-offset charge universe and exhaust all 9,112,001 profiles using 65 exact certificates and 780 checked transformations.
+- Prove that every 86-tile height-one exact node is balanced when no other odd height is occupied, including native nodes. Reduce the remaining 215 layer to one, two, or four Euclidean classes, with a single parameter from 1 to 42 in the four-cell case.
+- Lift the rational 3431 profile to full cylinder endpoint rows. Average 133 contained lattice translates and explicitly decompose the result into actual integer nonoverlapping packings of exactly 111 tiles. The target charge and contact equations hold in the average; no integer solution is asserted.
+- Certify a strictly positive rational native-215 profile for 5063 with 1,849 exact Fourier-block checks. Its 410-translate lift lies in the exact-215 physical packing convex hull; the required profile again holds only in the mixture.
+- Audit full physical current closure: finite nonnegative integer rigid placements already imply coverage and nonoverlap. State a finite physical charge-budget criterion and prove depth-N completeness of the incident placement expansion.
+- Verify exact abstract inventories passing the joint contact graph, centering, and full covariance constraints, identifying the remaining geometric gap in those bounds.
+- Add independent exact controls, theorem audits, optional search statuses, and replay integration. Keep 3431, 5063, the single-height 215 case, and larger odd populations OPEN.
+- [Complete continuation and scope](research/2026-11-21/semiprimes/global-closure-next/README.md).
+
 ## 21 November 2026: a global charge and contact theorem
 
 - Couple both prime trees in a joint multigraph with one edge per actual unmatched tile. Prove simultaneous unit charge flows, area-flow energy bounds, active-band connectivity, and a common physical population partition at each band.

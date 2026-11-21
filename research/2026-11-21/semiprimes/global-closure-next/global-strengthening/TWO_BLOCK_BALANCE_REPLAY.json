@@ -1,0 +1,48 @@
+{
+  "scope": "Necessary arithmetic for two-block balance at height one on 5063; no tiling exclusion.",
+  "single_sign_class_population": 86,
+  "line_bound": 16,
+  "family_sizes_if_at_most_two_minority_hand_tiles": [
+    [
+      4,
+      6,
+      6
+    ],
+    [
+      5,
+      5,
+      6
+    ]
+  ],
+  "complete_line_pairs_with_M_L_at_most_8": [
+    [
+      1,
+      6
+    ],
+    [
+      8,
+      5
+    ]
+  ],
+  "counts_of_the_two_line_types": [
+    6,
+    10
+  ],
+  "forced_minority_hand_tiles": 20,
+  "hypothesized_maximum_minority_hand_tiles": 2,
+  "native_current_possibilities": {
+    "increasing, sign +1": [],
+    "increasing, sign -1": [
+      -2
+    ],
+    "decreasing, sign +1": [
+      1
+    ],
+    "decreasing, sign -1": []
+  },
+  "remote_current_possibilities": [
+    0
+  ],
+  "finite_arithmetic": "PASS",
+  "full_5063_exclusion": false
+}

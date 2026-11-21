@@ -1,0 +1,74 @@
+{
+  "scope": "One-height 215 necessary cell matrices for 5063; no tiling feasibility decision.",
+  "native_exact_nodes_forced_occupied": true,
+  "native_flag_pairs_for_isolated_charged129_cell": [
+    [
+      1,
+      1
+    ]
+  ],
+  "candidate_matrix_parameters_checked": 44,
+  "retained_four_cell_parameters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "excluded_endpoint_parameters": {
+    "0": "An existing geometric theorem excludes the monochromatic 43-cell.",
+    "43": "The isolated native 129-class satisfies every hypothesis of the 65-certificate profile proof."
+  },
+  "possible_numbers_of_occupied_joint_cells": [
+    1,
+    2,
+    4
+  ],
+  "native_joint_cell_occupied": true,
+  "ambient_height_one_phase_class_count": 1849,
+  "containing_phase_sign_skeleton_counts": {
+    "single_single": 1,
+    "one_split": 168,
+    "both_split": 296352
+  },
+  "total_containing_phase_sign_skeletons": 296521,
+  "finite_arithmetic": "PASS",
+  "full_215_exclusion": false
+}

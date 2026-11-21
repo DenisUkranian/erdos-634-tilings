@@ -2,6 +2,12 @@
 
 The [project overview](README.md) summarizes current work. The dated entries below preserve the original claims, qualifications and source links.
 
+## 21 November 2026: rigid-body constraints and the one-height 5063 remainder
+
+[Two-height exclusion](research/2026-11-21/semiprimes/global-closure-next/five-block-two-heights/TWO_HEIGHT_EXCLUSION_5063.md): all 9,112,001 newly derived single-offset profiles are excluded exactly. At 5063, total odd population 215 therefore forces only short heights 0, 1, and 2. [Two-block balance and the remaining cells](research/2026-11-21/semiprimes/global-closure-next/global-strengthening/ONE_HEIGHT_CELL_CLASSIFICATION_5063.md) reduce the middle layer to one, two, or four classes; the four-cell case has parameter `x=1,...,42`.
+
+[3431 cylinder and exact packing lift](research/2026-11-21/semiprimes/global-closure-next/exact-lines-3431/CYLINDER_LIMIT.md): the fractional 111 profile lies in the convex hull of actual contained nonoverlapping 111-tile packings while satisfying all cylinder/gate equations only in the mixture. The [native 215 extension at 5063](research/2026-11-21/semiprimes/global-closure-next/exact-lines-3431/native-215-5063/CYLINDER_PACKING_LIMIT_5063.md) proves the analogous limit using 410 contained translates and a new exact rational certificate. [Physical charge-budget theorem](research/2026-11-21/semiprimes/global-closure-next/rigid-body/PHYSICAL_CHARGE_BUDGET.md): a finite complete-row integer packing must leave enough tiles to repair both global charges, and depth-N incident expansion contains every N-tiling. [Graph and covariance limits](research/2026-11-21/semiprimes/global-closure-next/global-strengthening/ABSTRACT_GRAPH_LIMIT.md) give exact abstract witnesses surviving all the previous joint moment bounds. These are proofs and precise method limits; **neither original count is decided**.
+
 ## 21 November 2026: one global charge and contact budget
 
 [Joint contact-graph theorem, proof, and exact controls](research/2026-11-21/semiprimes/global-closure-next/README.md). Both prime trees share a graph with one edge per unmatched physical tile. Signed charge flows and area demands must fit the same contacts and one exact centroid budget; every active height band is connected. The result holds beyond the minimal odd mode. Two full 143-tile controls verify the formulas. A separate exact lifting theorem proves that containment and first transverse moments still admit the fractional 3431 minimal profile. No target exclusion follows yet; **3431 and 5063 remain OPEN**.

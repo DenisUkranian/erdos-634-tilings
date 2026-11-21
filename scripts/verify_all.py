@@ -23,6 +23,10 @@ def main():
     with tempfile.TemporaryDirectory(prefix='erdos634-full-replay-') as td:
         work=Path(td)/'repo'
         shutil.copytree(ROOT,work,ignore=shutil.ignore_patterns('.git','__pycache__','audit-output','.publication','*.pyc'))
+        # This suite checks the frozen global manifest. Run it before later
+        # replays replace timing-bearing reports in the disposable copy.
+        reports['legacy']=run(['scripts/reproduce.py'],work)
+        print('LEGACY_SUITE=PASS',flush=True)
         reports['vertex_phase']=run(['research/2026-11-20/semiprimes/continuation/vertex-phase/replay.py'],work)
         print('VERTEX_PHASE_STANDARD_LIBRARY_CONTROLS=PASS',flush=True)
         reports['common_obstruction']=run(['research/2026-11-20/semiprimes/continuation/common-obstruction/replay.py'],work)
@@ -40,10 +44,18 @@ def main():
         reports['semiprime_3431_first_moment_limit']=run(['research/2026-11-21/semiprimes/global-closure-next/geometry3431/verify_first_moment_lift.py'],work)
         reports['semiprime_5063_odd_branch_budget']=run(['research/2026-11-21/semiprimes/global-closure-next/large-population/verify_odd_branch_budget.py'],work)
         print('SEMIPRIME_JOINT_CONTACT_GRAPH_MOMENT_LIMIT_AND_ODD_BRANCH_BUDGET=PASS',flush=True)
+        reports['semiprime_physical_rigid_controls']=run(['research/2026-11-21/semiprimes/global-closure-next/rigid-body/verify_rigid_body.py'],work)
+        reports['semiprime_full_current_controls']=run(['research/2026-11-21/semiprimes/global-closure-next/global-strengthening/verify_current_controls.py'],work)
+        reports['semiprime_abstract_joint_graph_limit']=run(['research/2026-11-21/semiprimes/global-closure-next/global-strengthening/verify_abstract_joint_graph.py'],work)
+        reports['semiprime_3431_cylinder_packing_limit']=run(['research/2026-11-21/semiprimes/global-closure-next/exact-lines-3431/verify_cylinder_lift.py'],work)
+        print('SEMIPRIME_PHYSICAL_CURRENT_AND_EXACT_PACKING_LIMITS=PASS',flush=True)
+        reports['semiprime_5063_two_height_exclusion']=run(['research/2026-11-21/semiprimes/global-closure-next/five-block-two-heights/replay_single_offset.py'],work)
+        reports['semiprime_5063_two_block_balance']=run(['research/2026-11-21/semiprimes/global-closure-next/global-strengthening/verify_two_block_balance.py'],work)
+        reports['semiprime_5063_one_height_cells']=run(['research/2026-11-21/semiprimes/global-closure-next/global-strengthening/verify_one_height_cells.py'],work)
+        reports['semiprime_5063_native_215_packing_limit']=run(['research/2026-11-21/semiprimes/global-closure-next/exact-lines-3431/native-215-5063/verify_5063_cylinder_packing.py'],work)
+        print('SEMIPRIME_5063_TWO_HEIGHT_EXCLUSION_AND_REMAINING_CELLS=PASS',flush=True)
         reports['november19']=run(['research/2026-11-19/verify.py'],work)
         print('NOVEMBER19_CENSUS_AND_CERTIFICATES=PASS',flush=True)
-        reports['legacy']=run(['scripts/reproduce.py'],work)
-        print('LEGACY_SUITE=PASS',flush=True)
         nw=work/'research/n105'
         reports['n105']=run(['verify_all.py','--jobs',str(args.jobs)],nw)
         nr=json.loads((nw/'VERIFIED_RESULTS.json').read_text())
