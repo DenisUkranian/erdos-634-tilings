@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "image_cases": [
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "chart_dimension": 75,
+      "positive_endpoint_kernels_checked": 78,
+      "exact_square_determinants": [
+        -999,
+        -666,
+        -32856,
+        138687914
+      ],
+      "determinant_gcd": 37,
+      "orientation_potential_checks": 12,
+      "integer_image_characterized": true
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "chart_dimension": 87,
+      "positive_endpoint_kernels_checked": 89,
+      "exact_square_determinants": [
+        -387,
+        454854,
+        -294016886
+      ],
+      "determinant_gcd": 43,
+      "orientation_potential_checks": 12,
+      "integer_image_characterized": true
+    }
+  ],
+  "signed_witnesses": [
+    {
+      "target": 3431,
+      "profile": [
+        22,
+        15
+      ],
+      "signed_positive_count": 74,
+      "signed_negative_count": 37,
+      "nonzero_tile_columns": 3195,
+      "negative_tile_columns": 1517,
+      "maximum_absolute_multiplicity": 461,
+      "exact_endpoint_rows": 4107,
+      "exact_gate_rows": 74,
+      "scope": "Signed integer witness only; not a nonnegative integer packing."
+    },
+    {
+      "target": 5063,
+      "profile": [
+        42,
+        1
+      ],
+      "signed_positive_count": 129,
+      "signed_negative_count": 86,
+      "nonzero_tile_columns": 5915,
+      "negative_tile_columns": 2024,
+      "maximum_absolute_multiplicity": 2751,
+      "exact_endpoint_rows": 5547,
+      "exact_gate_rows": 86,
+      "scope": "Signed integer witness only; not a nonnegative integer packing."
+    }
+  ],
+  "conclusion": "The full periodic endpoint/gate signed integer image has exactly the charge divisibility obstruction c | (P-N), together with sum(gates)=P-N. Nonnegative coefficients and actual placement remain additional requirements; both target tiling problems remain open."
+}

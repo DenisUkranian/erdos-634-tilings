@@ -1,0 +1,524 @@
+{
+  "status": "PASS",
+  "positive_control": {
+    "odd_tiles": 105,
+    "cylinder_residual_orbits": 0,
+    "mandatory_long_segments": 2,
+    "mandatory_long_multiplicity": 2,
+    "line_capacity_conflicts": 0,
+    "forbidden_choices": 2,
+    "forbidden_reasons": {
+      "overlaps_odd_tile": 2
+    },
+    "conflicting_choice_pairs": 0,
+    "status": "compatible_mandatory_bank",
+    "choice_indices": [
+      1,
+      3
+    ],
+    "source_sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9",
+    "full_tiling_independently_verified": true,
+    "even_tiles": 38,
+    "neutral_even_pairs": 18,
+    "mandatory_even_charge": -2,
+    "full_population_identity": "143 = 105 + 2 + 2*18"
+  },
+  "exact_configurations": [
+    {
+      "name": "separated_charged_13",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "odd_tiles": 13,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 522,
+      "mandatory_long_multiplicity": 522,
+      "line_capacity_conflicts": 63,
+      "status": "line_capacity_obstruction",
+      "first_conflict": [
+        "same_side_overlap",
+        159,
+        141
+      ]
+    },
+    {
+      "name": "compact_charged_13",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "odd_tiles": 13,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 32,
+      "mandatory_long_multiplicity": 32,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 24,
+      "forbidden_reasons": {
+        "overlaps_odd_tile": 24
+      },
+      "conflicting_choice_pairs": 2,
+      "status": "mandatory_bank_2sat_obstruction",
+      "implication_paths": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "direct_two_choice_obstruction": {
+        "segment_index": 0,
+        "segment": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "7"
+          ]
+        ],
+        "oriented_coefficient": -1,
+        "candidate_triangles": [
+          [
+            [
+              "0",
+              "7"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "15/7",
+              "9/7"
+            ]
+          ],
+          [
+            [
+              "0",
+              "7"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "15/7",
+              "25/7"
+            ]
+          ]
+        ],
+        "blocking_odd_indices": [
+          [
+            3
+          ],
+          [
+            3
+          ]
+        ],
+        "blocking_odd_triangles": [
+          [
+            [
+              [
+                "3",
+                "-5"
+              ],
+              [
+                "0",
+                "3"
+              ],
+              [
+                "0",
+                "-2"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "3",
+                "-5"
+              ],
+              [
+                "0",
+                "3"
+              ],
+              [
+                "0",
+                "-2"
+              ]
+            ]
+          ]
+        ]
+      },
+      "scope": "This exact complete proposed cell cannot occur; not all 13-tile packings are excluded."
+    },
+    {
+      "name": "separated_balanced_hexagon",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 24,
+      "mandatory_long_multiplicity": 24,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 36,
+      "status": "mandatory_bank_2sat_obstruction",
+      "implication_paths": [
+        [
+          2,
+          31,
+          3
+        ],
+        [
+          3,
+          31,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "compatible_two_fan_patch",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "gap_units": 0,
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 0,
+      "mandatory_long_multiplicity": 0,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 0,
+      "status": "compatible_mandatory_bank",
+      "choice_indices": []
+    },
+    {
+      "name": "compatible_two_fan_patch",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "gap_units": 1,
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 2,
+      "mandatory_long_multiplicity": 2,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 0,
+      "status": "compatible_mandatory_bank",
+      "choice_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "compatible_two_fan_patch",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "gap_units": 2,
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 4,
+      "mandatory_long_multiplicity": 4,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 0,
+      "status": "compatible_mandatory_bank",
+      "choice_indices": [
+        0,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "uniform_charged_fan",
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "odd_tiles": 21,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 42,
+      "mandatory_long_multiplicity": 42,
+      "line_capacity_conflicts": 29,
+      "status": "line_capacity_obstruction",
+      "first_conflict": [
+        "same_side_overlap",
+        36,
+        38
+      ]
+    },
+    {
+      "name": "separated_balanced_hexagon",
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 24,
+      "mandatory_long_multiplicity": 24,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 42,
+      "status": "mandatory_bank_2sat_obstruction",
+      "implication_paths": [
+        [
+          2,
+          31,
+          3
+        ],
+        [
+          3,
+          31,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "compatible_two_fan_patch",
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "gap_units": 0,
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 0,
+      "mandatory_long_multiplicity": 0,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 0,
+      "status": "compatible_mandatory_bank",
+      "choice_indices": []
+    },
+    {
+      "name": "compatible_two_fan_patch",
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "gap_units": 1,
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 2,
+      "mandatory_long_multiplicity": 2,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 0,
+      "status": "compatible_mandatory_bank",
+      "choice_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "compatible_two_fan_patch",
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "gap_units": 2,
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 4,
+      "mandatory_long_multiplicity": 4,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 0,
+      "status": "compatible_mandatory_bank",
+      "choice_indices": [
+        0,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "uniform_charged_fan",
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "odd_tiles": 111,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 1170,
+      "mandatory_long_multiplicity": 1170,
+      "line_capacity_conflicts": 1160,
+      "status": "line_capacity_obstruction",
+      "first_conflict": [
+        "same_side_overlap",
+        964,
+        1014
+      ]
+    },
+    {
+      "name": "separated_balanced_hexagon",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 24,
+      "mandatory_long_multiplicity": 24,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 42,
+      "status": "mandatory_bank_2sat_obstruction",
+      "implication_paths": [
+        [
+          2,
+          31,
+          3
+        ],
+        [
+          3,
+          31,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "compatible_two_fan_patch",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "gap_units": 0,
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 0,
+      "mandatory_long_multiplicity": 0,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 0,
+      "status": "compatible_mandatory_bank",
+      "choice_indices": []
+    },
+    {
+      "name": "compatible_two_fan_patch",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "gap_units": 1,
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 2,
+      "mandatory_long_multiplicity": 2,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 0,
+      "status": "compatible_mandatory_bank",
+      "choice_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "compatible_two_fan_patch",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "gap_units": 2,
+      "odd_tiles": 6,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 4,
+      "mandatory_long_multiplicity": 4,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 0,
+      "forbidden_reasons": {},
+      "conflicting_choice_pairs": 0,
+      "status": "compatible_mandatory_bank",
+      "choice_indices": [
+        0,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "uniform_charged_fan",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "odd_tiles": 129,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 1870,
+      "mandatory_long_multiplicity": 1870,
+      "line_capacity_conflicts": 1860,
+      "status": "line_capacity_obstruction",
+      "first_conflict": [
+        "same_side_overlap",
+        1520,
+        1562
+      ]
+    },
+    {
+      "name": "contained_balanced_16",
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "odd_tiles": 16,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 86,
+      "mandatory_long_multiplicity": 86,
+      "line_capacity_conflicts": 34,
+      "status": "line_capacity_obstruction",
+      "first_conflict": [
+        "same_side_overlap",
+        17,
+        0
+      ]
+    }
+  ],
+  "full_3431_excluded": false,
+  "full_5063_excluded": false,
+  "scope": "Exact tests of the stated complete proposed cells and one full positive tiling. No enumeration of every target odd packing or tiling is asserted."
+}

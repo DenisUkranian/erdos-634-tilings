@@ -2,6 +2,12 @@
 
 The [project overview](README.md) summarizes current work. The dated entries below preserve the original claims, qualifications and source links.
 
+## 21 November 2026: exact neighboring geometry and a global pair reserve
+
+[Mandatory long-bank theorem](research/2026-11-21/semiprimes/integer-closure/long-banks/README.md): every complete odd packing has a unique net long-edge completion, two whole neighboring choices per mandatory edge, and an exact necessary geometric 2-SAT test. The remaining even tiles occur in opposite-sign common-long-side pairs. The [paired node and height reserve](research/2026-11-21/semiprimes/integer-closure/global-geometry/PAIRED_BANK_RESERVE.md) strengthens the identity `N=n_odd+B+2P` and gives unrestricted odd charge-variation bounds 53 and 77. These statements hold at arbitrary finite heights; no exhaustive target packing minimization is asserted.
+
+[Complete periodic signed integer image](research/2026-11-21/semiprimes/integer-closure/arithmetic/README.md): exact kernel/minor certificates prove that no integer linear congruence beyond the gate/sign identity and charge divisibility remains for either shape. Signed representations permit negative coefficients and are not physical packings. [Rigid countercontrols](research/2026-11-21/semiprimes/integer-closure/charged-cells/CHARGED_CELL_LIMITS.md) refute an unrestricted unit-charge `3c` claim at the small primitive shape while retaining a genuine contained balanced six-tile patch. [Six exact suites, internal independent audits, and unchanged target scope](research/2026-11-21/semiprimes/integer-closure/README.md). **Both original counts remain open.**
+
 ## 21 November 2026: global physical reserves and smaller integer cells
 
 [Global physical cell-reserve theorem](research/2026-11-21/semiprimes/continued-rigidity/global/GLOBAL_PHYSICAL_CELL_RESERVE.md): complete physical-row selections must leave enough positive tiles in a genuinely charged odd cell, as well as enough tiles to repair both full charges. The explicit bound strengthens the earlier residual-charge minimum; a node-rounded integer optimization retains additional reserves. The [support-line theorem](research/2026-11-21/semiprimes/continued-rigidity/global/UNIT_CHARGE_CELL_MINORITY.md) gives cell minima 41 and 53 for unit charges 37 and 43, without a fixed global odd population.

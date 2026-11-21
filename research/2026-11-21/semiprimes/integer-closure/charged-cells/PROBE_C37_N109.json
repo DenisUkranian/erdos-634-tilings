@@ -1,0 +1,17 @@
+{
+  "tile": [
+    33,
+    7,
+    37
+  ],
+  "charge": 37,
+  "population_limit": 109,
+  "binary": false,
+  "normalized_positive_tile": true,
+  "seconds": 62.68755344700003,
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "objective": null,
+  "dual_bound": null,
+  "scope": "Search positive integer periodic short-endpoint kernels of prescribed charge.\n\nAny returned integer point is verified exactly. Solver status alone is not an\nindependent mathematical certificate. Periodic closure does not assert an\nactual-cylinder lift, nonoverlap, board containment, or gate compatibility."
+}

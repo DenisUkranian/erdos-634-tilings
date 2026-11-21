@@ -1,0 +1,816 @@
+{
+  "statistics": {
+    "candidates": 12401,
+    "odd_overlap": 10633,
+    "nonoverlapping": 1768,
+    "capacity_failure": 1762,
+    "capacity_pass": 6
+  },
+  "best": {
+    "parameters": [
+      3,
+      -1,
+      2,
+      -1,
+      -3,
+      2,
+      -2
+    ],
+    "support": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        21,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        21,
+        4,
+        1
+      ],
+      [
+        0,
+        -2,
+        4,
+        1
+      ],
+      [
+        23,
+        -5,
+        5,
+        1
+      ],
+      [
+        18,
+        0,
+        2,
+        1
+      ],
+      [
+        18,
+        -20,
+        2,
+        1
+      ],
+      [
+        18,
+        -20,
+        4,
+        -1
+      ],
+      [
+        18,
+        -20,
+        4,
+        1
+      ],
+      [
+        -9,
+        0,
+        1,
+        -1
+      ],
+      [
+        -9,
+        7,
+        1,
+        1
+      ],
+      [
+        -2,
+        0,
+        2,
+        1
+      ],
+      [
+        26,
+        -5,
+        2,
+        1
+      ]
+    ],
+    "bank_capacity_conflicts": 0,
+    "long_segment_multiplicity": 32,
+    "complete_bank_report": {
+      "odd_tiles": 13,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 32,
+      "mandatory_long_multiplicity": 32,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 24,
+      "forbidden_reasons": {
+        "overlaps_odd_tile": 24
+      },
+      "conflicting_choice_pairs": 2,
+      "status": "mandatory_bank_2sat_obstruction",
+      "implication_paths": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  },
+  "capacity_pass_reports": [
+    {
+      "parameters": [
+        2,
+        -1,
+        1,
+        -1,
+        3,
+        2,
+        -2
+      ],
+      "support": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          14,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          14,
+          4,
+          1
+        ],
+        [
+          0,
+          -2,
+          4,
+          1
+        ],
+        [
+          16,
+          -5,
+          5,
+          1
+        ],
+        [
+          11,
+          0,
+          2,
+          1
+        ],
+        [
+          -24,
+          22,
+          2,
+          1
+        ],
+        [
+          18,
+          22,
+          4,
+          -1
+        ],
+        [
+          18,
+          -20,
+          4,
+          1
+        ],
+        [
+          -9,
+          0,
+          1,
+          -1
+        ],
+        [
+          -9,
+          7,
+          1,
+          1
+        ],
+        [
+          -2,
+          0,
+          2,
+          1
+        ],
+        [
+          19,
+          -5,
+          2,
+          1
+        ]
+      ],
+      "complete_bank_report": {
+        "odd_tiles": 13,
+        "cylinder_residual_orbits": 0,
+        "mandatory_long_segments": 52,
+        "mandatory_long_multiplicity": 52,
+        "line_capacity_conflicts": 0,
+        "forbidden_choices": 26,
+        "forbidden_reasons": {
+          "overlaps_odd_tile": 26
+        },
+        "conflicting_choice_pairs": 5,
+        "status": "mandatory_bank_2sat_obstruction",
+        "implication_paths": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "parameters": [
+        3,
+        -1,
+        1,
+        3,
+        2,
+        1,
+        -2
+      ],
+      "support": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          21,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          21,
+          4,
+          1
+        ],
+        [
+          0,
+          -2,
+          4,
+          1
+        ],
+        [
+          -12,
+          23,
+          5,
+          1
+        ],
+        [
+          11,
+          0,
+          2,
+          1
+        ],
+        [
+          -17,
+          15,
+          2,
+          1
+        ],
+        [
+          11,
+          15,
+          4,
+          -1
+        ],
+        [
+          11,
+          -13,
+          4,
+          1
+        ],
+        [
+          -9,
+          0,
+          1,
+          -1
+        ],
+        [
+          -9,
+          7,
+          1,
+          1
+        ],
+        [
+          -2,
+          0,
+          2,
+          1
+        ],
+        [
+          -2,
+          23,
+          2,
+          1
+        ]
+      ],
+      "complete_bank_report": {
+        "odd_tiles": 13,
+        "cylinder_residual_orbits": 0,
+        "mandatory_long_segments": 56,
+        "mandatory_long_multiplicity": 56,
+        "line_capacity_conflicts": 0,
+        "forbidden_choices": 34,
+        "forbidden_reasons": {
+          "overlaps_odd_tile": 34
+        },
+        "conflicting_choice_pairs": 107,
+        "status": "mandatory_bank_2sat_obstruction",
+        "implication_paths": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "parameters": [
+        3,
+        -1,
+        2,
+        -2,
+        2,
+        1,
+        -2
+      ],
+      "support": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          21,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          21,
+          4,
+          1
+        ],
+        [
+          0,
+          -2,
+          4,
+          1
+        ],
+        [
+          30,
+          -12,
+          5,
+          1
+        ],
+        [
+          18,
+          0,
+          2,
+          1
+        ],
+        [
+          -17,
+          15,
+          2,
+          1
+        ],
+        [
+          11,
+          15,
+          4,
+          -1
+        ],
+        [
+          11,
+          -13,
+          4,
+          1
+        ],
+        [
+          -9,
+          0,
+          1,
+          -1
+        ],
+        [
+          -9,
+          7,
+          1,
+          1
+        ],
+        [
+          -2,
+          0,
+          2,
+          1
+        ],
+        [
+          33,
+          -12,
+          2,
+          1
+        ]
+      ],
+      "complete_bank_report": {
+        "odd_tiles": 13,
+        "cylinder_residual_orbits": 0,
+        "mandatory_long_segments": 50,
+        "mandatory_long_multiplicity": 50,
+        "line_capacity_conflicts": 0,
+        "forbidden_choices": 22,
+        "forbidden_reasons": {
+          "overlaps_odd_tile": 22
+        },
+        "conflicting_choice_pairs": 91,
+        "status": "mandatory_bank_2sat_obstruction",
+        "implication_paths": [
+          [
+            2,
+            73,
+            3
+          ],
+          [
+            3,
+            73,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "parameters": [
+        3,
+        -1,
+        2,
+        -1,
+        -3,
+        2,
+        -2
+      ],
+      "support": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          21,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          21,
+          4,
+          1
+        ],
+        [
+          0,
+          -2,
+          4,
+          1
+        ],
+        [
+          23,
+          -5,
+          5,
+          1
+        ],
+        [
+          18,
+          0,
+          2,
+          1
+        ],
+        [
+          18,
+          -20,
+          2,
+          1
+        ],
+        [
+          18,
+          -20,
+          4,
+          -1
+        ],
+        [
+          18,
+          -20,
+          4,
+          1
+        ],
+        [
+          -9,
+          0,
+          1,
+          -1
+        ],
+        [
+          -9,
+          7,
+          1,
+          1
+        ],
+        [
+          -2,
+          0,
+          2,
+          1
+        ],
+        [
+          26,
+          -5,
+          2,
+          1
+        ]
+      ],
+      "complete_bank_report": {
+        "odd_tiles": 13,
+        "cylinder_residual_orbits": 0,
+        "mandatory_long_segments": 32,
+        "mandatory_long_multiplicity": 32,
+        "line_capacity_conflicts": 0,
+        "forbidden_choices": 24,
+        "forbidden_reasons": {
+          "overlaps_odd_tile": 24
+        },
+        "conflicting_choice_pairs": 2,
+        "status": "mandatory_bank_2sat_obstruction",
+        "implication_paths": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "parameters": [
+        2,
+        -1,
+        1,
+        -2,
+        3,
+        3,
+        -2
+      ],
+      "support": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          14,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          14,
+          4,
+          1
+        ],
+        [
+          0,
+          -2,
+          4,
+          1
+        ],
+        [
+          23,
+          -12,
+          5,
+          1
+        ],
+        [
+          11,
+          0,
+          2,
+          1
+        ],
+        [
+          -24,
+          22,
+          2,
+          1
+        ],
+        [
+          25,
+          22,
+          4,
+          -1
+        ],
+        [
+          25,
+          -27,
+          4,
+          1
+        ],
+        [
+          -9,
+          0,
+          1,
+          -1
+        ],
+        [
+          -9,
+          7,
+          1,
+          1
+        ],
+        [
+          -2,
+          0,
+          2,
+          1
+        ],
+        [
+          26,
+          -12,
+          2,
+          1
+        ]
+      ],
+      "complete_bank_report": {
+        "odd_tiles": 13,
+        "cylinder_residual_orbits": 0,
+        "mandatory_long_segments": 62,
+        "mandatory_long_multiplicity": 62,
+        "line_capacity_conflicts": 0,
+        "forbidden_choices": 28,
+        "forbidden_reasons": {
+          "overlaps_odd_tile": 28
+        },
+        "conflicting_choice_pairs": 5,
+        "status": "mandatory_bank_2sat_obstruction",
+        "implication_paths": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "parameters": [
+        2,
+        -1,
+        1,
+        -1,
+        3,
+        1,
+        -2
+      ],
+      "support": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          14,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          14,
+          4,
+          1
+        ],
+        [
+          0,
+          -2,
+          4,
+          1
+        ],
+        [
+          16,
+          -5,
+          5,
+          1
+        ],
+        [
+          11,
+          0,
+          2,
+          1
+        ],
+        [
+          -24,
+          22,
+          2,
+          1
+        ],
+        [
+          11,
+          22,
+          4,
+          -1
+        ],
+        [
+          11,
+          -13,
+          4,
+          1
+        ],
+        [
+          -9,
+          0,
+          1,
+          -1
+        ],
+        [
+          -9,
+          7,
+          1,
+          1
+        ],
+        [
+          -2,
+          0,
+          2,
+          1
+        ],
+        [
+          19,
+          -5,
+          2,
+          1
+        ]
+      ],
+      "complete_bank_report": {
+        "odd_tiles": 13,
+        "cylinder_residual_orbits": 0,
+        "mandatory_long_segments": 46,
+        "mandatory_long_multiplicity": 46,
+        "line_capacity_conflicts": 0,
+        "forbidden_choices": 26,
+        "forbidden_reasons": {
+          "overlaps_odd_tile": 26
+        },
+        "conflicting_choice_pairs": 21,
+        "status": "mandatory_bank_2sat_obstruction",
+        "implication_paths": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      }
+    }
+  ],
+  "random_samples": 10000,
+  "span": 3,
+  "scope": "Finite selected lift search; absence is not an impossibility proof."
+}

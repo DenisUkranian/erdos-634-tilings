@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "solver_audit": {
+    "exhaustive_small_formulas": 28933,
+    "satisfiable_small_formulas": 11616,
+    "long_chain_variables": 2000,
+    "long_chain_cases": 2
+  },
+  "physical_control_audit": {
+    "full_positive_control_verified": true,
+    "odd_tiles": 105,
+    "even_tiles": 38,
+    "isometry_reconstruction_cases": [
+      {
+        "rotation_height": 0,
+        "rational_translation": [
+          "0",
+          "0"
+        ],
+        "mandatory_segments": 2,
+        "matched_actual_even_tiles": 2,
+        "all_net_even_long_edges_recovered": true
+      },
+      {
+        "rotation_height": -3,
+        "rational_translation": [
+          "-13/11",
+          "7/13"
+        ],
+        "mandatory_segments": 2,
+        "matched_actual_even_tiles": 2,
+        "all_net_even_long_edges_recovered": true
+      },
+      {
+        "rotation_height": 4,
+        "rational_translation": [
+          "137/17",
+          "-221/19"
+        ],
+        "mandatory_segments": 2,
+        "matched_actual_even_tiles": 2,
+        "all_net_even_long_edges_recovered": true
+      }
+    ],
+    "complete_bank_report": {
+      "odd_tiles": 105,
+      "cylinder_residual_orbits": 0,
+      "mandatory_long_segments": 2,
+      "mandatory_long_multiplicity": 2,
+      "line_capacity_conflicts": 0,
+      "forbidden_choices": 2,
+      "forbidden_reasons": {
+        "overlaps_odd_tile": 2
+      },
+      "conflicting_choice_pairs": 0,
+      "status": "compatible_mandatory_bank",
+      "choice_indices": [
+        1,
+        3
+      ]
+    },
+    "additional_exact_geometry_cases": 7
+  },
+  "scope": "Independent exact positive-control and algorithm checks; no 3431/5063 target exclusion is asserted."
+}

@@ -2,6 +2,30 @@
 
 **v0.3.0 + 21 November 2026 continuation**
 
+## 21 November 2026: mandatory neighbors, global pair reserves, and the signed integer image
+
+The new package is part of `scripts/verify_all.py` and runs independently as:
+
+```sh
+python3 research/2026-11-21/semiprimes/integer-closure/replay.py
+```
+
+Its six proof replays use Python's standard library. They check exact rigid
+countercontrols, a contained balanced six-tile patch, 167 full periodic
+endpoint kernels and seven integer square determinants, explicit signed
+native witnesses, actual-coordinate mandatory neighbor obstructions, both
+complete 143-tilings, paired population and height reserves, and an independent
+2-SAT/geometric audit. The latter compares 28,933 small formulas against full
+truth enumeration. The global pair reserve has 72,384 direct arithmetic
+checks and 288 exact local neighbor choices.
+
+The [global theorem and scope](research/2026-11-21/semiprimes/integer-closure/README.md)
+distinguish the necessary bank test from full tiling feasibility. The lattice
+image theorem explicitly permits negative coefficients. Neither finite
+exploratory lift scans nor inconclusive mixed-integer target runs prove a
+target exclusion. The existing 31-value four-cell list and all original
+open target statuses are unchanged.
+
 ## 21 November 2026: physical completion reserves and integer cell gaps
 
 The new exact package is included in `scripts/verify_all.py`:

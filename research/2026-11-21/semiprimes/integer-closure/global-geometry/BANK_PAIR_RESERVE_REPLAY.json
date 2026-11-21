@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "target_status": "Both original target counts remain OPEN",
+  "local_choices": [
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "choices_checked": 96
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "choices_checked": 96
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "choices_checked": 96
+    }
+  ],
+  "positive_controls": [
+    {
+      "control": "known",
+      "source": {
+        "path": "research/2026-11-20/semiprimes/continuation/global-endpoints/tiling_143.json",
+        "sha256": "f9c864244612d930efeeea405f22a44881399d6f6974bdeda2fb6f70b2047aa9"
+      },
+      "odd_tiles": 105,
+      "mandatory_even_tiles": 2,
+      "residual_even_pairs": 18,
+      "mandatory_even_charge": -2,
+      "exact_total": 143,
+      "prime_tree_reserves": [
+        {
+          "tree": -1,
+          "positive_deficit": 4,
+          "negative_deficit": 4,
+          "extra_blocks": 0,
+          "minimum_pairs": 4,
+          "pair_residue": 4
+        },
+        {
+          "tree": 1,
+          "positive_deficit": 4,
+          "negative_deficit": 4,
+          "extra_blocks": 0,
+          "minimum_pairs": 4,
+          "pair_residue": 4
+        }
+      ],
+      "height_transport": {
+        "minimum_pairs": 0,
+        "least_prefix_flows": {
+          "0": 0
+        },
+        "congruent_full_height_charges": {
+          "0": -2
+        }
+      }
+    },
+    {
+      "control": "macro",
+      "source": {
+        "path": "research/2026-11-20/semiprimes/continuation/charge-transport/geometry/macro143_certificate.json",
+        "sha256": "ea3dc23562921dea3575cec2ca238c5fd3b0a6962205a8ae1c7b164c8a29756c"
+      },
+      "odd_tiles": 91,
+      "mandatory_even_tiles": 2,
+      "residual_even_pairs": 25,
+      "mandatory_even_charge": -2,
+      "exact_total": 143,
+      "prime_tree_reserves": [
+        {
+          "tree": -1,
+          "positive_deficit": 4,
+          "negative_deficit": 4,
+          "extra_blocks": 0,
+          "minimum_pairs": 4,
+          "pair_residue": 4
+        },
+        {
+          "tree": 1,
+          "positive_deficit": 4,
+          "negative_deficit": 4,
+          "extra_blocks": 0,
+          "minimum_pairs": 4,
+          "pair_residue": 4
+        }
+      ],
+      "height_transport": {
+        "minimum_pairs": 0,
+        "least_prefix_flows": {
+          "0": 0
+        },
+        "congruent_full_height_charges": {
+          "0": -2
+        }
+      }
+    }
+  ],
+  "arithmetic": {
+    "closed_form_cases": 72384,
+    "empty_node_examples": [
+      {
+        "c": 37,
+        "required_empty_node": {
+          "positive_deficit": 19,
+          "negative_deficit": 19,
+          "extra_blocks": 2,
+          "minimum_pairs": 56,
+          "pair_residue": 19
+        }
+      },
+      {
+        "c": 43,
+        "required_empty_node": {
+          "positive_deficit": 5,
+          "negative_deficit": 5,
+          "extra_blocks": 2,
+          "minimum_pairs": 48,
+          "pair_residue": 5
+        }
+      }
+    ],
+    "nonzero_height_examples": [
+      {
+        "c": 37,
+        "mandatory_charge_by_half_height": {
+          "-2": 17,
+          "0": -43
+        },
+        "minimum_pairs": 34,
+        "least_prefix_flows": {
+          "-2": -17,
+          "-1": -17,
+          "0": 0
+        },
+        "congruent_full_height_charges": {
+          "-2": 0,
+          "-1": 0,
+          "0": -26
+        }
+      },
+      {
+        "c": 37,
+        "mandatory_charge_by_half_height": {
+          "-1": 20,
+          "0": -46
+        },
+        "minimum_pairs": 17,
+        "least_prefix_flows": {
+          "-1": 17,
+          "0": 0
+        },
+        "congruent_full_height_charges": {
+          "-1": 37,
+          "0": -63
+        }
+      },
+      {
+        "c": 43,
+        "mandatory_charge_by_half_height": {
+          "-2": 21,
+          "0": -43
+        },
+        "minimum_pairs": 42,
+        "least_prefix_flows": {
+          "-2": -21,
+          "-1": -21,
+          "0": 0
+        },
+        "congruent_full_height_charges": {
+          "-2": 0,
+          "-1": 0,
+          "0": -22
+        }
+      }
+    ],
+    "charge_variation_bounds": [
+      {
+        "target": 3431,
+        "largest_allowed_variation": 53,
+        "extremal_budget": {
+          "variation": 53,
+          "odd_minimum": 1961,
+          "even_minimum": 1396,
+          "remaining_tiles": 74
+        }
+      },
+      {
+        "target": 5063,
+        "largest_allowed_variation": 77,
+        "extremal_budget": {
+          "variation": 77,
+          "odd_minimum": 3311,
+          "even_minimum": 1752,
+          "remaining_tiles": 0
+        }
+      }
+    ]
+  },
+  "scope": "Exact local and positive-control checks of a necessary complete-odd bank theorem; no enumeration of all odd packings."
+}

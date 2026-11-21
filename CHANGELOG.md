@@ -1,5 +1,15 @@
 # Changelog
 
+## 21 November 2026: mandatory whole neighbors, paired reserves, and the integer-image boundary
+
+- Prove unique finite reconstruction of the net even long-edge bank from the complete odd packing, retaining actual longitudinal positions. Derive two exact neighboring triangle choices and a necessary geometric 2-SAT completion test.
+- Prove that all remaining even tiles pair on identical whole long sides with opposite signs, including pairs at different short heights. Obtain `N=n_odd+B+2P` and stronger pair reserves from separately rounded phase-node populations, required occupied ancestors, and height-charge transport.
+- Derive unrestricted odd charge-variation bounds 53 and 77. At the latter endpoint 5063 would require 3311 odd and 1752 even tiles with monochromatic odd cells; this is a necessary extremal description, not an exclusion.
+- Characterize the complete periodic signed integer endpoint/gate/sign-count image for both target shapes. Check 167 positive endpoint kernels, seven exact lattice minors, and explicit signed native-profile witnesses. Negative coefficients remain a stated limitation.
+- Refute a general unit-charge `3c` bound with an exact 13-tile `(5,3,7)` rigid cylinder packing; distinguish it from the still-unresolved target-specific claim. Verify that the new whole-neighbor test rejects specific compact and separated controls, but that a different contained balanced six-tile patch passes.
+- Add six standard-library exact suites and independent reviews, including both complete 143 controls, 288 local long-side choices, 72,384 pair-reserve arithmetic cases, and 28,933 exhaustive small 2-SAT comparisons. Integrate the package into the root replay. Keep both targets and all remaining modes OPEN.
+- [Complete continuation, theorem, certificates, and exact scope](research/2026-11-21/semiprimes/integer-closure/README.md).
+
 ## 21 November 2026: global physical completion reserves and integer cell gaps
 
 - Prove an unrestricted physical completion budget combining complete actual contact rows, retained odd sign counts, their allocation to joint cells, and the missing even charge. Include a stronger node-rounded reserve optimization without double counting the two prime trees.

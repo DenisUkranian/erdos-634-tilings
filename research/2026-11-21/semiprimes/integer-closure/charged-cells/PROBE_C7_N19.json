@@ -1,0 +1,113 @@
+{
+  "tile": [
+    5,
+    3,
+    7
+  ],
+  "charge": 7,
+  "population_limit": 19,
+  "binary": false,
+  "normalized_positive_tile": true,
+  "seconds": 5.582407118999981,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective": 13.00000000000001,
+  "dual_bound": 13.00000000000001,
+  "scope": "Search positive integer periodic short-endpoint kernels of prescribed charge.\n\nAny returned integer point is verified exactly. Solver status alone is not an\nindependent mathematical certificate. Periodic closure does not assert an\nactual-cylinder lift, nonoverlap, board containment, or gate compatibility.",
+  "support": [
+    [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      4,
+      1,
+      1
+    ],
+    [
+      0,
+      5,
+      4,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      5,
+      1,
+      1
+    ],
+    [
+      4,
+      0,
+      2,
+      1,
+      1
+    ],
+    [
+      4,
+      1,
+      2,
+      1,
+      1
+    ],
+    [
+      4,
+      1,
+      4,
+      -1,
+      1
+    ],
+    [
+      4,
+      1,
+      4,
+      1,
+      1
+    ],
+    [
+      5,
+      0,
+      1,
+      -1,
+      1
+    ],
+    [
+      5,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      5,
+      0,
+      2,
+      1,
+      1
+    ],
+    [
+      5,
+      2,
+      2,
+      1,
+      1
+    ]
+  ],
+  "population": 13,
+  "integer_endpoint_check": true,
+  "maximum_rounding_error": 1.905963850584422e-15
+}

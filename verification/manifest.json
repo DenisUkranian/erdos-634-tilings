@@ -19,8 +19,8 @@
       "sha256": "a0a08e509dc02408ed6c850d832a19105f4c55d801f52a4076d8c2ceb90a52a4"
     },
     "CHANGELOG.md": {
-      "bytes": 41418,
-      "sha256": "8c9373c4189866ecede52cd9d2500ddc39bf166c407e230826ef4010bf7be648"
+      "bytes": 43282,
+      "sha256": "8eaad5f028f34944d2c75ff9132771e1004052b89db1f0ad70c3326a98f5c39d"
     },
     "CITATION.cff": {
       "bytes": 1425,
@@ -39,20 +39,20 @@
       "sha256": "4cb30c8ed16e88c67311dc8ef068fdcfe0436ddf04cec20a4a2d61547db3fcfd"
     },
     "README.md": {
-      "bytes": 9680,
-      "sha256": "7c82cf32e8d18f44d8b3f3ea1f2ed64dcc29cbc2f73b84d34599839aa6ea9c0c"
+      "bytes": 10548,
+      "sha256": "b11779a6e51288acc7707eeb5678b9d1e322f7a550aecdd490cd4eaadf29d840"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 40812,
-      "sha256": "1e3a91953cc1f8e8385116683501ca08a74fa3f2a5715cfa2e4a60f5419ae336"
+      "bytes": 42052,
+      "sha256": "e0d68bbda28536d434dff8a0ef2aea6695a6c9923b80a14905dc200d2d6ef33b"
     },
     "RESULTS_INDEX.md": {
-      "bytes": 35290,
-      "sha256": "645ae35df7905d1faca048b2c71b0c4af6a4cb7f28ea6ef72f858c0b8912045a"
+      "bytes": 36796,
+      "sha256": "ba265b63d09b1c2848c0ddbf0511361d552fc1ecc4449a7903c969210286793d"
     },
     "STATUS.md": {
-      "bytes": 62101,
-      "sha256": "138a26bcb40ebd5c49bae4461dd412c89a302cf6a91f734eac730ab60187b036"
+      "bytes": 64079,
+      "sha256": "ccf63960fa7f0c26ff9886d05b427f8a22fc7f3223dc576832d2d1baece5fb19"
     },
     "data/alpha-21-refutation.json": {
       "bytes": 89002,
@@ -3015,8 +3015,8 @@
       "sha256": "ecadec4c6cd001c4187600cdc69602153d0dc4826bc4f4a704419c4a6c80f1b5"
     },
     "research/2026-11-21/SHA256SUMS.txt": {
-      "bytes": 54247,
-      "sha256": "35bb6a4a7806d6d2c35ba7cee4aa8c2eeca4ee13a8645ac00bbcebc0113814f7"
+      "bytes": 59410,
+      "sha256": "287d31914c2a25b25d0643236c21e75c22fb90d0149bc26323e68a6fd689076e"
     },
     "research/2026-11-21/semiprimes/MINIMAL_ODD_EXCLUSION_5063.md": {
       "bytes": 10738,
@@ -4665,6 +4665,166 @@
     "research/2026-11-21/semiprimes/global-invariant/verify_product_tree.py": {
       "bytes": 5315,
       "sha256": "1e62d7b6a6dd67edc305966acd8d644f768b4983e50a45bc2df4a63c1ce51da7"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/INTERNAL_AUDIT.md": {
+      "bytes": 4536,
+      "sha256": "b9f896991e122861cc8f872349b874e04e648ebbd774b7eac112cc39641946b2"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/README.md": {
+      "bytes": 7347,
+      "sha256": "24c3d300c582b4a12f1bd84780eb989ddf5d7d9464c7f9c363073da7976d324a"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/REPLAY.json": {
+      "bytes": 11974,
+      "sha256": "58fb2e1bc4e019fd574de69b82090097f0c9dd5a24f50e5f8830354f4cbf862e"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/FULL_INTEGER_IMAGE_3431.json.gz": {
+      "bytes": 11650,
+      "sha256": "da173269b3a901bd8173830d185a553183d56d106dbaf52ede7624110bbe0cab"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/FULL_INTEGER_IMAGE_5063.json.gz": {
+      "bytes": 19269,
+      "sha256": "ed89a04758c06e1993b620568c14c0539a46eeef41ea41e7ead4dc4426a28986"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/GATE_IMAGE_INDEX_CERTIFICATE.json.gz": {
+      "bytes": 2693,
+      "sha256": "7d775dcdc7504ae624f0174301e9bd40b305a7736a57d1bc3f9b3e09cf5b6c1c"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/INTEGER_GATE_IMAGE_REPLAY.json": {
+      "bytes": 1917,
+      "sha256": "2d0cd9383a09c39ce9df51888a5b196d37d321c0882c3f24ef5eb087edad3728"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/LONG_BANK_AUDIT_REPLAY.json": {
+      "bytes": 1710,
+      "sha256": "6a2ea01044dd88bcc67ad6077332dd5617d8888cf66aad177432c57025218e51"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/LONG_BANK_INDEPENDENT_AUDIT.md": {
+      "bytes": 4567,
+      "sha256": "aa855b63a5cc78070c7653c25bc32cf70f87e0bcc1a062729be805609349cee9"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/MARGINAL_INTEGER_IMAGE_3431.json": {
+      "bytes": 9465,
+      "sha256": "e87c7b02b9ede7085267ca2f25043a0bc099953667c611c97ce535e50da8e90a"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/MARGINAL_INTEGER_IMAGE_5063.json": {
+      "bytes": 9805,
+      "sha256": "b769e7214d8315c9c9ce3fb51bdede2d7299cdf299b5964ad8d230c2e79f2d66"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/README.md": {
+      "bytes": 8132,
+      "sha256": "6de219d4b0cfc3232bc5e7ac40fe3a7dcb28b8f776c61040430e8f528fa64ad8"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/build_image_index_certificate.py": {
+      "bytes": 2976,
+      "sha256": "764ba490069ecbb0b63b7216b2d488ddea69fec4081a45177429d6463be41d07"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/probe_full_kernel_image.py": {
+      "bytes": 4602,
+      "sha256": "03955e046c84ff3108e55603b48cb1abb936faa59d384a41786aac40dda1fe5b"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/probe_integer_image.py": {
+      "bytes": 9040,
+      "sha256": "b374fdc405d664c240536f81d9342059140165a2c93d47c7d9cb6eb6b72d7bec"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/verify_integer_gate_image.py": {
+      "bytes": 6022,
+      "sha256": "e33266d5aeb207096d9b262a5bbdd4f9c2361615923b30da982799e52defd023"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/arithmetic/verify_long_bank_audit.py": {
+      "bytes": 7853,
+      "sha256": "aacce5af0db17dbee50a88cd010145de9ff6fce3dead3049a20133ef9fa8886b"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/BALANCED_SIX_PATCH.json": {
+      "bytes": 11722,
+      "sha256": "a7de4aab5d0fc03ff26a51e67ced3a8d03e3d0c9c9e74584f84102db3168ec68"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/CHARGED_CELL_LIMITS.md": {
+      "bytes": 9108,
+      "sha256": "06270ac22a5e22c38efd169436260e58a38a57b360ce6559175a4dc71c7e4c0b"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/CHARGED_COUNTERCONTROLS.json": {
+      "bytes": 5977,
+      "sha256": "eaa2634425b7cb4beec4811a2c2e57e94601e61f991a7f350cd571ac9ed0f34e"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/COMPACT_C7_LIFTS.json": {
+      "bytes": 11968,
+      "sha256": "4848bec1f6a685ec9941ab42c89dd8e3b1dd5b03aad983d3298367205b756b57"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/PROBE_C13_N37.json": {
+      "bytes": 667,
+      "sha256": "0442f96e3cf5ea0db07b094dd6ca1c06c364911415c4947b2c1779989f670111"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/PROBE_C37_N109.json": {
+      "bytes": 668,
+      "sha256": "2a9d5b6b5e5684e4d528b8b7354089e4af6ba109ad9d7541a16f4f1d6291d2e7"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/PROBE_C43_N127.json": {
+      "bytes": 669,
+      "sha256": "8952fc1cfdbf3f4dff687f327c03b0bb73f11055a12310d63e586bb9a95db6b0"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/PROBE_C7_N19.json": {
+      "bytes": 1524,
+      "sha256": "7a9a5d13d6919e2de1321b1113852019de6022c88a480592646f33f86ef828bb"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/probe_charged_minimum.py": {
+      "bytes": 3980,
+      "sha256": "bfaffe12764c335da3458239eccf46b0c764a1f927bdfd7b3faadd94ebbf23ba"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/probe_small_compact_lifts.py": {
+      "bytes": 3986,
+      "sha256": "87fc52a456deafc4724a108ddd27457df1f48c661e43652f07f1ef798c39bdf2"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/verify_balanced_six_patch.py": {
+      "bytes": 2849,
+      "sha256": "6b934a72c8d309c88e5f4eff1f2024c8fdffb344c897124230d55c479451f77b"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/charged-cells/verify_charged_countercontrols.py": {
+      "bytes": 4685,
+      "sha256": "bc815d209060c620badf658f5fe2a5e52d8423a64d513a4642ecaedbe00b927a"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/global-geometry/BANK_PAIR_RESERVE_REPLAY.json": {
+      "bytes": 4821,
+      "sha256": "8a6aa7cd14c89dafda1db2a56b20eb9ec73f57a6cac3736da56e54ed1bce63e3"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/global-geometry/PAIRED_BANK_RESERVE.md": {
+      "bytes": 13566,
+      "sha256": "009152333f82946d64635d191aac464c953687fcc3fc5bf11f75decfdec249d0"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/global-geometry/verify_bank_pair_reserves.py": {
+      "bytes": 12193,
+      "sha256": "7441e3f4fc9169b1cc57f0fd298028bf9775d6b3dc9c1e0626cef7063cdeab32"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/long-banks/LONG_BANK_REPLAY.json": {
+      "bytes": 11551,
+      "sha256": "4870434b8139be2654d44c7bfb7930481353cf9276452040eb5976bb15aec3c2"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/long-banks/README.md": {
+      "bytes": 11631,
+      "sha256": "4f4864a52790f0be4854aa14066f3d31f19dcd5442ea4a2bda8fc42f20a69748"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/long-banks/draw_obstruction.py": {
+      "bytes": 3653,
+      "sha256": "de8cdca7198ce7c51dbd0cb6586bbd6e166d120d26ddc69c69fed1f7f8f908f5"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/long-banks/long_bank_completion.py": {
+      "bytes": 10080,
+      "sha256": "c39c3df6132fdfb08d74c30f2b01f2104d6d8485e5a0e1a2e72a435f8d1b0aad"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/long-banks/mandatory_neighbor_obstruction.png": {
+      "bytes": 138352,
+      "sha256": "98638322efe2f073566c26b1a8708c1d5c9a8b0c2a4c0ce60871e4199bf92705"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/long-banks/mandatory_neighbor_obstruction.svg": {
+      "bytes": 57628,
+      "sha256": "4b4e40619b96b5450d9354783750092b8f6cfc9fc23742aa0927c93a94d1a62b"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/long-banks/verify_long_banks.py": {
+      "bytes": 8190,
+      "sha256": "90f035de8053fee5d31d4cab7626b2282bf09c67fa8550c5f1ba96e9cd35f62c"
+    },
+    "research/2026-11-21/semiprimes/integer-closure/replay.py": {
+      "bytes": 1878,
+      "sha256": "8ff0f78a971a12407a19b9665af9bb05f437b7a8b6f94c10682758fef4b40779"
     },
     "research/2026-11-21/semiprimes/replay.py": {
       "bytes": 3842,
@@ -10247,8 +10407,8 @@
       "sha256": "2c179b0ea1a0d1cf0374fb45480984a935554a0ee763dc363cc74f834c68f0b8"
     },
     "scripts/verify_all.py": {
-      "bytes": 18191,
-      "sha256": "01686a05ffdec4ce3041aeb9f4bf3120b56461e13d620f326f5b84471601e5d0"
+      "bytes": 18407,
+      "sha256": "98b3e22780a2e54ead3584a999d4970f93d5e27f8803121911a12c7712c4181a"
     },
     "scripts/verify_alpha21.py": {
       "bytes": 7693,

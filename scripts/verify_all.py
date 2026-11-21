@@ -56,6 +56,8 @@ def main():
         print('SEMIPRIME_5063_TWO_HEIGHT_EXCLUSION_AND_REMAINING_CELLS=PASS',flush=True)
         reports['semiprime_physical_cell_reserves']=run(['research/2026-11-21/semiprimes/continued-rigidity/replay.py'],work)
         print('SEMIPRIME_PHYSICAL_CELL_RESERVES_AND_INTEGER_GAPS=PASS',flush=True)
+        reports['semiprime_integer_physical_banks']=run(['research/2026-11-21/semiprimes/integer-closure/replay.py'],work)
+        print('SEMIPRIME_MANDATORY_BANKS_PAIRED_RESERVES_AND_INTEGER_IMAGE=PASS',flush=True)
         reports['november19']=run(['research/2026-11-19/verify.py'],work)
         print('NOVEMBER19_CENSUS_AND_CERTIFICATES=PASS',flush=True)
         nw=work/'research/n105'

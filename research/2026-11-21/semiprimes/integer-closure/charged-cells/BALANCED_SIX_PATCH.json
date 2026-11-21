@@ -1,0 +1,702 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "tile": [
+        5,
+        3,
+        7
+      ],
+      "population": 6,
+      "positive": 3,
+      "negative": 3,
+      "charge": 0,
+      "all_actual_cylinder_rows_zero": true,
+      "all_periodic_rows_zero": true,
+      "pairwise_separating_axis_checks": 15,
+      "up_currents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "down_currents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0
+      ],
+      "normalized_support": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          -8,
+          0,
+          3,
+          1
+        ],
+        [
+          -8,
+          0,
+          5,
+          -1
+        ],
+        [
+          -8,
+          0,
+          5,
+          1
+        ]
+      ],
+      "all_unreduced_short_endpoint_rows_zero": true,
+      "mandatory_short_to_long_bank_segments": 0,
+      "gate_formula": "Q_up=0; Q_down=delta_(2b^2 mod c)-delta_(-b^2 mod c)",
+      "height_one_containment": {
+        "translation": [
+          150,
+          100
+        ],
+        "rotation": "z=(a+b*rho)/c",
+        "board_axial_vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            39,
+            0
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "physical_vertex_numerators": [
+          [
+            [
+              450,
+              1250
+            ],
+            [
+              425,
+              1235
+            ],
+            [
+              441,
+              1274
+            ]
+          ],
+          [
+            [
+              450,
+              1250
+            ],
+            [
+              490,
+              1225
+            ],
+            [
+              441,
+              1274
+            ]
+          ],
+          [
+            [
+              450,
+              1250
+            ],
+            [
+              490,
+              1225
+            ],
+            [
+              435,
+              1241
+            ]
+          ],
+          [
+            [
+              410,
+              1226
+            ],
+            [
+              435,
+              1241
+            ],
+            [
+              419,
+              1202
+            ]
+          ],
+          [
+            [
+              410,
+              1226
+            ],
+            [
+              370,
+              1251
+            ],
+            [
+              419,
+              1202
+            ]
+          ],
+          [
+            [
+              410,
+              1226
+            ],
+            [
+              370,
+              1251
+            ],
+            [
+              425,
+              1235
+            ]
+          ]
+        ],
+        "common_denominator": 7,
+        "minimum_integer_margins": [
+          370,
+          1202,
+          -59710
+        ],
+        "strictly_contained": false
+      },
+      "scope": "Rigid balanced six-tile patch, with its entire physical short current canceled internally. It passes short-to-long mandatory-bank feasibility vacuously. Its long boundary and complete phase-node gate compatibility are not filled or asserted."
+    },
+    {
+      "tile": [
+        33,
+        7,
+        37
+      ],
+      "population": 6,
+      "positive": 3,
+      "negative": 3,
+      "charge": 0,
+      "all_actual_cylinder_rows_zero": true,
+      "all_periodic_rows_zero": true,
+      "pairwise_separating_axis_checks": 15,
+      "up_currents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "down_currents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalized_support": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          -40,
+          0,
+          3,
+          1
+        ],
+        [
+          -40,
+          0,
+          5,
+          -1
+        ],
+        [
+          -40,
+          0,
+          5,
+          1
+        ]
+      ],
+      "all_unreduced_short_endpoint_rows_zero": true,
+      "mandatory_short_to_long_bank_segments": 0,
+      "gate_formula": "Q_up=0; Q_down=delta_(2b^2 mod c)-delta_(-b^2 mod c)",
+      "height_one_containment": {
+        "translation": [
+          150,
+          100
+        ],
+        "rotation": "z=(a+b*rho)/c",
+        "board_axial_vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            511,
+            0
+          ],
+          [
+            0,
+            1551
+          ]
+        ],
+        "physical_vertex_numerators": [
+          [
+            [
+              4250,
+              5050
+            ],
+            [
+              3161,
+              4819
+            ],
+            [
+              4201,
+              5330
+            ]
+          ],
+          [
+            [
+              4250,
+              5050
+            ],
+            [
+              5570,
+              3961
+            ],
+            [
+              4201,
+              5330
+            ]
+          ],
+          [
+            [
+              4250,
+              5050
+            ],
+            [
+              5570,
+              3961
+            ],
+            [
+              4019,
+              5001
+            ]
+          ],
+          [
+            [
+              2930,
+              4770
+            ],
+            [
+              4019,
+              5001
+            ],
+            [
+              2979,
+              4490
+            ]
+          ],
+          [
+            [
+              2930,
+              4770
+            ],
+            [
+              1610,
+              5859
+            ],
+            [
+              2979,
+              4490
+            ]
+          ],
+          [
+            [
+              2930,
+              4770
+            ],
+            [
+              1610,
+              5859
+            ],
+            [
+              3161,
+              4819
+            ]
+          ]
+        ],
+        "common_denominator": 37,
+        "minimum_integer_margins": [
+          1610,
+          3961,
+          18661616
+        ],
+        "strictly_contained": true
+      },
+      "scope": "Rigid balanced six-tile patch, with its entire physical short current canceled internally. It passes short-to-long mandatory-bank feasibility vacuously. Its long boundary and complete phase-node gate compatibility are not filled or asserted."
+    },
+    {
+      "tile": [
+        35,
+        13,
+        43
+      ],
+      "population": 6,
+      "positive": 3,
+      "negative": 3,
+      "charge": 0,
+      "all_actual_cylinder_rows_zero": true,
+      "all_periodic_rows_zero": true,
+      "pairwise_separating_axis_checks": 15,
+      "up_currents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "down_currents": [
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalized_support": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          -48,
+          0,
+          3,
+          1
+        ],
+        [
+          -48,
+          0,
+          5,
+          -1
+        ],
+        [
+          -48,
+          0,
+          5,
+          1
+        ]
+      ],
+      "all_unreduced_short_endpoint_rows_zero": true,
+      "mandatory_short_to_long_bank_segments": 0,
+      "gate_formula": "Q_up=0; Q_down=delta_(2b^2 mod c)-delta_(-b^2 mod c)",
+      "height_one_containment": {
+        "translation": [
+          150,
+          100
+        ],
+        "rotation": "z=(a+b*rho)/c",
+        "board_axial_vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            1079,
+            0
+          ],
+          [
+            0,
+            2135
+          ]
+        ],
+        "physical_vertex_numerators": [
+          [
+            [
+              3950,
+              6750
+            ],
+            [
+              2725,
+              6295
+            ],
+            [
+              3781,
+              7374
+            ]
+          ],
+          [
+            [
+              3950,
+              6750
+            ],
+            [
+              5630,
+              5525
+            ],
+            [
+              3781,
+              7374
+            ]
+          ],
+          [
+            [
+              3950,
+              6750
+            ],
+            [
+              5630,
+              5525
+            ],
+            [
+              3495,
+              6581
+            ]
+          ],
+          [
+            [
+              2270,
+              6126
+            ],
+            [
+              3495,
+              6581
+            ],
+            [
+              2439,
+              5502
+            ]
+          ],
+          [
+            [
+              2270,
+              6126
+            ],
+            [
+              590,
+              7351
+            ],
+            [
+              2439,
+              5502
+            ]
+          ],
+          [
+            [
+              2270,
+              6126
+            ],
+            [
+              590,
+              7351
+            ],
+            [
+              2725,
+              6295
+            ]
+          ]
+        ],
+        "common_denominator": 43,
+        "minimum_integer_margins": [
+          590,
+          5502,
+          81076070
+        ],
+        "strictly_contained": true
+      },
+      "scope": "Rigid balanced six-tile patch, with its entire physical short current canceled internally. It passes short-to-long mandatory-bank feasibility vacuously. Its long boundary and complete phase-node gate compatibility are not filled or asserted."
+    }
+  ],
+  "conclusion": "Six balanced whole triangles can pass the full mandatory short-to-long bank test, including compact height-one placement inside both target boards."
+}
