@@ -1,0 +1,115 @@
+{
+  "original_3431": "OPEN",
+  "original_5063": "OPEN",
+  "maximum_occupied_ordinary_lifts": [
+    41,
+    53
+  ],
+  "minimum_ordinary_excess_5063": 8,
+  "middle_only_charge_population_5063": 473,
+  "native_lower_bound": [
+    40129535,
+    100002
+  ],
+  "slant_bank_upper_bounds": [
+    [
+      81147407,
+      100000
+    ],
+    [
+      206400172,
+      100000
+    ]
+  ],
+  "required_slant_projection": 3698,
+  "relaxed_stars_5063_K_le_7": 38,
+  "after_middle_cuts_5063_K_le_7": [
+    [
+      [
+        6,
+        [
+          43,
+          -43
+        ]
+      ],
+      [
+        2,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        [
+          86,
+          -43
+        ]
+      ],
+      [
+        2,
+        []
+      ]
+    ]
+  ],
+  "census_3431_before_and_after_middle_cuts": {
+    "6": [
+      9,
+      2
+    ],
+    "7": [
+      8,
+      2
+    ]
+  },
+  "wall_bounds_3431_at_101": [
+    [
+      11613747,
+      100002,
+      11613775
+    ],
+    [
+      11622392,
+      100002,
+      11622421
+    ],
+    [
+      11603626,
+      100002,
+      11603653
+    ]
+  ],
+  "complete_143_controls": {
+    "known": {
+      "B": {
+        "displacement": [
+          "49",
+          "0"
+        ],
+        "signed": -7
+      },
+      "T": {
+        "displacement": [
+          "0",
+          "0"
+        ],
+        "signed": 0
+      }
+    },
+    "macro": {
+      "B": {
+        "displacement": [
+          "49",
+          "0"
+        ],
+        "signed": -7
+      },
+      "T": {
+        "displacement": [
+          "0",
+          "0"
+        ],
+        "signed": 0
+      }
+    }
+  }
+}
