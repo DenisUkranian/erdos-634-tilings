@@ -1,0 +1,60 @@
+{
+  "3431": {
+    "charged_leaf_by_parity_and_region": [
+      171,
+      159,
+      203,
+      149,
+      181,
+      181
+    ],
+    "single_odd_source_middle_vertex_cost": {
+      "axial": 86,
+      "slant": 118,
+      "middle_branch": 118,
+      "native": 107
+    },
+    "filter_counts": [
+      26866,
+      766,
+      166,
+      6
+    ],
+    "first_paths_and_middle_populations": {
+      "2222222222222222222222222222222223331114440000000": 2960,
+      "4442222222222222222222222222222222221110000000333": 2738
+    },
+    "original_status": "OPEN"
+  },
+  "5063": {
+    "charged_leaf_by_parity_and_region": [
+      213,
+      193,
+      263,
+      171,
+      235,
+      221
+    ],
+    "single_odd_source_middle_vertex_cost": {
+      "axial": 106,
+      "slant": 170,
+      "middle_branch": 170,
+      "native": 149
+    },
+    "filter_counts": [
+      801726,
+      1792,
+      373,
+      8
+    ],
+    "first_paths_and_middle_populations": {
+      "222222222222222222222222222222222223333311111444440000000000000": 4128,
+      "444442222222222222222222222222222222222211111000000000000033333": 3698
+    },
+    "original_status": "OPEN"
+  },
+  "complete_143_controls": {
+    "known": 60,
+    "macro": 60
+  }
+}
