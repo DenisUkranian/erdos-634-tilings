@@ -1,0 +1,19 @@
+known complete 143 control: 60 pairs and 6 direction classes
+macro complete 143 control: 60 pairs and 6 direction classes
+Small-M native bank profiles 37 [(-1, (-48, 11, -37, 11), 107, 7)]
+Small-M native bank profiles 43 [(-1, (-64, 21, -43, 21), 149, 7), (0, (-86, -22, 0, 43), 151, 6)]
+5063 local control: 86 terminal tiles, 14 unmatched inside, 2 parent owners.
+Terminal words surviving the additive test before projected widths: {(37, 10): 0, (37, 12): 0, (37, 14): 44, (43, 12): 0, (43, 14): 0}
+Nonnative unmatched floor 123 profiles tested per cut [7, 7]
+37 (2, 1) axis inventory counts; 42 second-cut words, zero compatible first-cut paths
+Nonnative unmatched floor 165 profiles tested per cut [14, 14]
+43 (4, 2) axis inventory counts; 109 second-cut words, zero compatible first-cut paths
+Checked native and rotated owner frames for long side 37
+Checked native and rotated owner frames for long side 43
+3431 independent X-corner check: all 13 times 7 suffix pairs conflict.
+3431 five-direction core: 6186 words, 85 torus passes, 30 disjoint-owner paths; all 30 x 42 pairings conflict.
+Independent integer join: 37 10 0
+Independent integer join: 37 12 0
+Independent integer join: 37 14 44
+Independent integer join: 43 12 0
+Independent integer join: 43 14 0

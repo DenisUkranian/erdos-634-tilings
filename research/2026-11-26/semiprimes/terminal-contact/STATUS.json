@@ -1,0 +1,32 @@
+{
+  "parent_main": "0c7c8e90167b4d35d82008fd02f80415f968b3fe",
+  "original_counts": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "unconditional_unmatched_floor": {
+    "3431": 109,
+    "5063": 149
+  },
+  "nonnative_unmatched_floor": {
+    "3431": 123,
+    "5063": 165
+  },
+  "terminal_unmatched_floor_both_banks": {
+    "3431": 16,
+    "5063": 16
+  },
+  "remaining_saturated_angular_inventory_combinations": {
+    "3431": 0,
+    "5063": 7
+  },
+  "scope": "Necessary conditions on the two specified F2 boards with arbitrary physical contacts. No classification closure or full-board contradiction.",
+  "local_5063_control": {
+    "terminal_tiles": 86,
+    "root_unmatched": 14,
+    "root_pairs": 36,
+    "parent_owners": 2,
+    "full_board": false
+  },
+  "replay": "python3 -u replay.py --independent"
+}
