@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-26",
+  "base_main": "c30ad572d5ef98a92d421afc8c48b2ac8ea9fd77",
+  "targets": {"3431": "OPEN", "5063": "OPEN"},
+  "frame": "standard vertex phase",
+  "unmatched_means": "no physical half-turn mate across the entire long edge",
+  "whole_board_unmatched_lower": {"3431": 107, "5063": 149},
+  "lower_if_an_occupied_exterior_free_node_exists": {"3431": 117, "5063": 161},
+  "equality_slant_cell_populations": {
+    "3431_all_equality_inventories": [925,999,1073,1147,1221,1295,1369,1443],
+    "5063_three_direction_equality_inventory": [1247,1333,1419,1505,1591,1677,1763,1849,1935,2021],
+    "5063_second_inventory": "Unresolved. It is not a three-direction staircase."
+  },
+  "open_frontier": [
+    "Couple the surviving 3431 slant words to the physical height-one boundary and the shared middle tiles.",
+    "Treat the six-direction 5063 equality inventory, allowing disconnected cycles.",
+    "Beyond equality, retain paired tiles and each occupied remote cut. No upper bound on the whole-board unmatched population below the proved floors is known."
+  ],
+  "replay": "python3 replay.py"
+}
