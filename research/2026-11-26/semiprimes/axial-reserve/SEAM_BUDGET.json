@@ -1,0 +1,26 @@
+{
+  "37": {
+    "1": {
+      "translations": 36,
+      "minimum_required_axial_population": 135,
+      "maximum_terminal_odd_blocks": 7
+    },
+    "-1": {
+      "translations": 37,
+      "minimum_required_axial_population": 135,
+      "maximum_terminal_odd_blocks": 7
+    }
+  },
+  "43": {
+    "1": {
+      "translations": 42,
+      "minimum_required_axial_population": 195,
+      "maximum_terminal_odd_blocks": 15
+    },
+    "-1": {
+      "translations": 43,
+      "minimum_required_axial_population": 195,
+      "maximum_terminal_odd_blocks": 15
+    }
+  }
+}

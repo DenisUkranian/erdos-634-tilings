@@ -9,6 +9,8 @@ new necessary theorems, exact conditional bounds, and geometric controls
 that rule out several proposed shortcuts. It contains no unrestricted
 impossibility certificate and no complete tiling of either target.
 
+The [axial wall and signed-gate bounds](../../../../2026-11-26/semiprimes/axial-reserve/README.md) require at least 64 or 75 core tiles and six extra blocks among the ordinary lifts, reducing their maximum number to 42 or 55, respectively, for arbitrary complete tilings.
+
 The [charged-circuit theorem](../../../../2026-11-26/semiprimes/charged-contour/README.md) decomposes exterior-free physical gates into Jordan polygons. At the minimum unmatched count with an off-spine charge, it excludes the entire second first-cut word at 3431 and its increasing terminal hand at 5063.
 
 | Tile `(a,b,c)` | Count | Outer side lengths | Status |

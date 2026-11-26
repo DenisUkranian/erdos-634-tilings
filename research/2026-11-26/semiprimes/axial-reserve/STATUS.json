@@ -1,0 +1,362 @@
+{
+  "3431": {
+    "minimum_core": 64,
+    "signs_at_minimum_core": [
+      19,
+      45
+    ],
+    "other_minimum_size_inventory_excluded": [
+      56,
+      8
+    ],
+    "second_wall_bounds": [
+      [
+        1483,
+        22
+      ],
+      [
+        257,
+        4
+      ],
+      [
+        328,
+        4
+      ],
+      [
+        151,
+        2
+      ],
+      [
+        1359,
+        21
+      ],
+      [
+        1443,
+        22
+      ],
+      [
+        770,
+        11
+      ],
+      [
+        396,
+        6
+      ],
+      [
+        193,
+        3
+      ],
+      [
+        196,
+        3
+      ],
+      [
+        244,
+        3
+      ],
+      [
+        248,
+        3
+      ],
+      [
+        1519,
+        22
+      ],
+      [
+        724,
+        11
+      ],
+      [
+        799,
+        11
+      ],
+      [
+        731,
+        11
+      ],
+      [
+        750,
+        11
+      ],
+      [
+        385,
+        6
+      ],
+      [
+        301,
+        4
+      ],
+      [
+        495,
+        6
+      ],
+      [
+        313,
+        4
+      ],
+      [
+        237,
+        3
+      ],
+      [
+        144,
+        2
+      ],
+      [
+        374,
+        5
+      ],
+      [
+        268,
+        4
+      ]
+    ],
+    "minimum_ordinary_excess_blocks": 6,
+    "single_gate_numerator_per_charge": 3810,
+    "single_gate_denominator": 1002,
+    "native_unit_lower_bound": [
+      296555,
+      1002
+    ],
+    "wall_inventories": [
+      [
+        [
+          3,
+          6
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      [
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      [
+        [
+          7,
+          3
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      [
+        [
+          11,
+          0
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      [
+        [
+          11,
+          0
+        ],
+        [
+          6,
+          3
+        ]
+      ]
+    ],
+    "wall_bound_fractions": [
+      [
+        111,
+        4
+      ],
+      [
+        317,
+        11
+      ],
+      [
+        168,
+        6
+      ],
+      [
+        321,
+        11
+      ],
+      [
+        29,
+        1
+      ]
+    ],
+    "opposite_support_sizes": [
+      [
+        222,
+        6,
+        0
+      ],
+      [
+        222,
+        6,
+        0
+      ]
+    ],
+    "maximum_occupied_ordinary_lifts": 42,
+    "original_status": "OPEN"
+  },
+  "5063": {
+    "minimum_core": 75,
+    "signs_at_minimum_core": [
+      48,
+      27
+    ],
+    "other_minimum_size_inventory_excluded": [
+      5,
+      70
+    ],
+    "second_wall_bounds": [
+      [
+        983,
+        11
+      ],
+      [
+        878,
+        11
+      ],
+      [
+        7852,
+        101
+      ],
+      [
+        236,
+        3
+      ],
+      [
+        971,
+        11
+      ],
+      [
+        1740,
+        21
+      ],
+      [
+        7798,
+        101
+      ],
+      [
+        356,
+        4
+      ],
+      [
+        517,
+        6
+      ],
+      [
+        870,
+        11
+      ],
+      [
+        7790,
+        101
+      ],
+      [
+        326,
+        4
+      ],
+      [
+        972,
+        11
+      ],
+      [
+        468,
+        6
+      ],
+      [
+        7784,
+        101
+      ],
+      [
+        978,
+        11
+      ],
+      [
+        878,
+        11
+      ],
+      [
+        985,
+        11
+      ]
+    ],
+    "minimum_ordinary_excess_blocks": 6,
+    "single_gate_numerator_per_charge": 4304,
+    "single_gate_denominator": 1001,
+    "native_unit_lower_bound": [
+      372251,
+      1001
+    ],
+    "wall_inventories": [],
+    "wall_bound_fractions": [],
+    "opposite_support_sizes": [
+      [
+        258,
+        6,
+        0
+      ],
+      [
+        258,
+        6,
+        0
+      ]
+    ],
+    "maximum_occupied_ordinary_lifts": 55,
+    "original_status": "OPEN"
+  },
+  "complete_143_controls": {
+    "known": {
+      "axial_wall_counts_a_b_c": [
+        [
+          0,
+          6,
+          3
+        ],
+        [
+          4,
+          0,
+          5
+        ]
+      ],
+      "root_tiles": 38,
+      "root_charge": -2,
+      "middle_tiles": 105,
+      "middle_nonzero_gate_currents": [
+        -14,
+        7
+      ]
+    },
+    "macro": {
+      "axial_wall_counts_a_b_c": [
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ]
+      ],
+      "root_tiles": 52,
+      "root_charge": -2,
+      "middle_tiles": 91,
+      "middle_nonzero_gate_currents": [
+        -14,
+        7
+      ]
+    }
+  }
+}
