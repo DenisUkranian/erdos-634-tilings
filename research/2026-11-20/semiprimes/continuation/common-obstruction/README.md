@@ -9,6 +9,8 @@ new necessary theorems, exact conditional bounds, and geometric controls
 that rule out several proposed shortcuts. It contains no unrestricted
 impossibility certificate and no complete tiling of either target.
 
+The [disjoint branch and exterior bank bound](../../../../2026-11-26/semiprimes/charge-variation/EXTERIOR_RESERVE.md) limits the total absolute odd charge in long-side blocks to **39 and 59**. At either upper bound at least one exterior marker must be a leaf in the subtree spanned by the exterior and the charged odd lifts.
+
 The [physical slant and axial wall theorem](../../../../2026-11-26/semiprimes/slant-flux/README.md) reduces the maximum number of occupied ordinary lifts to **41 and 53**. It proves eight excess blocks at 5063 and couples signed gate currents on the two actual banks to the displacement of a whole board side. [Exact replay](../../../../2026-11-26/semiprimes/slant-flux/STATUS.json).
 
 The [axial wall and signed-gate bounds](../../../../2026-11-26/semiprimes/axial-reserve/README.md) require at least 64 or 75 core tiles and six extra blocks among the ordinary lifts, reducing their maximum number to 42 or 55, respectively, for arbitrary complete tilings.

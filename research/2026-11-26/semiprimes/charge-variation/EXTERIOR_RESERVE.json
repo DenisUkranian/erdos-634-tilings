@@ -1,0 +1,68 @@
+{
+  "3431": {
+    "45": {
+      "half_budget": 298,
+      "maximum_surplus": -2
+    },
+    "43": {
+      "half_budget": 361,
+      "maximum_surplus": -1
+    },
+    "41": {
+      "half_budget": 424,
+      "maximum_surplus": 0,
+      "minimum_after_budget_prefilters": 430,
+      "affordable_middle_cases": 0
+    },
+    "39": {
+      "half_budget": 487,
+      "maximum_surplus": 1
+    }
+  },
+  "5063": {
+    "63": {
+      "half_budget": 484,
+      "maximum_surplus": -1
+    },
+    "61": {
+      "half_budget": 549,
+      "maximum_surplus": 0,
+      "minimum_after_budget_prefilters": 1150,
+      "affordable_middle_cases": 0
+    },
+    "59": {
+      "half_budget": 614,
+      "maximum_surplus": 1
+    }
+  },
+  "143": {
+    "known": {
+      "native_banks": [
+        [
+          14,
+          2
+        ],
+        [
+          -7,
+          0
+        ]
+      ],
+      "ordinary_off_hull_tiles_checked": 0,
+      "tiles": 143
+    },
+    "macro": {
+      "native_banks": [
+        [
+          14,
+          2
+        ],
+        [
+          -7,
+          0
+        ]
+      ],
+      "ordinary_off_hull_tiles_checked": 0,
+      "tiles": 143
+    }
+  }
+}
