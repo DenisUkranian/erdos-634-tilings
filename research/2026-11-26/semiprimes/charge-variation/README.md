@@ -1,5 +1,7 @@
 # Charge variation across the physical gates of a lifted cell
 
+A later [disjoint branch reserve](OFF_HULL.md) improves the bounds below to 45 and 63, respectively.
+
 For the 3431 and 5063 F2 boards, let $V$ be the sum of the absolute signed populations of all odd **lifted** cells, divided by the long side $c$. Any complete tiling satisfies
 $$
 V\le 51\quad (3431),\qquad V\le 71\quad (5063).

@@ -1,0 +1,25 @@
+{
+  "3431": {
+    "51": -6,
+    "49": -4,
+    "47": -2,
+    "45": 1
+  },
+  "5063": {
+    "71": -4,
+    "69": -3,
+    "67": -2,
+    "65": -1,
+    "63": 0
+  },
+  "controls_143": {
+    "known": {
+      "ordinary_off_hull_tiles_checked": 0,
+      "tiles": 143
+    },
+    "macro": {
+      "ordinary_off_hull_tiles_checked": 0,
+      "tiles": 143
+    }
+  }
+}
