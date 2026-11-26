@@ -1,0 +1,212 @@
+{
+  "controls": {
+    "known": {
+      "tiles": 143,
+      "occupied_signed_gates": 33,
+      "native": [
+        14,
+        -7
+      ],
+      "axial_received": 14,
+      "slant_received": -7
+    },
+    "macro": {
+      "tiles": 143,
+      "occupied_signed_gates": 45,
+      "native": [
+        14,
+        -7
+      ],
+      "axial_received": 14,
+      "slant_received": -7
+    }
+  },
+  "3431": {
+    "maximum_even_variation": 38,
+    "source_allowance": 424,
+    "relaxed_surplus": {
+      "56": -7,
+      "54": -5,
+      "52": -4,
+      "50": -3,
+      "48": -2,
+      "46": -1,
+      "44": 0,
+      "42": 1,
+      "40": 2
+    },
+    "boundary_cases_at_excluded_value": [
+      [
+        -20,
+        0,
+        1348
+      ],
+      [
+        -19,
+        0,
+        1274
+      ],
+      [
+        -18,
+        0,
+        1274
+      ],
+      [
+        -17,
+        0,
+        1274
+      ],
+      [
+        -16,
+        0,
+        1200
+      ],
+      [
+        -16,
+        20,
+        2098
+      ],
+      [
+        -15,
+        0,
+        1348
+      ],
+      [
+        -14,
+        0,
+        1274
+      ],
+      [
+        -4,
+        0,
+        1066
+      ],
+      [
+        -3,
+        0,
+        1052
+      ],
+      [
+        -3,
+        20,
+        1340
+      ],
+      [
+        -2,
+        0,
+        1096
+      ],
+      [
+        -2,
+        1,
+        2098
+      ],
+      [
+        -2,
+        3,
+        2098
+      ],
+      [
+        -2,
+        14,
+        2098
+      ],
+      [
+        -2,
+        16,
+        2098
+      ],
+      [
+        -2,
+        17,
+        1318
+      ],
+      [
+        -2,
+        18,
+        1392
+      ],
+      [
+        -2,
+        19,
+        1466
+      ],
+      [
+        -2,
+        20,
+        1170
+      ],
+      [
+        -1,
+        0,
+        1074
+      ]
+    ],
+    "exterior_free": {
+      "even": {
+        "charge_pairs_before": 1560,
+        "charge_pairs_remaining": 1094,
+        "maximum_absolute_e": 19,
+        "maximum_absolute_o": 20,
+        "maximum_absolute_difference": 18
+      },
+      "odd": {
+        "charge_pairs_before": 1560,
+        "charge_pairs_remaining": 1107,
+        "maximum_absolute_e": 19,
+        "maximum_absolute_o": 20,
+        "maximum_absolute_difference": 18
+      }
+    }
+  },
+  "5063": {
+    "maximum_even_variation": 58,
+    "source_allowance": 88,
+    "relaxed_surplus": {
+      "80": null,
+      "78": -6,
+      "76": -5,
+      "74": -4,
+      "72": -4,
+      "70": -3,
+      "68": -2,
+      "66": -1,
+      "64": 0,
+      "62": 1,
+      "60": 2
+    },
+    "boundary_cases_at_excluded_value": [
+      [
+        -26,
+        0,
+        2630
+      ],
+      [
+        -25,
+        0,
+        2050
+      ],
+      [
+        -1,
+        0,
+        1386
+      ]
+    ],
+    "exterior_free": {
+      "even": {
+        "charge_pairs_before": 3540,
+        "charge_pairs_remaining": 1971,
+        "maximum_absolute_e": 28,
+        "maximum_absolute_o": 28,
+        "maximum_absolute_difference": 25
+      },
+      "odd": {
+        "charge_pairs_before": 3540,
+        "charge_pairs_remaining": 2006,
+        "maximum_absolute_e": 28,
+        "maximum_absolute_o": 28,
+        "maximum_absolute_difference": 25
+      }
+    }
+  }
+}

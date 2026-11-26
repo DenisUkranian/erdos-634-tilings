@@ -1,5 +1,7 @@
 # Charge variation across the physical gates of a lifted cell
 
+The [even charge theorem](EVEN_VARIATION.md) gives corrected even variation at most 38 and 58 and bounds the alternating imbalance on each exterior-free side.
+
 The [two exterior banks](EXTERIOR_RESERVE.md) further imply **V ≤ 39 and 59**, with an exterior leaf required at equality.
 
 A later [disjoint branch reserve](OFF_HULL.md) improves the bounds below to 45 and 63, respectively.
