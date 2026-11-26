@@ -1,0 +1,60 @@
+{
+  "base_main": "d7a7af8d2b3bfad140b3ce84c4e35070564e73ff",
+  "original_counts": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "gate_relaxation": {
+    "c37_k2": {
+      "cap": 14,
+      "min_S": 10,
+      "min_U": 12,
+      "min_S_plus_U": 22
+    },
+    "c37_k3": {
+      "cap": 21,
+      "min_S": 9,
+      "min_U": 12,
+      "min_S_plus_U": 21
+    },
+    "c43_k2": {
+      "cap": 16,
+      "min_S": 46,
+      "min_U": 88,
+      "min_S_plus_U": 134
+    }
+  },
+  "maximum_degree_surplus_by_odd_variation": {
+    "3431": {
+      "53": -1,
+      "51": 0
+    },
+    "5063": {
+      "77": -4,
+      "75": -2,
+      "73": -1,
+      "71": 1
+    }
+  },
+  "controls_143": {
+    "known": {
+      "charged_hull_degree_surplus": 0,
+      "even_gate_equations": 9,
+      "hull_tile_lower_bound": 107,
+      "odd_gate_equations": 17,
+      "ordinary_lifts": 17
+    },
+    "macro": {
+      "charged_hull_degree_surplus": 0,
+      "even_gate_equations": 10,
+      "hull_tile_lower_bound": 93,
+      "odd_gate_equations": 23,
+      "ordinary_lifts": 23
+    }
+  },
+  "max_combined_monochromatic_two_or_three_block_lifts_3431": 3,
+  "ordinary_86_tile_cell_signs_5063": [
+    43,
+    43
+  ]
+}
