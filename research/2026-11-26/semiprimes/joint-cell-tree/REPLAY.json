@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "command": "python3 replay.py --full",
+  "geometry_controls": [
+    {
+      "tiling": "known143",
+      "used_tree_edges": 17,
+      "through_incidences": 38,
+      "through_point_outside_short_translate": 12,
+      "height_population_charge": [
+        [
+          0,
+          38,
+          -2
+        ],
+        [
+          1,
+          105,
+          -7
+        ]
+      ]
+    },
+    {
+      "tiling": "macro143",
+      "used_tree_edges": 23,
+      "through_incidences": 36,
+      "through_point_outside_short_translate": 11,
+      "height_population_charge": [
+        [
+          0,
+          52,
+          -2
+        ],
+        [
+          1,
+          91,
+          -7
+        ]
+      ]
+    }
+  ],
+  "independent_split_field_area": {
+    "both_complete_controls": "PASS",
+    "partial_16_up_mod_43": {
+      "35": 22,
+      "38": 21
+    },
+    "partial_16_down_mod_43": {
+      "13": 40,
+      "35": 3
+    }
+  },
+  "terminal_endpoint_certificate_rechecks": {
+    "3431": {
+      "single_columns": 222,
+      "directed_pair_checks": 16428
+    },
+    "5063": {
+      "single_columns": 258,
+      "directed_pair_checks": 22188
+    }
+  },
+  "exact_5063": {
+    "base_certificates": 65,
+    "column_inequalities": 1442220,
+    "transformed_cuts": 780,
+    "two_offset": {
+      "fresh": true,
+      "before_sign_reserves": 34672599,
+      "after_sign_reserves": 17800359,
+      "survivors": 0
+    },
+    "single_offset": {
+      "fresh": true,
+      "after_sign_reserves": 9112001,
+      "survivors": 0
+    }
+  },
+  "three_direction_saturated_second_cut_5063": {
+    "prior_words": 109,
+    "passing_transverse_sections": 106,
+    "failed_section_length": 121
+  },
+  "files_sha256": {
+    "controls.py": "09ec4208d6c304c2982c98d6dccbd8deaa96f182ae67b61d832069fc8ff45202",
+    "moments.py": "46faf79fb1a01e39567671f1a6d5dbfc146a45a018c991e618718cec55033351",
+    "replay.py": "55d46a2cfc84f9260eba6a9214d7cb9ba84efcf1864d98dac2b863f89c362e88",
+    "sections.py": "64be50f69a9e9baf8e2b7e70a15de1519a8467cede16929067d467be3d80729f"
+  },
+  "monochromatic_gate_caps": {
+    "3431_two_blocks": 14,
+    "3431_three_blocks": 21,
+    "5063_two_blocks": 16
+  }
+}

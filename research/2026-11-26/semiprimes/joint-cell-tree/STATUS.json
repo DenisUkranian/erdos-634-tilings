@@ -1,0 +1,50 @@
+{
+  "base_main": "d3f1c5d10d3937cbb59a3d662051093a7c52929f",
+  "original_counts": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "unrestricted_F2_results": {
+    "ordinary_joint_cell_unsigned_population": "0 modulo c",
+    "ordinary_joint_cell_both_signs": "separately 0 modulo c",
+    "ordinary_joint_cell_minimum": {
+      "3431": 74,
+      "5063": 86
+    },
+    "unit_charge_cell_minimum": {
+      "3431": 111,
+      "5063": 129
+    },
+    "occupied_ordinary_lift_budget": {
+      "3431": 45,
+      "5063": 58
+    },
+    "terminal_unit_charge_lift_minimum": {
+      "3431": 185,
+      "5063": 301
+    },
+    "odd_tile_minimum_if_an_odd_two_block_lift_is_monochromatic": {
+      "3431": 555,
+      "5063": 645
+    }
+  },
+  "conditional_5063_odd_215": {
+    "previous_phase_schemes": 218905,
+    "four_cell_removed": 218736,
+    "two_cell_removed": 168,
+    "remaining_phase_schemes": 1,
+    "occupied_odd_lifts": 1,
+    "short_height": 1,
+    "path_frame_positive_negative": [
+      129,
+      86
+    ],
+    "standard_frame_positive_negative": [
+      86,
+      129
+    ],
+    "remaining": "Native 215 geometry including unknown even branches; larger odd populations also undecided."
+  },
+  "closure_claim": false,
+  "replay": "python3 replay.py --full"
+}
