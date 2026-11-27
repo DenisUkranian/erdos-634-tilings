@@ -1,0 +1,176 @@
+{
+  "original_counts": {
+    "3431": "OPEN",
+    "5063": "OPEN"
+  },
+  "controls_143": {
+    "known": {
+      "tiles": 143,
+      "native_C_T_other": [
+        14,
+        -7,
+        0
+      ],
+      "middle_population": 105,
+      "middle_unmatched_C_T": [
+        14,
+        7
+      ],
+      "sector_populations": [
+        38,
+        0,
+        0
+      ],
+      "exterior_free_edges_checked": 0
+    },
+    "macro": {
+      "tiles": 143,
+      "native_C_T_other": [
+        14,
+        -7,
+        0
+      ],
+      "middle_population": 91,
+      "middle_unmatched_C_T": [
+        14,
+        7
+      ],
+      "sector_populations": [
+        52,
+        0,
+        0
+      ],
+      "exterior_free_edges_checked": 0
+    }
+  },
+  "3431": {
+    "iterations": 20,
+    "sample_forest_blocks": [
+      [
+        1,
+        0,
+        5,
+        5
+      ],
+      [
+        0,
+        1,
+        7,
+        7
+      ],
+      [
+        1,
+        1,
+        8,
+        8
+      ],
+      [
+        1,
+        -1,
+        10,
+        10
+      ],
+      [
+        2,
+        0,
+        10,
+        10
+      ],
+      [
+        0,
+        2,
+        14,
+        14
+      ],
+      [
+        2,
+        -2,
+        18,
+        18
+      ]
+    ],
+    "remote": {
+      "even": {
+        "surviving_charge_pairs": 707,
+        "max_abs_even_minus_odd": 17
+      },
+      "odd": {
+        "surviving_charge_pairs": 715,
+        "max_abs_even_minus_odd": 17
+      }
+    },
+    "native": {
+      "surviving_charge_quintuples": 567005,
+      "max_abs_even_minus_odd_C_T_other": [
+        14,
+        14,
+        17
+      ]
+    }
+  },
+  "5063": {
+    "iterations": 19,
+    "sample_forest_blocks": [
+      [
+        1,
+        0,
+        7,
+        7
+      ],
+      [
+        0,
+        1,
+        9,
+        9
+      ],
+      [
+        1,
+        1,
+        10,
+        10
+      ],
+      [
+        1,
+        -1,
+        12,
+        12
+      ],
+      [
+        2,
+        0,
+        12,
+        12
+      ],
+      [
+        0,
+        2,
+        16,
+        16
+      ],
+      [
+        2,
+        -2,
+        20,
+        20
+      ]
+    ],
+    "remote": {
+      "even": {
+        "surviving_charge_pairs": 1152,
+        "max_abs_even_minus_odd": 23
+      },
+      "odd": {
+        "surviving_charge_pairs": 1171,
+        "max_abs_even_minus_odd": 23
+      }
+    },
+    "native": {
+      "surviving_charge_quintuples": 1704465,
+      "max_abs_even_minus_odd_C_T_other": [
+        18,
+        18,
+        23
+      ]
+    }
+  }
+}

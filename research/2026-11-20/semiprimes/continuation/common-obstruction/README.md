@@ -9,6 +9,8 @@ new necessary theorems, exact conditional bounds, and geometric controls
 that rule out several proposed shortcuts. It contains no unrestricted
 impossibility certificate and no complete tiling of either target.
 
+The [rooted population and native cancellation theorem](../../../../2026-11-26/semiprimes/charge-variation/ROOTED.md) bounds the absolute even-minus-odd imbalance by **14 and 18** on either native sector and **17 and 23** on any exterior-free branch. If a middle bank cancels as an oriented chain, the slant side of that cut contains exactly **1369 or 1849** tiles. Every occupied middle lift has a physically unmatched owner at a native gate. [Exact replay](../../../../2026-11-26/semiprimes/charge-variation/ROOTED.json).
+
 The [corrected even charge theorem](../../../../2026-11-26/semiprimes/charge-variation/EVEN_VARIATION.md) bounds total even variation by **38 and 58**. Every exterior-free lifted branch has absolute even-minus-odd signed imbalance at most **18 and 25** long-side blocks, respectively.
 
 The [disjoint branch and exterior bank bound](../../../../2026-11-26/semiprimes/charge-variation/EXTERIOR_RESERVE.md) limits the total absolute odd charge in long-side blocks to **39 and 59**. At either upper bound at least one exterior marker must be a leaf in the subtree spanned by the exterior and the charged odd lifts.
