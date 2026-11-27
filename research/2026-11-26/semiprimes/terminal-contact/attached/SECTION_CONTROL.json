@@ -1,0 +1,20 @@
+{
+  "known": {
+    "actual_pairs": 60,
+    "actual_singles": 23,
+    "sections": [
+      50,
+      61,
+      87
+    ]
+  },
+  "macro": {
+    "actual_pairs": 60,
+    "actual_singles": 23,
+    "sections": [
+      49,
+      51,
+      81
+    ]
+  }
+}
