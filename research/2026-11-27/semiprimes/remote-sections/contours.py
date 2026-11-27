@@ -6,7 +6,7 @@ import sys
 
 HERE = Path(__file__).resolve().parent
 SOURCE = HERE.parents[2] / "2026-11-26/semiprimes/terminal-contact"
-sys.path.insert(0, str(SOURCE))
+sys.path.insert(1, str(SOURCE))
 from native_positions import overlap
 from remote_boundary import accepted_words, signature
 from terminal import UNITS, add, det, scale
@@ -14,11 +14,11 @@ from two_bank_words import census
 from two_native import turn
 
 
-def two_owner_words(a, b, c):
+def two_owner_words(a, b, c, blocks=4):
     words = set()
 
     def collect(result, outgoing, returning):
-        if result[0] != 4*c:
+        if result[0] != blocks*c:
             return
         raw = [6, *outgoing, 9, *((j+3)%6 for j in reversed(returning))]
         # Pure far bank: rotate the exceptional vector z to 1.
@@ -31,7 +31,7 @@ def two_owner_words(a, b, c):
     return words
 
 
-def repair(word, a, b, c):
+def repair(word, a, b, c, blocks=4):
     point = (0, 0)
     chain = Counter()
     owners = []
@@ -53,7 +53,7 @@ def repair(word, a, b, c):
         if det((v[0]-u[0], v[1]-u[1]), apex_offset) < 0:
             tri = (tri[1], tri[0], tri[2])
         owners.append(tri)
-    assert point == (0, 0) and area == 4*c*a*b
+    assert point == (0, 0) and area == blocks*c*a*b
     if any(overlap(left, right) for left, right in combinations(owners, 2)):
         return None
 
@@ -79,7 +79,7 @@ def repair(word, a, b, c):
         q, r = vertices[i-1], vertices[(i+1)%len(vertices)]
         if det((p[0]-q[0], p[1]-q[1]), (r[0]-p[0], r[1]-p[1])):
             corners.append(p)
-    remaining = 4*c-sum(letter<6 for letter in word)
+    remaining = blocks*c-sum(letter<6 for letter in word)
     assert sum(det(p,q) for p,q in zip(corners, corners[1:]+corners[:1])) == remaining*a*b
     return corners
 

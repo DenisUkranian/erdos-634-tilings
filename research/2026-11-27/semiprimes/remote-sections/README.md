@@ -5,8 +5,10 @@ Assume a complete F2 tiling with either target tile. In the [lifted tree](../../
 | Hypothesis on the branch | 3431 | 5063 |
 |---|---:|---:|
 | Nonterminal | $m\ge18$ on the entering edge itself | $m\ge18$ on the entering edge itself |
-| Nonterminal with a two-owner bank | $m\ge24$ | **$m\ge38$** |
+| Nonterminal with a two-owner bank | **$m\ge32$** | **$m\ge38$** |
 | Nonterminal with a two-owner bank and $n=4c$ | **$m\ge36$** | **$m\ge38$** |
+
+The [three-lift exclusion](THREE_LIFTS.md) gives the 32-owner floor at 3431. The [charged equality theorem](CHARGED_EQUALITY.md) increases the minimum total unmatched population with an off-path charge to 151 and 173, respectively.
 
 In particular, **on both boards every exterior-free cut with exactly sixteen unmatched owners encloses exactly $2c$ tiles in a single terminal lift**. The previous 3431 estimate allowed the entering edge to pay sixteen and assigned two owners from a child edge to its parent. The pointwise statement allows disjoint cost accounting even when the child edge is priced separately. These claims allow arbitrary heights, translations, reflections and split physical contacts. Both original triangle counts are open.
 

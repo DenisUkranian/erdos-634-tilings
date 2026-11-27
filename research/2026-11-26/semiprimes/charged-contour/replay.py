@@ -74,7 +74,9 @@ def census(binary,certificates):
         for word_id in (0,1):
             for s in (1,-1):
                 grouped = {}
-                for t in range(1 if s==1 else 0,c):
+                for t in range(c):
+                    if s==1 and t==b*(2*a+b)%c:
+                        continue
                     result = one(binary,a,b,c,l,word_id,s,t,certificates)
                     grouped.setdefault(tuple(map(tuple,result)),[]).append(t)
                 rows[f"{'AC'[word_id]} hand {s:+d}"] = [
@@ -97,6 +99,8 @@ if __name__=='__main__':
         subprocess.run(["c++","-O3","-std=c++17",str(HERE/"area.cpp"),"-o",str(binary)],check=True)
         with gzip.open(HERE/"certificates.json.gz","rt") as stream:
             certificates=json.load(stream)
+        with gzip.open(HERE/"standard_origin_certificates.json.gz","rt") as stream:
+            certificates.update(json.load(stream))
         result = census(binary,certificates)
         result["independent_checks"] = controls(binary)
     print(json.dumps(result,indent=2))
