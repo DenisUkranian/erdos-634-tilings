@@ -9,6 +9,8 @@ new necessary theorems, exact conditional bounds, and geometric controls
 that rule out several proposed shortcuts. It contains no unrestricted
 impossibility certificate and no complete tiling of either target.
 
+The [minimum mixed contact theorem](../../../../2026-11-27/semiprimes/contact-area/ORDINARY_CONTOURS.md) forces a 24-owner mixed gate at 3431 to enclose exactly 370 tiles in a 111-tile root and terminal children of 185 and 74 tiles. The balanced child raises the whole-board unmatched floor to **189** in this case. At 5063 the only possible nesting of 42-owner mixed gates is **516 tiles inside 688**. The same proof gives disjoint population and contact reserves across all such gates.
+
 The [ordinary-lift two-gate inequality](../../../../2026-11-27/semiprimes/contact-area/TWO_GATE_POPULATION.md) forces a third active gate at every charged three-block ordinary lift with one unit of signed charge. An exterior-free gate carrying both parity charges encloses at least **370 or 516 tiles** in board order. The [positioned mixed-endpoint theorem](../../../../2026-11-27/semiprimes/contact-area/MIXED_ENDPOINTS.md) then requires at least **175 or 215 actual unmatched owners** on the full board. The additive floors after reserving neutral gates remain 173 and 213.
 
 At 3431 an exterior-free gate charged on both parities now requires **at least 24 owners**. The [22-owner exclusion](../../../../2026-11-27/semiprimes/contact-area/SHORT_MIXED.md) forces a single polygon on 296 tiles, determines all possible occupied lifts including a balanced descendant, and rules out every remaining translated mesh chain by exact sections. At 5063 a 42-owner mixed gate must enclose 516, 602 or 688 tiles.

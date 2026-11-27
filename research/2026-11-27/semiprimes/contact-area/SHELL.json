@@ -1,0 +1,11 @@
+{
+  "same_hand_offsets": 42,
+  "rotation_classes": 14,
+  "inventory_pairs": 169,
+  "opposite_hand_pair_max": 10002,
+  "opposite_hand_single_max": [
+    -26922,
+    3847
+  ],
+  "opposite_hand_total_upper": -264531
+}

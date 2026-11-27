@@ -1,0 +1,53 @@
+# Packing minimum mixed contacts in the original triangle
+
+Call an exterior-free gate *mixed* when both signed far parity totals are nonzero, in the standard vertex-phase frame. This result concerns gates attaining the current lower bound on their number of actual unmatched owners. It allows arbitrary other gates, repeated projected cells, reflected tiles and subdivided contacts. Both original counts remain open.
+
+* At **3431**, a 24-owner mixed contact encloses exactly **370 tiles** in three occupied lifts. The far root has 111 tiles. Its two children are terminal, one charged with 185 tiles and one balanced with 74. Such a gate forces **at least 189 unmatched owners on the whole board**. Distinct 24-owner mixed gates have disjoint far tile sets.
+* At **5063**, nested 42-owner mixed contacts can enclose only **688 and 516 tiles**, in that order. Three such gates cannot nest. In particular a gate enclosing 602 tiles cannot be comparable with any other 42-owner mixed gate under containment of the lifted subtrees. The 688-tile contour has a finite exact list of candidate cyclic words in the two ordered groups.
+
+## Coupling the two ordered boundary words with the physical area
+
+At either contact the [two characters and circuit theorem](SHORT_MIXED.md) force equal far charges of magnitude one block on both parities. A nonzero difference would cost at least $c+d$, where $d=a-b$. A double equal charge costs at least $4(c-d)$. By the Jordan decomposition every circuit at this length has zero alternating charge. At least one costs $2(c-d)$ and the leftover zero or two edges cannot form another circuit. The contour is positively oriented and its area is the entire far population times the area of one tile.
+
+Use the short chart of one bank, reflecting and reversing traversal if needed. After a half-turn the sign-aligned low and high moves both have even physical headings. In the alternating six-letter indexing of [the area recurrence](saturation.py), reverse the three high moves. Each bank has signed magnitude $c-d$, which is 11 or 21. At 3431 exactly one additional owner has the exceptional sign, requiring one extra normal owner on the same bank. Represent it by a seventh letter with the opposite vector from the corresponding normal letter. Rotation by 120 degrees leaves two exceptional cases, one per bank. At 5063 all owners are normal. Enumerate both bank heading triples at their fixed totals and retain exactly zero physical displacement.
+
+The [intersection calculation](mixed_word_area.py) uses the complete single-factor grammar at order $a$ from the [positioned contour proof](../../../2026-11-26/semiprimes/charged-contour/README.md). Independently track the **entire reduced syllable stack** at order $b$ at each grammar node. For each stack keep the maximum doubled signed area closed by the chord. At concatenation multiply the two stacks by free reduction and add the determinant of the two displacements to the child scores. The displacement depends only on the inventory. Replacing a parse by another with the same node and second stack can only increase the maximum. Proper nonempty zero-displacement subwords may be discarded for a simple circuit. Any additional walks admitted by this relaxation are harmless for an upper bound.
+
+For a requested area threshold, first bound each node from above using only the first grammar. In reverse topological order a required parent score $L$ implies a required left score $L-w-U_R$, with cross term $w$ and right upper bound $U_R$. Take the minimum requirement over all uses of the child, also doing the symmetric calculation. Discarding scores below this requirement retains every possible parse meeting the threshold. At the root only the empty second stack counts. For the maximum, trace every split attaining equality, including every matching pair of child stacks. An extremal parse has extremal children for their fixed stacks. Identify cyclic rotations only after spelling out the words. The checker independently tests the inventory, both literal free reductions and the shoelace sum of every returned word.
+
+At 3431 the [mixed-branch population theorem](TWO_GATE_POPULATION.md) requires ten blocks. At threshold $370ab$ four of the six inventory cases are empty. The other two each have maximum exactly $370ab$ and one cyclic word. Their explicit representatives are in [the replay](ORDINARY_CONTOURS.json). Bank exchange sends the word to its reverse, exchanges the alphabets and sends heading $j$ to $3-j$. For every word and bank choice remove the actual far owners by replacing their long sides with their short paths. The exact owner overlap and edge cancellation tests give just two residual polygons up to root-mesh isometry. Their areas are 357 and 359 tile units and all their boundary segments have the far root marker.
+
+At ten blocks the [population calculation](branch_blocks.py) allows a two-vertex chain or a root with two leaf children. In the former case the two masses are five blocks each. In the latter case the charged leaf needs at least five blocks, the charged root at least three (the two-block monochromatic degree requirement would fail), and the other child at least two. Thus the split is forced. For each residual in the two-vertex case use the [rational section test](../remote-sections/THREE_LIFTS.md) with both hands and all 37 translates. All 148 cases fail to cover an actual section. No enumeration of three-lift tilings is used. Consequently the balanced leaf is present, and its gate alone contributes at least 16 to the neutral reserve $Z$. The [four-gate inequality](FOUR_GATES.md) gives $M\ge173+Z\ge189$. The two child subtrees are pure or neutral, so no further mixed gate is nested inside this one.
+
+At 5063 the seven heading inventories reduce to three up to 120-degree rotations. At the 688-tile threshold their respective exact maxima are all $313040=688ab$. In lexicographic order of representative inventories they have 27, 19 and 597 cyclic words. The output lists their counts and first words, and the traceback regenerates the entire lists. These are algebraic contour candidates. They imply neither the existence of a position in the original triangle nor a filling.
+
+## The missing 86-tile layer at 5063
+
+Previously the possible far populations of a 42-owner mixed gate were restricted to 516, 602 and 688. A strictly nested such gate omits the occupied far root of the outer one. If the difference is 86, that root alone comprises the difference, by the two-block minimum and the no-empty-ancestor theorem. No empty child component can take unmatched owners from the root. Hence it has exactly two active gates. Each supplies 21 unmatched singles. The signed totals of the two mixed subtrees must agree, since opposite signs would require at least 172 tiles in their difference. The two banks on the root therefore have opposite signs. Its other 44 tiles form 22 genuine half-turn pairs.
+
+Normalize the positive bank to hand $+1$ and label zero by a translation and negative conjugation, which preserves the signed tile character. Write the obtuse vertex as $p$ and the acute vertices as $u=p-aU_j$ and $v=p+bU_{j+h}$ for hand $h$. Use the homogeneous short-endpoint score proved for ordinary lifts in [the two-gate theorem](TWO_GATE_POPULATION.md). It telescopes on split physical contacts and has total zero. The mate has obtuse vertex $u+v-p$, the same hand, and index $j+3$.
+
+For equal hands use the residue $x-a y/b$ modulo 43. Rotation by 120 degrees multiplies it by $-a/b-1$, so the 42 nonzero second labels have 14 representative offsets. On the positive gate only even $j$ and on the negative gate only odd $j$ may occur. On either gate the three heading counts must permute one of $(0,8,13),(1,6,14),(7,7,7)$ by the seven exact inventories. A physical bank might be the far or near alphabet and its short chart might differ by an isometry. Allow all permutations independently on the two banks. For fixed gate and heading its normalized obtuse residue is unique. For each of the 169 inventory pairs at every offset an integer potential makes the sum of the two single-bank scores plus 22 times the largest possible pair score strictly negative.
+
+For opposite hands simultaneously normalize both labels to zero using the independent residues $x-a y/b$ and $x-b y/a$. Sum one potential from each projection. On each hand the required sign now fixes $j$ even. The maximum pair score is 10002, and the two single-bank maxima are −26922 and 3847. Thus even the upper bound on the total is $22(10002)+21(-26922+3847)=-264531$. This contradicts the zero endpoint sum. All positions, directions and hands for every possible pair are checked directly in [the integer verifier](mixed_shell.py) with [the tables](SHELL.duals).
+
+This excludes both 516 inside 602 and 602 inside 688. Two disjoint children each enclosing at least 516 cannot lie inside 688. The only remaining nesting has one inner 516-tile branch and an outer 688-tile branch.
+
+## Whole-board accounting
+
+At 3431 let $k$ count the 24-owner mixed gates. Each disjoint subtree uses 370 tiles and requires at least 11 additional owners on its near bank. The two native contacts together use at least $2c$ owners, disjoint from these payments by their unique long gate. Thus $381k+74\le3431$, giving $k\le8$. The three contacts of each star cost at least $24+(c+d)+16=103$ unmatched owners, giving $M\ge103k+74$ as well.
+
+At 5063 let $k$ count the maximal 42-owner mixed gates and $h$ count the maximal gates containing a second such gate. The $k$ far subtrees are disjoint. Their total population is at least $516k+172h$. Reserve the 21 near owners for each maximal gate and the two native contacts to obtain
+$$537k+172h+86\le5063.$$
+In each maximal subtree take a deepest charged lift below its mixed gate. Both parities occur, so such a strict descendant exists. Its entering gate is pure and costs at least $c+d=65$, separately from all 42-owner contacts. Consequently $M\ge107k+42h+86$. These bounds include balanced branches and apply when other contacts have arbitrary length. Neither board is known to require a minimum-length mixed gate.
+
+## Reproduction
+
+Run these commands from this directory with assertions enabled, NumPy, SciPy and a C++17 compiler.
+
+```sh
+python3 ordinary_contours.py | diff - ORDINARY_CONTOURS.json
+python3 mixed_shell.py | diff - SHELL.json
+```
+
+Both complete 143 coordinate controls verify the two ordered identities on their supported unit skeletons and the marked section conditions. They have no mixed gate instantiating the target-specific extremal hypotheses.
