@@ -2,6 +2,8 @@
 
 Both original F2 counts remain open. Work from main at `f74707ff02ea898036539c0d1b9d5fda3ad474fd`. The two banks of a cut consist of whole long edges after removal of actual half-turn mates. Their oriented sum is the [physical cut boundary](../joint-cell-tree/TREE.md). The conclusions below allow T-junctions, arbitrary reflections, heights and translates.
 
+The [positioned path enumeration](attached/README.md) extends the native result to longer opposite banks. The [integral transfer theorem](../gate-displacement/balanced-transfers/README.md) excludes the last charged minimum-bank middle profile at 3431.
+
 ## Exterior-free cut
 
 Suppose one bank of an occupied exterior-free branch has exactly two unmatched owners. Let n be the number of tiles in the entire branch and m the number of unmatched owners on both banks. If m−2<a, the following table lists all remaining pairs for the two boards. Entries are necessary; the enumeration tests word, area and simple-polygon constraints. It does not tile the interiors.

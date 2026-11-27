@@ -1,0 +1,45 @@
+{
+  "37": {
+    "initial_pairs": 918,
+    "after_first_tests": [],
+    "remaining": []
+  },
+  "43": {
+    "initial_pairs": 1566,
+    "after_first_tests": [
+      [
+        -25,
+        3,
+        17,
+        10
+      ],
+      [
+        -25,
+        3,
+        25,
+        -3
+      ],
+      [
+        -17,
+        -10,
+        25,
+        -3
+      ],
+      [
+        -12,
+        -2,
+        12,
+        2
+      ]
+    ],
+    "remaining": [
+      [
+        -25,
+        3,
+        25,
+        -3
+      ]
+    ],
+    "nonempty_bins_in_projected_witness": 40
+  }
+}

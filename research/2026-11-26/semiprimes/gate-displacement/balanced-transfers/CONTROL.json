@@ -1,0 +1,12 @@
+{
+  "known": {
+    "ordinary_gates": 10,
+    "nonzero_ordinary_vectors": 2,
+    "actual_pairs": 60
+  },
+  "macro": {
+    "ordinary_gates": 11,
+    "nonzero_ordinary_vectors": 2,
+    "actual_pairs": 60
+  }
+}

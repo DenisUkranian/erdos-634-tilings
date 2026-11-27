@@ -7,10 +7,12 @@ from functools import lru_cache
 def row(a, b, c, s, j, w):
     steps = []
     for ch in w:
-        k = 0 if ch == 'E' else 5 if ch == 'S' else j if ch == '+' else j + 3
-        if ch in 'ES':
+        if ch in 'ES012345':
+            k = int(ch) if ch.isdigit() else {'E': 0, 'S': 5}[ch]
             steps.append((k, c))
         else:
+            assert ch in '+-67'
+            k = j if ch in '+6' else j + 3
             steps.extend([(k % 6, a), ((k + s) % 6, b)])
     return steps
 

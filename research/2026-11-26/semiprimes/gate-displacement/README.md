@@ -13,6 +13,8 @@ Let C be the axial lift, B the middle lift and T the slant lift. Let R count the
 
 In particular N ≥ n_C + c(2R + 6F + 7) or n_C + c(2R + 6F + 8), respectively. At equality E(H)=6 the entire component is a three-vertex path with populations 5c, 2c, 5c. This last conclusion bounds the length even when no bound on the number of balanced intermediate lifts is assumed. Neutral edges and the physical tiles on them still exist.
 
+The [integral transfer and leaf degree theorem](balanced-transfers/README.md) subsequently excludes E(H)=6 at 3431 and gives the physical bank vectors, extra neighbors and unmatched-owner cost in the remaining 5063 equality case.
+
 ## Displacement at a single gate
 
 In a short-lift chart write U_j=ρʲ for the six unit directions, ρ=exp(iπ/3). A tile has obtuse vertex q, short endpoints u=q−aU_j, w=q+bU_(j+h), hand h=±1 and sign h(−1)ʲ. At any one incident gate put L=ΣU_j over its tiles, including paired tiles if desired. This is the physical bank displacement in its own long-edge mesh units up to an overall orientation sign. Define the hexagonal norm of (x,y) as max(|x|,|y|,|x+y|). Then
