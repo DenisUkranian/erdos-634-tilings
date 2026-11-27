@@ -1,0 +1,54 @@
+{
+  "mesh": {
+    "7": {
+      "vertices": 24,
+      "ambiguous_lower_rows": [],
+      "maximum_heading_span": 4,
+      "lcm_degree": 7
+    },
+    "37": {
+      "vertices": 291,
+      "ambiguous_lower_rows": [
+        0
+      ],
+      "maximum_heading_span": 33,
+      "lcm_degree": 39
+    },
+    "43": {
+      "vertices": 625,
+      "ambiguous_lower_rows": [
+        -2,
+        -1,
+        0,
+        1
+      ],
+      "maximum_heading_span": 41,
+      "lcm_degree": 47
+    }
+  },
+  "minimum_nonzero_middle_displacement_steps": {
+    "7": 3,
+    "37": 7,
+    "43": 7
+  },
+  "controls_143": {
+    "known": {
+      "unmatched": [
+        14,
+        7
+      ],
+      "canonical_whole_long_steps": 0,
+      "canonical_length": 8,
+      "tiles_entirely_in_cap": 43
+    },
+    "macro": {
+      "unmatched": [
+        14,
+        7
+      ],
+      "canonical_whole_long_steps": 0,
+      "canonical_length": 8,
+      "tiles_entirely_in_cap": 43
+    }
+  }
+}

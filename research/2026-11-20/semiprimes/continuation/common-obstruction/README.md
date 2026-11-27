@@ -9,6 +9,8 @@ new necessary theorems, exact conditional bounds, and geometric controls
 that rule out several proposed shortcuts. It contains no unrestricted
 impossibility certificate and no complete tiling of either target.
 
+The [native interface theorem](../../../../2026-11-26/semiprimes/charge-variation/CANONICAL_SEAM.md) determines the exact slant region when either middle bank cancels. Its opposite bank then has precisely the two canonical straight runs, with 40 or 48 unmatched owners. Without a cancellation assumption, each native middle bank whose signed current is nonzero modulo three requires at least seven unmatched owners.
+
 The [rooted population and native cancellation theorem](../../../../2026-11-26/semiprimes/charge-variation/ROOTED.md) bounds the absolute even-minus-odd imbalance by **14 and 18** on either native sector and **17 and 23** on any exterior-free branch. If a middle bank cancels as an oriented chain, the slant side of that cut contains exactly **1369 or 1849** tiles. Every occupied middle lift has a physically unmatched owner at a native gate. [Exact replay](../../../../2026-11-26/semiprimes/charge-variation/ROOTED.json).
 
 The [corrected even charge theorem](../../../../2026-11-26/semiprimes/charge-variation/EVEN_VARIATION.md) bounds total even variation by **38 and 58**. Every exterior-free lifted branch has absolute even-minus-odd signed imbalance at most **18 and 25** long-side blocks, respectively.
