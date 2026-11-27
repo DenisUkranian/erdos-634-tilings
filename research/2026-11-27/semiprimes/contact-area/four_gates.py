@@ -10,7 +10,7 @@ from nested import cut_rows
 from remote import inventories
 
 
-def solve(a, b, c, limit, unit):
+def solve(a, b, c, limit, unit, collect=False):
     d = a-b
     bound = limit//c
     # Each other native cut needs c, the pure descendant c+d, and the
@@ -39,6 +39,7 @@ def solve(a, b, c, limit, unit):
 
     best = limit+1
     witness = None
+    profiles = []
     for e,o in product(range(-bound,bound+1), repeat=2):
         if not e or not o or c*(abs(e)+abs(o)) > limit:
             continue
@@ -63,11 +64,25 @@ def solve(a, b, c, limit, unit):
                         shell[h] -= c*f
                         shell[1-h] -= d*f
                         charge_cost = native_cost+mixed+(c+d)*abs(f)+sum(map(abs,shell))
+                        if collect and charge_cost <= limit:
+                            for first, second in product(*native):
+                                p1,q1,E,O,m1 = first
+                                p2,q2,F,J,m2 = second
+                                residual = [-d-E-q1,-c-O,E-F,O-J-p1-q2,F-p2,J]
+                                residual[2*region] += external[0]
+                                residual[2*region+1] += external[1]
+                                total = charge_cost-native_cost+m1+m2+sum(map(abs,residual))
+                                if total <= limit:
+                                    profiles.append(dict(mixed=[e,o], far=far, trunk=region,
+                                                         deepest=[h,f], native=[first,second],
+                                                         residual=residual, shell=shell))
                         if charge_cost < best:
                             best = charge_cost
                             witness = dict(mixed_units=[e,o], far_parity=far, trunk=region,
                                            deepest_parity=h, deepest_units=f)
     assert witness is not None and best<=limit
+    if collect:
+        return profiles
     return dict(lower=best, minimizing_relaxed_profile=witness)
 
 
