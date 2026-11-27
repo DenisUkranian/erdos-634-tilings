@@ -9,6 +9,8 @@ new necessary theorems, exact conditional bounds, and geometric controls
 that rule out several proposed shortcuts. It contains no unrestricted
 impossibility certificate and no complete tiling of either target.
 
+The [two-owner boundary theorem](../../../../2026-11-26/semiprimes/terminal-contact/TWO_OWNER.md) gives a complete short-word restriction when one exterior-free bank has two unmatched owners. If both native middle banks have two owners and their opposite banks have minimum length, the middle region has 4–12 or 4–8 blocks, respectively, in even steps. At 5063 all lifts there must be balanced. At 3431 a charged middle region requires exactly 12 blocks and three specified lift populations.
+
 The [exterior-free contact reserve](../../../../2026-11-26/semiprimes/terminal-contact/REMOTE_BOUNDARY.md) charges at least 16 unmatched owners per occupied neutral branch plus two per such branch with occupied descendants, in addition to the signed exterior budget. It covers nested branches. The [one-bank area congruence](../../../../2026-11-26/semiprimes/charge-variation/AREA_RESIDUE.md) recovers the slant-side tile count modulo 2c² from the separation of two unmatched middle owners when exactly two remain.
 
 The [native interface theorem](../../../../2026-11-26/semiprimes/charge-variation/CANONICAL_SEAM.md) determines the exact slant region when either middle bank cancels. Its opposite bank then has precisely the two canonical straight runs, with 40 or 48 unmatched owners. Without a cancellation assumption, each native middle bank whose signed current is nonzero modulo three requires at least seven unmatched owners.
