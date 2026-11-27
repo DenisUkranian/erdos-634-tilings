@@ -65,6 +65,8 @@
   },
   "direct_action_check": {
     "accepted": 228,
-    "area": 1050
+    "area": 1050,
+    "open_accepted": 219,
+    "open_area": 672
   }
 }

@@ -22,7 +22,9 @@ void merge(Profile& dst,const Profile& left,const Profile& right,int slope,int a
 }
 
 int main(int argc,char** argv) {
-    if (argc!=14) return 1;
+    if (argc!=14 && argc!=15) return 1;
+    int last=argc==15 ? std::atoi(argv[14]) : -1;
+    if(last< -1 || last>=6) return 1;
     int a=std::atoi(argv[1]),b=std::atoi(argv[2]),c=std::atoi(argv[3]),q=std::atoi(argv[4]);
     int r=q==a ? b : a;
     int generator=2;
@@ -112,5 +114,5 @@ int main(int argc,char** argv) {
             if(active==-1) neutral.push_back({i,x,y,power_mod(slope,field-2),packed});
         }
     }
-    std::cout<<(ids.back()<0 ? absent : profiles[ids.back()][0])<<"\n";
+    std::cout<<(ids.back()<0 ? absent : profiles[ids.back()][last<0 ? 0 : intercepts[last]])<<"\n";
 }

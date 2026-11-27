@@ -2,6 +2,8 @@
 
 Both original triangle counts are open. We work in the standard vertex-phase frame on the positioned tree. Let a complete F2 tiling have an exterior-free tree edge, and let its far union contain `n` tiles. Its gate has `m` unmatched whole long-side owners. The argument uses the physical gate even when the far union has several short lifts. There is no two-height hypothesis.
 
+For [every subset of positioned lifts](ALL_CUTS.md), the area on each side of its cut gives a lower bound on the number of actual unmatched gate owners after accounting for the assigned exterior walls. The proof covers disconnected physical regions inside the original triangle. At 5063 a [unit-charge branch containing at least half the board](ONE_DEFECT.md) costs at least **69** owners; a unit-charge branch with both signed parity totals nonzero costs at least **73** at any area.
+
 A [gate carrying one unit of alternating charge with the minimum number of owners](SATURATION.md) encloses at most **2849** tiles at 3431 and **2107** at 5063, at any total unmatched population. The geometry of the original triangle enters the former bound. Simultaneous projected word constraints give the latter.
 
 The [charged equality theorem](../remote-sections/CHARGED_EQUALITY.md) puts the entire odd charge at the native middle lift if the whole board has at most 149 unmatched tiles at 3431, or 171 at 5063. In these windows we obtain the following bounds on distinct tiles whose short lifts lie outside the exterior path.

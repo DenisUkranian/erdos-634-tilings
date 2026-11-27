@@ -44,7 +44,7 @@ def inventories(a,b,c):
             else:
                 yield inv
 
-def maximum(a,b,c,inv,order):
+def maximum(a,b,c,inv,order,last=None):
     moves,syllables=letters(a,b,c,order)
     by_axis=[[i for i,(f,_) in enumerate(syllables) if f==k] for k in range(3)]
     pairs=[]
@@ -111,7 +111,7 @@ def maximum(a,b,c,inv,order):
     @lru_cache(None)
     def factor(t,k):
         return id_score(t) if t in neutral else solve(t,k)
-    return id_score(inv)
+    return id_score(inv) if last is None else factor(inv,syllables[last][0])
 
 def run():
     out={}

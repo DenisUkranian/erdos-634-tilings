@@ -1,0 +1,1291 @@
+{
+  "3431": {
+    "physical_cap": "641547877/217667",
+    "prefix_count": 54,
+    "maximum": 2923,
+    "profiles": [
+      {
+        "exception_axis": 0,
+        "prefix": [
+          2,
+          12,
+          12,
+          13,
+          2,
+          23
+        ],
+        "area_maxima": [
+          787545,
+          725977
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          3,
+          23,
+          1,
+          12,
+          12,
+          13
+        ],
+        "area_maxima": [
+          789987,
+          749287
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          6,
+          16,
+          5,
+          16,
+          5,
+          16
+        ],
+        "area_maxima": [
+          877899,
+          835793
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          13,
+          13,
+          2,
+          23,
+          1,
+          12
+        ],
+        "area_maxima": [
+          763125,
+          732193
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          0,
+          26,
+          4,
+          1,
+          23,
+          10
+        ],
+        "area_maxima": [
+          553113,
+          535353
+        ],
+        "cap": 2257
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          2,
+          8,
+          19,
+          6,
+          6,
+          23
+        ],
+        "area_maxima": [
+          736263,
+          715099
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          3,
+          19,
+          8,
+          5,
+          16,
+          13
+        ],
+        "area_maxima": [
+          836385,
+          793835
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          6,
+          12,
+          12,
+          9,
+          9,
+          16
+        ],
+        "area_maxima": [
+          924297,
+          885003
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          7,
+          23,
+          1,
+          8,
+          19,
+          6
+        ],
+        "area_maxima": [
+          731379,
+          726495
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          9,
+          5,
+          16,
+          13,
+          2,
+          19
+        ],
+        "area_maxima": [
+          816849,
+          757057
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          10,
+          16,
+          5,
+          12,
+          12,
+          9
+        ],
+        "area_maxima": [
+          916971,
+          853923
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          13,
+          9,
+          9,
+          16,
+          5,
+          12
+        ],
+        "area_maxima": [
+          907203,
+          871535
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          17,
+          13,
+          2,
+          19,
+          8,
+          5
+        ],
+        "area_maxima": [
+          802197,
+          753431
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          20,
+          6,
+          6,
+          23,
+          1,
+          8
+        ],
+        "area_maxima": [
+          694749,
+          686609
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          6,
+          8,
+          19,
+          2,
+          13,
+          16
+        ],
+        "area_maxima": [
+          833943,
+          795389
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          7,
+          19,
+          8,
+          1,
+          23,
+          6
+        ],
+        "area_maxima": [
+          738705,
+          727531
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          9,
+          1,
+          23,
+          6,
+          6,
+          19
+        ],
+        "area_maxima": [
+          726495,
+          704739
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          10,
+          12,
+          12,
+          5,
+          16,
+          9
+        ],
+        "area_maxima": [
+          924297,
+          852369
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          13,
+          5,
+          16,
+          9,
+          9,
+          12
+        ],
+        "area_maxima": [
+          914529,
+          854441
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          14,
+          16,
+          5,
+          8,
+          19,
+          2
+        ],
+        "area_maxima": [
+          819291,
+          794871
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          17,
+          9,
+          9,
+          12,
+          12,
+          5
+        ],
+        "area_maxima": [
+          907203,
+          829059
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          20,
+          2,
+          13,
+          16,
+          5,
+          8
+        ],
+        "area_maxima": [
+          799755,
+          770007
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          24,
+          6,
+          6,
+          19,
+          8,
+          1
+        ],
+        "area_maxima": [
+          694749,
+          676249
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          13,
+          1,
+          23,
+          2,
+          13,
+          12
+        ],
+        "area_maxima": [
+          785103,
+          734783
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          14,
+          12,
+          12,
+          1,
+          23,
+          2
+        ],
+        "area_maxima": [
+          787545,
+          775705
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          17,
+          5,
+          16,
+          5,
+          16,
+          5
+        ],
+        "area_maxima": [
+          875457,
+          815073
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          24,
+          2,
+          13,
+          12,
+          12,
+          1
+        ],
+        "area_maxima": [
+          760683,
+          697487
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          1,
+          13,
+          12,
+          13,
+          2,
+          23
+        ],
+        "area_maxima": [
+          785103,
+          734783
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          2,
+          24,
+          1,
+          12,
+          12,
+          13
+        ],
+        "area_maxima": [
+          760683,
+          697487
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          5,
+          17,
+          5,
+          16,
+          5,
+          16
+        ],
+        "area_maxima": [
+          875457,
+          815073
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          12,
+          14,
+          2,
+          23,
+          1,
+          12
+        ],
+        "area_maxima": [
+          787545,
+          775705
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          1,
+          9,
+          19,
+          6,
+          6,
+          23
+        ],
+        "area_maxima": [
+          726495,
+          704739
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          2,
+          20,
+          8,
+          5,
+          16,
+          13
+        ],
+        "area_maxima": [
+          799755,
+          770007
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          5,
+          13,
+          12,
+          9,
+          9,
+          16
+        ],
+        "area_maxima": [
+          914529,
+          854441
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          6,
+          24,
+          1,
+          8,
+          19,
+          6
+        ],
+        "area_maxima": [
+          694749,
+          676249
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          8,
+          6,
+          16,
+          13,
+          2,
+          19
+        ],
+        "area_maxima": [
+          833943,
+          795389
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          9,
+          17,
+          5,
+          12,
+          12,
+          9
+        ],
+        "area_maxima": [
+          907203,
+          829059
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          12,
+          10,
+          9,
+          16,
+          5,
+          12
+        ],
+        "area_maxima": [
+          924297,
+          852369
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          16,
+          14,
+          2,
+          19,
+          8,
+          5
+        ],
+        "area_maxima": [
+          819291,
+          794871
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          19,
+          7,
+          6,
+          23,
+          1,
+          8
+        ],
+        "area_maxima": [
+          738705,
+          727531
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          5,
+          9,
+          19,
+          2,
+          13,
+          16
+        ],
+        "area_maxima": [
+          816849,
+          757057
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          6,
+          20,
+          8,
+          1,
+          23,
+          6
+        ],
+        "area_maxima": [
+          694749,
+          686609
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          8,
+          2,
+          23,
+          6,
+          6,
+          19
+        ],
+        "area_maxima": [
+          736263,
+          715099
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          9,
+          13,
+          12,
+          5,
+          16,
+          9
+        ],
+        "area_maxima": [
+          907203,
+          871535
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          12,
+          6,
+          16,
+          9,
+          9,
+          12
+        ],
+        "area_maxima": [
+          924297,
+          885003
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          13,
+          17,
+          5,
+          8,
+          19,
+          2
+        ],
+        "area_maxima": [
+          802197,
+          753431
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          16,
+          10,
+          9,
+          12,
+          12,
+          5
+        ],
+        "area_maxima": [
+          916971,
+          853923
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          19,
+          3,
+          13,
+          16,
+          5,
+          8
+        ],
+        "area_maxima": [
+          836385,
+          793835
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          23,
+          7,
+          6,
+          19,
+          8,
+          1
+        ],
+        "area_maxima": [
+          731379,
+          726495
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          26,
+          0,
+          10,
+          23,
+          1,
+          4
+        ],
+        "area_maxima": [
+          553113,
+          535353
+        ],
+        "cap": 2257
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          12,
+          2,
+          23,
+          2,
+          13,
+          12
+        ],
+        "area_maxima": [
+          787545,
+          725977
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          13,
+          13,
+          12,
+          1,
+          23,
+          2
+        ],
+        "area_maxima": [
+          763125,
+          732193
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          16,
+          6,
+          16,
+          5,
+          16,
+          5
+        ],
+        "area_maxima": [
+          877899,
+          835793
+        ],
+        "cap": 2923
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          23,
+          3,
+          13,
+          12,
+          12,
+          1
+        ],
+        "area_maxima": [
+          789987,
+          749287
+        ],
+        "cap": 2923
+      }
+    ]
+  },
+  "5063": {
+    "physical_cap": "167278881/51847",
+    "prefix_count": 24,
+    "maximum": 2451,
+    "profiles": [
+      {
+        "exception_axis": 0,
+        "prefix": [
+          3,
+          9,
+          16,
+          11,
+          4,
+          23
+        ],
+        "area_maxima": [
+          1133265,
+          917319
+        ],
+        "cap": 1935
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          4,
+          16,
+          9,
+          10,
+          10,
+          17
+        ],
+        "area_maxima": [
+          1280755,
+          1138683
+        ],
+        "cap": 2451
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          5,
+          23,
+          2,
+          9,
+          16,
+          11
+        ],
+        "area_maxima": [
+          1139285,
+          963157
+        ],
+        "cap": 2107
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          10,
+          10,
+          10,
+          17,
+          3,
+          16
+        ],
+        "area_maxima": [
+          1259685,
+          1162161
+        ],
+        "quotient": {
+          "field": 11,
+          "params": [
+            2,
+            1,
+            2
+          ],
+          "upper": 1118559
+        },
+        "cap": 2451
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          11,
+          17,
+          3,
+          16,
+          9,
+          10
+        ],
+        "area_maxima": [
+          1262695,
+          1169987
+        ],
+        "quotient": {
+          "field": 11,
+          "params": [
+            1,
+            1,
+            0
+          ],
+          "upper": 1098435
+        },
+        "cap": 2365
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          17,
+          11,
+          4,
+          23,
+          2,
+          9
+        ],
+        "area_maxima": [
+          1097145,
+          897195
+        ],
+        "cap": 1935
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          10,
+          2,
+          23,
+          4,
+          11,
+          16
+        ],
+        "area_maxima": [
+          1130255,
+          937443
+        ],
+        "cap": 2021
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          11,
+          9,
+          16,
+          3,
+          17,
+          10
+        ],
+        "area_maxima": [
+          1277745,
+          1161043
+        ],
+        "quotient": {
+          "field": 11,
+          "params": [
+            1,
+            1,
+            0
+          ],
+          "upper": 1114087
+        },
+        "cap": 2365
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          12,
+          16,
+          9,
+          2,
+          23,
+          4
+        ],
+        "area_maxima": [
+          1136275,
+          1005641
+        ],
+        "cap": 2193
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          17,
+          3,
+          17,
+          10,
+          10,
+          9
+        ],
+        "area_maxima": [
+          1256675,
+          1111851
+        ],
+        "cap": 2365
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          18,
+          10,
+          10,
+          9,
+          16,
+          3
+        ],
+        "area_maxima": [
+          1259685,
+          1121913
+        ],
+        "cap": 2451
+      },
+      {
+        "exception_axis": 0,
+        "prefix": [
+          24,
+          4,
+          11,
+          16,
+          9,
+          2
+        ],
+        "area_maxima": [
+          1094135,
+          950859
+        ],
+        "cap": 2021
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          2,
+          10,
+          16,
+          11,
+          4,
+          23
+        ],
+        "area_maxima": [
+          1130255,
+          937443
+        ],
+        "cap": 2021
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          3,
+          17,
+          9,
+          10,
+          10,
+          17
+        ],
+        "area_maxima": [
+          1256675,
+          1111851
+        ],
+        "cap": 2365
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          4,
+          24,
+          2,
+          9,
+          16,
+          11
+        ],
+        "area_maxima": [
+          1094135,
+          950859
+        ],
+        "cap": 2021
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          9,
+          11,
+          10,
+          17,
+          3,
+          16
+        ],
+        "area_maxima": [
+          1277745,
+          1161043
+        ],
+        "cap": 2365
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          10,
+          18,
+          3,
+          16,
+          9,
+          10
+        ],
+        "area_maxima": [
+          1259685,
+          1121913
+        ],
+        "cap": 2451
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          16,
+          12,
+          4,
+          23,
+          2,
+          9
+        ],
+        "area_maxima": [
+          1136275,
+          1005641
+        ],
+        "cap": 2193
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          9,
+          3,
+          23,
+          4,
+          11,
+          16
+        ],
+        "area_maxima": [
+          1133265,
+          917319
+        ],
+        "cap": 1935
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          10,
+          10,
+          16,
+          3,
+          17,
+          10
+        ],
+        "area_maxima": [
+          1259685,
+          1162161
+        ],
+        "cap": 2451
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          11,
+          17,
+          9,
+          2,
+          23,
+          4
+        ],
+        "area_maxima": [
+          1097145,
+          897195
+        ],
+        "cap": 1935
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          16,
+          4,
+          17,
+          10,
+          10,
+          9
+        ],
+        "area_maxima": [
+          1280755,
+          1138683
+        ],
+        "cap": 2451
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          17,
+          11,
+          10,
+          9,
+          16,
+          3
+        ],
+        "area_maxima": [
+          1262695,
+          1169987
+        ],
+        "cap": 2365
+      },
+      {
+        "exception_axis": 1,
+        "prefix": [
+          23,
+          5,
+          11,
+          16,
+          9,
+          2
+        ],
+        "area_maxima": [
+          1139285,
+          963157
+        ],
+        "cap": 2107
+      }
+    ]
+  }
+}

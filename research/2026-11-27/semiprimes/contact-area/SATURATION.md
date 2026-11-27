@@ -7,7 +7,7 @@ Let $E,O$ be the signed even and odd short populations on the far side of an ext
 | 3431 | 63 | 37 or 111 | **2849** | **582** |
 | 5063 | 65 | 43 | **2107** | **2956** |
 
-In particular at 5063 one of the two signed parity totals is zero. If a branch with $|E-O|=c$ contains more than the specified far population it costs at least 65 owners at 3431, or 67 at 5063. The alternating character is a sum of unit signs, so the next possible cost is two higher. At 5063 this applies in particular to a branch containing half the board or more.
+In particular at 5063 one of the two signed parity totals is zero. The [one-defect theorem](ONE_DEFECT.md) also bounds the next allowed gate length. If a branch with $|E-O|=c$ contains more than the specified far population it costs at least 65 owners at 3431, or 67 at 5063. The alternating character is a sum of unit signs, so the next possible cost is two higher. At 5063 this applies in particular to a branch containing half the board or more.
 
 ## The outer triangle limits the area behind a contact
 
@@ -15,7 +15,7 @@ This geometric bound applies to any connected polygonal tile union with boundary
 $$
  n\le N-\frac{(N-P)^2}{N-\pi\sqrt3\,ab}.
 $$
-For a single gate circuit use $P=cm$. A disconnected cut can instead be bounded one positive Jordan circuit at a time.
+For a single gate circuit use $P=cm$. The [convex replacement argument](ALL_CUTS.md) extends the same bound to disconnected cuts at their total exposed perimeter.
 
 To prove the bound, take the convex hull $K$ of the connected region. Its perimeter is at most the total boundary length. For a single circuit this follows by traversing its extremal vertices in cyclic order and shortening each arc to its chord. More generally the projected boundary variation is at least twice the projection width because the connected set projects to an interval and almost every interior level crosses its boundary at least twice. Integrating over directions gives the same perimeter bound by the polygonal Cauchy projection formula.
 

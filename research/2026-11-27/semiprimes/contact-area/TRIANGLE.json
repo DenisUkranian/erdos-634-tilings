@@ -2,6 +2,12 @@
   "controls": {
     "known": {
       "checked": 93,
+      "disconnected_count": 47,
+      "disconnected_example": {
+        "tiles": 136,
+        "perimeter": "142",
+        "upper": "176013/1231"
+      },
       "tightest": {
         "tiles": 141,
         "perimeter": "135",
@@ -10,6 +16,12 @@
     },
     "macro": {
       "checked": 96,
+      "disconnected_count": 49,
+      "disconnected_example": {
+        "tiles": 136,
+        "perimeter": "142",
+        "upper": "176013/1231"
+      },
       "tightest": {
         "tiles": 141,
         "perimeter": "135",

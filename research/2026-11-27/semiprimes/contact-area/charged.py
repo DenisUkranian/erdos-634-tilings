@@ -37,21 +37,26 @@ def review_field(binary):
         center=(0,1,2)[f]
         perm[j]=[(center+pow(g,e%a,p)*(x-center))%p for x in range(p)]
     scores=[]
+    scores_with_target=[]
     for positions in combinations(range(15),5):
         word=[3]*15
         for j in positions: word[j]=0
         z=0
         for j in reversed(word): z=perm[j][z]
-        if z: continue
         x=y=area=0
         for j in word:
             u,w=moves[j]
             area+=x*w-y*u
             x,y=x+u,y+w
-        scores.append(area)
+        if z==0: scores.append(area)
+        if z==perm[0][0]: scores_with_target.append(area)
     result=evaluate(binary,a,b,c,b,*v,1,1,2)
     assert 0<len(scores)<3003 and result==max(scores)
-    return dict(accepted=len(scores),area=result)
+    open_result=evaluate(binary,a,b,c,b,*v,1,1,2,0)
+    assert perm[0][0]!=0 and 0<len(scores_with_target)<3003
+    assert open_result==max(scores_with_target)
+    return dict(accepted=len(scores),area=result,open_accepted=len(scores_with_target),
+                open_area=open_result)
 
 def run(tmp):
     scalar=compile_at(tmp,'scalar','inventory.cpp')
