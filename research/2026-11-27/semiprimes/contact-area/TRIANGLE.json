@@ -1,0 +1,32 @@
+{
+  "controls": {
+    "known": {
+      "checked": 93,
+      "tightest": {
+        "tiles": 141,
+        "perimeter": "135",
+        "upper": "174753/1231"
+      }
+    },
+    "macro": {
+      "checked": 96,
+      "tightest": {
+        "tiles": 141,
+        "perimeter": "135",
+        "upper": "174753/1231"
+      }
+    }
+  },
+  "saturated": {
+    "3431": {
+      "perimeter": 2331,
+      "upper": "625815477/217667",
+      "odd_cap": 2849
+    },
+    "5063": {
+      "perimeter": 2795,
+      "upper": "159624881/51847",
+      "odd_cap": 3053
+    }
+  }
+}

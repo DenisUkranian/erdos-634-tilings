@@ -1,0 +1,122 @@
+{
+  "37": {
+    "cuts": {
+      "16": {
+        "determinant_sum": 119880,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 3,
+        "population_cap": 74
+      },
+      "18": {
+        "determinant_sum": 153180,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 2,
+        "population_cap": 296
+      },
+      "20": {
+        "determinant_sum": 188256,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 3,
+        "population_cap": 370
+      },
+      "22": {
+        "determinant_sum": 227920,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 6,
+        "population_cap": 444
+      },
+      "24": {
+        "determinant_sum": 273504,
+        "equality_word_rejected": true,
+        "maximizing_inventories": 1,
+        "population_cap": 518
+      },
+      "26": {
+        "determinant_sum": 319088,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 6,
+        "population_cap": 666
+      },
+      "28": {
+        "determinant_sum": 370592,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 3,
+        "population_cap": 740
+      },
+      "30": {
+        "determinant_sum": 426684,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 2,
+        "population_cap": 888
+      },
+      "32": {
+        "determinant_sum": 484552,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 3,
+        "population_cap": 1036
+      },
+      "34": {
+        "determinant_sum": 547008,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 6,
+        "population_cap": 1184
+      },
+      "36": {
+        "determinant_sum": 615384,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 1,
+        "population_cap": 1332
+      },
+      "38": {
+        "determinant_sum": 683760,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 6,
+        "population_cap": 1480
+      },
+      "40": {
+        "determinant_sum": 759314,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 3,
+        "population_cap": 1628
+      },
+      "42": {
+        "determinant_sum": 836940,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 2,
+        "population_cap": 1776
+      }
+    },
+    "one": 1776,
+    "two_disjoint": 814
+  },
+  "43": {
+    "cuts": {
+      "16": {
+        "determinant_sum": 164776,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 3,
+        "population_cap": 86
+      },
+      "18": {
+        "determinant_sum": 210012,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 2,
+        "population_cap": 172
+      },
+      "20": {
+        "determinant_sum": 258688,
+        "equality_word_rejected": false,
+        "maximizing_inventories": 3,
+        "population_cap": 258
+      },
+      "22": {
+        "determinant_sum": 313040,
+        "equality_word_rejected": true,
+        "maximizing_inventories": 6,
+        "population_cap": 258
+      }
+    },
+    "one": 258,
+    "two_disjoint": null
+  }
+}

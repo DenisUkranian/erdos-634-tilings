@@ -1,0 +1,73 @@
+{
+  "controls": {
+    "known": [
+      {
+        "tiles": 105,
+        "owners": 16,
+        "twice_doubled_area": "3150",
+        "zonotope_area": "8575",
+        "supported_word_lengths": {
+          "5": [
+            17
+          ],
+          "3": [
+            17
+          ]
+        }
+      },
+      {
+        "tiles": 0,
+        "owners": 7,
+        "twice_doubled_area": "0",
+        "zonotope_area": "0",
+        "supported_word_lengths": {
+          "5": [
+            8
+          ],
+          "3": [
+            8
+          ]
+        }
+      }
+    ],
+    "macro": [
+      {
+        "tiles": 91,
+        "owners": 16,
+        "twice_doubled_area": "2730",
+        "zonotope_area": "8575",
+        "supported_word_lengths": {
+          "5": [
+            17
+          ],
+          "3": [
+            17
+          ]
+        }
+      },
+      {
+        "tiles": 0,
+        "owners": 7,
+        "twice_doubled_area": "0",
+        "zonotope_area": "0",
+        "supported_word_lengths": {
+          "5": [
+            8
+          ],
+          "3": [
+            8
+          ]
+        }
+      }
+    ]
+  },
+  "extremal_syllables": {
+    "3431": {
+      "(22, 22, 22)": 1
+    },
+    "5063": {
+      "(7, 7, 34)": 3,
+      "(7, 7, 29)": 3
+    }
+  }
+}

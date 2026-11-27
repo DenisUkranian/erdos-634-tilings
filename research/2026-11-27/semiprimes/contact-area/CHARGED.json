@@ -1,0 +1,70 @@
+{
+  "37": {
+    "affine_field": 67,
+    "parameters": [
+      4,
+      3,
+      2
+    ],
+    "inventory": [
+      5,
+      12,
+      12,
+      9,
+      9,
+      16
+    ],
+    "mirrored": [
+      9,
+      12,
+      12,
+      5,
+      16,
+      9
+    ],
+    "joint_area_upper": 760683,
+    "corrected_cap": 3293,
+    "by_low": {
+      "15": 3219,
+      "26": 3293,
+      "37": 3293,
+      "48": 3219
+    },
+    "maximum": 3293
+  },
+  "43": {
+    "affine_field": 11,
+    "parameters": [
+      1,
+      1,
+      0
+    ],
+    "inventory": [
+      3,
+      16,
+      9,
+      10,
+      10,
+      17
+    ],
+    "mirrored": [
+      10,
+      9,
+      16,
+      3,
+      17,
+      10
+    ],
+    "joint_area_upper": 981045,
+    "corrected_cap": 2107,
+    "by_low": {
+      "22": 2107,
+      "43": 2107
+    },
+    "maximum": 2107
+  },
+  "direct_action_check": {
+    "accepted": 228,
+    "area": 1050
+  }
+}
