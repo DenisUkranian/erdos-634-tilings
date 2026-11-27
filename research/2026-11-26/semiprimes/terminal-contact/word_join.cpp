@@ -28,7 +28,7 @@ Move moves[2][12];
 struct Item {U64 key, word;};
 std::vector<Item> left;
 std::vector<U64> bloom;
-std::array<U64,3> matches{};
+std::array<U64,4> matches{};
 U64 lookup[2][3][50][50];
 int positive_mod(int x,int m){int v=x%m;return v<0?v+m:v;}
 U64 potential(int j,Point p){
@@ -46,7 +46,7 @@ U64 increment(const Move &m,Point p,Point q){
 void walk(bool back,int length,Point p,U64 key,U64 code,int last){
     if(length==r){
         if(!back){left.push_back({key,code});return;}
-        for(unsigned k=1;k<matches.size();++k){
+        for(unsigned k=1;k<(r==8 ? matches.size() : 3);++k){
             U64 wanted=key+area_weight*U64(2*a*b*k);
             U64 bucket=mix(wanted);
             if(!(bloom[(bucket>>6)%bloom.size()] & (U64(1)<<(bucket&63))))continue;
