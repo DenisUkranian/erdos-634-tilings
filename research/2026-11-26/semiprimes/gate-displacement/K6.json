@@ -1,0 +1,41 @@
+{
+  "profile_count": 2,
+  "projection_numerators": [
+    118773,
+    118026,
+    321604
+  ],
+  "common_denominator": 10000,
+  "integer_displacement_pairs": [
+    [
+      [
+        -7,
+        3
+      ],
+      [
+        47,
+        -11
+      ]
+    ],
+    [
+      [
+        3,
+        4
+      ],
+      [
+        36,
+        -10
+      ]
+    ],
+    [
+      [
+        4,
+        -7
+      ],
+      [
+        37,
+        0
+      ]
+    ]
+  ]
+}

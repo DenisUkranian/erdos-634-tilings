@@ -9,6 +9,8 @@ new necessary theorems, exact conditional bounds, and geometric controls
 that rule out several proposed shortcuts. It contains no unrestricted
 impossibility certificate and no complete tiling of either target.
 
+The [gate displacement and detached-component theorem](../../../../2026-11-26/semiprimes/gate-displacement/README.md) excludes the six-block source budget at 3431 for every axial population. Beyond two blocks per occupied ordinary lift, the two boards need at least 7 or 8 source blocks, plus at least six more per detached component carrying signed current. Each such component independently costs at least 126 or 130 unmatched owners on its internal contacts.
+
 The [two-owner boundary theorem](../../../../2026-11-26/semiprimes/terminal-contact/TWO_OWNER.md) gives a complete short-word restriction when one exterior-free bank has two unmatched owners. If both native middle banks have two owners and their opposite banks have minimum length, the middle region has 4–12 or 4–8 blocks, respectively, in even steps. At 5063 all lifts there must be balanced. At 3431 a charged middle region requires exactly 12 blocks and three specified lift populations.
 
 The [exterior-free contact reserve](../../../../2026-11-26/semiprimes/terminal-contact/REMOTE_BOUNDARY.md) charges at least 16 unmatched owners per occupied neutral branch plus two per such branch with occupied descendants, in addition to the signed exterior budget. It covers nested branches. The [one-bank area congruence](../../../../2026-11-26/semiprimes/charge-variation/AREA_RESIDUE.md) recovers the slant-side tile count modulo 2c² from the separation of two unmatched middle owners when exactly two remain.

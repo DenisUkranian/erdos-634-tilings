@@ -1,0 +1,111 @@
+{
+  "7": {
+    "maximum_column_score": 1
+  },
+  "37": {
+    "maximum_column_score": 1,
+    "central_two_block_gate_offsets": [
+      3,
+      4,
+      30
+    ],
+    "residual_two_gate_headings": {
+      "3": [
+        2,
+        5
+      ],
+      "4": [
+        0,
+        3
+      ],
+      "30": [
+        1,
+        4
+      ]
+    },
+    "zero_current_minimum_core": [
+      [
+        14,
+        10,
+        -11
+      ],
+      [
+        14,
+        11,
+        -1
+      ]
+    ],
+    "zero_current_two_block_slant": [
+      [
+        14,
+        10,
+        1
+      ],
+      [
+        14,
+        11,
+        -10
+      ]
+    ]
+  },
+  "43": {
+    "maximum_column_score": 1,
+    "central_two_block_gate_offsets": [
+      5,
+      8,
+      30
+    ],
+    "residual_two_gate_headings": {
+      "5": [
+        2,
+        5
+      ],
+      "8": [
+        0,
+        3
+      ],
+      "30": [
+        1,
+        4
+      ]
+    },
+    "zero_current_minimum_core": [
+      [
+        14,
+        13,
+        -8
+      ]
+    ],
+    "zero_current_two_block_slant": [
+      [
+        14,
+        5,
+        8
+      ],
+      [
+        14,
+        8,
+        -13
+      ],
+      [
+        14,
+        13,
+        -5
+      ]
+    ]
+  },
+  "full_143_controls": {
+    "known": {
+      "gates": 18,
+      "nonzero": 3,
+      "core_tiles": 100,
+      "unmatched": 23
+    },
+    "macro": {
+      "gates": 24,
+      "nonzero": 3,
+      "core_tiles": 133,
+      "unmatched": 23
+    }
+  }
+}
