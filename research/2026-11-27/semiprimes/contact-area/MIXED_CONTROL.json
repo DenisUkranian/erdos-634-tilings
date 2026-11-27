@@ -1,0 +1,10 @@
+{
+  "known": {
+    "subsets": 8,
+    "mixed_tests": 30
+  },
+  "macro": {
+    "subsets": 8,
+    "mixed_tests": 30
+  }
+}

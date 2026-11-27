@@ -1,0 +1,894 @@
+{
+  "maximum": {
+    "63": 2627,
+    "65": 2775
+  },
+  "cases": [
+    {
+      "owners": 63,
+      "counts": [
+        1,
+        12,
+        12,
+        13,
+        2,
+        23
+      ],
+      "exception": null,
+      "cap": 2627
+    },
+    {
+      "owners": 63,
+      "counts": [
+        5,
+        16,
+        5,
+        16,
+        5,
+        16
+      ],
+      "exception": null,
+      "cap": 2627
+    },
+    {
+      "owners": 63,
+      "counts": [
+        1,
+        8,
+        19,
+        6,
+        6,
+        23
+      ],
+      "exception": null,
+      "cap": 2627
+    },
+    {
+      "owners": 63,
+      "counts": [
+        2,
+        19,
+        8,
+        5,
+        16,
+        13
+      ],
+      "exception": null,
+      "cap": 2627
+    },
+    {
+      "owners": 63,
+      "counts": [
+        5,
+        12,
+        12,
+        9,
+        9,
+        16
+      ],
+      "exception": null,
+      "cap": 2627
+    },
+    {
+      "owners": 63,
+      "counts": [
+        5,
+        8,
+        19,
+        2,
+        13,
+        16
+      ],
+      "exception": null,
+      "cap": 2627
+    },
+    {
+      "owners": 63,
+      "counts": [
+        6,
+        19,
+        8,
+        1,
+        23,
+        6
+      ],
+      "exception": null,
+      "cap": 2627
+    },
+    {
+      "owners": 63,
+      "counts": [
+        9,
+        12,
+        12,
+        5,
+        16,
+        9
+      ],
+      "exception": null,
+      "cap": 2627
+    },
+    {
+      "owners": 63,
+      "counts": [
+        12,
+        1,
+        23,
+        2,
+        13,
+        12
+      ],
+      "exception": null,
+      "cap": 2627
+    },
+    {
+      "owners": 63,
+      "counts": [
+        16,
+        5,
+        16,
+        5,
+        16,
+        5
+      ],
+      "exception": null,
+      "cap": 2627
+    },
+    {
+      "owners": 65,
+      "counts": [
+        2,
+        12,
+        12,
+        13,
+        2,
+        23,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        3,
+        23,
+        1,
+        12,
+        12,
+        13,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        6,
+        16,
+        5,
+        16,
+        5,
+        16,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        13,
+        13,
+        2,
+        23,
+        1,
+        12,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        0,
+        26,
+        4,
+        1,
+        23,
+        10,
+        1
+      ],
+      "exception": 0,
+      "cap": 2257
+    },
+    {
+      "owners": 65,
+      "counts": [
+        2,
+        8,
+        19,
+        6,
+        6,
+        23,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        3,
+        19,
+        8,
+        5,
+        16,
+        13,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        6,
+        12,
+        12,
+        9,
+        9,
+        16,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        7,
+        23,
+        1,
+        8,
+        19,
+        6,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        9,
+        5,
+        16,
+        13,
+        2,
+        19,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        10,
+        16,
+        5,
+        12,
+        12,
+        9,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        13,
+        9,
+        9,
+        16,
+        5,
+        12,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        17,
+        13,
+        2,
+        19,
+        8,
+        5,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        20,
+        6,
+        6,
+        23,
+        1,
+        8,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        6,
+        8,
+        19,
+        2,
+        13,
+        16,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        7,
+        19,
+        8,
+        1,
+        23,
+        6,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        9,
+        1,
+        23,
+        6,
+        6,
+        19,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        10,
+        12,
+        12,
+        5,
+        16,
+        9,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        13,
+        5,
+        16,
+        9,
+        9,
+        12,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        14,
+        16,
+        5,
+        8,
+        19,
+        2,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        17,
+        9,
+        9,
+        12,
+        12,
+        5,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        20,
+        2,
+        13,
+        16,
+        5,
+        8,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        24,
+        6,
+        6,
+        19,
+        8,
+        1,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        13,
+        1,
+        23,
+        2,
+        13,
+        12,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        14,
+        12,
+        12,
+        1,
+        23,
+        2,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        17,
+        5,
+        16,
+        5,
+        16,
+        5,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        24,
+        2,
+        13,
+        12,
+        12,
+        1,
+        1
+      ],
+      "exception": 0,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        1,
+        13,
+        12,
+        13,
+        2,
+        23,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        2,
+        24,
+        1,
+        12,
+        12,
+        13,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        5,
+        17,
+        5,
+        16,
+        5,
+        16,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        12,
+        14,
+        2,
+        23,
+        1,
+        12,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        1,
+        9,
+        19,
+        6,
+        6,
+        23,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        2,
+        20,
+        8,
+        5,
+        16,
+        13,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        5,
+        13,
+        12,
+        9,
+        9,
+        16,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        6,
+        24,
+        1,
+        8,
+        19,
+        6,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        8,
+        6,
+        16,
+        13,
+        2,
+        19,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        9,
+        17,
+        5,
+        12,
+        12,
+        9,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        12,
+        10,
+        9,
+        16,
+        5,
+        12,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        16,
+        14,
+        2,
+        19,
+        8,
+        5,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        19,
+        7,
+        6,
+        23,
+        1,
+        8,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        5,
+        9,
+        19,
+        2,
+        13,
+        16,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        6,
+        20,
+        8,
+        1,
+        23,
+        6,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        8,
+        2,
+        23,
+        6,
+        6,
+        19,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        9,
+        13,
+        12,
+        5,
+        16,
+        9,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        12,
+        6,
+        16,
+        9,
+        9,
+        12,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        13,
+        17,
+        5,
+        8,
+        19,
+        2,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        16,
+        10,
+        9,
+        12,
+        12,
+        5,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        19,
+        3,
+        13,
+        16,
+        5,
+        8,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        23,
+        7,
+        6,
+        19,
+        8,
+        1,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        26,
+        0,
+        10,
+        23,
+        1,
+        4,
+        1
+      ],
+      "exception": 1,
+      "cap": 2257
+    },
+    {
+      "owners": 65,
+      "counts": [
+        12,
+        2,
+        23,
+        2,
+        13,
+        12,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        13,
+        13,
+        12,
+        1,
+        23,
+        2,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        16,
+        6,
+        16,
+        5,
+        16,
+        5,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    },
+    {
+      "owners": 65,
+      "counts": [
+        23,
+        3,
+        13,
+        12,
+        12,
+        1,
+        1
+      ],
+      "exception": 1,
+      "cap": 2775
+    }
+  ]
+}
