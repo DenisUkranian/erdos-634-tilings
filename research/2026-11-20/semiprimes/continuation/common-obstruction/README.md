@@ -9,6 +9,8 @@ new necessary theorems, exact conditional bounds, and geometric controls
 that rule out several proposed shortcuts. It contains no unrestricted
 impossibility certificate and no complete tiling of either target.
 
+The [pointwise exterior-free contact theorem](../../../../2026-11-27/semiprimes/remote-sections/README.md) proves that every sixteen-owner branch is terminal on both boards. A nonterminal branch with a two-owner bank costs at least 38 owners at 5063 and, when it encloses 148 tiles, at least 36 at 3431. The global bound sums the local contact and area costs over nested neutral edges in addition to the exterior signed reserve. Both targets remain open.
+
 The [integral transfer and physical degree theorem](../../../../2026-11-26/semiprimes/gate-displacement/balanced-transfers/README.md) raises the charged neutral-subtree floors to 518 and 688 tiles. At 3431 it excludes every balanced 74-tile lift with precisely the two signed currents ±26. At 5063 the 86-tile center with ±22 has a unique normalized vector pair; a 215-tile ordinary lift with only one signed gate of magnitude 43 needs at least three other physically active gates of that hand. The numbers of detached components are at most five and seven. Both original counts are open.
 
 The [positioned two-owner calculation](../../../../2026-11-26/semiprimes/terminal-contact/attached/README.md) treats opposite native banks within two steps of minimum on both boards and excludes, without a length cap, the entire 3431 case where both exceptional pairs are on the chord paths and both first headings satisfy j+s nonzero modulo three. Its line-section proof tests all 148 remaining choices of polygon and neighboring lattice.

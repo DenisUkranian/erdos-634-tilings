@@ -56,8 +56,9 @@ def multiply(p,q):
     return x*u-y*v,x*v+y*u+y*v
 
 
-def lattice(polygon,mesh,shift):
+def lattice(polygon,mesh,shift,sides=(a,b,c)):
     """Raster of legal corner sites, ordered by coordinates in the owner's mesh."""
+    a,b,c = sides
     conjugate = mesh[0]+mesh[1],-mesh[1]
     corners = np.array([multiply(conjugate,(x-shift,y)) for x,y in polygon])
     lower = np.min(corners,axis=0)//(c*c)-a-b-1
@@ -77,10 +78,11 @@ def lattice(polygon,mesh,shift):
     return inside,np.stack((x,y),axis=-1)
 
 
-def objects(polygon,mesh_hand,translate):
+def objects(polygon,mesh_hand,translate,sides=(a,b,c)):
     """Group whole pairs and allow only singles whose long endpoints reach the other lift."""
+    a,b,c = sides
     mesh = (c,0) if not mesh_hand else ((a,b) if mesh_hand==1 else (a+b,-b))
-    inside,points = lattice(polygon,mesh,c*translate)
+    inside,points = lattice(polygon,mesh,c*translate,sides)
     i,k = np.nonzero(inside)
     q = points[i,k]
     groups = defaultdict(list)

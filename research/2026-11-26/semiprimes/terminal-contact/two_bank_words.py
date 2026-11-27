@@ -59,13 +59,15 @@ def evaluate(a,b,c,P,Q):
     return area//(a*b),len(word)
 
 
-def census(a,b,c):
+def census(a,b,c,record_word=None):
     t=b*pow(c,-1,a)%a
     assert 0<t<a/2 and (a-1-2*t)//2<b and a*pow(c,-1,b)%b==b-1
     rows=defaultdict(Counter)
     def record(P,Q):
         result=evaluate(a,b,c,P,Q)
         if result:
+            if record_word is not None:
+                record_word(result,P,Q)
             population,length=result
             rows[population][length]+=1
     for n in range(b,(a-1)//2+1,b):

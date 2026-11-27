@@ -27,10 +27,8 @@ def signature(word):
                for i,u in enumerate(word) if u<6 and word[i-1]>=6)
 
 
-def census(binary,a,b,c,r):
+def accepted_words(binary,a,b,c,r):
     run=subprocess.run([str(binary),*map(str,(a,b,c,r))],check=True,text=True,capture_output=True)
-    shapes=set()
-    counts=Counter()
     for line in run.stdout.splitlines():
         k,left,right=map(int,line.split())
         word=word_from_codes(left,right,r)
@@ -51,8 +49,15 @@ def census(binary,a,b,c,r):
         if 2*r<16:
             # n=2c implies a single occupied lift. Only then use the pair test.
             assert k==1 and width_obstruction(a,b,c,word)
+        yield k,signature(word)
+
+
+def census(binary,a,b,c,r):
+    shapes=set()
+    counts=Counter()
+    for k,word in accepted_words(binary,a,b,c,r):
         counts[k]+=1
-        shapes.add((k,signature(word)))
+        shapes.add((k,word))
     inventory=Counter((k,sum(t<6 for t in word)) for k,word in shapes)
     from nested_contacts import nested
     return dict(**({"nested_orientation_moment_width_counts":nested(shapes)} if c==37 and r==8 else {}),
