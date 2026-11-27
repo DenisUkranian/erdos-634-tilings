@@ -44,8 +44,14 @@ def inventories(a,b,c):
             else:
                 yield inv
 
-def maximum(a,b,c,inv,order,last=None):
+def maximum(a,b,c,inv,order,last=None,*,reverse_high=False):
     moves,syllables=letters(a,b,c,order)
+    if reverse_high:
+        # All high headings change sign for ordinary-character saturation.
+        for j in (1,3,5):
+            x,y=moves[j]
+            f,e=syllables[j]
+            moves[j],syllables[j]=(-x,-y),(f,-e)
     by_axis=[[i for i,(f,_) in enumerate(syllables) if f==k] for k in range(3)]
     pairs=[]
     for i,j in by_axis:

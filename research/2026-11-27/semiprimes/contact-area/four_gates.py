@@ -49,6 +49,9 @@ def solve(a, b, c, limit, unit, collect=False):
             same, other = (o,e) if far else (e,o)
             p, q = c*same-d*other, d*same-c*other
             mixed = abs(p)+abs(q)
+            if c==37 and e==o and abs(e)==1:
+                # The complete classification of the 22-owner mixed cut rules it out.
+                mixed=max(mixed,24)
             if abs(e-o)==1:
                 mixed = max(mixed, 73 if c==43 else (67 if abs(e+o)>=5 else 63))
             external = [-c*e, -c*o]
