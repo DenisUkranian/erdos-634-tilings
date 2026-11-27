@@ -9,7 +9,9 @@ new necessary theorems, exact conditional bounds, and geometric controls
 that rule out several proposed shortcuts. It contains no unrestricted
 impossibility certificate and no complete tiling of either target.
 
-At 3431 an exterior-free gate charged on both parities now requires **at least 24 owners**. The [22-owner exclusion](../../../../2026-11-27/semiprimes/contact-area/SHORT_MIXED.md) forces a single polygon on 296 tiles, determines all possible occupied lifts including a balanced descendant, and rules out every remaining translated mesh chain by exact sections. At 5063 a 42-owner mixed gate must enclose 344–688 tiles in steps of 86.
+The [ordinary-lift two-gate inequality](../../../../2026-11-27/semiprimes/contact-area/TWO_GATE_POPULATION.md) forces a third active gate at every charged three-block ordinary lift with one unit of signed charge. An exterior-free gate carrying both parity charges encloses at least **370 or 516 tiles** in board order. The [positioned mixed-endpoint theorem](../../../../2026-11-27/semiprimes/contact-area/MIXED_ENDPOINTS.md) then requires at least **175 or 215 actual unmatched owners** on the full board. The additive floors after reserving neutral gates remain 173 and 213.
+
+At 3431 an exterior-free gate charged on both parities now requires **at least 24 owners**. The [22-owner exclusion](../../../../2026-11-27/semiprimes/contact-area/SHORT_MIXED.md) forces a single polygon on 296 tiles, determines all possible occupied lifts including a balanced descendant, and rules out every remaining translated mesh chain by exact sections. At 5063 a 42-owner mixed gate must enclose 516, 602 or 688 tiles.
 
 At 5063 there are exactly [four necessary contour words](../../../../2026-11-27/semiprimes/contact-area/BRIDGE.md) up to symmetry at a 73-owner mixed unit gate enclosing half the board. All four fail containment in the physical axial region at the five-region equality. Such a branch needs at least **231 unmatched owners beyond neutral gates**.
 

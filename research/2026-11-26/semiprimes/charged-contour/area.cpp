@@ -27,10 +27,12 @@ struct State {
     vector<int> values, support;
 };
 
-int main() {
+int main(int argc,char** argv) {
+    int initial=argc==1 ? 7 : stoi(argv[1])+1;
+    assert(initial>=2);
     ios::sync_with_stdio(false);
     int n=read_int(), count=read_int();
-    assert(n>0 && count>=7);
+    assert(n>0 && count>=initial);
     vector<int> slots(n);
     for (int &x:slots) x=read_int();
     assert(is_sorted(slots.begin(),slots.end()));
@@ -56,7 +58,7 @@ int main() {
     for(int id=0;id<count;++id) {
         State &dst=states[id];
         offset[id]=read_int();
-        if(id<7) {
+        if(id<initial) {
             int size=read_int();
             dst.values.assign(n,absent);
             while(size--) {

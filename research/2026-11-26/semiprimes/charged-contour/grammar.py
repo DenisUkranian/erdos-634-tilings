@@ -10,29 +10,32 @@ def back(mask, shift):
 
 
 @lru_cache(maxsize=64)
-def program(profile, a, c, s, directions):
+def program(profile, a, c, s, directions, axes=None):
     """Each entry lists pairs of previous entries whose paths may be concatenated."""
-    axes = [(j if i < 3 else j+s) % 3 for i,j in enumerate(HEADINGS)]
-    factors = [[i for i in range(6) if axes[i]==k] for k in range(3)]
+    if axes is None:
+        axes = [(j if i < 3 else j+s) % 3 for i,j in enumerate(HEADINGS)]
+    atoms = len(profile)
+    factors = [[i for i in range(atoms) if axes[i]==k] for k in range(3)]
     coefficient = [(p[0] if k==0 else p[1]) % a for p,k in zip(directions,axes)]
     neutral, unrestricted = [], []
-    for i,j in factors:
-        options = list(product(range(profile[i]+1),range(profile[j]+1)))
+    for group in factors:
+        options = list(product(*(range(profile[i]+1) for i in group)))
         unrestricted.append(options)
-        neutral.append([(x,y) for x,y in options if (coefficient[i]*x+coefficient[j]*y)%a==0])
+        neutral.append([v for v in options if sum(coefficient[i]*n for i,n in zip(group,v))%a==0])
     # A value in factor k has zero abelian residue in the two other factors.
     states = {}
     for k in range(3):
         choices = neutral.copy()
         choices[k] = unrestricted[k]
         for pairs in product(*choices):
-            v = [0]*6
-            for (i,j),(x,y) in zip(factors,pairs):
-                v[i],v[j] = x,y
+            v = [0]*atoms
+            for group,counts in zip(factors,pairs):
+                for i,n in zip(group,counts):
+                    v[i] = n
             states.setdefault(tuple(v),[]).append(k)
 
-    zero = (0,)*6
-    lookup = {(zero,k):6 for k in range(3)}
+    zero = (0,)*atoms
+    lookup = {(zero,k):atoms for k in range(3)}
     neutral_ids = []
     displacements = list(directions)+[(0,0)]
     rules = []

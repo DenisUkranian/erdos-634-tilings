@@ -1,0 +1,134 @@
+{
+  "duals": {
+    "37": {
+      "tables": 37,
+      "charge_coefficient": [
+        10,
+        3
+      ],
+      "outside_penalty": 19,
+      "outside_at_three_blocks": 1
+    },
+    "43": {
+      "tables": 43,
+      "charge_coefficient": [
+        39,
+        10
+      ],
+      "outside_penalty": 29,
+      "outside_at_three_blocks": 2
+    }
+  },
+  "control143": {
+    "known": {
+      "subsets": 8,
+      "mixed_tests": 30
+    },
+    "macro": {
+      "subsets": 8,
+      "mixed_tests": 30
+    }
+  },
+  "37": {
+    "profile": {
+      "mixed": [
+        -1,
+        -1
+      ],
+      "far": 1,
+      "trunk": 0,
+      "deepest": [
+        0,
+        -1
+      ],
+      "native": [
+        [
+          -37,
+          0,
+          0,
+          0,
+          49
+        ],
+        [
+          0,
+          37,
+          0,
+          0,
+          37
+        ]
+      ],
+      "residual": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shell": [
+        0,
+        0
+      ]
+    },
+    "cases": 74,
+    "outcomes": {
+      "A": {
+        "empty": 18
+      },
+      "C": {
+        "empty": 1314
+      }
+    }
+  },
+  "43": {
+    "profile": {
+      "mixed": [
+        -1,
+        -1
+      ],
+      "far": 1,
+      "trunk": 0,
+      "deepest": [
+        0,
+        -1
+      ],
+      "native": [
+        [
+          -43,
+          0,
+          0,
+          0,
+          63
+        ],
+        [
+          0,
+          43,
+          0,
+          0,
+          43
+        ]
+      ],
+      "residual": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shell": [
+        0,
+        0
+      ]
+    },
+    "cases": 86,
+    "outcomes": {
+      "A": {
+        "empty": 7
+      },
+      "C": {
+        "empty": 595
+      }
+    }
+  }
+}

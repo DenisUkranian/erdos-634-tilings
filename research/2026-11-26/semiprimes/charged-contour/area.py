@@ -23,9 +23,9 @@ def positions(mask, ind):
     return np.flatnonzero(data[ind])
 
 
-def encode(rules, displacements, offsets, a, c):
+def encode(rules, displacements, offsets, a, c, atoms=6):
     records = []
-    for node,terms in enumerate(rules,7):
+    for node,terms in enumerate(rules,atoms+1):
         records.extend((offsets[node],len(terms)))
         for i,j in terms:
             cross = det(displacements[i],displacements[j])
@@ -36,11 +36,11 @@ def encode(rules, displacements, offsets, a, c):
 
 def evaluate(binary, bytecode, rules, shifts, edges, active):
     sites = indices(active)
-    header = [ints((len(sites),len(rules)+7)), ints(sites)]
+    header = [ints((len(sites),len(rules)+len(edges)+1)), ints(sites)]
     for shift,mask in zip((*shifts,0), [*restrict_edges(edges,shifts,active),active]):
         support = positions(mask,sites)
         header.extend([ints((shift,len(support))),ints(support)])
-    out = subprocess.run([binary],input=b''.join(header)+bytecode,stdout=subprocess.PIPE,check=True)
+    out = subprocess.run([binary] if len(edges)==6 else [binary,str(len(edges))],input=b''.join(header)+bytecode,stdout=subprocess.PIPE,check=True)
     values = np.frombuffer(out.stdout,dtype='<i4')
     assert len(values)==len(sites)
     return sites,values

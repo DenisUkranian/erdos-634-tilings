@@ -1,0 +1,15 @@
+{
+  "known": {
+    "ordinary_tiles": 105,
+    "ordinary_lifts": 1,
+    "endpoint_rows": 105,
+    "checked_pairs": 60
+  },
+  "macro": {
+    "ordinary_tiles": 91,
+    "ordinary_lifts": 1,
+    "endpoint_rows": 104,
+    "checked_pairs": 60
+  },
+  "oriented_mixed_templates": 48
+}

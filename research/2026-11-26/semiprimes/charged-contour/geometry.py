@@ -110,7 +110,7 @@ def exact_profiles(a, b, c, directions):
     return result
 
 
-def chart(a, b, c, l, word_id, s, t):
+def chart(a, b, c, l, word_id, s, t, *, reverse_parent=False, exceptional=None):
     """Supergraph of all possible positioned owners. A bit index encodes one lattice point."""
     segments, pi, xmin, ymin, stride, ymax = layout(a,b,c,l,word_id,s,t)
     # For an allowed segment both coordinates lie in this rectangular index range.
@@ -121,7 +121,14 @@ def chart(a, b, c, l, word_id, s, t):
     def pack(array):
         return int.from_bytes(np.packbits(array.ravel(),bitorder='little').tobytes(),'little')
     directions, shifts, edges = [], [], []
-    for _,q,w in shapes(a,b,c,s):
+    bank_shapes = shapes(a,b,c,s)
+    letters = list(range(6))
+    if exceptional is not None:
+        letters.append(exceptional)
+    for k,i in enumerate(letters):
+        _,q,w = bank_shapes[i]
+        if (reverse_parent and i>=3) != (k==6):
+            q,w=scale(-1,q),scale(-1,w)
         direction = exact_divide(w,c)
         u,v = exact_divide(multiply(conjugate(pi),direction),c)
         allowed = domain & inside(segments,c,c*x+q[0],c*y+q[1])
